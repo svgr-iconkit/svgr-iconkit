@@ -1,13 +1,13 @@
 {
   "name": "@svgr-iconkit/material-community",
   "version": "0.1.0",
-  "description": "FontAwesome SVGR iconset",
+  "description": "Material Community Icon SVGR iconset",
   "keywords": [
     "SVG",
     "Icons"
   ],
   "author": "leman <leman@lmswork.com>",
-  "homepage": "",
+  "homepage": "https://github.com/lemankk/svgr-iconkit",
   "license": "MIT",
   "main": "lib/umd/index.js",
   "module": "lib/es/index.js",

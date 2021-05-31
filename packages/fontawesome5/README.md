@@ -1,11 +1,14 @@
-# `@svgr-icons/fontawesome`
+# `@svgr-iconkit/fontawesome5`
 
 > TODO: description
 
 ## Usage
 
-```
-const fontawesome = require('@svgr-icons/fontawesome');
+```javascript
+import FARIcon from '@svgr-iconkit/fontawesome5';
 
-// TODO: DEMONSTRATE API
+export default function App() {
+  return <div><FARIcon name="arrow-left" /></div>
+}
+
 ```

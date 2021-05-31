@@ -7,7 +7,7 @@
     "Icons"
   ],
   "author": "leman <leman@lmswork.com>",
-  "homepage": "",
+  "homepage": "https://github.com/lemankk/svgr-iconkit",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {

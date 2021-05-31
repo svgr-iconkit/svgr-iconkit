@@ -1,11 +1,14 @@
-# `@svgr-icons/fontawesome`
+# `@svgr-iconkit/material-community`
 
 > TODO: description
 
 ## Usage
 
-```
-const fontawesome = require('@svgr-icons/fontawesome');
+```javascript
+import MaterialCommunityIcon from '@svgr-iconkit/material-community';
 
-// TODO: DEMONSTRATE API
+export default function App() {
+  return <div><MaterialCommunityIcon name="arrow-left" /></div>
+}
+
 ```

@@ -1,6 +1,8 @@
 {
   "name": "svgr-iconkit",
   "version": "0.1.0",
+  "author": "leman <leman@lmswork.com>",
+  "homepage": "https://github.com/lemankk/svgr-iconkit",
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist"
