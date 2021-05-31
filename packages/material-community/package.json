@@ -1,7 +1,7 @@
 {
-  "name": "@svgr-iconkit/core",
+  "name": "@svgr-iconkit/material-community",
   "version": "0.1.0",
-  "description": "SVGR iconset core",
+  "description": "FontAwesome SVGR iconset",
   "keywords": [
     "SVG",
     "Icons"
@@ -19,8 +19,14 @@
   ],
   "types": "./index.d.ts",
   "peerDependencies": {
+    "@svgr-iconkit/core": "^0.1.0",
     "react": "^16.8.0 || ^17.0.1",
     "react-native-svg": "^12.1.1"
+  },
+  "dependencies": {
+    "@mdi/js": "^5.9.55",
+    "@svgr-iconkit/core": "^0.1.0",
+    "decamelize": "^5.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -34,9 +40,11 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
     "@svgr-iconkit/cli": "^0.1.0",
+    "@svgr-iconkit/core": "^0.1.0",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.8",
     "react": "^17.0.2",
+    "react-native-svg": "^12.1.1",
     "rollup": "^2.50.4",
     "rollup-plugin-dts": "^3.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -46,10 +54,7 @@
     "access": "public"
   },
   "scripts": {
-    "transform": "svgr-iconkit transform assets",
-    "build": "rollup -c"
-  },
-  "dependencies": {
-    "decamelize": "^5.0.0"
+    "transform": "svgr-iconkit transform MaterialCommunity assets",
+    "build": "rollup -c "
   }
 }

@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@svgr-iconkit/core": "^0.1.0"
+    "@svgr-iconkit/core": "^0.1.0",
+    "decamelize": "^5.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
