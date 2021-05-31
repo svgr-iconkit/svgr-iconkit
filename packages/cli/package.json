@@ -1,0 +1,49 @@
+{
+  "name": "@svgr-iconkit/cli",
+  "version": "0.1.0",
+  "description": "Cli for svgr-iconkit",
+  "keywords": [
+    "SVG",
+    "Icons"
+  ],
+  "author": "leman <leman@lmswork.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "svgr-iconkit": "./bin/svgr-iconkit"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
+  },
+  "dependencies": {
+    "@svgr/cli": "^5.5.0",
+    "@svgr/core": "^5.5.0",
+    "@svgr/plugin-svgo": "^5.5.0",
+    "camelcase": "^6.2.0",
+    "cli-progress": "^3.9.0",
+    "commander": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
+    "rollup": "^2.50.4",
+    "rollup-plugin-dts": "^3.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0"
+  }
+}

@@ -1,0 +1,10 @@
+*.log
+*-lock.json
+*.bak
+*.lock
+tmp/
+node_modules/
+lib/
+dist/
+build/
+.DS_Store
