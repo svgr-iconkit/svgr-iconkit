@@ -8,7 +8,7 @@
     "sourceMap": true,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": false,
     "outDir": "lib",

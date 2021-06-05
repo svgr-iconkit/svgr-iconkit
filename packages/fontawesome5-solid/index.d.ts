@@ -1,2 +1,2 @@
-export { default } from "./lib/umd/web/index";
-export * from "./lib/umd/web/index";
+export { default } from "./lib/umd/index";
+export * from "./lib/umd/index";

@@ -6,6 +6,12 @@ import json from "@rollup/plugin-json";
 import external from "rollup-plugin-peer-deps-external";
 import typescript from "rollup-plugin-typescript2";
 
+const globals = {
+  "@svgr-iconkit/core": "SVGRIconKitCore",
+  react: "React",
+  "react-native-svg": "ReactNativeSVG",
+};
+
 export const createRollupConfig = ({ libraryName, entry, main, module }) => {
   const defaultExport = {
     input: entry,
@@ -15,8 +21,9 @@ export const createRollupConfig = ({ libraryName, entry, main, module }) => {
         name: camelCase(libraryName),
         format: "umd",
         sourcemap: true,
+        globals,
       },
-      { file: module, format: "es", sourcemap: true },
+      { file: module, format: "es", sourcemap: true, globals },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [],
@@ -27,7 +34,7 @@ export const createRollupConfig = ({ libraryName, entry, main, module }) => {
       // Allow json resolution
       json(),
       // Compile TypeScript files
-      typescript({  }),
+      typescript({}),
       // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
       commonjs(),
       // Allow node_modules resolution, so you can use 'external' to control
