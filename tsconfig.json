@@ -11,6 +11,7 @@
     "jsx": "react",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": false,
+    "declarationDir": "types",
     "outDir": "lib",
     "typeRoots": [
       "node_modules/@types"

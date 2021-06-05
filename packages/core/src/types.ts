@@ -14,7 +14,9 @@ export interface IconsetBaseProps<IconNames extends string> {
   className?: string | number;
   style?: string | object;
   id?: string;
-  ["test-id"]?: string;
+  fill?: string;
+  stroke?: string;
+  ["data-testid"]?: string;
 }
 
 export type IconsetProps<IconNames extends string> =

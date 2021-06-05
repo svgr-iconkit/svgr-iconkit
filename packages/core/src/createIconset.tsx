@@ -10,7 +10,7 @@ export function createIconset<IconNames extends string>({
     const Instance = map[name];
     if (!Instance) {
       if (process.env.NODE_ENV === "development") {
-        console.warn("Icon %s not found from iconset %s.", name, familyName);
+        console.warn(`Icon ${name} not found from iconset ${familyName}.`);
       }
       return null;
     }

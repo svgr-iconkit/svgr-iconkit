@@ -15,7 +15,8 @@
     "lib": "lib"
   },
   "files": [
-    "lib"
+    "lib",
+    "index.d.ts"
   ],
   "types": "./index.d.ts",
   "peerDependencies": {
@@ -36,6 +37,7 @@
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "react": "16.13.1",
+    "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
     "rollup-plugin-dts": "^3.0.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -46,6 +48,7 @@
   },
   "scripts": {
     "transform": "svgr-iconkit transform assets",
+    "prebuild": "rimraf ./lib ./dist",
     "build": "rollup -c"
   },
   "dependencies": {

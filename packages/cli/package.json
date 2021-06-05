@@ -25,6 +25,7 @@
     "access": "public"
   },
   "scripts": {
+    "prebuild": "rimraf ./lib ./dist",
     "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
   },
   "dependencies": {
@@ -41,6 +42,7 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@types/node": "^15.6.1",
+    "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
     "rollup-plugin-dts": "^3.0.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",

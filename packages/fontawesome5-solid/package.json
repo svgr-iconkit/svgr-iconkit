@@ -17,8 +17,9 @@
   },
   "files": [
     "lib",
-    "native"
+    "index.d.ts"
   ],
+  "types": "./index.d.ts",
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.1.0",
     "react": "^16.8.0 || ^17.0.1",
@@ -41,11 +42,12 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
     "@svgr-iconkit/cli": "^0.1.1-alpha.2",
-    "@svgr-iconkit/core": "^0.1.0",
+    "@svgr-iconkit/core": "^0.1.1-alpha.2",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "react": "16.13.1",
     "react-native-svg": "^12.1.1",
+    "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
     "rollup-plugin-dts": "^3.0.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -55,7 +57,7 @@
     "access": "public"
   },
   "scripts": {
-    "transform": "svgr-iconkit transform FontAwesome5 assets",
+    "prebuild": "rimraf ./lib ./dist",
     "build": "rollup -c"
   }
 }
