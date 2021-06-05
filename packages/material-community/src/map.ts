@@ -1,11 +1,12 @@
 import { IconsMapType, createNativeIcon } from "@svgr-iconkit/core";
 import * as AllIconsStringMap from "@mdi/js";
+import decamelize from "decamelize";
 
 const internalMap: any = {};
-export const icons = Object.keys(AllIconsStringMap)
+export const icons: {name: string, component: any}[] = Object.keys(AllIconsStringMap)
   .filter((name) => name.startsWith("mdi") && name.length > 3)
   .map((name) => {
-    const iconName = name;
+    const iconName = decamelize(name.replace(/^mdi/, ""));
     const path = (AllIconsStringMap as any)[name];
     const width = 24;
     const height = 24;
