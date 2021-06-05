@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontawesome5",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.1-alpha.0",
   "description": "FontAwesome SVGR iconset",
   "keywords": [
     "SVG",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@svgr-iconkit/core": "^0.1.0-alpha.0",
+    "@svgr-iconkit/core": "^0.1.1-alpha.0",
     "decamelize": "^5.0.0"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/cli": "^0.1.0-alpha.0",
+    "@svgr-iconkit/cli": "^0.1.1-alpha.0",
     "@svgr-iconkit/core": "^0.1.0",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
