@@ -1,5 +1,4 @@
 *.log
-*-lock.json
 *.bak
 *.lock
 tmp/
