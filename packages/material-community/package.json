@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-community",
-  "version": "0.1.1-alpha.4",
+  "version": "0.1.1-alpha.5",
   "description": "Material Community Icon SVGR iconset",
   "keywords": [
     "SVG",
@@ -24,9 +24,9 @@
   "types": "./index.d.ts",
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.1.0",
+    "decamelize": "^5.0.0",
     "react": "^16.8.0 || ^17.0.1",
-    "react-native-svg": "^12.1.1",
-    "decamelize": "^5.0.0"
+    "react-native-svg": "^12.1.1"
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",
@@ -44,7 +44,7 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/cli": "^0.1.1-alpha.3",
+    "@svgr-iconkit/cli": "^0.1.1-alpha.5",
     "@svgr-iconkit/core": "^0.1.1-alpha.2",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
