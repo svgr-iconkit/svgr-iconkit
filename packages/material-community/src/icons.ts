@@ -1,9 +1,12 @@
-import { IconsMapType, createNativeIcon } from "@svgr-iconkit/core";
+import { IconsetSVG, IconsMapType } from "@svgr-iconkit/core";
 import * as AllIconsStringMap from "@mdi/js";
 import decamelize from "decamelize";
+export const familyName: string = "MaterialCommunity";
 
-const internalMap: any = {};
-export const icons: {name: string, component: any}[] = Object.keys(AllIconsStringMap)
+
+export const map: IconsMapType<string> = {};
+
+export const icons: IconsetSVG[] = Object.keys(AllIconsStringMap)
   .filter((name) => name.startsWith("mdi") && name.length > 3)
   .map((name) => {
     const iconName = decamelize(name.replace(/^mdi/, ""));
@@ -11,12 +14,16 @@ export const icons: {name: string, component: any}[] = Object.keys(AllIconsStrin
     const width = 24;
     const height = 24;
 
-    const component = createNativeIcon({ name, width, height, path });
-    internalMap[iconName] = component;
-    return {
+    const iconConfig: IconsetSVG = {
       name: iconName,
-      component,
+      width,
+      height,
+      data: [{ name: "path", attrs: { d: path } }],
     };
+
+    map [ iconName] = iconConfig;
+
+    return iconConfig;
   });
 
 // types
@@ -6050,6 +6057,3 @@ export type IconNames =
   | "zodiac-scorpio"
   | "zodiac-taurus"
   | "zodiac-virgo";
-
-// map
-export const map: IconsMapType<IconNames> = internalMap;

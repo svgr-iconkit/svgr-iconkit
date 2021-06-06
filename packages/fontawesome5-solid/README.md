@@ -8,7 +8,7 @@
 import FASIcon from '@svgr-iconkit/fontawesome5-solid';
 
 export default function App() {
-  return <div><FASIcon name="arrow-left" /></div>
+  return <View><FASIcon name="arrow-left" /></View>
 }
 
 ```

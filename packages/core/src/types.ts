@@ -1,10 +1,23 @@
 import React from "react";
 
-export type IconComponent = any;
+export type IconComponentClass<IconNames extends string> = React.ForwardRefExoticComponent<IconsetProps<IconNames>>;
+
+
+export type IconsetSVGNode = {
+  name: string;
+  attrs: Record<string, string | number>;
+};
+
+export type IconsetSVG = {
+  name: string;
+  width: number;
+  height: number;
+  data: IconsetSVGNode[];
+};
 
 export type IconsMapType<IconNames extends string> = Record<
   IconNames,
-  IconComponent
+  IconsetSVG
 >;
 
 export interface IconsetBaseProps<IconNames extends string> {
@@ -33,4 +46,20 @@ export type CreateIconOptions = {
   width: number;
   height: number;
   path: string;
-}
+};
+
+
+export type SVGNode = {
+  name: string;
+  attrs: Record<string, string | number>;
+};
+
+export type SVGIconNode = {
+  name: string;
+  width: number;
+  height: number;
+  data: SVGNode[];
+};
+
+
+export type CreateIconFactoryType = (iconProps: IconsetSVG) => React.ForwardRefExoticComponent<any>;

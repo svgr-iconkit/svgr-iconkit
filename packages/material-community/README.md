@@ -8,7 +8,7 @@
 import MaterialCommunityIcon from '@svgr-iconkit/material-community';
 
 export default function App() {
-  return <div><MaterialCommunityIcon name="arrow-left" /></div>
+  return <View><MaterialCommunityIcon name="arrow-left" /></View>
 }
 
 ```

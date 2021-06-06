@@ -5,8 +5,6 @@ import ChildProcess from "child_process";
 import camelCase from "camelcase";
 import cliProgress from "cli-progress";
 
-const commandName = "transform";
-
 const fileOptions = {
   encoding: "utf-8",
 };

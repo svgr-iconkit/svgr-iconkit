@@ -1,1 +1,1 @@
-export * from "./lib/umd/index";
+export * from "./lib/types/index";

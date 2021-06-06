@@ -8,7 +8,7 @@
 import FABIcon from '@svgr-iconkit/fontawesome5-brands';
 
 export default function App() {
-  return <div><FABIcon name="github" /></div>
+  return <View><FABIcon name="github" /></View>
 }
 
 ```

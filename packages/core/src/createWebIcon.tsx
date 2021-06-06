@@ -1,12 +1,27 @@
 import React from "react";
-import { CreateIconOptions } from "./types";
+import { CreateIconFactoryType, IconsetSVG } from "./types";
 
-export const createWebIcon = ({
+export const createWebIcon: CreateIconFactoryType = ({
   name,
   width,
   height,
-  path,
-}: CreateIconOptions) => {
+  data = [],
+}: IconsetSVG) => {
+  const renderChildren = (nodes: any[], parentKey: string = "#") => {
+    const filteredNodes = nodes.filter(() => true);
+    return filteredNodes.map(({ name: nodeName, attrs: nodeAttrs }, index) => {
+      const { children = [], ...restProps } = nodeAttrs;
+      const nodeKey = `${parentKey}-$${nodeName}_${index}`;
+
+      let childrenNodes: any[] = [];
+      if (children && children.length > 0) {
+        childrenNodes = renderChildren(children, nodeKey);
+      }
+
+      return React.createElement(nodeName, restProps, ...childrenNodes)
+    });
+  };
+
   function SVGContent(
     props: React.SVGProps<SVGSVGElement>,
     svgRef?: React.Ref<SVGSVGElement>
@@ -19,7 +34,7 @@ export const createWebIcon = ({
         ref={svgRef}
         {...props}
       >
-        <path d={path} />
+        {renderChildren(data)}
       </svg>
     );
   }
@@ -27,3 +42,5 @@ export const createWebIcon = ({
 
   return React.forwardRef(SVGContent);
 };
+
+export default createWebIcon;
