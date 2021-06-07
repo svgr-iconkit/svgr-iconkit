@@ -24,14 +24,14 @@
   "types": "./index.d.ts",
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.1.0",
-    "decamelize": "^5.0.0",
+    "change-case": "^4.1.2",
     "react": "^16.8.0 || ^17.0.1",
     "react-native-svg": "^12.1.1"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@svgr-iconkit/core": "^0.1.1-alpha.6",
-    "decamelize": "^5.0.0"
+    "change-case": "^4.1.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -48,7 +48,7 @@
     "@svgr-iconkit/core": "^0.1.1-alpha.3",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
-    "decamelize": "^5.0.0",
+    "change-case": "^4.1.2",
     "react": "16.13.1",
     "react-native-svg": "^12.1.1",
     "rimraf": "^3.0.2",

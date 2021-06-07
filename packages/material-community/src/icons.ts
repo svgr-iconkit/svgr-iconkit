@@ -1,6 +1,6 @@
 import { IconsetSVG, IconsMapType } from "@svgr-iconkit/core";
 import * as AllIconsStringMap from "@mdi/js";
-import decamelize from "decamelize";
+import { paramCase } from "change-case";
 export const familyName: string = "MaterialCommunity";
 
 
@@ -9,7 +9,7 @@ export const map: IconsMapType<string> = {};
 export const icons: IconsetSVG[] = Object.keys(AllIconsStringMap)
   .filter((name) => name.startsWith("mdi") && name.length > 3)
   .map((name) => {
-    const iconName = decamelize(name.replace(/^mdi/, ""));
+    const iconName = paramCase(name.replace(/^mdi/, ""));
     const path = (AllIconsStringMap as any)[name];
     const width = 24;
     const height = 24;
