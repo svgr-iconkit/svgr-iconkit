@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-community",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Material Community Icon SVGR iconset",
   "keywords": [
     "SVG",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",
-    "@svgr-iconkit/core": "^0.1.1",
+    "@svgr-iconkit/core": "^0.1.2",
     "change-case": "^4.1.2"
   },
   "devDependencies": {
