@@ -8,8 +8,8 @@ Inspired by [gregberge/svgr](https://github.com/gregberge/svgr) and [oblador/rea
 Support below iconset:
 
 - FontAwesome5
-  - [Regular](/packages/fontawesome5)
-  - [Solid](/packages/fontawesome5-solid)
-  - [Brands](/packages/fontawesome5-brands)
-- [MaterialCommunity](/packages/material-community)
+  - [Regular](/packages/ext-fontawesome5)
+  - [Solid](/packages/ext-fontawesome5-solid)
+  - [Brands](/packages/ext-fontawesome5-brands)
+- [MaterialCommunity](/packages/ext-material-community)
 
