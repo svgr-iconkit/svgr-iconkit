@@ -4,7 +4,6 @@ import { createWebIcon } from "./createWebIcon";
 
 export * from "./types";
 export * from "./createIconsetFactory";
-export * from "./createIconmap";
 export { default as createIconComponent } from "./createWebIcon";
 
 export function createIconset<IconNames extends string = string> (options: CreateIconsetOptions<IconNames>) {

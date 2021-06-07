@@ -23,14 +23,14 @@
   ],
   "types": "./index.d.ts",
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.1.0",
+    "@svgr-iconkit/core": "^0.1.1",
     "change-case": "^4.1.2",
     "react": "^16.8.0 || ^17.0.1",
     "react-native-svg": "^12.1.1"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@svgr-iconkit/core": "^0.1.1-alpha.9",
+    "@svgr-iconkit/core": "^0.1.1",
     "change-case": "^4.1.2"
   },
   "devDependencies": {
@@ -45,7 +45,7 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
     "@svgr-iconkit/cli": "^0.1.1-alpha.7",
-    "@svgr-iconkit/core": "^0.1.1-alpha.3",
+    "@svgr-iconkit/core": "^0.1.1",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "change-case": "^4.1.2",
