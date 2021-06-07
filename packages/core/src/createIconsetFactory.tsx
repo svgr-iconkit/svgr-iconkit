@@ -1,10 +1,14 @@
 import React from "react";
-import { IconsetBaseProps, CreateIconsetOptions, CreateIconFactoryType } from "./types";
+import {
+  IconsetBaseProps,
+  CreateIconsetOptions,
+  CreateIconFactoryType,
+} from "./types";
 
-export function createIconsetFactory<IconNames extends string>({
-  familyName,
-  map,
-}: CreateIconsetOptions<IconNames>, factory: CreateIconFactoryType) {
+export function createIconsetFactory<IconNames extends string>(
+  { familyName, map }: CreateIconsetOptions<IconNames>,
+  factory: CreateIconFactoryType
+) {
   const Iconset = (props: IconsetBaseProps<IconNames>, ref: any) => {
     const { name, ...restProps } = props;
     const iconComponentConfig = map[name];
@@ -14,8 +18,14 @@ export function createIconsetFactory<IconNames extends string>({
       }
       return null;
     }
-    const IconComponent: React.ForwardRefExoticComponent<any> = React.useRef(factory(iconComponentConfig)).current;
-    IconComponent.displayName = `${familyName}.${name}`;
+    const IconComponent: React.ForwardRefExoticComponent<any> = React.useMemo(
+      () => {
+        const Comp = factory(iconComponentConfig);
+        Comp.displayName = `${familyName}.${name}`;
+        return Comp;
+      },
+      [familyName, name, iconComponentConfig]
+    );
     return <IconComponent ref={ref} {...restProps} />;
   };
   Iconset.displayName = familyName;
