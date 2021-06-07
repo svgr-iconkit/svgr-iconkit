@@ -16,7 +16,9 @@
   },
   "files": [
     "lib",
+    "index.js",
     "index.d.ts",
+    "native.js",
     "native.d.ts"
   ],
   "types": "./index.d.ts",
