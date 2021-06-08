@@ -1,6 +1,6 @@
 import { IconsetSVG, IconsMapType } from "@svgr-iconkit/core";
-import * as AllIcons from "@fortawesome/free-solid-svg-icons";
-export const familyName: string = "FontAwesome5-Solid";
+import * as AllIcons from "@fortawesome/free-regular-svg-icons";
+export const familyName: string = "FontAwesome5-Regular";
 
 export const map: IconsMapType<string> = {};
 
