@@ -1,6 +1,6 @@
 # `@svgr-iconkit/material-community`
 
-> TODO: description
+Packages re-export from [@mdi/js](https://www.npmjs.com/package/@mdi/js)
 
 ## Usage
 
