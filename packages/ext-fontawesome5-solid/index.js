@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/umd/index');
+module.exports = require('./lib/commonjs/index');

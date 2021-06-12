@@ -4,8 +4,9 @@ export type IconComponentClass<IconNames extends string> = React.ForwardRefExoti
 
 
 export type IconsetSVGNode = {
-  name: string;
+  tagName: string;
   attrs: Record<string, string | number>;
+  children?: IconsetSVGNode[];
 };
 
 export type IconsetSVG = {

@@ -1,0 +1,14 @@
+{
+  "name": "@svgr-iconkit/rollup-plugin-svg-data",
+  "version": "0.1.0-alpha.1",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo 'No build scripts' && exit 0;"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.8.2",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "svg-parser": "^2.0.4"
+  }
+}

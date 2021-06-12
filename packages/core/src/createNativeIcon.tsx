@@ -59,10 +59,10 @@ export const createNativeIcon: CreateIconFactoryType = ({
     const filteredNodes = nodes.filter((node) =>
       supportedNodeNames.includes(node.name)
     );
-    return filteredNodes.map(({ name: nodeName, attrs: nodeAttrs }, index) => {
-      const NodeComponent = NodeComponentMap[nodeName.toLowerCase()];
+    return filteredNodes.map(({ tagName, attrs: nodeAttrs }, index) => {
+      const NodeComponent = NodeComponentMap[tagName.toLowerCase()];
       const { children = [], ...restProps } = nodeAttrs;
-      const nodeKey = `${parentKey}-$${nodeName}_${index}`;
+      const nodeKey = `${parentKey}-$${tagName}_${index}`;
       return (
         <NodeComponent
           key={nodeKey}

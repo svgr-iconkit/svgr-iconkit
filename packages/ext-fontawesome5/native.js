@@ -1,1 +1,1 @@
-module.exports = require('./lib/umd/native');
+module.exports = require('./lib/commonjs/native');
