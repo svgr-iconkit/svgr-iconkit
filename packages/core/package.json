@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/core",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "SVGR iconset core",
   "keywords": [
     "SVG",
@@ -37,7 +37,7 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/cli": "^0.1.3",
+    "@svgr-iconkit/cli": "^0.1.4",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "decamelize": "^5.0.0",
