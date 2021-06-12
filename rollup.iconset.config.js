@@ -5,6 +5,7 @@ import camelCase from "lodash/camelcase";
 import json from "@rollup/plugin-json";
 import external from "rollup-plugin-peer-deps-external";
 import typescript from "rollup-plugin-typescript2";
+import { terser } from "rollup-plugin-terser";
 
 const globals = {
   "@svgr-iconkit/core": "SVGRIconKitCore",
@@ -38,6 +39,7 @@ export const createRollupConfig = ({
     },
     plugins: [
       ...plugins,
+
       // Allow json resolution
       json(),
       // Allow node_modules resolution, so you can use 'external' to control
@@ -53,6 +55,8 @@ export const createRollupConfig = ({
 
       // Resolve source maps to the original source
       sourceMaps(),
+
+      terser(),
     ],
   };
   return defaultExport;

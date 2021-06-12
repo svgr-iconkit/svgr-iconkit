@@ -5,6 +5,7 @@ import camelCase from "lodash/camelcase";
 import json from "@rollup/plugin-json";
 import external from "rollup-plugin-peer-deps-external";
 import typescript from "rollup-plugin-typescript2";
+import { terser } from "rollup-plugin-terser";
 
 const pkg = require("./package.json");
 
@@ -47,6 +48,8 @@ const defaultExport = [
       sourceMaps(),
 
       external(),
+
+      terser(),
     ],
   },
   {
@@ -87,6 +90,8 @@ const defaultExport = [
       sourceMaps(),
 
       external(),
+
+      terser(),
     ],
   },
 ];

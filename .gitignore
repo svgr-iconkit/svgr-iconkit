@@ -6,5 +6,5 @@ node_modules/
 lib/
 dist/
 build/
+tmp/
 .DS_Store
-assets/*.svg

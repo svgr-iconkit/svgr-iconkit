@@ -15,7 +15,6 @@ const babelOptions = {
 };
 
 function svgrDataPlugin(options = {}) {
-  console.log("[svgrDataPlugin] booted");
   const filter = createFilter(options.include || "**/*.svg", options.exclude);
   const {
     removeNamePrefix = "",

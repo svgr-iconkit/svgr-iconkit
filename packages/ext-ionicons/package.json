@@ -1,0 +1,73 @@
+{
+  "name": "@svgr-iconkit/ionicons",
+  "version": "0.1.3",
+  "description": "Ionicons SVGR iconset",
+  "keywords": [
+    "SVG",
+    "Icons"
+  ],
+  "author": "leman <leman@lmswork.com>",
+  "homepage": "https://github.com/lemankk/svgr-iconkit",
+  "license": "MIT",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/es/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "index.d.ts",
+    "native.js",
+    "native.d.ts",
+    "README.md"
+  ],
+  "types": "./index.d.ts",
+  "peerDependencies": {
+    "@svgr-iconkit/core": "^0.1.2",
+    "react": "^16.8.0 || ^17.0.1",
+    "react-native-svg": "^12.1.1"
+  },
+  "dependencies": {
+    "@svgr-iconkit/core": "^0.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-typescript": "^7.14.4",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@svgr-iconkit/cli": "^0.1.3",
+    "@svgr-iconkit/rollup-plugin-svg-data": "0.1.3",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.9",
+    "npm-run-all": "^4.1.5",
+    "ionicons": "^5.5.1",
+    "react": "16.13.1",
+    "react-native-svg": "^12.1.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.50.4",
+    "rollup-plugin-dts": "^3.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "terser": "^5.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "iconsmap:create-folder": "mkdir -p ./tmp/icons",
+    "iconsmap:copy-source": "cp -R ../../node_modules/ionicons/dist/svg/*.svg ./tmp/icons",
+    "iconsmap:create": "svgr-iconkit build-map ./tmp/icons ./src/icons.ts",
+    "iconsmap": "npm-run-all iconsmap:create-folder iconsmap:copy-source iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./tmp",
+    "compile": "rollup -c",
+    "build": "npm-run-all iconsmap compile"
+  }
+}
