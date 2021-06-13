@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/ionicons",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Ionicons SVGR iconset",
   "keywords": [
     "SVG",
@@ -29,7 +29,7 @@
     "react-native-svg": "^12.1.1"
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.5"
+    "@svgr-iconkit/core": "^0.1.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
