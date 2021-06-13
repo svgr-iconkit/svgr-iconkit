@@ -81,8 +81,8 @@ export const createNativeIcon: CreateIconFactoryType = ({
     return (
       <Svg
         viewBox={`0 0 ${width} ${height}`}
-        width="1em"
-        height="1em"
+        width={24}
+        height={24}
         ref={svgRef}
         {...props}
       >
@@ -92,7 +92,7 @@ export const createNativeIcon: CreateIconFactoryType = ({
   }
   SVGContent.displayName = name;
 
-  return React.forwardRef(SVGContent);
+  return React.forwardRef(React.memo(SVGContent));
 };
 
 export default createNativeIcon;

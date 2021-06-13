@@ -18,6 +18,7 @@ function svgrDataPlugin(options = {}) {
   const filter = createFilter(options.include || "**/*.svg", options.exclude);
   const {
     removeNamePrefix = "",
+    convertIconName, 
     babel = true,
     forceWidth,
     forceHeight,
@@ -44,6 +45,10 @@ function svgrDataPlugin(options = {}) {
       // add support for removeNamePrefix
       if (name.startsWith(removeNamePrefix)) {
         name = name.slice(removeNamePrefix.length);
+      }
+
+      if (typeof convertIconName === "function") {
+        name = convertIconName(baseFileName, name);
       }
 
       const jsCode = await convertSvgData(name, load, {

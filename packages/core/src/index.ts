@@ -6,6 +6,9 @@ export * from "./types";
 export * from "./createIconsetFactory";
 export { default as createIconComponent } from "./createWebIcon";
 
-export function createIconset<IconNames extends string = string> (options: CreateIconsetOptions<IconNames>) {
+export function createIconset<
+  IconNames extends string = string,
+  IconVariant extends string = string
+>(options: CreateIconsetOptions<IconNames, IconVariant>) {
   return createIconsetFactory(options, createWebIcon);
 }

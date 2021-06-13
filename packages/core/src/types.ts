@@ -1,7 +1,6 @@
 import React from "react";
 
-export type IconComponentClass<IconNames extends string> = React.ForwardRefExoticComponent<IconsetProps<IconNames>>;
-
+export type IconComponentClass<IconNames extends string, IconVariant extends string> = React.ForwardRefExoticComponent<IconsetProps<IconNames, IconVariant>>;
 
 export type IconsetSVGNode = {
   tagName: string;
@@ -21,11 +20,12 @@ export type IconsMapType<IconNames extends string> = Record<
   IconsetSVG
 >;
 
-export interface IconsetBaseProps<IconNames extends string> {
+export interface IconsetBaseProps<IconNames extends string, IconVariant extends string> {
   name: IconNames;
   width?: string | number;
   height?: string | number;
   className?: string | number;
+  variant?: IconVariant;
   style?: string | object;
   id?: string;
   fill?: string;
@@ -33,13 +33,15 @@ export interface IconsetBaseProps<IconNames extends string> {
   ["data-testid"]?: string;
 }
 
-export type IconsetProps<IconNames extends string> =
-  | (React.ReactSVGElement & IconsetBaseProps<IconNames>)
-  | React.ReactElement<IconsetBaseProps<IconNames>>;
+export type IconsetProps<IconNames extends string, IconVariant extends string> =
+  | (React.ReactSVGElement & IconsetBaseProps<IconNames, IconVariant>)
+  | React.ReactElement<IconsetBaseProps<IconNames, IconVariant>>;
 
-export type CreateIconsetOptions<IconNames extends string> = {
+export type CreateIconsetOptions<IconNames extends string, IconVariant extends string> = {
   familyName: string;
-  map: IconsMapType<IconNames>;
+  map: IconsMapType<IconNames> | Record<IconVariant, IconsMapType<IconNames>>;
+  variants?: IconVariant[];
+  defaultVariant?: IconVariant;
 };
 
 export type CreateIconOptions = {

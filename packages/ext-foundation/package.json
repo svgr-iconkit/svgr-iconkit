@@ -64,5 +64,6 @@
     "build:map": "svgr-iconkit build-map ./assets ./src/icons.ts --remove-name-prefix 'fi-'",
     "prebuild": "rimraf ./lib ./dist",
     "build": "rollup -c "
-  }
+  },
+  "gitHead": "83cf8b6ba5d12258c694d27bbfbb24b841b99547"
 }

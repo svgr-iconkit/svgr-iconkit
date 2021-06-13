@@ -60,5 +60,6 @@
   },
   "dependencies": {
     "decamelize": "^5.0.0"
-  }
+  },
+  "gitHead": "83cf8b6ba5d12258c694d27bbfbb24b841b99547"
 }

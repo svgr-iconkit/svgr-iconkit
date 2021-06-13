@@ -1,32 +1,45 @@
 import { IconsetSVG, IconsMapType } from "@svgr-iconkit/core";
-import * as AllIcons from "@fortawesome/free-regular-svg-icons";
-export const familyName: string = "FontAwesome5-Regular";
+import * as AllRegularIcons from "@fortawesome/free-regular-svg-icons";
+import * as AllSolidIcons from "@fortawesome/free-solid-svg-icons";
+export const familyName: string = "FontAwesome5";
 
-export const map: IconsMapType<string> = {};
+export type IconVariant = "regular" | "solid";
 
-export const icons: IconsetSVG[] = Object.keys(AllIcons)
+export const variants: IconVariant[] = ["regular", "solid"];
 
+export const defaultVariant: IconVariant = "regular";
+
+export const map: Record<IconVariant, IconsMapType<string>> = {
+  "regular": {},
+  "solid": {},
+};
+
+const buildVariantMap = (name: string, iconName: string, source: any) => {
+  const { icon: config = [] } = source[name];
+  const [width, height, _, _charCode, path] = config || [
+    100,
+    100,
+    [],
+    "",
+    "",
+  ];
+
+  const iconConfig: IconsetSVG = {
+    name: iconName,
+    width,
+    height,
+    data: [{ tagName: "path", attrs: { d: path } }],
+  };
+  return iconConfig;
+}
+
+Object.keys(AllRegularIcons)
   .filter((name) => name.startsWith("fa") && name.length > 3)
   .map((name) => {
-    const { iconName = "", icon: config = [] } = (AllIcons as any)[name];
-    const [width, height, _, _charCode, path] = config || [
-      100,
-      100,
-      [],
-      "",
-      "",
-    ];
 
-    const iconConfig: IconsetSVG = {
-      name: iconName,
-      width,
-      height,
-      data: [{ tagName: "path", attrs: { d: path } }],
-    };
-
-    map[iconName] = iconConfig;
-
-    return iconConfig;
+    const { iconName = "" } = (AllRegularIcons as any)[name];
+    map['regular'][iconName] = buildVariantMap(name, iconName, AllRegularIcons);
+    map['solid'][iconName] = buildVariantMap(name, iconName, AllSolidIcons);
   });
 
 // types

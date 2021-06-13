@@ -40,7 +40,7 @@ export const createWebIcon: CreateIconFactoryType = ({
   }
   SVGContent.displayName = name;
 
-  return React.forwardRef(SVGContent);
+  return React.forwardRef(React.memo(SVGContent));
 };
 
 export default createWebIcon;

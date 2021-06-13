@@ -1,6 +1,9 @@
 {
   "name": "@svgr-iconkit/rollup-plugin-svg-data",
   "version": "0.1.4",
+  "author": "leman <leman@lmswork.com>",
+  "homepage": "https://github.com/lemankk/svgr-iconkit",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "build": "echo 'No build scripts' && exit 0;"
@@ -13,5 +16,6 @@
   },
   "devDependencies": {
     "terser": "^5.7.0"
-  }
+  },
+  "gitHead": "83cf8b6ba5d12258c694d27bbfbb24b841b99547"
 }

@@ -1,9 +1,17 @@
-import { IconsetSVG } from "@svgr-iconkit/core";
-import { map as iconsMap } from "./icons";
-export { IconNames, map } from "./icons";
+import { IconsMapType } from "@svgr-iconkit/core";
+import { map as regularIconsMap } from "./icons-regular";
+import { map as filledIconsMap } from "./icons-filled";
+export { IconNames } from "./icons-filled";
 
 export const familyName: string = "FluentUISystem";
 
-export const icons: IconsetSVG[] = Object.keys(iconsMap).map(
-  (name) => (iconsMap as any)[name] as IconsetSVG
-);
+export type IconVariant = "regular" | "filled";
+
+export const variants: IconVariant[] = ["regular", "filled"];
+
+export const defaultVariant: IconVariant = "regular";
+
+export const map: Record<IconVariant, IconsMapType<string>> = {
+  regular: regularIconsMap,
+  filled: filledIconsMap,
+};

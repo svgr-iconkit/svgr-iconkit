@@ -7,6 +7,9 @@ const plugins = [
   svgData({
     forceWidth: 24,
     forceHeight: 24,
+    convertIconName: (fileName, name) => {
+      return name.replace("_", "-").replace(/-(24|regular|filled)/, "");
+    }
   })
 ];
 

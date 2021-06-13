@@ -17,24 +17,40 @@ module.exports = {
       flag: "-N, --remove-name-prefix <name>",
       description: "Remove name prefix",
     },
+    {
+      flag: "-D, --remove-name-suffix <name>",
+      description: "Remove name suffix",
+    },
+    {
+      flag: "-S, --start-with <content>",
+      description: "Searching file name start with given string"
+    },
+    {
+      flag: "-E, --end-with <content>",
+      description: "Searching file name end with given string"
+    }
   ],
   exec: async (sourceDir, targetFile, options, cmd) => {
     console.log(commandName + ": options=%o", options);
+    const { removeNamePrefix, removeNameSuffix, startWith = '', endWith = '' } = options;
 
     const resolvedSourceDir = Path.resolve(sourceDir);
     const resolvedTargetFilePath = Path.join(targetFile);
 
     const relativePathFromTargetFile = Path.relative(Path.dirname(resolvedTargetFilePath), resolvedSourceDir);
 
-    const iconFiles = FS.readdirSync(resolvedSourceDir).filter((file) =>
-      file.endsWith(".svg")
-    );
+    const startWithPattern = startWith ? startWith : null;
+    const endWithPattern = endWith ? `${endWith}.svg` : ".svg";
+    const iconFiles = FS.readdirSync(resolvedSourceDir).filter((file) => {
+      if ( startWithPattern && !file.startsWith(startWithPattern)) return false;
+      if ( endWithPattern && !file.endsWith(endWithPattern)) return false;
+      return true;
+    });
     const iconsetMap = {};
 
     console.log(commandName + ": total icons=%o", iconFiles.length);
     console.log(commandName + ": relativePathFromTargetFile=%o", relativePathFromTargetFile);
 
-    const { removeNamePrefix } = options;
 
     const pbar = new cliProgress.SingleBar(
       {},
@@ -47,6 +63,10 @@ module.exports = {
       // add support for removeNamePrefix
       if (removeNamePrefix && name.startsWith(removeNamePrefix)) {
         name = name.slice(removeNamePrefix.length);
+      }
+      // add support for removeNameSuffix
+      if (removeNameSuffix && name.endsWith(removeNameSuffix)) {
+        name = name.slice(0, name.length - removeNameSuffix.length);
       }
       const iconName = paramCase(name);
 

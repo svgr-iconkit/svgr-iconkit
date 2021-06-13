@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@svgr-iconkit/core": "^0.1.4"
   },
   "devDependencies": {
@@ -63,5 +64,6 @@
   "scripts": {
     "prebuild": "rimraf ./lib ./dist",
     "build": "rollup -c"
-  }
+  },
+  "gitHead": "83cf8b6ba5d12258c694d27bbfbb24b841b99547"
 }
