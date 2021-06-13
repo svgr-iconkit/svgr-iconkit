@@ -5,8 +5,6 @@ const pkg = require("./package.json");
 
 const plugins = [
   svgData({
-    forceWidth: 24,
-    forceHeight: 24,
   })
 ];
 

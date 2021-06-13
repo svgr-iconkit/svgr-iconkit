@@ -31,4 +31,5 @@ Support below iconset:
 ---
 ## Other topics
 
+- [Iconset Explorer](/docs/explorer)
 - [Create owned iconset](/docs/CreateOwnedIconset.md)

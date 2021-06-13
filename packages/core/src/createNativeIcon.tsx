@@ -22,7 +22,9 @@ import Svg, {
   TextPath,
   Stop,
 } from "react-native-svg";
-import { CreateIconFactoryType, IconsetSVG } from "./types";
+import { camelCase } from "change-case";
+import { CreateIconFactoryType, IconsetSVG, IconsetSVGNode } from "./types";
+import { removePx } from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
   path: Path,
@@ -49,25 +51,35 @@ const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
 
 const supportedNodeNames = Object.keys(NodeComponentMap);
 
+const filterNode = (node: IconsetSVGNode) =>
+  supportedNodeNames.includes(node.tagName);
+
 export const createNativeIcon: CreateIconFactoryType = ({
   name,
-  width,
-  height,
+  viewBox,
+  width: orgWidth,
+  height: orgHeight,
   data = [],
 }: IconsetSVG) => {
+  /**
+   * Travel children node
+   */
   const renderChildren = (nodes: any[], parentKey: string = "#") => {
-    const filteredNodes = nodes.filter((node) =>
-      supportedNodeNames.includes(node.name)
-    );
-    return filteredNodes.map(({ tagName, attrs: nodeAttrs }, index) => {
+    const filteredNodes = nodes.filter(filterNode);
+    return filteredNodes.map((node, index) => {
+      const { tagName, attrs, children } = node;
       const NodeComponent = NodeComponentMap[tagName.toLowerCase()];
-      const { children = [], ...restProps } = nodeAttrs;
-      const nodeKey = `${parentKey}-$${tagName}_${index}`;
+      const nodeKey = `${parentKey}/$${tagName}_${index}`;
+
+      const _props: any = {
+        key: nodeKey,
+      };
+      Object.keys(attrs).forEach((propName) => {
+        const convertedName = camelCase(propName);
+        _props[convertedName] = attrs[propName];
+      });
       return (
-        <NodeComponent
-          key={nodeKey}
-          {...restProps}
-        >
+        <NodeComponent  {..._props}>
           {children && children.length > 0 && renderChildren(children, nodeKey)}
         </NodeComponent>
       );
@@ -80,9 +92,7 @@ export const createNativeIcon: CreateIconFactoryType = ({
   ) {
     return (
       <Svg
-        viewBox={`0 0 ${width} ${height}`}
-        width={24}
-        height={24}
+        viewBox={viewBox || `0 0 ${removePx(orgWidth)} ${removePx(orgHeight)}`}
         ref={svgRef}
         {...props}
       >

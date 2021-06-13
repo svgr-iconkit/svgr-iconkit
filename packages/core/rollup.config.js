@@ -13,6 +13,24 @@ const globals = {
   react: "React",
   "react-native-svg": "ReactNativeSVG",
 };
+const packageBasedSourcemapPathTransform = (
+  packageName,
+  relativeSourcePath
+) => {
+  const output = String(relativeSourcePath).replace(
+    /\.\.\/(src|node_modules)/g,
+    `${packageName}/$1`
+  );
+  // console.log("package=%s, relative=%s, path=%s", packageName, relativeSourcePath, output);
+  return output;
+};
+
+const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) =>
+  packageBasedSourcemapPathTransform(
+    pkg.name,
+    relativeSourcePath,
+    sourcemapPath
+  );
 
 const defaultExport = [
   {
@@ -23,9 +41,16 @@ const defaultExport = [
         name: camelCase(pkg.name),
         format: "umd",
         sourcemap: true,
+        sourcemapPathTransform,
         globals,
       },
-      { file: pkg.module, format: "es", sourcemap: true, globals },
+      {
+        file: pkg.module,
+        format: "es",
+        sourcemap: true,
+        sourcemapPathTransform,
+        globals,
+      },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [],
@@ -34,7 +59,7 @@ const defaultExport = [
     },
     plugins: [
       // Compile TypeScript files
-      typescript({ useTsconfigDeclarationDir: true}),
+      typescript({ useTsconfigDeclarationDir: true }),
       // Allow json resolution
       json(),
       // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
@@ -76,7 +101,7 @@ const defaultExport = [
     },
     plugins: [
       // Compile TypeScript files
-      typescript({ useTsconfigDeclarationDir: true}),
+      typescript({ useTsconfigDeclarationDir: true }),
       // Allow json resolution
       json(),
       // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)

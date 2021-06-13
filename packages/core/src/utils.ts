@@ -1,0 +1,1 @@
+export const removePx = (str?: string | number) =>  !str ? '' : String(str).replace("px", "");

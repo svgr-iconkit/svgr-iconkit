@@ -6,8 +6,6 @@ const pkg = require("./package.json");
 const plugins = [
   svgData({
     removeNamePrefix: "fi-",
-    forceWidth: 24,
-    forceHeight: 24,
   })
 ];
 

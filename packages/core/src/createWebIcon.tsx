@@ -1,24 +1,40 @@
 import React from "react";
-import { CreateIconFactoryType, IconsetSVG } from "./types";
+import { CreateIconFactoryType, IconsetSVG, IconsetSVGNode } from "./types";
+import { camelCase } from "change-case";
+import { removePx } from "./utils";
+
+const filterNode = (node: IconsetSVGNode) => node.tagName !== "title";
 
 export const createWebIcon: CreateIconFactoryType = ({
   name,
-  width,
-  height,
+  viewBox,
+  width: orgWidth,
+  height: orgHeight,
   data = [],
 }: IconsetSVG) => {
+  /**
+   * Travel children node
+   */
   const renderChildren = (nodes: any[], parentKey: string = "#") => {
-    const filteredNodes = nodes.filter(() => true);
-    return filteredNodes.map(({ tagName, attrs: nodeAttrs }, index) => {
-      const { children = [], ...restProps } = nodeAttrs;
-      const nodeKey = `${parentKey}-$${tagName}_${index}`;
+    const filteredNodes = nodes.filter(filterNode);
+    return filteredNodes.map((node, index) => {
+      const { tagName, attrs, children } = node;
+      const nodeKey = `${parentKey}/$${tagName}_${index}`;
 
       let childrenNodes: any[] = [];
       if (children && children.length > 0) {
         childrenNodes = renderChildren(children, nodeKey);
       }
+      const _props: any = {
+        key: nodeKey,
+      };
 
-      return React.createElement(tagName, restProps, ...childrenNodes)
+      Object.keys(attrs).forEach((propName) => {
+        const convertedName = camelCase(propName);
+        _props[convertedName] = attrs[propName];
+      });
+
+      return React.createElement(tagName, _props, ...childrenNodes);
     });
   };
 
@@ -28,9 +44,7 @@ export const createWebIcon: CreateIconFactoryType = ({
   ) {
     return (
       <svg
-        viewBox={`0 0 ${width} ${height}`}
-        width="1em"
-        height="1em"
+        viewBox={viewBox || `0 0 ${removePx(orgWidth)} ${removePx(orgHeight)}`}
         ref={svgRef}
         {...props}
       >

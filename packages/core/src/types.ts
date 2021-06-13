@@ -10,8 +10,9 @@ export type IconsetSVGNode = {
 
 export type IconsetSVG = {
   name: string;
-  width: number;
-  height: number;
+  viewBox?: string;
+  width?: string | number;
+  height?: string | number;
   data: IconsetSVGNode[];
 };
 
@@ -31,6 +32,8 @@ export interface IconsetBaseProps<IconNames extends string, IconVariant extends 
   fill?: string;
   stroke?: string;
   ["data-testid"]?: string;
+  size?: string | number;
+  color?: string;
 }
 
 export type IconsetProps<IconNames extends string, IconVariant extends string> =
@@ -59,8 +62,7 @@ export type SVGNode = {
 
 export type SVGIconNode = {
   name: string;
-  width: number;
-  height: number;
+  viewBox: string;
   data: SVGNode[];
 };
 

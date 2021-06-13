@@ -22,32 +22,43 @@ function getChildrenData(node) {
     console.error("Empty node reported");
     throw new Error("Unexcepted undefined node");
   }
-  if (!node.tagName) {
+  const {tagName, properties, children} = node;
+  if (!tagName) {
     console.error("Empty node tagName. node=%o", node);
     throw new Error("Unexcepted node without tagName");
   }
   const attrs = {};
-  Object.keys(node.properties)
+  Object.keys(properties)
     .filter(isAllowedAttributeName)
     .forEach((propertyName) => {
-      attrs[propertyName] = node.properties[propertyName];
+      attrs[propertyName] = properties[propertyName];
     });
+    
 
   const hasChildren =
-    node.children && Array.isArray(node.children) && node.children.length > 0;
+    children && Array.isArray(children) && children.length > 0;
   return {
-    tagName: node.tagName,
+    tagName,
     attrs,
     children: !hasChildren
-      ? []
-      : node.children.filter(filterOnlyElement).map(getChildrenData),
+      ? undefined
+      : children.filter(filterOnlyElement).map(getChildrenData),
   };
 }
 
 function convertSvgData(name, source, { forceWidth, forceHeight }) {
   const node = parse(source);
 
-  const { properties = {}, children = [] } = node.children[0];
+  const { type, tagName, properties = {}, children = [] } = node.children[0];
+
+  if (type !== "element") {
+    console.warn(
+      "[svgrData/convert] unexcepted root children. node=%o",
+      node
+    );
+    process.exit(1);
+    return;
+  } 
 
   if (!children) {
     console.warn(
@@ -60,8 +71,9 @@ function convertSvgData(name, source, { forceWidth, forceHeight }) {
 
   const result = {
     name,
-    width: properties.width || 24,
-    height: properties.height || 24,
+    width: properties.width,
+    height: properties.height,
+    viewBox: properties.viewBox,
     data: children.filter(filterOnlyElement).map(getChildrenData),
   };
 

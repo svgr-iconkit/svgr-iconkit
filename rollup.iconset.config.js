@@ -1,3 +1,4 @@
+
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import sourceMaps from "rollup-plugin-sourcemaps";
@@ -12,6 +13,11 @@ const globals = {
   react: "React",
   "react-native-svg": "ReactNativeSVG",
 };
+const packageBasedSourcemapPathTransform = (packageName, relativeSourcePath) => {
+  const output = String(relativeSourcePath).replace(/\.\.\/(src|node_modules)/g, `${packageName}/$1`);
+  // console.log("package=%s, relative=%s, path=%s", packageName, relativeSourcePath, output);
+  return output;
+};
 
 export const createRollupConfig = ({
   libraryName,
@@ -20,6 +26,7 @@ export const createRollupConfig = ({
   module: modulePath,
   plugins = [],
 }) => {
+  const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) => packageBasedSourcemapPathTransform(libraryName, relativeSourcePath, sourcemapPath);
   const defaultExport = {
     input: entry,
     output: [
@@ -28,9 +35,16 @@ export const createRollupConfig = ({
         name: camelCase(libraryName),
         format: "commonjs",
         sourcemap: true,
+        sourcemapPathTransform,
         globals,
       },
-      { file: modulePath, format: "es", sourcemap: true, globals },
+      {
+        file: modulePath,
+        format: "es",
+        sourcemap: true,
+        sourcemapPathTransform,
+        globals,
+      },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [],
