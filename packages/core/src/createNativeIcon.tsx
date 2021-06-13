@@ -92,7 +92,7 @@ export const createNativeIcon: CreateIconFactoryType = ({
   }
   SVGContent.displayName = name;
 
-  return React.forwardRef(React.memo(SVGContent));
+  return React.memo(React.forwardRef(SVGContent));
 };
 
 export default createNativeIcon;
