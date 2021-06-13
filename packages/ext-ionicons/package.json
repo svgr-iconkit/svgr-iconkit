@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/ionicons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Ionicons SVGR iconset",
   "keywords": [
     "SVG",
@@ -29,7 +29,7 @@
     "react-native-svg": "^12.1.1"
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.4"
+    "@svgr-iconkit/core": "^0.1.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -42,8 +42,8 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/cli": "^0.1.4",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.4",
+    "@svgr-iconkit/cli": "^0.1.5",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.5",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "ionicons": "^5.5.1",
