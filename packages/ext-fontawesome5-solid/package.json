@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontawesome5-solid",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "FontAwesome5 (solid) SVGR iconset",
   "keywords": [
     "SVG",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@svgr-iconkit/core": "^0.1.7",
+    "@svgr-iconkit/core": "^0.1.8",
     "change-case": "^4.1.2"
   },
   "devDependencies": {
