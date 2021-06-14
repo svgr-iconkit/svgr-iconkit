@@ -33,7 +33,9 @@ function getChildrenData(node) {
     .forEach((propertyName) => {
       attrs[propertyName] = properties[propertyName];
     });
-    
+  if ( attrs.fill ) {
+    attrs.fill = 'currentColor';
+  }
 
   const hasChildren =
     children && Array.isArray(children) && children.length > 0;
@@ -74,6 +76,7 @@ function convertSvgData(name, source, { forceWidth, forceHeight }) {
     width: properties.width,
     height: properties.height,
     viewBox: properties.viewBox,
+    attrs: properties,
     data: children.filter(filterOnlyElement).map(getChildrenData),
   };
 

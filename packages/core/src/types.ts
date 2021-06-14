@@ -1,4 +1,4 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 
 export type IconComponentClass<IconNames extends string, IconVariant extends string> = React.ForwardRefExoticComponent<IconsetProps<IconNames, IconVariant>>;
 
@@ -13,6 +13,7 @@ export type IconsetSVG = {
   viewBox?: string;
   width?: string | number;
   height?: string | number;
+  attrs?: any;
   data: IconsetSVGNode[];
 };
 
@@ -27,7 +28,7 @@ export interface IconsetBaseProps<IconNames extends string, IconVariant extends 
   height?: string | number;
   className?: string | number;
   variant?: IconVariant;
-  style?: string | object;
+  style?: Record<string, any>;
   id?: string;
   fill?: string;
   stroke?: string;

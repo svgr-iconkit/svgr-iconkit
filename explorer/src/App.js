@@ -28,6 +28,7 @@ export default function App() {
   const [iconSize, setIconSize] = useState(24);
   const [iconColor, setIconColor] = useState("#0693E3");
   const [isColorPickerOpen, setColorPickerOpen] = useState(false);
+  const [isUsingStyledComponent, setUsingStyledComponent] = useState(true);
 
   const iconsetInfo = iconsets[currentIconsetIndex] || {};
 
@@ -49,7 +50,22 @@ export default function App() {
           <aside>
             <div style={{ marginBottom: 20 }}>
               <h1>svgr-iconkit</h1>
-
+              <i>SVG Iconkit for React</i>
+              <p>
+                Inspired by{" "}
+                <a href="https://github.com/gregberge/svgr" target="_blank">
+                  gregberge/svgr
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://github.com/oblador/react-native-vector-icons"
+                  target="_blank"
+                >
+                  oblador/react-native-vector-icons
+                </a>
+                , the kit set for rendering SVG based icon content in
+                React.js/React-Native.
+              </p>
               <Form>
                 <FormGroup>
                   <Input
@@ -77,9 +93,6 @@ export default function App() {
             <Toolbar>
               <div>
                 <ButtonGroup>
-                  <Button color="default" disabled>
-                    Size
-                  </Button>
                   {[16, 24, 32, 48].map((value) => (
                     <Button
                       onClick={() => setIconSize(value)}
@@ -87,6 +100,24 @@ export default function App() {
                       color={iconSize === value ? "primary" : "default"}
                     >
                       {value}
+                    </Button>
+                  ))}
+                </ButtonGroup>
+              </div>
+              <div>
+                <ButtonGroup>
+                  {[
+                    { value: true, label: "styled-component" },
+                    { value: false, label: "props" },
+                  ].map(({ value, label }) => (
+                    <Button
+                      onClick={() => setUsingStyledComponent(value)}
+                      key={`$stylingprops-${value}`}
+                      color={
+                        isUsingStyledComponent === value ? "primary" : "default"
+                      }
+                    >
+                      {label}
                     </Button>
                   ))}
                 </ButtonGroup>
@@ -102,9 +133,6 @@ export default function App() {
                 }
               >
                 <ButtonGroup>
-                  <Button color="default" disabled>
-                    Color
-                  </Button>
                   <Button
                     onClick={() => setColorPickerOpen(true)}
                     color="light"
@@ -144,6 +172,7 @@ export default function App() {
               iconSize={iconSize}
               iconColor={iconColor}
               iconsetInfo={iconsetInfo}
+              isUsingStyledComponent={isUsingStyledComponent}
               matchedIconNames={matchedIconNames}
               maxIconsShown={maxIconsShown}
               isSearchMode={isSearchMode}

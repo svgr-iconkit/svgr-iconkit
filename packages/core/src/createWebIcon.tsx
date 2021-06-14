@@ -1,7 +1,6 @@
 import React from "react";
 import { CreateIconFactoryType, IconsetSVG, IconsetSVGNode } from "./types";
-import { camelCase } from "change-case";
-import { removePx } from "./utils";
+import { convertReactProps, removePx } from "./utils";
 
 const filterNode = (node: IconsetSVGNode) => node.tagName !== "title";
 
@@ -10,8 +9,10 @@ export const createWebIcon: CreateIconFactoryType = ({
   viewBox,
   width: orgWidth,
   height: orgHeight,
+  attrs = {},
   data = [],
 }: IconsetSVG) => {
+  const { viewBox: _viewBox, width: _width, height: _height, ...restAttrs } = attrs;
   /**
    * Travel children node
    */
@@ -25,13 +26,8 @@ export const createWebIcon: CreateIconFactoryType = ({
       if (children && children.length > 0) {
         childrenNodes = renderChildren(children, nodeKey);
       }
-      const _props: any = {
+      const _props: any = convertReactProps(attrs, {
         key: nodeKey,
-      };
-
-      Object.keys(attrs).forEach((propName) => {
-        const convertedName = camelCase(propName);
-        _props[convertedName] = attrs[propName];
       });
 
       return React.createElement(tagName, _props, ...childrenNodes);
@@ -45,6 +41,7 @@ export const createWebIcon: CreateIconFactoryType = ({
     return (
       <svg
         viewBox={viewBox || `0 0 ${removePx(orgWidth)} ${removePx(orgHeight)}`}
+        {...convertReactProps(restAttrs)}
         ref={svgRef}
         {...props}
       >

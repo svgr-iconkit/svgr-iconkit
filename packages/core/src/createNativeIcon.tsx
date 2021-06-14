@@ -24,7 +24,7 @@ import Svg, {
 } from "react-native-svg";
 import { camelCase } from "change-case";
 import { CreateIconFactoryType, IconsetSVG, IconsetSVGNode } from "./types";
-import { removePx } from "./utils";
+import { convertReactProps, removePx } from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
   path: Path,
@@ -59,8 +59,10 @@ export const createNativeIcon: CreateIconFactoryType = ({
   viewBox,
   width: orgWidth,
   height: orgHeight,
+  attrs = {},
   data = [],
 }: IconsetSVG) => {
+  const { viewBox: _viewBox, width: _width, height: _height, ...restAttrs } = attrs;
   /**
    * Travel children node
    */
@@ -71,12 +73,8 @@ export const createNativeIcon: CreateIconFactoryType = ({
       const NodeComponent = NodeComponentMap[tagName.toLowerCase()];
       const nodeKey = `${parentKey}/$${tagName}_${index}`;
 
-      const _props: any = {
+      const _props: any = convertReactProps(attrs, {
         key: nodeKey,
-      };
-      Object.keys(attrs).forEach((propName) => {
-        const convertedName = camelCase(propName);
-        _props[convertedName] = attrs[propName];
       });
       return (
         <NodeComponent  {..._props}>
@@ -93,6 +91,7 @@ export const createNativeIcon: CreateIconFactoryType = ({
     return (
       <Svg
         viewBox={viewBox || `0 0 ${removePx(orgWidth)} ${removePx(orgHeight)}`}
+        {...convertReactProps(restAttrs)}
         ref={svgRef}
         {...props}
       >

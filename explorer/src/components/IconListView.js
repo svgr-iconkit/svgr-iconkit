@@ -1,5 +1,15 @@
 import { Button } from "@bootstrap-styled/v4";
 
+import styled from "styled-components";
+
+const IconWrapper = styled.div`
+svg {
+  color: ${({color}) => color};
+  width: ${({size}) => size}px;
+  height: ${({size}) => size}px;
+}
+`;
+
 export default function IconListView({
   iconsetInfo,
   matchedIconNames,
@@ -8,16 +18,27 @@ export default function IconListView({
   iconSize,
   iconColor,
   isSearchMode = false,
+  isUsingStyledComponent = false,
   maxIconsShown = 50,
   onShowMore,
 }) {
   const { iconNames, component: IconComponent, } = iconsetInfo;
+
+  const styledProps: any = {};
+  const iconProps: any = {};
+  if ( isUsingStyledComponent ) {
+    styledProps.size = iconSize;
+    styledProps.color = iconColor;
+  } else {
+    iconProps.size = iconSize;
+    iconProps.color = iconColor;
+  }
   return (
-    <>
+    <IconWrapper {...styledProps}>
       <ul className="list">
         {matchedIconNames.slice(0, maxIconsShown).map((name) => (
           <li key={name} className="item">
-            <div className="graphic">{IconComponent && <IconComponent variant={variantName} size={iconSize} name={name} color={iconColor} />}</div>
+            <div className="graphic">{IconComponent && <IconComponent variant={variantName}  name={name} {...iconProps} />}</div>
             <div className="text">
               <code>{name}</code>
             </div>
@@ -32,6 +53,6 @@ export default function IconListView({
           </div>
         </>
       )}
-    </>
+    </IconWrapper>
   );
 }

@@ -31,7 +31,7 @@ export function createIconsetFactory<
   ) => {
 
 
-    const { name, variant = _defaultVariant, size = 24, color = '#000', ...restProps } = props;
+    const { name, variant = _defaultVariant, size, style, color , ...restProps } = props;
     const iconComponentConfig =
       _variants.length > 0 && _map[variant] ? _map[variant][name] : _map[name];
     if (!iconComponentConfig) {
@@ -43,12 +43,24 @@ export function createIconsetFactory<
       return null;
     }
     const otherProps: any = {};
+    const internalStyle: any = {};
     if ( size ) {
-      otherProps.width = size;
-      otherProps.height = size;
+      internalStyle.width = size;
+      internalStyle.height = size;
+    }
+    if ( !iconComponentConfig.attrs || iconComponentConfig.attrs.fill !== "none") {
+      otherProps.fill = "currentColor";
     }
     if (color) {
-      otherProps.fill = color;
+      // For some iconset, they use stroke to styling and cannot use fill properties
+      if ( !iconComponentConfig.attrs || iconComponentConfig.attrs.fill !== "none") {
+        otherProps.fill = color;
+      }
+      internalStyle.color = color;
+    }
+    otherProps.style = {
+      ...internalStyle,
+      ...(style || {}),
     }
 
     const displayName = `${name}.${variant}`;
