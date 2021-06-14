@@ -26,12 +26,14 @@ const createWebExample = ({
   packageName,
   variantName = "regular",
   iconName = "arrow-left",
+  iconSize = 24,
+  iconColor = '#000',
 }) => `
 import Icon from '${packageName}';
 
 export default function App() {
   return (<div>
-    <Icon name="${iconName}" variant="${variantName}" width="2em" height="2em" marginRight={2} />
+    <Icon name="${iconName}" variant="${variantName}" size="${iconSize}" color="${iconColor}" />
   </div>)
 }
 `;
@@ -39,13 +41,15 @@ const createNativeExample = ({
   packageName,
   variantName = "regular",
   iconName = "arrow-left",
+  iconSize = 24,
+  iconColor = '#000',
 }) => `
 import { View } from 'react-native';
 import Icon from '${packageName}/native';
 
 export default function App() {
   return (<View>
-    <Icon name="${iconName}" variant="${variantName}" width={24} height={24} fill="blue" />
+    <Icon name="${iconName}" variant="${variantName}" size="${iconSize}" color="${iconColor}" />
   </View>)
 }
 `;
@@ -54,6 +58,8 @@ export default function IconsetPanel({
   onVariantChange,
   variantName,
   iconsetInfo,
+  iconSize,
+  iconColor,
 }) {
   const {
     name: familyName,
@@ -61,7 +67,7 @@ export default function IconsetPanel({
     variantNames = [],
     iconNames = [],
   } = iconsetInfo;
-  const options = { packageName, variantName, iconName: iconNames[0] };
+  const options = { packageName, variantName, iconName: iconNames[0], iconColor, iconSize };
   const codeWeb = createWebExample(options);
   const codeNative = createNativeExample(options);
 

@@ -87,6 +87,8 @@ export default function App() {
               onKeywordChange={setKeyword}
               onVariantChange={setVariant}
               iconsetInfo={iconsetInfo}
+              iconSize={iconSize}
+              iconColor={iconColor}
             />
           </aside>
           <main>
@@ -107,7 +109,7 @@ export default function App() {
               <div>
                 <ButtonGroup>
                   {[
-                    { value: true, label: "styled-component" },
+                    { value: true, label: "styled-components" },
                     { value: false, label: "props" },
                   ].map(({ value, label }) => (
                     <Button
