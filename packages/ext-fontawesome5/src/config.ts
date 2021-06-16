@@ -1,4 +1,4 @@
-import { IconsetSVG, IconsMapType } from "@svgr-iconkit/core";
+import { IconSVG, IconsMapType } from "@svgr-iconkit/core";
 import * as AllRegularIcons from "@fortawesome/free-regular-svg-icons";
 import * as AllSolidIcons from "@fortawesome/free-solid-svg-icons";
 export const familyName: string = "FontAwesome5";
@@ -24,7 +24,7 @@ const buildVariantMap = (name: string, iconName: string, source: any) => {
     "",
   ];
 
-  const iconConfig: IconsetSVG = {
+  const iconConfig: IconSVG = {
     name: iconName,
     width,
     height,

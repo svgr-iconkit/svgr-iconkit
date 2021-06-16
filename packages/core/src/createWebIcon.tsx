@@ -1,8 +1,8 @@
 import React from "react";
-import { CreateIconFactoryType, IconsetSVG, IconsetSVGNode } from "./types";
+import { CreateIconFactoryType, IconBaseProps, IconSVG, IconSVGNode } from "./types";
 import { convertReactProps, removePx } from "./utils";
 
-const filterNode = (node: IconsetSVGNode) => node.tagName !== "title";
+const filterNode = (node: IconSVGNode) => node.tagName !== "title";
 
 export const createWebIcon: CreateIconFactoryType = ({
   name,
@@ -11,7 +11,7 @@ export const createWebIcon: CreateIconFactoryType = ({
   height: orgHeight,
   attrs = {},
   data = [],
-}: IconsetSVG) => {
+}: IconSVG) => {
   const { viewBox: _viewBox, width: _width, height: _height, ...restAttrs } = attrs;
   /**
    * Travel children node
@@ -53,5 +53,11 @@ export const createWebIcon: CreateIconFactoryType = ({
 
   return React.memo(React.forwardRef(SVGContent));
 };
+
+
+export function WebIcon({content, ...restProps}: {content: IconSVG} & IconBaseProps) {
+  const Icon = createWebIcon(content);
+  return <Icon {...restProps} />;
+}
 
 export default createWebIcon;

@@ -22,8 +22,7 @@ import Svg, {
   TextPath,
   Stop,
 } from "react-native-svg";
-import { camelCase } from "change-case";
-import { CreateIconFactoryType, IconsetSVG, IconsetSVGNode } from "./types";
+import { CreateIconFactoryType, IconBaseProps, IconsetBaseProps, IconSVG, IconSVGNode } from "./types";
 import { convertReactProps, removePx } from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
@@ -51,7 +50,7 @@ const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
 
 const supportedNodeNames = Object.keys(NodeComponentMap);
 
-const filterNode = (node: IconsetSVGNode) =>
+const filterNode = (node: IconSVGNode) =>
   supportedNodeNames.includes(node.tagName);
 
 export const createNativeIcon: CreateIconFactoryType = ({
@@ -61,7 +60,7 @@ export const createNativeIcon: CreateIconFactoryType = ({
   height: orgHeight,
   attrs = {},
   data = [],
-}: IconsetSVG) => {
+}: IconSVG) => {
   const { viewBox: _viewBox, width: _width, height: _height, ...restAttrs } = attrs;
   /**
    * Travel children node
@@ -103,5 +102,10 @@ export const createNativeIcon: CreateIconFactoryType = ({
 
   return React.memo(React.forwardRef(SVGContent));
 };
+
+export function NativeIcon({content, ...restProps}: {content: IconSVG} & IconBaseProps) {
+  const Icon = createNativeIcon(content);
+  return <Icon {...restProps} />;
+}
 
 export default createNativeIcon;

@@ -37,7 +37,7 @@ const defaultExport = [
     input: "src/index.ts",
     output: [
       {
-        file: pkg.main,
+        file: pkg.commonjs,
         name: camelCase(pkg.name),
         format: "umd",
         sourcemap: true,
@@ -81,7 +81,7 @@ const defaultExport = [
     input: "src/native.ts",
     output: [
       {
-        file: pkg.main.replace("index.js", "native.js"),
+        file: pkg.commonjs.replace("index.js", "native.js"),
         name: camelCase(pkg.name),
         format: "umd",
         sourcemap: true,

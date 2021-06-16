@@ -1,6 +1,6 @@
-import { CreateIconsetOptions } from "./types";
+import { CreateIconsetOptions, IconSVG } from "./types";
 import { createIconsetFactory } from "./createIconsetFactory";
-import { createWebIcon } from "./createWebIcon";
+import { createWebIcon, WebIcon } from "./createWebIcon";
 
 export * from "./types";
 export * from "./createIconsetFactory";
@@ -12,3 +12,5 @@ export function createIconset<
 >(options: CreateIconsetOptions<IconNames, IconVariant>) {
   return createIconsetFactory(options, createWebIcon);
 }
+
+export const Icon = WebIcon;

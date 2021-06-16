@@ -1,6 +1,6 @@
 import { CreateIconsetOptions } from "./types";
 import { createIconsetFactory } from "./createIconsetFactory";
-import { createNativeIcon } from "./createNativeIcon";
+import { createNativeIcon, NativeIcon } from "./createNativeIcon";
 
 export * from "./types";
 export * from "./createIconsetFactory";
@@ -12,3 +12,5 @@ export function createIconset<
 >(options: CreateIconsetOptions<IconNames, IconVariant>) {
   return createIconsetFactory(options, createNativeIcon);
 }
+
+export const Icon = NativeIcon;

@@ -6,13 +6,13 @@ export default [
   createRollupConfig({
     libraryName: pkg.name,
     entry: "./src/index.ts",
-    main: pkg.main,
+    main: pkg.commonjs,
     module: pkg.module,
   }),
   createRollupConfig({
     libraryName: pkg.name,
     entry: "./src/native.ts",
-    main: pkg.main.replace("index.js", "native.js"),
+    main: pkg.commonjs.replace("index.js", "native.js"),
     module: pkg.module.replace("index.js", "native.js"),
   }),
 ];

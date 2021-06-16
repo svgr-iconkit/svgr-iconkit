@@ -3,6 +3,6 @@
   "compilerOptions": {
     "declarationDir": "./lib/types"
   },
-  "include": ["src"],
+  "include": ["src", "native/native.d.ts"],
   "exclude": ["types", "lib"]
 }

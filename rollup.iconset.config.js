@@ -40,7 +40,7 @@ export const createRollupConfig = ({
       },
       {
         file: modulePath,
-        format: "es",
+        format: "esm",
         sourcemap: true,
         sourcemapPathTransform,
         globals,

@@ -1,4 +1,4 @@
-import { IconsetSVG, IconsMapType } from "@svgr-iconkit/core";
+import { IconSVG, IconsMapType } from "@svgr-iconkit/core";
 import * as AllIconsStringMap from "@mdi/js";
 import { paramCase } from "change-case";
 export const familyName: string = "MaterialCommunity";
@@ -6,7 +6,7 @@ export const familyName: string = "MaterialCommunity";
 
 export const map: IconsMapType<string> = {};
 
-export const icons: IconsetSVG[] = Object.keys(AllIconsStringMap)
+export const icons: IconSVG[] = Object.keys(AllIconsStringMap)
   .filter((name) => name.startsWith("mdi") && name.length > 3)
   .map((name) => {
     const iconName = paramCase(name.replace(/^mdi/, ""));
@@ -14,7 +14,7 @@ export const icons: IconsetSVG[] = Object.keys(AllIconsStringMap)
     const width = 24;
     const height = 24;
 
-    const iconConfig: IconsetSVG = {
+    const iconConfig: IconSVG = {
       name: iconName,
       width,
       height,

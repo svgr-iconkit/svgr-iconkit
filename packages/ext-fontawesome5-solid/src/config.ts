@@ -1,10 +1,10 @@
-import { IconsetSVG, IconsMapType } from "@svgr-iconkit/core";
+import { IconSVG, IconsMapType } from "@svgr-iconkit/core";
 import * as AllIcons from "@fortawesome/free-solid-svg-icons";
 export const familyName: string = "FontAwesome5-Solid";
 
 export const map: IconsMapType<string> = {};
 
-export const icons: IconsetSVG[] = Object.keys(AllIcons)
+export const icons: IconSVG[] = Object.keys(AllIcons)
 
   .filter((name) => name.startsWith("fa") && name.length > 3)
   .map((name) => {
@@ -17,7 +17,7 @@ export const icons: IconsetSVG[] = Object.keys(AllIcons)
       "",
     ];
 
-    const iconConfig: IconsetSVG = {
+    const iconConfig: IconSVG = {
       name: iconName,
       width,
       height,
