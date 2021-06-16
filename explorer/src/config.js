@@ -20,7 +20,8 @@ export const iconsets = [
     packageName: "@svgr-iconkit/fontawesome5-brands",
     name: "FontAwesome5 - Brands",
     component: FABIconKit.Iconset,
-    iconNames: Object.keys(FABIconKit.map)
+    variantNames: Object.keys(FABIconKit.map),
+    iconNames: Object.keys(FABIconKit.map.regular)
   },
   {
     packageName: "@svgr-iconkit/fluentui-system",
@@ -33,19 +34,22 @@ export const iconsets = [
     packageName: "@svgr-iconkit/feather",
     name: "Feather",
     component: FeatherIconKit.Iconset,
-    iconNames: Object.keys(FeatherIconKit.map)
+    variantNames: Object.keys(FeatherIconKit.map),
+    iconNames: Object.keys(FeatherIconKit.map.regular)
   },
   {
     packageName: "@svgr-iconkit/foundation",
     name: "Foundation",
     component: FoundationIconKit.Iconset,
-    iconNames: Object.keys(FoundationIconKit.map)
+    variantNames: Object.keys(FoundationIconKit.map),
+    iconNames: Object.keys(FoundationIconKit.map.regular)
   },
   {
     packageName: "@svgr-iconkit/entypo",
     name: "Entypo",
     component: EntypoIconKit.Iconset,
-    iconNames: Object.keys(EntypoIconKit.map)
+    variantNames: Object.keys(EntypoIconKit.map),
+    iconNames: Object.keys(EntypoIconKit.map.regular)
   },
   {
     packageName: "@svgr-iconkit/ionicons",
@@ -58,6 +62,7 @@ export const iconsets = [
     packageName: "@svgr-iconkit/material-community",
     name: "Material Community",
     component: MaterialCommunityIconKit.Iconset,
-    iconNames: Object.keys(MaterialCommunityIconKit.map)
+    variantNames: Object.keys(MaterialCommunityIconKit.map),
+    iconNames: Object.keys(MaterialCommunityIconKit.map.regular)
   }
 ];

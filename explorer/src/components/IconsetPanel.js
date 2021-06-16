@@ -29,11 +29,12 @@ const createWebExample = ({
   iconSize = 24,
   iconColor = '#000',
 }) => `
+import React from 'react';
 import Icon from '${packageName}';
 
 export default function App() {
   return (<div>
-    <Icon name="${iconName}" variant="${variantName}" size="${iconSize}" color="${iconColor}" />
+    <Icon name="${iconName}" variant="${variantName}" size={${iconSize}} color="${iconColor}" />
   </div>)
 }
 `;
@@ -44,12 +45,13 @@ const createNativeExample = ({
   iconSize = 24,
   iconColor = '#000',
 }) => `
+import React from 'react';
 import { View } from 'react-native';
-import Icon from '${packageName}/native';
+import Icon from '${packageName}';
 
 export default function App() {
   return (<View>
-    <Icon name="${iconName}" variant="${variantName}" size="${iconSize}" color="${iconColor}" />
+    <Icon name="${iconName}" variant="${variantName}" size={${iconSize}} color="${iconColor}" />
   </View>)
 }
 `;

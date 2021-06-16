@@ -33,7 +33,7 @@ function getChildrenData(node) {
     .forEach((propertyName) => {
       attrs[propertyName] = properties[propertyName];
     });
-  if ( attrs.fill ) {
+  if ( attrs.fill && attrs.fill !== "none" ) {
     attrs.fill = 'currentColor';
   }
 

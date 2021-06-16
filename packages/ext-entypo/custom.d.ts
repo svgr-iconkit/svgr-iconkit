@@ -1,5 +1,5 @@
 declare module "*.svg"  {
-  import { IconsetSVG } from "@svgr-iconkit/core";
-  const content: IconsetSVG;
+  import { IconSVG } from "@svgr-iconkit/core";
+  const content: IconSVG;
   export default content;
 }
