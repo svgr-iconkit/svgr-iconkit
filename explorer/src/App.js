@@ -8,7 +8,7 @@ import {
   InputGroup,
   Option,
 } from "@bootstrap-styled/v4";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { TwitterPicker } from "react-color";
 import IconsetListView from "./components/IconListView";
 import IconsetInfoPanel from "./components/IconsetPanel";
@@ -30,6 +30,9 @@ export default function App() {
   const [isColorPickerOpen, setColorPickerOpen] = useState(false);
   const [isUsingStyledComponent, setUsingStyledComponent] = useState(true);
 
+  const [, setUpdateTime] = useState(0);
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const iconsetInfo = iconsets[currentIconsetIndex] || {};
 
   const { iconNames = [] } = iconsetInfo;
@@ -41,6 +44,25 @@ export default function App() {
   const matchedIconNames = !isSearchMode
     ? iconNames
     : iconNames.filter((name) => name.includes(keyword));
+
+
+  useEffect(() => {
+    if (!iconsetInfo.resources || typeof iconsetInfo.resources !== "function" || iconsetInfo.__loaded){
+      return;
+    }
+    async function run() {
+      const { Icon, ...restProps } = await iconsetInfo.resources(); 
+
+      iconsets[currentIconsetIndex] = {
+        ...iconsetInfo,
+        component: Icon,
+        __loaded: true,
+        ...restProps,
+      };
+      setUpdateTime(Date.now());
+    }
+    run();
+  }, [iconsetInfo, currentIconsetIndex]);
 
   const onShowMore = () => setMaxIconsShown(maxIconsShown + 50);
   return (
