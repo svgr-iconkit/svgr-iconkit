@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontawesome5",
-  "version": "0.1.9-alpha.0",
+  "version": "0.1.9-alpha.1",
   "description": "FontAwesome (regular) SVGR iconset",
   "keywords": [
     "SVG",
@@ -38,7 +38,7 @@
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@svgr-iconkit/core": "^0.1.9-alpha.0"
+    "@svgr-iconkit/core": "^0.1.9-alpha.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
