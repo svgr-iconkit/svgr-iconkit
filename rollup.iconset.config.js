@@ -23,7 +23,9 @@ export const createRollupConfig = ({
   libraryName,
   entry,
   main,
-  module: modulePath,
+  mainDir, 
+  module,
+  moduleDir, 
   plugins = [],
 }) => {
   const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) => packageBasedSourcemapPathTransform(libraryName, relativeSourcePath, sourcemapPath);
@@ -31,7 +33,8 @@ export const createRollupConfig = ({
     input: entry,
     output: [
       {
-        file: main,
+        file: mainDir ? undefined:  main,
+        dir: mainDir,
         name: camelCase(libraryName),
         format: "commonjs",
         sourcemap: true,
@@ -39,7 +42,8 @@ export const createRollupConfig = ({
         globals,
       },
       {
-        file: modulePath,
+        file: moduleDir ? undefined: module,
+        dir: moduleDir,
         format: "esm",
         sourcemap: true,
         sourcemapPathTransform,

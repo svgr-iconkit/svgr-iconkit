@@ -59,10 +59,10 @@ function svgrDataPlugin(options = {}) {
 
       if (babel) {
         const { code } = await transformAsync(jsCode, babelOptions);
-        return { code, map: { mappings: "" } };
+        return { code, map: null };
       }
 
-      return { ast, code: jsCode, map: { mappings: "" } };
+      return { ast, code: jsCode, map: null };
     },
   };
 }

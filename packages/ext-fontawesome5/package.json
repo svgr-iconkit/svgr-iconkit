@@ -9,26 +9,27 @@
   "author": "leman <leman@lmswork.com>",
   "homepage": "https://github.com/lemankk/svgr-iconkit",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index",
   "commonjs": "lib/commonjs/index.js",
   "module": "lib/es/index.js",
+  "types": "index",
   "directories": {
     "lib": "lib",
     "native": "native"
   },
   "files": [
-    "native",
     "lib",
+    "native",
     "index.js",
     "index.ios.js",
     "index.android.js",
     "index.native.js",
+    "index.native.d.ts",
     "index.d.ts",
     "native.js",
     "native.d.ts",
     "README.md"
   ],
-  "types": "./index.d.ts",
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.1.1",
     "react": "^16.8.0 || ^17.0.1",

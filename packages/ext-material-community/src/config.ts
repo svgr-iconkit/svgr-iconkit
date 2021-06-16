@@ -3,10 +3,17 @@ import * as AllIconsStringMap from "@mdi/js";
 import { paramCase } from "change-case";
 export const familyName: string = "MaterialCommunity";
 
+export type VariantNames = "regular";
 
-export const map: IconsMapType<string> = {};
+export const variants: VariantNames[] = ["regular"];
 
-export const icons: IconSVG[] = Object.keys(AllIconsStringMap)
+export const defaultVariant: VariantNames = "regular";
+
+export const map: Record<VariantNames, IconsMapType<string>> = {
+  regular: {},
+};
+
+const icons: IconSVG[] = Object.keys(AllIconsStringMap)
   .filter((name) => name.startsWith("mdi") && name.length > 3)
   .map((name) => {
     const iconName = paramCase(name.replace(/^mdi/, ""));
@@ -21,7 +28,7 @@ export const icons: IconSVG[] = Object.keys(AllIconsStringMap)
       data: [{ tagName: "path", attrs: { d: path } }],
     };
 
-    map [ iconName] = iconConfig;
+    map[defaultVariant][iconName] = iconConfig;
 
     return iconConfig;
   });

@@ -1,10 +1,17 @@
-import { IconsIconSVGetSVG, IconsMapType } from "@svgr-iconkit/core";
+import { IconsMapType, IconSVG } from "@svgr-iconkit/core";
 import * as AllIcons from "@fortawesome/free-brands-svg-icons";
 export const familyName: string = "FontAwesome5-Brands";
 
-export const map: IconsMapType<string> = {};
+export type VariantNames = "regular";
 
-export const icons: IconSVG[] = Object.keys(AllIcons)
+export const variants: VariantNames[] = ["regular"];
+
+export const defaultVariant: VariantNames = "regular";
+
+export const map: Record<VariantNames, IconsMapType<string>> = {
+  regular: {},
+};
+Object.keys(AllIcons)
 
   .filter((name) => name.startsWith("fa") && name.length > 3)
   .map((name) => {
@@ -24,7 +31,7 @@ export const icons: IconSVG[] = Object.keys(AllIcons)
       data: [{ tagName: "path", attrs: { d: path } }],
     };
 
-    map[iconName] = iconConfig;
+    map[defaultVariant][iconName] = iconConfig;
 
     return iconConfig;
   });
