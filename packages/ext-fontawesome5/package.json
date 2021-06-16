@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontawesome5",
-  "version": "0.1.9-alpha.2",
+  "version": "0.1.9",
   "description": "FontAwesome (regular) SVGR iconset",
   "keywords": [
     "SVG",
