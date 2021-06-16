@@ -31,5 +31,5 @@ Support below iconset:
 ---
 ## Other topics
 
-- [Iconset Explorer](https://svgr-iconkit.dpdw.dev/explorer/)
+- [Iconset Explorer](https://svgr-iconkit.dev/explorer/)
 - [Create owned iconset](/docs/CreateOwnedIconset.md)
