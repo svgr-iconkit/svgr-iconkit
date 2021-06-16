@@ -1,17 +1,5 @@
 import { createIconset } from "@svgr-iconkit/core";
-import {
-  familyName,
-  IconNames,
-  IconVariant,
-  map,
-  defaultVariant,
-  variants,
-} from "./config";
+import { familyName, IconNames, map, IconVariant, variants, defaultVariant } from "./config";
 export * from "./config";
-export const Iconset = createIconset<IconNames, IconVariant>({
-  familyName,
-  map,
-  defaultVariant,
-  variants,
-});
+export const Iconset = createIconset<IconNames, IconVariant>({ familyName, map, variants, defaultVariant});
 export default Iconset;

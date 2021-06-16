@@ -2,13 +2,13 @@ import { IconsMapType, IconSVG } from "@svgr-iconkit/core";
 import * as AllIcons from "@fortawesome/free-brands-svg-icons";
 export const familyName: string = "FontAwesome5-Brands";
 
-export type VariantNames = "regular";
+export type IconVariant = "regular";
 
-export const variants: VariantNames[] = ["regular"];
+export const variants: IconVariant[] = ["regular"];
 
-export const defaultVariant: VariantNames = "regular";
+export const defaultVariant: IconVariant = "regular";
 
-export const map: Record<VariantNames, IconsMapType<string>> = {
+export const map: Record<IconVariant, IconsMapType<string>> = {
   regular: {},
 };
 Object.keys(AllIcons)
