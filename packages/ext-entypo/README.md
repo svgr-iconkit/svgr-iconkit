@@ -19,7 +19,7 @@ export default function App() {
 
 ```javascript
 import { View } from "react-native";
-import Icon from '@svgr-iconkit/feather/native';
+import Icon from '@svgr-iconkit/feather';
 
 export default function App() {
   return <View><Icon name="heart" /></View>

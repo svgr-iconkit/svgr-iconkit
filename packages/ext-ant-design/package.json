@@ -1,0 +1,85 @@
+{
+  "name": "@svgr-iconkit/ant-design",
+  "version": "0.1.9",
+  "description": "AntDesignIcon SVGR iconset",
+  "keywords": [
+    "SVG",
+    "Icons"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "commonjs": "lib/commonjs/index.js",
+  "module": "lib/es/index.js",
+  "types": "index",
+  "directories": {
+    "lib": "lib",
+    "native": "native"
+  },
+  "files": [
+    "lib",
+    "native",
+    "index.js",
+    "index.ios.js",
+    "index.android.js",
+    "index.native.js",
+    "index.native.d.ts",
+    "index.d.ts",
+    "native.js",
+    "native.d.ts",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@svgr-iconkit/core": "^0.1.1",
+    "react": "^16.8.0 || ^17.0.1",
+    "react-native-svg": "^12.1.0"
+  },
+  "dependencies": {
+		"@ant-design/icons-svg": "^4.1.0",
+    "@svgr-iconkit/core": "^0.1.9"
+  },
+  "devDependencies": {
+    
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-typescript": "^7.14.4",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@svgr-iconkit/cli": "^0.1.5",
+    "@svgr-iconkit/build-utils": "^0.1.0",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.9",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.9",
+    "npm-run-all": "^4.1.5",
+    "react": "16.13.1",
+    "react-native-svg": "12.1.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.50.4",
+    "rollup-plugin-dts": "^3.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "terser": "^5.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "iconsmap:prepare": "rm -rf ./tmp",
+    "iconsmap:copy:filled": "mkdir -p ./tmp/filled; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/filled/*.svg ./tmp/filled",
+    "iconsmap:copy:outlined": "mkdir -p ./tmp/outlined; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/filled/*.svg ./tmp/outlined",
+    "iconsmap:copy:twotone": "mkdir -p ./tmp/twotone; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/twotone/*.svg ./tmp/twotone",
+    "iconsmap:copy": "npm-run-all iconsmap:copy:filled iconsmap:copy:outlined iconsmap:copy:twotone",
+    "iconsmap:create:filled": "svgr-iconkit build-map ./tmp/filled ./src/icons-filled.ts",
+    "iconsmap:create:outlined": "svgr-iconkit build-map ./tmp/outlined ./src/icons-outlined.ts",
+    "iconsmap:create:twotone": "svgr-iconkit build-map ./tmp/twotone ./src/icons-twotone.ts",
+    "iconsmap:create": "npm-run-all iconsmap:create:filled iconsmap:create:outlined iconsmap:create:twotone",
+    "build:map": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist",
+    "build": "rollup -c"
+  }
+}

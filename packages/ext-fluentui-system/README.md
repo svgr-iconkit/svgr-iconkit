@@ -19,7 +19,7 @@ export default function App() {
 
 ```javascript
 import { View } from "react-native";
-import Icon from '@svgr-iconkit/fluentui-system/native';
+import Icon from '@svgr-iconkit/fluentui-system';
 
 export default function App() {
   return <View><Icon name="heart" /></View>

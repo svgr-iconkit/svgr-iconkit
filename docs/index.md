@@ -26,6 +26,8 @@ Support below iconset:
 | [@svgr-iconkit/fontawesome-brands](https://github.com/lemankk/svgr-iconkit/tree/main/packages/ext-fontawesome-brands) | FontAwesome5-Brands | Fonticons, Inc. (v5.13.0) |
 | [@svgr-iconkit/ionicons](https://github.com/lemankk/svgr-iconkit/tree/main/packages/ext-ionicons) | Ionicons | Iconic Framework (v5.5.1) |
 | [@svgr-iconkit/material-community](https://github.com/lemankk/svgr-iconkit/tree/main/packages/ext-material-community) | MaterialCommunity | MaterialDesignIcons.com 5.3.45 |
+| [@svgr-iconkit/ant-design](/packages/ext-ant-design) | Ant Design Icons | [Ant Design Icons](https://github.com/ant-design/ant-design-icons) 4.0.0 |
+| [@svgr-iconkit/octicons](/packages/ext-octicons) | Octicons | [Primer](https://github.com/primer/octicons) 14.2.2 |
 
 
 ---

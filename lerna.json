@@ -2,5 +2,10 @@
   "packages": [
     "packages/*"
   ],
+  "command": {
+    "publish": {
+      "ignore": ["rollup-plugin-svg-data", "explorer", "expo-explorer"]
+    }
+  },
   "version": "0.1.9"
 }

@@ -26,6 +26,11 @@ export const iconsets = [
     resources: () => import('./iconset/FontAwesome5-brands'),
   },
   {
+    packageName: "@svgr-iconkit/ant-design",
+    name: "Ant Design Icons",
+    resources: () => import('./iconset/AntDesignIcon'),
+  },
+  {
     packageName: "@svgr-iconkit/entypo",
     name: "Entypo",
     resources: () => import('./iconset/Entypo'),
@@ -34,6 +39,11 @@ export const iconsets = [
     packageName: "@svgr-iconkit/ionicons",
     name: "Ionicons",
     resources: () => import('./iconset/Ionicons'),
+  },
+  {
+    packageName: "@svgr-iconkit/octicons",
+    name: "Octicons",
+    resources: () => import('./iconset/Octicons'),
   },
   {
     packageName: "@svgr-iconkit/material-community",

@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/cli",
-  "version": "0.1.5",
+  "version": "0.1.9",
   "description": "Cli for svgr-iconkit",
   "keywords": [
     "SVG",
@@ -11,8 +11,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "bin": {
     "svgr-iconkit": "./bin/svgr-iconkit"
@@ -41,11 +40,7 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@types/node": "^15.6.1",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.50.4",
-    "rollup-plugin-dts": "^3.0.1",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.30.0"
+    "rimraf": "^3.0.2"
   },
   "gitHead": "83cf8b6ba5d12258c694d27bbfbb24b841b99547"
 }

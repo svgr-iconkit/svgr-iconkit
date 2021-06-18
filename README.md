@@ -26,10 +26,12 @@ Support below iconset:
 | [@svgr-iconkit/fontawesome-brands](/packages/ext-fontawesome-brands) | FontAwesome5-Brands | Fonticons, Inc. (v5.13.0) |
 | [@svgr-iconkit/ionicons](/packages/ext-ionicons) | Ionicons | Iconic Framework (v5.5.1) |
 | [@svgr-iconkit/material-community](/packages/ext-material-community) | MaterialCommunity | MaterialDesignIcons.com 5.3.45 |
+| [@svgr-iconkit/ant-design](/packages/ext-ant-design) | Ant Design Icons | [Ant Design Icons](https://github.com/ant-design/ant-design-icons) 4.0.0 |
+| [@svgr-iconkit/octicons](/packages/ext-octicons) | Octicons | [Primer](https://github.com/primer/octicons) 14.2.2 |
 
 
 ---
 ## Other topics
 
-- [Iconset Explorer](https://svgr-iconkit.dpdw.dev/explorer/)
+- [Iconset Explorer](https://svgr-iconkit.dev/explorer/)
 - [Create owned iconset](/docs/CreateOwnedIconset.md)

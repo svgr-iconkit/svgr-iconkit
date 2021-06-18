@@ -19,7 +19,7 @@ export default function App() {
 
 ```javascript
 import { View } from "react-native";
-import Icon from '@svgr-iconkit/fontawesome5/native';
+import Icon from '@svgr-iconkit/fontawesome5';
 
 export default function App() {
   return <View><Icon name="arrow-left" /></View>
