@@ -4,8 +4,12 @@
   ],
   "command": {
     "publish": {
-      "ignore": ["rollup-plugin-svg-data", "explorer", "expo-explorer"]
+      "ignoreChanges": [
+        "rollup-plugin-svg-data",
+        "explorer",
+        "expo-explorer"
+      ]
     }
   },
-  "version": "0.1.9"
+  "version": "0.1.10"
 }
