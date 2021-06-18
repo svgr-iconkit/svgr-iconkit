@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "build": "lerna run build --scope @svgr-iconkit/*"
+    "build": "lerna run build --scope @svgr-iconkit/*",
+    "publish": "lerna publish"
   },
   "devDependencies": {
 		"@ant-design/icons-svg": "^4.1.0",
