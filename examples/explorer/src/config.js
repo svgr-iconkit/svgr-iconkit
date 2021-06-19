@@ -28,6 +28,7 @@ export const iconsets = [
   {
     packageName: "@svgr-iconkit/ant-design",
     name: "Ant Design Icons",
+    defaultVariant: 'filled',
     resources: () => import('./iconset/AntDesignIcon'),
   },
   {

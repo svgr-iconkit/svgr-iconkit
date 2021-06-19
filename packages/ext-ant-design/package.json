@@ -70,7 +70,7 @@
   "scripts": {
     "iconsmap:prepare": "rm -rf ./tmp",
     "iconsmap:copy:filled": "mkdir -p ./tmp/filled; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/filled/*.svg ./tmp/filled",
-    "iconsmap:copy:outlined": "mkdir -p ./tmp/outlined; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/filled/*.svg ./tmp/outlined",
+    "iconsmap:copy:outlined": "mkdir -p ./tmp/outlined; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/outlined/*.svg ./tmp/outlined",
     "iconsmap:copy:twotone": "mkdir -p ./tmp/twotone; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/twotone/*.svg ./tmp/twotone",
     "iconsmap:copy": "npm-run-all iconsmap:copy:filled iconsmap:copy:outlined iconsmap:copy:twotone",
     "iconsmap:create:filled": "svgr-iconkit build-map ./tmp/filled ./src/icons-filled.ts",
@@ -79,6 +79,8 @@
     "iconsmap:create": "npm-run-all iconsmap:create:filled iconsmap:create:outlined iconsmap:create:twotone",
     "build:map": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist",
-    "build": "rollup -c"
-  }
+    "compile": "rollup -c",
+    "build": "npm-run-all build:map compile"
+  },
+  "gitHead": "d4b4bd35669e50fdd9bcb5e7ee925a2d92bb21a4"
 }

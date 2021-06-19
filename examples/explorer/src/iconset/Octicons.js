@@ -1,4 +1,4 @@
-import Iconset, { map } from '@svgr-iconkit/oct-icons';
+import Iconset, { map } from '@svgr-iconkit/octicons';
 
 export const Icon = Iconset;
 export const iconNames = Object.keys(map.regular);

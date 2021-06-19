@@ -81,5 +81,5 @@
     "compile": "rollup -c",
     "build": "npm-run-all iconsmap compile"
   },
-  "gitHead": "83cf8b6ba5d12258c694d27bbfbb24b841b99547"
+  "gitHead": "d4b4bd35669e50fdd9bcb5e7ee925a2d92bb21a4"
 }

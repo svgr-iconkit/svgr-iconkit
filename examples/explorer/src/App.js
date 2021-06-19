@@ -22,7 +22,8 @@ export default function App() {
   const [currentVariant, setVariant] = useState("regular");
   const onChangeIconset = useCallback((newIndex) => {
     setIconsetIndex(newIndex);
-    setVariant("regular");
+    const { defaultVariant = 'regular' } = iconsets[newIndex];
+    setVariant(defaultVariant);
     setMaxIconsShown(100);
   }, []);
   const [iconSize, setIconSize] = useState(24);
