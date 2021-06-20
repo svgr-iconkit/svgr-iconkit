@@ -50,5 +50,36 @@ export const iconsets = [
     packageName: "@svgr-iconkit/material-community",
     name: "Material Community",
     resources: () => import('./iconset/MaterialCommunity'),
+  },
+  {
+    packageName: "@svgr-iconkit/material-design",
+    name: "Material Design Icons",
+    resources: () => import('./iconset/MaterialDesignIcons'),
+  },
+  {
+    packageName: "@svgr-iconkit/bootstrap",
+    name: "Bootstrap Icons",
+    resources: () => import('./iconset/BootstrapIcon'),
+  },
+  {
+    packageName: "@svgr-iconkit/css-gg",
+    name: "css.gg",
+    resources: () => import('./iconset/css.gg'),
+  },
+  {
+    packageName: "@svgr-iconkit/heroicons",
+    name: "Heroicons",
+    defaultVariant: 'solid',
+    resources: () => import('./iconset/Heroicons'),
+  },
+  {
+    packageName: "@svgr-iconkit/simple-icons",
+    name: "Simple Icons",
+    resources: () => import('./iconset/SimpleIcons'),
+  },
+  {
+    packageName: "@svgr-iconkit/typicons",
+    name: "Typicons Icons",
+    resources: () => import('./iconset/Typicons'),
   }
 ];

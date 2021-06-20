@@ -68,11 +68,11 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:create-folder": "rm -rf ./tmp/icons; mkdir -p ./tmp/icons",
+    "iconsmap:prepare": "rm -rf ./tmp/icons; mkdir -p ./tmp/icons",
     "iconsmap:copy": "cp -R ../../node_modules/@primer/octicons/build/svg/*-24.svg ./tmp/icons",
     "iconsmap:create:regular": "svgr-iconkit build-map ./tmp/icons ./src/icons.ts --end-with '-24' --remove-name-suffix '-24'",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
-    "build:map": "npm-run-all iconsmap:create-folder iconsmap:copy iconsmap:create",
+    "build:map": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist",
     "build": "rollup -c"
   },

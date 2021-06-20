@@ -70,13 +70,13 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:create-folder": "mkdir -p ./tmp/icons",
+    "iconsmap:prepare": "mkdir -p ./tmp/icons",
     "iconsmap:copy": "cp -R ../../node_modules/ionicons/dist/svg/*.svg ./tmp/icons",
     "iconsmap:create:sharp": "svgr-iconkit build-map ./tmp/icons ./src/icons-sharp.ts --end-with '-sharp' --remove-name-suffix '-sharp'",
     "iconsmap:create:outline": "svgr-iconkit build-map ./tmp/icons ./src/icons-outline.ts --end-with '-outline' --remove-name-suffix '-outline'",
     "iconsmap:create:regular": "cat ./src/icons-sharp.ts | sed 's/-sharp//g' > ./src/icons-regular.ts",
     "iconsmap:create": "npm-run-all iconsmap:create:sharp iconsmap:create:outline iconsmap:create:regular",
-    "iconsmap": "npm-run-all iconsmap:create-folder iconsmap:copy iconsmap:create",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp",
     "compile": "rollup -c",
     "build": "npm-run-all iconsmap compile"

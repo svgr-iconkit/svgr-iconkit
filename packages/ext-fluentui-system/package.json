@@ -70,11 +70,11 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:create-folder": "mkdir -p ./tmp/icons",
+    "iconsmap:prepare": "mkdir -p ./tmp/icons",
     "iconsmap:copy": "cp -R ../../node_modules/@fluentui/svg-icons/icons/*_24_*.svg ./tmp/icons",
     "iconsmap:create:regular": "svgr-iconkit build-map ./tmp/icons ./src/icons-regular.ts --end-with '_24_regular' --remove-name-suffix '_24_regular'",
     "iconsmap:create:filled": "svgr-iconkit build-map ./tmp/icons ./src/icons-filled.ts --end-with '_24_filled' --remove-name-suffix '_24_filled'",
-    "iconsmap": "npm-run-all iconsmap:create-folder iconsmap:copy iconsmap:create:regular iconsmap:create:filled",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create:regular iconsmap:create:filled",
     "prebuild": "rimraf ./lib ./dist ./tmp",
     "compile": "rollup -c",
     "build": "npm-run-all iconsmap compile"

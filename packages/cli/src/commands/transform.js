@@ -63,7 +63,7 @@ const platforms = {
   },
 };
 module.exports = {
-  name: "transform <familyName> <sourceDir> [platform] [targetDir]",
+  name: commandName +" <familyName> <sourceDir> [platform] [targetDir]",
   options: [],
   exec: async (
     familyName,

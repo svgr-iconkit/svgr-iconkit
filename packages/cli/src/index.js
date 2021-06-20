@@ -7,6 +7,7 @@ program.version(pkg.version);
 const commands = [
   require("./commands/transform"),
   require("./commands/build-map"),
+  require("./commands/deep-copy"),
 ];
 
 commands.forEach((commandConfig) => {
