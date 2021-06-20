@@ -22,6 +22,8 @@ function svgrDataPlugin(options = {}) {
     babel = true,
     forceWidth,
     forceHeight,
+    fillColor = null,
+    strokeColor = null,
   } = options;
 
   return {
@@ -52,6 +54,8 @@ function svgrDataPlugin(options = {}) {
       }
 
       const jsCode = await convertSvgData(name, load, {
+        fillColor,
+        strokeColor,
         forceWidth,
         forceHeight,
       });

@@ -5,6 +5,8 @@ const pkg = require("./package.json");
 
 const plugins = [
   svgData({
+    fillColor: 'currentColor',
+    strokeColor: 'currentColor',
   })
 ];
 

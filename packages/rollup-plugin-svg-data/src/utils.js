@@ -17,12 +17,12 @@ function filterOnlyElement(node) {
   return true;
 }
 
-function getChildrenData(node) {
+function getChildrenData(node, options) {
   if (!node) {
     console.error("Empty node reported");
     throw new Error("Unexcepted undefined node");
   }
-  const {tagName, properties, children} = node;
+  const { tagName, properties, children } = node;
   if (!tagName) {
     console.error("Empty node tagName. node=%o", node);
     throw new Error("Unexcepted node without tagName");
@@ -34,6 +34,20 @@ function getChildrenData(node) {
       attrs[propertyName] = properties[propertyName];
     });
 
+  const { fillColor, strokeColor } = options;
+
+  // Overwrite colors when attributes exist (if non-none)
+  if (fillColor) {
+    if (attrs.fill && attrs.fill !== "none") {
+      attrs.fill = fillColor;
+    }
+  }
+  if (strokeColor) {
+    if (attrs.stroke && attrs.stroke !== "none") {
+      attrs.stroke = strokeColor;
+    }
+  }
+
   const hasChildren =
     children && Array.isArray(children) && children.length > 0;
   return {
@@ -41,23 +55,26 @@ function getChildrenData(node) {
     attrs,
     children: !hasChildren
       ? undefined
-      : children.filter(filterOnlyElement).map(getChildrenData),
+      : children
+          .filter(filterOnlyElement)
+          .map((node) => getChildrenData(node, options)),
   };
 }
 
-function convertSvgData(name, source, { forceWidth, forceHeight }) {
+function convertSvgData(
+  name,
+  source,
+  { fillColor, strokeColor, forceWidth, forceHeight }
+) {
   const node = parse(source);
 
   const { type, tagName, properties = {}, children = [] } = node.children[0];
 
   if (type !== "element") {
-    console.warn(
-      "[svgrData/convert] unexcepted root children. node=%o",
-      node
-    );
+    console.warn("[svgrData/convert] unexcepted root children. node=%o", node);
     process.exit(1);
     return;
-  } 
+  }
 
   if (!children) {
     console.warn(
@@ -74,7 +91,9 @@ function convertSvgData(name, source, { forceWidth, forceHeight }) {
     height: properties.height,
     viewBox: properties.viewBox,
     attrs: properties,
-    data: children.filter(filterOnlyElement).map(getChildrenData),
+    data: children
+      .filter(filterOnlyElement)
+      .map((node) => getChildrenData(node, { fillColor, strokeColor })),
   };
 
   if (forceWidth) {
