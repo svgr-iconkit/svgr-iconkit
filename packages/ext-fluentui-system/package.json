@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fluentui-system",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "FluentUI System Icon SVGR iconset",
   "keywords": [
     "SVG",
@@ -52,7 +52,7 @@
     "@rollup/plugin-typescript": "^8.2.1",
     "@svgr-iconkit/build-utils": "^0.1.11",
     "@svgr-iconkit/cli": "^0.1.11",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.11",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.12",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "npm-run-all": "^4.1.5",
