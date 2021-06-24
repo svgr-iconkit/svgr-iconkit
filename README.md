@@ -10,4 +10,4 @@ It provide below benefits:
 - Easy to integrate with styled-components
 - All content embedded as JS data and ready for CodePush in react native.
 
-*[Details can check official site here](https://svgr-iconkit.dev/)*
+Details can check official site *[svgr-iconkit.dev](https://svgr-iconkit.dev/)*
