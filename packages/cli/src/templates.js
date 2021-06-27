@@ -54,3 +54,38 @@ ${mapStr}
 
 `;
 };
+
+
+export const createIconsImportMapTs = (map = {}) => {
+  const iconNames = Object.keys(map);
+  const importStr = iconNames
+    .map((iconName) => {
+      const name = getCamelIconName(iconName);
+      return `const ${name} = (): Promise<IconSVG> => import("${map[iconName]}") as Promise<any>;`;
+    })
+    .join("\n");
+
+  const mapStr = iconNames
+    .map((iconName) => {
+      const name = getCamelIconName(iconName);
+      return `"${iconName}": ${name}`;
+    })
+    .join(",\n");
+
+  const nameTypesStr = iconNames.map((iconName) => `"${iconName}"`).join(" | ");
+  return `
+import { IconsMapType, IconSVG } from "@svgr-iconkit/core";
+
+// import assets
+${importStr}
+
+// types
+export type IconNames = ${nameTypesStr};
+
+// map
+export const map: IconsMapType<IconNames> = {
+${mapStr}
+};
+
+`;
+};

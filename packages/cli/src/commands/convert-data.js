@@ -4,14 +4,15 @@ import Path from "path";
 import ChildProcess from "child_process";
 import camelCase from "camelcase";
 import cliProgress from "cli-progress";
-import { paramCase } from "change-case";
-import { readFile, writeFile } from "../utils";
+import { paramCase } from "param-case";
+import { convertSvgData } from "@svgr-iconkit/build-utils";
+import { fileOptions, readFile, writeFile } from "../utils";
 import { createIconsImportMapTs, createIconsMapTs } from "../templates";
 
-const commandName = "build-map";
+const commandName = "convert-data";
 
 module.exports = {
-  name: `${commandName} <sourceDir> <targetFile>`,
+  name: `${commandName} <sourceDir> <targetDir>`,
   options: [
     {
       flag: "-d, --dynamic-import",
@@ -32,15 +33,25 @@ module.exports = {
     {
       flag: "-e, --end-with <content>",
       description: "Searching file name end with given string"
+    },
+    {
+      flag: "--fill-color <color>"
+    },
+    {
+      flag: "--stroke-color <color>"
     }
   ],
-  exec: async (sourceDir, targetFile, options, cmd) => {
-    const { removeNamePrefix, removeNameSuffix, startWith = '', endWith = '', dynamicImport = false } = options;
+  exec: async (sourceDir, targetDir, options, cmd) => {
+    console.log(commandName + ": options=%o", options);
+    const { removeNamePrefix, removeNameSuffix, startWith = '', endWith = '', fillColor, strokeColor, dynamicImport = false } = options;
+
+    if(!FS.existsSync(targetDir)){
+      FS.mkdirSync(targetDir, {recursive: true});
+    }
 
     const resolvedSourceDir = Path.resolve(sourceDir);
-    const resolvedTargetFilePath = Path.join(targetFile);
-
-    const relativePathFromTargetFile = Path.relative(Path.dirname(resolvedTargetFilePath), resolvedSourceDir);
+    const resolvedTargetDir = Path.resolve(targetDir);
+    const resolvedTargetIndexFilePath = Path.join(targetDir, "index.ts");
 
     const startWithPattern = startWith ? startWith : null;
     const endWithPattern = endWith ? `${endWith}.svg` : ".svg";
@@ -52,7 +63,7 @@ module.exports = {
     const iconsetMap = {};
 
     console.log(commandName + ": total icons=%o", iconFiles.length);
-    console.log(commandName + ": relativePathFromTargetFile=%o", relativePathFromTargetFile);
+    console.log(commandName + ": resolvedTargetDir=%o", resolvedTargetDir);
 
 
     const pbar = new cliProgress.SingleBar(
@@ -73,7 +84,18 @@ module.exports = {
       }
       const iconName = paramCase(name);
 
-      iconsetMap[iconName] = `${relativePathFromTargetFile}/${iconFileName}`;
+      const tarFileName = `svg-${iconName}`;
+
+      const srcFilePath = Path.resolve(resolvedSourceDir, iconFileName);
+      const tarFilePath = Path.resolve(resolvedTargetDir, tarFileName  + ".ts" );
+      const srcFileContent = readFile(srcFilePath);
+      const tarFileContent = convertSvgData(iconName, srcFileContent, {
+        fillColor,
+        strokeColor
+      });
+      writeFile(tarFilePath, tarFileContent );
+
+      iconsetMap[iconName] = `./${tarFileName}`;
 
       pbar.increment();
     }
@@ -81,7 +103,7 @@ module.exports = {
 
     // Creating icons map typescript files to specified file
     const output = dynamicImport ? createIconsImportMapTs(iconsetMap) : createIconsMapTs(iconsetMap);
-    writeFile(resolvedTargetFilePath, output);
+    writeFile(resolvedTargetIndexFilePath, output);
 
     console.log(commandName + ": done");
     return Promise.resolve();
