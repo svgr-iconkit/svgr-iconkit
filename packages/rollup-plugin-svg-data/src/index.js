@@ -4,7 +4,7 @@ const { createFilter } = require("rollup-pluginutils");
 const { transformAsync, createConfigItem } = require("@babel/core");
 const presetEnv = require("@babel/preset-env");
 
-const { convertSvgData } = require("./utils");
+const { convertSvgData } = require("@svgr-iconkit/build-utils");
 
 const babelOptions = {
   babelrc: false,

@@ -1,5 +1,6 @@
-const { parse } = require("svg-parser");
+import { parse } from "svg-parser";
 
+const disallowedTagNames = ["defs", "style", "title"];
 const disallowedAttributeNames = ["xmlns", "class", "className", "style"];
 
 function isAllowedAttributeName(name) {
@@ -14,6 +15,7 @@ function filterOnlyElement(node) {
   if (!node) return false;
   if (node.type !== "element") return false;
   if (!node.tagName) return false;
+  if (disallowedTagNames.includes(node.tagName.toLowerCase())) return false;
   return true;
 }
 
@@ -61,7 +63,7 @@ function getChildrenData(node, options) {
   };
 }
 
-function convertSvgData(
+export function convertSvgData(
   name,
   source,
   { fillColor, strokeColor, forceWidth, forceHeight }
@@ -85,12 +87,16 @@ function convertSvgData(
     return;
   }
 
+  const attrs = {};
+  Object.keys(properties)
+    .filter(isAllowedAttributeName)
+    .forEach((propertyName) => {
+      attrs[propertyName] = properties[propertyName];
+    });
+
   const result = {
     name,
-    width: properties.width,
-    height: properties.height,
-    viewBox: properties.viewBox,
-    attrs: properties,
+    attrs,
     data: children
       .filter(filterOnlyElement)
       .map((node) => getChildrenData(node, { fillColor, strokeColor })),
@@ -111,7 +117,3 @@ export const content = ${JSON.stringify(result)};
 export default content;
 `;
 }
-
-module.exports = {
-  convertSvgData,
-};
