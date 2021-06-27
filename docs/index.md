@@ -38,4 +38,5 @@ Support below iconset:
 ## Other topics
 
 - [Iconset Explorer](/explorer)
+- [Iconset Explorer (Expo)](https://expo.io/@lemankk/svgr-iconkit-expo-explorer)
 - [Create owned iconset](/CreateOwnedIconset.md)
