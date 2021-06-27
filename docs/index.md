@@ -21,8 +21,8 @@ Support below iconset:
 | [@svgr-iconkit/feather](https://www.npmjs.com/package/@svgr-iconkit/feather) | Feather | Cole Bemis & Contributors (v4.28.0) |
 | [@svgr-iconkit/fluentui-system](https://www.npmjs.com/package/@svgr-iconkit/fluentui-system) | FluentUISystem | Microsoft (v1.1.130) |
 | [@svgr-iconkit/foundation](https://www.npmjs.com/package/@svgr-iconkit/foundation) | Foundation | ZURB, Inc. (v3.0) |
-| [@svgr-iconkit/fontawesome](https://www.npmjs.com/package/@svgr-iconkit/fontawesome) | FontAwesome5 (regular & solid) | Fonticons, Inc. (v5.13.0) |
-| [@svgr-iconkit/fontawesome-brands](https://www.npmjs.com/package/@svgr-iconkit/fontawesome-brands) | FontAwesome5-Brands | Fonticons, Inc. (v5.13.0) |
+| [@svgr-iconkit/fontawesome5](https://www.npmjs.com/package/@svgr-iconkit/fontawesome5) | FontAwesome5 (regular & solid) | Fonticons, Inc. (v5.13.0) |
+| [@svgr-iconkit/fontawesome5-brands](https://www.npmjs.com/package/@svgr-iconkit/fontawesome5-brands) | FontAwesome5-Brands | Fonticons, Inc. (v5.13.0) |
 | [@svgr-iconkit/ionicons](https://www.npmjs.com/package/@svgr-iconkit/ionicons) | Ionicons | Iconic Framework (v5.5.1) |
 | [@svgr-iconkit/material-community](https://www.npmjs.com/package/@svgr-iconkit/material-community) | MaterialCommunity | MaterialDesignIcons.com (v5.3.45) |
 | [@svgr-iconkit/ant-design](https://www.npmjs.com/package/@svgr-iconkit/ant-design) | Ant Design Icons | [Ant Design Icons](https://github.com/ant-design/ant-design-icons) (v4.0.0) |
