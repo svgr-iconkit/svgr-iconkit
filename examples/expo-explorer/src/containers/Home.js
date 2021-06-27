@@ -224,7 +224,6 @@ export default function Home() {
                 </Button>
               </>
             ))}
-            <Box height={10} />
           </Box>
         </Box>
       </Slide>

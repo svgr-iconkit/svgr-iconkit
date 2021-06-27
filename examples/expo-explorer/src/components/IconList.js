@@ -59,7 +59,7 @@ export default function IconList({
           allIconNames.slice(0, maxCount).map((icon) => (
             <IconWrapper onPress={() => onIconPress && onIconPress(icon)} key={icon}>
               <IconContent>
-                <Iconset variant={variant} name={icon} color={color} size={size} />
+                <Icon as={Iconset} variant={variant} name={icon} color={color} size={size} />
               </IconContent>
               <IconLabel noOfLines={3} numberOfLines={3}>
                 {icon}

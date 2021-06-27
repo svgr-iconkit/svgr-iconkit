@@ -35,7 +35,8 @@
     "build": "react-scripts build && rm -rf ../../docs/explorer && mv build ../../docs/explorer",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "link:packages": "node ./scripts/link-package.js"
+    "subpackages:install": "node ../../scripts/install-all-package.js",
+    "subpackages:link": "node ../../scripts/link-all-package.js"
   },
   "eslintConfig": {
     "extends": [

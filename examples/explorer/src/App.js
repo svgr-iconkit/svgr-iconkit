@@ -30,13 +30,14 @@ export default function App() {
   const [iconColor, setIconColor] = useState("#0693E3");
   const [isColorPickerOpen, setColorPickerOpen] = useState(false);
   const [isUsingStyledComponent, setUsingStyledComponent] = useState(true);
+  const [iconsetInfo, setIconsetInfo] = useState(null);
 
   const [, setUpdateTime] = useState(0);
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const iconsetInfo = iconsets[currentIconsetIndex] || {};
+  const tmpIconsetInfo = iconsets[currentIconsetIndex] || {};
 
-  const { iconNames = [] } = iconsetInfo;
+  const { iconNames = [] } = iconsetInfo || {};
 
   const isSearchMode =
     !!keyword && typeof keyword === "string" && keyword.length > 0;
@@ -47,23 +48,37 @@ export default function App() {
     : iconNames.filter((name) => name.includes(keyword));
 
 
+
   useEffect(() => {
-    if (!iconsetInfo.resources || typeof iconsetInfo.resources !== "function" || iconsetInfo.__loaded){
+    if (!tmpIconsetInfo.resources || tmpIconsetInfo.__loaded){
       return;
     }
-    async function run() {
-      const { Icon, ...restProps } = await iconsetInfo.resources(); 
-
-      iconsets[currentIconsetIndex] = {
-        ...iconsetInfo,
+    if (typeof tmpIconsetInfo.resources !== "function"){
+      const { Icon, ...restProps } = tmpIconsetInfo.resources; 
+      const _info = {
+        ...tmpIconsetInfo,
         component: Icon,
         __loaded: true,
         ...restProps,
       };
       setUpdateTime(Date.now());
+      setIconsetInfo(_info);
+      return;
+    }
+    async function run() {
+      const { Icon, ...restProps } = await tmpIconsetInfo.resources(); 
+
+      const _info = {
+        ...tmpIconsetInfo,
+        component: Icon,
+        __loaded: true,
+        ...restProps,
+      };
+      setUpdateTime(Date.now());
+      setIconsetInfo(_info);
     }
     run();
-  }, [iconsetInfo, currentIconsetIndex]);
+  }, [tmpIconsetInfo, currentIconsetIndex]);
 
   const onShowMore = () => setMaxIconsShown(maxIconsShown + 50);
   return (

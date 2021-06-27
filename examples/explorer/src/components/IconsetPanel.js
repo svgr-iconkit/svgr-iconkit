@@ -68,7 +68,7 @@ export default function IconsetPanel({
     packageName,
     variantNames = [],
     iconNames = [],
-  } = iconsetInfo;
+  } = iconsetInfo || {};
   const options = { packageName, variantName, iconName: iconNames[0], iconColor, iconSize };
   const codeWeb = createWebExample(options);
   const codeNative = createNativeExample(options);
