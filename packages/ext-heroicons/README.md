@@ -1,6 +1,8 @@
 # `@svgr-iconkit/heroicons`
 
-Heroicons
+Icons re-exported from [Heroicons](https://npmjs.com/package/heroicons).
+
+Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 
 ## Usage
 

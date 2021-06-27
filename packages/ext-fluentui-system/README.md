@@ -1,6 +1,8 @@
 # `@svgr-iconkit/fluentui-system`
 
-Icons re-exported from [@fluentui/svg-icons by Microsoft](https://github.com/microsoft/fluentui-system-icons.git)
+Icons re-exported from [@fluentui/svg-icons by Microsoft](https://github.com/microsoft/fluentui-system-icons.git).
+
+Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 
 ## Usage
 

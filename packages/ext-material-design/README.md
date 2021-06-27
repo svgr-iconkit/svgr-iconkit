@@ -1,6 +1,8 @@
 # `@svgr-iconkit/material-design`
 
-Material Design Icons
+Icons re-exported from [Material Design Icons](https://npmjs.com/package/material-design-icons).
+
+Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 
 ## Usage
 

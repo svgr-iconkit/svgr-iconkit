@@ -7,4 +7,7 @@ lib/
 dist/
 build/
 tmp/
+gen/
 .DS_Store
+
+report.*.json

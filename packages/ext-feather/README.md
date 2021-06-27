@@ -1,6 +1,8 @@
 # `@svgr-iconkit/feather`
 
-Icons re-exported from [Feather by Cole Bemis & Contributors](https://feathericons.com)
+Icons re-exported from [Feather by Cole Bemis & Contributors](https://feathericons.com).
+
+Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 
 ## Usage
 

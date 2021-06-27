@@ -1,6 +1,8 @@
 # `@svgr-iconkit/ant-design`
 
-AntDesignIcon
+Icons re-exported from [Ant Design Icons](https://npmjs.com/package/@ant-design/icons).
+
+Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 
 ## Usage
 

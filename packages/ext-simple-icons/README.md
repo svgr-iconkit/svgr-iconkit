@@ -1,6 +1,8 @@
 # `@svgr-iconkit/simple-icons`
 
-Simple Icons
+Icons re-exported from [simple-icons](https://npmjs.com/package/simple-icons).
+
+Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 
 ## Usage
 
