@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/ant-design",
-  "version": "0.1.13-alpha.3",
+  "version": "0.1.13",
   "description": "AntDesignIcon SVGR iconset",
   "keywords": [
     "SVG",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@ant-design/icons-svg": "^4.1.0",
-    "@svgr-iconkit/core": "^0.1.13-alpha.3"
+    "@svgr-iconkit/core": "^0.1.13"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
