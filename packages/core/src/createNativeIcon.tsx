@@ -130,8 +130,7 @@ const InternalNativeIcon = React.forwardRef(
     return (
       <Svg
         viewBox={_viewBox}
-        {...convertReactProps(restProps)}
-        {...convertReactProps(restAttrs)}
+        {..._props}
         ref={svgRef}
       >
         {renderChildren(data)}
