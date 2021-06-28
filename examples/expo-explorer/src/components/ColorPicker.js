@@ -8,13 +8,14 @@ export default function ColorPicker({
   colors = defaultColors,
   onValueChange,
 }) {
-  return (
-    <HStack space={2} py={2} alignItems="center">
+  return (<>
+    <HStack flexWrap="wrap" py={2} alignItems="center">
       {colors.map((color) => (
         <Pressable
           borderColor={value === color ? "#333" : "transparent"}
           borderWidth={2}
           borderRadius={5}
+          m={1}
           key={color}
           backgroundColor={color}
           width={38}
@@ -22,7 +23,9 @@ export default function ColorPicker({
           onPress={() => onValueChange && onValueChange(color)}
         />
       ))}
-      <Input size="sm" maxLength={9} value={value} onChangeText={(text) => onValueChange && onValueChange(text)} />
+      <Input width="130px" m={1} size="sm" height={38} maxLength={9} value={value} onChangeText={(text) => onValueChange && onValueChange(text)} />
     </HStack>
+
+    </>
   );
 }

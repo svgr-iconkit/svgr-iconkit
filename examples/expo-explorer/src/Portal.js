@@ -1,16 +1,14 @@
 import React from "react";
 import {
   NativeBaseProvider,
+  Box
 } from "native-base";
-
-const Home = React.lazy(() => import('./containers/Home'));
+import Home from './containers/Home';
 
 export function Portal() {
   return (
     <NativeBaseProvider>
-      <React.Suspense fallback={<div className="loading" />}>
-        <Home />
-      </React.Suspense>
+      <Home />
     </NativeBaseProvider>
   );
 }

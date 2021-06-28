@@ -34,11 +34,11 @@ export default function SideMenu({
 }) {
   return (
     <>
-      <Box safeAreaTop backgroundColor="#222" p={3} paddingBottom={5}>
+      <Box zIndex={2} safeAreaTop bg="primary.500" p={3} paddingBottom={5}>
         <Heading alignItems="flex-start" justifyContent="center" color="#fff">
           svgr-iconkit{" "}
           <Link href="https://svgr-iconkit.dev">
-            <Icon as={AppIcon} name="link" size={20} color="#ccc" />{" "}
+            <Icon as={AppIcon} name="link" size={20} color="#ececec" />{" "}
           </Link>
         </Heading>
         <Heading color="#fff" size="md">

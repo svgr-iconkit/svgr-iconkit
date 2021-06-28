@@ -8,13 +8,13 @@ const HeaderWrapper = styled(Box)`
 `;
 
 const HeaderBody = styled(Box)`
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-  background-color: #fff;
+  background-color: #f8fafc;
+  border-bottom-width: 1px;
+  border-bottom-color: #f1f5f9;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  background-color: #fff;
   position: relative;
 `;
 HeaderBody.displayName = 'HeaderBody';
@@ -33,7 +33,7 @@ const HeaderRow = styled(Box)`
 HeaderRow.displayName = 'HeaderRow';
 
 const HeaderItem = styled(Box)`
-  min-height: 40px;
+  height: 40px;
   min-width: 40px;
   flex-direction: row;
   align-items: center;

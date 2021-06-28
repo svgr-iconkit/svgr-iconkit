@@ -9,6 +9,7 @@ import {
   Text,
   Tabs,
   Input,
+  Pressable,
   Icon,
   Select,
   Slide,
@@ -16,6 +17,7 @@ import {
   useDisclose,
   Modal,
   VStack,
+  Menu,
   HStack,
   FormControl,
   Slider,
@@ -54,6 +56,7 @@ export default function Home() {
   const windowSize = Dimensions.get("window");
 
   const [isTablet] = useMediaQuery({ minWidth: 768 });
+  const isLandscape = windowSize.width > windowSize.height;
 
   const [currentIconsetIndex, setIconsetIndex] = useState(0);
   const [keyword, setKeyword] = useState("");
@@ -130,6 +133,9 @@ export default function Home() {
 
   const onShowMore = () => setMaxIconsShown(maxIconsShown + 60);
 
+  const hasVariants = Array.isArray(iconsetInfo.variantNames);
+  const shouldVariantShowInHeader = isLandscape && isTablet;
+
   return (
     <>
       <HStack>
@@ -156,7 +162,11 @@ export default function Home() {
                   <IconButton
                     onPress={onDrawerOpen}
                     icon={
-                      <SVGIcon content={AppIconMap.regular.menu} size={24} color="black" />
+                      <SVGIcon
+                        content={AppIconMap.regular.menu}
+                        size={24}
+                        color="black"
+                      />
                     }
                   />
                 </Header.Item>
@@ -168,13 +178,18 @@ export default function Home() {
                   placeholder="Filter by keywords"
                   value={keyword}
                   onChangeText={setKeyword}
+                  bg="white"
                 />
               </Header.Item>
               <Header.Item>
                 <IconButton
                   onPress={onSettingOpen}
                   icon={
-                    <SVGIcon content={AppIconMap.regular.settings} size={24} color="black" />
+                    <SVGIcon
+                      content={AppIconMap.regular.settings}
+                      size={24}
+                      color="black"
+                    />
                   }
                 />
               </Header.Item>
@@ -185,17 +200,58 @@ export default function Home() {
                   {iconsetInfo.packageName}
                 </Text>
               </Header.Item>
+              {hasVariants && shouldVariantShowInHeader && (
+                <Header.Item>
+                  <Menu
+                    closeOnSelect
+                    trigger={(triggerProps) => {
+                      return (
+                        <Pressable
+                          flexDirection="row"
+                          alignItems="center"
+                          {...triggerProps}
+                        >
+                          <Text fontSize="14px">Variants: </Text>
+                          <Text fontSize="14px" bold color="secondary.500">
+                            {currentVariant}
+                          </Text>
+
+                          <SVGIcon
+                            content={AppIconMap.regular["expand-more"]}
+                            size={18}
+                            color="black"
+                          />
+                        </Pressable>
+                      );
+                    }}
+                  >
+                    {iconsetInfo.variantNames.map((name) => (
+                      <Menu.Item
+                        isDisabled={name === currentVariant}
+                        onPress={() => setVariant(name)}
+                      >
+                        {name}
+                      </Menu.Item>
+                    ))}
+                  </Menu>
+                </Header.Item>
+              )}
               <Header.Item rightSide>
                 <Link
                   href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
                 >
-                  <SVGIcon content={BrandsIconMap.regular.npm} name="npm" size={26} color="red" />{" "}
+                  <SVGIcon
+                    content={BrandsIconMap.regular.npm}
+                    name="npm"
+                    size={24}
+                    color="red"
+                  />{" "}
                 </Link>
                 <IconButton
                   onPress={onPackageNamePress}
                   icon={
                     <SVGIcon
-                      content={AppIconMap.regular['content-copy']}
+                      content={AppIconMap.regular["content-copy"]}
                       name="content-copy"
                       size={18}
                       color="black"
@@ -208,10 +264,26 @@ export default function Home() {
           <Content padder>
             {iconsetInfo && (
               <>
+                {iconsetInfo.__loaded && matchedIconNames && matchedIconNames.length < 1 && (
+                  <Box height="40px" style={{flexBasis: "auto"}} mx={4} flex={1}>
+                    <Text bold fontSize="12px">
+                      No matched icons
+                    </Text>
+                  </Box>
+                )}
+                {matchedIconNames && matchedIconNames.length > 0 && (
+                  <Box height="40px" style={{flexBasis: "auto"}} mb={4} mx={4} flex={1}>
+                    <Text fontSize="12px">
+                      Found {matchedIconNames.length} matched icons
+                    </Text>
+                    <Divider my={4} />
+                  </Box>
+                )}
                 <IconList
                   maxCount={maxIconsShown}
                   component={iconsetInfo.component}
                   variant={currentVariant}
+                  searching={isSearchMode}
                   size={iconSize}
                   color={iconColor}
                   allIconNames={matchedIconNames}
@@ -231,58 +303,70 @@ export default function Home() {
           </Content>
         </Box>
         <Modal isOpen={isSettingOpen} onClose={onSettingClose}>
-          <VStack
-            p={4}
-            space={4}
-            mx={10}
-            width="80%"
-            backgroundColor="#fff"
-            borderRadius={5}
-          >
-            <FormControl>
-              <FormControl.Label>{`Variants`}</FormControl.Label>
-              <Select
-                safeAreaBottom
-                selectedValue={currentVariant}
-                onValueChange={setVariant}
-              >
-                {Array.isArray(iconsetInfo.variantNames) &&
-                  iconsetInfo.variantNames.map((name) => (
-                    <Select.Item key={name} label={name} value={name} />
-                  ))}
-              </Select>
-            </FormControl>
-            <Divider />
-            <FormControl>
-              <FormControl.Label>{`Size: ${iconSize}px`}</FormControl.Label>
-              <Slider
-                minValue={12}
-                maxValue={48}
-                defaultValue={iconSize}
-                onChangeEnd={setIconSize}
-              >
-                <Slider.Track>
-                  <Slider.FilledTrack />
-                </Slider.Track>
-                <Slider.Thumb />
-              </Slider>
-            </FormControl>
-            <Divider />
-            <FormControl>
-              <FormControl.Label>{`Color:`}</FormControl.Label>
+          <Modal.Content maxWidth="460px">
+            <Modal.Header>Setting</Modal.Header>
+            <Modal.CloseButton />
+            <Modal.Body>
+              {hasVariants && !shouldVariantShowInHeader && (
+                <>
+                  <FormControl>
+                    <FormControl.Label>{`Variants`}</FormControl.Label>
+                    <Select
+                      selectedValue={currentVariant}
+                      onValueChange={setVariant}
+                    >
+                      {Array.isArray(iconsetInfo.variantNames) &&
+                        iconsetInfo.variantNames.map((name) => (
+                          <Select.Item key={name} label={name} value={name} />
+                        ))}
+                    </Select>
+                  </FormControl>
+                  <Divider my={2} />
+                </>
+              )}
+              <FormControl>
+                <FormControl.Label>{`Size: ${iconSize}px`}</FormControl.Label>
+                <Slider
+                  minValue={12}
+                  maxValue={48}
+                  defaultValue={iconSize}
+                  onChangeEnd={setIconSize}
+                >
+                  <Slider.Track>
+                    <Slider.FilledTrack />
+                  </Slider.Track>
+                  <Slider.Thumb />
+                </Slider>
+              </FormControl>
+              <Divider my={2} />
+              <FormControl>
+                <FormControl.Label>{`Color:`}</FormControl.Label>
 
-              <ColorPicker value={iconColor} onValueChange={setIconColor} />
-            </FormControl>
-          </VStack>
+                <ColorPicker value={iconColor} onValueChange={setIconColor} />
+              </FormControl>
+            </Modal.Body>
+          </Modal.Content>
         </Modal>
       </HStack>
 
       {!isTablet && (
-        <Slide in={isDrawerOpen} placement="left"  height="100%" bottom={0} bg="white">
-          <Box width="80%" minWidth={300} bottom={0} height="100%" bg="white"
+        <Slide
+          in={isDrawerOpen}
+          placement="left"
+          height="100%"
+          bottom={0}
+          bg="white"
+        >
+          <Box
+            width="80%"
+            minWidth={300}
+            bottom={0}
+            height="100%"
+            bg="white"
             borderRightColor="#ececec"
             borderRightWidth={1}
-             rounded="md">
+            rounded="md"
+          >
             <SlideMenu
               iconsets={iconsets}
               currentIconsetIndex={currentIconsetIndex}
