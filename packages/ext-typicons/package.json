@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/typicons",
-  "version": "0.1.13-alpha.1",
+  "version": "0.1.13-alpha.2",
   "description": "Typicons SVGR iconset",
   "keywords": [
     "SVG",
@@ -35,7 +35,7 @@
     "react-native-svg": "^12.1.0"
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.13-alpha.1"
+    "@svgr-iconkit/core": "^0.1.13-alpha.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
