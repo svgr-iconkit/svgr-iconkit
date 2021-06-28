@@ -10,7 +10,7 @@
   "homepage": "https://github.com/lemankk/svgr-iconkit",
   "license": "MIT",
   "main": "index",
-  "react-native": "index",
+  "react-native": "index.native.js",
   "commonjs": "lib/commonjs/index.js",
   "module": "lib/es/index.js",
   "types": "index",
