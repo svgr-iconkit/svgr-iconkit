@@ -1,6 +1,6 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { map as regularIconsMap } from "./gen/icons/regular";
-import { map as filledIconsMap } from "./gen/icons/filled";
+import { IconNames as regularIconNames, map as regularIconsMap } from "./gen/icons/regular";
+import { IconNames as filledIconNames, map as filledIconsMap } from "./gen/icons/filled";
 export { IconNames } from "./gen/icons/filled";
 
 export const familyName: string = "FluentUISystem";
@@ -11,7 +11,10 @@ export const variantNames: IconVariant[] = ["regular", "filled"];
 
 export const defaultVariant: IconVariant = "regular";
 
-export const map: Record<IconVariant, IconsMapType<string>> = {
+export const map: {
+  regular: IconsMapType<regularIconNames>;
+  filled: IconsMapType<filledIconNames>;
+} = {
   regular: regularIconsMap,
   filled: filledIconsMap,
 };

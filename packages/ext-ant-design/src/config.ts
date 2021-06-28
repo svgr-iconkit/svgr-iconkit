@@ -13,13 +13,16 @@ export const defaultVariant: IconVariant = "outlined";
 
 export const familyName: string = "AntDesignIcon";
 
-export const map: Record<IconVariant, IconsMapType<string>> = {
+// types
+export type IconNames = filledIconNames | outlinedIconNames;
+
+export const map: {
+  filled: IconsMapType<filledIconNames>;
+  outlined: IconsMapType<outlinedIconNames>; 
+} = {
   filled: filledIconsMap,
   outlined: outlinedIconsMap,
 };
-
-// types
-export type IconNames = filledIconNames | outlinedIconNames;
 
 const filledIconsNames = Object.keys(filledIconsMap);
 const outlinedIconsNames = Object.keys(outlinedIconsMap);

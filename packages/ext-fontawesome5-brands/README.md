@@ -1,6 +1,6 @@
 # `@svgr-iconkit/fontawesome5-brands`
 
-Icons re-exported from [@fortawesome/free-brands-svg-icons](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons).
+Icons re-exported from [@fortawesome/fontawesome-free](https://www.npmjs.com/package/@fortawesome/fontawesome-free) (brands).
 
 Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 

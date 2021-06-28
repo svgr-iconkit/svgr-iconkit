@@ -8,6 +8,7 @@
   ],
   "license": "MIT",
   "main": "index",
+  "react-native": "src/native.ts",
   "commonjs": "lib/commonjs/index.js",
   "module": "lib/es/index.js",
   "types": "index",
@@ -52,8 +53,11 @@
     "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.12",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
+    "@types/react-native": "^0.64.10",
     "npm-run-all": "^4.1.5",
     "react": "16.13.1",
+    "react-native": "^0.64.2",
+    "react-native-builder-bob": "^0.18.1",
     "react-native-svg": "12.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
@@ -61,7 +65,8 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
-    "terser": "^5.7.0"
+    "terser": "^5.7.0",
+    "typescript": "^4.3.4"
   },
   "publishConfig": {
     "access": "public"
@@ -69,7 +74,7 @@
   "scripts": {
     "iconsmap:prepare": "mkdir -p ./src/gen/assets",
     "iconsmap:copy": "svgr-iconkit deep-copy -C svg/production -E _24px.svg ../../node_modules/material-design-icons/ ./src/gen/assets",
-    "iconsmap:create:regular": "svgr-iconkit build-map ./src/gen/assets ./src/icons-regular.ts --remove-name-prefix='ic_' --remove-name-suffix='_24px'",
+    "iconsmap:create:regular": "svgr-iconkit build-map ./src/gen/assets ./src/gen/icons/regular.ts --remove-name-prefix='ic_' --remove-name-suffix='_24px'",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen ./gen",

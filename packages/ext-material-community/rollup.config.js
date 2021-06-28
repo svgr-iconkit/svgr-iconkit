@@ -1,8 +1,12 @@
+import svgData from "@svgr-iconkit/rollup-plugin-svg-data";
 import { createRollupConfig } from "@svgr-iconkit/build-utils";
 
 const pkg = require("./package.json");
 
-const plugins = [];
+const plugins = [
+  svgData({
+  })
+];
 
 export default [
   createRollupConfig({

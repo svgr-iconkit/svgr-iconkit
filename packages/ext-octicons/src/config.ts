@@ -1,6 +1,6 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 
-import { map as regularIconsMap } from "./icons";
+import { IconNames, map as regularIconsMap } from "./icons";
 
 export { IconNames } from "./icons";
 
@@ -13,7 +13,7 @@ export const defaultVariant: IconVariant = "regular";
 export const familyName: string = "Octicons";
 
 // icons map
-export const map: Record<IconVariant, IconsMapType<string>> = {
+export const map: Record<IconVariant, IconsMapType<IconNames>> = {
   regular: regularIconsMap,
 };
 

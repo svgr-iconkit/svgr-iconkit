@@ -1,8 +1,8 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { map as sharpIconsMap } from "./icons-sharp";
-import { IconNames, map as regularIconsMap } from "./icons-regular";
-import { map as outlineIconsMap } from "./icons-outline";
-export { IconNames } from "./icons-regular";
+import { map as sharpIconsMap } from "./gen/icons/sharp";
+import { IconNames, map as regularIconsMap } from "./gen/icons/regular";
+import { map as outlineIconsMap } from "./gen/icons/outline";
+export { IconNames } from "./gen/icons/regular";
 
 export const familyName: string = "Ionicons";
 

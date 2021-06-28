@@ -29,10 +29,7 @@ export type IconsetSVGNode = IconSVGNode;
  */
 export type IconsetSVG = IconSVG;
 
-export type IconsMapType<IconNames extends string> = Record<
-  IconNames,
-  IconSVG
->;
+export type IconsMapType<IconNames extends string> = Record<IconNames, IconSVG>;
 
 export interface IconBaseProps {
   width?: string | number;
@@ -72,7 +69,10 @@ export type CreateIconsetOptions<
   IconVariant extends string
 > = {
   familyName: string;
-  map: IconsMapType<IconNames> | Record<IconVariant, IconsMapType<IconNames>>;
+  map:
+    | IconsMapType<IconNames>
+    | Record<IconVariant, IconsMapType<IconNames>>
+    | { [key: string]: IconsMapType<IconNames | string> };
   variants?: IconVariant[];
   defaultVariant?: IconVariant;
 };

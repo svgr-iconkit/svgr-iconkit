@@ -66,7 +66,7 @@ function getChildrenData(node, options) {
 export function convertSvgData(
   name,
   source,
-  { fillColor, strokeColor, forceWidth, forceHeight }
+  { fillColor, strokeColor, forceWidth, forceHeight, typescript = false }
 ) {
   const node = parse(source);
 
@@ -103,17 +103,24 @@ export function convertSvgData(
   };
 
   if (forceWidth) {
-    result.width = forceWidth;
+    result.attrs.width = forceWidth;
   }
 
   if (forceHeight) {
-    result.height = forceHeight;
+    result.attrs.height = forceHeight;
   }
 
-  // console.log('[svgrData/convert] result=%o', result);
+  const contentStr = JSON.stringify(result);
+  if (typescript) {
+    return `
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = ${contentStr};
+export default content;
+`;
+  }
 
   return `
-export const content = ${JSON.stringify(result)};
+export const content = ${contentStr};
 export default content;
 `;
 }

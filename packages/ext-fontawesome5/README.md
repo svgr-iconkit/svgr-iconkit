@@ -1,6 +1,6 @@
 # `@svgr-iconkit/fontawesome5`
 
-Icons re-exported from [@fortawesome/free-regular-svg-icons](https://www.npmjs.com/package/@fortawesome/free-regular-svg-icons) and [@fortawesome/free-solid-svg-icons](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons).
+Icons re-exported from [@fortawesome/fontawesome-free](https://www.npmjs.com/package/@fortawesome/fontawesome-free) (regular and solid).
 
 Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
 

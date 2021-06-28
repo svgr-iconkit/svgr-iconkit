@@ -91,7 +91,8 @@ module.exports = {
       const srcFileContent = readFile(srcFilePath);
       const tarFileContent = convertSvgData(iconName, srcFileContent, {
         fillColor,
-        strokeColor
+        strokeColor,
+        typescript: true,
       });
       writeFile(tarFilePath, tarFileContent );
 
