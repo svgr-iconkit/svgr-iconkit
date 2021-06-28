@@ -25,8 +25,9 @@ import {
   useMediaQuery,
 } from "native-base";
 import Clipboard from "expo-clipboard";
-import AppIcon from "@svgr-iconkit/material-community";
-import BrandsIcon from "@svgr-iconkit/fontawesome5-brands";
+import { Icon as SVGIcon } from "@svgr-iconkit/core";
+import { map as AppIconMap } from "@svgr-iconkit/material-design";
+import { map as BrandsIconMap } from "@svgr-iconkit/fontawesome5-brands";
 
 import { iconsets } from "../config";
 import IconList from "../components/IconList";
@@ -155,7 +156,7 @@ export default function Home() {
                   <IconButton
                     onPress={onDrawerOpen}
                     icon={
-                      <Icon as={AppIcon} name="menu" size={24} color="black" />
+                      <SVGIcon content={AppIconMap.regular.menu} size={24} color="black" />
                     }
                   />
                 </Header.Item>
@@ -173,7 +174,7 @@ export default function Home() {
                 <IconButton
                   onPress={onSettingOpen}
                   icon={
-                    <Icon as={AppIcon} name="cog" size={24} color="black" />
+                    <SVGIcon content={AppIconMap.regular.settings} size={24} color="black" />
                   }
                 />
               </Header.Item>
@@ -188,13 +189,13 @@ export default function Home() {
                 <Link
                   href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
                 >
-                  <Icon as={BrandsIcon} name="npm" size={26} color="red" />{" "}
+                  <SVGIcon content={BrandsIconMap.regular.npm} name="npm" size={26} color="red" />{" "}
                 </Link>
                 <IconButton
                   onPress={onPackageNamePress}
                   icon={
-                    <Icon
-                      as={AppIcon}
+                    <SVGIcon
+                      content={AppIconMap.regular['content-copy']}
                       name="content-copy"
                       size={18}
                       color="black"

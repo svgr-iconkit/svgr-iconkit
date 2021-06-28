@@ -8,7 +8,7 @@ import {
 } from "./types";
 import { convertReactProps, convertStyleProps, removePx } from "./utils";
 
-// For desktop, only few attribute is supported
+// For web, only few attribute is supported
 const propNamesRemap = {
   class: 'className',
 }
@@ -38,12 +38,12 @@ const InternalWebIcon = React.forwardRef(function(
   props: IconProps,
   svgRef?: any
 ) {
-  const { content, ...restProps } = props;
+  const { content, size, color, ...restProps } = props;
   if (!content) {
     return null;
   }
-  const { name, attrs, width, height, data = [] } = content;
-  const { viewBox, width: orgWidth, height: orgHeight, ...restAttrs } =
+  const { attrs, width, height, data = [] } = content;
+  const { viewBox, width: orgWidth, height: orgHeight, fill, stroke, ...restAttrs } =
     attrs || {};
   const _viewBox =
     viewBox ||
@@ -52,13 +52,33 @@ const InternalWebIcon = React.forwardRef(function(
   const originalProps = convertReactProps(restProps, {}, propNamesRemap);
   const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
   const _props = {
+    fill,
+    stroke,
     ...originalProps,
     ...attrProps,
   };
-  if (_props.style ) {
-    const _style = convertStyleProps(_props.style, {});
-    _props.style = _style;
+  const internalStyle = convertStyleProps(_props.style || {}, {});
+
+  if (size) {
+    internalStyle.width = size;
+    internalStyle.height = size;
   }
+  if (
+    fill !== "none"
+  ) {
+    _props.fill = "currentColor";
+  }
+  if (color) {
+    // For some iconset, they use stroke to styling and cannot use fill properties
+    if (
+      fill !== "none"
+    ) {
+      _props.fill = color;
+    }
+    internalStyle.color = color;
+  }
+  _props.style = internalStyle;
+  
   return (
     <svg
       viewBox={_viewBox}

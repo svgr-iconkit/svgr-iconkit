@@ -1,1 +1,0 @@
-{"ast":null,"code":"Object.defineProperty(exports,\"__esModule\",{value:true});exports.Wrap=void 0;var Wrap={};exports.Wrap=Wrap;","map":{"version":3,"sources":["wrap.ts"],"names":["Wrap"],"mappings":"6EACO,GAAMA,CAAAA,IAAI,CAAV,EAAA,C","sourcesContent":["// Wrap\nexport const Wrap = {};\n"]},"metadata":{},"sourceType":"script"}

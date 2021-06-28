@@ -52,6 +52,10 @@ const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
   polyline: Polyline,
   polygon: Polygon,
 };
+// For native, only few attribute is supported
+const propNamesRemap = {
+  class: 'className',
+}
 
 const supportedNodeNames = Object.keys(NodeComponentMap);
 
@@ -81,17 +85,48 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
 
 const InternalNativeIcon = React.forwardRef(
   (props: IconProps, svgRef?: any) => {
-    const { content, ...restProps } = props;
+    const { content, size, color, ...restProps } = props;
 
     if (!content) {
       return null;
     }
     const { attrs, width, height, data = [] } = content;
-    const { viewBox, width: orgWidth, height: orgHeight, ...restAttrs } =
+    const { viewBox, width: orgWidth, height: orgHeight, fill, stroke, ...restAttrs } =
       attrs || {};
     const _viewBox =
       viewBox ||
       `0 0 ${removePx(orgWidth || width)} ${removePx(orgHeight || height)}`;
+
+      const originalProps = convertReactProps(restProps, {}, propNamesRemap);
+      const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
+      const _props = {
+        fill,
+        stroke,
+        ...originalProps,
+        ...attrProps,
+      };
+      const style = _props.style ? [_props.style] : [];
+      const internalStyle: any = {};
+    
+      if (size) {
+        _props.width = size;
+        _props.height = size;
+      }
+      if (
+        fill !== "none"
+      ) {
+        _props.fill = "currentColor";
+      }
+      if (color) {
+        // For some iconset, they use stroke to styling and cannot use fill properties
+        if (
+          fill !== "none"
+        ) {
+          _props.fill = color;
+        }
+        internalStyle.color = color;
+      }
+      _props.style = style.concat([internalStyle]);
     return (
       <Svg
         viewBox={_viewBox}
