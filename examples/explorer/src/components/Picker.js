@@ -10,11 +10,12 @@ const PickerBackdrop = styled.div`
   top: 0;
   right: 0;
   bottom: 0;
+  z-index: 11;
 `;
 
 const PickerContent = styled.div`
   position: absolute;
-  z-index: 2;
+  z-index: 12;
 `;
 
 export default function Picker({ children, content, isOpen = false, onClose }) {

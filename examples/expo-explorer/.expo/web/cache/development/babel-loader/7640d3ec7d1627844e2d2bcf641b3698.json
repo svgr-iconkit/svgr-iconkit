@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { useTabs } from \"./useTabs.web\";\nexport { useTab } from \"./useTab.web\";","map":{"version":3,"sources":["index.web.ts"],"names":[],"mappings":"AAAA,SAAA,OAAA;AACA,SAAA,MAAA","sourcesContent":["export { useTabs } from './useTabs.web';\nexport { useTab } from './useTab.web';\n"]},"metadata":{},"sourceType":"module"}

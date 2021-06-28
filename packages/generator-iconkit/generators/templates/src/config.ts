@@ -1,8 +1,8 @@
-import { IconSVG, IconsMapType } from "@svgr-iconkit/core";
+import { IconsMapType } from "@svgr-iconkit/core";
 
 export type IconVariant = "regular";
 
-export const variants: IconVariant[] = ["regular"];
+export const variantNames: IconVariant[] = ["regular"];
 
 export const defaultVariant: IconVariant = "regular";
 

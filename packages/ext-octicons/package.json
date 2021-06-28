@@ -68,13 +68,14 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rm -rf ./tmp/icons; mkdir -p ./tmp/icons",
-    "iconsmap:copy": "cp -R ../../node_modules/@primer/octicons/build/svg/*-24.svg ./tmp/icons",
-    "iconsmap:create:regular": "svgr-iconkit build-map ./tmp/icons ./src/icons.ts --end-with '-24' --remove-name-suffix '-24'",
+    "iconsmap:prepare": "mkdir -p ./src/gen/assets",
+    "iconsmap:copy": "cp -R ../../node_modules/@primer/octicons/build/svg/*-24.svg ./src/gen/assets",
+    "iconsmap:create:regular": "svgr-iconkit build-map ./src/gen/assets ./src/icons.ts --end-with '-24' --remove-name-suffix '-24'",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
-    "build:map": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist",
-    "build": "rollup -c"
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen ./gen",
+    "compile": "rollup -c",
+    "build": "npm-run-all iconsmap compile"
   },
   "gitHead": "d4b4bd35669e50fdd9bcb5e7ee925a2d92bb21a4"
 }

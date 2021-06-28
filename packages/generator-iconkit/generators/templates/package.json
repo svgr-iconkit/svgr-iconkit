@@ -67,8 +67,8 @@
     "access": "public"
   },
   "scripts": {
-    "build:map": "svgr-iconkit build-map -d ./assets ./src/icons.ts",
-    "prebuild": "rimraf ./lib ./dist",
+    "build:map": "svgr-iconkit build-map ./assets ./src/icons.ts",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen ./gen",
     "build": "rollup -c"
   }
 }

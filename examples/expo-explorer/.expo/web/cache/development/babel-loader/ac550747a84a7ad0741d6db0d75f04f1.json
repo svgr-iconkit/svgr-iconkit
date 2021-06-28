@@ -1,0 +1,1 @@
+{"ast":null,"code":"import View from \"react-native-web/dist/exports/View\";\nexport default View;","map":{"version":3,"sources":["GestureHandlerRootView.tsx"],"names":[],"mappings":";AAEA,eAAA,IAAA","sourcesContent":["import { View } from 'react-native';\n\nexport default View;\n"]},"metadata":{},"sourceType":"module"}

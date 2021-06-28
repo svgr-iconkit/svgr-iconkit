@@ -4,7 +4,7 @@ export { IconNames } from "./icons-regular";
 
 export type IconVariant = "regular";
 
-export const variants: IconVariant[] = ["regular"];
+export const variantNames: IconVariant[] = ["regular"];
 
 export const defaultVariant: IconVariant = "regular";
 
@@ -16,3 +16,5 @@ export const familyName: string = "Simple Icons";
 export const map: Record<IconVariant, IconsMapType<string>> = {
   regular: regularIconsMap,
 };
+
+export const iconNames = Object.freeze(Object.keys(regularIconsMap));

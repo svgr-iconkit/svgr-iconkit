@@ -5,13 +5,15 @@ export const familyName: string = "MaterialCommunity";
 
 export type IconVariant = "regular";
 
-export const variants: IconVariant[] = ["regular"];
+export const variantNames: IconVariant[] = ["regular"];
 
 export const defaultVariant: IconVariant = "regular";
 
 export const map: Record<IconVariant, IconsMapType<string>> = {
   regular: {},
 };
+
+const _tmpIconNames: string[] = [];
 
 Object.keys(AllIconsStringMap)
   .filter((name) => name.startsWith("mdi") && name.length > 3)
@@ -29,9 +31,12 @@ Object.keys(AllIconsStringMap)
     };
 
     map[defaultVariant][iconName] = iconConfig;
+    _tmpIconNames.push(iconName);
 
     return iconConfig;
   });
+
+export const iconNames = Object.freeze(_tmpIconNames);
 
 // types
 export type IconNames =

@@ -8,9 +8,11 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
+    "build:web": "rm -rf ../../docs/expo-explorer && expo build:web && cp -Rf ./web-build ../../docs/expo-explorer",
     "subpackages:install": "node ../../scripts/install-all-package.js",
     "subpackages:link": "node ../../scripts/link-all-package.js"
   },
+  "homepage": "/expo-explorer",
   "dependencies": {
     "@react-native-community/clipboard": "^1.5.1",
     "@svgr-iconkit/ant-design": "^0.1.12",
@@ -48,6 +50,7 @@
     "react-native-safe-area-context": "3.2.0",
     "react-native-slider-color-picker": "^2.2.2",
     "react-native-svg": "12.1.0",
+    "react-native-web": "^0.17.1",
     "styled-components": "*",
     "styled-system": "*",
     "tinycolor2": "^1.4.2"

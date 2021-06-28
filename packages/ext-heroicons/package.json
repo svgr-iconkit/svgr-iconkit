@@ -68,15 +68,15 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rm -rf ./tmp/icons*; mkdir -p ./tmp/icons-solid; mkdir -p ./tmp/icons-outline",
-    "iconsmap:copy:solid": "cp -R ../../node_modules/heroicons/solid/*.svg ./tmp/icons-solid",
-    "iconsmap:copy:outline": "cp -R ../../node_modules/heroicons/outline/*.svg ./tmp/icons-outline",
+    "iconsmap:prepare": "mkdir -p ./src/gen/assets/solid; mkdir -p ./src/gen/assets/outline",
+    "iconsmap:copy:solid": "cp -R ../../node_modules/heroicons/solid/*.svg ./src/gen/assets/solid",
+    "iconsmap:copy:outline": "cp -R ../../node_modules/heroicons/outline/*.svg ./src/gen/assets/outline",
     "iconsmap:copy": "npm-run-all iconsmap:copy:solid iconsmap:copy:outline",
-    "iconsmap:create:solid": "svgr-iconkit build-map ./tmp/icons-solid ./src/icons-solid.ts ",
-    "iconsmap:create:outline": "svgr-iconkit build-map ./tmp/icons-outline ./src/icons-outline.ts ",
+    "iconsmap:create:solid": "svgr-iconkit build-map ./src/gen/assets/solid ./src/icons-solid.ts ",
+    "iconsmap:create:outline": "svgr-iconkit build-map ./src/gen/assets/outline ./src/icons-outline.ts ",
     "iconsmap:create": "npm-run-all iconsmap:create:solid iconsmap:create:outline",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen ./gen",
     "compile": "rollup -c",
     "build": "npm-run-all iconsmap compile"
   }

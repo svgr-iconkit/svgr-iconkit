@@ -14,7 +14,7 @@ const globals = {
   "react-native-svg": "ReactNativeSVG",
 };
 const packageBasedSourcemapPathTransform = (packageName, relativeSourcePath) => {
-  const output = String(relativeSourcePath).replace(/\.\.\/(src|node_modules)/g, `${packageName}/$1`);
+  const output = String(relativeSourcePath).replace(/\.\.\/(src|gen|node_modules)/g, `${packageName}/$1`);
   // console.log("package=%s, relative=%s, path=%s", packageName, relativeSourcePath, output);
   return output;
 };

@@ -37,7 +37,6 @@
     "react-native-svg": "^12.1.0"
   },
   "dependencies": {
-    "@mdi/js": "^5.9.55",
     "@svgr-iconkit/core": "^0.1.11",
     "change-case": "^4.1.2"
   },
@@ -71,7 +70,7 @@
     "access": "public"
   },
   "scripts": {
-    "prebuild": "rimraf ./lib ./dist",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen ./gen",
     "build": "rollup -c "
   },
   "gitHead": "d4b4bd35669e50fdd9bcb5e7ee925a2d92bb21a4"

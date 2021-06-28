@@ -40,7 +40,10 @@ module.exports = {
     const resolvedSourceDir = Path.resolve(sourceDir);
     const resolvedTargetFilePath = Path.join(targetFile);
 
-    const relativePathFromTargetFile = Path.relative(Path.dirname(resolvedTargetFilePath), resolvedSourceDir);
+    let relativePathFromTargetFile = Path.relative(Path.dirname(resolvedTargetFilePath), resolvedSourceDir);
+    if (!relativePathFromTargetFile.startsWith(".") && !relativePathFromTargetFile.startsWith("/")) {
+      relativePathFromTargetFile = `./${relativePathFromTargetFile}`;
+    }
 
     const startWithPattern = startWith ? startWith : null;
     const endWithPattern = endWith ? `${endWith}.svg` : ".svg";

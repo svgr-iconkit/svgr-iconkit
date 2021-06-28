@@ -1,0 +1,1 @@
+{"ast":null,"code":"import ExpoClipboard from \"./ExpoClipboard\";\nexport default ExpoClipboard;","map":{"version":3,"sources":["../src/Clipboard.ts"],"names":[],"mappings":"AAAA,OAAO,aAAP;AACA,eAAe,aAAf","sourcesContent":["import ExpoClipboard from './ExpoClipboard';\nexport default ExpoClipboard;\n"],"sourceRoot":""},"metadata":{},"sourceType":"module"}

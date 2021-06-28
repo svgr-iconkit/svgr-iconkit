@@ -1,2 +1,0 @@
-(this["webpackJsonpsvgr-iconkit-docs-explorer"]=this["webpackJsonpsvgr-iconkit-docs-explorer"]||[]).push([[25],{408:function(n,r,e){"use strict";e.r(r),e.d(r,"Icon",(function(){return c})),e.d(r,"iconNames",(function(){return s})),e.d(r,"variantNames",(function(){return o}));var t=e(401),c=t.a,s=Object.keys(t.b.regular),o=Object.keys(t.b)}}]);
-//# sourceMappingURL=25.3612c342.chunk.js.map

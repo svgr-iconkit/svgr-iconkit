@@ -68,17 +68,14 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rm -rf ./tmp",
-    "iconsmap:copy:filled": "mkdir -p ./tmp/filled; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/filled/*.svg ./tmp/filled",
-    "iconsmap:copy:outlined": "mkdir -p ./tmp/outlined; cp -R ../../node_modules/@ant-design/icons-svg/inline-svg/outlined/*.svg ./tmp/outlined",
-    "iconsmap:copy": "npm-run-all iconsmap:copy:filled iconsmap:copy:outlined",
-    "iconsmap:create:filled": "svgr-iconkit build-map ./tmp/filled ./src/icons-filled.ts",
-    "iconsmap:create:outlined": "svgr-iconkit build-map ./tmp/outlined ./src/icons-outlined.ts",
+    "iconsmap:create:filled": "svgr-iconkit convert-data ../../node_modules/@ant-design/icons-svg/inline-svg/filled/ ./src/gen/icons/filled/",
+    "iconsmap:create:outlined": "svgr-iconkit convert-data ../../node_modules/@ant-design/icons-svg/inline-svg/outlined/ ./src/gen/icons/outlined/",
     "iconsmap:create": "npm-run-all iconsmap:create:filled iconsmap:create:outlined",
-    "build:map": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist",
-    "compile": "rollup -c",
-    "build": "npm-run-all build:map compile"
+    "iconsmap:prepare": "rimraf ./src/gen/icons/ ./gen/icons/",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./tmp",
+    "compile": "rollup  -c",
+    "build": "npm-run-all iconsmap compile"
   },
   "gitHead": "d4b4bd35669e50fdd9bcb5e7ee925a2d92bb21a4"
 }

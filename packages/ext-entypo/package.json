@@ -70,11 +70,10 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "mkdir -p ./tmp/icons",
-    "iconsmap:copy-source": "cp -R ../../node_modules/@entypo-icons/core/icons/*.svg ./tmp/icons",
-    "iconsmap:create": "svgr-iconkit build-map ./tmp/icons ./src/icons.ts",
-    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy-source iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp",
+    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:create": "svgr-iconkit convert-data ../../node_modules/@entypo-icons/core/icons/ ./src/gen/icons/regular",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./gen",
     "compile": "rollup -c",
     "build": "npm-run-all iconsmap compile"
   },

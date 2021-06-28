@@ -4,13 +4,13 @@ import { createNativeIcon, NativeIcon } from "./createNativeIcon";
 
 export * from "./types";
 export * from "./createIconsetFactory";
-export { default as createIconComponent } from "./createNativeIcon";
 
 export function createIconset<
   IconNames extends string = string,
   IconVariant extends string = string
 >(options: CreateIconsetOptions<IconNames, IconVariant>) {
-  return createIconsetFactory(options, createNativeIcon);
+  return createIconsetFactory(options, NativeIcon);
 }
 
+export const createIconComponent = createNativeIcon;
 export const Icon = NativeIcon;

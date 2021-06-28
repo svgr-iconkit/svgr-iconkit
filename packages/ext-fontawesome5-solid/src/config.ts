@@ -5,9 +5,11 @@ export const familyName: string = "FontAwesome5-Solid";
 
 export type IconVariant = "regular";
 
-export const variants: IconVariant[] = ["regular"];
+export const variantNames: IconVariant[] = ["regular"];
 
 export const defaultVariant: IconVariant = "regular";
+
+const _iconNames: string[] = [];
 
 export const map: Record<IconVariant, IconsMapType<string>> = {
   regular: {},
@@ -28,15 +30,21 @@ Object.keys(AllIcons)
 
     const iconConfig: IconSVG = {
       name: iconName,
-      width,
-      height,
+      attrs: {
+        width,
+        height,
+        viewBox: `0 0 ${width} ${height}`
+      },
       data: [{ tagName: "path", attrs: { d: path } }],
     };
 
     map[defaultVariant][iconName] = iconConfig;
+    _iconNames.push(iconName);
 
     return iconConfig;
   });
+
+export const iconNames = Object.freeze(_iconNames);
 
 // types
 export type IconNames =

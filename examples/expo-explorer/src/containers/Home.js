@@ -22,6 +22,7 @@ import {
   Heading,
   Link,
   useToast,
+  useMediaQuery,
 } from "native-base";
 import Clipboard from "expo-clipboard";
 import AppIcon from "@svgr-iconkit/material-community";
@@ -31,7 +32,8 @@ import { iconsets } from "../config";
 import IconList from "../components/IconList";
 import Header from "../components/Header";
 import Content from "../components/Content";
-import HSVColorPicker from "../components/HSVColorPicker";
+import ColorPicker from "../components/ColorPicker";
+import SlideMenu from "./SideMenu";
 
 const defaultMaxShownNum = 60;
 
@@ -48,6 +50,9 @@ export default function Home() {
     onOpen: onSettingOpen,
     onClose: onSettingClose,
   } = useDisclose();
+  const windowSize = Dimensions.get("window");
+
+  const [isTablet] = useMediaQuery({ minWidth: 768 });
 
   const [currentIconsetIndex, setIconsetIndex] = useState(0);
   const [keyword, setKeyword] = useState("");
@@ -107,172 +112,184 @@ export default function Home() {
     Clipboard.setString(icon);
     toast.show({
       duration: 6000,
-      title: `Icon name ${icon} copied in clipboard!`
-    })
+      title: `Icon name ${icon} copied in clipboard!`,
+    });
   };
   const onPackageNamePress = () => {
     Clipboard.setString(iconsetInfo.packageName);
     toast.show({
       duration: 6000,
-      title: `Package name ${iconsetInfo.packageName} copied in clipboard!`
-    })
+      title: `Package name ${iconsetInfo.packageName} copied in clipboard!`,
+    });
   };
+
+  const iconsColumns = Math.floor(
+    (windowSize.width - 20 - (isTablet ? 300 : 0)) / 120
+  );
 
   const onShowMore = () => setMaxIconsShown(maxIconsShown + 60);
 
   return (
     <>
-      <Header safeAreaTop>
-        <Header.Row>
-          <Header.Item>
-            <IconButton
-              onPress={onDrawerOpen}
-              icon={<Icon as={AppIcon} name="menu" size={24} color="black" />}
-            />
-          </Header.Item>
-          <Header.Item flex={1}>
-            <Input
-              flex={1}
-              size="xs"
-              placeholder="Filter by keywords"
-              value={keyword}
-              onChangeText={setKeyword}
-            />
-          </Header.Item>
-          <Header.Item>
-            <IconButton
-              onPress={onSettingOpen}
-              icon={<Icon as={AppIcon} name="cog" size={24} color="black" />}
-            />
-          </Header.Item>
-        </Header.Row>
-        <Header.Row>
-          <Header.Item
-            leftSide
+      <HStack>
+        {isTablet && (
+          <Box
+            width={300}
+            height={windowSize.height}
+            backgroundColor="white"
+            borderRightColor="#ececec"
+            borderRightWidth={1}
           >
-            <Text bold fontSize="14px">{iconsetInfo.packageName}</Text>
-          </Header.Item>
-          <Header.Item rightSide>
-            <Link href={`https://npmjs.com/package/${iconsetInfo.packageName}`}>
-              <Icon as={BrandsIcon} name="npm" size={26} color="red" />{" "}
-            </Link>
-            <IconButton onPress={onPackageNamePress} icon={<Icon as={AppIcon} name="content-copy" size={18} color="black" />} />
-          </Header.Item>
-        </Header.Row>
-      </Header>
-      <Content padder>
-        {iconsetInfo && (
-          <>
-            <IconList
-              maxCount={maxIconsShown}
-              component={iconsetInfo.component}
-              variant={currentVariant}
-              size={iconSize}
-              color={iconColor}
-              allIconNames={matchedIconNames}
-              allVariantNames={iconsetInfo.variantNames}
-              onIconPress={onIconPress}
+            <SlideMenu
+              iconsets={iconsets}
+              currentIconsetIndex={currentIconsetIndex}
+              onChangeIconset={onChangeIconset}
             />
-
-            {Array.isArray(matchedIconNames) &&
-              maxIconsShown < matchedIconNames.length && (
-                <Box safeAreaBottom padding={8}>
-                  <Button onPress={onShowMore}>Show more icons</Button>
-                </Box>
-              )}
-          </>
+          </Box>
         )}
-      </Content>
-      <Slide in={isDrawerOpen} placement="left">
-        <Box minWidth="80%" height="100%" bg="white" rounded="md">
-          <Box safeAreaTop backgroundColor="#222" p={2} paddingBottom={5}>
-            <Heading
-              alignItems="flex-start"
-              justifyContent="center"
-              color="#fff"
-            >
-              svgr-iconkit{" "}
-              <Link href="https://svgr-iconkit.dev">
-                <Icon as={AppIcon} name="link" size={20} color="#ccc" />{" "}
-              </Link>
-            </Heading>
-            <Heading color="#fff" size="md">
-              explorer
-            </Heading>
-          </Box>
-          <Box as={ScrollView} safeAreaBottom>
-            <Heading margin={4} size="sm">
-              Iconsets
-            </Heading>
-            {iconsets.map((item, index) => (
-              <>
-                <Button
-                  key={item.packageName}
-                  accessibilityLabel={item.name}
-                  colorScheme={
-                    currentIconsetIndex === index ? "secondary" : undefined
+        <Box flex={1} height={windowSize.height}>
+          <Header safeAreaTop>
+            <Header.Row>
+              {!isTablet && (
+                <Header.Item>
+                  <IconButton
+                    onPress={onDrawerOpen}
+                    icon={
+                      <Icon as={AppIcon} name="menu" size={24} color="black" />
+                    }
+                  />
+                </Header.Item>
+              )}
+              <Header.Item flex={1}>
+                <Input
+                  flex={1}
+                  size="xs"
+                  placeholder="Filter by keywords"
+                  value={keyword}
+                  onChangeText={setKeyword}
+                />
+              </Header.Item>
+              <Header.Item>
+                <IconButton
+                  onPress={onSettingOpen}
+                  icon={
+                    <Icon as={AppIcon} name="cog" size={24} color="black" />
                   }
-                  variant="ghost"
-                  textAlign="left"
-                  justifyContent="flex-start"
-                  onPress={() => {
-                    onChangeIconset(index);
-                  }}
-                  title={item.name}
+                />
+              </Header.Item>
+            </Header.Row>
+            <Header.Row>
+              <Header.Item leftSide>
+                <Text bold fontSize="14px">
+                  {iconsetInfo.packageName}
+                </Text>
+              </Header.Item>
+              <Header.Item rightSide>
+                <Link
+                  href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
                 >
-                  {item.name}
-                </Button>
-              </>
-            ))}
-          </Box>
-        </Box>
-      </Slide>
-      <Modal isOpen={isSettingOpen} onClose={onSettingClose}>
-        <VStack
-          p={4}
-          space={4}
-          mx={10}
-          width="80%"
-          backgroundColor="#fff"
-          borderRadius={5}
-        >
-          <FormControl>
-            <FormControl.Label>{`Variants`}</FormControl.Label>
-            <Select
-              safeAreaBottom
-              selectedValue={currentVariant}
-              onValueChange={setVariant}
-            >
-              {Array.isArray(iconsetInfo.variantNames) &&
-                iconsetInfo.variantNames.map((name) => (
-                  <Select.Item key={name} label={name} value={name} />
-                ))}
-              <Select.Item disabled />
-            </Select>
-          </FormControl>
-          <Divider />
-          <FormControl>
-            <FormControl.Label>{`Size: ${iconSize}px`}</FormControl.Label>
-            <Slider
-              minValue={12}
-              maxValue={48}
-              defaultValue={iconSize}
-              onChangeEnd={setIconSize}
-            >
-              <Slider.Track>
-                <Slider.FilledTrack />
-              </Slider.Track>
-              <Slider.Thumb />
-            </Slider>
-          </FormControl>
-          <Divider />
-          <FormControl>
-            <FormControl.Label>{`Color: ${iconColor}`}</FormControl.Label>
+                  <Icon as={BrandsIcon} name="npm" size={26} color="red" />{" "}
+                </Link>
+                <IconButton
+                  onPress={onPackageNamePress}
+                  icon={
+                    <Icon
+                      as={AppIcon}
+                      name="content-copy"
+                      size={18}
+                      color="black"
+                    />
+                  }
+                />
+              </Header.Item>
+            </Header.Row>
+          </Header>
+          <Content padder>
+            {iconsetInfo && (
+              <>
+                <IconList
+                  maxCount={maxIconsShown}
+                  component={iconsetInfo.component}
+                  variant={currentVariant}
+                  size={iconSize}
+                  color={iconColor}
+                  allIconNames={matchedIconNames}
+                  allVariantNames={iconsetInfo.variantNames}
+                  onIconPress={onIconPress}
+                  numColumn={iconsColumns}
+                />
 
-            <HSVColorPicker value={iconColor} onValueChange={setIconColor} />
-          </FormControl>
-        </VStack>
-      </Modal>
+                {Array.isArray(matchedIconNames) &&
+                  maxIconsShown < matchedIconNames.length && (
+                    <Box safeAreaBottom padding={8}>
+                      <Button onPress={onShowMore}>Show more icons</Button>
+                    </Box>
+                  )}
+              </>
+            )}
+          </Content>
+        </Box>
+        <Modal isOpen={isSettingOpen} onClose={onSettingClose}>
+          <VStack
+            p={4}
+            space={4}
+            mx={10}
+            width="80%"
+            backgroundColor="#fff"
+            borderRadius={5}
+          >
+            <FormControl>
+              <FormControl.Label>{`Variants`}</FormControl.Label>
+              <Select
+                safeAreaBottom
+                selectedValue={currentVariant}
+                onValueChange={setVariant}
+              >
+                {Array.isArray(iconsetInfo.variantNames) &&
+                  iconsetInfo.variantNames.map((name) => (
+                    <Select.Item key={name} label={name} value={name} />
+                  ))}
+              </Select>
+            </FormControl>
+            <Divider />
+            <FormControl>
+              <FormControl.Label>{`Size: ${iconSize}px`}</FormControl.Label>
+              <Slider
+                minValue={12}
+                maxValue={48}
+                defaultValue={iconSize}
+                onChangeEnd={setIconSize}
+              >
+                <Slider.Track>
+                  <Slider.FilledTrack />
+                </Slider.Track>
+                <Slider.Thumb />
+              </Slider>
+            </FormControl>
+            <Divider />
+            <FormControl>
+              <FormControl.Label>{`Color:`}</FormControl.Label>
+
+              <ColorPicker value={iconColor} onValueChange={setIconColor} />
+            </FormControl>
+          </VStack>
+        </Modal>
+      </HStack>
+
+      {!isTablet && (
+        <Slide in={isDrawerOpen} placement="left"  height="100%" bottom={0} bg="white">
+          <Box width="80%" minWidth={300} bottom={0} height="100%" bg="white"
+            borderRightColor="#ececec"
+            borderRightWidth={1}
+             rounded="md">
+            <SlideMenu
+              iconsets={iconsets}
+              currentIconsetIndex={currentIconsetIndex}
+              onChangeIconset={onChangeIconset}
+            />
+          </Box>
+        </Slide>
+      )}
     </>
   );
 }

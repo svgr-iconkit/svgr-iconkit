@@ -2,7 +2,7 @@ import React from "react";
 import {
   IconsetBaseProps,
   CreateIconsetOptions,
-  CreateIconFactoryType,
+  IconProps,
 } from "./types";
 
 export const DEFAULT_VARIANT = "regular";
@@ -17,13 +17,11 @@ export function createIconsetFactory<
     variants,
     defaultVariant,
   }: CreateIconsetOptions<IconNames, IconVariant>,
-  factory: CreateIconFactoryType
+  BaseIconComponent: React.ComponentType<IconProps>
 ) {
   const _map: any = map;
   const _variants: string[] = variants || [];
   const _defaultVariant: string = defaultVariant || DEFAULT_VARIANT;
-
-  const _cache = new Map<string, any>();
 
   const Iconset = (
     props: IconsetBaseProps<IconNames, IconVariant>,
@@ -45,7 +43,7 @@ export function createIconsetFactory<
     if (!iconComponentConfig) {
       if (process.env.NODE_ENV === "development") {
         console.warn(
-          `Icon ${name} (${variant}) not found from iconset ${familyName}.`
+          `Icon ${name} (${variant}/${defaultVariant}) not found from iconset ${familyName}.`
         );
       }
       return null;
@@ -77,23 +75,9 @@ export function createIconsetFactory<
       ...(style || {}),
     };
 
-    const displayName = `${name}.${variant}`;
-    // Getting icon component by given props change
-    let IconComponent: React.ForwardRefExoticComponent<any> =
-      _cache.get(displayName);
-
-    if (!IconComponent) {
-      IconComponent = factory(iconComponentConfig);
-      IconComponent.displayName = displayName;
-    }
-
-    if (!_cache.has(displayName)) {
-      _cache.set(displayName, IconComponent);
-    }
-
-    return <IconComponent ref={ref} {...otherProps} {...restProps} />;
+    return <BaseIconComponent ref={ref} content={iconComponentConfig} {...otherProps} {...restProps} />;
   };
-  Iconset.displayName = familyName;
+  Iconset.displayName = `Iconset(${familyName})`;
 
   return React.forwardRef(Iconset);
 }

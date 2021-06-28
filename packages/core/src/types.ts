@@ -1,19 +1,21 @@
 import React, { CSSProperties } from "react";
 
-export type IconComponentClass<IconNames extends string, IconVariant extends string> = React.ForwardRefExoticComponent<IconsetProps<IconNames, IconVariant>>;
+export type IconComponentClass<
+  IconNames extends string,
+  IconVariant extends string
+> = React.ForwardRefExoticComponent<IconsetProps<IconNames, IconVariant>>;
 
 export type IconSVGNode = {
   tagName: string;
-  attrs: Record<string, string | number>;
+  attrs?: Record<string, any>;
   children?: IconSVGNode[];
 };
 
 export type IconSVG = {
   name: string;
-  viewBox?: string;
-  width?: string | number;
-  height?: string | number;
-  attrs?: any;
+  width?: number;
+  height?: number;
+  attrs?: Record<string, any>;
   data: IconSVGNode[];
 };
 /** Backward compitable */
@@ -40,45 +42,41 @@ export interface IconBaseProps {
   id?: string;
   fill?: string;
   stroke?: string;
+  strokeWidth?: number | string;
+  strokeLinecap?: string;
+  strokeLinejoin?: string;
   ["data-testid"]?: string;
   size?: string | number;
   color?: string;
 }
 
-export interface IconsetBaseProps<IconNames extends string, IconVariant extends string> extends IconBaseProps {
+export interface IconsetBaseProps<
+  IconNames extends string,
+  IconVariant extends string
+> extends IconBaseProps {
   name: IconNames;
   variant?: IconVariant;
 }
 
-export type IconsetProps<IconNames extends string, IconVariant extends string> =
+export type IconProps = { content?: IconSVG } & IconBaseProps;
+
+export type IconsetProps<
+  IconNames extends string,
+  IconVariant extends string
+> =
   | (React.ReactSVGElement & IconsetBaseProps<IconNames, IconVariant>)
   | React.ReactElement<IconsetBaseProps<IconNames, IconVariant>>;
 
-export type CreateIconsetOptions<IconNames extends string, IconVariant extends string> = {
+export type CreateIconsetOptions<
+  IconNames extends string,
+  IconVariant extends string
+> = {
   familyName: string;
   map: IconsMapType<IconNames> | Record<IconVariant, IconsMapType<IconNames>>;
   variants?: IconVariant[];
   defaultVariant?: IconVariant;
 };
 
-export type CreateIconOptions = {
-  name: string;
-  width: number;
-  height: number;
-  path: string;
-};
-
-
-export type SVGNode = {
-  name: string;
-  attrs: Record<string, string | number>;
-};
-
-export type SVGIconNode = {
-  name: string;
-  viewBox: string;
-  data: SVGNode[];
-};
-
-
-export type CreateIconFactoryType = (iconProps: IconSVG) => React.ForwardRefExoticComponent<any>;
+export type CreateIconFactoryType = (
+  iconProps: IconSVG
+) => React.ForwardRefExoticComponent<any>;

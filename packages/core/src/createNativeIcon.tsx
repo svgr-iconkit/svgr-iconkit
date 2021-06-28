@@ -1,6 +1,5 @@
 import React from "react";
 import Svg, {
-  SvgProps,
   Path,
   Circle,
   Rect,
@@ -22,7 +21,13 @@ import Svg, {
   TextPath,
   Stop,
 } from "react-native-svg";
-import { CreateIconFactoryType, IconBaseProps, IconsetBaseProps, IconSVG, IconSVGNode } from "./types";
+import {
+  CreateIconFactoryType,
+  IconBaseProps,
+  IconProps,
+  IconSVG,
+  IconSVGNode,
+} from "./types";
 import { convertReactProps, removePx } from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
@@ -53,59 +58,59 @@ const supportedNodeNames = Object.keys(NodeComponentMap);
 const filterNode = (node: IconSVGNode) =>
   supportedNodeNames.includes(node.tagName);
 
-export const createNativeIcon: CreateIconFactoryType = ({
-  name,
-  viewBox,
-  width: orgWidth,
-  height: orgHeight,
-  attrs = {},
-  data = [],
-}: IconSVG) => {
-  const { viewBox: _viewBox, width: _width, height: _height, ...restAttrs } = attrs;
-  /**
-   * Travel children node
-   */
-  const renderChildren = (nodes: any[], parentKey: string = "#") => {
-    const filteredNodes = nodes.filter(filterNode);
-    return filteredNodes.map((node, index) => {
-      const { tagName, attrs, children } = node;
-      const NodeComponent = NodeComponentMap[tagName.toLowerCase()];
-      const nodeKey = `${parentKey}/$${tagName}_${index}`;
+/**
+ * Travel children node
+ */
+const renderChildren = (nodes: any[], parentKey: string = "#") => {
+  const filteredNodes = nodes.filter(filterNode);
+  return filteredNodes.map((node, index) => {
+    const { tagName, attrs, children } = node;
+    const NodeComponent = NodeComponentMap[tagName.toLowerCase()];
+    const nodeKey = `${parentKey}/$${tagName}_${index}`;
 
-      const _props: any = convertReactProps(attrs, {
-        key: nodeKey,
-      });
-      return (
-        <NodeComponent  {..._props}>
-          {children && children.length > 0 && renderChildren(children, nodeKey)}
-        </NodeComponent>
-      );
+    const _props: any = convertReactProps(attrs, {
+      key: nodeKey,
     });
-  };
+    return (
+      <NodeComponent {..._props}>
+        {children && children.length > 0 && renderChildren(children, nodeKey)}
+      </NodeComponent>
+    );
+  });
+};
 
-  function SVGContent(
-    props: SvgProps,
-    svgRef?: React.Ref<React.Component<SvgProps>>
-  ) {
+const InternalNativeIcon = React.forwardRef(
+  (props: IconProps, svgRef?: any) => {
+    const { content, ...restProps } = props;
+
+    if (!content) {
+      return null;
+    }
+    const { attrs, width, height, data = [] } = content;
+    const { viewBox, width: orgWidth, height: orgHeight, ...restAttrs } =
+      attrs || {};
+    const _viewBox =
+      viewBox ||
+      `0 0 ${removePx(orgWidth || width)} ${removePx(orgHeight || height)}`;
     return (
       <Svg
-        viewBox={viewBox || `0 0 ${removePx(orgWidth)} ${removePx(orgHeight)}`}
+        viewBox={_viewBox}
+        {...convertReactProps(restProps)}
         {...convertReactProps(restAttrs)}
         ref={svgRef}
-        {...props}
       >
         {renderChildren(data)}
       </Svg>
     );
   }
-  SVGContent.displayName = name;
+);
+InternalNativeIcon.displayName = "NativeIcon";
 
-  return React.memo(React.forwardRef(SVGContent));
+export const NativeIcon = InternalNativeIcon;
+
+export const createNativeIcon: CreateIconFactoryType = (content: IconSVG) => {
+  function NativeIconWrapper(props: IconBaseProps, svgRef?: any) {
+    return <NativeIcon ref={svgRef} content={content} {...props} />;
+  }
+  return React.forwardRef(NativeIconWrapper);
 };
-
-export function NativeIcon({content, ...restProps}: {content: IconSVG} & IconBaseProps) {
-  const Icon = createNativeIcon(content);
-  return <Icon {...restProps} />;
-}
-
-export default createNativeIcon;

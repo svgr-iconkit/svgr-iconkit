@@ -34,7 +34,7 @@ const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) =>
 
 const defaultExport = [
   {
-    input: ["src/index.ts", "src/native.ts"],
+    input: ["src/index.ts", "src/native.ts", "src/index.native.ts"],
     output: [
       {
         dir: pkg.commonjs.replace("index.js", ""),

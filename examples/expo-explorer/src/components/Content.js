@@ -15,6 +15,7 @@ function Content({
   }
   return (
     <ScrollView
+      style={{flex: 1}}
       scrollIndicatorInsets={{ top: 4, bottom: 4, left: 4, right: 4 }}
       contentContainerStyle={[contentStyles, contentContainerStyle]}
       {...restProps}

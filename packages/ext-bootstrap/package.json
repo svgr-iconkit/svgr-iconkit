@@ -68,12 +68,12 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "mkdir -p ./tmp/icons",
-    "iconsmap:copy": "cp -R ../../node_modules/bootstrap/icons/svg/*.svg ./tmp/icons",
-    "iconsmap:create:regular": "svgr-iconkit build-map ./tmp/icons ./src/icons-regular.ts",
+    "iconsmap:prepare": "mkdir -p ./src/gen/assets",
+    "iconsmap:copy": "cp -R ../../node_modules/bootstrap-icons/icons/*.svg ./src/gen/assets",
+    "iconsmap:create:regular": "svgr-iconkit build-map ./src/gen/assets ./src/gen/icons/regular.ts",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./src/gen",
     "compile": "rollup -c",
     "build": "npm-run-all iconsmap compile"
   }

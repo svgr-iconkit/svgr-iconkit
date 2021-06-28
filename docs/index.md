@@ -37,6 +37,9 @@ Support below iconset:
 ---
 ## Other topics
 
-- [Iconset Explorer](/explorer)
-- [Iconset Explorer (Expo)](https://expo.io/@lemankk/svgr-iconkit-expo-explorer)
-- [Create owned iconset](/CreateOwnedIconset.md)
+- Iconset Explorer
+  - [Bare React.js app](/explorer)
+  - [Expo Native](https://expo.io/@lemankk/svgr-iconkit-expo-explorer)
+  - [Expo Web](/expo-explorer)
+- Docs
+  - [Create owned iconset](/CreateOwnedIconset.md)

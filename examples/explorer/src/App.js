@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { BootstrapProvider } from "@bootstrap-styled/provider";
 import {
   Button,
