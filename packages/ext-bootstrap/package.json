@@ -8,7 +8,7 @@
   ],
   "license": "MIT",
   "main": "index",
-  "react-native": "src/native.ts",
+  "react-native": "lib/native.js",
   "commonjs": "lib/commonjs/index.js",
   "module": "lib/es/index.js",
   "types": "index",
