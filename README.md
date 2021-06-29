@@ -3,7 +3,7 @@ _SVG Iconkit for React_
 
 
 
-Inspired by [gregberge/svgr](https://github.com/gregberge/svgr) and [oblador/react-native-vector-icons](https://github.com/oblador/react-native-vector-icons), the kit set for rendering SVG based icon content in React.js/React-Native.
+Inspired by [gregberge/svgr](https://github.com/gregberge/svgr) and [oblador/react-native-vector-icons](https://github.com/oblador/react-native-vector-icons), the kit set for rendering SVG based icon content in React.js, React-Native and Expo.
 
 It provide below benefits:
 - Standardize same set of icons
