@@ -1,2 +1,0 @@
-(this.webpackJsonp=this.webpackJsonp||[]).push([[6],{600:function(n,t,e){"use strict";e.r(t),e.d(t,"Icon",(function(){return s})),e.d(t,"iconNames",(function(){return i})),e.d(t,"variantNames",(function(){return r}));var c=e(587),s=c.a,i=Object.keys(c.b.filled),r=Object.keys(c.b)}}]);
-//# sourceMappingURL=6.ffcad51d.chunk.js.map

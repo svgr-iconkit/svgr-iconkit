@@ -1,5 +1,5 @@
-import Iconset, { map } from '@svgr-iconkit/foundation';
+import * as IconsetConfig from '@svgr-iconkit/foundation';
 
-export const Icon = Iconset;
-export const iconNames = Object.keys(map.regular);
-export const variantNames = Object.keys(map);
+export const Icon = IconsetConfig.Iconset;
+export const iconNames = IconsetConfig.iconNames || Object.keys(IconsetConfig.map.regular);
+export const variantNames = IconsetConfig.variantNames || Object.keys(IconsetConfig.map);

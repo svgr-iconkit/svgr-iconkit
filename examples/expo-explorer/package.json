@@ -53,5 +53,8 @@
     "styled-components": "*",
     "styled-system": "*",
     "tinycolor2": "^1.4.2"
+  },
+  "devDependencies": {
+    "@expo/webpack-config": "^0.12.81"
   }
 }

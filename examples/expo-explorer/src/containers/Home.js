@@ -199,43 +199,46 @@ export default function Home() {
                 <Text bold fontSize="14px">
                   {iconsetInfo.packageName}
                 </Text>
-              </Header.Item>
-              {hasVariants && shouldVariantShowInHeader && (
-                <Header.Item>
-                  <Menu
-                    closeOnSelect
-                    trigger={(triggerProps) => {
-                      return (
-                        <Pressable
-                          flexDirection="row"
-                          alignItems="center"
-                          {...triggerProps}
-                        >
-                          <Text fontSize="14px">Variants: </Text>
-                          <Text fontSize="14px" bold color="secondary.500">
-                            {currentVariant}
-                          </Text>
+                {hasVariants && shouldVariantShowInHeader && (
+                  <>
+                    <Text color="#666" fontSize="14px" mx={1}>
+                      @
+                    </Text>
+                    <Menu
+                      closeOnSelect
+                      trigger={(triggerProps) => {
+                        return (
+                          <Pressable
+                            flexDirection="row"
+                            alignItems="center"
+                            {...triggerProps}
+                          >
+                            <Text fontSize="14px" bold color="secondary.500">
+                              {currentVariant}
+                            </Text>
 
-                          <SVGIcon
-                            content={AppIconMap.regular["expand-more"]}
-                            size={18}
-                            color="black"
-                          />
-                        </Pressable>
-                      );
-                    }}
-                  >
-                    {iconsetInfo.variantNames.map((name) => (
-                      <Menu.Item
-                        isDisabled={name === currentVariant}
-                        onPress={() => setVariant(name)}
-                      >
-                        {name}
-                      </Menu.Item>
-                    ))}
-                  </Menu>
-                </Header.Item>
-              )}
+                            <SVGIcon
+                              content={AppIconMap.regular["expand-more"]}
+                              size={18}
+                              color="black"
+                            />
+                          </Pressable>
+                        );
+                      }}
+                    >
+                      {iconsetInfo.variantNames.map((name) => (
+                        <Menu.Item
+                          minWidth="200px"
+                          isDisabled={name === currentVariant}
+                          onPress={() => setVariant(name)}
+                        >
+                          {name}
+                        </Menu.Item>
+                      ))}
+                    </Menu>
+                  </>
+                )}
+              </Header.Item>
               <Header.Item rightSide>
                 <Link
                   href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
@@ -264,15 +267,28 @@ export default function Home() {
           <Content padder>
             {iconsetInfo && (
               <>
-                {iconsetInfo.__loaded && matchedIconNames && matchedIconNames.length < 1 && (
-                  <Box height="40px" style={{flexBasis: "auto"}} mx={4} flex={1}>
-                    <Text bold fontSize="12px">
-                      No matched icons
-                    </Text>
-                  </Box>
-                )}
+                {iconsetInfo.__loaded &&
+                  matchedIconNames &&
+                  matchedIconNames.length < 1 && (
+                    <Box
+                      height="40px"
+                      style={{ flexBasis: "auto" }}
+                      mx={4}
+                      flex={1}
+                    >
+                      <Text bold fontSize="12px">
+                        No matched icons
+                      </Text>
+                    </Box>
+                  )}
                 {matchedIconNames && matchedIconNames.length > 0 && (
-                  <Box height="40px" style={{flexBasis: "auto"}} mb={4} mx={4} flex={1}>
+                  <Box
+                    height="40px"
+                    style={{ flexBasis: "auto" }}
+                    mb={4}
+                    mx={4}
+                    flex={1}
+                  >
                     <Text fontSize="12px">
                       Found {matchedIconNames.length} matched icons
                     </Text>
