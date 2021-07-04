@@ -83,5 +83,6 @@
     "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen ./gen",
     "compile": "rollup -c",
     "build": "npm-run-all iconsmap compile"
-  }
+  },
+  "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
 }
