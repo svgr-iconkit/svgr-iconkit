@@ -63,10 +63,6 @@ const InternalWebIcon = React.forwardRef(function(
     internalStyle[name] =  bakStyle[name];
   });
 
-  if (size) {
-    _props.width = size;
-    _props.height = size;
-  }
   if (fontSize) {
     internalStyle.width = fontSize;
     internalStyle.height = fontSize;

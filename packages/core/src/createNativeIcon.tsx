@@ -110,11 +110,6 @@ const InternalNativeIcon = React.forwardRef(
       : [];
     const internalStyle: any = {};
 
-    if (size) {
-      _props.width = size;
-      _props.height = size;
-    }
-
     if (color) {
       // For some iconset, they use stroke to styling and cannot use fill properties
       internalStyle.color = color;
