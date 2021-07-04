@@ -28,7 +28,7 @@ import {
   IconSVG,
   IconSVGNode,
 } from "./types";
-import { convertReactProps, getViewboxValue } from "./utils";
+import { convertReactProps, getViewboxValue, removePx } from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
   path: Path,
@@ -54,8 +54,8 @@ const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
 };
 // For native, only few attribute is supported
 const propNamesRemap = {
-  class: 'className',
-}
+  class: "className",
+};
 
 const supportedNodeNames = Object.keys(NodeComponentMap);
 
@@ -91,45 +91,45 @@ const InternalNativeIcon = React.forwardRef(
       return null;
     }
     const { attrs, data = [] } = content;
-    const { fill, stroke, ...restAttrs } =
-      attrs || {};
+    const { fill, stroke, ...restAttrs } = attrs || {};
     const viewBox = getViewboxValue(content);
 
-      const originalProps = convertReactProps(restProps, {}, propNamesRemap);
-      const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
-      const _props = {
-        fill,
-        stroke,
-        ...originalProps,
-        viewBox,
-        ...attrProps,
-      };
-      const style = _props.style ? [_props.style] : [];
-      const internalStyle: any = {};
-    
-      if (size) {
-        _props.width = size;
-        _props.height = size;
-      }
-      
-      if (color) {
-        // For some iconset, they use stroke to styling and cannot use fill properties
-        internalStyle.color = color;
-      }
-      if (fontSize) {
-        internalStyle.width = fontSize;
-        internalStyle.height = fontSize;
-        internalStyle.fontSize = fontSize;
-      }
-      if (lineHeight) {
-        internalStyle.lineHeight = lineHeight;
-      }
-      _props.style = [internalStyle].concat(style);
+    const originalProps = convertReactProps(restProps, {}, propNamesRemap);
+    const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
+    const _props = {
+      fill,
+      stroke,
+      ...originalProps,
+      viewBox,
+      ...attrProps,
+    };
+    const style = _props.style
+      ? Array.isArray(_props.style)
+        ? _props.style
+        : [_props.style]
+      : [];
+    const internalStyle: any = {};
+
+    if (size) {
+      _props.width = size;
+      _props.height = size;
+    }
+
+    if (color) {
+      // For some iconset, they use stroke to styling and cannot use fill properties
+      internalStyle.color = color;
+    }
+    if (fontSize) {
+      internalStyle.width = removePx(fontSize);
+      internalStyle.height = removePx(fontSize);
+      internalStyle.fontSize = removePx(fontSize);
+    }
+    if (lineHeight) {
+      internalStyle.lineHeight = removePx(lineHeight);
+    }
+    _props.style = [internalStyle].concat(style);
     return (
-      <Svg
-        {..._props}
-        ref={svgRef}
-      >
+      <Svg {..._props} ref={svgRef}>
         {renderChildren(data)}
       </Svg>
     );
