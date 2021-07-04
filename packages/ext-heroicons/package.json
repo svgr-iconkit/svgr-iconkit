@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/heroicons",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Heroicons SVGR iconset",
   "keywords": [
     "SVG",
@@ -35,7 +35,7 @@
     "react-native-svg": "^12.1.0"
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.16"
+    "@svgr-iconkit/core": "^0.1.17"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -48,9 +48,9 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/build-config": "^0.1.15",
-    "@svgr-iconkit/cli": "^0.1.15",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.15",
+    "@svgr-iconkit/build-config": "^0.1.17",
+    "@svgr-iconkit/cli": "^0.1.17",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.17",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",

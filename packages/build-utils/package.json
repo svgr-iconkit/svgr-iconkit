@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/build-utils",
-  "version": "0.1.15",
+  "version": "0.1.17",
   "license": "MIT",
   "main": "lib/index",
   "scripts": {
