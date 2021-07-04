@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/entypo",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Entypo Icon SVGR iconset",
   "keywords": [
     "SVG",
@@ -39,7 +39,7 @@
     "react-native-svg": "^12.1.0"
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.15"
+    "@svgr-iconkit/core": "^0.1.16"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
