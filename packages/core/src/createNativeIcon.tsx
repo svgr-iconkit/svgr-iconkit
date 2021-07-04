@@ -28,7 +28,7 @@ import {
   IconSVG,
   IconSVGNode,
 } from "./types";
-import { convertReactProps, removePx } from "./utils";
+import { convertReactProps, getViewboxValue } from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
   path: Path,
@@ -85,17 +85,15 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
 
 const InternalNativeIcon = React.forwardRef(
   (props: IconProps, svgRef?: any) => {
-    const { content, size, color, ...restProps } = props;
+    const { content, size, color, fontSize, lineHeight, ...restProps } = props;
 
     if (!content) {
       return null;
     }
-    const { attrs, width, height, data = [] } = content;
-    const { viewBox, width: orgWidth, height: orgHeight, fill, stroke, ...restAttrs } =
+    const { attrs, data = [] } = content;
+    const { fill, stroke, ...restAttrs } =
       attrs || {};
-    const _viewBox =
-      viewBox ||
-      `0 0 ${removePx(orgWidth || width)} ${removePx(orgHeight || height)}`;
+    const viewBox = getViewboxValue(content);
 
       const originalProps = convertReactProps(restProps, {}, propNamesRemap);
       const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
@@ -103,6 +101,7 @@ const InternalNativeIcon = React.forwardRef(
         fill,
         stroke,
         ...originalProps,
+        viewBox,
         ...attrProps,
       };
       const style = _props.style ? [_props.style] : [];
@@ -112,24 +111,22 @@ const InternalNativeIcon = React.forwardRef(
         _props.width = size;
         _props.height = size;
       }
-      if (
-        fill !== "none"
-      ) {
-        _props.fill = "currentColor";
-      }
+      
       if (color) {
         // For some iconset, they use stroke to styling and cannot use fill properties
-        if (
-          fill !== "none"
-        ) {
-          _props.fill = color;
-        }
         internalStyle.color = color;
       }
-      _props.style = style.concat([internalStyle]);
+      if (fontSize) {
+        internalStyle.width = fontSize;
+        internalStyle.height = fontSize;
+        internalStyle.fontSize = fontSize;
+      }
+      if (lineHeight) {
+        internalStyle.lineHeight = lineHeight;
+      }
+      _props.style = [internalStyle].concat(style);
     return (
       <Svg
-        viewBox={_viewBox}
         {..._props}
         ref={svgRef}
       >

@@ -1,5 +1,5 @@
 {
-  "name": "@svgr-iconkit/rollup-plugin-svg-data",
+  "name": "@svgr-iconkit/babel-plugin-svg-data",
   "version": "0.1.13",
   "author": "leman <leman@lmswork.com>",
   "homepage": "https://github.com/lemankk/svgr-iconkit",

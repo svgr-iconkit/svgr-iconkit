@@ -1,9 +1,10 @@
 import { camelCase } from "change-case";
+import { IconSVG } from "./types";
 
 export const removePx = (str?: string | number) =>
   !str ? "" : String(str).replace("px", "");
 
-const ignoredAttrNames = ["xmlns", "title"];
+const ignoredAttrNames = ["xmlns", "title", "id", "version"];
 
 export const convertReactProps = (
   attrs: Record<string, any>,
@@ -46,4 +47,13 @@ export const convertStyleProps = (
     _props[convertedName] = attrs[propName];
   });
   return _props;
+};
+
+export const getViewboxValue = (content: IconSVG) => {
+  const { attrs, width = 24, height = 24 } = content;
+  const { viewBox, width: orgWidth, height: orgHeight } = attrs || {};
+  const _viewBox =
+    viewBox ||
+    `0 0 ${removePx(orgWidth || width)} ${removePx(orgHeight || height)}`;
+  return _viewBox;
 };

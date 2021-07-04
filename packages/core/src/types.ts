@@ -44,6 +44,8 @@ export interface IconBaseProps {
   strokeLinejoin?: string;
   ["data-testid"]?: string;
   size?: string | number;
+  lineHeight?: string | number;
+  fontSize?: string | number;
   color?: string;
 }
 

@@ -30,9 +30,6 @@ export function createIconsetFactory<
     const {
       name,
       variant = _defaultVariant,
-      size,
-      style,
-      color,
       ...restProps
     } = props;
     const iconComponentConfig =
@@ -43,37 +40,18 @@ export function createIconsetFactory<
     if (!iconComponentConfig) {
       if (process.env.NODE_ENV === "development") {
         console.warn(
-          `Icon ${name} (${variant}/${defaultVariant}) not found from iconset ${familyName}.`
+          `Icon ${name} (${variant}) not found from iconset ${familyName}.`
         );
       }
       return null;
     }
     const otherProps: any = {};
-    const internalStyle: any = {};
-    if (size) {
-      internalStyle.width = size;
-      internalStyle.height = size;
-    }
     if (
       !iconComponentConfig.attrs ||
       iconComponentConfig.attrs.fill !== "none"
     ) {
       otherProps.fill = "currentColor";
     }
-    if (color) {
-      // For some iconset, they use stroke to styling and cannot use fill properties
-      if (
-        !iconComponentConfig.attrs ||
-        iconComponentConfig.attrs.fill !== "none"
-      ) {
-        otherProps.fill = color;
-      }
-      internalStyle.color = color;
-    }
-    otherProps.style = {
-      ...internalStyle,
-      ...(style || {}),
-    };
 
     return <BaseIconComponent ref={ref} content={iconComponentConfig} {...otherProps} {...restProps} />;
   };

@@ -6,7 +6,7 @@ import {
   IconSVG,
   IconSVGNode,
 } from "./types";
-import { convertReactProps, convertStyleProps, removePx } from "./utils";
+import { convertReactProps, getViewboxValue } from "./utils";
 
 // For web, only few attribute is supported
 const propNamesRemap = {
@@ -38,16 +38,14 @@ const InternalWebIcon = React.forwardRef(function(
   props: IconProps,
   svgRef?: any
 ) {
-  const { content, size, color, ...restProps } = props;
+  const { content, size, color, fontSize, lineHeight, style: bakStyle = {}, ...restProps } = props;
   if (!content) {
     return null;
   }
-  const { attrs, width, height, data = [] } = content;
-  const { viewBox, width: orgWidth, height: orgHeight, fill, stroke, ...restAttrs } =
+  const { attrs, data = [] } = content;
+  const { fill, stroke, ...restAttrs } =
     attrs || {};
-  const _viewBox =
-    viewBox ||
-    `0 0 ${removePx(orgWidth || width)} ${removePx(orgHeight || height)}`;
+  const viewBox = getViewboxValue(content);
 
   const originalProps = convertReactProps(restProps, {}, propNamesRemap);
   const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
@@ -55,33 +53,38 @@ const InternalWebIcon = React.forwardRef(function(
     fill,
     stroke,
     ...originalProps,
+    viewBox,
     ...attrProps,
   };
-  const internalStyle = convertStyleProps(_props.style || {}, {});
+
+  // For web, it does not support array based styles
+  const internalStyle: any = {};
+  Object.keys(bakStyle).filter( name => !name.match(/^[0-9]+/)).forEach( name => {
+    internalStyle[name] =  bakStyle[name];
+  });
 
   if (size) {
-    internalStyle.width = size;
-    internalStyle.height = size;
+    _props.width = size;
+    _props.height = size;
   }
-  if (
-    fill !== "none"
-  ) {
-    _props.fill = "currentColor";
+  if (fontSize) {
+    internalStyle.width = fontSize;
+    internalStyle.height = fontSize;
+    internalStyle.fontSize = fontSize;
   }
+  if (lineHeight) {
+    internalStyle.lineHeight = lineHeight;
+  }
+
+  _props.style = internalStyle;
+
   if (color) {
     // For some iconset, they use stroke to styling and cannot use fill properties
-    if (
-      fill !== "none"
-    ) {
-      _props.fill = color;
-    }
     internalStyle.color = color;
   }
-  _props.style = internalStyle;
   
   return (
     <svg
-      viewBox={_viewBox}
       {..._props}
       ref={svgRef}
     >

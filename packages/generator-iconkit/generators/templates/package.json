@@ -23,6 +23,8 @@
     "index.android.js",
     "index.native.js",
     "index.native.d.ts",
+    "index.web.js",
+    "index.web.d.ts",
     "index.d.ts",
     "native.js",
     "native.d.ts",
