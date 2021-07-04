@@ -1,5 +1,5 @@
 import svgData from "@svgr-iconkit/rollup-plugin-svg-data";
-import { createRollupConfig } from "@svgr-iconkit/build-utils";
+import { createRollupConfig } from "@svgr-iconkit/build-config";
 
 const pkg = require("./package.json");
 
