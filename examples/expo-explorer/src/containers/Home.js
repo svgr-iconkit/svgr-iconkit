@@ -4,13 +4,13 @@ import {
   Button,
   Box,
   Container,
+  Icon,
   IconButton,
   SimpleGrid,
   Text,
   Tabs,
   Input,
   Pressable,
-  Icon,
   Select,
   Slide,
   Divider,
@@ -160,9 +160,13 @@ export default function Home() {
               {!isTablet && (
                 <Header.Item>
                   <IconButton
+                    _web={{
+                      "data-elm-type": "drawer-btn",
+                      "data-elm-id": `drawer-btn:${iconsetInfo.packageName}`,
+                    }}
                     onPress={onDrawerOpen}
                     icon={
-                      <SVGIcon
+                      <Icon as={SVGIcon}
                         content={AppIconMap.regular.menu}
                         size={24}
                         color="black"
@@ -175,6 +179,10 @@ export default function Home() {
                 <Input
                   flex={1}
                   size="xs"
+                  _web={{
+                    "data-elm-type": "keyword-filter-tf",
+                    "data-elm-id": `keyword-filter-tf:${iconsetInfo.packageName}`,
+                  }}
                   placeholder="Filter by keywords"
                   value={keyword}
                   onChangeText={setKeyword}
@@ -184,8 +192,13 @@ export default function Home() {
               <Header.Item>
                 <IconButton
                   onPress={onSettingOpen}
+                  _web={{
+                    "data-elm-type": "setting-dd",
+                    "data-elm-id": `setting-dd:${iconsetInfo.packageName}`,
+                  }}
                   icon={
-                    <SVGIcon
+                    <Icon
+                      as={SVGIcon}
                       content={AppIconMap.regular.settings}
                       size={24}
                       color="black"
@@ -211,13 +224,18 @@ export default function Home() {
                           <Pressable
                             flexDirection="row"
                             alignItems="center"
+                            _web={{
+                              "data-elm-type": "variants-dd",
+                              "data-elm-id": `variants-dd:${iconsetInfo.packageName}`,
+                            }}
                             {...triggerProps}
                           >
                             <Text fontSize="14px" bold color="secondary.500">
                               {currentVariant}
                             </Text>
 
-                            <SVGIcon
+                            <Icon
+                              as={SVGIcon}
                               content={AppIconMap.regular["expand-more"]}
                               size={18}
                               color="black"
@@ -229,6 +247,10 @@ export default function Home() {
                       {iconsetInfo.variantNames.map((name) => (
                         <Menu.Item
                           minWidth="200px"
+                          _web={{
+                            "data-elm-type": "change-variant-btn",
+                            "data-elm-id": `change-variant-btn:${iconsetInfo.packageName}-${name}`,
+                          }}
                           isDisabled={name === currentVariant}
                           onPress={() => setVariant(name)}
                         >
@@ -241,9 +263,14 @@ export default function Home() {
               </Header.Item>
               <Header.Item rightSide>
                 <Link
+                  _web={{
+                    "data-elm-type": "npm-btn",
+                    "data-elm-id": `npm-btn:${iconsetInfo.packageName}`,
+                  }}
                   href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
                 >
-                  <SVGIcon
+                  <Icon
+                    as={SVGIcon}
                     content={BrandsIconMap.regular.npm}
                     name="npm"
                     size={24}
@@ -252,8 +279,13 @@ export default function Home() {
                 </Link>
                 <IconButton
                   onPress={onPackageNamePress}
+                  _web={{
+                    "data-elm-type": "copy-package-btn",
+                    "data-elm-id": `copy-package-btn:${iconsetInfo.packageName}`,
+                  }}
                   icon={
-                    <SVGIcon
+                    <Icon
+                      as={SVGIcon}
                       content={AppIconMap.regular["content-copy"]}
                       name="content-copy"
                       size={18}
@@ -311,7 +343,15 @@ export default function Home() {
                 {Array.isArray(matchedIconNames) &&
                   maxIconsShown < matchedIconNames.length && (
                     <Box safeAreaBottom padding={8}>
-                      <Button onPress={onShowMore}>Show more icons</Button>
+                      <Button
+                        onPress={onShowMore}
+                        _web={{
+                          "data-elm-type": "showmore-btn",
+                          "data-elm-id": `showmore-btn:${iconsetInfo.packageName}`,
+                        }}
+                      >
+                        Show more icons
+                      </Button>
                     </Box>
                   )}
               </>
@@ -328,6 +368,10 @@ export default function Home() {
                   <FormControl>
                     <FormControl.Label>{`Variants`}</FormControl.Label>
                     <Select
+                      _web={{
+                        "data-elm-type": "change-variants-dd",
+                        "data-elm-id": `change-variants-dd:${iconsetInfo.packageName}`,
+                      }}
                       selectedValue={currentVariant}
                       onValueChange={setVariant}
                     >

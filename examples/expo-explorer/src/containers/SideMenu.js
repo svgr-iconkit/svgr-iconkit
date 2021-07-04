@@ -37,8 +37,14 @@ export default function SideMenu({
       <Box zIndex={2} safeAreaTop bg="primary.500" p={3} paddingBottom={5}>
         <Heading alignItems="flex-start" justifyContent="center" color="#fff">
           svgr-iconkit{" "}
-          <Link href="https://svgr-iconkit.dev">
-            <Icon as={AppIcon} name="link" size={20} color="#ececec" />{" "}
+          <Link
+            _web={{
+              "data-elm-type": "official-link-btn",
+              "data-elm-id": `official-link-btn`,
+            }}
+            href="https://svgr-iconkit.dev"
+          >
+            <Icon as={AppIcon} name="link" size={6} color="#ececec" />{" "}
           </Link>
         </Heading>
         <Heading color="#fff" size="md">
@@ -55,6 +61,10 @@ export default function SideMenu({
               <Button
                 key={item.packageName}
                 accessibilityLabel={item.name}
+                _web={{
+                  "data-elm-type": "sidemenu-btn",
+                  "data-elm-id": `sidemenu-btn:${item.packageName}`,
+                }}
                 colorScheme={
                   currentIconsetIndex === index ? "secondary" : undefined
                 }

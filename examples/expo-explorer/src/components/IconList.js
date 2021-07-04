@@ -75,10 +75,10 @@ export default function IconList({
                 key={icon}
               >
                 <IconContent>
-                  <Iconset
+                  <Icon as={Iconset}
                     variant={variant}
                     name={icon}
-                    size={size}
+                    size={size/4}
                     color={color}
                   />
                 </IconContent>

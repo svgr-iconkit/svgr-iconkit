@@ -2,8 +2,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "lang": "en",
-  "name": "SVGR Iconkit Explorer",
-  "short_name": "SVGR Iconkit Explorer",
+  "name": "SVGR Iconkit Expo Explorer",
+  "short_name": "SVGR Iconkit Expo Explorer",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "icons": [
