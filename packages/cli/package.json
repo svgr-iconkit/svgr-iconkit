@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/cli",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Cli for svgr-iconkit",
   "keywords": [
     "SVG",
@@ -28,7 +28,7 @@
     "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
   },
   "dependencies": {
-    "@svgr-iconkit/build-utils": "^0.1.14",
+    "@svgr-iconkit/build-utils": "^0.1.15",
     "@svgr/cli": "^5.5.0",
     "@svgr/core": "^5.5.0",
     "@svgr/plugin-svgo": "^5.5.0",
