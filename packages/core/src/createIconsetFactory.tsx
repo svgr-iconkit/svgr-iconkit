@@ -17,7 +17,7 @@ export function createIconsetFactory<
     variants,
     defaultVariant,
   }: CreateIconsetOptions<IconNames, IconVariant>,
-  BaseIconComponent: React.ComponentType<IconProps>
+  BaseIconComponent: React.ComponentType<IconProps<IconNames, IconVariant>>
 ) {
   const _map: any = map;
   const _variants: string[] = variants || [];

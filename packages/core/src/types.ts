@@ -31,6 +31,10 @@ export type IconsetSVG = IconSVG;
 
 export type IconsMapType<IconNames extends string> = Record<IconNames, IconSVG>;
 
+export type IconsetMap<IconNames extends string, IconVariant extends string> =
+  | Record<IconVariant, IconsMapType<IconNames>>
+  | { [key: string]: IconsMapType<IconNames | string> };
+
 export interface IconBaseProps {
   width?: string | number;
   height?: string | number;
@@ -43,6 +47,7 @@ export interface IconBaseProps {
   strokeLinecap?: string;
   strokeLinejoin?: string;
   ["data-testid"]?: string;
+  ["testID"]?: string;
   size?: string | number;
   lineHeight?: string | number;
   fontSize?: string | number;
@@ -57,7 +62,13 @@ export interface IconsetBaseProps<
   variant?: IconVariant;
 }
 
-export type IconProps = { content?: IconSVG } & IconBaseProps;
+export type IconProps<IconNames extends string, IconVariant extends string> = {
+  content?: IconSVG;
+  name?: IconNames;
+  map?: IconsetMap<IconNames, IconVariant>;
+  variant?: IconVariant;
+  defaultVariant?: IconVariant;
+} & IconBaseProps;
 
 export type IconsetProps<
   IconNames extends string,
@@ -71,10 +82,7 @@ export type CreateIconsetOptions<
   IconVariant extends string
 > = {
   familyName: string;
-  map:
-    | IconsMapType<IconNames>
-    | Record<IconVariant, IconsMapType<IconNames>>
-    | { [key: string]: IconsMapType<IconNames | string> };
+  map: IconsetMap<IconNames, IconVariant>;
   variants?: IconVariant[];
   defaultVariant?: IconVariant;
 };

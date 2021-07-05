@@ -28,7 +28,7 @@ import {
   IconSVG,
   IconSVGNode,
 } from "./types";
-import { convertReactProps, getViewboxValue, removePx } from "./utils";
+import { convertReactProps, getContentFromIconProps, getViewboxValue, removePx } from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
   path: Path,
@@ -83,61 +83,73 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
   });
 };
 
-const InternalNativeIcon = React.forwardRef(
-  (props: IconProps, svgRef?: any) => {
-    const { content, size, color, fontSize, lineHeight, ...restProps } = props;
-
-    if (!content) {
-      return null;
-    }
-    const { attrs, data = [] } = content;
-    const { fill, stroke, ...restAttrs } = attrs || {};
-    const viewBox = getViewboxValue(content);
-
-    const iconProps = convertReactProps(restProps, {}, propNamesRemap);
-    const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
-    const internalProps = {
-      fill,
-      stroke,
-      ...attrProps,
-      viewBox,
-      ...iconProps,
-    };
-
-    if (fill !== "none") {
-      internalProps.fill = "currentColor";
-    }
-
-    const style = internalProps.style
-      ? Array.isArray(internalProps.style)
-        ? internalProps.style
-        : [internalProps.style]
-      : [];
-    const internalStyle: any = {};
-
-    if (color) {
-      // For some iconset, they use stroke to styling and cannot use fill properties
-      internalStyle.color = color;
-    }
-    if (fontSize) {
-      internalStyle.width = removePx(fontSize);
-      internalStyle.height = removePx(fontSize);
-      internalStyle.fontSize = removePx(fontSize);
-    }
-    if (lineHeight) {
-      internalStyle.lineHeight = removePx(lineHeight);
-    }
-    internalProps.style = [internalStyle].concat(style);
-    return (
-      <Svg {...internalProps} ref={svgRef}>
-        {renderChildren(data)}
-      </Svg>
-    );
+const InternalNativeIcon = React.forwardRef(function<
+  IconNames extends string,
+  IconVariant extends string
+>(props: IconProps<IconNames, IconVariant>, svgRef?: any) {
+  const {
+    content,
+    map = {},
+    variant,
+    defaultVariant,
+    size,
+    color,
+    fontSize,
+    lineHeight,
+    ...restProps
+  } = props;
+  const _content = getContentFromIconProps(props);
+  if (!_content) {
+    return null;
   }
-);
+
+  const { attrs, data = [] } = _content;
+  const { fill, stroke, ...restAttrs } = attrs || {};
+  const viewBox = getViewboxValue(_content);
+
+  const iconProps = convertReactProps(restProps, {}, propNamesRemap);
+  const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
+  const internalProps = {
+    fill,
+    stroke,
+    ...attrProps,
+    viewBox,
+    ...iconProps,
+  };
+
+  if (fill !== "none") {
+    internalProps.fill = "currentColor";
+  }
+
+  const style = internalProps.style
+    ? Array.isArray(internalProps.style)
+      ? internalProps.style
+      : [internalProps.style]
+    : [];
+  const internalStyle: any = {};
+
+  if (color) {
+    // For some iconset, they use stroke to styling and cannot use fill properties
+    internalStyle.color = color;
+  }
+  if (fontSize) {
+    internalStyle.width = removePx(fontSize);
+    internalStyle.height = removePx(fontSize);
+    internalStyle.fontSize = removePx(fontSize);
+  }
+  if (lineHeight) {
+    internalStyle.lineHeight = removePx(lineHeight);
+  }
+  internalProps.style = [internalStyle].concat(style);
+  return (
+    <Svg {...internalProps} ref={svgRef}>
+      {renderChildren(data)}
+    </Svg>
+  );
+});
 InternalNativeIcon.displayName = "NativeIcon";
 
-export const NativeIcon = InternalNativeIcon;
+export const NativeIcon = React.memo(InternalNativeIcon);
 
 export const createNativeIcon: CreateIconFactoryType = (content: IconSVG) => {
   function NativeIconWrapper(props: IconBaseProps, svgRef?: any) {

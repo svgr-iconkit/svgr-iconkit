@@ -1,5 +1,5 @@
 import { camelCase } from "change-case";
-import { IconSVG } from "./types";
+import { IconProps, IconSVG } from "./types";
 
 export const removePx = (str?: string | number) =>
   !str ? "" : String(str).replace("px", "");
@@ -56,4 +56,25 @@ export const getViewboxValue = (content: IconSVG) => {
     viewBox ||
     `0 0 ${removePx(orgWidth || width)} ${removePx(orgHeight || height)}`;
   return _viewBox;
+};
+
+export const getContentFromIconProps = <
+  IconNames extends string,
+  IconVariant extends string
+>(
+  props: IconProps<IconNames, IconVariant>
+) => {
+  const { variant, defaultVariant, content, map, name } = props;
+  if (content) {
+    return content;
+  }
+  if (map && name) {
+    if (variant && map[variant] && map[variant][name]) {
+      return map[variant][name];
+    }
+    if (defaultVariant && map[defaultVariant] && map[defaultVariant][name]) {
+      return map[defaultVariant][name];
+    }
+  }
+  return null;
 };
