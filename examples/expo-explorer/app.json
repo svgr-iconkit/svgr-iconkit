@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "SVGR Iconkit Expo Explorer",
+    "name": "@svgr-iconkit / Expo Explorer",
     "slug": "svgr-iconkit-expo-explorer",
     "version": "1.0.0",
     "orientation": "portrait",
