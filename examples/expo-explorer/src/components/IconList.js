@@ -11,6 +11,7 @@ import {
 } from "native-base";
 import styled, { css } from "styled-components/native";
 import Clipboard from "expo-clipboard";
+import StyledIcon from "./StyledIcon";
 
 const IconContent = styled(Box)`
   border-bottom-width: 1px;
@@ -45,6 +46,7 @@ const IconLabel = styled(Text)`
 export default function IconList({
   maxCount,
   allVariantNames = [],
+  map = {},
   color = "#ccc",
   size = 24,
   variant = "regular",
@@ -60,6 +62,12 @@ export default function IconList({
     return null;
   }
 
+  if (!map[variant]) {
+    console.warn('Variant %s not exist in map. map=%o', variant, map);
+    
+    return null;
+  }
+
   return (
       <IconListWrapper color={color} size={size}>
         {allIconNames && allIconNames.length > 0 && (
@@ -69,21 +77,20 @@ export default function IconList({
             spacingY={4}
             spacingX={4}
           >
-            {allIconNames.slice(0, maxCount).map((icon) => (
+            {allIconNames.slice(0, maxCount).map((iconName) => (
               <IconWrapper
-                onPress={() => onIconPress && onIconPress(icon)}
-                key={icon}
+                onPress={() => onIconPress && onIconPress(iconName)}
+                key={iconName}
               >
                 <IconContent>
-                  <Icon as={Iconset}
-                    variant={variant}
-                    name={icon}
-                    size={size/4}
+                  <StyledIcon
+                    content={map[variant][iconName]}
+                    size={size}
                     color={color}
                   />
                 </IconContent>
                 <IconLabel noOfLines={3} numberOfLines={3}>
-                  {icon}
+                  {iconName}
                 </IconLabel>
               </IconWrapper>
             ))}

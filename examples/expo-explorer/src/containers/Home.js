@@ -27,7 +27,6 @@ import {
   useMediaQuery,
 } from "native-base";
 import Clipboard from "expo-clipboard";
-import { Icon as SVGIcon } from "@svgr-iconkit/core";
 import { map as AppIconMap } from "@svgr-iconkit/material-design";
 import { map as BrandsIconMap } from "@svgr-iconkit/fontawesome5-brands";
 
@@ -36,7 +35,9 @@ import IconList from "../components/IconList";
 import Header from "../components/Header";
 import Content from "../components/Content";
 import ColorPicker from "../components/ColorPicker";
+import StyledIcon from "../components/StyledIcon";
 import SlideMenu from "./SideMenu";
+
 
 const defaultMaxShownNum = 60;
 
@@ -166,7 +167,7 @@ export default function Home() {
                     }}
                     onPress={onDrawerOpen}
                     icon={
-                      <Icon as={SVGIcon}
+                      <StyledIcon
                         content={AppIconMap.regular.menu}
                         size={24}
                         color="black"
@@ -197,8 +198,7 @@ export default function Home() {
                     "data-elm-id": `setting-dd:${iconsetInfo.packageName}`,
                   }}
                   icon={
-                    <Icon
-                      as={SVGIcon}
+                    <StyledIcon
                       content={AppIconMap.regular.settings}
                       size={24}
                       color="black"
@@ -234,11 +234,10 @@ export default function Home() {
                               {currentVariant}
                             </Text>
 
-                            <Icon
-                              as={SVGIcon}
+                            <Icon as={StyledIcon}
                               content={AppIconMap.regular["expand-more"]}
                               size={18}
-                              color="black"
+                              color="secondary.400"
                             />
                           </Pressable>
                         );
@@ -269,8 +268,7 @@ export default function Home() {
                   }}
                   href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
                 >
-                  <Icon
-                    as={SVGIcon}
+                  <StyledIcon
                     content={BrandsIconMap.regular.npm}
                     name="npm"
                     size={24}
@@ -284,11 +282,11 @@ export default function Home() {
                     "data-elm-id": `copy-package-btn:${iconsetInfo.packageName}`,
                   }}
                   icon={
-                    <Icon
-                      as={SVGIcon}
+                    <StyledIcon
                       content={AppIconMap.regular["content-copy"]}
                       name="content-copy"
-                      size={18}
+                      fill="currentcolor"
+                      size={24}
                       color="black"
                     />
                   }
@@ -336,6 +334,7 @@ export default function Home() {
                   color={iconColor}
                   allIconNames={matchedIconNames}
                   allVariantNames={iconsetInfo.variantNames}
+                  map={iconsetInfo.map}
                   onIconPress={onIconPress}
                   numColumn={iconsColumns}
                 />

@@ -46,12 +46,6 @@ export function createIconsetFactory<
       return null;
     }
     const otherProps: any = {};
-    if (
-      !iconComponentConfig.attrs ||
-      iconComponentConfig.attrs.fill !== "none"
-    ) {
-      otherProps.fill = "currentColor";
-    }
 
     return <BaseIconComponent ref={ref} content={iconComponentConfig} {...otherProps} {...restProps} />;
   };

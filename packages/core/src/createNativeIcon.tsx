@@ -94,19 +94,24 @@ const InternalNativeIcon = React.forwardRef(
     const { fill, stroke, ...restAttrs } = attrs || {};
     const viewBox = getViewboxValue(content);
 
-    const originalProps = convertReactProps(restProps, {}, propNamesRemap);
+    const iconProps = convertReactProps(restProps, {}, propNamesRemap);
     const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
-    const _props = {
+    const internalProps = {
       fill,
       stroke,
-      ...originalProps,
-      viewBox,
       ...attrProps,
+      viewBox,
+      ...iconProps,
     };
-    const style = _props.style
-      ? Array.isArray(_props.style)
-        ? _props.style
-        : [_props.style]
+
+    if (fill !== "none") {
+      internalProps.fill = "currentColor";
+    }
+
+    const style = internalProps.style
+      ? Array.isArray(internalProps.style)
+        ? internalProps.style
+        : [internalProps.style]
       : [];
     const internalStyle: any = {};
 
@@ -122,9 +127,9 @@ const InternalNativeIcon = React.forwardRef(
     if (lineHeight) {
       internalStyle.lineHeight = removePx(lineHeight);
     }
-    _props.style = [internalStyle].concat(style);
+    internalProps.style = [internalStyle].concat(style);
     return (
-      <Svg {..._props} ref={svgRef}>
+      <Svg {...internalProps} ref={svgRef}>
         {renderChildren(data)}
       </Svg>
     );

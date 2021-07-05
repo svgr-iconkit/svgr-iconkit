@@ -47,15 +47,19 @@ const InternalWebIcon = React.forwardRef(function(
     attrs || {};
   const viewBox = getViewboxValue(content);
 
-  const originalProps = convertReactProps(restProps, {}, propNamesRemap);
+  const iconProps = convertReactProps(restProps, {}, propNamesRemap);
   const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
-  const _props = {
+  const internalProps = {
     fill,
     stroke,
-    ...originalProps,
-    viewBox,
     ...attrProps,
+    viewBox,
+    ...iconProps,
   };
+
+  if (fill !== "none") {
+    internalProps.fill = "currentColor";
+  }
 
   // For web, it does not support array based styles
   const internalStyle: any = {};
@@ -63,6 +67,11 @@ const InternalWebIcon = React.forwardRef(function(
     internalStyle[name] =  bakStyle[name];
   });
 
+  if (size) {
+    internalStyle.width = size + 'px';
+    internalStyle.height = size + 'px';
+    internalStyle.fontSize = size + 'px';
+  }
   if (fontSize) {
     internalStyle.width = fontSize;
     internalStyle.height = fontSize;
@@ -72,7 +81,7 @@ const InternalWebIcon = React.forwardRef(function(
     internalStyle.lineHeight = lineHeight;
   }
 
-  _props.style = internalStyle;
+  internalProps.style = internalStyle;
 
   if (color) {
     // For some iconset, they use stroke to styling and cannot use fill properties
@@ -81,7 +90,7 @@ const InternalWebIcon = React.forwardRef(function(
   
   return (
     <svg
-      {..._props}
+      {...internalProps}
       ref={svgRef}
     >
       {renderChildren(data)}

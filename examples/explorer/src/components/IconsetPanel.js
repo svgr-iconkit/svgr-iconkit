@@ -96,6 +96,7 @@ export default function IconsetPanel({
               <ButtonGroup>
                 {variantNames.map((name) => (
                   <Button
+                    key={name}
                     onClick={() => onVariantChange(name)}
                     color={variantName === name ? "primary" : "light"}
                   >
