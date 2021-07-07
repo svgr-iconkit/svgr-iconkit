@@ -17,6 +17,7 @@ It provide below benefits:
   - [Expo Web](/expo-explorer)
 - Example
   - [Sample usage on Expo Snack](https://snack.expo.io/@lemankk/svgr-iconkit-sample-with-material-design-icons)
+  - [Sample usage on CodeSandbox with React.js](https://codesandbox.io/s/svgr-iconkit-usage-sample-for-reactjs-4qfql)
 - Docs
   - [Create owned iconset](/CreateOwnedIconset.md)
   - [Supported iconset](/SupportedIconset.md)
