@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/iconset/FluentUISystem.js"],"names":[],"mappings":"uFAAA","file":"static/js/10.29c0887a.chunk.js","sourcesContent":["export * from '@svgr-iconkit/fluentui-system';\n"],"sourceRoot":""}

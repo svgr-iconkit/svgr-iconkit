@@ -327,14 +327,12 @@ export default function Home() {
                 )}
                 <IconList
                   maxCount={maxIconsShown}
-                  component={iconsetInfo.component}
                   variant={currentVariant}
                   searching={isSearchMode}
                   size={iconSize}
                   color={iconColor}
                   allIconNames={matchedIconNames}
-                  allVariantNames={iconsetInfo.variantNames}
-                  map={iconsetInfo.map}
+                  iconsetInfo={iconsetInfo}
                   onIconPress={onIconPress}
                   numColumn={iconsColumns}
                 />

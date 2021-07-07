@@ -22,7 +22,7 @@ export default function IconListView({
   maxIconsShown = 50,
   onShowMore,
 }) {
-  const { iconNames = [], component: IconComponent } = iconsetInfo || {};
+  const { iconNames = [], Iconset: IconComponent } = iconsetInfo || {};
 
   const styledProps: any = {};
   const iconProps: any = {};

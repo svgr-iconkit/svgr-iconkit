@@ -13,6 +13,8 @@ import {
   Nav,
   NavItem,
   NavLink,
+  Row,
+  Col,
 } from "@bootstrap-styled/v4";
 import "codemirror/lib/codemirror.css";
 import "codemirror/theme/material.css";
@@ -27,7 +29,7 @@ const createWebExample = ({
   variantName = "regular",
   iconName = "arrow-left",
   iconSize = 24,
-  iconColor = '#000',
+  iconColor = "#000",
 }) => `
 import React from 'react';
 import Icon from '${packageName}';
@@ -43,7 +45,7 @@ const createNativeExample = ({
   variantName = "regular",
   iconName = "arrow-left",
   iconSize = 24,
-  iconColor = '#000',
+  iconColor = "#000",
 }) => `
 import React from 'react';
 import { View } from 'react-native';
@@ -63,13 +65,15 @@ export default function IconsetPanel({
   iconSize,
   iconColor,
 }) {
-  const {
-    name: familyName,
+  const { name: familyName, packageName, variantNames = [], iconNames = [] } =
+    iconsetInfo || {};
+  const options = {
     packageName,
-    variantNames = [],
-    iconNames = [],
-  } = iconsetInfo || {};
-  const options = { packageName, variantName, iconName: iconNames[0], iconColor, iconSize };
+    variantName,
+    iconName: iconNames[0],
+    iconColor,
+    iconSize,
+  };
   const codeWeb = createWebExample(options);
   const codeNative = createNativeExample(options);
 
@@ -84,37 +88,39 @@ export default function IconsetPanel({
     <>
       <Card>
         <CardBlock>
-          <CardTitle>{familyName}</CardTitle>
-          <CardText>Total {iconNames.length} icon(s).</CardText>
-          <CardSubtitle>Package name:</CardSubtitle>
-          <code>{packageName}</code>
-        </CardBlock>
-        {variantNames && variantNames.length > 0 && (
-          <>
-            <CardBlock>
-              <CardSubtitle>Variants:</CardSubtitle>
-              <ButtonGroup>
-                {variantNames.map((name) => (
-                  <Button
-                    key={name}
-                    onClick={() => onVariantChange(name)}
-                    color={variantName === name ? "primary" : "light"}
-                  >
-                    {name}
-                  </Button>
-                ))}
-              </ButtonGroup>
-            </CardBlock>
-          </>
-        )}
-        <CardBlock>
-          <CardLink
-            href="#"
-            onClick={() => setUsageModalShow(true)}
-            color="link"
-          >
-            How to use?
-          </CardLink>
+          <Row>
+            <Col>
+              <CardTitle>{familyName}</CardTitle>
+              <CardText>Total {iconNames.length} icon(s).</CardText>
+              <CardSubtitle>Package name:</CardSubtitle>
+              <code>{packageName}</code>
+            </Col>
+            <Col>
+              {variantNames && variantNames.length > 0 && (
+                <div>
+                  <CardSubtitle>Variants:</CardSubtitle>
+                  <ButtonGroup>
+                    {variantNames.map((name) => (
+                      <Button
+                        key={name}
+                        onClick={() => onVariantChange(name)}
+                        color={variantName === name ? "primary" : "light"}
+                      >
+                        {name}
+                      </Button>
+                    ))}
+                  </ButtonGroup>
+                </div>
+              )}
+              <CardLink
+                href="#"
+                onClick={() => setUsageModalShow(true)}
+                color="link"
+              >
+                How to use?
+              </CardLink>
+            </Col>
+          </Row>
         </CardBlock>
       </Card>
 

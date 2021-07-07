@@ -18,7 +18,7 @@ const IconContent = styled(Box)`
   border-bottom-color: #ccc;
   align-items: center;
   justify-content: center;
-  width: 100px;
+  width: 100%;
   height: 70px;
 `;
 const IconWrapper = styled(Pressable)`
@@ -41,61 +41,68 @@ const IconLabel = styled(Text)`
   height: 30px;
   font-size: 9px;
   text-align: center;
+  display: flex;
 `;
 
 export default function IconList({
   maxCount,
-  allVariantNames = [],
-  map = {},
   color = "#ccc",
   size = 24,
   variant = "regular",
   allIconNames = [],
-  component: Iconset,
   searching = false,
   onIconPress,
   numColumn = 3,
+  iconsetInfo,
 }) {
   const toast = useToast();
 
-  if (!Iconset) {
+  if (!iconsetInfo) {
+    console.warn("Variant %s not exist in map. map=%o", variant, iconsetInfo);
     return null;
   }
+  const {
+    Iconset,
+    variantNames,
+    iconNames,
+    defaultVariant,
+    map,
+  } = iconsetInfo;
 
-  if (!map[variant]) {
-    console.warn('Variant %s not exist in map. map=%o', variant, map);
-    
+  if (!map) {
+    console.warn("Variant %s not exist in map. map=%o", variant, map);
     return null;
   }
 
   return (
-      <IconListWrapper color={color} size={size}>
-        {allIconNames && allIconNames.length > 0 && (
-          <SimpleGrid
-            alignItems="center"
-            columns={numColumn}
-            spacingY={4}
-            spacingX={4}
-          >
-            {allIconNames.slice(0, maxCount).map((iconName) => (
-              <IconWrapper
-                onPress={() => onIconPress && onIconPress(iconName)}
-                key={iconName}
-              >
-                <IconContent>
-                  <StyledIcon
-                    content={map[variant][iconName]}
-                    size={size}
-                    color={color}
-                  />
-                </IconContent>
-                <IconLabel noOfLines={3} numberOfLines={3}>
-                  {iconName}
-                </IconLabel>
-              </IconWrapper>
-            ))}
-          </SimpleGrid>
-        )}
-      </IconListWrapper>
+    <IconListWrapper color={color} size={size}>
+      {allIconNames && allIconNames.length > 0 && (
+        <SimpleGrid
+          alignItems="center"
+          columns={numColumn}
+          spacingY={4}
+          spacingX={4}
+        >
+          {allIconNames.slice(0, maxCount).map((iconName) => (
+            <IconWrapper
+              onPress={() => onIconPress && onIconPress(iconName)}
+              key={iconName}
+            >
+              <IconContent>
+                <Iconset
+                  variant={variant}
+                  name={iconName}
+                  size={size}
+                  color={color}
+                />
+              </IconContent>
+              <IconLabel noOfLines={3} numberOfLines={3}>
+                {iconName}
+              </IconLabel>
+            </IconWrapper>
+          ))}
+        </SimpleGrid>
+      )}
+    </IconListWrapper>
   );
 }

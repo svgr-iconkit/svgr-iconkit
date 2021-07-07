@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/iconset/BootstrapIcon.js"],"names":[],"mappings":"sFAAA","file":"static/js/7.a5fd2d0a.chunk.js","sourcesContent":["export * from '@svgr-iconkit/bootstrap';\n"],"sourceRoot":""}

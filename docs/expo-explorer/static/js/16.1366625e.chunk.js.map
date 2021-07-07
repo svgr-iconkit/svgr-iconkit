@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/iconset/Octicons.js"],"names":[],"mappings":"uFAAA","file":"static/js/16.1366625e.chunk.js","sourcesContent":["export * from '@svgr-iconkit/octicons';\n"],"sourceRoot":""}

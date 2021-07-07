@@ -8,7 +8,7 @@
     "@bootstrap-styled/v4": "^3.4.0",
     "@svgr-iconkit/ant-design": "^0.1.14",
     "@svgr-iconkit/bootstrap": "^0.1.14",
-    "@svgr-iconkit/core": "^0.1.14",
+    "@svgr-iconkit/core": "^0.1.19",
     "@svgr-iconkit/css-gg": "^0.1.14",
     "@svgr-iconkit/entypo": "^0.1.14",
     "@svgr-iconkit/feather": "^0.1.14",
@@ -39,7 +39,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ../../docs/explorer && mv build ../../docs/explorer",
+    "build": "react-scripts build",
+    "build:docs": "react-scripts build && rm -rf ../../docs/explorer && mv build ../../docs/explorer",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "subpackages:install": "node ../../scripts/install-all-package.js",

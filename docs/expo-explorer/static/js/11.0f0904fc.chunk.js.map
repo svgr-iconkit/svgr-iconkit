@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/iconset/FontAwesome5.js"],"names":[],"mappings":"uFAAA","file":"static/js/11.0f0904fc.chunk.js","sourcesContent":["export * from '@svgr-iconkit/fontawesome5';\n"],"sourceRoot":""}

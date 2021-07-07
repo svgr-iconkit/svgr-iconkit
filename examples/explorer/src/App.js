@@ -8,6 +8,8 @@ import {
   Input,
   InputGroup,
   Option,
+  ListGroup,
+  ListGroupItem,
 } from "@bootstrap-styled/v4";
 import { useCallback, useEffect, useState } from "react";
 import { TwitterPicker } from "react-color";
@@ -23,7 +25,7 @@ export default function App() {
   const [currentVariant, setVariant] = useState("regular");
   const onChangeIconset = useCallback((newIndex) => {
     setIconsetIndex(newIndex);
-    const { defaultVariant = 'regular' } = iconsets[newIndex];
+    const { defaultVariant = "regular" } = iconsets[newIndex];
     setVariant(defaultVariant);
     setMaxIconsShown(100);
   }, []);
@@ -48,14 +50,12 @@ export default function App() {
     ? iconNames
     : iconNames.filter((name) => name.includes(keyword));
 
-
-
   useEffect(() => {
-    if (!tmpIconsetInfo.resources || tmpIconsetInfo.__loaded){
+    if (!tmpIconsetInfo.resources || tmpIconsetInfo.__loaded) {
       return;
     }
-    if (typeof tmpIconsetInfo.resources !== "function"){
-      const { Icon, ...restProps } = tmpIconsetInfo.resources; 
+    if (typeof tmpIconsetInfo.resources !== "function") {
+      const { Icon, ...restProps } = tmpIconsetInfo.resources;
       const _info = {
         ...tmpIconsetInfo,
         component: Icon,
@@ -67,7 +67,7 @@ export default function App() {
       return;
     }
     async function run() {
-      const { Icon, ...restProps } = await tmpIconsetInfo.resources(); 
+      const { Icon, ...restProps } = await tmpIconsetInfo.resources();
 
       const _info = {
         ...tmpIconsetInfo,
@@ -105,21 +105,94 @@ export default function App() {
                 , the kit set for rendering SVG based icon content in
                 React.js/React-Native.
               </p>
-              <Form>
-                <FormGroup>
-                  <Input
-                    type="select"
-                    onChange={(evt) => onChangeIconset(evt.target.value)}
+              <ListGroup>
+                {iconsets.map(({ name, packageName }, index) => (
+                  <ListGroupItem
+                    key={packageName}
+                    action
+                    active={currentIconsetIndex === index}
+                    onClick={() => onChangeIconset(index)}
                   >
-                    {iconsets.map(({ name, packageName }, index) => (
-                      <Option key={packageName} value={index}>
-                        {name}
-                      </Option>
-                    ))}
-                  </Input>
-                </FormGroup>
-              </Form>
+                    {name}
+                  </ListGroupItem>
+                ))}
+              </ListGroup>
             </div>
+          </aside>
+          <main>
+            <div className="topbar">
+              <div className="topbar-body">
+                <div>
+                  <ButtonGroup>
+                    {[16, 24, 32, 48].map((value) => (
+                      <Button
+                        onClick={() => setIconSize(value)}
+                        key={`$size-${value}`}
+                        color={iconSize === value ? "primary" : "default"}
+                      >
+                        {value}
+                      </Button>
+                    ))}
+                  </ButtonGroup>
+                </div>
+                <div>
+                  <ButtonGroup>
+                    {[
+                      { value: true, label: "styled-components" },
+                      { value: false, label: "props" },
+                    ].map(({ value, label }) => (
+                      <Button
+                        onClick={() => setUsingStyledComponent(value)}
+                        key={`$stylingprops-${value}`}
+                        color={
+                          isUsingStyledComponent === value
+                            ? "primary"
+                            : "default"
+                        }
+                      >
+                        {label}
+                      </Button>
+                    ))}
+                  </ButtonGroup>
+                </div>
+                <Picker
+                  isOpen={isColorPickerOpen}
+                  onClose={() => setColorPickerOpen(false)}
+                  content={
+                    <TwitterPicker
+                      color={iconColor}
+                      onChangeComplete={(color) => setIconColor(color.hex)}
+                    />
+                  }
+                >
+                  <ButtonGroup>
+                    <Button
+                      onClick={() => setColorPickerOpen(true)}
+                      color="light"
+                      style={{ backgroundColor: iconColor }}
+                    >
+                      {iconColor}
+                    </Button>
+                  </ButtonGroup>
+                </Picker>
+                <div>
+                  <Form inline className="my-2 my-lg-0">
+                    <InputGroup>
+                      <Input
+                        type="text"
+                        value={keyword}
+                        placeholder="Search icons..."
+                        onChange={(evt) => {
+                          setKeyword(evt.target.value);
+                          setMaxIconsShown(100);
+                        }}
+                      />
+                    </InputGroup>
+                  </Form>
+                </div>
+              </div>
+            </div>
+            <div class="body">
             <IconsetInfoPanel
               variantName={currentVariant}
               keyword={keyword}
@@ -129,96 +202,26 @@ export default function App() {
               iconSize={iconSize}
               iconColor={iconColor}
             />
-          </aside>
-          <main>
-            <Toolbar>
               <div>
-                <ButtonGroup>
-                  {[16, 24, 32, 48].map((value) => (
-                    <Button
-                      onClick={() => setIconSize(value)}
-                      key={`$size-${value}`}
-                      color={iconSize === value ? "primary" : "default"}
-                    >
-                      {value}
-                    </Button>
-                  ))}
-                </ButtonGroup>
+                {isSearchMode && (
+                  <span>
+                    {matchedIconNames.length} icon(s) matched by given keyword.
+                  </span>
+                )}
               </div>
-              <div>
-                <ButtonGroup>
-                  {[
-                    { value: true, label: "styled-components" },
-                    { value: false, label: "props" },
-                  ].map(({ value, label }) => (
-                    <Button
-                      onClick={() => setUsingStyledComponent(value)}
-                      key={`$stylingprops-${value}`}
-                      color={
-                        isUsingStyledComponent === value ? "primary" : "default"
-                      }
-                    >
-                      {label}
-                    </Button>
-                  ))}
-                </ButtonGroup>
-              </div>
-              <Picker
-                isOpen={isColorPickerOpen}
-                onClose={() => setColorPickerOpen(false)}
-                content={
-                  <TwitterPicker
-                    color={iconColor}
-                    onChangeComplete={(color) => setIconColor(color.hex)}
-                  />
-                }
-              >
-                <ButtonGroup>
-                  <Button
-                    onClick={() => setColorPickerOpen(true)}
-                    color="light"
-                    style={{ backgroundColor: iconColor }}
-                  >
-                    {iconColor}
-                  </Button>
-                </ButtonGroup>
-              </Picker>
-              <div>
-                <Form inline className="my-2 my-lg-0">
-                  <InputGroup>
-                    <Input
-                      type="text"
-                      value={keyword}
-                      placeholder="Search icons..."
-                      onChange={(evt) => {
-                        setKeyword(evt.target.value);
-                        setMaxIconsShown(100);
-                      }}
-                    />
-                  </InputGroup>
-                </Form>
-              </div>
-            </Toolbar>
-            <div>
-              {isSearchMode && (
-                <span>
-                  {matchedIconNames.length} icon(s) matched by given keyword.
-                </span>
-              )}
+              <IconsetListView
+                variantName={currentVariant}
+                keyword={keyword}
+                iconSize={iconSize}
+                iconColor={iconColor}
+                iconsetInfo={iconsetInfo}
+                isUsingStyledComponent={isUsingStyledComponent}
+                matchedIconNames={matchedIconNames}
+                maxIconsShown={maxIconsShown}
+                isSearchMode={isSearchMode}
+                onShowMore={onShowMore}
+              />
             </div>
-
-            <IconsetListView
-              variantName={currentVariant}
-              keyword={keyword}
-              iconSize={iconSize}
-              iconColor={iconColor}
-              iconsetInfo={iconsetInfo}
-              isUsingStyledComponent={isUsingStyledComponent}
-              matchedIconNames={matchedIconNames}
-              maxIconsShown={maxIconsShown}
-              isSearchMode={isSearchMode}
-              onShowMore={onShowMore}
-            />
           </main>
         </div>
       </div>
