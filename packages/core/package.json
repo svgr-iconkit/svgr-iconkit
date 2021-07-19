@@ -1,10 +1,13 @@
 {
   "name": "@svgr-iconkit/core",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "description": "SVGR iconset core",
   "keywords": [
     "SVG",
-    "Icons"
+    "Icons",
+    "react",
+    "react-native",
+    "expo"
   ],
   "author": "leman <leman@lmswork.com>",
   "homepage": "https://github.com/lemankk/svgr-iconkit",
