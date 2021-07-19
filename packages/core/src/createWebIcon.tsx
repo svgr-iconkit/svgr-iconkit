@@ -103,7 +103,11 @@ const InternalWebIcon = React.forwardRef(function<
 
   if (color) {
     // For some iconset, they use stroke to styling and cannot use fill properties
-    internalStyle.color = color;
+
+    // Respect on provided color from react-native-web
+    if (!internalStyle.color) {
+      internalStyle.color = color;
+    }
   }
 
   return (
