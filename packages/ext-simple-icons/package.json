@@ -1,22 +1,27 @@
 {
   "name": "@svgr-iconkit/simple-icons",
-  "version": "0.1.17",
-  "description": "Simple Icons SVGR iconset",
+  "version": "0.2.0",
+  "description": "Simple Icons for @svgr-iconkit",
   "keywords": [
     "SVG",
-    "Icons"
+    "Icons",
+    "react",
+    "react-native",
+    "expo"
   ],
   "license": "MIT",
   "main": "index",
-  "react-native": "index.native.js",
-  "commonjs": "lib/commonjs/index.js",
+  "react-native": "native",
+  "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
   "directories": {
+    "icons": "icons",
     "lib": "lib",
     "native": "native"
   },
   "files": [
+    "icons",
     "lib",
     "native",
     "index.js",
@@ -32,12 +37,17 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.1.1",
-    "react": "^16.8.0 || ^17.0.1",
+    "@svgr-iconkit/core": "^0.2.0",
+    "react": ">= 16.8.0",
     "react-native-svg": "^12.1.0"
   },
+  "peerDependenciesMeta": {
+    "react-native-svg": {
+      "optional": true
+    }
+  },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.17"
+    "@svgr-iconkit/core": "^0.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -49,21 +59,18 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/build-config": "^0.1.17",
-    "@svgr-iconkit/cli": "^0.1.17",
+    "@svgr-iconkit/build-config": "^0.2.0",
+    "@svgr-iconkit/cli": "0.2.0",
     "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.17",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
     "npm-run-all": "^4.1.5",
-    "react": "16.13.1",
+    "react": "17.0.1",
     "react-native": "^0.64.2",
-    "react-native-builder-bob": "^0.18.1",
     "react-native-svg": "12.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
-    "rollup-plugin-dts": "^3.0.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
@@ -75,14 +82,14 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "mkdir -p ./src/gen/assets",
-    "iconsmap:copy": "cp -R ../../node_modules/simple-icons/icons/*.svg ./src/gen/assets",
-    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets ./src/gen/icons/regular",
+    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:create:regular": "svgr-iconkit convert-data icons ./src/gen/icons/regular -p simple-icons",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
-    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen ./gen",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
     "compile": "rollup -c",
-    "build": "npm-run-all iconsmap compile"
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all iconsmap compile"
   },
   "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
 }

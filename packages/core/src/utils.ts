@@ -1,80 +1,142 @@
-import { camelCase } from "change-case";
-import { IconProps, IconSVG } from "./types";
+import { camelCase } from "camel-case";
+import { ResolveType, IconBaseProps, IconProps, IconSVG } from "./types";
 
-export const removePx = (str?: string | number) =>
-  !str ? "" : String(str).replace("px", "");
+const numberStartedRegExp = /^[0-9]/;
+const numberOnlyRegExp = /^[0-9]$/;
 
-const ignoredAttrNames = ["xmlns", "title", "id", "version"];
+export const PRIMARY_CURRENT_COLOR = "currentColor";
 
+const ignoredPropNames = ["xmlns", "title", "id", "version", "style"];
+
+export const filterNonNumberStartedString = (str: any) =>
+  !String(str).match(numberStartedRegExp);
+export const filterNubmerOnlyString = (str: any) =>
+  !!String(str).match(numberOnlyRegExp);
+export const filterNonNubmerOnlyString = (str: any) =>
+  !!!String(str).match(numberOnlyRegExp);
+export const filterIgnoredPropNames = (name: any) =>
+  !ignoredPropNames.includes(name);
+export const filterNonEmptyString = (name: any) =>
+  name !== "" && name !== null && name !== undefined;
+
+export const DEFAULT_VARIANT = "regular";
+
+export const removeUnit = (str?: string | number, unit: string = "px") =>
+  !str ? "" : String(str).replace(unit, "");
+
+export const appendUnit = (str?: string | number, unit: string = "px") => {
+  if (filterNubmerOnlyString(str)) return `${str}${unit}`;
+  return String(str);
+};
+
+/**
+ * Used for converting react used props
+ * @param attrs
+ * @param originalContent
+ * @param namesRemap {Record<string, string | null>} Swap the original name into new props name or remove it when mattched
+ * @returns
+ */
 export const convertReactProps = (
   attrs: Record<string, any>,
   originalContent: any = {},
-  propNamesRemap?: Record<string, string>
+  namesRemap?: Record<string, string | null>
 ) => {
-  const _props: any = {
+  const exportedProps: any = {
     ...originalContent,
   };
 
   const allowedPropNames = Object.keys(attrs)
-    .filter((propName) => !String(propName).match(/^[0-9]/))
-    .filter((propName) => !ignoredAttrNames.includes(propName))
-    .map((name) =>
-      propNamesRemap && propNamesRemap[name] ? propNamesRemap[name] : name
-    );
-  allowedPropNames.forEach((propName) => {
-    const convertedName = camelCase(propName);
-    _props[convertedName] = attrs[propName];
-  });
-  return _props;
+    .filter(filterNonNumberStartedString)
+    .filter(filterIgnoredPropNames)
+    .filter((name) => !namesRemap || !!namesRemap[name])
+    .map((name) => (namesRemap && namesRemap[name] ? namesRemap[name] : name));
+  return allowedPropNames
+    .filter(filterNonEmptyString)
+    .reduce((curProps, propName) => {
+      if (propName) {
+        const convertedName = camelCase(propName);
+        curProps[convertedName] = attrs[propName];
+      }
+      return curProps;
+    }, exportedProps);
 };
 
-export const convertStyleProps = (
-  attrs: Record<string, any>,
-  originalContent: any = {},
-  propNamesRemap?: Record<string, string>
-) => {
-  const _props: any = {
-    ...originalContent,
-  };
-  const allowedPropNames = Object.keys(attrs)
-    .filter((propName) => !String(propName).match(/^[0-9]/))
-    .filter((propName) => !ignoredAttrNames.includes(propName))
-    .map((name) =>
-      propNamesRemap && propNamesRemap[name] ? propNamesRemap[name] : name
-    );
-  allowedPropNames.forEach((propName) => {
-    const convertedName = camelCase(propName);
-    _props[convertedName] = attrs[propName];
-  });
-  return _props;
-};
-
-export const getViewboxValue = (content: IconSVG) => {
+/**
+ * Getting viewBox string from properties, default width height is 24
+ * @param {IconSVG} content SVG Content
+ * @returns {string}
+ */
+export const getViewboxValue = (content: IconSVG): string => {
   const { attrs, width = 24, height = 24 } = content;
   const { viewBox, width: orgWidth, height: orgHeight } = attrs || {};
   const _viewBox =
     viewBox ||
-    `0 0 ${removePx(orgWidth || width)} ${removePx(orgHeight || height)}`;
+    `0 0 ${removeUnit(orgWidth || width)} ${removeUnit(orgHeight || height)}`;
   return _viewBox;
 };
 
 export const getContentFromIconProps = <
   IconNames extends string,
-  IconVariant extends string
+  IconVariant extends string = string
 >(
   props: IconProps<IconNames, IconVariant>
 ) => {
-  const { variant, defaultVariant, content, map, name } = props;
-  if (content) {
+  const { content, name, resolveType: type } = props;
+  if (content && type === ResolveType.Content) {
     return content;
   }
-  if (map && name) {
-    if (variant && map[variant] && map[variant][name]) {
-      return map[variant][name];
+  const map = resolveIconsMap(props);
+  if (name && map && map[name]) {
+    return map[name];
+  }
+  return null;
+};
+
+export const resolveIconsMap = <
+  IconNames extends string,
+  IconVariant extends string = string
+>(
+  props: IconBaseProps<IconNames, IconVariant>
+) => {
+  const {
+    resolveType: type,
+    variantsMap,
+    map,
+    variant,
+    defaultVariant,
+  } = props;
+  if (type === ResolveType.VariantMap) {
+    if (variantsMap && variant && variantsMap[variant]) {
+      return variantsMap[variant];
     }
-    if (defaultVariant && map[defaultVariant] && map[defaultVariant][name]) {
-      return map[defaultVariant][name];
+    if (
+      variantsMap &&
+      defaultVariant &&
+      variantsMap[defaultVariant] &&
+      variantsMap[defaultVariant]
+    ) {
+      return variantsMap[defaultVariant];
+    }
+  }
+  if (type === ResolveType.ContentMap) {
+    if (
+      variantsMap &&
+      variant &&
+      variantsMap[variant] &&
+      variantsMap[variant]
+    ) {
+      return variantsMap[variant];
+    }
+    if (map) {
+      return map;
     }
   }
   return null;
 };
+
+export function showDebugWarning(...rest: any[]) {
+  if (process.env.NODE_ENV !== "development") {
+    return null;
+  }
+  console.warn.apply(console, rest);
+}

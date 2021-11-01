@@ -1,22 +1,27 @@
 {
   "name": "@svgr-iconkit/ant-design",
-  "version": "0.1.17",
-  "description": "AntDesignIcon SVGR iconset",
+  "version": "0.2.0",
+  "description": "AntDesignIcon for @svgr-iconkit",
   "keywords": [
     "SVG",
-    "Icons"
+    "Icons",
+    "react",
+    "react-native",
+    "expo"
   ],
   "license": "MIT",
   "main": "index",
-  "react-native": "index.native.js",
-  "commonjs": "lib/commonjs/index.js",
+  "react-native": "native",
+  "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
   "directories": {
+    "icons": "icons",
     "lib": "lib",
     "native": "native"
   },
   "files": [
+    "icons",
     "lib",
     "native",
     "index.js",
@@ -32,15 +37,20 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.1.1",
-    "react": "^16.8.0 || ^17.0.1",
+    "@svgr-iconkit/core": "^0.2.0",
+    "react": ">= 16.8.0",
     "react-native-svg": "^12.1.0"
   },
+  "peerDependenciesMeta": {
+    "react-native-svg": {
+      "optional": true
+    }
+  },
   "dependencies": {
-    "@ant-design/icons-svg": "^4.1.0",
-    "@svgr-iconkit/core": "^0.1.17"
+    "@svgr-iconkit/core": "^0.2.0"
   },
   "devDependencies": {
+    "@ant-design/icons-svg": "^4.1.0",
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-typescript": "^7.14.4",
@@ -50,21 +60,18 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/build-config": "^0.1.17",
-    "@svgr-iconkit/cli": "^0.1.17",
+    "@svgr-iconkit/build-config": "^0.2.0",
+    "@svgr-iconkit/cli": "0.2.0",
     "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.17",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
     "npm-run-all": "^4.1.5",
-    "react": "16.13.1",
+    "react": "17.0.1",
     "react-native": "^0.64.2",
-    "react-native-builder-bob": "^0.18.1",
     "react-native-svg": "12.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
-    "rollup-plugin-dts": "^3.0.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
@@ -75,14 +82,15 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:create:filled": "svgr-iconkit convert-data ../../node_modules/@ant-design/icons-svg/inline-svg/filled/ ./src/gen/icons/filled/",
-    "iconsmap:create:outlined": "svgr-iconkit convert-data ../../node_modules/@ant-design/icons-svg/inline-svg/outlined/ ./src/gen/icons/outlined/",
+    "iconsmap:create:filled": "svgr-iconkit convert-data inline-svg/filled/ ./src/gen/icons/filled -p @ant-design/icons-svg",
+    "iconsmap:create:outlined": "svgr-iconkit convert-data inline-svg/outlined/ ./src/gen/icons/outlined -p @ant-design/icons-svg",
     "iconsmap:create": "npm-run-all iconsmap:create:filled iconsmap:create:outlined",
     "iconsmap:prepare": "rimraf ./src/gen/icons/ ./gen/icons/",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp",
-    "compile": "rollup  -c",
-    "build": "npm-run-all iconsmap compile"
+    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "compile": "rollup -c",
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all iconsmap compile"
   },
   "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
 }

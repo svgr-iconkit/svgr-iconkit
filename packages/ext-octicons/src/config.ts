@@ -1,8 +1,8 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 
-import { IconNames, map as regularIconsMap } from "./icons";
+import { IconNames, map as regularIconsMap } from "./gen/icons/regular";
 
-export { IconNames } from "./icons";
+export { IconNames } from "./gen/icons/regular";
 
 export type IconVariant = "regular";
 
@@ -18,3 +18,5 @@ export const map: Record<IconVariant, IconsMapType<IconNames>> = {
 };
 
 export const iconNames = Object.freeze(Object.keys(regularIconsMap));
+
+export const colorize = true;

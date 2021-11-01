@@ -1,4 +1,5 @@
 import React from "react";
+import { TextStyle, ViewStyle } from "react-native";
 import Svg, {
   Path,
   Circle,
@@ -22,13 +23,21 @@ import Svg, {
   Stop,
 } from "react-native-svg";
 import {
+  ResolveType,
   CreateIconFactoryType,
-  IconBaseProps,
+  IconContentBaseProps,
   IconProps,
   IconSVG,
   IconSVGNode,
 } from "./types";
-import { convertReactProps, getContentFromIconProps, getViewboxValue, removePx } from "./utils";
+import {
+  convertReactProps,
+  getContentFromIconProps,
+  getViewboxValue,
+  PRIMARY_CURRENT_COLOR,
+  removeUnit,
+  showDebugWarning,
+} from "./utils";
 
 const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
   path: Path,
@@ -55,6 +64,7 @@ const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
 // For native, only few attribute is supported
 const propNamesRemap = {
   class: "className",
+  style: null,
 };
 
 const supportedNodeNames = Object.keys(NodeComponentMap);
@@ -88,24 +98,29 @@ const InternalNativeIcon = React.forwardRef(function<
   IconVariant extends string
 >(props: IconProps<IconNames, IconVariant>, svgRef?: any) {
   const {
-    content,
-    map = {},
-    variant,
-    defaultVariant,
     size,
     color,
+    colorize = true,
     fontSize,
     lineHeight,
+    style: propsStyle,
     ...restProps
   } = props;
-  const _content = getContentFromIconProps(props);
-  if (!_content) {
+  const svgContent = getContentFromIconProps(props);
+  if (!svgContent) {
+      if (props.variant && props.name) {
+        showDebugWarning(
+          `Icon was not found by given name ${props.name} and variant ${props.variant}`
+        );
+      } else if (props.name) {
+        showDebugWarning(`Icon was not found by given name ${props.name}`);
+      }
     return null;
   }
 
-  const { attrs, data = [] } = _content;
-  const { fill, stroke, ...restAttrs } = attrs || {};
-  const viewBox = getViewboxValue(_content);
+  const { attrs: svgAttrs, data: svgData = [] } = svgContent;
+  const { fill, stroke, ...restAttrs } = svgAttrs || {};
+  const viewBox = getViewboxValue(svgContent);
 
   const iconProps = convertReactProps(restProps, {}, propNamesRemap);
   const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
@@ -117,33 +132,28 @@ const InternalNativeIcon = React.forwardRef(function<
     ...iconProps,
   };
 
-  if (fill !== "none") {
-    internalProps.fill = "currentColor";
+  if (fill !== "none" && colorize) {
+    internalProps.fill = PRIMARY_CURRENT_COLOR;
   }
 
-  const style = internalProps.style
-    ? Array.isArray(internalProps.style)
-      ? internalProps.style
-      : [internalProps.style]
-    : [];
-  const internalStyle: any = {};
-
-  if (color) {
+  const style: ViewStyle = propsStyle || {};
+  const internalStyle: TextStyle = {};
+  if (color && colorize) {
     // For some iconset, they use stroke to styling and cannot use fill properties
     internalStyle.color = color;
   }
   if (fontSize) {
-    internalStyle.width = removePx(fontSize);
-    internalStyle.height = removePx(fontSize);
-    internalStyle.fontSize = removePx(fontSize);
+    internalStyle.width = removeUnit(fontSize);
+    internalStyle.height = removeUnit(fontSize);
+    internalStyle.fontSize = Number(removeUnit(fontSize));
   }
   if (lineHeight) {
-    internalStyle.lineHeight = removePx(lineHeight);
+    internalStyle.lineHeight = Number(removeUnit(lineHeight));
   }
-  internalProps.style = [internalStyle].concat(style);
+  internalProps.style = [internalStyle, style];
   return (
     <Svg {...internalProps} ref={svgRef}>
-      {renderChildren(data)}
+      {renderChildren(svgData)}
     </Svg>
   );
 });
@@ -151,9 +161,21 @@ InternalNativeIcon.displayName = "NativeIcon";
 
 export const NativeIcon = React.memo(InternalNativeIcon);
 
+/**
+ * Create renderable icon by content
+ * @param {IconSVG} content;
+ * @returns {React.ComponentType<IconBaseProps>}
+ */
 export const createNativeIcon: CreateIconFactoryType = (content: IconSVG) => {
-  function NativeIconWrapper(props: IconBaseProps, svgRef?: any) {
-    return <NativeIcon ref={svgRef} content={content} {...props} />;
+  function NativeIconWrapper(props: IconContentBaseProps, svgRef?: any) {
+    return (
+      <NativeIcon
+        resolveType={ResolveType.Content}
+        ref={svgRef}
+        content={content}
+        {...props}
+      />
+    );
   }
   return React.forwardRef(NativeIconWrapper);
 };

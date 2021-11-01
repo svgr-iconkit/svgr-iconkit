@@ -19,3 +19,5 @@ const regularIconsNames = Object.keys(regularIconsMap);
 let _iconNames = regularIconsNames;
 
 export const iconNames = Object.freeze(_iconNames);
+
+export const colorize = true;

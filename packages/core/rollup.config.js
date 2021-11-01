@@ -5,12 +5,12 @@ import camelCase from "lodash/camelcase";
 import json from "@rollup/plugin-json";
 import external from "rollup-plugin-peer-deps-external";
 import typescript from "rollup-plugin-typescript2";
-import { terser } from "rollup-plugin-terser";
 
 const pkg = require("./package.json");
 
 const globals = {
   react: "React",
+  "react-native": "ReactNative",
   "react-native-svg": "ReactNativeSVG",
 };
 const packageBasedSourcemapPathTransform = (
@@ -41,14 +41,14 @@ const defaultExport = [
         name: camelCase(pkg.name),
         format: "commonjs",
         sourcemap: true,
-        sourcemapPathTransform,
+        // sourcemapPathTransform,
         globals,
       },
       {
         dir: pkg.module.replace(/\/index\.(js|ts)?$/, "/"),
         format: "es",
         sourcemap: true,
-        sourcemapPathTransform,
+        // sourcemapPathTransform,
         globals,
       },
     ],
@@ -74,7 +74,7 @@ const defaultExport = [
 
       external(),
 
-      terser(),
+      // terser(),
     ],
   },
 ];

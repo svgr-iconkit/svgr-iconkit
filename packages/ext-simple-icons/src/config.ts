@@ -8,7 +8,7 @@ export const variantNames: IconVariant[] = ["regular"];
 
 export const defaultVariant: IconVariant = "regular";
 
-export const familyName: string = "Simple Icons";
+export const familyName: string = "SimpleIcons";
 
 // icons map
 
@@ -18,3 +18,5 @@ export const map: Record<IconVariant, IconsMapType<IconNames>> = {
 };
 
 export const iconNames = Object.freeze(Object.keys(regularIconsMap));
+
+export const colorize = true;

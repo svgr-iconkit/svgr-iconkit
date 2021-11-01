@@ -1,24 +1,29 @@
 {
   "name": "@svgr-iconkit/fluentui-system",
-  "version": "0.1.17",
-  "description": "FluentUI System Icon SVGR iconset",
+  "version": "0.2.0",
+  "description": "FluentUI System Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
-    "Icons"
+    "Icons",
+    "react",
+    "react-native",
+    "expo"
   ],
   "author": "leman <leman@lmswork.com>",
   "homepage": "https://github.com/lemankk/svgr-iconkit",
   "license": "MIT",
   "main": "index",
-  "react-native": "index.native.js",
-  "commonjs": "lib/commonjs/index.js",
+  "react-native": "native",
+  "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
   "directories": {
+    "icons": "icons",
     "lib": "lib",
     "native": "native"
   },
   "files": [
+    "icons",
     "lib",
     "native",
     "index.js",
@@ -32,39 +37,41 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.1.2",
-    "react": "^16.8.0 || ^17.0.1",
+    "@svgr-iconkit/core": "^0.2.0",
+    "react": ">= 16.8.0",
     "react-native-svg": "^12.1.0"
   },
+  "peerDependenciesMeta": {
+    "react-native-svg": {
+      "optional": true
+    }
+  },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.17"
+    "@svgr-iconkit/core": "^0.2.0"
   },
   "devDependencies": {
+    "@fluentui/svg-icons": "^1.1.130",
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-typescript": "^7.14.4",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
-    "@fluentui/svg-icons": "^1.1.130",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@rollup/plugin-typescript": "^8.2.1",
-    "@svgr-iconkit/build-config": "^0.1.17",
-    "@svgr-iconkit/cli": "^0.1.17",
+    "@svgr-iconkit/build-config": "^0.2.0",
+    "@svgr-iconkit/cli": "0.2.0",
     "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.17",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
     "npm-run-all": "^4.1.5",
-    "react": "16.13.1",
+    "react": "17.0.1",
     "react-native": "^0.64.2",
-    "react-native-builder-bob": "^0.18.1",
     "react-native-svg": "^12.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
-    "rollup-plugin-dts": "^3.0.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
@@ -75,14 +82,16 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "mkdir -p ./src/gen/assets",
-    "iconsmap:copy": "cp -R ../../node_modules/@fluentui/svg-icons/icons/*_24_*.svg ./src/gen/assets",
-    "iconsmap:create:regular": "svgr-iconkit build-map ./src/gen/assets ./src/gen/icons/regular.ts --end-with '_24_regular' --remove-name-suffix '_24_regular'",
-    "iconsmap:create:filled": "svgr-iconkit build-map ./src/gen/assets ./src/gen/icons/filled.ts --end-with '_24_filled' --remove-name-suffix '_24_filled'",
-    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create:regular iconsmap:create:filled",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./src/gen",
+    "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/assets/regular; mkdir -p ./src/gen/assets/filled",
+    "iconsmap:copy:regular": "cp -R ../../node_modules/@fluentui/svg-icons/icons/*_24_regular.svg ./src/gen/assets/regular",
+    "iconsmap:copy:filled": "cp -R ../../node_modules/@fluentui/svg-icons/icons/*_24_*.svg ./src/gen/assets",
+    "iconsmap:create:regular": "svgr-iconkit convert-data icons ./src/gen/icons/regular --end-with '_24_regular' --remove-name-suffix '_24_regular' -p @fluentui/svg-icons",
+    "iconsmap:create:filled": "svgr-iconkit convert-data icons ./src/gen/icons/filled --end-with '_24_filled' --remove-name-suffix '_24_filled' -p @fluentui/svg-icons",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create:regular iconsmap:create:filled",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
     "compile": "rollup -c",
-    "build": "npm-run-all iconsmap compile"
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all iconsmap compile"
   },
   "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
 }

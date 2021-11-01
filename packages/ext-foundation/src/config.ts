@@ -1,6 +1,6 @@
 import { IconSVG, IconsMapType } from "@svgr-iconkit/core";
-import { IconNames, map as regularIconsMap } from "./icons";
-export { IconNames } from "./icons";
+import { IconNames, map as regularIconsMap } from "./gen/icons/regular";
+export { IconNames } from "./gen/icons/regular";
 
 export const familyName: string = "Foundation";
 
@@ -19,3 +19,5 @@ iconNames.forEach( iconName => {
 })
 
 export const map: Record<IconVariant, IconsMapType<IconNames>> = _tmpMap;
+
+export const colorize = true;
