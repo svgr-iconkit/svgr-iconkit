@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/simple-icons",
-  "version": "0.2.0",
+  "version": "0.2.0-alpha.1",
   "description": "Simple Icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -47,7 +47,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0"
+    "@svgr-iconkit/core": "^0.2.0-alpha.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -59,9 +59,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0",
-    "@svgr-iconkit/cli": "0.2.0",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.1.17",
+    "@svgr-iconkit/build-config": "^0.2.0-alpha.1",
+    "@svgr-iconkit/cli": "^0.2.0-alpha.1",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-alpha.1",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
