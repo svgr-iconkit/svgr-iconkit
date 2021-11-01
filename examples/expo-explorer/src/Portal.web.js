@@ -1,15 +1,19 @@
 import React from "react";
 import {
   NativeBaseProvider,
-  Box
+  Flex,
+  Spinner,
+  Center
 } from "native-base";
+import { nbConfig, nbTheme } from "./theme";
+import LoadingView from "./components/LoadingView";
 
 const Home = React.lazy(() => import('./containers/Home'));
 
 export function Portal() {
   return (
-    <NativeBaseProvider>
-      <React.Suspense fallback={<Box className="loading" />}>
+    <NativeBaseProvider config={nbConfig} theme={nbTheme}>
+      <React.Suspense fallback={<LoadingView />}>
         <Home />
       </React.Suspense>
     </NativeBaseProvider>

@@ -81,5 +81,16 @@ export const iconsets = [
     packageName: "@svgr-iconkit/typicons",
     name: "Typicons Icons",
     resources: () => import('./iconset/Typicons'),
+  },
+  {
+    packageName: "@svgr-iconkit/flag-icons",
+    name: "Flag Icons",
+    colorize: false,
+    resources: () => import('./iconset/FlagIcons'),
+  },
+  {
+    packageName: "@svgr-iconkit/fontisto",
+    name: "Fontisto",
+    resources: () => import('./iconset/Fontisto'),
   }
 ];

@@ -4,10 +4,8 @@ import {
   Button,
   ButtonGroup,
   Form,
-  FormGroup,
   Input,
   InputGroup,
-  Option,
   ListGroup,
   ListGroupItem,
 } from "@bootstrap-styled/v4";
@@ -16,7 +14,6 @@ import { TwitterPicker } from "react-color";
 import IconsetListView from "./components/IconListView";
 import IconsetInfoPanel from "./components/IconsetPanel";
 import Picker from "./components/Picker";
-import Toolbar from "./components/Toolbar";
 import { iconsets } from "./config";
 
 export default function App() {
@@ -193,15 +190,15 @@ export default function App() {
               </div>
             </div>
             <div class="body">
-            <IconsetInfoPanel
-              variantName={currentVariant}
-              keyword={keyword}
-              onKeywordChange={setKeyword}
-              onVariantChange={setVariant}
-              iconsetInfo={iconsetInfo}
-              iconSize={iconSize}
-              iconColor={iconColor}
-            />
+              <IconsetInfoPanel
+                variantName={currentVariant}
+                keyword={keyword}
+                onKeywordChange={setKeyword}
+                onVariantChange={setVariant}
+                iconsetInfo={iconsetInfo}
+                iconSize={iconSize}
+                iconColor={iconColor}
+              />
               <div>
                 {isSearchMode && (
                   <span>

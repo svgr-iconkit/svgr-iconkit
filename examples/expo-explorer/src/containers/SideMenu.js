@@ -48,7 +48,7 @@ export default function SideMenu({
           </Link>
         </Heading>
         <Heading color="#fff" size="md">
-          explorer for expo
+          Explorer for Expo
         </Heading>
       </Box>
       <Box as={ScrollView} safeAreaBottom>

@@ -26,7 +26,7 @@ import {
   useToast,
   useMediaQuery,
 } from "native-base";
-import Clipboard from "expo-clipboard";
+import * as Clipboard from "expo-clipboard";
 import { map as AppIconMap } from "@svgr-iconkit/material-design";
 import { map as BrandsIconMap } from "@svgr-iconkit/fontawesome5-brands";
 
@@ -37,7 +37,6 @@ import Content from "../components/Content";
 import ColorPicker from "../components/ColorPicker";
 import StyledIcon from "../components/StyledIcon";
 import SlideMenu from "./SideMenu";
-
 
 const defaultMaxShownNum = 60;
 
@@ -234,7 +233,8 @@ export default function Home() {
                               {currentVariant}
                             </Text>
 
-                            <Icon as={StyledIcon}
+                            <Icon
+                              as={StyledIcon}
                               content={AppIconMap.regular["expand-more"]}
                               size={18}
                               color="secondary.400"
