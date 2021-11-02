@@ -108,18 +108,19 @@ const InternalNativeIcon = React.forwardRef(function<
   } = props;
   const svgContent = getContentFromIconProps(props);
   if (!svgContent) {
-      if (props.variant && props.name) {
-        showDebugWarning(
-          `Icon was not found by given name ${props.name} and variant ${props.variant}`
-        );
-      } else if (props.name) {
-        showDebugWarning(`Icon was not found by given name ${props.name}`);
-      }
+    if (props.variant && props.name) {
+      showDebugWarning(
+        `Icon was not found by given name ${props.name} and variant ${props.variant}`
+      );
+    } else if (props.name) {
+      showDebugWarning(`Icon was not found by given name ${props.name}`);
+    }
     return null;
   }
 
   const { attrs: svgAttrs, data: svgData = [] } = svgContent;
-  const { fill, stroke, ...restAttrs } = svgAttrs || {};
+  const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } =
+    svgAttrs || {};
   const viewBox = getViewboxValue(svgContent);
 
   const iconProps = convertReactProps(restProps, {}, propNamesRemap);

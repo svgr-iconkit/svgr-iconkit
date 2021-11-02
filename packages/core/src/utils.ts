@@ -135,8 +135,8 @@ export const resolveIconsMap = <
 };
 
 export function showDebugWarning(...rest: any[]) {
-  if (process.env.NODE_ENV !== "development") {
-    return null;
-  }
+  // if (process.env.NODE_ENV !== "development") {
+  //   return null;
+  // }
   console.warn.apply(console, rest);
 }

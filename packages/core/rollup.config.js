@@ -34,21 +34,21 @@ const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) =>
 
 const defaultExport = [
   {
-    input: ["src/index.ts", "src/native.ts", "src/index.native.ts"],
+    input: ["src/index.ts", "src/native.ts"],
     output: [
       {
         dir: pkg.commonjs.replace(/\/index\.(js|ts)?$/, ""),
         name: camelCase(pkg.name),
         format: "commonjs",
         sourcemap: true,
-        // sourcemapPathTransform,
+        sourcemapPathTransform,
         globals,
       },
       {
         dir: pkg.module.replace(/\/index\.(js|ts)?$/, "/"),
         format: "es",
         sourcemap: true,
-        // sourcemapPathTransform,
+        sourcemapPathTransform,
         globals,
       },
     ],

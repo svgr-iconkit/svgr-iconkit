@@ -13,7 +13,7 @@
   "homepage": "https://svgr-iconkit.dev",
   "license": "MIT",
   "main": "index",
-  "react-native": "index.native.js",
+  "react-native": "native/index",
   "commonjs": "lib/commonjs/index.js",
   "module": "lib/es/index.js",
   "types": "index",
@@ -40,7 +40,6 @@
   ],
   "peerDependencies": {
     "react": "*",
-    "react-dom": "*",
     "react-native": "*",
     "react-native-svg": "*"
   },
