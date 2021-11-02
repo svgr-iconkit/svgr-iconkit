@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/bootstrap",
-  "version": "0.2.0-alpha.1",
+  "version": "0.2.0-alpha.2",
   "description": "Bootstrap Icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -47,7 +47,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.1"
+    "@svgr-iconkit/core": "^0.2.0-alpha.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
