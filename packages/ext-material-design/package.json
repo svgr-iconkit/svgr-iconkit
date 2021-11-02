@@ -84,8 +84,8 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:copy": "svgr-iconkit deep-copy -C svg/production -E _24px.svg ../../node_modules/material-design-icons/ ./src/gen/assets",
-    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets ./src/gen/icons/regular",
+    "iconsmap:copy": "svgr-iconkit deep-copy --remove-name-suffix _24px --remove-name-prefix 'ic_' -C svg/production -E _24px.svg ../../node_modules/material-design-icons/ ./src/gen/assets ",
+    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets ./src/gen/icons/regular ",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
