@@ -10,7 +10,7 @@
     "expo"
   ],
   "license": "MIT",
-  "repository": "https://github.com/lemankk/svgr-iconkit",
+  "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
   "homepage": "https://svgr-iconkit.dev",
   "main": "index",
   "react-native": "native",
@@ -97,5 +97,5 @@
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   },
-  "gitHead": "58211ffb70d9b125555c26a4897a1e2235017257"
+  "gitHead": "5b73d1a181d11a8fe9b0fb7345ca5c5788e10dae"
 }
