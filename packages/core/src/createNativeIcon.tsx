@@ -104,7 +104,8 @@ const InternalNativeIcon = React.forwardRef(function<
   }
 
   const { attrs, data = [] } = _content;
-  const { fill, stroke, ...restAttrs } = attrs || {};
+  const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } =
+    attrs || {};
   const viewBox = getViewboxValue(_content);
 
   const iconProps = convertReactProps(restProps, {}, propNamesRemap);
