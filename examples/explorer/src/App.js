@@ -189,7 +189,7 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <div class="body">
+            <div className="body">
               <IconsetInfoPanel
                 variantName={currentVariant}
                 keyword={keyword}
