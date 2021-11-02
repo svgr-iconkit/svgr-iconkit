@@ -39,22 +39,21 @@
     "README.md"
   ],
   "peerDependencies": {
-    "react": ">= 16.8.0",
-    "react-native": "^0.60.0",
-    "react-native-svg": "^12.1.0"
+    "react": "*",
+    "react-dom": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
   },
   "peerDependenciesMeta": {
+    "react-dom": {
+      "optional": true
+    },
     "react-native": {
       "optional": true
     },
     "react-native-svg": {
       "optional": true
     }
-  },
-  "optionalDependencies": {
-    "react": ">= 16.8.0",
-    "react-native": "^0.60.0",
-    "react-native-svg": "^12.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -69,7 +68,7 @@
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
-    "react": "17.0.1",
+    "react": "^17.0.1",
     "react-native": "^0.64.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",

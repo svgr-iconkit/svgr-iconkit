@@ -38,8 +38,8 @@
   ],
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.2.0",
-    "react": ">= 16.8.0",
-    "react-native-svg": "^12.1.0"
+    "react": "*",
+    "react-native-svg": "*"
   },
   "peerDependenciesMeta": {
     "react-native-svg": {
