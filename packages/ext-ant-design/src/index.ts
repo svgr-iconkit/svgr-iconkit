@@ -1,4 +1,4 @@
-import { createFamily, createVariantsMap } from "@svgr-iconkit/core/native";
+import { createFamily, createVariantsMap } from "@svgr-iconkit/core";
 import {
   familyName,
   IconNames,
