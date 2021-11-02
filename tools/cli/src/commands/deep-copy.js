@@ -47,9 +47,38 @@ module.exports = {
     {
       flag: "-E, --ends-with <name>",
     },
+    {
+      flag: "-e, --extension <name>",
+      description: "File extension. Default is '.svg'",
+    },
+    {
+      flag: "-rp, --remove-name-prefix <name>",
+      description: "Remove name prefix",
+    },
+    {
+      flag: "-rs, --remove-name-suffix <name>",
+      description: "Remove name suffix",
+    },
+    {
+      flag: "-tp, --target-file-prefix <prefixName>",
+      description: "Target file prefix",
+    },
+    {
+      flag: "-ts, --target-file-suffix <prefixName>",
+      description: "Target file suffix",
+    },
   ],
   exec: async (sourceDir, targetDir, options, cmd) => {
     console.log(commandName + ": options=%o", options);
+    const {
+      removeNamePrefix,
+      removeNameSuffix,
+      extension = '.svg',
+      contains,
+      endsWith,
+      targetFilePrefix = "",
+      targetFileSuffix = "",
+    } = options;
     const resolvedSourceDir = Path.resolve(sourceDir);
 
     if (!FS.existsSync(targetDir)) {
@@ -62,7 +91,7 @@ module.exports = {
 
     const iconFiles = exploreSvgFiles(resolvedSourceDir, {
       contains: options.contains,
-      fileNameEndsWidth: options.endsWith || ".svg",
+      fileNameEndsWidth: options.endsWith || extension,
     });
 
     const pbar = new cliProgress.SingleBar(
@@ -72,7 +101,18 @@ module.exports = {
     pbar.start(iconFiles.length, 0);
     for (const iconFilePath of iconFiles) {
       const fileName = Path.basename(iconFilePath);
-      FS.copyFileSync(iconFilePath, Path.join(targetDir, fileName));
+      let name = fileName.replace(extension, "");
+      // add support for removeNamePrefix
+      if (removeNamePrefix && name.startsWith(removeNamePrefix)) {
+        name = name.slice(removeNamePrefix.length);
+      }
+      // add support for removeNameSuffix
+      if (removeNameSuffix && name.endsWith(removeNameSuffix)) {
+        name = name.slice(0, name.length - removeNameSuffix.length);
+      }
+
+      const tarFileName = `${targetFilePrefix}${name}${targetFileSuffix}${extension}`;
+      FS.copyFileSync(iconFilePath, Path.join(targetDir, tarFileName));
 
       pbar.increment();
     }

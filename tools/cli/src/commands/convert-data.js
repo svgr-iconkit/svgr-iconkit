@@ -27,11 +27,11 @@ module.exports = {
       description: "Use dynamic import syntax",
     },
     {
-      flag: "-P, --remove-name-prefix <name>",
+      flag: "-rp, --remove-name-prefix <name>",
       description: "Remove name prefix",
     },
     {
-      flag: "-S, --remove-name-suffix <name>",
+      flag: "-rs, --remove-name-suffix <name>",
       description: "Remove name suffix",
     },
     {
@@ -43,11 +43,11 @@ module.exports = {
       description: "Searching file name end with given string",
     },
     {
-      flag: "-B, --target-file-prefix <prefixName>",
+      flag: "-tp, --target-file-prefix <prefixName>",
       description: "Target file prefix",
     },
     {
-      flag: "-E, --target-file-suffix <prefixName>",
+      flag: "-ts, --target-file-suffix <prefixName>",
       description: "Target file suffix",
     },
     {
