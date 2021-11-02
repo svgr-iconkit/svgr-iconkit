@@ -10,7 +10,8 @@
     "expo"
   ],
   "author": "leman <leman@lmswork.com>",
-  "homepage": "https://github.com/lemankk/svgr-iconkit",
+  "repository": "https://github.com/lemankk/svgr-iconkit",
+  "homepage": "https://svgr-iconkit.dev",
   "license": "MIT",
   "main": "index",
   "react-native": "native",
@@ -94,5 +95,5 @@
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   },
-  "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
+  "gitHead": "58211ffb70d9b125555c26a4897a1e2235017257"
 }
