@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/ionicons",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-alpha.4",
   "description": "Ionicons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.3"
+    "@svgr-iconkit/core": "^0.2.0-alpha.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",

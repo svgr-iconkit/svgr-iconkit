@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontawesome5",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-alpha.4",
   "description": "FontAwesome (regular) for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -49,7 +49,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.3"
+    "@svgr-iconkit/core": "^0.2.0-alpha.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",

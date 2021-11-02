@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-design",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-alpha.4",
   "keywords": [
     "SVG",
     "Icons",
@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.3"
+    "@svgr-iconkit/core": "^0.2.0-alpha.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
