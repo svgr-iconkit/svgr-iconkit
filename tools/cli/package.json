@@ -28,7 +28,8 @@
   },
   "scripts": {
     "prebuild": "rimraf ./lib ./dist",
-    "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
+    "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib",
+    "build:full": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
   },
   "dependencies": {
     "@svgr-iconkit/build-utils": "^0.2.0-alpha.1",

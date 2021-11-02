@@ -4,7 +4,8 @@
   "license": "MIT",
   "main": "src/index",
   "scripts": {
-    "build": "echo 'No build scripts necessary'"
+    "build": "echo 'No build scripts necessary'",
+    "build:full": "echo 'No build scripts necessary'"
   },
   "files": [
     "bin",

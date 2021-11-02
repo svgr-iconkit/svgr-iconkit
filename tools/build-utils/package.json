@@ -5,7 +5,8 @@
   "main": "lib/index",
   "scripts": {
     "prebuild": "rimraf ./lib ./dist",
-    "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
+    "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib",
+    "build:full": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
   },
   "files": [
     "bin",

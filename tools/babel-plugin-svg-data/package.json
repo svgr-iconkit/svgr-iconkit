@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "build": "echo 'No build scripts' && exit 0;"
+    "build": "echo 'No build scripts' && exit 0;",
+    "build:full": "echo 'No build scripts' && exit 0;"
   },
   "dependencies": {
     "@babel/core": "^7.14.3",
