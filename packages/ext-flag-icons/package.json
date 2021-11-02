@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/flag-icons",
-  "version": "0.2.0-alpha.2",
+  "version": "0.2.0-alpha.3",
   "description": "flag-icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -52,7 +52,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.2"
+    "@svgr-iconkit/core": "^0.2.0-alpha.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
