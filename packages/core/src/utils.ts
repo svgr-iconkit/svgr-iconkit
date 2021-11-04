@@ -82,7 +82,7 @@ export const getContentFromIconProps = <
   props: IconProps<IconNames, IconVariant>
 ) => {
   const { content, name, resolveType: type } = props;
-  if (content && type === ResolveType.Content) {
+  if (content && (type === ResolveType.Content || !type)) {
     return content;
   }
   const map = resolveIconsMap(props);
