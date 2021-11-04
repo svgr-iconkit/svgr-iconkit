@@ -83,10 +83,13 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap": "svgr-iconkit convert-data ./assets ./src/gen/icons/regular --remove-name-prefix 'fi-'",
-    "prebuild": "rimraf ./lib ./dist ./src/gen",
+    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:create": "svgr-iconkit convert-data ./assets ./src/gen/icons/regular --remove-name-prefix 'fi-'",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c ",
-    "build": "npm-run-all iconsmap compile"
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all iconsmap compile"
   },
   "gitHead": "5b73d1a181d11a8fe9b0fb7345ca5c5788e10dae"
 }

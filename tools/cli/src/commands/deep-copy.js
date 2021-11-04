@@ -20,7 +20,7 @@ import {
 const commandName = "deep-copy";
 
 function exploreSvgFiles(parentPath, options) {
-  const { contains, fileNameEndsWidth = ".svg" } = options;
+  const { contains, fileNameEndsWidth = ".svg", fileNameNotEndsWidth } = options;
   let output = [];
   FS.readdirSync(parentPath).forEach((fileName) => {
     const curDir = Path.join(parentPath, fileName);
@@ -29,6 +29,12 @@ function exploreSvgFiles(parentPath, options) {
     if (stats.isDirectory() && !fileName.startsWith(".")) {
       output = output.concat(exploreSvgFiles(curDir, options));
     } else if (fileName.endsWith(fileNameEndsWidth)) {
+
+      // Skipped when pattern not matched
+      if (fileNameNotEndsWidth && fileName.endsWith(fileNameNotEndsWidth)) {
+        return;
+      }
+
       if (!contains || (contains && curDir.includes(contains))) {
         output.push(Path.join(parentPath, fileName));
       }
@@ -42,10 +48,17 @@ module.exports = {
   name: commandName + " <sourceDir> <targetDir>",
   options: [
     {
+      flag: "-p, --package-name <packageName>",
+      description: "sourceDir resolved by a package",
+    },
+    {
       flag: "-C, --contains <pattern>",
     },
     {
       flag: "-E, --ends-with <name>",
+    },
+    {
+      flag: "--not-ends-with <name>",
     },
     {
       flag: "-e, --extension <name>",
@@ -71,19 +84,36 @@ module.exports = {
   exec: async (sourceDir, targetDir, options, cmd) => {
     console.log(commandName + ": options=%o", options);
     const {
+      packageName,
       removeNamePrefix,
       removeNameSuffix,
       extension = '.svg',
       contains,
       endsWith,
+      notEndsWith,
       targetFilePrefix = "",
       targetFileSuffix = "",
     } = options;
-    const resolvedSourceDir = Path.resolve(sourceDir);
 
     if (!FS.existsSync(targetDir)) {
       FS.mkdirSync(targetDir, { recursive: true });
     }
+    // Selecting parent directory, direct is local
+    let _parentDirectory = process.cwd();
+    if (packageName) {
+      _parentDirectory = Path.dirname(require.resolve(`${packageName}/package.json`));
+    }
+    // If given sourceDir from a root absolute path, ignore _parentDirectory.
+    if (String(sourceDir).startsWith("/")) {
+      _parentDirectory = null;
+    }
+    // Getting source directory from local
+    const resolvedSourceDir = _parentDirectory
+      ? Path.resolve(_parentDirectory, sourceDir)
+      : Path.resolve(sourceDir);
+
+    console.log("Getting source from %s, %s", _parentDirectory, sourceDir);
+
     const targetDirStats = FS.statSync(targetDir);
     if (!targetDirStats.isDirectory()) {
       throw new Error("TargetDir is not a directory.");
@@ -92,6 +122,7 @@ module.exports = {
     const iconFiles = exploreSvgFiles(resolvedSourceDir, {
       contains: options.contains,
       fileNameEndsWidth: options.endsWith || extension,
+      fileNameNotEndsWidth: notEndsWith,
     });
 
     const pbar = new cliProgress.SingleBar(

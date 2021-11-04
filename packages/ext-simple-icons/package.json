@@ -85,7 +85,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data icons ./src/gen/icons/regular -p simple-icons",
+    "iconsmap:create:regular": "svgr-iconkit convert-data ../../node_modules/simple-icons/icons ./src/gen/icons/regular",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",

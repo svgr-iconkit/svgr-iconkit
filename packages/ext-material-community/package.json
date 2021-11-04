@@ -84,13 +84,16 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data svg ./src/gen/icons/regular -p @mdi/svg",
-    "iconsmap:create": "npm-run-all iconsmap:create:regular",
-    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/svgs; mkdir -p ./src/gen/assets/outline; mkdir -p ./src/gen/assets/regular",
+    "iconsmap:copy": "svgr-iconkit deep-copy ../../node_modules/@mdi/svg/svg ./src/gen/assets/outline -E '-outline.svg' --remove-name-suffix '-outline'; svgr-iconkit deep-copy ../../node_modules/@mdi/svg/svg ./src/gen/assets/regular --not-ends-with '-outline.svg'",
+    "iconsmap:create:outline": "svgr-iconkit convert-data ./src/gen/assets/outline ./src/gen/icons/outline",
+    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets/regular ./src/gen/icons/regular",
+    "iconsmap:create": "npm-run-all iconsmap:create:regular iconsmap:create:outline",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
     "compile": "NODE_OPTIONS=--max-old-space-size=8192 rollup -c",
-    "build": "npm-run-all iconsmap compile"
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all iconsmap compile"
   },
   "gitHead": "5b73d1a181d11a8fe9b0fb7345ca5c5788e10dae"
 }
