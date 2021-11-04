@@ -91,15 +91,18 @@ const InternalWebIcon = React.forwardRef(function<
   // For web, it does not support array based styles
   const internalStyle: any = {};
 
+  if (color && colorize) {
+    // For some iconset, they use stroke to styling and cannot use fill properties
+    internalStyle.color = color;
+  }
+
   if (filterNonEmptyString(size)) {
-    internalStyle.width = appendUnit(size);
-    internalStyle.height = appendUnit(size);
-    internalStyle.fontSize = appendUnit(size);
-    internalStyle.lineHeight = appendUnit(size);
+    internalProps.width = appendUnit(size);
+    internalProps.height = appendUnit(size);
   }
   if (filterNonEmptyString(fontSize)) {
-    internalStyle.width = fontSize;
-    internalStyle.height = fontSize;
+    internalProps.width = fontSize;
+    internalProps.height = fontSize;
     internalStyle.fontSize = fontSize;
     internalStyle.lineHeight = fontSize;
   }
@@ -107,18 +110,9 @@ const InternalWebIcon = React.forwardRef(function<
     internalStyle.lineHeight = lineHeight;
   }
 
-  internalProps.style = [internalStyle];
-  if ( bakStyle) {
-    internalProps.style = [internalStyle, bakStyle];
-  }
-
-  if (color && colorize) {
-    // For some iconset, they use stroke to styling and cannot use fill properties
-
-    // Respect on provided color from react-native-web
-    if (!internalStyle.color) {
-      internalStyle.color = color;
-    }
+  internalProps.style = internalStyle;
+  if (bakStyle) {
+    internalProps.style = { ...internalStyle, ...bakStyle };
   }
 
   return (
