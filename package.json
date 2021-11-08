@@ -1,13 +1,24 @@
 {
   "name": "svgr-iconkit",
+  "description": "SVG-Powered iconkit for react.js and react-native",
   "version": "0.0.0",
   "author": "leman <leman@lmswork.com>",
-  "homepage": "https://github.com/lemankk/svgr-iconkit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svgr-iconkit/svgr-iconkit"
+  },
   "private": true,
   "license": "MIT",
   "workspaces": [
     "packages/*",
     "tools/*"
+  ],
+  "homepage": "https://svgr-iconkit.dev",
+  "keywords": [
+    "react",
+    "react-native",
+    "iconkit",
+    "svg"
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
