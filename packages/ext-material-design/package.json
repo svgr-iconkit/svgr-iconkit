@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-design",
-  "version": "0.2.0-alpha.5",
+  "version": "0.2.0-beta.3+6277f37",
   "keywords": [
     "SVG",
     "Icons",
@@ -52,7 +52,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.5"
+    "@svgr-iconkit/core": "^0.2.0-beta.3+6277f37"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -64,9 +64,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0-alpha.5",
-    "@svgr-iconkit/cli": "^0.2.0-alpha.5",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-alpha.5",
+    "@svgr-iconkit/build-config": "^0.2.0-beta.3+6277f37",
+    "@svgr-iconkit/cli": "^0.2.0-beta.3+6277f37",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.3+6277f37",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
@@ -97,5 +97,5 @@
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   },
-  "gitHead": "5b73d1a181d11a8fe9b0fb7345ca5c5788e10dae"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

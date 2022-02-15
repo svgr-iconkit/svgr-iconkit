@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/cli",
-  "version": "0.2.0-alpha.6",
+  "version": "0.2.0-beta.3+6277f37",
   "description": "Cli for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -32,7 +32,7 @@
     "build:full": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
   },
   "dependencies": {
-    "@svgr-iconkit/build-utils": "^0.2.0-alpha.5",
+    "@svgr-iconkit/build-utils": "^0.2.0-beta.3+6277f37",
     "@svgr/cli": "^5.5.0",
     "@svgr/core": "^5.5.0",
     "@svgr/plugin-svgo": "^5.5.0",
@@ -49,5 +49,5 @@
     "@types/node": "^15.6.1",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

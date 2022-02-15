@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/build-config",
-  "version": "0.2.0-alpha.6",
+  "version": "0.2.0-beta.3+6277f37",
   "license": "MIT",
   "main": "src/index",
   "scripts": {
@@ -33,5 +33,5 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0"
   },
-  "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

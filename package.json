@@ -13,7 +13,10 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "build": "lerna run build --scope @svgr-iconkit/*",
-    "build:full": "lerna run build:full --scope @svgr-iconkit/*",
+    "build:full": "lerna run build:full --scope @svgr-iconkit/* --registry=https://npm.pkg.github.com/",
+    "publish:all:beta": "node ./scripts/publish-all-packages.js --registry=https://npm.pkg.github.com/",
+    "publish:all": "node ./scripts/publish-all-packages.js",
+    "publish:beta": "npx lerna publish --canary --preid beta  --registry=https://npm.pkg.github.com/",
     "publish": "lerna publish"
   },
   "devDependencies": {
