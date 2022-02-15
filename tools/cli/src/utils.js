@@ -28,4 +28,16 @@ export const writeFile = (path, content) => {
 export const getCamelIconName = (iconName) =>
   `SVG_${camelCase(iconName, { pascalCase: true })}`;
 
+
+export const resolvePackagePath = async (packageName) => {
+
+  for(const modulePath of module.paths ){
+    const isExist = FS.existsSync(Path.join(modulePath, packageName, "package.json"))
+    if (isExist) {
+      return Promise.resolve(Path.join(modulePath, packageName))
+    }
+  }
+  return Promise.resolve(null)
+}
+
   

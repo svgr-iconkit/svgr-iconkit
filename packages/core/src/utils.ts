@@ -6,7 +6,7 @@ const numberOnlyRegExp = /^[0-9]$/;
 
 export const PRIMARY_CURRENT_COLOR = "currentColor";
 
-const ignoredPropNames = ["xmlns", "title", "id", "version", "style"];
+const ignoredPropNames = ["xmlns", "title", "version", "style"];
 
 export const filterNonNumberStartedString = (str: any) =>
   !String(str).match(numberStartedRegExp);

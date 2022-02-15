@@ -9,6 +9,7 @@ import {
   getCamelIconName,
   paramCase,
   camelCase,
+  resolvePackagePath,
 } from "../utils";
 import {
   createIconsMapTs,
@@ -101,7 +102,7 @@ module.exports = {
     // Selecting parent directory, direct is local
     let _parentDirectory = process.cwd();
     if (packageName) {
-      _parentDirectory = Path.dirname(require.resolve(`${packageName}/package.json`));
+      _parentDirectory = await resolvePackagePath(packageName)
     }
     // If given sourceDir from a root absolute path, ignore _parentDirectory.
     if (String(sourceDir).startsWith("/")) {
@@ -112,11 +113,11 @@ module.exports = {
       ? Path.resolve(_parentDirectory, sourceDir)
       : Path.resolve(sourceDir);
 
-    console.log("Getting source from %s, %s", _parentDirectory, sourceDir);
+    console.log(commandName + ": Getting source from %s, %s", _parentDirectory, sourceDir);
 
     const targetDirStats = FS.statSync(targetDir);
     if (!targetDirStats.isDirectory()) {
-      throw new Error("TargetDir is not a directory.");
+      throw new Error(commandName + ": TargetDir is not a directory.");
     }
 
     const iconFiles = exploreSvgFiles(resolvedSourceDir, {

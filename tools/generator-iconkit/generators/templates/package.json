@@ -1,7 +1,7 @@
 {
   "name": "<%= packageName %>",
   "version": "0.1.0",
-  "description": "<%= familyName %> SVGR iconset",
+  "description": "<%= familyName %> for @svgr-iconkit",
   "keywords": [
     "SVG",
     "Icons",
@@ -11,14 +11,17 @@
   ],
   "license": "MIT",
   "main": "index",
+  "react-native": "./index.native",
   "commonjs": "lib/commonjs/index.js",
   "module": "lib/es/index.js",
   "types": "index",
   "directories": {
+    "icons": "icons",
     "lib": "lib",
     "native": "native"
   },
   "files": [
+    "icons",
     "lib",
     "native",
     "index.js",
@@ -70,8 +73,12 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap": "svgr-iconkit convert-data ./assets ./src/gen/icons/regular",
-    "compile": "rollup  -c",
+    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:create:<%= variantName>": "svgr-iconkit convert-data ./assets/<%= variantName %%> ./src/gen/icons/<%= variantName %>",
+    "iconsmap:create": "npm-run-all iconsmap:create:<%= variantName %>",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "compile": "rollup -c",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   }

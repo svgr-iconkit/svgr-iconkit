@@ -10,6 +10,7 @@ import {
   writeFile,
   paramCase,
   camelCase,
+  resolvePackagePath,
 } from "../utils";
 import { createIconsImportMapTs, createIconsMapTs } from "../templates";
 
@@ -78,7 +79,7 @@ module.exports = {
     // Selecting parent directory, direct is local
     let _parentDirectory = process.cwd();
     if (packageName) {
-      _parentDirectory = Path.dirname(require.resolve(`${packageName}/package.json`));
+      _parentDirectory = await resolvePackagePath(packageName)
     }
     // If given sourceDir from a root absolute path, ignore _parentDirectory.
     if (String(sourceDir).startsWith("/")) {
@@ -89,7 +90,7 @@ module.exports = {
       ? Path.resolve(_parentDirectory, sourceDir)
       : Path.resolve(sourceDir);
 
-    console.log("Getting source from %s, %s", _parentDirectory, sourceDir);
+    console.log(commandName + ": Getting source from %s, %s", _parentDirectory, sourceDir);
 
     const resolvedTargetDir = Path.resolve(targetDir);
     const resolvedTargetIndexFilePath = Path.join(targetDir, "index.ts");

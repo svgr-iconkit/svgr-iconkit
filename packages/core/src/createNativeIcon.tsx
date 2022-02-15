@@ -64,6 +64,8 @@ const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
 // For native, only few attribute is supported
 const propNamesRemap = {
   class: "className",
+  "xmlns:xlink": "xmlnsXlink",
+  "xlink:href": "xlinkHref",
   style: null,
 };
 

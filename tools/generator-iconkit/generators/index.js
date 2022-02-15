@@ -48,7 +48,12 @@ module.exports = class extends Generator {
         type: "input",
         name: "familyName",
         message: "Family name of iconset"
-      },
+      }
+      {
+        type: "input",
+        name: "variantName",
+        message: "Variant name of iconset"
+      }
       // {
       //   type: "input",
       //   name: "packageAuthor",

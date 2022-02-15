@@ -11,7 +11,6 @@ import {
   convertReactProps,
   getContentFromIconProps,
   getViewboxValue,
-  filterNonNubmerOnlyString,
   appendUnit,
   PRIMARY_CURRENT_COLOR,
   filterNonEmptyString,
