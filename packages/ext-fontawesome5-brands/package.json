@@ -10,10 +10,14 @@
     "expo"
   ],
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "homepage": "https://svgr-iconkit.dev/explorer/fontawesome5-brands",
+  "originalAuthor": {
+    "name": "Font Awesome",
+    "url": "https://www.npmjs.com/package/@fortawesome/fontawesome-free"
+  },
   "license": "MIT",
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",

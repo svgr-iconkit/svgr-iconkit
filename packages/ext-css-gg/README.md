@@ -1,8 +1,8 @@
 # `@svgr-iconkit/css-gg`
 
-Icons re-exported from [css.gg](https://www.npmjs.com/package/css.gg).
+Icons re-exported from [css.gg](https://css.gg/).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/css-gg.
 
 ## Usage
 

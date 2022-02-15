@@ -24,8 +24,8 @@ import {
   useToast,
   useMediaQuery,
 } from "native-base";
-import AppIcon from "@svgr-iconkit/material-community";
-import BrandsIcon from "@svgr-iconkit/fontawesome5-brands";
+import AppIcon from "@svgr-iconkit/material-community/native";
+import BrandsIcon from "@svgr-iconkit/fontawesome5-brands/native";
 
 export default function SideMenu({
   iconsets = [],
@@ -44,9 +44,9 @@ export default function SideMenu({
             }}
             href="https://svgr-iconkit.dev"
           >
-            <Icon as={AppIcon} name="link" size={6} color="#ececec" />{" "}
+            <Icon as={AppIcon} name="link" size={6} color="#ececec" />
           </Link>
-        </Heading>
+        </Heading>{" "}
         <Heading color="#fff" size="md">
           Explorer for Expo
         </Heading>
@@ -57,7 +57,6 @@ export default function SideMenu({
         </Heading>
         <Box p={1}>
           {iconsets.map((item, index) => (
-            <>
               <Button
                 key={item.packageName}
                 accessibilityLabel={item.name}
@@ -78,7 +77,6 @@ export default function SideMenu({
               >
                 {item.name}
               </Button>
-            </>
           ))}
         </Box>
       </Box>

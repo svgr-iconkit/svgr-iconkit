@@ -8,11 +8,15 @@
     "react-native",
     "expo"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "homepage": "https://svgr-iconkit.dev/explorer/material-design",
+  "originalAuthor": {
+    "name": "Material Design Icons by Google",
+    "url": "https://github.com/google/material-design-icons"
+  },
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",

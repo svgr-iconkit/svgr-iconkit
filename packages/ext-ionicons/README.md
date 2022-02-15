@@ -2,7 +2,7 @@
 
 Icons re-exported from [ionicons by Ionic framework](https://ionic.io/ionicons).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/ionicons.
 
 ## Usage
 

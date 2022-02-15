@@ -11,9 +11,13 @@
   ],
   "license": "MIT",
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "homepage": "https://svgr-iconkit.dev/explorer/ant-design",
+  "originalAuthor": {
+    "name": "Ant Design Icons",
+    "url": "https://npmjs.com/package/@ant-design/icons"
+  },
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",

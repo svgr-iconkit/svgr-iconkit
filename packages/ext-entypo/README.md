@@ -2,7 +2,7 @@
 
 Icons re-exported from [Entypo by Daniel Bruce & Contributors](https://github.com/geakstr/entypo-icons).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/entypo.
 
 ## Usage
 

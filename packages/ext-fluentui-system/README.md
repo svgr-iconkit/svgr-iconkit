@@ -2,7 +2,7 @@
 
 Icons re-exported from [@fluentui/svg-icons by Microsoft](https://github.com/microsoft/fluentui-system-icons.git).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/fluentui-system.
 
 ## Usage
 

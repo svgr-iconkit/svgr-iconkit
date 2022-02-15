@@ -27,8 +27,11 @@ import {
   useMediaQuery,
 } from "native-base";
 import * as Clipboard from "expo-clipboard";
-import { map as AppIconMap } from "@svgr-iconkit/material-design";
-import { map as BrandsIconMap } from "@svgr-iconkit/fontawesome5-brands";
+import MenuIconContent from "@svgr-iconkit/material-design/icons/regular/menu";
+import ExpandMoreIconContent from "@svgr-iconkit/material-design/icons/regular/expand-more";
+import SettingsIconContent from "@svgr-iconkit/material-design/icons/regular/settings";
+import ContentCopyIconContent from "@svgr-iconkit/material-design/icons/regular/content-copy";
+import NpmIconContent from "@svgr-iconkit/fontawesome5-brands/icons/regular/npm";
 
 import { iconsets } from "../config";
 import IconList from "../components/IconList";
@@ -167,7 +170,7 @@ export default function Home() {
                     onPress={onDrawerOpen}
                     icon={
                       <StyledIcon
-                        content={AppIconMap.regular.menu}
+                        content={MenuIconContent}
                         size={24}
                         color="black"
                       />
@@ -198,7 +201,7 @@ export default function Home() {
                   }}
                   icon={
                     <StyledIcon
-                      content={AppIconMap.regular.settings}
+                      content={SettingsIconContent}
                       size={24}
                       color="black"
                     />
@@ -235,7 +238,7 @@ export default function Home() {
 
                             <Icon
                               as={StyledIcon}
-                              content={AppIconMap.regular["expand-more"]}
+                              content={ExpandMoreIconContent}
                               size={18}
                               color="secondary.400"
                             />
@@ -269,12 +272,12 @@ export default function Home() {
                   href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
                 >
                   <StyledIcon
-                    content={BrandsIconMap.regular.npm}
+                    content={NpmIconContent}
                     name="npm"
                     size={24}
                     color="red"
-                  />{" "}
-                </Link>
+                  />
+                </Link>{" "}
                 <IconButton
                   onPress={onPackageNamePress}
                   _web={{
@@ -283,7 +286,7 @@ export default function Home() {
                   }}
                   icon={
                     <StyledIcon
-                      content={AppIconMap.regular["content-copy"]}
+                      content={ContentCopyIconContent}
                       name="content-copy"
                       fill="currentcolor"
                       size={24}
@@ -302,7 +305,7 @@ export default function Home() {
                   matchedIconNames.length < 1 && (
                     <Box
                       height="40px"
-                      style={{ flexBasis: "auto" }}
+                      flexBasis={"auto"}
                       mx={4}
                       flex={1}
                     >
@@ -314,7 +317,7 @@ export default function Home() {
                 {matchedIconNames && matchedIconNames.length > 0 && (
                   <Box
                     height="40px"
-                    style={{ flexBasis: "auto" }}
+                    flexBasis={"auto"}
                     mb={4}
                     mx={4}
                     flex={1}

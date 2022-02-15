@@ -4,7 +4,7 @@ import Home from "./containers/Home";
 import { nbConfig, nbTheme } from "./theme";
 import LoadingView from "./components/LoadingView";
 
-export function Portal() {
+export default function Portal() {
   return (
     <NativeBaseProvider config={nbConfig} theme={nbTheme}>
       <React.Suspense fallback={<LoadingView />}>

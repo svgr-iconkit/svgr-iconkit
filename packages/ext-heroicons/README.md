@@ -2,7 +2,7 @@
 
 Icons re-exported from [Heroicons](https://npmjs.com/package/heroicons).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/heroicons.
 
 ## Usage
 

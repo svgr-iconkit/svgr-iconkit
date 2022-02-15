@@ -9,11 +9,15 @@
     "react-native",
     "expo"
   ],
-  "license": "MIT",
+  "license": "CC-BY-SA",
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "homepage": "https://svgr-iconkit.dev/explorer/typicons",
+  "originalAuthor": {
+    "name": "Typicons",
+    "url": "https://www.s-ings.com/typicons"
+  },
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",

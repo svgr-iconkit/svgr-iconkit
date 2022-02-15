@@ -10,10 +10,14 @@
     "expo"
   ],
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "homepage": "https://svgr-iconkit.dev/explorer/fluentui-system",
+  "originalAuthor": {
+    "name": "@fluentui/svg-icons by Microsoft",
+    "url": "https://github.com/microsoft/fluentui-system-icons.git"
+  },
   "license": "MIT",
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",

@@ -2,7 +2,7 @@
 
 Icons re-exported from [Ant Design Icons](https://npmjs.com/package/@ant-design/icons).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/ant-design.
 
 ## Usage
 

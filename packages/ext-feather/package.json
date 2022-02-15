@@ -10,10 +10,14 @@
     "expo"
   ],
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "homepage": "https://svgr-iconkit.dev/explorer/feather",
+  "originalAuthor": {
+    "name": "Feather by Cole Bemis & Contributors",
+    "url": "https://feathericons.com"
+  },
   "license": "MIT",
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
@@ -85,7 +89,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf -p ./src/gen",
-    "iconsmap:create": "svgr-iconkit convert-data ../../node_modules/feather-icons/dist/icons/ ./src/gen/icons/regular",
+    "iconsmap:create": "svgr-iconkit convert-data dist/icons -p feather-icons ./src/gen/icons/regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
     "compile": "rollup -c",

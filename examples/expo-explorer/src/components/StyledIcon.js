@@ -1,4 +1,4 @@
-import { Icon as SVGIcon } from "@svgr-iconkit/core";
+import { Icon as SVGIcon } from "@svgr-iconkit/core/native";
 import styled, { css } from "styled-components/native";
 
 const StyledIcon = styled(SVGIcon)`

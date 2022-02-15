@@ -2,7 +2,7 @@
 
 Icons re-exported from [Foundation by ZURB, Inc](https://zurb.com/playground/foundation-icon-fonts-3).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/foundation.
 
 ## Usage
 

@@ -1,8 +1,8 @@
 # `@svgr-iconkit/material-community`
 
-Icons re-exported from [@mdi/svg](https://www.npmjs.com/package/@mdi/svg).
+Icons re-exported from [Material Design Icons by community](https://materialdesignicons.com/).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/material-community.
 
 ## Usage
 

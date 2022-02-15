@@ -1,8 +1,8 @@
 # `@svgr-iconkit/octicons`
 
-Icons re-exported from [@primer/octicons](https://npmjs.com/package/@primer/octicons).
+Icons re-exported from [Octicons by Primer](https://primer.style/octicons/).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/octicons-icons.
 
 ## Usage
 

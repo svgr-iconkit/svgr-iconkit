@@ -9,12 +9,15 @@
     "react-native",
     "expo"
   ],
-  "author": "leman <leman@lmswork.com>",
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "homepage": "https://svgr-iconkit.dev/explorer/ionicons",
+  "originalAuthor": {
+    "name": "ionicons by Ionic framework",
+    "url": "https://ionic.io/ionicons"
+  },
   "license": "MIT",
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
