@@ -91,5 +91,20 @@ export const iconsets = [
     packageName: "@svgr-iconkit/fontisto",
     name: "Fontisto",
     resources: () => import('./iconset/Fontisto'),
+  },
+  {
+    packageName: "@svgr-iconkit/flat-color-icons",
+    name: "Flat Color Icons",
+    resources: () => import('./iconset/FlatColorIcons'),
+  },
+  {
+    packageName: "@svgr-iconkit/tabler-icons",
+    name: "Tabler Icons",
+    resources: () => import('./iconset/TablerIcons'),
+  },
+  {
+    packageName: "@svgr-iconkit/xnix",
+    name: "Xnix Icons",
+    resources: () => import('./iconset/XnixIcons'),
   }
 ];
