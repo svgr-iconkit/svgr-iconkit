@@ -94,6 +94,11 @@ export const iconsets = [
     resources: () => import('./iconset/Fontisto'),
   },
   {
+    packageName: "@svgr-iconkit/themify-icons",
+    name: "ThemifyIcons",
+    resources: () => import('./iconset/ThemifyIcons'),
+  },
+  {
     packageName: "@svgr-iconkit/flat-color-icons",
     name: "Flat Color Icons",
     resources: () => import('./iconset/FlatColorIcons'),

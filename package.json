@@ -1,5 +1,6 @@
 {
   "name": "svgr-iconkit",
+  "description": "SVG Iconkit for React & React Native",
   "version": "0.0.0",
   "author": "leman <leman@lmswork.com>",
   "homepage": "https://github.com/svgr-iconkit/svgr-iconkit",
