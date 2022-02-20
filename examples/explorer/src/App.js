@@ -16,7 +16,6 @@ import IconsetInfoPanel from "./components/IconsetPanel";
 import Picker from "./components/Picker";
 import { iconsets } from "./config";
 
-import XninIcon from "@svgr-iconkit/xnix"
 
 export default function App() {
   const [currentIconsetIndex, setIconsetIndex] = useState(0);
