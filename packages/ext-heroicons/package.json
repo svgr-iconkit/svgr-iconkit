@@ -19,7 +19,7 @@
   "main": "index",
   "react-native": "index",
   "commonjs": "index",
-  "module": "lib/es/index.js",
+  "module": "index.esm",
   "types": "index",
   "directories": {
     "icons": "icons",
@@ -31,11 +31,8 @@
     "lib",
     "native",
     "index.js",
-    "index.ios.js",
-    "index.android.js",
-    "index.native.js",
-    "index.native.d.ts",
-    "index.d.ts",
+    "index.*.ts",
+    "index.*.js",
     "native.js",
     "native.d.ts",
     "README.md"
@@ -87,8 +84,8 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:solid": "svgr-iconkit convert-data solid ./src/gen/icons/solid --stroke-color 'currentColor' -p heroicons",
-    "iconsmap:create:outline": "svgr-iconkit convert-data outline ./src/gen/icons/outline --stroke-color 'currentColor' -p heroicons",
+    "iconsmap:create:solid": "svgr-iconkit convert-data -i solid -o src/gen/icons/solid --stroke-color 'currentColor' -p heroicons",
+    "iconsmap:create:outline": "svgr-iconkit convert-data -i outline -o src/gen/icons/outline --stroke-color 'currentColor' -p heroicons",
     "iconsmap:create": "npm-run-all iconsmap:create:solid iconsmap:create:outline",
     "iconsmap": "npm-run-all iconsmap:prepare  iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",

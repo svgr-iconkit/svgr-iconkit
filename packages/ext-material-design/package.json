@@ -18,7 +18,7 @@
   "main": "index",
   "react-native": "index",
   "commonjs": "index",
-  "module": "lib/es/index.js",
+  "module": "index.esm",
   "types": "index",
   "directories": {
     "icons": "icons",
@@ -30,13 +30,8 @@
     "lib",
     "native",
     "index.js",
-    "index.ios.js",
-    "index.android.js",
-    "index.native.js",
-    "index.native.d.ts",
-    "index.web.js",
-    "index.web.d.ts",
-    "index.d.ts",
+    "index.*.ts",
+    "index.*.js",
     "native.js",
     "native.d.ts",
     "README.md"
@@ -88,7 +83,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:copy": "svgr-iconkit deep-copy --remove-name-suffix _24px --remove-name-prefix 'ic_' -C svg/production -E _24px.svg ../../node_modules/material-design-icons/ ./src/gen/assets ",
+    "iconsmap:copy": "svgr-iconkit deep-copy --remove-name-suffix _24px --remove-name-prefix 'ic_' -C svg/production -E _24px.svg -p material-design-icons -o src/gen/assets ",
     "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets ./src/gen/icons/regular ",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",

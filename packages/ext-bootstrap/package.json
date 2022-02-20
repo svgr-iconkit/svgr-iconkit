@@ -19,7 +19,7 @@
   "main": "index",
   "react-native": "index",
   "commonjs": "index",
-  "module": "lib/es/index.js",
+  "module": "index.esm",
   "types": "index",
   "directories": {
     "icons": "icons",
@@ -31,13 +31,8 @@
     "lib",
     "native",
     "index.js",
-    "index.ios.js",
-    "index.android.js",
-    "index.native.js",
-    "index.native.d.ts",
-    "index.web.js",
-    "index.web.d.ts",
-    "index.d.ts",
+    "index.*.ts",
+    "index.*.js",
     "native.js",
     "native.d.ts",
     "README.md"
@@ -89,7 +84,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data icons ./src/gen/icons/regular -p bootstrap-icons",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i icons -o src/gen/icons/regular -p bootstrap-icons",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ",

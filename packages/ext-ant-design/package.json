@@ -19,7 +19,7 @@
   "main": "index",
   "react-native": "index",
   "commonjs": "index",
-  "module": "lib/es/index.js",
+  "module": "index.esm",
   "types": "index",
   "directories": {
     "icons": "icons",
@@ -31,13 +31,8 @@
     "lib",
     "native",
     "index.js",
-    "index.ios.js",
-    "index.android.js",
-    "index.native.js",
-    "index.native.d.ts",
-    "index.web.js",
-    "index.web.d.ts",
-    "index.d.ts",
+    "index.*.ts",
+    "index.*.js",
     "native.js",
     "native.d.ts",
     "README.md"
@@ -88,8 +83,8 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:create:filled": "svgr-iconkit convert-data inline-svg/filled/ ./src/gen/icons/filled -p @ant-design/icons-svg",
-    "iconsmap:create:outlined": "svgr-iconkit convert-data inline-svg/outlined/ ./src/gen/icons/outlined -p @ant-design/icons-svg",
+    "iconsmap:create:filled": "svgr-iconkit convert-data -i inline-svg/filled/ -o src/gen/icons/filled -p @ant-design/icons-svg",
+    "iconsmap:create:outlined": "svgr-iconkit convert-data -i inline-svg/outlined/ -o src/gen/icons/outlined -p @ant-design/icons-svg",
     "iconsmap:create": "npm-run-all iconsmap:create:filled iconsmap:create:outlined",
     "iconsmap:prepare": "rimraf ./src/gen/icons/ ./gen/icons/",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",

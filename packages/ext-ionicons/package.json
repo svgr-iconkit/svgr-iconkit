@@ -19,7 +19,7 @@
   "main": "index",
   "react-native": "index",
   "commonjs": "index",
-  "module": "lib/es/index.js",
+  "module": "index.esm",
   "types": "index",
   "directories": {
     "icons": "icons",
@@ -31,11 +31,8 @@
     "lib",
     "native",
     "index.js",
-    "index.ios.js",
-    "index.android.js",
-    "index.native.js",
-    "index.native.d.ts",
-    "index.d.ts",
+    "index.*.ts",
+    "index.*.js",
     "native.js",
     "native.d.ts",
     "README.md"
@@ -51,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-beta.4+6277f37"
+    "@svgr-iconkit/core": "^0.2.0-beta.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -63,9 +60,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0-beta.4+6277f37",
-    "@svgr-iconkit/cli": "^0.2.0-beta.4+6277f37",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.4+6277f37",
+    "@svgr-iconkit/build-config": "^0.2.0-beta.4",
+    "@svgr-iconkit/cli": "^0.2.0-beta.4",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.4",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
@@ -88,9 +85,9 @@
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/assets/regular; mkdir -p ./src/gen/assets/sharp; mkdir -p ./src/gen/assets/outline",
     "iconsmap:copy": "cp -R ../../node_modules/ionicons/dist/svg/*.svg ./src/gen/assets; mv ./src/gen/assets/*-sharp.svg ./src/gen/assets/sharp/; mv ./src/gen/assets/*-outline.svg ./src/gen/assets/outline/; mv ./src/gen/assets/*.svg ./src/gen/assets/regular",
-    "iconsmap:create:sharp": "svgr-iconkit convert-data ./src/gen/assets/sharp ./src/gen/icons/sharp --end-with '-sharp' --remove-name-suffix '-sharp'",
-    "iconsmap:create:outline": "svgr-iconkit convert-data ./src/gen/assets/outline ./src/gen/icons/outline --end-with '-outline' --remove-name-suffix '-outline'",
-    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets/regular ./src/gen/icons/regular",
+    "iconsmap:create:sharp": "svgr-iconkit convert-data -i ./src/gen/assets/sharp -o ./src/gen/icons/sharp --end-with '-sharp' --remove-name-suffix '-sharp'",
+    "iconsmap:create:outline": "svgr-iconkit convert-data -i ./src/gen/assets/outline -o ./src/gen/icons/outline --end-with '-outline' --remove-name-suffix '-outline'",
+    "iconsmap:create:regular": "svgr-iconkit convert-data  -i./src/gen/assets/regular -o ./src/gen/icons/regular",
     "iconsmap:create": "npm-run-all iconsmap:create:sharp iconsmap:create:outline iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",

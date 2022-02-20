@@ -15,32 +15,25 @@
   "main": "index",
   "react-native": "index",
   "commonjs": "lib/commonjs/index.js",
-  "module": "lib/es/index.js",
+  "module": "index.esm",
   "types": "index",
   "directories": {
     "lib": "lib",
     "native": "native"
   },
   "files": [
+    "icons",
     "lib",
     "native",
     "index.js",
-    "index.ios.js",
-    "index.android.js",
-    "index.web.js",
-    "index.web.d.ts",
-    "index.native.js",
-    "index.native.d.ts",
-    "index.web.js",
-    "index.web.d.ts",
-    "index.d.ts",
+    "index.*.ts",
+    "index.*.js",
     "native.js",
     "native.d.ts",
     "README.md"
   ],
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
     "react-native-svg": "*"
   },
   "peerDependenciesMeta": {
