@@ -9,8 +9,16 @@ import { createIconsImportMapTs, createIconsMapTs } from "../templates";
 const commandName = "build-map";
 
 module.exports = {
-  name: `${commandName} <sourceDir> <targetFile>`,
+  name: `${commandName}`,
   options: [
+    {
+      flag: "-i, --input-path <input-path>",
+      description: "Input path",
+    },
+    {
+      flag: "-o, --output-path <output-path>",
+      description: "Output path",
+    },
     {
       flag: "-d, --dynamic-import",
       description: "Use dynamic import syntax",
@@ -32,8 +40,10 @@ module.exports = {
       description: "Searching file name end with given string",
     },
   ],
-  exec: async (sourceDir, targetFile, options, cmd) => {
+  exec: async (options, cmd) => {
     const {
+      inputPath = "",
+      ouptutPath = "",
       removeNamePrefix,
       removeNameSuffix,
       startWith = "",
@@ -41,8 +51,8 @@ module.exports = {
       dynamicImport = false,
     } = options;
 
-    const resolvedSourceDir = Path.resolve(sourceDir);
-    const resolvedTargetFilePath = Path.join(targetFile);
+    const resolvedSourceDir = Path.resolve(inputDir);
+    const resolvedTargetFilePath = Path.join(ouptutDir);
 
     let relativePathFromTargetFile = Path.relative(
       Path.dirname(resolvedTargetFilePath),

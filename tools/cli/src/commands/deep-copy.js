@@ -46,11 +46,19 @@ function exploreSvgFiles(parentPath, options) {
 }
 
 module.exports = {
-  name: commandName + " <sourceDir> <targetDir>",
+  name: commandName + "",
   options: [
     {
+      flag: "-i, --input-path <input-path>",
+      description: "Input path",
+    },
+    {
+      flag: "-o, --output-path <output-path>",
+      description: "Output path",
+    },
+    {
       flag: "-p, --package-name <packageName>",
-      description: "sourceDir resolved by a package",
+      description: "inputPath resolved by a package",
     },
     {
       flag: "-C, --contains <pattern>",
@@ -82,9 +90,11 @@ module.exports = {
       description: "Target file suffix",
     },
   ],
-  exec: async (sourceDir, targetDir, options, cmd) => {
+  exec: async (options, cmd) => {
     console.log(commandName + ": options=%o", options);
     const {
+      inputPath = "",
+      outputPath = "",
       packageName,
       removeNamePrefix,
       removeNameSuffix,
@@ -96,27 +106,27 @@ module.exports = {
       targetFileSuffix = "",
     } = options;
 
-    if (!FS.existsSync(targetDir)) {
-      FS.mkdirSync(targetDir, { recursive: true });
+    if (!FS.existsSync(outputPath)) {
+      FS.mkdirSync(outputPath, { recursive: true });
     }
     // Selecting parent directory, direct is local
     let _parentDirectory = process.cwd();
     if (packageName) {
       _parentDirectory = await resolvePackagePath(packageName)
     }
-    // If given sourceDir from a root absolute path, ignore _parentDirectory.
-    if (String(sourceDir).startsWith("/")) {
+    // If given inputPath from a root absolute path, ignore _parentDirectory.
+    if (String(inputPath).startsWith("/")) {
       _parentDirectory = null;
     }
     // Getting source directory from local
     const resolvedSourceDir = _parentDirectory
-      ? Path.resolve(_parentDirectory, sourceDir)
-      : Path.resolve(sourceDir);
+      ? Path.resolve(_parentDirectory, inputPath)
+      : Path.resolve(inputPath);
 
-    console.log(commandName + ": Getting source from %s, %s", _parentDirectory, sourceDir);
+    console.log(commandName + ": Getting source from %s, %s", _parentDirectory, inputPath);
 
-    const targetDirStats = FS.statSync(targetDir);
-    if (!targetDirStats.isDirectory()) {
+    const outputPathStats = FS.statSync(outputPath);
+    if (!outputPathStats.isDirectory()) {
       throw new Error(commandName + ": TargetDir is not a directory.");
     }
 
@@ -144,7 +154,7 @@ module.exports = {
       }
 
       const tarFileName = `${targetFilePrefix}${name}${targetFileSuffix}${extension}`;
-      FS.copyFileSync(iconFilePath, Path.join(targetDir, tarFileName));
+      FS.copyFileSync(iconFilePath, Path.join(outputPath, tarFileName));
 
       pbar.increment();
     }

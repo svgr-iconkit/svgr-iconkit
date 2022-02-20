@@ -17,11 +17,19 @@ import { createIconsImportMapTs, createIconsMapTs } from "../templates";
 const commandName = "convert-data";
 
 module.exports = {
-  name: `${commandName} <sourceDir> <targetDir>`,
+  name: `${commandName}`,
   options: [
     {
+      flag: "-i, --input-path <input-path>",
+      description: "Input path",
+    },
+    {
+      flag: "-o, --output-path <output-path>",
+      description: "Output path",
+    },
+    {
       flag: "-p, --package-name <packageName>",
-      description: "sourceDir resolved by a package",
+      description: "inputPath resolved by a package",
     },
     {
       flag: "-d, --dynamic-import",
@@ -58,9 +66,11 @@ module.exports = {
       flag: "--stroke-color <color>",
     },
   ],
-  exec: async (sourceDir, targetDir, options, cmd) => {
+  exec: async (options, cmd) => {
     console.log(commandName + ": options=%o", options);
     const {
+      inputPath = "",
+      outputPath = "",
       removeNamePrefix,
       removeNameSuffix,
       startWith = "",
@@ -73,27 +83,27 @@ module.exports = {
       dynamicImport = false,
     } = options;
 
-    if (!FS.existsSync(targetDir)) {
-      FS.mkdirSync(targetDir, { recursive: true });
+    if (!FS.existsSync(outputPath)) {
+      FS.mkdirSync(outputPath, { recursive: true });
     }
     // Selecting parent directory, direct is local
     let _parentDirectory = process.cwd();
     if (packageName) {
       _parentDirectory = await resolvePackagePath(packageName)
     }
-    // If given sourceDir from a root absolute path, ignore _parentDirectory.
-    if (String(sourceDir).startsWith("/")) {
+    // If given inputPath from a root absolute path, ignore _parentDirectory.
+    if (String(inputPath).startsWith("/")) {
       _parentDirectory = null;
     }
     // Getting source directory from local
     const resolvedSourceDir = _parentDirectory
-      ? Path.resolve(_parentDirectory, sourceDir)
-      : Path.resolve(sourceDir);
+      ? Path.resolve(_parentDirectory, inputPath)
+      : Path.resolve(inputPath);
 
-    console.log(commandName + ": Getting source from %s, %s", _parentDirectory, sourceDir);
+    console.log(commandName + ": Getting source from %s, %s", _parentDirectory, inputPath);
 
-    const resolvedTargetDir = Path.resolve(targetDir);
-    const resolvedTargetIndexFilePath = Path.join(targetDir, "index.ts");
+    const resolvedTargetDir = Path.resolve(outputPath);
+    const resolvedTargetIndexFilePath = Path.join(outputPath, "index.ts");
 
     const startWithPattern = startWith ? startWith : null;
     const endWithPattern = endWith ? `${endWith}.svg` : ".svg";
