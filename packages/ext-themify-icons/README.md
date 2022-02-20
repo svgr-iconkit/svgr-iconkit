@@ -1,4 +1,4 @@
-# `@svgr-iconkit/themify`
+# `@svgr-iconkit/themify-icons`
 
 Icons re-exported from [Themify Icons](https://themify.me/themify-icons).
 

@@ -11,9 +11,9 @@
   ],
   "license": "MIT",
   "main": "index",
-  "react-native": "./index.native",
+  "react-native": "index",
   "commonjs": "lib/commonjs/index.js",
-  "module": "lib/es/index.js",
+  "module": "index",
   "types": "index",
   "directories": {
     "icons": "icons",
@@ -39,10 +39,11 @@
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.2.0",
     "react": ">= 16.8.0",
+    "react-native": "^0.64.0",
     "react-native-svg": "^12.1.0"
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.1.9"
+    "@svgr-iconkit/core": "^0.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -60,7 +61,8 @@
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "npm-run-all": "^4.1.5",
-    "react": "17.0.1",
+    "react": "^17.0.1",
+    "react-native": "^0.64.0",
     "react-native-svg": "12.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",

@@ -1,5 +1,5 @@
 {
-  "name": "@svgr-iconkit/ionicons/native",
+  "name": "@svgr-iconkit/fontisto/native",
   "private": true,
   "main": "../lib/commonjs/native.js",
   "module": "../lib/es/native.js",

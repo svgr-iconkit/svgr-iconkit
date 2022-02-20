@@ -1,25 +1,35 @@
-import {
+import type {
   CreateIconsetOptions,
   CreateVariantsMapOptions,
   CreateFamilyOptions,
+} from "./types";
+import {
   ResolveType,
 } from "./types";
 import { createIconsetFactory } from "./createIconsetFactory";
-import { createWebIcon, WebIcon } from "./createWebIcon";
+import { WebIcon } from "./createWebIcon";
+import type { WebIconForwaredRefType } from "./createWebIcon"
+export {
+  createWebIcon as createIconComponent,
+  WebIcon as Icon,
+} from "./createWebIcon";
 
 export * from "./types";
 export * from "./createIconsetFactory";
 
 export function createIconset<
-  IconNames extends string = string,
-  IconVariant extends string = string
+  IconNames extends string,
+  IconVariant extends string
 >(options: CreateIconsetOptions<IconNames, IconVariant>) {
-  return createIconsetFactory(options, WebIcon);
+  return createIconsetFactory<IconNames, IconVariant, WebIconForwaredRefType>(
+    options,
+    WebIcon
+  );
 }
 
 export function createFamily<
-  IconNames extends string = string,
-  IconVariant extends string = string
+  IconNames extends string,
+  IconVariant extends string
 >(options: CreateFamilyOptions<IconNames, IconVariant>) {
   const { familyName, variantsMap, ...rest } = options;
   return createIconset<IconNames, IconVariant>({
@@ -31,9 +41,11 @@ export function createFamily<
 }
 
 export function createVariantsMap<
-  IconNames extends string = string,
-  IconVariant extends string = string
->(options: CreateVariantsMapOptions<IconNames, IconVariant>) {
+  IconNames extends string,
+  IconVariant extends string
+>(
+  options: CreateVariantsMapOptions<IconNames, IconVariant>
+): Record<IconVariant, IconNames> {
   const { familyName, variantsMap, variantNames = [], ...rest } = options;
   return variantNames.reduce((output, variantName) => {
     const variantIconsMap = createIconset<IconNames, IconVariant>({
@@ -44,8 +56,5 @@ export function createVariantsMap<
       ...rest,
     });
     return { ...output, [variantName]: variantIconsMap };
-  }, {});
+  }, {}) as any;
 }
-
-export const createIconComponent = createWebIcon;
-export const Icon = WebIcon;

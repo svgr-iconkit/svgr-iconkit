@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fluentui-system",
-  "version": "0.2.0-beta.3+6277f37",
+  "version": "0.2.0-beta.4",
   "description": "FluentUI System Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -51,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-beta.3+6277f37"
+    "@svgr-iconkit/core": "^0.2.0-beta.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -59,14 +59,14 @@
     "@babel/plugin-transform-typescript": "^7.14.4",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
-    "@fluentui/svg-icons": "^1.1.130",
+    "@fluentui/svg-icons": "^1.1.161",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0-beta.3+6277f37",
-    "@svgr-iconkit/cli": "^0.2.0-beta.3+6277f37",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.3+6277f37",
+    "@svgr-iconkit/build-config": "^0.2.0-beta.3",
+    "@svgr-iconkit/cli": "^0.2.0-beta.3",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.3",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",

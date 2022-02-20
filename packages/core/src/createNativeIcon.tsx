@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo, forwardRef, ComponentClass, ForwardedRef, Component, Ref, PropsWithChildren } from "react";
 import { TextStyle, ViewStyle } from "react-native";
 import Svg, {
   Path,
@@ -22,8 +22,8 @@ import Svg, {
   TextPath,
   Stop,
 } from "react-native-svg";
-import {
-  ResolveType,
+import type { SvgProps } from "react-native-svg";
+import type {
   CreateIconFactoryType,
   IconContentBaseProps,
   IconProps,
@@ -31,7 +31,11 @@ import {
   IconSVGNode,
 } from "./types";
 import {
+  ResolveType,
+} from "./types"
+import {
   convertReactProps,
+  filterNonEmptyString,
   getContentFromIconProps,
   getViewboxValue,
   PRIMARY_CURRENT_COLOR,
@@ -39,7 +43,7 @@ import {
   showDebugWarning,
 } from "./utils";
 
-const NodeComponentMap: Record<string, React.ComponentClass<any>> = {
+const NodeComponentMap: Record<string, ComponentClass<any>> = {
   path: Path,
   line: Line,
   text: Text,
@@ -95,11 +99,15 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
   });
 };
 
-const InternalNativeIcon = React.forwardRef(function<
+export type NativeIconForwaredRefType = Component<SvgProps>
+
+const InternalNativeIcon = forwardRef(function <
   IconNames extends string,
   IconVariant extends string
->(props: IconProps<IconNames, IconVariant>, svgRef?: any) {
+>(props: PropsWithChildren<IconProps<IconNames, IconVariant>>, svgRef: ForwardedRef<NativeIconForwaredRefType>) {
   const {
+    name,
+    variant,
     size,
     color,
     colorize = true,
@@ -110,12 +118,12 @@ const InternalNativeIcon = React.forwardRef(function<
   } = props;
   const svgContent = getContentFromIconProps(props);
   if (!svgContent) {
-    if (props.variant && props.name) {
+    if (variant && name) {
       showDebugWarning(
-        `Icon was not found by given name ${props.name} and variant ${props.variant}`
+        `Icon was not found by given name ${name} and variant ${variant}`
       );
-    } else if (props.name) {
-      showDebugWarning(`Icon was not found by given name ${props.name}`);
+    } else if (name) {
+      showDebugWarning(`Icon was not found by given name ${name}`);
     }
     return null;
   }
@@ -145,6 +153,13 @@ const InternalNativeIcon = React.forwardRef(function<
     // For some iconset, they use stroke to styling and cannot use fill properties
     internalStyle.color = color;
   }
+
+  if (filterNonEmptyString(svgWidth)) {
+    internalProps.width = (svgWidth);
+  }
+  if (filterNonEmptyString(svgHeight)) {
+    internalProps.height = (svgHeight);
+  }
   if (size) {
     internalStyle.width = removeUnit(size);
     internalStyle.height = removeUnit(size);
@@ -166,15 +181,16 @@ const InternalNativeIcon = React.forwardRef(function<
 });
 InternalNativeIcon.displayName = "NativeIcon";
 
-export const NativeIcon = React.memo(InternalNativeIcon);
+export const NativeIcon = memo(InternalNativeIcon);
 
 /**
  * Create renderable icon by content
  * @param {IconSVG} content;
  * @returns {React.ComponentType<IconBaseProps>}
  */
-export const createNativeIcon: CreateIconFactoryType = (content: IconSVG) => {
-  function NativeIconWrapper(props: IconContentBaseProps, svgRef?: any) {
+export const createNativeIcon: CreateIconFactoryType<NativeIconForwaredRefType, IconContentBaseProps> = (content: IconSVG) => {
+
+  return forwardRef((props: IconContentBaseProps, svgRef: Ref<NativeIconForwaredRefType>) => {
     return (
       <NativeIcon
         resolveType={ResolveType.Content}
@@ -183,6 +199,5 @@ export const createNativeIcon: CreateIconFactoryType = (content: IconSVG) => {
         {...props}
       />
     );
-  }
-  return React.forwardRef(NativeIconWrapper);
+  });
 };

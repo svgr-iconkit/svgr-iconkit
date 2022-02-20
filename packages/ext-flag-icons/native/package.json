@@ -1,5 +1,5 @@
 {
-  "name": "@svgr-iconkit/typicons/native",
+  "name": "@svgr-iconkit/flag-icons/native",
   "private": true,
   "main": "../lib/commonjs/native.js",
   "module": "../lib/es/native.js",
