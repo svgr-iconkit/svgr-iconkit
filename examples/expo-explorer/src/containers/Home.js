@@ -147,7 +147,7 @@ export default function Home() {
             width={300}
             height={windowSize.height}
             backgroundColor="white"
-            borderRightColor="#ececec"
+            borderRightColor="#f3f3f3"
             borderRightWidth={1}
           >
             <SlideMenu
@@ -163,10 +163,7 @@ export default function Home() {
               {!isTablet && (
                 <Header.Item>
                   <IconButton
-                    _web={{
-                      "data-elm-type": "drawer-btn",
-                      "data-elm-id": `drawer-btn:${iconsetInfo.packageName}`,
-                    }}
+                    testID={`drawer-btn:${iconsetInfo.packageName}`}
                     onPress={onDrawerOpen}
                     icon={
                       <StyledIcon
@@ -182,10 +179,7 @@ export default function Home() {
                 <Input
                   flex={1}
                   size="xs"
-                  _web={{
-                    "data-elm-type": "keyword-filter-tf",
-                    "data-elm-id": `keyword-filter-tf:${iconsetInfo.packageName}`,
-                  }}
+                  testID={`keyword-filter-tf:${iconsetInfo.packageName}`}
                   placeholder="Filter by keywords"
                   value={keyword}
                   onChangeText={setKeyword}
@@ -195,10 +189,7 @@ export default function Home() {
               <Header.Item>
                 <IconButton
                   onPress={onSettingOpen}
-                  _web={{
-                    "data-elm-type": "setting-dd",
-                    "data-elm-id": `setting-dd:${iconsetInfo.packageName}`,
-                  }}
+                  testID={`setting-dd:${iconsetInfo.packageName}`}
                   icon={
                     <StyledIcon
                       content={SettingsIconContent}
@@ -226,10 +217,7 @@ export default function Home() {
                           <Pressable
                             flexDirection="row"
                             alignItems="center"
-                            _web={{
-                              "data-elm-type": "variants-dd",
-                              "data-elm-id": `variants-dd:${iconsetInfo.packageName}`,
-                            }}
+                            testID={`variants-dd:${iconsetInfo.packageName}`}
                             {...triggerProps}
                           >
                             <Text fontSize="14px" bold color="secondary.500">
@@ -249,10 +237,7 @@ export default function Home() {
                       {iconsetInfo.variantNames.map((name) => (
                         <Menu.Item
                           minWidth="200px"
-                          _web={{
-                            "data-elm-type": "change-variant-btn",
-                            "data-elm-id": `change-variant-btn:${iconsetInfo.packageName}-${name}`,
-                          }}
+                          testID={`change-variant-btn:${iconsetInfo.packageName}-${name}`}
                           isDisabled={name === currentVariant}
                           onPress={() => setVariant(name)}
                         >
@@ -265,10 +250,7 @@ export default function Home() {
               </Header.Item>
               <Header.Item rightSide>
                 <Link
-                  _web={{
-                    "data-elm-type": "npm-btn",
-                    "data-elm-id": `npm-btn:${iconsetInfo.packageName}`,
-                  }}
+                  testID={`npm-btn:${iconsetInfo.packageName}`}
                   href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
                 >
                   <StyledIcon
@@ -280,10 +262,7 @@ export default function Home() {
                 </Link>{" "}
                 <IconButton
                   onPress={onPackageNamePress}
-                  _web={{
-                    "data-elm-type": "copy-package-btn",
-                    "data-elm-id": `copy-package-btn:${iconsetInfo.packageName}`,
-                  }}
+                  testID={`copy-package-btn:${iconsetInfo.packageName}`}
                   icon={
                     <StyledIcon
                       content={ContentCopyIconContent}
@@ -303,25 +282,14 @@ export default function Home() {
                 {iconsetInfo.__loaded &&
                   matchedIconNames &&
                   matchedIconNames.length < 1 && (
-                    <Box
-                      height="40px"
-                      flexBasis={"auto"}
-                      mx={4}
-                      flex={1}
-                    >
+                    <Box height="40px" flexBasis={"auto"} mx={4} flex={1}>
                       <Text bold fontSize="12px">
                         No matched icons
                       </Text>
                     </Box>
                   )}
                 {matchedIconNames && matchedIconNames.length > 0 && (
-                  <Box
-                    height="40px"
-                    flexBasis={"auto"}
-                    mb={4}
-                    mx={4}
-                    flex={1}
-                  >
+                  <Box height="40px" flexBasis={"auto"} mb={4} mx={4} flex={1}>
                     <Text fontSize="12px">
                       Found {matchedIconNames.length} matched icons
                     </Text>
@@ -345,10 +313,7 @@ export default function Home() {
                     <Box safeAreaBottom padding={8}>
                       <Button
                         onPress={onShowMore}
-                        _web={{
-                          "data-elm-type": "showmore-btn",
-                          "data-elm-id": `showmore-btn:${iconsetInfo.packageName}`,
-                        }}
+                        testID={`showmore-btn:${iconsetInfo.packageName}`}
                       >
                         Show more icons
                       </Button>
@@ -368,10 +333,7 @@ export default function Home() {
                   <FormControl>
                     <FormControl.Label>{`Variants`}</FormControl.Label>
                     <Select
-                      _web={{
-                        "data-elm-type": "change-variants-dd",
-                        "data-elm-id": `change-variants-dd:${iconsetInfo.packageName}`,
-                      }}
+                      testID={`change-variants-dd:${iconsetInfo.packageName}`}
                       selectedValue={currentVariant}
                       onValueChange={setVariant}
                     >

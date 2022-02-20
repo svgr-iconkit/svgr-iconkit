@@ -109,7 +109,7 @@ export const iconsets = [
   },
   {
     packageName: "@svgr-iconkit/xnix",
-    name: "Xnix Icons",
+    name: "Xnix",
     resources: () => import('./iconset/XnixIcons'),
   }
 ];

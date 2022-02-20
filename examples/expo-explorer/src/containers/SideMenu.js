@@ -3,9 +3,11 @@ import { Platform, ScrollView, Dimensions } from "react-native";
 import {
   Button,
   Box,
+  Center,
   Container,
   IconButton,
   SimpleGrid,
+  Image,
   Text,
   Tabs,
   Input,
@@ -33,53 +35,53 @@ export default function SideMenu({
   onChangeIconset,
 }) {
   return (
-    <>
-      <Box zIndex={2} safeAreaTop bg="primary.500" p={3} paddingBottom={5}>
-        <Heading alignItems="flex-start" justifyContent="center" color="#fff">
-          svgr-iconkit{" "}
+    <ScrollView>
+      <Box zIndex={2} safeAreaTop bg="#f3f3f3" pb="3">
+        <Center>
           <Link
             _web={{
-              "data-elm-type": "official-link-btn",
-              "data-elm-id": `official-link-btn`,
+              testID: "official-link-btn",
             }}
             href="https://svgr-iconkit.dev"
           >
-            <Icon as={AppIcon} name="link" size={6} color="#ececec" />
+            <Image
+              width={64}
+              height={64}
+              alt="svgr-iconkit"
+              source={require("../assets/images/logo-transparent.png")}
+            />
           </Link>
-        </Heading>{" "}
-        <Heading color="#fff" size="md">
-          Explorer for Expo
+        </Center>
+        <Heading textAlign="center" color="#333" mx="4" size="md">
+          Icon Explorer for Expo
         </Heading>
       </Box>
-      <Box as={ScrollView} safeAreaBottom>
-        <Heading margin={5} size="sm">
+      <Box safeAreaBottom>
+        <Heading margin="4" color="#777" size="sm">
           Iconsets
         </Heading>
         <Box p={1}>
           {iconsets.map((item, index) => (
-              <Button
-                key={item.packageName}
-                accessibilityLabel={item.name}
-                _web={{
-                  "data-elm-type": "sidemenu-btn",
-                  "data-elm-id": `sidemenu-btn:${item.packageName}`,
-                }}
-                colorScheme={
-                  currentIconsetIndex === index ? "secondary" : undefined
-                }
-                variant="ghost"
-                textAlign="left"
-                justifyContent="flex-start"
-                onPress={() => {
-                  onChangeIconset(index);
-                }}
-                title={item.name}
-              >
-                {item.name}
-              </Button>
+            <Button
+              key={item.packageName}
+              accessibilityLabel={item.name}
+              testID={ `sidemenu-btn:${item.packageName}`}
+              colorScheme={
+                currentIconsetIndex === index ? "secondary" : undefined
+              }
+              variant="ghost"
+              textAlign="left"
+              justifyContent="flex-start"
+              onPress={() => {
+                onChangeIconset(index);
+              }}
+              title={item.name}
+            >
+              {item.name}
+            </Button>
           ))}
         </Box>
       </Box>
-    </>
+    </ScrollView>
   );
 }

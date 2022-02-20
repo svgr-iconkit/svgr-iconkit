@@ -8,7 +8,7 @@ const HeaderWrapper = styled(Box)`
 `;
 
 const HeaderBody = styled(Box)`
-  background-color: #f8fafc;
+  background-color: #fafafa;
   border-bottom-width: 1px;
   border-bottom-color: #f1f5f9;
   display: flex;

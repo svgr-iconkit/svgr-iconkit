@@ -1,1 +1,1 @@
-export * from '@svgr-iconkit/themify';
+export * from '@svgr-iconkit/themify-icons';
