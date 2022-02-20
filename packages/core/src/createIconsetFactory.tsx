@@ -1,44 +1,56 @@
 import React from "react";
-import {
-  ResolveType,
+import type { ForwardedRef, ComponentType } from "react";
+import type {
   IconsetBaseProps,
   CreateIconsetOptions,
   CreateIconsetFactoryResponseType,
   IconProps,
 } from "./types";
-import { resolveIconsMap } from "./utils";
+import {
+  ResolveType,
+} from "./types";
+import { getContentFromIconProps } from "./utils";
 
 export function createIconsetFactory<
-  IconNames extends string = string,
-  IconVariant extends string = string
+  IconNames extends string,
+  IconVariant extends string,
+  ElementType = any
 >(
   options: CreateIconsetOptions<IconNames, IconVariant>,
-  BaseIconComponent: React.ComponentType<IconProps<IconNames, IconVariant>>
-): CreateIconsetFactoryResponseType<IconNames, IconVariant> {
+  BaseIconComponent: ComponentType<IconProps<IconNames, IconVariant>>
+): CreateIconsetFactoryResponseType<IconNames, IconVariant, ElementType> {
   const {
     familyName,
-    resolveType: type,
-    colorize = false,
+    resolveType = ResolveType.VariantMap,
+    defaultVariant,
+    variant = defaultVariant,
   } = options;
 
-  const _resolveType = type || ResolveType.VariantMap;
+  let componentName = `${familyName}`;
+  if (resolveType === ResolveType.ContentMap) {
+    componentName = `${familyName}-${variant}`;
+  }
+
+  let displayName = `IconsetFamily(${componentName})`;
+  if (resolveType === ResolveType.ContentMap) {
+    displayName = `IconsetVariant(${componentName})`;
+  }
 
   const Iconset = (
     props: IconsetBaseProps<IconNames, IconVariant>,
-    ref: any
+    ref: ForwardedRef<ElementType>
   ) => {
     const { name, ...restProps } = props; // select target variant or assume there is no varaint from iconsmap data
-    const iconComponentConfig = resolveIconsMap({
+    const content = getContentFromIconProps({
       ...options,
       name,
+      ...restProps
     });
 
-    if (!iconComponentConfig) {
-      if (process.env.NODE_ENV === "development") {
-        console.warn(
-          `Icon ${name} (${type}) not found from iconset ${familyName}.`
-        );
-      }
+    if (!content) {
+      console.warn(
+        `Icon ${name}  not found from iconset ${componentName}.`
+      );
       return null;
     }
     const otherProps: any = {};
@@ -46,18 +58,16 @@ export function createIconsetFactory<
     return (
       <BaseIconComponent
         ref={ref}
-        content={iconComponentConfig}
-        colorize={colorize}
+        {...options}
         {...otherProps}
         {...restProps}
+        resolveType={ResolveType.Content}
+        content={content}
       />
     );
   };
 
-  Iconset.displayName = `IconsetFamily(${familyName})`;
-  if (type === ResolveType.ContentMap) {
-    Iconset.displayName = `IconsetVariant(${familyName}-${options.variant})`;
-  }
+  Iconset.displayName = displayName;
 
   return React.forwardRef(Iconset);
 }

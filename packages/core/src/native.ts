@@ -1,25 +1,36 @@
-import {
+import type {
   CreateFamilyOptions,
   CreateIconsetOptions,
   CreateVariantsMapOptions,
+} from "./types";
+import {
   ResolveType,
 } from "./types";
 import { createIconsetFactory } from "./createIconsetFactory";
-import { createNativeIcon, NativeIcon } from "./createNativeIcon";
+import { NativeIcon } from "./createNativeIcon";
+import type { NativeIconForwaredRefType } from "./createNativeIcon"
+export {
+  createNativeIcon as createIconComponent,
+  NativeIcon as Icon,
+} from "./createNativeIcon";
 
 export * from "./types";
 export * from "./createIconsetFactory";
 
 export function createIconset<
-  IconNames extends string = string,
-  IconVariant extends string = string
+  IconNames extends string,
+  IconVariant extends string
 >(options: CreateIconsetOptions<IconNames, IconVariant>) {
-  return createIconsetFactory(options, NativeIcon);
+  return createIconsetFactory<
+    IconNames,
+    IconVariant,
+    NativeIconForwaredRefType
+  >(options, NativeIcon);
 }
 
 export function createFamily<
-  IconNames extends string = string,
-  IconVariant extends string = string
+  IconNames extends string,
+  IconVariant extends string
 >(options: CreateFamilyOptions<IconNames, IconVariant>) {
   const { familyName, variantsMap, ...rest } = options;
   return createIconset<IconNames, IconVariant>({
@@ -31,20 +42,20 @@ export function createFamily<
 }
 
 export function createVariantsMap<
-  IconNames extends string = string,
-  IconVariant extends string = string
->(options: CreateVariantsMapOptions<IconNames, IconVariant>) {
-  const { familyName, variantsMap, variantNames = [] } = options;
+  IconNames extends string,
+  IconVariant extends string
+>(
+  options: CreateVariantsMapOptions<IconNames, IconVariant>
+): Record<IconVariant, IconNames> {
+  const { familyName, variantsMap, variantNames = [], ...rest } = options;
   return variantNames.reduce((output, variantName) => {
     const variantIconsMap = createIconset<IconNames, IconVariant>({
       resolveType: ResolveType.ContentMap,
       familyName,
       map: variantsMap[variantName],
       variant: variantName,
+      ...rest,
     });
     return { ...output, [variantName]: variantIconsMap };
-  }, {});
+  }, {}) as any;
 }
-
-export const createIconComponent = createNativeIcon;
-export const Icon = NativeIcon;

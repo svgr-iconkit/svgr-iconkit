@@ -1,8 +1,8 @@
 # `@svgr-iconkit/typicons`
 
-Icons re-exported from [typicons.font](https://npmjs.com/package/typicons.font).
+Icons re-exported from [Typicons](https://www.s-ings.com/typicons).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/typicons.
 
 ## Usage
 

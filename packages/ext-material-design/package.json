@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-design",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-beta.4",
   "keywords": [
     "SVG",
     "Icons",
@@ -8,11 +8,15 @@
     "react-native",
     "expo"
   ],
-  "license": "MIT",
-  "repository": "https://github.com/lemankk/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
+  "homepage": "https://svgr-iconkit.dev/explorer/material-design",
+  "originalAuthor": {
+    "name": "Material Design Icons by Google",
+    "url": "https://github.com/google/material-design-icons"
+  },
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
@@ -48,7 +52,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.3"
+    "@svgr-iconkit/core": "^0.2.0-beta.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -60,9 +64,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0-alpha.1",
-    "@svgr-iconkit/cli": "^0.2.0-alpha.1",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-alpha.1",
+    "@svgr-iconkit/build-config": "^0.2.0-beta.4",
+    "@svgr-iconkit/cli": "^0.2.0-beta.4",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.4",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
@@ -84,8 +88,8 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:copy": "svgr-iconkit deep-copy -C svg/production -E _24px.svg ../../node_modules/material-design-icons/ ./src/gen/assets",
-    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets ./src/gen/icons/regular",
+    "iconsmap:copy": "svgr-iconkit deep-copy --remove-name-suffix _24px --remove-name-prefix 'ic_' -C svg/production -E _24px.svg ../../node_modules/material-design-icons/ ./src/gen/assets ",
+    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets ./src/gen/icons/regular ",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
@@ -93,5 +97,5 @@
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   },
-  "gitHead": "58211ffb70d9b125555c26a4897a1e2235017257"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

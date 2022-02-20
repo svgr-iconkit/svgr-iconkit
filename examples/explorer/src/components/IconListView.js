@@ -33,6 +33,7 @@ export default function IconListView({
     iconProps.size = iconSize;
     iconProps.color = iconColor;
   }
+  console.log(iconsetInfo);
   return (
     <IconWrapper {...styledProps}>
       <ul className="list">

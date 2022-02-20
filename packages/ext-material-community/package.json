@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-community",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-beta.4",
   "description": "Material Community Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -9,11 +9,15 @@
     "react-native",
     "expo"
   ],
-  "repository": "https://github.com/lemankk/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
+  "homepage": "https://svgr-iconkit.dev/explorer/material-community",
+  "originalAuthor": {
+    "name": "Material Design Icons by community",
+    "url": "https://github.com/google/material-design-icons"
+  },
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
@@ -49,7 +53,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.3"
+    "@svgr-iconkit/core": "^0.2.0-beta.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -62,9 +66,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0-alpha.1",
-    "@svgr-iconkit/cli": "^0.2.0-alpha.1",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-alpha.1",
+    "@svgr-iconkit/build-config": "^0.2.0-beta.4",
+    "@svgr-iconkit/cli": "^0.2.0-beta.4",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.4",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
@@ -84,13 +88,16 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data svg ./src/gen/icons/regular -p @mdi/svg",
-    "iconsmap:create": "npm-run-all iconsmap:create:regular",
-    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/svgs; mkdir -p ./src/gen/assets/outline; mkdir -p ./src/gen/assets/regular",
+    "iconsmap:copy": "svgr-iconkit deep-copy ../../node_modules/@mdi/svg/svg ./src/gen/assets/outline -E '-outline.svg' --remove-name-suffix '-outline'; svgr-iconkit deep-copy ../../node_modules/@mdi/svg/svg ./src/gen/assets/regular --not-ends-with '-outline.svg'",
+    "iconsmap:create:outline": "svgr-iconkit convert-data ./src/gen/assets/outline ./src/gen/icons/outline",
+    "iconsmap:create:regular": "svgr-iconkit convert-data ./src/gen/assets/regular ./src/gen/icons/regular",
+    "iconsmap:create": "npm-run-all iconsmap:create:regular iconsmap:create:outline",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
     "compile": "NODE_OPTIONS=--max-old-space-size=8192 rollup -c",
-    "build": "npm-run-all iconsmap compile"
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all iconsmap compile"
   },
-  "gitHead": "58211ffb70d9b125555c26a4897a1e2235017257"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

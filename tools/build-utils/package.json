@@ -1,11 +1,12 @@
 {
   "name": "@svgr-iconkit/build-utils",
-  "version": "0.2.0-alpha.1",
+  "version": "0.2.0-beta.4",
   "license": "MIT",
   "main": "lib/index",
   "scripts": {
     "prebuild": "rimraf ./lib ./dist",
-    "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
+    "build": "babel --config-file ./babel.config.js ./src --out-dir ./lib",
+    "build:full": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
   },
   "files": [
     "bin",
@@ -19,5 +20,5 @@
     "rimraf": "^3.0.2",
     "svg-parser": "^2.0.4"
   },
-  "gitHead": "a418f6d013c35e40e626ac5d393dcd553fedf5d2"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

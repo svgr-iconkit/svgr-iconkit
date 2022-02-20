@@ -1,8 +1,8 @@
 # `@svgr-iconkit/bootstrap`
 
-Icons re-exported from [Bootstrap Icons](https://npmjs.com/package/bootstrap-icons).
+Icons re-exported from [Bootstrap Icons](https://icons.getbootstrap.com/).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/bootstrap.
 
 ## Usage
 

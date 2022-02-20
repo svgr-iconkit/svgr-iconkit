@@ -1,22 +1,25 @@
-import React from "react";
-import {
+import React, { createElement, memo, forwardRef } from "react";
+import type { Ref, ForwardedRef, PropsWithChildren } from "react"
+import type {
   CreateIconFactoryType,
   IconProps,
   IconContentBaseProps,
   IconSVG,
   IconSVGNode,
+} from "./types";
+import {
   ResolveType,
 } from "./types";
 import {
   convertReactProps,
   getContentFromIconProps,
   getViewboxValue,
-  filterNonNubmerOnlyString,
   appendUnit,
   PRIMARY_CURRENT_COLOR,
   filterNonEmptyString,
   showDebugWarning,
 } from "./utils";
+
 
 // For web, only few attribute is supported
 const propNamesRemap = {
@@ -41,14 +44,19 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
       key: nodeKey,
     });
 
-    return React.createElement(tagName, _props, ...childrenNodes);
+    return createElement(tagName, _props, ...childrenNodes);
   });
 };
-const InternalWebIcon = React.forwardRef(function<
+
+export type WebIconForwaredRefType = SVGSVGElement
+
+const InternalWebIcon = forwardRef(function <
   IconNames extends string,
   IconVariant extends string
->(props: IconProps<IconNames, IconVariant>, svgRef?: any) {
+>(props: PropsWithChildren<IconProps<IconNames, IconVariant>>, svgRef: ForwardedRef<WebIconForwaredRefType>) {
   const {
+    name,
+    variant,
     size,
     color,
     colorize = true,
@@ -59,18 +67,19 @@ const InternalWebIcon = React.forwardRef(function<
   } = props;
   const svgContent = getContentFromIconProps(props);
   if (!svgContent) {
-    if (props.variant && props.name) {
+    if (variant && name) {
       showDebugWarning(
-        `Icon was not found by given name ${props.name} and variant ${props.variant}`
+        `Icon was not found by given name ${name} and variant ${variant}`
       );
-    } else if (props.name) {
-      showDebugWarning(`Icon was not found by given name ${props.name}`);
+    } else if (name) {
+      showDebugWarning(`Icon was not found by given name ${name}`);
     }
     return null;
   }
 
   const { attrs: svgAttrs, data: svgData = [] } = svgContent;
-  const { fill, stroke, ...restAttrs } = svgAttrs || {};
+  const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } =
+    svgAttrs || {};
   const viewBox = getViewboxValue(svgContent);
 
   const iconProps = convertReactProps(restProps, {}, propNamesRemap);
@@ -89,21 +98,25 @@ const InternalWebIcon = React.forwardRef(function<
 
   // For web, it does not support array based styles
   const internalStyle: any = {};
-  Object.keys(bakStyle)
-    .filter(filterNonNubmerOnlyString)
-    .forEach((name) => {
-      internalStyle[name] = bakStyle[name];
-    });
 
+  if (color && colorize) {
+    // For some iconset, they use stroke to styling and cannot use fill properties
+    internalStyle.color = color;
+  }
+
+  if (filterNonEmptyString(svgWidth)) {
+    internalProps.width = (svgWidth);
+  }
+  if (filterNonEmptyString(svgHeight)) {
+    internalProps.height = (svgHeight);
+  }
   if (filterNonEmptyString(size)) {
-    internalStyle.width = appendUnit(size);
-    internalStyle.height = appendUnit(size);
-    internalStyle.fontSize = appendUnit(size);
-    internalStyle.lineHeight = appendUnit(size);
+    internalProps.width = appendUnit(size);
+    internalProps.height = appendUnit(size);
   }
   if (filterNonEmptyString(fontSize)) {
-    internalStyle.width = fontSize;
-    internalStyle.height = fontSize;
+    internalProps.width = fontSize;
+    internalProps.height = fontSize;
     internalStyle.fontSize = fontSize;
     internalStyle.lineHeight = fontSize;
   }
@@ -112,14 +125,8 @@ const InternalWebIcon = React.forwardRef(function<
   }
 
   internalProps.style = internalStyle;
-
-  if (color && colorize) {
-    // For some iconset, they use stroke to styling and cannot use fill properties
-
-    // Respect on provided color from react-native-web
-    if (!internalStyle.color) {
-      internalStyle.color = color;
-    }
+  if (bakStyle) {
+    internalProps.style = { ...internalStyle, ...bakStyle };
   }
 
   return (
@@ -130,14 +137,14 @@ const InternalWebIcon = React.forwardRef(function<
 });
 InternalWebIcon.displayName = "WebIcon";
 
-export const WebIcon = React.memo(InternalWebIcon);
+export const WebIcon = memo(InternalWebIcon);
 /**
  * Create renderable icon by content
  * @param {IconSVG} content;
  * @returns {React.ComponentType<IconBaseProps>}
  */
-export const createWebIcon: CreateIconFactoryType = (content: IconSVG) => {
-  function WebIconWrapper(props: IconContentBaseProps, svgRef?: any) {
+export const createWebIcon: CreateIconFactoryType<WebIconForwaredRefType, IconContentBaseProps> = (content: IconSVG) => {
+  function WebIconWrapper(props: IconContentBaseProps, svgRef: Ref<WebIconForwaredRefType>) {
     return (
       <WebIcon
         resolveType={ResolveType.Content}
@@ -147,5 +154,5 @@ export const createWebIcon: CreateIconFactoryType = (content: IconSVG) => {
       />
     );
   }
-  return React.forwardRef(WebIconWrapper);
+  return forwardRef(WebIconWrapper);
 };

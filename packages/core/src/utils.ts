@@ -6,7 +6,7 @@ const numberOnlyRegExp = /^[0-9]$/;
 
 export const PRIMARY_CURRENT_COLOR = "currentColor";
 
-const ignoredPropNames = ["xmlns", "title", "id", "version", "style"];
+const ignoredPropNames = ["xmlns", "title", "version", "style"];
 
 export const filterNonNumberStartedString = (str: any) =>
   !String(str).match(numberStartedRegExp);
@@ -82,7 +82,7 @@ export const getContentFromIconProps = <
   props: IconProps<IconNames, IconVariant>
 ) => {
   const { content, name, resolveType: type } = props;
-  if (content && type === ResolveType.Content) {
+  if (content && (type === ResolveType.Content || !type)) {
     return content;
   }
   const map = resolveIconsMap(props);
@@ -135,8 +135,8 @@ export const resolveIconsMap = <
 };
 
 export function showDebugWarning(...rest: any[]) {
-  if (process.env.NODE_ENV !== "development") {
-    return null;
-  }
+  // if (process.env.NODE_ENV !== "development") {
+  //   return null;
+  // }
   console.warn.apply(console, rest);
 }

@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontisto",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-beta.4",
   "description": "fontisto for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -9,11 +9,15 @@
     "react-native",
     "expo"
   ],
-  "repository": "https://github.com/lemankk/svgr-iconkit",
-  "homepage": "https://svgr-iconkit.dev",
+  "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
+  "homepage": "https://svgr-iconkit.dev/explorer/fontisto",
+  "originalAuthor": {
+    "name": "Fontisto by Kenan Gündoğan",
+    "url": "http://fontisto.com"
+  },
   "license": "MIT",
   "main": "index",
-  "react-native": "native",
+  "react-native": "index",
   "commonjs": "index",
   "module": "lib/es/index.js",
   "types": "index",
@@ -47,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0-alpha.3"
+    "@svgr-iconkit/core": "^0.2.0-beta.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -59,9 +63,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0-alpha.1",
-    "@svgr-iconkit/cli": "^0.2.0-alpha.1",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-alpha.1",
+    "@svgr-iconkit/build-config": "^0.2.0-beta.4",
+    "@svgr-iconkit/cli": "^0.2.0-beta.4",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0-beta.4",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
@@ -92,5 +96,5 @@
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   },
-  "gitHead": "58211ffb70d9b125555c26a4897a1e2235017257"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

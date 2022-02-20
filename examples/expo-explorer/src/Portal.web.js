@@ -10,7 +10,7 @@ import LoadingView from "./components/LoadingView";
 
 const Home = React.lazy(() => import('./containers/Home'));
 
-export function Portal() {
+export default function Portal() {
   return (
     <NativeBaseProvider config={nbConfig} theme={nbTheme}>
       <React.Suspense fallback={<LoadingView />}>

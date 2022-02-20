@@ -2,7 +2,7 @@
 
 Icons re-exported from [@fortawesome/fontawesome-free](https://www.npmjs.com/package/@fortawesome/fontawesome-free) (regular and solid).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/fontawesome5.
 
 ## Usage
 

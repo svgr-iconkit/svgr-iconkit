@@ -2,7 +2,7 @@
 
 Icons re-exported from [flag-icon-css](https://flagicons.lipis.dev/).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/flag-icons.
 
 ## Usage
 

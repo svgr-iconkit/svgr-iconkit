@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/core",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-beta.4",
   "description": "SVGR iconset core",
   "keywords": [
     "SVG",
@@ -9,11 +9,11 @@
     "react-native",
     "expo"
   ],
-  "repository": "https://github.com/lemankk/svgr-iconkit",
+  "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
   "homepage": "https://svgr-iconkit.dev",
   "license": "MIT",
   "main": "index",
-  "react-native": "index.native.js",
+  "react-native": "index",
   "commonjs": "lib/commonjs/index.js",
   "module": "lib/es/index.js",
   "types": "index",
@@ -40,7 +40,6 @@
   ],
   "peerDependencies": {
     "react": "*",
-    "react-dom": "*",
     "react-native": "*",
     "react-native-svg": "*"
   },
@@ -64,7 +63,7 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/cli": "^0.2.0-alpha.1",
+    "@svgr-iconkit/cli": "^0.2.0-beta.4",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
@@ -87,5 +86,5 @@
     "prebuild": "rimraf ./lib ./dist",
     "build": "rollup -c"
   },
-  "gitHead": "58211ffb70d9b125555c26a4897a1e2235017257"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }

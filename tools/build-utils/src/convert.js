@@ -1,13 +1,16 @@
 import { parse } from "svg-parser";
 
-const disallowedTagNames = ["defs", "style", "title"];
-const disallowedAttributeNames = ["xmlns", "class", "className", "style"];
+const disallowedTagNames = ["style", "title"];
+const disallowedAttributeNames = ["class", "className", "style"];
+
+const renamedAttributesNames = {
+}
 
 function isAllowedAttributeName(name) {
   if (disallowedAttributeNames.includes(name)) return false;
-  if (name.indexOf(":") > -1) {
-    return false;
-  }
+  // if (name.indexOf(":") > -1) {
+  //   return false;
+  // }
   return true;
 }
 
@@ -33,10 +36,28 @@ function getChildrenData(node, options) {
   Object.keys(properties)
     .filter(isAllowedAttributeName)
     .forEach((propertyName) => {
+      if (renamedAttributesNames[propertyName]) {
+        attrs[renamedAttributesNames[propertyName]] = properties[propertyName];
+        return
+      }
       attrs[propertyName] = properties[propertyName];
     });
 
-  const { fillColor, strokeColor } = options;
+  const { fillColor, strokeColor, idMap = {} } = options;
+
+  // Workaround - copying xlink:href target prevent missing rendering in native
+  if ( attrs['xlink:href']) {
+    const hrefTarget = attrs['xlink:href'].replace('#', '')
+    if (idMap[ hrefTarget ]) {
+      attrs['xlink:href'] = undefined 
+      Object.assign(attrs, idMap[ hrefTarget ])
+    }
+  }
+  
+  if ( attrs.id ) {
+    if (!options.idMap) options.idMap = {}
+    options.idMap[attrs.id] = {...attrs, id: undefined}
+  }
 
   // Overwrite colors when attributes exist (if non-none)
   if (fillColor) {

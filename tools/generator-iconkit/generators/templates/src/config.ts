@@ -1,18 +1,17 @@
-import { IconsMapType } from "@svgr-iconkit/core";
+import type { IconsMapType } from "@svgr-iconkit/core";
+export * from "./gen/<%= variantName>";
+import { IconNames } from "./gen/<%= variantName>";
 
-export type IconVariant = "regular";
+export type IconVariant = "<%= variantName>";
 
-export const variantNames: IconVariant[] = ["regular"];
+export const variantNames: IconVariant[] = ["<%= variantName>"];
 
-export const defaultVariant: IconVariant = "regular";
+export const defaultVariant: IconVariant = "<%= variantName>";
 
 export const familyName: string = "<%= familyName %>";
 
 export const map: Record<IconVariant, IconsMapType<string>> = {
-  regular: {},
+  ["<%= variantName>"]: {},
 };
 
-// icons map
-
-// types
-export type IconNames = "icon1" | "icon2";
+export const colorize = true;

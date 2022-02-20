@@ -2,7 +2,7 @@
 
 Icons re-exported from [Fontisto by Kenan Gündoğan](http://fontisto.com).
 
-Details please go to [https://svgr-iconkit.dev](https://svgr-iconkit.dev).
+Full details please check on website https://svgr-iconkit.dev/explorer/fontisto.
 
 ## License
 
