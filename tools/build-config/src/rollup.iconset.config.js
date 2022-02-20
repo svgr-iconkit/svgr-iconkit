@@ -4,8 +4,8 @@ const sourceMaps = require("rollup-plugin-sourcemaps");
 const json = require("@rollup/plugin-json");
 const external = require("rollup-plugin-peer-deps-external");
 const typescript = require("rollup-plugin-typescript2");
-const camelCase = require("lodash/camelcase");
 const { terser } = require("rollup-plugin-terser");
+const { camelCase } = require("lodash");
 const fs = require("fs");
 const path = require("path");
 
