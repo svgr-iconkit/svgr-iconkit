@@ -26,8 +26,8 @@ import {
   useToast,
   useMediaQuery,
 } from "native-base";
-import AppIcon from "@svgr-iconkit/material-community/native";
-import BrandsIcon from "@svgr-iconkit/fontawesome5-brands/native";
+import AppIcon from "@svgr-iconkit/material-community";
+import BrandsIcon from "@svgr-iconkit/fontawesome5-brands";
 
 export default function SideMenu({
   iconsets = [],

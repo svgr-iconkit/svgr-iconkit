@@ -22,9 +22,11 @@ import {
   FormControl,
   Slider,
   Heading,
+  Spinner,
   Link,
   useToast,
   useMediaQuery,
+  Flex,
 } from "native-base";
 import * as Clipboard from "expo-clipboard";
 import MenuIconContent from "@svgr-iconkit/material-design/icons/regular/menu";
@@ -40,6 +42,7 @@ import Content from "../components/Content";
 import ColorPicker from "../components/ColorPicker";
 import StyledIcon from "../components/StyledIcon";
 import SlideMenu from "./SideMenu";
+import LoadingView from "../components/LoadingView";
 
 const defaultMaxShownNum = 60;
 
@@ -61,7 +64,7 @@ export default function Home() {
   const [isTablet] = useMediaQuery({ minWidth: 768 });
   const isLandscape = windowSize.width > windowSize.height;
 
-  const [currentIconsetIndex, setIconsetIndex] = useState(0);
+  const [currentIconsetIndex, setIconsetIndex] = useState(-1);
   const [keyword, setKeyword] = useState("");
   const [currentVariant, setVariant] = useState("regular");
   const onChangeIconset = useCallback((newIndex) => {
@@ -138,6 +141,8 @@ export default function Home() {
 
   const hasVariants = Array.isArray(iconsetInfo.variantNames);
   const shouldVariantShowInHeader = isLandscape && isTablet;
+  const hasSelectIconset = !!iconsetInfo && currentIconsetIndex >= 0;
+  const hasMatchedIcons = matchedIconNames && matchedIconNames.length > 0;
 
   return (
     <>
@@ -177,6 +182,7 @@ export default function Home() {
               )}
               <Header.Item flex={1}>
                 <Input
+                  isDisabled={!hasSelectIconset}
                   flex={1}
                   size="xs"
                   testID={`keyword-filter-tf:${iconsetInfo.packageName}`}
@@ -202,10 +208,12 @@ export default function Home() {
             </Header.Row>
             <Header.Row>
               <Header.Item leftSide>
-                <Text bold fontSize="14px">
-                  {iconsetInfo.packageName}
-                </Text>
-                {hasVariants && shouldVariantShowInHeader && (
+                {hasSelectIconset && (
+                  <Text bold fontSize="14px">
+                    {iconsetInfo.packageName}
+                  </Text>
+                )}
+                {hasSelectIconset && hasVariants && shouldVariantShowInHeader && (
                   <>
                     <Text color="#666" fontSize="14px" mx={1}>
                       @
@@ -249,48 +257,69 @@ export default function Home() {
                 )}
               </Header.Item>
               <Header.Item rightSide>
-                <Link
-                  testID={`npm-btn:${iconsetInfo.packageName}`}
-                  href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
-                >
-                  <StyledIcon
-                    content={NpmIconContent}
-                    name="npm"
-                    size={24}
-                    color="red"
-                  />
-                </Link>{" "}
-                <IconButton
-                  onPress={onPackageNamePress}
-                  testID={`copy-package-btn:${iconsetInfo.packageName}`}
-                  icon={
+                {hasSelectIconset && (
+                  <Link
+                    testID={`npm-btn:${iconsetInfo.packageName}`}
+                    href={`https://npmjs.com/package/${iconsetInfo.packageName}`}
+                    isExternal
+                  >
                     <StyledIcon
-                      content={ContentCopyIconContent}
-                      name="content-copy"
-                      fill="currentcolor"
+                      content={NpmIconContent}
+                      name="npm"
                       size={24}
-                      color="black"
+                      color="red"
                     />
-                  }
-                />
+                  </Link>
+                )}{" "}
+                {hasSelectIconset && (
+                  <IconButton
+                    onPress={onPackageNamePress}
+                    testID={`copy-package-btn:${iconsetInfo.packageName}`}
+                    icon={
+                      <StyledIcon
+                        content={ContentCopyIconContent}
+                        name="content-copy"
+                        fill="currentcolor"
+                        size={24}
+                        color="black"
+                      />
+                    }
+                  />
+                )}
               </Header.Item>
             </Header.Row>
           </Header>
           <Content padder>
-            {iconsetInfo && (
+            {currentIconsetIndex >= 0 && !!iconsetInfo && (
               <>
-                {iconsetInfo.__loaded &&
-                  matchedIconNames &&
-                  matchedIconNames.length < 1 && (
-                    <Box height="40px" flexBasis={"auto"} mx={4} flex={1}>
-                      <Text bold fontSize="12px">
-                        No matched icons
-                      </Text>
-                    </Box>
-                  )}
-                {matchedIconNames && matchedIconNames.length > 0 && (
-                  <Box height="40px" flexBasis={"auto"} mb={4} mx={4} flex={1}>
-                    <Text fontSize="12px">
+                {iconsetInfo.__loaded && !hasMatchedIcons && (
+                  <Box
+                    display="flex"
+                    minHeight="40px"
+                    flexBasis={"auto"}
+                    mx="4"
+                    flex={1}
+                  >
+                    <Text bold fontSize="sm">
+                      No matched icons
+                    </Text>
+                  </Box>
+                )}
+                {!iconsetInfo.__loaded && !hasMatchedIcons && (
+                  <Flex mx="4">
+                    <Text fontSize="sm">Loading</Text>
+                  </Flex>
+                )}
+                {hasMatchedIcons && (
+                  <Box
+                    display="flex"
+                    minHeight="40px"
+                    flexBasis={"auto"}
+                    mx="4"
+                    mb="4"
+                    flex={1}
+                  >
+                    <Text fontSize="sm">
                       Found {matchedIconNames.length} matched icons
                     </Text>
                     <Divider my={4} />
