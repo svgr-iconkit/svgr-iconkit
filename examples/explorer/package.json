@@ -1,6 +1,6 @@
 {
   "name": "svgr-iconkit-examples-cra-explorer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "homepage": "/explorer",
   "dependencies": {
@@ -13,6 +13,7 @@
     "@svgr-iconkit/entypo": "0.2.0-beta.5",
     "@svgr-iconkit/feather": "0.2.0-beta.5",
     "@svgr-iconkit/flag-icons": "0.2.0-beta.5",
+    "@svgr-iconkit/flat-color-icons": "0.2.0-beta.5",
     "@svgr-iconkit/fluentui-system": "0.2.0-beta.5",
     "@svgr-iconkit/fontawesome5": "0.2.0-beta.5",
     "@svgr-iconkit/fontawesome5-brands": "0.2.0-beta.5",
@@ -24,10 +25,9 @@
     "@svgr-iconkit/material-design": "0.2.0-beta.5",
     "@svgr-iconkit/octicons": "0.2.0-beta.5",
     "@svgr-iconkit/simple-icons": "0.2.0-beta.5",
-    "@svgr-iconkit/typicons": "0.2.0-beta.5",
     "@svgr-iconkit/tabler-icons": "0.2.0-beta.5",
-    "@svgr-iconkit/flat-color-icons": "0.2.0-beta.5",
     "@svgr-iconkit/themify-icons": "0.2.0-beta.5",
+    "@svgr-iconkit/typicons": "0.2.0-beta.5",
     "@svgr-iconkit/xnix": "0.2.0-beta.5",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
