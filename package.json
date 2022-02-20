@@ -24,7 +24,7 @@
     "bootstrap": "lerna bootstrap --hoist",
     "build": "lerna run build --scope @svgr-iconkit/*",
     "build:full": "lerna run build:full --scope @svgr-iconkit/* ",
-    "publish:all:beta": "node ./scripts/publish-all-packages.js --registry=https://npm.pkg.github.com/",
+    "publish:all:github": "node ./scripts/publish-all-packages.js --registry=https://npm.pkg.github.com/",
     "publish:all": "node ./scripts/publish-all-packages.js",
     "publish:beta:github": "npx lerna publish --canary --preid beta  --registry=https://npm.pkg.github.com/",
     "publish:beta": "npx lerna publish --canary --preid beta",

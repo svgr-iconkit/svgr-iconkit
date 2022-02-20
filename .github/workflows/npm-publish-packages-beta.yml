@@ -5,8 +5,6 @@ name: Packages release (beta)
 
 on:
   workflow_dispatch:
-  release:
-    types: [created]
 
 jobs:
   build:
@@ -18,7 +16,7 @@ jobs:
           node-version: 16
       - run: yarn
       - name: Build all
-        run: yarn run build
+        run: yarn run build:full
 
   publish-gpr:
     needs: build
@@ -33,7 +31,15 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: yarn
-      - name: publish
-        run: yarn publish:all:beta
+      - name: publish to github
+        run: git commit -m "bump version" && git push
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: publish to registry(github)
+        run: yarn publish:all:github
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: publish to registry(npmjs.com)
+        run: yarn publish:all
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
