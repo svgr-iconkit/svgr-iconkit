@@ -8,9 +8,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 **Note:** Version bump only for package @svgr-iconkit/core
 
 
-
-
-
 # [0.2.0-beta.5](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.2.0-beta.4...v0.2.0-beta.5) (2022-02-20)
 
 **Note:** Version bump only for package @svgr-iconkit/core

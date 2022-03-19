@@ -37,7 +37,7 @@ const defaultExport = [
     input: ["src/index.ts", "src/native.ts"],
     output: [
       {
-        dir: pkg.commonjs.replace(/\/index\.(js|ts)?$/, ""),
+        dir: './lib/commonjs',
         name: camelCase(pkg.name),
         format: "commonjs",
         sourcemap: true,
@@ -45,7 +45,7 @@ const defaultExport = [
         globals,
       },
       {
-        dir: pkg.module.replace(/\/index\.(js|ts)?$/, "/"),
+        dir: './lib/es',
         format: "es",
         sourcemap: true,
         sourcemapPathTransform,

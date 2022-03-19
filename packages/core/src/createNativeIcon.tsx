@@ -153,12 +153,11 @@ const InternalNativeIcon = forwardRef(function <
     // For some iconset, they use stroke to styling and cannot use fill properties
     internalStyle.color = color;
   }
-
   if (filterNonEmptyString(svgWidth)) {
-    internalProps.width = (svgWidth);
+    internalStyle.width = (svgWidth);
   }
   if (filterNonEmptyString(svgHeight)) {
-    internalProps.height = (svgHeight);
+    internalStyle.height = (svgHeight);
   }
   if (size) {
     internalStyle.width = removeUnit(size);

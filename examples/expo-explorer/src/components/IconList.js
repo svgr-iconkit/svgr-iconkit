@@ -19,13 +19,13 @@ const IconContent = styled(Box)`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 70px;
+  height: 100px;
 `;
 const IconWrapper = styled(Pressable)`
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100px;
-  height: 100px;
+  height: 130px;
 `;
 const IconListWrapper = styled.View`
   position: relative;

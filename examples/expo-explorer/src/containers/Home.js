@@ -379,7 +379,7 @@ export default function Home() {
                 <FormControl.Label>{`Size: ${iconSize}px`}</FormControl.Label>
                 <Slider
                   minValue={12}
-                  maxValue={48}
+                  maxValue={80}
                   defaultValue={iconSize}
                   onChangeEnd={setIconSize}
                 >
