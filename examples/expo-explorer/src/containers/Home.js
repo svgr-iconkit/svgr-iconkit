@@ -64,7 +64,7 @@ export default function Home() {
   const [isTablet] = useMediaQuery({ minWidth: 768 });
   const isLandscape = windowSize.width > windowSize.height;
 
-  const [currentIconsetIndex, setIconsetIndex] = useState(-1);
+  const [currentIconsetIndex, setIconsetIndex] = useState(0);
   const [keyword, setKeyword] = useState("");
   const [currentVariant, setVariant] = useState("regular");
   const onChangeIconset = useCallback((newIndex) => {
