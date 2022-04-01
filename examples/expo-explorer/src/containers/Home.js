@@ -75,6 +75,7 @@ export default function Home() {
     setMaxIconsShown(defaultMaxShownNum);
   }, []);
   const [iconSize, setIconSize] = useState(24);
+  const [iconStroke, setIconStroke] = useState(2);
   const [iconColor, setIconColor] = useState("#0693E3");
   const [isColorPickerOpen, setColorPickerOpen] = useState(false);
   const [isUsingStyledComponent, setUsingStyledComponent] = useState(true);
@@ -331,6 +332,7 @@ export default function Home() {
                   searching={isSearchMode}
                   size={iconSize}
                   color={iconColor}
+                  strokeWidth={iconStroke}
                   allIconNames={matchedIconNames}
                   iconsetInfo={iconsetInfo}
                   onIconPress={onIconPress}
@@ -382,6 +384,21 @@ export default function Home() {
                   maxValue={80}
                   defaultValue={iconSize}
                   onChangeEnd={setIconSize}
+                >
+                  <Slider.Track>
+                    <Slider.FilledTrack />
+                  </Slider.Track>
+                  <Slider.Thumb />
+                </Slider>
+              </FormControl>
+              <FormControl>
+                <FormControl.Label>{`Stroke: ${iconStroke}px`}</FormControl.Label>
+                <Slider
+                  minValue={0.1}
+                  maxValue={5}
+                  step={0.1}
+                  defaultValue={iconStroke}
+                  onChangeEnd={setIconStroke}
                 >
                   <Slider.Track>
                     <Slider.FilledTrack />

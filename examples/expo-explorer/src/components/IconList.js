@@ -48,6 +48,7 @@ export default function IconList({
   maxCount,
   color = "#ccc",
   size = 24,
+  strokeWidth = 1,
   variant = "regular",
   allIconNames = [],
   searching = false,
@@ -92,6 +93,7 @@ export default function IconList({
                 <Iconset
                   variant={variant}
                   name={iconName}
+                  strokeWidth={strokeWidth}
                   size={size}
                   color={color}
                 />

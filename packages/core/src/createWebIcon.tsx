@@ -11,7 +11,7 @@ import {
   ResolveType,
 } from "./types";
 import {
-  convertReactProps,
+  createConvertReactProps,
   getContentFromIconProps,
   getViewboxValue,
   appendUnit,
@@ -24,7 +24,16 @@ import {
 // For web, only few attribute is supported
 const propNamesRemap = {
   class: "className",
+  "strokeWidth": "strokeWidth",
+  "strokeLinecap": "strokeLinecap",
+  "strokeLinejoin": "strokeLinejoin",
+  "stroke-linecap": "strokeLinecap",
+  "stroke-linejoin": "strokeLinejoin",
+  "stroke-width": "strokeWidth",
+  style: null,
 };
+
+const convertRunner = createConvertReactProps(propNamesRemap)
 
 const filterNode = (node: IconSVGNode) => node.tagName !== "title";
 /**
@@ -40,7 +49,7 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
     if (children && children.length > 0) {
       childrenNodes = renderChildren(children, nodeKey);
     }
-    const _props: any = convertReactProps(attrs, {
+    const _props: any = convertRunner(attrs, {
       key: nodeKey,
     });
 
@@ -82,8 +91,8 @@ const InternalWebIcon = forwardRef(function <
     svgAttrs || {};
   const viewBox = getViewboxValue(svgContent);
 
-  const iconProps = convertReactProps(restProps, {}, propNamesRemap);
-  const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
+  const iconProps = convertRunner(restProps, {}, {allowNonWhitelistProp: false});
+  const attrProps = convertRunner(restAttrs, {}, {allowNonWhitelistProp: false});
   const internalProps = {
     fill,
     stroke,

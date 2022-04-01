@@ -6,7 +6,7 @@ const numberOnlyRegExp = /^[0-9]$/;
 
 export const PRIMARY_CURRENT_COLOR = "currentColor";
 
-const ignoredPropNames = ["xmlns", "title", "version", "style"];
+const ignoredPropNames = ["xmlns", "title", "version", "style", "content"];
 
 export const filterNonNumberStartedString = (str: any) =>
   !String(str).match(numberStartedRegExp);
@@ -29,33 +29,37 @@ export const appendUnit = (str?: string | number, unit: string = "px") => {
   return String(str);
 };
 
+export const propNameFiltering = (name: string) =>
+  filterNonNumberStartedString(name) &&
+  filterNonEmptyString(name) &&
+  filterIgnoredPropNames(name);
+
 /**
- * Used for converting react used props
+ * Used for create the runner for converting react used props
+ * @param namesRemap {Record<string, string | null>} Swap the original name into new props name or remove it when mattched
  * @param attrs
  * @param originalContent
- * @param namesRemap {Record<string, string | null>} Swap the original name into new props name or remove it when mattched
  * @returns
  */
-export const convertReactProps = (
+export const createConvertReactProps = (
+  namesRemap?: Record<string, string | null>
+) => (
   attrs: Record<string, any>,
   originalContent: any = {},
-  namesRemap?: Record<string, string | null>
+  { allowNonWhitelistProp = true } = {}
 ) => {
   const exportedProps: any = {
     ...originalContent,
   };
 
-  const allowedPropNames = Object.keys(attrs)
-    .filter(filterNonNumberStartedString)
-    .filter(filterIgnoredPropNames)
-    .filter((name) => !namesRemap || !!namesRemap[name])
-    .map((name) => (namesRemap && namesRemap[name] ? namesRemap[name] : name));
-  return allowedPropNames
-    .filter(filterNonEmptyString)
-    .reduce((curProps, propName) => {
-      if (propName) {
-        const convertedName = camelCase(propName);
-        curProps[convertedName] = attrs[propName];
+  return Object.keys(attrs)
+    .filter(propNameFiltering)
+    .reduce((curProps, sourceName: string) => {
+      let targetName = !namesRemap ? sourceName : namesRemap[sourceName];
+      if (!targetName && allowNonWhitelistProp) targetName = sourceName;
+      if (targetName) {
+        const convertedName = camelCase(targetName);
+        curProps[convertedName] = attrs[targetName] || attrs[sourceName];
       }
       return curProps;
     }, exportedProps);

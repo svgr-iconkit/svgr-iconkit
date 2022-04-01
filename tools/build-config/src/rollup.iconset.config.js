@@ -45,6 +45,7 @@ function createRollupLibraryConfig({
     useTsconfigDeclarationDir: true,
   },
   sourcemap = true,
+  minify = true,
   plugins = [],
   outputs = {
     commonjs: {
@@ -80,6 +81,8 @@ function createRollupLibraryConfig({
 
     // Resolve source maps to the original source
     sourceMaps(),
+
+    minify ? terser() : undefined,
   ];
 
   let _entry = entry;
@@ -143,6 +146,7 @@ function createRollupDataConfig({
     }
   },
   sourcemap = false,
+  minify = true,
   plugins = [],
   outputs = {
     commonjs: {
@@ -174,6 +178,8 @@ function createRollupDataConfig({
 
     // Resolve source maps to the original source
     sourceMaps(),
+
+    minify ? terser() : undefined,
   ];
 
   const rootDirectory = path.join(process.cwd(), entryPath);

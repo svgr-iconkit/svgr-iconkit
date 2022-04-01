@@ -34,7 +34,7 @@ import {
   ResolveType,
 } from "./types"
 import {
-  convertReactProps,
+  createConvertReactProps,
   filterNonEmptyString,
   getContentFromIconProps,
   getViewboxValue,
@@ -70,8 +70,16 @@ const propNamesRemap = {
   class: "className",
   "xmlns:xlink": "xmlnsXlink",
   "xlink:href": "xlinkHref",
+  "strokeWidth": "strokeWidth",
+  "strokeLinecap": "strokeLinecap",
+  "strokeLinejoin": "strokeLinejoin",
+  "stroke-linecap": "strokeLinecap",
+  "stroke-linejoin": "strokeLinejoin",
+  "stroke-width": "strokeWidth",
   style: null,
 };
+
+const convertProps = createConvertReactProps(propNamesRemap)
 
 const supportedNodeNames = Object.keys(NodeComponentMap);
 
@@ -88,7 +96,7 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
     const NodeComponent = NodeComponentMap[tagName.toLowerCase()];
     const nodeKey = `${parentKey}/$${tagName}_${index}`;
 
-    const _props: any = convertReactProps(attrs, {
+    const _props: any = convertProps(attrs, {
       key: nodeKey,
     });
     return (
@@ -133,8 +141,8 @@ const InternalNativeIcon = forwardRef(function <
     svgAttrs || {};
   const viewBox = getViewboxValue(svgContent);
 
-  const iconProps = convertReactProps(restProps, {}, propNamesRemap);
-  const attrProps = convertReactProps(restAttrs, {}, propNamesRemap);
+  const iconProps = convertProps(restProps, {}, {allowNonWhitelistProp: false});
+  const attrProps = convertProps(restAttrs, {}, {allowNonWhitelistProp: false});
   const internalProps = {
     fill,
     stroke,
