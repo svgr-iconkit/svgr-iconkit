@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/cli",
-  "version": "0.2.0",
+  "version": "0.2.1-beta.0",
   "description": "Cli for @svgr-iconkit",
   "keywords": [
     "SVG",
