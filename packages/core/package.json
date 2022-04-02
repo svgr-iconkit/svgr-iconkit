@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/core",
-  "version": "0.2.3-beta.1",
+  "version": "0.2.3-beta.2",
   "description": "SVGR iconset core",
   "keywords": [
     "SVG",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "index",
   "react-native": "index",
-  "commonjs": "lib/commonjs/index.js",
+  "commonjs": "index",
   "module": "index.esm",
   "types": "index",
   "directories": {
@@ -33,12 +33,11 @@
     "README.md"
   ],
   "peerDependencies": {
-    "react": "*"
+    "react": "^16.8.0 || ^17.0.1",
+    "react-native": "*",
+    "react-native-svg": "*"
   },
   "peerDependenciesMeta": {
-    "react-dom": {
-      "optional": true
-    },
     "react-native": {
       "optional": true
     },
@@ -60,7 +59,8 @@
     "@types/react": "^17.0.9",
     "@types/react-native": "^0.64.10",
     "react": "^17.0.1",
-    "react-native": "^0.64.2",
+    "react-native": "0.64.2",
+    "react-native-svg": "^12.3.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
     "rollup-plugin-peer-deps-external": "^2.2.4",
