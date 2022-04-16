@@ -3,8 +3,7 @@ import { parse } from "svg-parser";
 const disallowedTagNames = ["style", "title"];
 const disallowedAttributeNames = ["class", "className", "style"];
 
-const renamedAttributesNames = {
-}
+const renamedAttributesNames = {};
 
 function isAllowedAttributeName(name) {
   if (disallowedAttributeNames.includes(name)) return false;
@@ -38,25 +37,26 @@ function getChildrenData(node, options) {
     .forEach((propertyName) => {
       if (renamedAttributesNames[propertyName]) {
         attrs[renamedAttributesNames[propertyName]] = properties[propertyName];
-        return
+        return;
       }
       attrs[propertyName] = properties[propertyName];
     });
 
-  const { fillColor, strokeColor, idMap = {} } = options;
+  const { fillColor, strokeColor, idMap = {}, parents = [] } = options;
 
   // Workaround - copying xlink:href target prevent missing rendering in native
-  if ( attrs['xlink:href']) {
-    const hrefTarget = attrs['xlink:href'].replace('#', '')
-    if (idMap[ hrefTarget ]) {
-      attrs['xlink:href'] = undefined 
-      Object.assign(attrs, idMap[ hrefTarget ])
+  if (attrs["xlink:href"]) {
+    const hrefTarget = attrs["xlink:href"].replace("#", "");
+    if (idMap[hrefTarget]) {
+      attrs["xlink:href"] = undefined;
+      Object.assign(attrs, idMap[hrefTarget]);
+    } else {
+      console.warn(
+        "[svgrData/getChildrenData] Unable to find use target %s at node %o",
+        attrs["xlink:href"],
+        parents.join("/") + tagName
+      );
     }
-  }
-  
-  if ( attrs.id ) {
-    if (!options.idMap) options.idMap = {}
-    options.idMap[attrs.id] = {...attrs, id: undefined}
   }
 
   // Overwrite colors when attributes exist (if non-none)
@@ -78,10 +78,32 @@ function getChildrenData(node, options) {
     attrs,
     children: !hasChildren
       ? undefined
-      : children
-          .filter(filterOnlyElement)
-          .map((node) => getChildrenData(node, options)),
+      : children.filter(filterOnlyElement).map((node) =>
+          getChildrenData(node, {
+            ...options,
+            parents: [...parents, tagName],
+          })
+        ),
   };
+}
+
+function getIdMap(node, options) {
+  
+  const idMap = options.idMap;
+  const { properties = {}, children = [] } = node;
+  if (properties.id) {
+    idMap[properties.id] = node;
+  }
+
+  const hasChildren =
+    children && Array.isArray(children) && children.length > 0;
+  if (hasChildren) {
+    const filteredChildren = children.filter(filterOnlyElement);
+    for(const node of filteredChildren) {
+      getIdMap(node, options)
+    }
+  }
+  return idMap;
 }
 
 export function convertSvgData(
@@ -115,12 +137,23 @@ export function convertSvgData(
       attrs[propertyName] = properties[propertyName];
     });
 
+  const filteredChildren = children.filter(filterOnlyElement);
+
+  // Travelling all id in the document
+  const idMap = {};
+  filteredChildren.forEach((node) => getIdMap(node, { idMap }));
+
   const result = {
     name,
     attrs,
-    data: children
-      .filter(filterOnlyElement)
-      .map((node) => getChildrenData(node, { fillColor, strokeColor })),
+    data: filteredChildren.map((node) =>
+      getChildrenData(node, {
+        parents: [name + ":"],
+        idMap,
+        fillColor,
+        strokeColor,
+      })
+    ),
   };
 
   if (forceWidth) {
