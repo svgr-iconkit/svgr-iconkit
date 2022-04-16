@@ -17,8 +17,11 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@types/node": "^15.6.1",
-    "rimraf": "^3.0.2",
-    "svg-parser": "^2.0.4"
+    "rimraf": "^3.0.2"
   },
-  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd",
+  "dependencies": {
+    "svgo": "^2.8.0",
+    "svg-parser": "^2.0.4"
+  }
 }

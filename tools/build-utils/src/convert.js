@@ -1,4 +1,5 @@
 import { parse } from "svg-parser";
+import { optimize } from "svgo";
 
 const disallowedTagNames = ["style", "title"];
 const disallowedAttributeNames = ["class", "className", "style"];
@@ -26,12 +27,14 @@ function getChildrenData(node, options) {
     console.error("Empty node reported");
     throw new Error("Unexcepted undefined node");
   }
-  const { tagName, properties, children } = node;
+  const { tagName, properties, children = [] } = node;
   if (!tagName) {
     console.error("Empty node tagName. node=%o", node);
     throw new Error("Unexcepted node without tagName");
   }
-  const attrs = {};
+  let attrs = {};
+  let modifiedTagName = tagName;
+  let modifiedChildren = [...children];
   Object.keys(properties)
     .filter(isAllowedAttributeName)
     .forEach((propertyName) => {
@@ -47,14 +50,20 @@ function getChildrenData(node, options) {
   // Workaround - copying xlink:href target prevent missing rendering in native
   if (attrs["xlink:href"]) {
     const hrefTarget = attrs["xlink:href"].replace("#", "");
-    if (idMap[hrefTarget]) {
+    const targetNode = idMap[hrefTarget];
+    if (targetNode) {
+      modifiedTagName = "g";
+      modifiedChildren = [
+        {
+          ...targetNode,
+        },
+      ];
       attrs["xlink:href"] = undefined;
-      Object.assign(attrs, idMap[hrefTarget]);
     } else {
       console.warn(
         "[svgrData/getChildrenData] Unable to find use target %s at node %o",
         attrs["xlink:href"],
-        parents.join("/") + tagName
+        [...parents, tagName].join("/")
       );
     }
   }
@@ -70,27 +79,32 @@ function getChildrenData(node, options) {
       attrs.stroke = strokeColor;
     }
   }
-
   const hasChildren =
-    children && Array.isArray(children) && children.length > 0;
-  return {
-    tagName,
+    modifiedChildren &&
+    Array.isArray(modifiedChildren) &&
+    modifiedChildren.length > 0;
+  const createdChildren = !hasChildren
+    ? undefined
+    : modifiedChildren.filter(filterOnlyElement).map((node) =>
+        getChildrenData(node, {
+          ...options,
+          parents: [...parents, tagName],
+        })
+      );
+
+  const result = {
+    tagName: modifiedTagName,
     attrs,
-    children: !hasChildren
-      ? undefined
-      : children.filter(filterOnlyElement).map((node) =>
-          getChildrenData(node, {
-            ...options,
-            parents: [...parents, tagName],
-          })
-        ),
   };
+  if (createdChildren && createdChildren.length > 0) {
+    result.children = createdChildren;
+  }
+  return result;
 }
 
 function getIdMap(node, options) {
-  
   const idMap = options.idMap;
-  const { properties = {}, children = [] } = node;
+  const { tagName, properties = {}, children = [] } = node;
   if (properties.id) {
     idMap[properties.id] = node;
   }
@@ -98,9 +112,8 @@ function getIdMap(node, options) {
   const hasChildren =
     children && Array.isArray(children) && children.length > 0;
   if (hasChildren) {
-    const filteredChildren = children.filter(filterOnlyElement);
-    for(const node of filteredChildren) {
-      getIdMap(node, options)
+    for (const node of children) {
+      getIdMap(node, options);
     }
   }
   return idMap;
@@ -111,7 +124,17 @@ export function convertSvgData(
   source,
   { fillColor, strokeColor, forceWidth, forceHeight, typescript = false }
 ) {
-  const node = parse(source);
+  const optimizedSource = optimize(source, {
+    plugins: [
+      {
+        name: "removeXMLNS",
+      },
+      {
+        name: "convertStyleToAttrs",
+      },
+    ],
+  });
+  const node = parse(optimizedSource.data);
 
   const { type, tagName, properties = {}, children = [] } = node.children[0];
 
