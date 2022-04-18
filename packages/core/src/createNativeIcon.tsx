@@ -1,4 +1,4 @@
-import React, { memo, forwardRef, ComponentClass, ForwardedRef, Component, Ref, PropsWithChildren } from "react";
+import React, { memo, forwardRef, ForwardedRef, Component, Ref, PropsWithChildren, ComponentType } from "react";
 import { TextStyle, ViewStyle } from "react-native";
 import Svg, {
   Path,
@@ -43,7 +43,7 @@ import {
   showDebugWarning,
 } from "./utils";
 
-const NodeComponentMap: Record<string, ComponentClass<any>> = {
+const NodeComponentMap: Record<string, ComponentType<PropsWithChildren<any>>> = {
   path: Path,
   line: Line,
   text: Text,
@@ -51,16 +51,13 @@ const NodeComponentMap: Record<string, ComponentClass<any>> = {
   defs: Defs,
   use: Use,
   lineargradient: LinearGradient,
-  lieearGradient: LinearGradient,
   radialgradient: RadialGradient,
-  radialGraident: RadialGradient,
   pattern: Pattern,
   marker: Marker,
   textpath: TextPath,
   tspan: TSpan,
   tSpan: TSpan,
   clippath: ClipPath,
-  clipPath: ClipPath,
   stop: Stop,
   mask: Mask,
   circle: Circle,
@@ -98,6 +95,9 @@ const renderChildren = (nodes: any[], parentKey: string = "#") => {
   return filteredNodes.map((node, index) => {
     const { tagName, attrs, children } = node;
     const NodeComponent = NodeComponentMap[tagName.toLowerCase()];
+    if (!NodeComponent) {
+      return null
+    }
     const nodeKey = `${parentKey}/$${tagName}_${index}`;
 
     const _props: any = convertProps(attrs, {
