@@ -24,6 +24,7 @@ import {
 // For web, only few attribute is supported
 const propNamesRemap = {
   class: "className",
+  className: "className",
   "strokeWidth": "strokeWidth",
   "strokeLinecap": "strokeLinecap",
   "strokeLinejoin": "strokeLinejoin",
