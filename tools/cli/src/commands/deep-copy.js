@@ -21,7 +21,7 @@ import {
 const commandName = "deep-copy";
 
 function exploreSvgFiles(parentPath, options) {
-  const { contains, fileNameEndsWidth = ".svg", fileNameNotEndsWidth } = options;
+  const { contains, endsWith, fileNameEndsWith, fileNameNotEndsWith } = options;
   let output = [];
   FS.readdirSync(parentPath).forEach((fileName) => {
     const curDir = Path.join(parentPath, fileName);
@@ -29,15 +29,17 @@ function exploreSvgFiles(parentPath, options) {
     const stats = FS.statSync(curDir);
     if (stats.isDirectory() && !fileName.startsWith(".")) {
       output = output.concat(exploreSvgFiles(curDir, options));
-    } else if (fileName.endsWith(fileNameEndsWidth)) {
+    } else if (endsWith && curDir.endsWith(endsWith)) {
+      output.push(curDir);
+    } else if (fileNameEndsWith && fileName.endsWith(fileNameEndsWith)) {
 
       // Skipped when pattern not matched
-      if (fileNameNotEndsWidth && fileName.endsWith(fileNameNotEndsWidth)) {
+      if (fileNameNotEndsWith && fileName.endsWith(fileNameNotEndsWith)) {
         return;
       }
 
       if (!contains || (contains && curDir.includes(contains))) {
-        output.push(Path.join(parentPath, fileName));
+        output.push(curDir);
       }
     }
   });
@@ -82,6 +84,10 @@ module.exports = {
       description: "Remove name suffix",
     },
     {
+      flag: "-lf, --last-folder-name",
+      description: "Use last folder name as file name",
+    },
+    {
       flag: "-tp, --target-file-prefix <prefixName>",
       description: "Target file prefix",
     },
@@ -104,6 +110,7 @@ module.exports = {
       notEndsWith,
       targetFilePrefix = "",
       targetFileSuffix = "",
+      lastFolderName = false
     } = options;
 
     if (!FS.existsSync(outputPath)) {
@@ -132,10 +139,9 @@ module.exports = {
 
     const iconFiles = exploreSvgFiles(resolvedSourceDir, {
       contains: options.contains,
-      fileNameEndsWidth: options.endsWith || extension,
-      fileNameNotEndsWidth: notEndsWith,
+      endsWith: options.endsWith || extension,
+      fileNameNotEndsWith: notEndsWith,
     });
-
     const pbar = new cliProgress.SingleBar(
       {},
       cliProgress.Presets.shades_classic
@@ -153,7 +159,16 @@ module.exports = {
         name = name.slice(0, name.length - removeNameSuffix.length);
       }
 
+      if (lastFolderName) {
+        let replacedPath = iconFilePath 
+        if (endsWith) {
+          replacedPath = iconFilePath.substr(0, iconFilePath.length - endsWith.length)
+        }
+        name = Path.basename(replacedPath)
+      }
+
       const tarFileName = `${targetFilePrefix}${name}${targetFileSuffix}${extension}`;
+      // console.log(commandName + ': from=%s target=%s', iconFilePath, tarFileName)
       FS.copyFileSync(iconFilePath, Path.join(outputPath, tarFileName));
 
       pbar.increment();
