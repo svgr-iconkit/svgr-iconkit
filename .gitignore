@@ -13,3 +13,5 @@ cache/
 
 report.*.json
 .npmrc
+package-lock.json
+yarn.lock
