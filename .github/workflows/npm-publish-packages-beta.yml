@@ -17,29 +17,15 @@ jobs:
       - run: yarn
       - name: Build all
         run: yarn run build:full
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com/
-      - run: yarn
-      - name: publish to github
-        run: git commit -m "bump version" && git push
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Bump version
+        run: |
+          yarn version:beta
+          git push
       - name: publish to registry(github)
-        run: yarn publish:all:github
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: yarn publish:all:github
       - name: publish to registry(npmjs.com)
-        run: yarn publish:all
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
+        run: yarn publish:all
