@@ -21,8 +21,8 @@
     "svg"
   ],
   "scripts": {
-    "version:beta": "npx lerna version --conventional-commits --conventional-prerelease -m 'release: bump beta version %v'",
-    "version": "npx lerna version --conventional-commits --conventional-graduate -m 'release: bump version %v'",
+    "version:beta": "npx lerna version --conventional-commits --preid 'beta' --conventional-prerelease -m 'release: bump beta version %v'",
+    "version": "npx lerna version --create-release  --conventional-commits --conventional-graduate -m 'release: bump version %v'",
     "bootstrap": "lerna bootstrap --hoist",
     "build": "lerna run build --scope @svgr-iconkit/*",
     "build:full": "lerna run build:full --scope @svgr-iconkit/* --sort",
