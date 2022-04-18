@@ -39,10 +39,12 @@
   ],
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.2.0",
-    "react": "*",
-    "react-native-svg": "*"
+    "react": "^16.8.0 || ^17.0.1"
   },
   "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    },
     "react-native-svg": {
       "optional": true
     }
@@ -65,12 +67,9 @@
     "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.9",
-    "@types/react-native": "^0.64.10",
     "css.gg": "^2.0.0",
     "npm-run-all": "^4.1.5",
-    "react": "17.0.1",
-    "react-native": "^0.64.2",
-    "react-native-svg": "12.1.0",
+    "react": "^17.0.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -83,6 +82,7 @@
     "access": "public"
   },
   "scripts": {
+    "iconsmap:upgrade": "yarn add -D css.gg",
     "iconsmap:prepare": "rimraf -p ./src/gen",
     "iconsmap:create:regular": "svgr-iconkit convert-data -i icons/svg -o src/gen/icons/regular -p css.gg --fill-color 'currentColor'",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
@@ -90,7 +90,7 @@
     "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
     "compile": "rollup -c",
     "build": "npm-run-all compile",
-    "build:full": "npm-run-all iconsmap compile"
+    "build:full": "npm-run-all prebuild iconsmap compile"
   },
   "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
 }
