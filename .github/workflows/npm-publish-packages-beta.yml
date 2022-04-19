@@ -14,13 +14,16 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16
+      - name: Setup git
+        run: |
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
       - run: yarn
       - name: Build all
         run: yarn run build:full
       - name: Bump version
         run: |
           yarn version:beta --yes
-          git push
       - name: publish to registry(github)
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
