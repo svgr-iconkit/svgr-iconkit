@@ -6,6 +6,7 @@ name: Packages release (beta)
 on:
   workflow_dispatch:
 
+permissions: write-all
 jobs:
   build:
     runs-on: ubuntu-latest
