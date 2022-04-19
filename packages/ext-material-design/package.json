@@ -34,6 +34,7 @@
     "index.*.js",
     "native.js",
     "native.d.ts",
+    "LICENSE.md",
     "README.md"
   ],
   "peerDependencies": {
@@ -88,7 +89,7 @@
     "iconsmap:create:sharp": "svgr-iconkit convert-data --fill-color 'currentColor' -i ./src/gen/assets/sharp -o ./src/gen/icons/sharp ",
     "iconsmap:create": "npm-run-all iconsmap:create:regular  iconsmap:create:outlined iconsmap:create:round iconsmap:create:sharp",
     "iconsmap": "npm-run-all iconsmap:clean iconsmap:prepare iconsmap:copy iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
