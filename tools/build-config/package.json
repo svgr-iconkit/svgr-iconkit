@@ -8,6 +8,7 @@
     "build:full": "echo 'No build scripts necessary'"
   },
   "files": [
+    "src",
     "bin",
     "lib"
   ],
