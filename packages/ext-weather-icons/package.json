@@ -1,0 +1,86 @@
+{
+  "name": "@svgr-iconkit/weather-icons",
+  "version": "0.3.0-beta.0",
+  "description": "Weather Icons for @svgr-iconkit",
+  "keywords": [
+    "SVG",
+    "Icons",
+    "react",
+    "react-native",
+    "expo"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "react-native": "index",
+  "commonjs": "lib/commonjs/index.js",
+  "module": "index",
+  "types": "index",
+  "directories": {
+    "icons": "icons",
+    "lib": "lib",
+    "native": "native"
+  },
+  "files": [
+    "icons",
+    "lib",
+    "native",
+    "index.js",
+    "index.*.ts",
+    "index.*.js",
+    "native.js",
+    "native.d.ts",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@svgr-iconkit/core": "^0.3.0-beta.0",
+    "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    },
+    "react-native-svg": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@svgr-iconkit/core": "^0.3.0-beta.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-typescript": "^7.14.4",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.0",
+    "@svgr-iconkit/cli": "^0.3.0-beta.0",
+    "@types/node": "^15.6.1",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.50.4",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "terser": "^5.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "iconsmap:clean": "rimraf ./src/gen && mkdir -p ./tmp",
+    "iconsmap:prepare": "curl 'https://codeload.github.com/erikflowers/weather-icons/zip/refs/heads/master' -o tmp/icons.zip && unzip -q -o tmp/icons.zip 'weather-icons-master/svg/*' -d ./tmp/icons",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./tmp/icons/weather-icons-master/svg -o src/gen/icons/regular --remove-name-prefix=wi-",
+    "iconsmap:create": "npm-run-all iconsmap:create:regular",
+    "iconsmap": "npm-run-all iconsmap:clean iconsmap:prepare iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
+    "compile": "rollup -c",
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all iconsmap compile"
+  }
+}
