@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/build-utils",
-  "version": "0.3.0-beta.0",
+  "version": "0.3.0-beta.1",
   "license": "MIT",
   "main": "lib/index",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd",
   "dependencies": {
-    "svgo": "^2.8.0",
-    "svg-parser": "^2.0.4"
+    "svg-parser": "^2.0.4",
+    "svgo": "^2.8.0"
   }
 }
