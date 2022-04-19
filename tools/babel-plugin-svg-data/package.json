@@ -1,8 +1,8 @@
 {
   "name": "@svgr-iconkit/babel-plugin-svg-data",
-  "version": "0.2.0",
+  "version": "0.3.0-beta.0",
   "author": "leman <leman@lmswork.com>",
-  "homepage": "https://github.com/lemankk/svgr-iconkit",
+  "homepage": "https://github.com/svgr-iconkit/svgr-iconkit",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
-    "@svgr-iconkit/build-utils": "^0.2.0",
+    "@svgr-iconkit/build-utils": "^0.3.0-beta.0",
     "rollup-pluginutils": "^2.8.2"
   },
   "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
