@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-community",
-  "version": "0.2.0",
+  "version": "0.3.0-beta.0",
   "description": "Material Community Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -38,7 +38,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.2.0",
+    "@svgr-iconkit/core": "^0.3.0-beta.0",
     "react": "^16.8.0 || ^17.0.1"
   },
   "peerDependenciesMeta": {
@@ -47,7 +47,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.2.0"
+    "@svgr-iconkit/core": "^0.3.0-beta.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -60,9 +60,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.2.0",
-    "@svgr-iconkit/cli": "^0.2.0",
-    "@svgr-iconkit/rollup-plugin-svg-data": "^0.2.0",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.0",
+    "@svgr-iconkit/cli": "^0.3.0-beta.0",
+    "@svgr-iconkit/rollup-plugin-svg-data": "^0.3.0-beta.0",
     "@types/node": "^15.6.1",
     
     "@types/react-native": "^0.64.10",
