@@ -35,6 +35,7 @@
     "index.*.js",
     "native.js",
     "native.d.ts",
+    "LICENSE.md",
     "README.md"
   ],
   "peerDependencies": {

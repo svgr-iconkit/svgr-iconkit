@@ -35,6 +35,7 @@
     "index.*.js",
     "native.js",
     "native.d.ts",
+    "LICENSE.md",
     "README.md"
   ],
   "peerDependencies": {
@@ -83,7 +84,7 @@
     "iconsmap:create:outline": "svgr-iconkit convert-data -i outline -o src/gen/icons/outline --stroke-color 'currentColor' -p heroicons",
     "iconsmap:create": "npm-run-all iconsmap:create:solid iconsmap:create:outline",
     "iconsmap": "npm-run-all iconsmap:prepare  iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"

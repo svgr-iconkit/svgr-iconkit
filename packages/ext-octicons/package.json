@@ -35,6 +35,7 @@
     "index.*.js",
     "native.js",
     "native.d.ts",
+    "LICENSE.md",
     "README.md"
   ],
   "peerDependencies": {
@@ -83,7 +84,7 @@
     "iconsmap:create:regular": "svgr-iconkit convert-data -i ./build/svg -o ./src/gen/icons/regular --end-with '-24' --remove-name-suffix '-24' -p @primer/octicons",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"

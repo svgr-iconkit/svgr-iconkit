@@ -1,0 +1,9 @@
+
+data/
+icons/
+lib/
+node_modules/
+tmp/
+gen/
+*.tmp
+*.log

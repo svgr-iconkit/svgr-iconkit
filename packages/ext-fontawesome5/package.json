@@ -35,6 +35,7 @@
     "index.*.js",
     "native.js",
     "native.d.ts",
+    "LICENSE.md",
     "README.md"
   ],
   "peerDependencies": {
@@ -83,7 +84,7 @@
     "iconsmap:create:solid": "svgr-iconkit convert-data -i svgs/solid -o ./src/gen/icons/solid -p @fortawesome/fontawesome-free",
     "iconsmap:create": "npm-run-all iconsmap:create:regular iconsmap:create:solid",
     "iconsmap": "npm-run-all iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"

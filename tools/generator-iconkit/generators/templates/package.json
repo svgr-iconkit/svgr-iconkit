@@ -1,6 +1,6 @@
 {
   "name": "<%= packageName %>",
-  "version": "0.1.0",
+  "version": "<%= versionNo %>",
   "description": "<%= familyName %> for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -9,7 +9,7 @@
     "react-native",
     "expo"
   ],
-  "license": "MIT",
+  "license": "<%= license %>",
   "main": "index",
   "react-native": "index",
   "commonjs": "lib/commonjs/index.js",
@@ -29,6 +29,7 @@
     "index.*.js",
     "native.js",
     "native.d.ts",
+    "LICENSE.md",
     "README.md"
   ],
   "peerDependencies": {
@@ -59,11 +60,8 @@
     "@svgr-iconkit/cli": "^0.3.0",
     "@svgr-iconkit/build-config": "^0.3.0",
     "@types/node": "^15.6.1",
-    "@types/react": "^17.0.9",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
-    "react-native": "^0.64.0",
-    "react-native-svg": "12.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -76,10 +74,10 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:<%= variantName>": "svgr-iconkit convert-data -i assets/<%= variantName %%> -o src/gen/icons/<%= variantName %>",
+    "iconsmap:create:<%= variantName %>": "svgr-iconkit convert-data -i assets/<%= variantName %> -o src/gen/icons/<%= variantName %>",
     "iconsmap:create": "npm-run-all iconsmap:create:<%= variantName %>",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"

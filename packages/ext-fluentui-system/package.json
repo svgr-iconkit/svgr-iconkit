@@ -35,6 +35,7 @@
     "index.*.js",
     "native.js",
     "native.d.ts",
+    "LICENSE.md",
     "README.md"
   ],
   "peerDependencies": {
@@ -87,7 +88,7 @@
     "iconsmap:create:regular": "svgr-iconkit convert-data -i icons -o src/gen/icons/regular --end-with '_24_regular' --remove-name-suffix '_24_regular' -p @fluentui/svg-icons",
     "iconsmap:create:filled": "svgr-iconkit convert-data -i icons -o src/gen/icons/filled --end-with '_24_filled' --remove-name-suffix '_24_filled' -p @fluentui/svg-icons",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create:regular iconsmap:create:filled",
-    "prebuild": "rimraf ./lib ./dist ./tmp ./gen ./icons",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"
