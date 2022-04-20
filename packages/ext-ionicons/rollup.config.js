@@ -14,15 +14,15 @@ export default [
     plugins,
   }),
   createRollupDataConfig({
-    entryPath: "./src/gen/icons/regular",
+    entryPath: "./src/data/regular",
     outputPath: "./icons/regular",
   }),
   createRollupDataConfig({
-    entryPath: "./src/gen/icons/sharp",
+    entryPath: "./src/data/sharp",
     outputPath: "./icons/sharp",
   }),
   createRollupDataConfig({
-    entryPath: "./src/gen/icons/outline",
+    entryPath: "./src/data/outline",
     outputPath: "./icons/outline",
   }),
 ];

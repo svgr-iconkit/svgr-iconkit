@@ -2,12 +2,12 @@ import { IconsMapType } from "@svgr-iconkit/core";
 import {
   IconNames as regularIconNames,
   map as regularIconsMap,
-} from "./gen/icons/regular";
+} from "./data/regular";
 import {
   IconNames as filledIconNames,
   map as filledIconsMap,
-} from "./gen/icons/filled";
-export { IconNames } from "./gen/icons/filled";
+} from "./data/filled";
+export { IconNames } from "./data/filled";
 
 export const familyName: string = "FluentUISystem";
 
