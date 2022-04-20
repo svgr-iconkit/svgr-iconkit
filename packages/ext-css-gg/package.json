@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/css-gg",
-  "version": "0.3.0-beta.0",
+  "version": "0.3.0-beta.1",
   "description": "css.gg for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -51,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.0"
+    "@svgr-iconkit/core": "^0.3.0-beta.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -63,8 +63,8 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.3.0-beta.0",
-    "@svgr-iconkit/cli": "^0.3.0-beta.0",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.1",
+    "@svgr-iconkit/cli": "^0.3.0-beta.1",
     "@types/node": "^15.6.1",
     "css.gg": "^2.0.0",
     "npm-run-all": "^4.1.5",
