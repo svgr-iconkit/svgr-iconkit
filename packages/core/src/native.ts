@@ -12,6 +12,7 @@ import type { NativeIconForwaredRefType } from "./createNativeIcon"
 export {
   createNativeIcon as createIconComponent,
   NativeIcon as Icon,
+  NativeIconContent as IconContent,
 } from "./createNativeIcon";
 
 export * from "./types";

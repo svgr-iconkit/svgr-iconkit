@@ -12,6 +12,7 @@ import type { WebIconForwaredRefType } from "./createWebIcon"
 export {
   createWebIcon as createIconComponent,
   WebIcon as Icon,
+  WebIconContent as IconContent,
 } from "./createWebIcon";
 
 export * from "./types";
