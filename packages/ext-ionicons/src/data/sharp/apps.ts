@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"apps","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"rect","attrs":{"x":48,"y":48,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":200,"y":48,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":352,"y":48,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":48,"y":200,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":200,"y":200,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":352,"y":200,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":48,"y":352,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":200,"y":352,"width":112,"height":112,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":352,"y":352,"width":112,"height":112,"rx":8,"ry":8}}]};
+export default content;

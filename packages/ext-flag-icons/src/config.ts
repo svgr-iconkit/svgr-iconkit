@@ -1,7 +1,7 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { map as wideIconsMap } from "./gen/icons/regular";
-import { IconNames, map as squareIconsMap } from "./gen/icons/square";
-export { IconNames } from "./gen/icons/square";
+import { map as wideIconsMap } from "./data/regular";
+import { IconNames, map as squareIconsMap } from "./data/square";
+export { IconNames } from "./data/square";
 
 export type IconVariant = "regular" | "square"
 

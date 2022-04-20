@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cart","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"circle","attrs":{"cx":176,"cy":416,"r":16,"fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":32}},{"tagName":"circle","attrs":{"cx":400,"cy":416,"r":16,"fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":32}},{"tagName":"path","attrs":{"fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":32,"d":"M48 80h64l48 272h256"}},{"tagName":"path","attrs":{"d":"M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128","fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":32}}]};
+export default content;

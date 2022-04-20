@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shield-tick","attrs":{"viewBox":"0 0 24 24","fill":"none"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M18 8.521C18.125 15.366 14.042 18.278 11.727 18.965C11.5737 19.0106 11.4103 19.0106 11.257 18.965C8.98 18.29 5.014 15.464 5 8.862C5.01372 8.29149 5.33458 7.7729 5.839 7.506C9.363 5.516 11.058 5 11.489 5C11.92 5 13.749 5.549 17.507 7.7C17.8045 7.86767 17.9918 8.17958 18 8.521Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}},{"tagName":"path","attrs":{"d":"M8.5 12.0151L10.5 14.0151L14.5 10.0071","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}}]};
+export default content;

@@ -85,7 +85,7 @@
     "iconsmap:prepare": "rimraf ./src/gen",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -i icons -o ./src/gen/assets/regular/ -p \"@tabler/icons\"",
     "iconsmap:copy": "npm-run-all iconsmap:copy:regular",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./src/gen/assets/regular/ -o ./src/gen/icons/regular/",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./src/gen/assets/regular/ -o ./src/data/regular/",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

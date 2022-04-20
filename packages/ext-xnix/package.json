@@ -82,7 +82,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create": "svgr-iconkit convert-data -i ./assets/Xnix/Line -o ./src/gen/icons/regular",
+    "iconsmap:create": "svgr-iconkit convert-data -i ./assets/Xnix/Line -o ./src/data/regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c ",

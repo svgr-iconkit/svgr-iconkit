@@ -80,8 +80,8 @@
   "scripts": {
     "iconsmap:upgrade": "yarn add -D heroicons",
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:solid": "svgr-iconkit convert-data -i solid -o src/gen/icons/solid --stroke-color 'currentColor' -p heroicons",
-    "iconsmap:create:outline": "svgr-iconkit convert-data -i outline -o src/gen/icons/outline --stroke-color 'currentColor' -p heroicons",
+    "iconsmap:create:solid": "svgr-iconkit convert-data -i solid -o src/data/solid --stroke-color 'currentColor' -p heroicons",
+    "iconsmap:create:outline": "svgr-iconkit convert-data -i outline -o src/data/outline --stroke-color 'currentColor' -p heroicons",
     "iconsmap:create": "npm-run-all iconsmap:create:solid iconsmap:create:outline",
     "iconsmap": "npm-run-all iconsmap:prepare  iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

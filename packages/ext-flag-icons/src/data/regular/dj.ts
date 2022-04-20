@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"dj","attrs":{"id":"flag-icons-dj","viewBox":"0 0 640 480"},"data":[{"tagName":"defs","attrs":{},"children":[{"tagName":"clipPath","attrs":{"id":"dj-a"},"children":[{"tagName":"path","attrs":{"fill-opacity":0.7,"d":"M-40 0h682.7v512H-40z"}}]}]},{"tagName":"g","attrs":{"fill-rule":"evenodd","clip-path":"url(#dj-a)","transform":"translate(37.5) scale(.94)"},"children":[{"tagName":"path","attrs":{"fill":"#0c0","d":"M-40 0h768v512H-40z"}},{"tagName":"path","attrs":{"fill":"#69f","d":"M-40 0h768v256H-40z"}},{"tagName":"path","attrs":{"fill":"#fffefe","d":"m-40 0 382.7 255.7L-40 511V0z"}},{"tagName":"path","attrs":{"fill":"red","d":"M119.8 292 89 270l-30.7 22.4L69.7 256l-30.6-22.5 37.9-.3 11.7-36.3 12 36.2h37.9l-30.5 22.7 11.7 36.4z"}}]}]};
+export default content;

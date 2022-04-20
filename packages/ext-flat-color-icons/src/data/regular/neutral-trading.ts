@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"neutral-trading","attrs":{"version":1,"viewBox":"0 0 48 48","enable-background":"new 0 0 48 48"},"data":[{"tagName":"g","attrs":{"fill":"#1565C0"},"children":[{"tagName":"polygon","attrs":{"points":"43.4,13 35,20 35,6"}},{"tagName":"rect","attrs":{"x":4,"y":11,"width":34,"height":4}}]},{"tagName":"g","attrs":{"fill":"#2196F3"},"children":[{"tagName":"rect","attrs":{"x":40,"y":23,"width":4,"height":19}},{"tagName":"rect","attrs":{"x":34,"y":23,"width":4,"height":19}},{"tagName":"rect","attrs":{"x":28,"y":23,"width":4,"height":19}},{"tagName":"rect","attrs":{"x":22,"y":23,"width":4,"height":19}},{"tagName":"rect","attrs":{"x":16,"y":23,"width":4,"height":19}},{"tagName":"rect","attrs":{"x":10,"y":23,"width":4,"height":19}},{"tagName":"rect","attrs":{"x":4,"y":23,"width":4,"height":19}}]}]};
+export default content;

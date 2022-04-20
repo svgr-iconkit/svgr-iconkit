@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"play-video","attrs":{"version":1.1,"id":"Layer_1","x":"0px","y":"0px","viewBox":"0 0 100 100","enable-background":"new 0 0 100 100","xml:space":"preserve"},"data":[{"tagName":"g","attrs":{},"children":[{"tagName":"g","attrs":{},"children":[{"tagName":"path","attrs":{"d":"M85.527,80.647c2.748,0,4.973-2.225,4.973-4.974V24.327c0-2.749-2.225-4.974-4.973-4.974H14.474\r\n\t\t\tc-2.748,0-4.974,2.225-4.974,4.974v51.346c0,2.749,2.225,4.974,4.974,4.974H85.527z M80.553,70.699H19.446V29.301h61.107V70.699z"}}]},{"tagName":"g","attrs":{},"children":[{"tagName":"g","attrs":{},"children":[{"tagName":"polygon","attrs":{"points":"64.819,50.288 52.839,57.201 40.865,64.118 40.865,50.288 40.865,36.462 52.839,43.38 \t\t\t"}}]}]}]}]};
+export default content;

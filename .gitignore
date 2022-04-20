@@ -4,10 +4,10 @@
 tmp/
 node_modules/
 lib/
+gen/
 dist/
 build/
 tmp/
-gen/
 cache/
 .DS_Store
 

@@ -83,7 +83,7 @@
   "scripts": {
     "iconsmap:upgrade": "yarn add -D @entypo-icons/core",
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create": "svgr-iconkit convert-data -i icons -o src/gen/icons/regular -p @entypo-icons/core",
+    "iconsmap:create": "svgr-iconkit convert-data -i icons -o src/data/regular -p @entypo-icons/core",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",

@@ -82,10 +82,10 @@
   },
   "scripts": {
     "iconsmap:upgrade": "yarn add -D @ant-design/icons-svg",
-    "iconsmap:create:filled": "svgr-iconkit convert-data -i inline-svg/filled/ -o src/gen/icons/filled -p @ant-design/icons-svg",
-    "iconsmap:create:outlined": "svgr-iconkit convert-data -i inline-svg/outlined/ -o src/gen/icons/outlined -p @ant-design/icons-svg",
+    "iconsmap:create:filled": "svgr-iconkit convert-data -i inline-svg/filled/ -o src/data/filled -p @ant-design/icons-svg",
+    "iconsmap:create:outlined": "svgr-iconkit convert-data -i inline-svg/outlined/ -o src/data/outlined -p @ant-design/icons-svg",
     "iconsmap:create": "npm-run-all iconsmap:create:filled iconsmap:create:outlined",
-    "iconsmap:prepare": "rimraf ./src/gen/icons/ ./gen/icons/",
+    "iconsmap:prepare": "rimraf ./src/gen/ ./data/",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c",

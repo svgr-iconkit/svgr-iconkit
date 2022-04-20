@@ -24,6 +24,7 @@
     "version:beta": "npx lerna version --conventional-commits --preid 'beta' -m 'release: bump beta version %v'",
     "version:graduate": "npx lerna version --conventional-commits --conventional-graduate -m 'release: bump version %v'",
     "bootstrap": "lerna bootstrap --hoist",
+    "iconsmap": "lerna run iconsmap --scope @svgr-iconkit/* --sort",
     "build": "lerna run build --scope @svgr-iconkit/*",
     "build:full": "lerna run build:full --scope @svgr-iconkit/* --sort",
     "publish:all:github": "node ./scripts/publish-all-packages.js --registry=https://npm.pkg.github.com/",

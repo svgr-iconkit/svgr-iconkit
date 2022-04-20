@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"vol-zero","attrs":{"viewBox":"0 0 24 24","fill":"none"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9.48492 14.9509C8.61278 14.8941 7.95044 14.1433 8.00292 13.2709V10.6709C7.95044 9.79849 8.61278 9.04766 9.48492 8.9909H10.5909C10.9225 8.98881 11.2421 8.867 11.4909 8.6479L13.0339 7.3169C13.503 6.94728 14.1485 6.8965 14.6696 7.18823C15.1907 7.47997 15.4848 8.0568 15.4149 8.6499V15.2919C15.4848 15.885 15.1907 16.4618 14.6696 16.7536C14.1485 17.0453 13.503 16.9945 13.0339 16.6249L11.4889 15.2939C11.2401 15.0748 10.9205 14.953 10.5889 14.9509H9.48492Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}}]};
+export default content;

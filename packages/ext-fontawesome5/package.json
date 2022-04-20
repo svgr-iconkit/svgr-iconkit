@@ -80,8 +80,8 @@
   "scripts": {
     "iconsmap:upgrade": "yarn add -D @fortawesome/fontawesome-free",
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i svgs/regular -o src/gen/icons/regular -p @fortawesome/fontawesome-free",
-    "iconsmap:create:solid": "svgr-iconkit convert-data -i svgs/solid -o ./src/gen/icons/solid -p @fortawesome/fontawesome-free",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i svgs/regular -o src/data/regular -p @fortawesome/fontawesome-free",
+    "iconsmap:create:solid": "svgr-iconkit convert-data -i svgs/solid -o ./src/data/solid -p @fortawesome/fontawesome-free",
     "iconsmap:create": "npm-run-all iconsmap:create:regular iconsmap:create:solid",
     "iconsmap": "npm-run-all iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

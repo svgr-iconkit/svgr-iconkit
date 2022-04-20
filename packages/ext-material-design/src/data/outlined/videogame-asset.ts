@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"videogame-asset","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M0 0h24v24H0V0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 10H3V8h18v8zM6 15h2v-2h2v-2H8V9H6v2H4v2h2z"}},{"tagName":"circle","attrs":{"cx":14.5,"cy":13.5,"r":1.5}},{"tagName":"circle","attrs":{"cx":18.5,"cy":10.5,"r":1.5}}]};
+export default content;

@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"factory","attrs":{"version":1,"viewBox":"0 0 48 48","enable-background":"new 0 0 48 48"},"data":[{"tagName":"path","attrs":{"fill":"#BF360C","d":"M41.2,5h-7.3L32,43h11L41.2,5z"}},{"tagName":"path","attrs":{"fill":"#E64A19","d":"M33,23h-4v-6l-12,6v-6L5,23v20h28V23z"}},{"tagName":"rect","attrs":{"x":9,"y":27,"fill":"#FFC107","width":4,"height":4}},{"tagName":"rect","attrs":{"x":17,"y":27,"fill":"#FFC107","width":4,"height":4}},{"tagName":"rect","attrs":{"x":25,"y":27,"fill":"#FFC107","width":4,"height":4}},{"tagName":"rect","attrs":{"x":9,"y":35,"fill":"#FFC107","width":4,"height":4}},{"tagName":"rect","attrs":{"x":17,"y":35,"fill":"#FFC107","width":4,"height":4}},{"tagName":"rect","attrs":{"x":25,"y":35,"fill":"#FFC107","width":4,"height":4}}]};
+export default content;

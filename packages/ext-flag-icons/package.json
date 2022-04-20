@@ -88,8 +88,8 @@
   "scripts": {
     "iconsmap:upgrade": "yarn add -D flag-icons",
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:square": "svgr-iconkit convert-data -i flags/1x1 -o src/gen/icons/square -p flag-icons",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i flags/4x3 -o src/gen/icons/regular -p flag-icons",
+    "iconsmap:create:square": "svgr-iconkit convert-data -i flags/1x1 -o src/data/square -p flag-icons",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i flags/4x3 -o src/data/regular -p flag-icons",
     "iconsmap:create": "npm-run-all iconsmap:create:square iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

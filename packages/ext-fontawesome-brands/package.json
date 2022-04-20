@@ -79,7 +79,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./node_modules/@fortawesome/fontawesome-free/svgs/brands -o src/gen/icons/regular",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./node_modules/@fortawesome/fontawesome-free/svgs/brands -o src/data/regular",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

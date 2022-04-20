@@ -1,6 +1,6 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { IconNames, map as regularIconsMap } from "./gen/icons/regular";
-export { IconNames } from "./gen/icons/regular";
+import { IconNames, map as regularIconsMap } from "./data/regular";
+export { IconNames } from "./data/regular";
 
 export const familyName: string = "FontAwesome5-brands";
 

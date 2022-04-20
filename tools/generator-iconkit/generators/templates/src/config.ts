@@ -1,6 +1,6 @@
 import type { IconsMapType } from "@svgr-iconkit/core";
-export * from "./gen/icons/<%= variantName %>";
-import { IconNames, map as regularIconMap } from "./gen/icons/<%= variantName %>";
+export * from "./data/<%= variantName %>";
+import { IconNames, map as regularIconMap } from "./data/<%= variantName %>";
 
 export type IconVariant = "<%= variantName %>";
 

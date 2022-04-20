@@ -83,7 +83,7 @@
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/assets/regular; mkdir -p ./src/gen/assets/sharp; mkdir -p ./src/gen/assets/outline",
     "iconsmap:copy": "svgr-iconkit deep-copy -E .svg -i icons -p fontisto -o src/gen/assets",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i src/gen/assets -o src/gen/icons/regular",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i src/gen/assets -o src/data/regular",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

@@ -83,7 +83,7 @@
   "scripts": {
     "iconsmap:upgrade": "yarn add -D css.gg",
     "iconsmap:prepare": "rimraf -p ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i icons/svg -o src/gen/icons/regular -p css.gg --fill-color 'currentColor'",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i icons/svg -o src/data/regular -p css.gg --fill-color 'currentColor'",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

@@ -27,7 +27,7 @@ jobs:
           yarn
       - name: Build all
         run: |
-          yarn run build:full
+          yarn run build
       - name: Bump version
         run: |
           yarn version --yes --no-push

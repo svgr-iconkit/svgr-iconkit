@@ -80,7 +80,7 @@
   "scripts": {
     "iconsmap:upgrade": "yarn add -D simple-icons",
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i icons -o src/gen/icons/regular -p simple-icons",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i icons -o src/data/regular -p simple-icons",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

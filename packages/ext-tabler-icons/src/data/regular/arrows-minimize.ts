@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrows-minimize","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"polyline","attrs":{"points":"5 9 9 9 9 5"}},{"tagName":"line","attrs":{"x1":3,"y1":3,"x2":9,"y2":9}},{"tagName":"polyline","attrs":{"points":"5 15 9 15 9 19"}},{"tagName":"line","attrs":{"x1":3,"y1":21,"x2":9,"y2":15}},{"tagName":"polyline","attrs":{"points":"19 9 15 9 15 5"}},{"tagName":"line","attrs":{"x1":15,"y1":9,"x2":21,"y2":3}},{"tagName":"polyline","attrs":{"points":"19 15 15 15 15 19"}},{"tagName":"line","attrs":{"x1":15,"y1":15,"x2":21,"y2":21}}]};
+export default content;

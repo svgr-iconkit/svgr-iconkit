@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"social-dropbox","attrs":{"version":1.1,"id":"Layer_1","x":"0px","y":"0px","viewBox":"0 0 100 100","enable-background":"new 0 0 100 100","xml:space":"preserve"},"data":[{"tagName":"g","attrs":{"id":"Layer_1_2_"},"children":[{"tagName":"polygon","attrs":{"points":"34.063,13.993 11.288,28.864 27.035,41.476 50,27.295 \t"}},{"tagName":"polygon","attrs":{"points":"11.288,54.087 34.063,68.956 50,55.653 27.035,41.476 \t"}},{"tagName":"polygon","attrs":{"points":"50,55.653 65.937,68.956 88.712,54.087 72.965,41.476 \t"}},{"tagName":"polygon","attrs":{"points":"88.712,28.864 65.937,13.993 50,27.295 72.965,41.476 \t"}},{"tagName":"polygon","attrs":{"points":"50.046,58.517 34.063,71.778 27.223,67.314 27.223,72.319 50.046,86.007 72.871,72.319 72.871,67.314 \r\n\t\t66.03,71.778 \t"}}]}]};
+export default content;

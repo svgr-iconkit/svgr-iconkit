@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"diploma-1","attrs":{"version":1,"viewBox":"0 0 48 48","enable-background":"new 0 0 48 48"},"data":[{"tagName":"rect","attrs":{"x":4,"y":9,"fill":"#E8EAF6","width":40,"height":30}},{"tagName":"g","attrs":{"fill":"#5C6BC0"},"children":[{"tagName":"polygon","attrs":{"points":"30,34 32.8,34 27.8,29 25,31.8 30,36.8"}},{"tagName":"polygon","attrs":{"points":"18,34 15.2,34 20.2,29 23,31.8 18,36.8"}}]},{"tagName":"rect","attrs":{"x":11,"y":15,"fill":"#9FA8DA","width":26,"height":4}},{"tagName":"path","attrs":{"fill":"#9FA8DA","d":"M24,23c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S26.8,23,24,23z M24,31c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3 S25.7,31,24,31z"}},{"tagName":"path","attrs":{"fill":"#9FA8DA","d":"M3,8v32h42V8H3z M43,35c-1.7,0-3,1.3-3,3H8c0-1.7-1.3-3-3-3V13c1.7,0,3-1.3,3-3h32c0,1.7,1.3,3,3,3V35z"}}]};
+export default content;

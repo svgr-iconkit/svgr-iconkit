@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"user-2","attrs":{"viewBox":"0 0 24 24","fill":"none"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M14.4769 14H9.52294C8.06488 14.0724 6.7731 14.963 6.18693 16.3C5.47993 17.688 6.89093 19 8.53193 19H15.4679C17.1099 19 18.5209 17.688 17.8129 16.3C17.2268 14.963 15.935 14.0724 14.4769 14Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}},{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15 8C15 9.65685 13.6569 11 12 11C10.3431 11 9 9.65685 9 8C9 6.34315 10.3431 5 12 5C12.7956 5 13.5587 5.31607 14.1213 5.87868C14.6839 6.44129 15 7.20435 15 8Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}}]};
+export default content;

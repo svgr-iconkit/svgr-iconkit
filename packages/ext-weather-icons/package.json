@@ -75,7 +75,7 @@
   "scripts": {
     "iconsmap:clean": "rimraf ./src/gen && mkdir -p ./tmp",
     "iconsmap:prepare": "curl 'https://codeload.github.com/erikflowers/weather-icons/zip/refs/heads/master' -o tmp/icons.zip && unzip -q -o tmp/icons.zip 'weather-icons-master/svg/*' -d ./tmp/icons",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./tmp/icons/weather-icons-master/svg -o src/gen/icons/regular --remove-name-prefix=wi-",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./tmp/icons/weather-icons-master/svg -o src/data/regular --remove-name-prefix=wi-",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:clean iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

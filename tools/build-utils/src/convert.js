@@ -132,14 +132,29 @@ export function convertSvgData(
       {
         name: "convertStyleToAttrs",
       },
+      {
+        name: "removeDimensions"
+      },
+      {
+        name: "removeStyleElement"
+      },
+      {
+        name: "removeScriptElement"
+      }
     ],
   });
+  if (!optimizedSource || !optimizedSource.data) {
+    console.error("[svgrData/convert] unexcepted optimize error. source=%s", source);
+    console.error("[svgrData/convert] output=%o", optimizedSource);
+    process.exit(1);
+    return;
+  }
   const node = parse(optimizedSource.data);
 
   const { type, tagName, properties = {}, children = [] } = node.children[0];
 
   if (type !== "element") {
-    console.warn("[svgrData/convert] unexcepted root children. node=%o", node);
+    console.error("[svgrData/convert] unexcepted root children. node=%o", node);
     process.exit(1);
     return;
   }

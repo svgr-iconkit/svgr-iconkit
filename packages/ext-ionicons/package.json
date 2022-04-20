@@ -80,9 +80,9 @@
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/assets/regular; mkdir -p ./src/gen/assets/sharp; mkdir -p ./src/gen/assets/outline",
     "iconsmap:copy": "cp -R ../../node_modules/ionicons/dist/svg/*.svg ./src/gen/assets; mv ./src/gen/assets/*-sharp.svg ./src/gen/assets/sharp/; mv ./src/gen/assets/*-outline.svg ./src/gen/assets/outline/; mv ./src/gen/assets/*.svg ./src/gen/assets/regular",
-    "iconsmap:create:sharp": "svgr-iconkit convert-data -i ./src/gen/assets/sharp -o ./src/gen/icons/sharp --end-with '-sharp' --remove-name-suffix '-sharp'",
-    "iconsmap:create:outline": "svgr-iconkit convert-data -i ./src/gen/assets/outline -o ./src/gen/icons/outline --end-with '-outline' --remove-name-suffix '-outline'",
-    "iconsmap:create:regular": "svgr-iconkit convert-data  -i./src/gen/assets/regular -o ./src/gen/icons/regular",
+    "iconsmap:create:sharp": "svgr-iconkit convert-data -i ./src/gen/assets/sharp -o ./src/data/sharp --end-with '-sharp' --remove-name-suffix '-sharp'",
+    "iconsmap:create:outline": "svgr-iconkit convert-data -i ./src/gen/assets/outline -o ./src/data/outline --end-with '-outline' --remove-name-suffix '-outline'",
+    "iconsmap:create:regular": "svgr-iconkit convert-data  -i./src/gen/assets/regular -o ./src/data/regular",
     "iconsmap:create": "npm-run-all iconsmap:create:sharp iconsmap:create:outline iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

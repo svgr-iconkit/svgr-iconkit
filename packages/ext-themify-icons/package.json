@@ -81,7 +81,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create": "svgr-iconkit convert-data -i ./assets -o ./src/gen/icons/regular --fill-color currentColor",
+    "iconsmap:create": "svgr-iconkit convert-data -i ./assets -o ./src/data/regular --fill-color currentColor",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c ",

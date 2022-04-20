@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"prohibited","attrs":{"version":1.1,"id":"Layer_1","x":"0px","y":"0px","viewBox":"0 0 100 100","enable-background":"new 0 0 100 100","xml:space":"preserve"},"data":[{"tagName":"g","attrs":{},"children":[{"tagName":"path","attrs":{"fill":"currentColor","d":"M50,12.5c-20.712,0-37.5,16.793-37.5,37.502C12.5,70.712,29.288,87.5,50,87.5\r\n\t\tc20.712,0,37.5-16.788,37.5-37.498C87.5,29.293,70.712,12.5,50,12.5z M50,77.561c-15.199,0-27.561-12.362-27.561-27.559\r\n\t\tc0-6.702,2.407-12.853,6.4-17.636l38.795,38.795C62.852,75.153,56.703,77.561,50,77.561z M71.161,67.635L32.366,28.839\r\n\t\tc4.782-3.992,10.931-6.4,17.634-6.4c15.198,0,27.56,12.367,27.56,27.562C77.56,56.704,75.153,62.853,71.161,67.635z"}}]}]};
+export default content;

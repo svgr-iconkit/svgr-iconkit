@@ -78,7 +78,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create": "svgr-iconkit convert-data --fill-color 'currentColor' -i assets -o src/gen/icons/regular --remove-name-prefix 'fi-'",
+    "iconsmap:create": "svgr-iconkit convert-data --fill-color 'currentColor' -i assets -o src/data/regular --remove-name-prefix 'fi-'",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c ",

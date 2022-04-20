@@ -1,0 +1,4 @@
+
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"home-8","attrs":{"viewBox":"0 0 24 24","fill":"none"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M6.143 7.74195L11.078 5.22295C11.6571 4.92568 12.3439 4.92568 12.923 5.22295L17.858 7.74195C18.636 8.21167 19.07 9.0907 18.97 9.99395L19 14.9999C19 17.2091 17.2091 18.9999 15 18.9999H9C6.79086 18.9999 5 17.2091 5 14.9999L5.031 9.99995C4.92854 9.09464 5.36291 8.21262 6.143 7.74195Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}},{"tagName":"path","attrs":{"d":"M9.66797 18.9999V16.6659C9.66797 15.3769 10.7129 14.3319 12.002 14.3319C13.291 14.3319 14.336 15.3769 14.336 16.6659V18.9999","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}}]};
+export default content;
