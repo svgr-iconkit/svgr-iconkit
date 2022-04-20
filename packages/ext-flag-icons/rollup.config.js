@@ -17,4 +17,8 @@ export default [
     entryPath: "./src/gen/icons/regular",
     outputPath: "./icons/regular",
   }),
+  createRollupDataConfig({
+    entryPath: "./src/gen/icons/square",
+    outputPath: "./icons/square",
+  }),
 ];
