@@ -30,8 +30,6 @@ jobs:
           yarn run build:full
       - name: Bump version
         run: |
-          git add .
-          git commit -m "chore: commit changes from pipeline."
           yarn version:beta --yes
       - name: publish to registry(github)
         env:
