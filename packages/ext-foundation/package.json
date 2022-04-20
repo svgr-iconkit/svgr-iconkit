@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/foundation",
-  "version": "0.3.0-beta.1",
+  "version": "0.3.0-beta.2",
   "description": "Foundation Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.1"
+    "@svgr-iconkit/core": "^0.3.0-beta.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -60,8 +60,8 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.3.0-beta.1",
-    "@svgr-iconkit/cli": "^0.3.0-beta.1",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.2",
+    "@svgr-iconkit/cli": "^0.3.0-beta.2",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
