@@ -7,7 +7,7 @@ import {
   ResolveType,
 } from "./types";
 import { createIconsetFactory } from "./createIconsetFactory";
-import { WebIcon } from "./createWebIcon";
+import { WebIcon, WebIconContent, WebIconContentForwaredRefType } from "./createWebIcon";
 import type { WebIconForwaredRefType } from "./createWebIcon"
 export {
   createWebIcon as createIconComponent,
@@ -49,6 +49,35 @@ export function createVariantsMap<
   const { familyName, variantsMap, variantNames = [], ...rest } = options;
   return variantNames.reduce((output, variantName) => {
     const variantIconsMap = createIconset<IconNames, IconVariant>({
+      resolveType: ResolveType.ContentMap,
+      familyName,
+      map: variantsMap[variantName],
+      variant: variantName,
+      ...rest,
+    });
+    return { ...output, [variantName]: variantIconsMap };
+  }, {}) as any;
+}
+
+export function createIconsetContent<
+  IconNames extends string,
+  IconVariant extends string
+>(options: CreateIconsetOptions<IconNames, IconVariant>) {
+  return createIconsetFactory<IconNames, IconVariant, WebIconContentForwaredRefType>(
+    options,
+    WebIconContent
+  );
+}
+
+export function createVariantsContentMap<
+  IconNames extends string,
+  IconVariant extends string
+>(
+  options: CreateVariantsMapOptions<IconNames, IconVariant>
+): Record<IconVariant, IconNames> {
+  const { familyName, variantsMap, variantNames = [], ...rest } = options;
+  return variantNames.reduce((output, variantName) => {
+    const variantIconsMap = createIconsetContent<IconNames, IconVariant>({
       resolveType: ResolveType.ContentMap,
       familyName,
       map: variantsMap[variantName],

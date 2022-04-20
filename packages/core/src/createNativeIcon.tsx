@@ -1,4 +1,4 @@
-import React, { memo, forwardRef, ForwardedRef, Component, Ref, PropsWithChildren, ComponentType } from "react";
+import React, { memo, forwardRef, ForwardedRef, Component, Ref, PropsWithChildren, ComponentType, useMemo } from "react";
 import { TextStyle, ViewStyle } from "react-native";
 import Svg, {
   Path,
@@ -116,7 +116,7 @@ export type NativeIconForwaredRefType = Component<SvgProps>
 const InternalNativeIcon = forwardRef(function <
   IconNames extends string,
   IconVariant extends string
->(props: PropsWithChildren<IconProps<IconNames, IconVariant>>, svgRef: ForwardedRef<NativeIconForwaredRefType>) {
+>(props: IconProps<IconNames, IconVariant>, svgRef: ForwardedRef<NativeIconForwaredRefType>) {
   const {
     name,
     variant,
@@ -129,6 +129,8 @@ const InternalNativeIcon = forwardRef(function <
     ...restProps
   } = props;
   const svgContent = getContentFromIconProps(props);
+  const { attrs: svgAttrs, data: svgData = [] } = svgContent || {};
+  const elements = useMemo(() => renderChildren(svgData), [svgData])
   if (!svgContent) {
     if (variant && name) {
       showDebugWarning(
@@ -140,13 +142,12 @@ const InternalNativeIcon = forwardRef(function <
     return null;
   }
 
-  const { attrs: svgAttrs, data: svgData = [] } = svgContent;
   const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } =
     svgAttrs || {};
   const viewBox = getViewboxValue(svgContent);
 
-  const iconProps = convertProps(restProps, {}, {allowNonWhitelistProp: false});
-  const attrProps = convertProps(restAttrs, {}, {allowNonWhitelistProp: false});
+  const iconProps = convertProps(restProps, {}, { allowNonWhitelistProp: false });
+  const attrProps = convertProps(restAttrs, {}, { allowNonWhitelistProp: false });
   const internalProps = {
     fill,
     stroke,
@@ -183,16 +184,49 @@ const InternalNativeIcon = forwardRef(function <
   if (lineHeight) {
     internalStyle.lineHeight = Number(removeUnit(lineHeight));
   }
-  internalProps.style = [internalStyle, style];
+  internalProps.style = [internalStyle, style];;
   return (
     <Svg {...internalProps} ref={svgRef}>
-      {renderChildren(svgData)}
+      {elements}
     </Svg>
   );
 });
 InternalNativeIcon.displayName = "NativeIcon";
-
 export const NativeIcon = memo(InternalNativeIcon);
+
+
+export type NativeIconContentForwaredRefType = SVGGElement
+
+export const NativeIconContent = memo(forwardRef(<
+  IconNames extends string,
+  IconVariant extends string
+>(props: IconProps<IconNames, IconVariant>, svgRef: ForwardedRef<NativeIconForwaredRefType>) => {
+  const {
+    name,
+    variant,
+    className,
+    ...restProps
+  } = props;
+  const svgContent = getContentFromIconProps(props);
+  const { attrs = {}, data: svgData = [] } = svgContent || {};
+  const elements = useMemo(() => renderChildren(svgData), [svgData]);
+  if (!svgContent) {
+    if (variant && name) {
+      showDebugWarning(
+        `Icon was not found by given name ${name} and variant ${variant}`
+      );
+    } else if (name) {
+      showDebugWarning(`Icon was not found by given name ${name}`);
+    }
+    return null;
+  }
+  const GComponent = G as any
+
+  return <GComponent ref={svgRef} viewBox={attrs.viewBox} {...restProps}>
+    {elements}
+  </GComponent>
+}));
+
 
 /**
  * Create renderable icon by content

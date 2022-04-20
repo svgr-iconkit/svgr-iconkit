@@ -1,4 +1,4 @@
-import React, { createElement, memo, forwardRef } from "react";
+import React, { createElement, memo, forwardRef, useMemo } from "react";
 import type { Ref, ForwardedRef, PropsWithChildren } from "react"
 import type {
   CreateIconFactoryType,
@@ -63,7 +63,7 @@ export type WebIconForwaredRefType = SVGSVGElement
 const InternalWebIcon = forwardRef(function <
   IconNames extends string,
   IconVariant extends string
->(props: PropsWithChildren<IconProps<IconNames, IconVariant>>, svgRef: ForwardedRef<WebIconForwaredRefType>) {
+>(props: IconProps<IconNames, IconVariant>, svgRef: ForwardedRef<WebIconForwaredRefType>) {
   const {
     name,
     variant,
@@ -76,6 +76,8 @@ const InternalWebIcon = forwardRef(function <
     ...restProps
   } = props;
   const svgContent = getContentFromIconProps(props);
+  const { attrs: svgAttrs, data: svgData = [] } = svgContent || {};
+  const elements = renderChildren(svgData);
   if (!svgContent) {
     if (variant && name) {
       showDebugWarning(
@@ -87,13 +89,12 @@ const InternalWebIcon = forwardRef(function <
     return null;
   }
 
-  const { attrs: svgAttrs, data: svgData = [] } = svgContent;
   const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } =
     svgAttrs || {};
   const viewBox = getViewboxValue(svgContent);
 
-  const iconProps = convertRunner(restProps, {}, {allowNonWhitelistProp: false});
-  const attrProps = convertRunner(restAttrs, {}, {allowNonWhitelistProp: false});
+  const iconProps = convertRunner(restProps, {}, { allowNonWhitelistProp: false });
+  const attrProps = convertRunner(restAttrs, {}, { allowNonWhitelistProp: false });
   const internalProps = {
     fill,
     stroke,
@@ -141,11 +142,41 @@ const InternalWebIcon = forwardRef(function <
 
   return (
     <svg {...internalProps} ref={svgRef}>
-      {renderChildren(svgData)}
+      {elements}
     </svg>
   );
 });
-InternalWebIcon.displayName = "WebIcon";
+
+export type WebIconContentForwaredRefType = SVGGElement
+
+export const WebIconContent = memo(forwardRef(<
+  IconNames extends string,
+  IconVariant extends string
+>(props: IconProps<IconNames, IconVariant>, svgRef: ForwardedRef<WebIconForwaredRefType>) => {
+  const {
+    name,
+    variant,
+    className,
+    ...restProps
+  } = props;
+  const svgContent = getContentFromIconProps(props);
+  const { attrs = {}, data: svgData = [] } = svgContent || {};
+  const elements = useMemo(() => renderChildren(svgData), [svgData]);
+  if (!svgContent) {
+    if (variant && name) {
+      showDebugWarning(
+        `Icon was not found by given name ${name} and variant ${variant}`
+      );
+    } else if (name) {
+      showDebugWarning(`Icon was not found by given name ${name}`);
+    }
+    return null;
+  }
+
+  return <g ref={svgRef} viewBox={attrs.viewBox} {...restProps}>
+    {elements}
+  </g>
+}));
 
 export const WebIcon = memo(InternalWebIcon);
 /**
