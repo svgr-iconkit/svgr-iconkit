@@ -53,8 +53,12 @@ export interface IconContentBaseProps {
   fill?: string;
   stroke?: string;
   strokeWidth?: number | string;
-  strokeLinecap?: string;
-  strokeLinejoin?: string;
+  strokeOpacity?: number | string | undefined;
+  strokeMiterlimit?: number | string | undefined;
+  strokeDasharray?: string | number | undefined;
+  strokeDashoffset?: string | number | undefined;
+  strokeLinecap?: "butt" | "round" | "square" | "inherit" ;
+  strokeLinejoin?: "miter" | "round" | "bevel" | "inherit";
   ["data-testid"]?: string;
   ["testID"]?: string;
   size?: string | number;
