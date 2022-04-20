@@ -14,4 +14,6 @@ export const map: Record<IconVariant, IconsMapType<IconNames>> = {
   ["regular"]: regularIconMap,
 };
 
+export const iconNames = Object.freeze(Object.keys(regularIconMap));
+
 export const colorize = true;
