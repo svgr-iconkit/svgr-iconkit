@@ -15,6 +15,8 @@ const toolsFolderNames = FS.readdirSync(toolsDir);
 function executeCommand(cwd, name, params = {}) {
   console.info(`${name}: starting`);
   const packagePath = Path.join(cwd, name);
+
+  const isDebug = params['debug'] === 'yes'
   return new Promise((resolve) => {
     try {
       let ended = false;
@@ -39,20 +41,24 @@ function executeCommand(cwd, name, params = {}) {
         resolve();
       });
       child.on("error", (error) => {
-        console.error(`${name}: error=`, error);
+        console.error(`${name}# error=`, error);
         if (ended) return;
         ended = true;
         resolve();
       });
 
       child.stdout.on("data", (data) => {
-        console.log(`${name}: ${data}`);
+        if (isDebug) {
+          console.log(`${name}# stdout: ${data}`);
+        }
       });
       child.stderr.on("data", (data) => {
-        console.log(`${name}: err ${data}`);
+        if (isDebug) {
+          console.log(`${name}# stderr: ${data}`);
+        }
       });
     } catch (error) {
-      console.error(`${name}: error`);
+      console.error(`${name}# exception`);
       console.error(error);
       resolve();
     }

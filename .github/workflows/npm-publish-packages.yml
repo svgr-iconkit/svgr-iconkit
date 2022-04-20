@@ -30,7 +30,7 @@ jobs:
           yarn run build:full
       - name: Bump version
         run: |
-          yarn version:beta --yes --no-push
+          yarn version --yes --no-push
       - name: publish to registry(github)
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
