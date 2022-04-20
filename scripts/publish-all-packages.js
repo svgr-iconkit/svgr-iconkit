@@ -53,7 +53,7 @@ function executeCommand(cwd, name, params = {}) {
         }
       });
       child.stderr.on("data", (data) => {
-        if (isDebug) {
+        if (String(data).startsWith("ERR!") || isDebug) {
           console.log(`${name}# stderr: ${data}`);
         }
       });
