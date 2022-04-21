@@ -45,7 +45,7 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "registry=https://registry.npmjs.org/" >> .npmrc
           echo "always-auth = true" >> .npmrc
-          yarn publish:all --register=https://registry.npmjs.org/
+          yarn publish:all --registry=https://registry.npmjs.org/
       - name: push result
         run: |
           git push --force --tags
