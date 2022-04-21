@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/commonjs/index');
+module.exports = require('./lib/commonjs/web');

@@ -1,0 +1,8 @@
+export * from '../common/createIconsetFactory'
+export * from '../common/types'
+export { createWebIcon as createIconComponent } from './createWebIcon'
+export { createWebIconset as createIconset } from './createWebIconset'
+export { createWebFamily as createFamily } from './createWebFamily'
+export { createWebVariantsMap as createVariantsMap } from './createWebVariantsMap'
+export { WebIcon as Icon } from './WebIcon'
+export { WebIconContent as IconContent } from './WebIconContent'

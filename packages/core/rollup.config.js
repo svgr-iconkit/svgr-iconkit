@@ -35,10 +35,10 @@ const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) =>
 
 const defaultExport = [
   {
-    input: ["src/index.ts", "src/native.ts"],
+    input: ["src/web/index.ts"],
     output: [
       {
-        dir: './lib/commonjs',
+        dir: './lib/commonjs/web',
         name: camelCase(pkg.name),
         format: "commonjs",
         sourcemap: true,
@@ -46,7 +46,7 @@ const defaultExport = [
         globals,
       },
       {
-        dir: './lib/es',
+        dir: './lib/es/web',
         format: "es",
         sourcemap: true,
         sourcemapPathTransform,
@@ -62,7 +62,9 @@ const defaultExport = [
 
       sourceMaps(),
 
-      external(),
+      external({
+        
+      }),
       // Compile TypeScript files
       typescript({ useTsconfigDeclarationDir: true }),
       // Allow json resolution
@@ -72,6 +74,48 @@ const defaultExport = [
       // Allow node_modules resolution, so you can use 'external' to control
       // which external modules to include in the bundle
       // https://github.com/rollup/rollup-plugin-node-resolve#usage
+      resolve(),
+
+      terser(),
+    ],
+  },
+  {
+    input: ["src/native/index.ts"],
+    output: [
+      {
+        dir: './lib/commonjs/native',
+        name: camelCase(pkg.name),
+        format: "commonjs",
+        sourcemap: true,
+        sourcemapPathTransform,
+        globals,
+      },
+      {
+        dir: './lib/es/native',
+        format: "es",
+        sourcemap: true,
+        sourcemapPathTransform,
+        globals,
+      },
+    ],
+    // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
+    external: [],
+    watch: {
+      include: "src/**",
+    },
+    plugins: [
+
+      sourceMaps(),
+
+      external({
+        
+      }),
+      // Compile TypeScript files
+      typescript({ useTsconfigDeclarationDir: true }),
+      // Allow json resolution
+      json(),
+      // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
+      commonjs(),
       resolve(),
 
       terser(),

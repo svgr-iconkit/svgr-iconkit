@@ -1,0 +1,8 @@
+export * from '../common/createIconsetFactory'
+export * from '../common/types'
+export { createNativeIcon as createIconComponent } from './createNativeIcon'
+export { createNativeIconset as createIconset } from './createNativeIconset'
+export { createNativeFamily as createFamily } from './createNativeFamily'
+export { createNativeVariantsMap as createVariantsMap } from './createNativeVariantsMap'
+export { NativeIcon as Icon } from './NativeIcon'
+export { NativeIconContent as IconContent } from './NativeIconContent'
