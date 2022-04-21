@@ -90,9 +90,9 @@ async function run(params = {}) {
         console.warn(name + ": private repository not publish...");
       }
       await executeCommand(toolsDir, name, params);
-      Î;
     } catch (error) {
-      continue;
+      console.error(error)
+      process.exit(1)
     }
   }
   for (const name of packageFolderNames) {
@@ -106,9 +106,9 @@ async function run(params = {}) {
         console.warn(name + ": private repository not publish...");
       }
       await executeCommand(packageDir, name, params);
-      Î;
     } catch (error) {
-      continue;
+      console.error(error)
+      process.exit(1)
     }
   }
 }
