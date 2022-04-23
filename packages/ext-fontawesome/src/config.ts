@@ -4,7 +4,7 @@ import { map as solidIconsMap, IconNames as solidIconNames } from "./data/solid"
 
 export type IconNames = regularIconNames & solidIconNames;
 
-export const familyName: string = "FontAwesome5";
+export const familyName: string = "FontAwesomeFree";
 
 export type IconVariant = "regular" | "solid";
 

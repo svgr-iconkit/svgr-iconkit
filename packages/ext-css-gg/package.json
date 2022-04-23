@@ -16,10 +16,10 @@
     "name": "css.gg",
     "url": "https://css.gg/"
   },
-  "main": "index",
-  "react-native": "index",
-  "commonjs": "index",
-  "module": "index.esm",
+  "main": "lib/commonjs/index",
+  "react-native": "lib/commonjs/native",
+  "commonjs": "lib/commonjs/index",
+  "module": "lib/es/index",
   "types": "index",
   "directories": {
     "icons": "icons",

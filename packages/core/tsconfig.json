@@ -3,6 +3,6 @@
   "compilerOptions": {
     "declarationDir": "./lib/types"
   },
-  "include": ["src"],
+  "include": ["src", "index.native.js", "index.web.js"],
   "exclude": ["types", "lib"]
 }

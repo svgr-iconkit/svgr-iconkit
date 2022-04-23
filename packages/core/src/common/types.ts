@@ -1,4 +1,5 @@
-import { ForwardRefExoticComponent, ReactSVGElement, ReactElement, PropsWithoutRef, RefAttributes } from 'react'
+import type { ForwardRefExoticComponent, ReactSVGElement, ReactElement, PropsWithoutRef, RefAttributes } from 'react'
+import { ResolveType } from './constants'
 
 export type IconComponentClass<IconNames extends string, IconVariant extends string> = ForwardRefExoticComponent<
   IconsetProps<IconNames, IconVariant>
@@ -60,12 +61,6 @@ export interface IconContentBaseProps {
 export interface IconsetBaseProps<IconNames extends string, IconVariant extends string> extends IconContentBaseProps {
   name: IconNames
   variant?: IconVariant
-}
-
-export enum ResolveType {
-  VariantMap = 'variant-map',
-  ContentMap = 'content-map',
-  Content = 'content',
 }
 
 export type IconBaseProps<IconNames extends string, IconVariant extends string> = {

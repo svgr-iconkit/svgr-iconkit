@@ -15,7 +15,7 @@ export const Iconset = createFamily<IconNames, IconVariant>({
   defaultVariant,
   colorize,
 });
-export const variants = createVariantsMap({
+export const variants = createVariantsMap<IconNames, IconVariant>({
   familyName,
   variantNames,
   colorize,

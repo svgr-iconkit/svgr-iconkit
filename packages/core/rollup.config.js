@@ -6,6 +6,7 @@ import external from "rollup-plugin-peer-deps-external";
 import typescript from "rollup-plugin-typescript2";
 import { terser } from "rollup-plugin-terser";
 import { camelCase } from "lodash";
+import { rollupPlugins } from "@svgr-iconkit/build-config";
 
 const pkg = require("./package.json");
 
@@ -89,6 +90,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
+        plugins: [rollupPlugins.rnAlias()],
       },
       {
         dir: './lib/es/native',
@@ -96,6 +98,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
+        plugins: [rollupPlugins.rnAlias()],
       },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')

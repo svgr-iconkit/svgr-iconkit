@@ -1,9 +1,10 @@
-import { ComponentClass, memo, forwardRef, ForwardedRef, useMemo, createElement } from 'react'
+import { memo, forwardRef, useMemo, createElement } from 'react'
+import type { ComponentClass, ForwardedRef } from 'react'
 import { Symbol } from 'react-native-svg'
 import { getContentFromIconProps, showDebugWarning } from '../common/utils'
-import { IconProps } from '../common/types'
-import { NativeIconForwaredRefType } from './NativeIcon'
-import { NodeComponentMap, renderChildren } from './utils'
+import type { IconProps } from '../common/types'
+import type { NativeIconForwaredRefType } from './NativeIcon'
+import { nodeComponentMap, renderChildren } from './utils'
 
 export type NativeIconContentForwaredRefType = ComponentClass<unknown>
 
@@ -13,8 +14,8 @@ export type NativeIconContentForwaredRefType = ComponentClass<unknown>
 export const NativeIconContent = memo(
   forwardRef(
     <IconNames extends string, IconVariant extends string>(
-      props: IconProps<IconNames, IconVariant> & { as?: keyof typeof NodeComponentMap },
-      svgRef: ForwardedRef<NativeIconForwaredRefType>,
+      props: IconProps<IconNames, IconVariant> & { as?: keyof typeof nodeComponentMap },
+      svgRef: ForwardedRef<NativeIconContentForwaredRefType>,
     ) => {
       const { name, as = 'symbol', variant, className, ...restProps } = props
       const svgContent = getContentFromIconProps(props)
@@ -28,7 +29,7 @@ export const NativeIconContent = memo(
         }
         return null
       }
-      const NodeComponent = NodeComponentMap[as] || (Symbol as any)
+      const NodeComponent = nodeComponentMap[as] || (Symbol as any)
 
       return createElement(NodeComponent, {
         ref: svgRef,

@@ -1,7 +1,7 @@
 import type { Ref } from 'react'
 import React, { forwardRef } from 'react'
 import type { CreateIconFactoryType, IconContentBaseProps, IconSVG } from '../common/types'
-import { ResolveType } from '../common/types'
+import { ResolveType } from '../common/constants'
 import { WebIcon, WebIconForwaredRefType } from './WebIcon'
 
 /**

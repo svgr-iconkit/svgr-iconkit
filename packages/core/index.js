@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/commonjs/web');
+module.exports = require('./lib/commonjs');

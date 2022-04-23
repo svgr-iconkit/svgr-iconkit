@@ -1,14 +1,15 @@
-import { ComponentType, createElement, PropsWithChildren, ReactNode } from 'react'
+import { createElement } from 'react'
+import type { ComponentType, PropsWithChildren, ReactNode } from 'react'
 import {
   Circle, ClipPath, Defs, Ellipse,
   G, Line, LinearGradient, Marker, Mask, Path, Pattern, Polygon, Polyline, RadialGradient, Rect, Stop,
   Symbol, Text, TextPath, TSpan, Use
 } from 'react-native-svg'
 import { createConvertReactProps } from '../common/utils'
-import { IconSVGNode } from '../web'
+import type { IconSVGNode } from '../common/types'
 
 
-export const NodeComponentMap: Record<string, ComponentType<PropsWithChildren<any>>> = {
+export const nodeComponentMap: Record<string, ComponentType<PropsWithChildren<any>>> = {
   path: Path,
   line: Line,
   text: Text,
@@ -56,7 +57,7 @@ const propNamesRemap = {
 
 export const convertProps = createConvertReactProps(propNamesRemap)
 
-export const supportedNodeNames = Object.keys(NodeComponentMap)
+export const supportedNodeNames = Object.keys(nodeComponentMap)
 
 export const filterNode = (node: IconSVGNode) => supportedNodeNames.includes(node.tagName)
 
@@ -67,7 +68,7 @@ export const renderChildren = (nodes: any[], parentKey: string = '#'): ReactNode
   const filteredNodes = nodes.filter(filterNode)
   return filteredNodes.map((node, index) => {
     const { tagName, attrs, children } = node
-    const NodeComponent = NodeComponentMap[tagName.toLowerCase()]
+    const NodeComponent = nodeComponentMap[tagName.toLowerCase()]
     if (!NodeComponent) {
       return null
     }

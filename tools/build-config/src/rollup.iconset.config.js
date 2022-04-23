@@ -51,10 +51,12 @@ function createRollupLibraryConfig({
     commonjs: {
       dir: "lib/commonjs/",
       exports: "named",
+      plugins: [rnAlias()],
     },
     esm: {
       dir: "lib/es/",
       exports: "named",
+      plugins: [rnAlias()],
     },
   },
 }) {

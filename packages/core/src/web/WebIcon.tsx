@@ -1,5 +1,6 @@
-import { createElement, ForwardedRef, forwardRef, memo } from 'react'
-import { IconProps } from '../common/types'
+import { createElement, forwardRef, memo } from 'react'
+import type { ForwardedRef } from 'react'
+import type { IconProps } from '../common/types'
 import {
   appendUnit,
   filterNonEmptyString,
@@ -96,4 +97,5 @@ const InternalWebIcon = forwardRef(function <IconNames extends string, IconVaria
   })
 })
 
+InternalWebIcon.displayName = 'WebIcon'
 export const WebIcon = memo(InternalWebIcon)

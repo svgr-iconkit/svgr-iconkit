@@ -1,5 +1,6 @@
 import { camelCase } from 'camel-case'
-import { ResolveType, IconBaseProps, IconProps, IconSVG } from './types'
+import type { IconBaseProps, IconProps, IconSVG } from './types'
+import { ResolveType,  } from './constants'
 
 const numberStartedRegExp = /^[0-9]/
 const numberOnlyRegExp = /^[0-9]$/

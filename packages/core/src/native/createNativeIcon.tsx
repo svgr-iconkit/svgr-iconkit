@@ -1,7 +1,9 @@
-import React, { forwardRef, Ref } from 'react'
+import type { Ref } from 'react'
+import React, { forwardRef } from 'react'
 import type { CreateIconFactoryType, IconContentBaseProps, IconSVG } from '../common/types'
-import { ResolveType } from '../common/types'
-import { NativeIcon, NativeIconForwaredRefType } from './NativeIcon'
+import { ResolveType } from '../common/constants'
+import { NativeIcon, } from './NativeIcon'
+import type { NativeIconForwaredRefType } from './NativeIcon'
 
 /**
  * Create renderable icon by content

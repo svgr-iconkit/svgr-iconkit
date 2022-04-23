@@ -1,6 +1,8 @@
-import { createElement, Component, forwardRef, ForwardedRef, useMemo, memo } from 'react'
-import { ViewStyle, TextStyle } from 'react-native'
-import { Svg, SvgProps } from 'react-native-svg'
+import { createElement, forwardRef, useMemo, memo } from 'react'
+import type { Component, ForwardedRef } from 'react'
+import type { ViewStyle, TextStyle } from 'react-native'
+import type { SvgProps } from 'react-native-svg'
+import { Svg } from 'react-native-svg'
 import {
   getContentFromIconProps,
   showDebugWarning,
@@ -9,7 +11,7 @@ import {
   filterNonEmptyString,
   removeUnit,
 } from '../common/utils'
-import { IconProps } from '../common/types'
+import type { IconProps } from '../common/types'
 import { convertProps, renderChildren } from './utils'
 
 export type NativeIconForwaredRefType = Component<SvgProps>

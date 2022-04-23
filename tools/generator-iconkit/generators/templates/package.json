@@ -10,10 +10,10 @@
     "expo"
   ],
   "license": "<%= license %>",
-  "main": "index",
-  "react-native": "index",
-  "commonjs": "lib/commonjs/index.js",
-  "module": "index",
+  "main": "lib/commonjs/index",
+  "react-native": "lib/commonjs/native",
+  "commonjs": "lib/commonjs/index",
+  "module": "lib/es/index",
   "types": "index",
   "directories": {
     "icons": "icons",

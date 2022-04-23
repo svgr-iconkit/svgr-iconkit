@@ -1,7 +1,7 @@
 import React from 'react'
 import type { ForwardedRef, ComponentType } from 'react'
 import type { IconsetBaseProps, CreateIconsetOptions, CreateIconsetFactoryResponseType, IconProps } from './types'
-import { ResolveType } from './types'
+import { ResolveType } from './constants'
 import { getContentFromIconProps } from './utils'
 
 export function createIconsetFactory<IconNames extends string, IconVariant extends string, ElementType = any>(
