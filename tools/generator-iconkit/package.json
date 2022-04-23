@@ -1,5 +1,5 @@
 {
-  "name": "generator-svgr-iconkit",
+  "name": "@svgr-iconkit/generator-svgr-iconkit",
   "version": "0.3.0-beta.3",
   "description": "",
   "files": [
