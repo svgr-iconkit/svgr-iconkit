@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0-beta.4 (2022-04-23)
+
+
+### Bug Fixes
+
+* remove rnAlias ([b8abdb6](https://github.com/svgr-iconkit/svgr-iconkit/commit/b8abdb6cb5933123ce1dc7456ba7b533ed4e7787))
+
+
+
+
+
 # 0.3.0-beta.3 (2022-04-20)
 
 **Note:** Version bump only for package @svgr-iconkit/fontisto

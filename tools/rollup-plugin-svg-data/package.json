@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/rollup-plugin-svg-data",
-  "version": "0.3.0-beta.3",
+  "version": "0.3.0-beta.4",
   "author": "leman <leman@lmswork.com>",
   "homepage": "https://github.com/svgr-iconkit/svgr-iconkit",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
-    "@svgr-iconkit/build-utils": "^0.3.0-beta.3",
+    "@svgr-iconkit/build-utils": "^0.3.0-beta.4",
     "rollup-pluginutils": "^2.8.2"
   },
   "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
