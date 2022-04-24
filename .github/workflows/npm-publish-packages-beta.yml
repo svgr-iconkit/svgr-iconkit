@@ -50,4 +50,4 @@ jobs:
           yarn publish:all --registry=https://registry.npmjs.org/
       - name: push result
         run: |
-          git push --force --tags
+          git push --force --all
