@@ -17,6 +17,7 @@ function executeCommand(cwd, name, params = {}) {
   const packagePath = Path.join(cwd, name);
 
   const isDebug = params["debug"] === "yes";
+  const isBreakOnError = params["breakOnError"] === "yes";
   return new Promise((resolve) => {
     let hasError = false;
     try {
@@ -108,7 +109,10 @@ async function run(params = {}) {
       await executeCommand(packageDir, name, params);
     } catch (error) {
       console.error(error)
-      process.exit(1)
+
+      if (isBreakOnError) {
+        process.exit(1)
+      }
     }
   }
 }

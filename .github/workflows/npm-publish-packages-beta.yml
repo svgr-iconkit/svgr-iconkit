@@ -24,13 +24,17 @@ jobs:
           yarn config set disable-self-update-check true
           yarn config set ignore-engines true
           yarn config list
-          yarn
-      - name: Build all
-        run: |
-          yarn run build
+          yarn install
       - name: Bump version
         run: |
           yarn version:beta --yes --no-push
+          git add ./packages
+          git add ./tools
+          git status
+          git commit -m "release: change for new beta version"
+      - name: Build all
+        run: |
+          yarn run build
       - name: publish to registry(github)
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
