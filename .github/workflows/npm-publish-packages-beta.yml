@@ -31,7 +31,6 @@ jobs:
           git status
           git add ./
           git status
-          git commit -m "release: change for new beta version"
       - name: Build all
         run: |
           yarn run build
