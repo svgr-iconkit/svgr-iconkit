@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/tabler-icons",
-  "version": "0.3.0-beta.6",
+  "version": "0.3.0-beta.7",
   "description": "Tabler Icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -51,11 +51,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.6"
+    "@svgr-iconkit/core": "^0.3.0-beta.7"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.0-beta.6",
-    "@svgr-iconkit/cli": "^0.3.0-beta.6",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.7",
+    "@svgr-iconkit/cli": "^0.3.0-beta.7",
     "@tabler/icons": "^1.64.0",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",

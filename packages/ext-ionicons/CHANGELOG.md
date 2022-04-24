@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0-beta.7 (2022-04-24)
+
+**Note:** Version bump only for package @svgr-iconkit/ionicons
+
+
+
+
+
 # 0.3.0-beta.4 (2022-04-21)
 
 **Note:** Version bump only for package @svgr-iconkit/ionicons
