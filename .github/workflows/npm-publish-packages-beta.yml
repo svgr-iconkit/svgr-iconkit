@@ -46,7 +46,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
         run: |
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
-          echo "registry=https://registry.npmjs.org/" >> .npmrc
           echo "always-auth = true" >> .npmrc
           yarn publish:all --registry=https://registry.npmjs.org/
       - name: push result
