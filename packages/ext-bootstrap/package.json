@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/bootstrap",
-  "version": "0.3.0-beta.4",
+  "version": "0.3.0-beta.5",
   "description": "Bootstrap Icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -51,30 +51,16 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.4"
+    "@svgr-iconkit/core": "^0.3.0-beta.5"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/plugin-transform-typescript": "^7.14.4",
-    "@babel/preset-env": "^7.14.4",
-    "@babel/preset-react": "^7.13.13",
-    "@rollup/plugin-babel": "^5.3.0",
-    "@rollup/plugin-commonjs": "^19.0.0",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/build-config": "^0.3.0-beta.4",
-    "@svgr-iconkit/cli": "^0.3.0-beta.4",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.5",
+    "@svgr-iconkit/cli": "^0.3.0-beta.5",
     "@types/node": "^15.6.1",
     "bootstrap-icons": "^1.8.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
-    "rollup": "^2.50.4",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.30.0",
-    "terser": "^5.7.0",
     "typescript": "^4.3.4"
   },
   "publishConfig": {
