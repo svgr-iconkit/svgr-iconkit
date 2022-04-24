@@ -29,8 +29,7 @@ jobs:
         run: |
           yarn version:beta --yes --no-push
           git status
-          git add ./packages
-          git add ./tools
+          git add ./
           git status
           git commit -m "release: change for new beta version"
       - name: Build all
