@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/grommet-icons",
-  "version": "0.3.0-beta.8",
+  "version": "0.3.0-beta.9",
   "description": "Grommet Icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -51,11 +51,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.8"
+    "@svgr-iconkit/core": "^0.3.0-beta.9"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.0-beta.8",
-    "@svgr-iconkit/cli": "^0.3.0-beta.8",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.9",
+    "@svgr-iconkit/cli": "^0.3.0-beta.9",
     "@types/node": "^15.6.1",
     "grommet-icons": "^4.7.0",
     "npm-run-all": "^4.1.5",
