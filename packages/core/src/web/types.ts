@@ -1,5 +1,5 @@
 import type { ComponentType, ForwardedRef, SVGAttributes } from 'react'
-import { IconComponentCoreProps } from '../common/types'
+import type { IconComponentCoreProps, IconsetComponentCoreType } from '../common/types'
 
 export type WebIconRefType = SVGSVGElement
 
@@ -22,6 +22,15 @@ export type WebIconBaseComponentType<IconNames extends string, IconVariant exten
   IconNames,
   IconVariant
 >
+
+export type WebIconsetBaseComponentType<
+IconNames extends string,
+IconVariant extends string,
+> = IconsetComponentCoreType<IconNames, IconVariant, 
+WebIconBaseProps,
+WebIconRefType>
+
+export type WebIconVariantsMapType<IconNames extends string, IconVariant extends string> = Record<IconVariant, WebIconsetBaseComponentType<IconNames, IconVariant>>;
 
 export type WebIconComponentProps = WebIconBaseComponentProps<string, string>
 

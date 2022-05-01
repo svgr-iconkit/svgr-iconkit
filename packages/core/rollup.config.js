@@ -47,6 +47,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
+        exports: "named",
         plugins: [rollupPlugins.rnAlias({groupName: 'web'})]
       },
       {
@@ -94,6 +95,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
+        exports: "named",
         plugins: [rollupPlugins.rnAlias({groupName: 'native'})]
       },
       {

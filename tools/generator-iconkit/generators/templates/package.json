@@ -11,10 +11,10 @@
   ],
   "license": "<%= license %>",
   "main": "lib/commonjs/index",
-  "react-native": "lib/commonjs/native",
+  "react-native": "lib/es/native",
   "commonjs": "lib/commonjs/index",
   "module": "lib/es/index",
-  "types": "index",
+  "types": "lib/types/index",
   "directories": {
     "icons": "icons",
     "lib": "lib",

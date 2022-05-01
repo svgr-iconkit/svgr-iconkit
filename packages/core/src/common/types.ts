@@ -68,21 +68,13 @@ export type IconsetCoreProps<
   name: IconNames
 }
 
-export type IconsetComponentProps<IconNames extends string, IconVariant extends string> = ReactElement<
-  IconsetCoreProps<IconNames, IconVariant>
->
-
-export type IconComponentClass<IconNames extends string, IconVariant extends string> = ForwardRefExoticComponent<
-  IconsetComponentProps<IconNames, IconVariant>
->
-
 export type CreateIconsetOptions<IconNames extends string, IconVariant extends string> = {
   familyName: string
 } & IconCoreProps<IconNames, IconVariant>
 
-export type CreateIconFactoryType<P = {}, T = {}> = (iconProps: IconSVG) => IconComponentType<P, T>
+export type CreateIconFactoryReturnType<P = {}, T = {}> = (iconProps: IconSVG) => IconComponentType<P, T>
 
-export type IconsetComponentType<
+export type IconsetComponentCoreType<
   IconNames extends string,
   IconVariant extends string,
   ElementProps = {},

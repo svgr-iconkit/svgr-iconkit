@@ -8,6 +8,8 @@ import type {
   NativeIconContentBaseProps,
   NativeIconContentRefType,
   NativeIconRefType,
+  NativeIconsetBaseComponentType,
+  NativeIconVariantsMapType,
 } from './types'
 export * from '../common/createIconsetFactory'
 export * from '../common/types'
@@ -24,6 +26,14 @@ export type IconBaseComponentProps<IconNames extends string, IconVariant extends
 export type IconBaseComponentType<IconNames extends string, IconVariant extends string> = NativeIconBaseComponentType<
   IconNames,
   IconVariant
+>
+export type IconsetBaseComponentType<IconNames extends string, IconVariant extends string> = NativeIconsetBaseComponentType<
+IconNames,
+IconVariant
+>;
+export type IconVariantsMapType<IconNames extends string, IconVariant extends string> = NativeIconVariantsMapType<
+IconNames,
+IconVariant
 >
 export type IconComponentProps = NativeIconComponentProps
 export type IconComponentType = NativeIconComponentType

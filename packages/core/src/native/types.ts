@@ -1,6 +1,6 @@
 import type { Component, ComponentClass, ComponentType, ForwardedRef, PropsWithChildren } from 'react'
 import type { CommonPathProps, GProps, SvgProps, SymbolProps } from 'react-native-svg'
-import { IconComponentCoreProps } from '../common/types'
+import { IconComponentCoreProps, IconsetComponentCoreType } from '../common/types'
 
 export type NativeIconRefType = Component<SvgProps>
 
@@ -22,6 +22,15 @@ export type NativeIconBaseComponentType<
   IconNames extends string,
   IconVariant extends string,
 > = NativeIconBaseComponentProps<IconNames, IconVariant>
+
+export type NativeIconsetBaseComponentType<
+IconNames extends string,
+IconVariant extends string,
+> = IconsetComponentCoreType<IconNames, IconVariant, 
+NativeIconBaseProps,
+NativeIconRefType>
+
+export type NativeIconVariantsMapType<IconNames extends string, IconVariant extends string> = Record<IconVariant, NativeIconsetBaseComponentType<IconNames, IconVariant>>;
 
 export type NativeIconComponentProps = NativeIconBaseComponentProps<string, string>
 

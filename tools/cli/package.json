@@ -9,8 +9,8 @@
     "react-native",
     "expo"
   ],
-  "author": "leman <leman@lmswork.com>",
-  "homepage": "https://github.com/lemankk/svgr-iconkit",
+  "author": "LemanK <leman@lmswork.com>",
+  "homepage": "https://github.com/svgr-iconkit/svgr-iconkit",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {

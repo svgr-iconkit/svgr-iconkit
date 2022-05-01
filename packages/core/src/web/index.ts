@@ -7,6 +7,8 @@ import type {
   WebIconContentBaseProps,
   WebIconContentRefType,
   WebIconRefType,
+  WebIconsetBaseComponentType,
+  WebIconVariantsMapType
 } from './types'
 import { WebIcon } from './WebIcon'
 export * from '../common/createIconsetFactory'
@@ -24,6 +26,14 @@ export type IconBaseComponentProps<IconNames extends string, IconVariant extends
 export type IconBaseComponentType<IconNames extends string, IconVariant extends string> = WebIconBaseComponentType<
   IconNames,
   IconVariant
+>
+export type IconsetBaseComponentType<IconNames extends string, IconVariant extends string> = WebIconsetBaseComponentType<
+IconNames,
+IconVariant
+>;
+export type IconVariantsMapType<IconNames extends string, IconVariant extends string> = WebIconVariantsMapType<
+IconNames,
+IconVariant
 >
 export type IconComponentProps = WebIconComponentProps
 export type IconComponentType = WebIconComponentType

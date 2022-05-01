@@ -32,7 +32,7 @@ function executeCommand(cwd, name, params = {}) {
       if (params["dry-run"]) {
         argv.push("--dry-run");
       }
-      const child = spawn("npm", argv, { cwd: packagePath });
+      const child = spawn("yarn", argv, { cwd: packagePath });
       child.on("close", () => {
         console.info(`${name}: closed`);
         if (ended) return;

@@ -1,10 +1,10 @@
 import { createIconsetFactory } from '../common/createIconsetFactory'
-import type { CreateIconsetOptions, IconsetComponentType } from '../common/types'
+import type { CreateIconsetOptions } from '../common/types'
 import { NativeIcon } from './NativeIcon'
-import type { NativeIconBaseProps, NativeIconRefType } from './types'
+import type { NativeIconBaseProps, NativeIconRefType, NativeIconsetBaseComponentType } from './types'
 
 export function createNativeIconset<IconNames extends string, IconVariant extends string>(
   options: CreateIconsetOptions<IconNames, IconVariant>,
-): IconsetComponentType<IconNames, IconVariant, NativeIconBaseProps, NativeIconRefType> {
+): NativeIconsetBaseComponentType<IconNames, IconVariant> {
   return createIconsetFactory<IconNames, IconVariant, NativeIconBaseProps, NativeIconRefType>(options, NativeIcon)
 }

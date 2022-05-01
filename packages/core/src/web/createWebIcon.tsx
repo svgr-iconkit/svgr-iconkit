@@ -1,7 +1,7 @@
 import { createElement, memo } from 'react'
 import { ResolveType } from '../common/constants'
-import type { CreateIconFactoryType, IconComponentCoreProps, IconSVG } from '../common/types'
-import type { WebIconBaseProps, WebIconRefType } from './types'
+import type { CreateIconFactoryReturnType, IconSVG } from '../common/types'
+import type { WebIconBaseComponentType, WebIconBaseProps, WebIconRefType } from './types'
 import { WebIcon } from './WebIcon'
 
 /**
@@ -9,8 +9,8 @@ import { WebIcon } from './WebIcon'
  * @param {IconSVG} content;
  * @returns {React.ComponentType<IconBaseProps>}
  */
-export const createWebIcon: CreateIconFactoryType<WebIconBaseProps, WebIconRefType> = (content: IconSVG) => {
-  return memo((props: IconComponentCoreProps<string, string, WebIconBaseProps, WebIconRefType>) => {
+export const createWebIcon: CreateIconFactoryReturnType<WebIconBaseProps, WebIconRefType> = (content: IconSVG) => {
+  return memo((props: WebIconBaseComponentType<string, string>) => {
     return createElement(WebIcon, {
       resolveType: ResolveType.Content,
       content,

@@ -13,7 +13,7 @@
   "homepage": "https://svgr-iconkit.dev",
   "license": "MIT",
   "main": "lib/commonjs/web/index",
-  "react-native": "lib/commonjs/native/index",
+  "react-native": "lib/es/native/index",
   "commonjs": "lib/commonjs/web/index",
   "module": "lib/es/web/index",
   "directories": {

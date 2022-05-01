@@ -17,7 +17,7 @@
     "url": "https://flagicons.lipis.dev/"
   },
   "main": "lib/commonjs/index",
-  "react-native": "lib/commonjs/native",
+  "react-native": "lib/es/native",
   "commonjs": "lib/commonjs/index",
   "module": "lib/es/index",
   "types": "lib/types/index",
