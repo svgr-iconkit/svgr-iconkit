@@ -1,12 +1,10 @@
-import { memo, forwardRef, useMemo, createElement } from 'react'
-import type { ComponentClass, ForwardedRef } from 'react'
+import type { ForwardedRef } from 'react'
+import { createElement, forwardRef, memo, useMemo } from 'react'
 import { Symbol } from 'react-native-svg'
+import type { IconComponentCoreProps } from '../common/types'
 import { getContentFromIconProps, showDebugWarning } from '../common/utils'
-import type { IconProps } from '../common/types'
-import type { NativeIconForwaredRefType } from './NativeIcon'
+import type { NativeIconContentBaseProps, NativeIconContentRefType } from './types'
 import { nodeComponentMap, renderChildren } from './utils'
-
-export type NativeIconContentForwaredRefType = ComponentClass<unknown>
 
 /**
  * Render svg data within in ```react-native-svg``` Symbol component
@@ -14,10 +12,12 @@ export type NativeIconContentForwaredRefType = ComponentClass<unknown>
 export const NativeIconContent = memo(
   forwardRef(
     <IconNames extends string, IconVariant extends string>(
-      props: IconProps<IconNames, IconVariant> & { as?: keyof typeof nodeComponentMap },
-      svgRef: ForwardedRef<NativeIconContentForwaredRefType>,
+      props: IconComponentCoreProps<IconNames, IconVariant> & {
+        as?: keyof typeof nodeComponentMap
+      } & NativeIconContentBaseProps,
+      svgRef: ForwardedRef<NativeIconContentRefType>,
     ) => {
-      const { name, as = 'symbol', variant, className, ...restProps } = props
+      const { name, as = 'symbol', variant, children, ...restProps } = props
       const svgContent = getContentFromIconProps(props)
       const { attrs = {}, data: svgData = [] } = svgContent || {}
       const elements = useMemo(() => renderChildren(svgData), [svgData])
@@ -31,12 +31,16 @@ export const NativeIconContent = memo(
       }
       const NodeComponent = nodeComponentMap[as] || (Symbol as any)
 
-      return createElement(NodeComponent, {
-        ref: svgRef,
-        viewBox: attrs.viewBox,
-        children: elements,
-        ...restProps,
-      })
+      return createElement(
+        NodeComponent,
+        {
+          ref: svgRef,
+          viewBox: attrs.viewBox,
+          ...restProps,
+        },
+        elements,
+        children,
+      )
     },
   ),
 )

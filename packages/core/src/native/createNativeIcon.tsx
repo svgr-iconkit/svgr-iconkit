@@ -1,19 +1,20 @@
-import type { Ref } from 'react'
-import React, { forwardRef } from 'react'
-import type { CreateIconFactoryType, IconContentBaseProps, IconSVG } from '../common/types'
+import { createElement, memo } from 'react'
 import { ResolveType } from '../common/constants'
-import { NativeIcon, } from './NativeIcon'
-import type { NativeIconForwaredRefType } from './NativeIcon'
+import type { CreateIconFactoryType, IconComponentCoreProps, IconContentBaseProps, IconSVG } from '../common/types'
+import { NativeIcon } from './NativeIcon'
+import type { NativeIconRefType } from './types'
 
 /**
  * Create renderable icon by content
  * @param {IconSVG} content;
  * @returns {React.ComponentType<IconBaseProps>}
  */
-export const createNativeIcon: CreateIconFactoryType<NativeIconForwaredRefType, IconContentBaseProps> = (
-  content: IconSVG,
-) => {
-  return forwardRef((props: IconContentBaseProps, svgRef: Ref<NativeIconForwaredRefType>) => {
-    return <NativeIcon resolveType={ResolveType.Content} ref={svgRef} content={content} {...props} />
+export const createNativeIcon: CreateIconFactoryType<IconContentBaseProps, NativeIconRefType> = (content: IconSVG) => {
+  return memo((props: IconComponentCoreProps<string, string, IconContentBaseProps, NativeIconRefType>) => {
+    return createElement(NativeIcon, {
+      resolveType: ResolveType.Content,
+      content,
+      ...props,
+    })
   })
 }

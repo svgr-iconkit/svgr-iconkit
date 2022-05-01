@@ -1,21 +1,19 @@
-import { createElement, forwardRef, memo, useMemo } from 'react'
 import type { ForwardedRef } from 'react'
+import { createElement, forwardRef, memo, useMemo } from 'react'
+import type { IconComponentCoreProps } from '../common/types'
 import { getContentFromIconProps, showDebugWarning } from '../common/utils'
-import type { IconProps } from '../common/types'
+import type { WebIconContentBaseProps, WebIconContentRefType } from './types'
 import { renderChildren } from './utils'
-import type { WebIconForwaredRefType } from './WebIcon'
-
-export type WebIconContentForwaredRefType = SVGElement
 /**
  * Render svg data within in <symbol>
  */
 export const WebIconContent = memo(
   forwardRef(
     <IconNames extends string, IconVariant extends string>(
-      props: IconProps<IconNames, IconVariant> & { as?: string },
-      svgRef: ForwardedRef<WebIconContentForwaredRefType>,
+      props: IconComponentCoreProps<IconNames, IconVariant> & { as?: string } & WebIconContentBaseProps,
+      svgRef: ForwardedRef<WebIconContentRefType>,
     ) => {
-      const { name, as = 'symbol', variant, className, ...restProps } = props
+      const { name, as = 'symbol', variant, children, ...restProps } = props
       const svgContent = getContentFromIconProps(props)
       const { attrs = {}, data: svgData = [] } = svgContent || {}
       const elements = useMemo(() => renderChildren(svgData), [svgData])
@@ -28,12 +26,16 @@ export const WebIconContent = memo(
         return null
       }
 
-      return createElement(as, {
-        ref: svgRef,
-        viewBox: attrs.viewBox,
-        children: elements,
-        ...restProps,
-      })
+      return createElement(
+        as,
+        {
+          ref: svgRef,
+          viewBox: attrs.viewBox,
+          ...restProps,
+        },
+        elements,
+        children,
+      )
     },
   ),
 )

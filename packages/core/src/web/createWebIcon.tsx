@@ -1,19 +1,20 @@
-import type { Ref } from 'react'
-import React, { forwardRef } from 'react'
-import type { CreateIconFactoryType, IconContentBaseProps, IconSVG } from '../common/types'
+import { createElement, memo } from 'react'
 import { ResolveType } from '../common/constants'
-import { WebIcon, WebIconForwaredRefType } from './WebIcon'
+import type { CreateIconFactoryType, IconComponentCoreProps, IconSVG } from '../common/types'
+import type { WebIconBaseProps, WebIconRefType } from './types'
+import { WebIcon } from './WebIcon'
 
 /**
  * Create renderable icon by content
  * @param {IconSVG} content;
  * @returns {React.ComponentType<IconBaseProps>}
  */
-export const createWebIcon: CreateIconFactoryType<WebIconForwaredRefType, IconContentBaseProps> = (
-  content: IconSVG,
-) => {
-  function WebIconWrapper(props: IconContentBaseProps, svgRef: Ref<WebIconForwaredRefType>) {
-    return <WebIcon resolveType={ResolveType.Content} ref={svgRef} content={content} {...props} />
-  }
-  return forwardRef(WebIconWrapper)
+export const createWebIcon: CreateIconFactoryType<WebIconBaseProps, WebIconRefType> = (content: IconSVG) => {
+  return memo((props: IconComponentCoreProps<string, string, WebIconBaseProps, WebIconRefType>) => {
+    return createElement(WebIcon, {
+      resolveType: ResolveType.Content,
+      content,
+      ...props,
+    })
+  })
 }

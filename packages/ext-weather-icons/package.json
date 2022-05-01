@@ -10,11 +10,11 @@
     "expo"
   ],
   "license": "MIT",
-  "main": "index",
-  "react-native": "index",
-  "commonjs": "lib/commonjs/index.js",
-  "module": "index",
-  "types": "index",
+  "main": "lib/commonjs/index",
+  "react-native": "lib/commonjs/native",
+  "commonjs": "lib/commonjs/index",
+  "module": "lib/es/index",
+  "types": "lib/types/index",
   "directories": {
     "icons": "icons",
     "lib": "lib",

@@ -1,11 +1,11 @@
 import { ResolveType } from '../common/constants'
-import type { CreateFamilyOptions, CreateIconsetFactoryResponseType } from '../common/types'
+import type { CreateFamilyOptions, IconsetComponentType } from '../common/types'
 import { createNativeIconset } from './createNativeIconset'
-import type { NativeIconForwaredRefType } from './NativeIcon'
+import type { NativeIconBaseProps, NativeIconRefType } from './types'
 
 export function createNativeFamily<IconNames extends string, IconVariant extends string>(
   options: CreateFamilyOptions<IconNames, IconVariant>,
-): CreateIconsetFactoryResponseType<IconNames, IconVariant, NativeIconForwaredRefType> {
+): IconsetComponentType<IconNames, IconVariant, NativeIconBaseProps, NativeIconRefType> {
   const { familyName, variantsMap, ...rest } = options
   return createNativeIconset<IconNames, IconVariant>({
     resolveType: ResolveType.VariantMap,

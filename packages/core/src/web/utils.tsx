@@ -1,5 +1,5 @@
 import { createElement } from 'react'
-import { IconSVGNode } from '../common/types'
+import type { IconSVGNode } from '../common/types'
 import { createConvertReactProps } from '../common/utils'
 
 // For web, only few attribute is supported

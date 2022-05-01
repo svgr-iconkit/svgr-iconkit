@@ -1,6 +1,6 @@
 import { camelCase } from 'camel-case'
-import type { IconBaseProps, IconProps, IconSVG } from './types'
-import { ResolveType,  } from './constants'
+import { ResolveType } from './constants'
+import type { CreateIconsetOptions, IconComponentCoreProps, IconCoreProps, IconSVG } from './types'
 
 const numberStartedRegExp = /^[0-9]/
 const numberOnlyRegExp = /^[0-9]$/
@@ -66,8 +66,8 @@ export const getViewboxValue = (content: IconSVG): string => {
   return _viewBox
 }
 
-export const getContentFromIconProps = <IconNames extends string, IconVariant extends string = string>(
-  props: IconProps<IconNames, IconVariant>,
+export const getContentFromIconProps = <IconNames extends string, IconVariant extends string>(
+  props: IconCoreProps<IconNames, IconVariant>,
 ) => {
   const { content, name, resolveType: type } = props
   if (content && (type === ResolveType.Content || !type)) {
@@ -81,7 +81,7 @@ export const getContentFromIconProps = <IconNames extends string, IconVariant ex
 }
 
 export const resolveIconsMap = <IconNames extends string, IconVariant extends string = string>(
-  props: IconBaseProps<IconNames, IconVariant>,
+  props: IconCoreProps<IconNames, IconVariant>,
 ) => {
   const { resolveType: type, variantsMap, map, variant, defaultVariant } = props
   if (type === ResolveType.VariantMap) {

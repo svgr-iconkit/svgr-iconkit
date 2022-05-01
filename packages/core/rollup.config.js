@@ -10,6 +10,8 @@ import { rollupPlugins } from "@svgr-iconkit/build-config";
 
 const pkg = require("./package.json");
 
+const isDev = process.env.ENV === "development"
+
 const globals = {
   react: "React",
   "react-native": "ReactNative",
@@ -45,6 +47,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
+        plugins: [rollupPlugins.rnAlias({groupName: 'web'})]
       },
       {
         dir: './lib/es/web',
@@ -52,6 +55,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
+        plugins: [rollupPlugins.rnAlias({groupName: 'web'})]
       },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
@@ -67,7 +71,7 @@ const defaultExport = [
         
       }),
       // Compile TypeScript files
-      typescript({ useTsconfigDeclarationDir: true }),
+      typescript({ useTsconfigDeclarationDir: true, }),
       // Allow json resolution
       json(),
       // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
@@ -77,7 +81,7 @@ const defaultExport = [
       // https://github.com/rollup/rollup-plugin-node-resolve#usage
       resolve(),
 
-      terser(),
+      isDev ? undefined : terser(),
     ],
   },
   {
@@ -90,7 +94,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
-        plugins: [rollupPlugins.rnAlias()],
+        plugins: [rollupPlugins.rnAlias({groupName: 'native'})]
       },
       {
         dir: './lib/es/native',
@@ -98,7 +102,7 @@ const defaultExport = [
         sourcemap: true,
         sourcemapPathTransform,
         globals,
-        plugins: [rollupPlugins.rnAlias()],
+        plugins: [rollupPlugins.rnAlias({groupName: 'native'})]
       },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
@@ -121,7 +125,7 @@ const defaultExport = [
       commonjs(),
       resolve(),
 
-      terser(),
+      isDev ? undefined : terser(),
     ],
   },
 ];

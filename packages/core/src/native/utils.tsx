@@ -1,13 +1,30 @@
-import { createElement } from 'react'
 import type { ComponentType, PropsWithChildren, ReactNode } from 'react'
+import { createElement } from 'react'
 import {
-  Circle, ClipPath, Defs, Ellipse,
-  G, Line, LinearGradient, Marker, Mask, Path, Pattern, Polygon, Polyline, RadialGradient, Rect, Stop,
-  Symbol, Text, TextPath, TSpan, Use
+  Circle,
+  ClipPath,
+  Defs,
+  Ellipse,
+  G,
+  Line,
+  LinearGradient,
+  Marker,
+  Mask,
+  Path,
+  Pattern,
+  Polygon,
+  Polyline,
+  RadialGradient,
+  Rect,
+  Stop,
+  Symbol,
+  Text,
+  TextPath,
+  TSpan,
+  Use,
 } from 'react-native-svg'
-import { createConvertReactProps } from '../common/utils'
 import type { IconSVGNode } from '../common/types'
-
+import { createConvertReactProps } from '../common/utils'
 
 export const nodeComponentMap: Record<string, ComponentType<PropsWithChildren<any>>> = {
   path: Path,

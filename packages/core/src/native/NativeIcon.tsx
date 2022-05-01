@@ -1,34 +1,48 @@
-import { createElement, forwardRef, useMemo, memo } from 'react'
-import type { Component, ForwardedRef } from 'react'
-import type { ViewStyle, TextStyle } from 'react-native'
-import type { SvgProps } from 'react-native-svg'
+import { createElement, memo, useMemo } from 'react'
+import type { TextStyle } from 'react-native'
 import { Svg } from 'react-native-svg'
+import type { IconComponentCoreProps } from '../common/types'
 import {
+  filterNonEmptyString,
   getContentFromIconProps,
-  showDebugWarning,
   getViewboxValue,
   PRIMARY_CURRENT_COLOR,
-  filterNonEmptyString,
   removeUnit,
+  showDebugWarning,
 } from '../common/utils'
-import type { IconProps } from '../common/types'
+import type { NativeIconBaseProps, NativeIconRefType } from './types'
 import { convertProps, renderChildren } from './utils'
 
-export type NativeIconForwaredRefType = Component<SvgProps>
-
-const InternalNativeIcon = forwardRef(function <IconNames extends string, IconVariant extends string>(
-  props: IconProps<IconNames, IconVariant>,
-  svgRef: ForwardedRef<NativeIconForwaredRefType>,
+const InternalNativeIcon = function <IconNames extends string, IconVariant extends string>(
+  props: IconComponentCoreProps<IconNames, IconVariant, NativeIconBaseProps, NativeIconRefType>,
 ) {
-  const { name, variant, size, color, colorize = true, fontSize, lineHeight, style: propsStyle, ...restProps } = props
+  const {
+    ref: svgRef,
+    name,
+    variant,
+    size,
+    color,
+    colorize = true,
+    fontSize,
+    lineHeight,
+    children,
+    style: propsStyle,
+    debug,
+    ...restProps
+  } = props
   const svgContent = getContentFromIconProps(props)
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
   const elements = useMemo(() => renderChildren(svgData), [svgData])
+  if (debug) {
+    console.debug(`Icon render. id='%s', name='${name}', variant='${variant}', props=%o`, props.id, props)
+  }
   if (!svgContent) {
-    if (variant && name) {
-      showDebugWarning(`Icon was not found by given name '${name}' and variant '${variant}'`)
-    } else if (name) {
-      showDebugWarning(`Icon was not found by given name '${name}'`)
+    if (debug) {
+      if (variant && name) {
+        showDebugWarning(`Icon was not found by given name '${name}' and variant '${variant}'`)
+      } else if (name) {
+        showDebugWarning(`Icon was not found by given name '${name}'`)
+      }
     }
     return null
   }
@@ -36,7 +50,7 @@ const InternalNativeIcon = forwardRef(function <IconNames extends string, IconVa
   const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } = svgAttrs || {}
   const viewBox = getViewboxValue(svgContent)
 
-  const iconProps = convertProps(restProps, {}, { allowNonWhitelistProp: false })
+  const iconProps = convertProps(restProps, {}, { allowNonWhitelistProp: true })
   const attrProps = convertProps(restAttrs, {}, { allowNonWhitelistProp: false })
   const internalProps = {
     fill,
@@ -50,7 +64,7 @@ const InternalNativeIcon = forwardRef(function <IconNames extends string, IconVa
     internalProps.fill = PRIMARY_CURRENT_COLOR
   }
 
-  const style: ViewStyle = propsStyle || {}
+  const style = propsStyle || null
   const internalStyle: TextStyle = {}
   if (color && colorize) {
     // For some iconset, they use stroke to styling and cannot use fill properties
@@ -76,11 +90,15 @@ const InternalNativeIcon = forwardRef(function <IconNames extends string, IconVa
   }
   internalProps.style = [internalStyle, style]
 
-  return createElement(Svg, {
-    ref: svgRef,
-    children: elements,
-    ...internalProps,
-  })
-})
+  return createElement(
+    Svg,
+    {
+      ref: svgRef,
+      ...internalProps,
+    },
+    elements,
+    children,
+  )
+}
 InternalNativeIcon.displayName = 'NativeIcon'
 export const NativeIcon = memo(InternalNativeIcon)

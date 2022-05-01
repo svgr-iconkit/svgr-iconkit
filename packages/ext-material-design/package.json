@@ -19,7 +19,7 @@
   "react-native": "lib/commonjs/native",
   "commonjs": "lib/commonjs/index",
   "module": "lib/es/index",
-  "types": "index",
+  "types": "lib/types/index",
   "directories": {
     "icons": "icons",
     "lib": "lib",

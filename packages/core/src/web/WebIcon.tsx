@@ -1,23 +1,21 @@
-import { createElement, forwardRef, memo } from 'react'
-import type { ForwardedRef } from 'react'
-import type { IconProps } from '../common/types'
+import { createElement, memo } from 'react'
+import type { IconComponentCoreProps } from '../common/types'
 import {
   appendUnit,
   filterNonEmptyString,
   getContentFromIconProps,
   getViewboxValue,
   PRIMARY_CURRENT_COLOR,
-  showDebugWarning
+  showDebugWarning,
 } from '../common/utils'
+import type { WebIconBaseProps, WebIconRefType } from './types'
 import { convertRunner, renderChildren } from './utils'
 
-export type WebIconForwaredRefType = SVGSVGElement
-
-const InternalWebIcon = forwardRef(function <IconNames extends string, IconVariant extends string>(
-  props: IconProps<IconNames, IconVariant>,
-  svgRef: ForwardedRef<WebIconForwaredRefType>,
+const InternalWebIcon = function <IconNames extends string, IconVariant extends string>(
+  props: IconComponentCoreProps<IconNames, IconVariant, WebIconBaseProps, WebIconRefType>,
 ) {
   const {
+    ref: svgRef,
     name,
     variant,
     size,
@@ -26,16 +24,24 @@ const InternalWebIcon = forwardRef(function <IconNames extends string, IconVaria
     fontSize,
     lineHeight,
     style: bakStyle = {},
+    children,
+    debug,
     ...restProps
   } = props
   const svgContent = getContentFromIconProps(props)
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
   const elements = renderChildren(svgData)
+
+  if (debug) {
+    console.debug(`Icon render. id='%s', name='${name}', variant='${variant}', props=%o`, props.id, props)
+  }
   if (!svgContent) {
-    if (variant && name) {
-      showDebugWarning(`Icon was not found by given name '${name}' and variant '${variant}'`)
-    } else if (name) {
-      showDebugWarning(`Icon was not found by given name '${name}'`)
+    if (debug) {
+      if (variant && name) {
+        showDebugWarning(`Icon was not found by given name '${name}' and variant '${variant}'`)
+      } else if (name) {
+        showDebugWarning(`Icon was not found by given name '${name}'`)
+      }
     }
     return null
   }
@@ -43,7 +49,7 @@ const InternalWebIcon = forwardRef(function <IconNames extends string, IconVaria
   const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } = svgAttrs || {}
   const viewBox = getViewboxValue(svgContent)
 
-  const iconProps = convertRunner(restProps, {}, { allowNonWhitelistProp: false })
+  const iconProps = convertRunner(restProps, {}, { allowNonWhitelistProp: true })
   const attrProps = convertRunner(restAttrs, {}, { allowNonWhitelistProp: false })
   const internalProps = {
     fill,
@@ -89,13 +95,17 @@ const InternalWebIcon = forwardRef(function <IconNames extends string, IconVaria
   if (bakStyle) {
     internalProps.style = { ...internalStyle, ...bakStyle }
   }
-
-  return createElement('svg', {
-    ref: svgRef,
-    children: elements,
-    ...internalProps,
-  })
-})
+  return createElement(
+    'svg',
+    {
+      ref: svgRef,
+      ...internalProps,
+    },
+    elements,
+    children,
+  )
+}
 
 InternalWebIcon.displayName = 'WebIcon'
+
 export const WebIcon = memo(InternalWebIcon)

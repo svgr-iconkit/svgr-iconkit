@@ -1,9 +1,5 @@
-import type { ForwardRefExoticComponent, ReactSVGElement, ReactElement, PropsWithoutRef, RefAttributes } from 'react'
+import type { ComponentType, ForwardRefExoticComponent, ReactElement, RefAttributes } from 'react'
 import { ResolveType } from './constants'
-
-export type IconComponentClass<IconNames extends string, IconVariant extends string> = ForwardRefExoticComponent<
-  IconsetProps<IconNames, IconVariant>
->
 
 export type IconSVGNode = {
   tagName: string
@@ -38,32 +34,14 @@ export type IconsetMap<IconNames extends string, IconVariant extends string> =
 export interface IconContentBaseProps {
   width?: string | number
   height?: string | number
-  className?: string | number
-  style?: Record<string, any>
-  id?: string
-  fill?: string
-  stroke?: string
-  strokeWidth?: number | string
-  strokeOpacity?: number | string | undefined
-  strokeMiterlimit?: number | string | undefined
-  strokeDasharray?: string | number | undefined
-  strokeDashoffset?: string | number | undefined
-  strokeLinecap?: 'butt' | 'round' | 'square' | 'inherit'
-  strokeLinejoin?: 'miter' | 'round' | 'bevel' | 'inherit'
-  ['data-testid']?: string
-  ['testID']?: string
   size?: string | number
   lineHeight?: string | number
   fontSize?: string | number
   color?: string
 }
 
-export interface IconsetBaseProps<IconNames extends string, IconVariant extends string> extends IconContentBaseProps {
-  name: IconNames
-  variant?: IconVariant
-}
-
-export type IconBaseProps<IconNames extends string, IconVariant extends string> = {
+export type IconCoreProps<IconNames extends string, IconVariant extends string> = {
+  content?: IconSVG
   resolveType?: ResolveType
   name?: IconNames
   colorize?: boolean
@@ -71,30 +49,49 @@ export type IconBaseProps<IconNames extends string, IconVariant extends string> 
   map?: IconsMapType<IconNames>
   variant?: IconVariant
   defaultVariant?: IconVariant
+  debug?: boolean
 }
 
-export type IconProps<IconNames extends string, IconVariant extends string> = {
-  content?: IconSVG
-} & IconBaseProps<IconNames, IconVariant> &
-  IconContentBaseProps
+export type IconComponentCoreProps<
+  IconNames extends string,
+  IconVariant extends string,
+  BaseProps = {},
+  ElementRefType = {},
+> = IconContentBaseProps & IconCoreProps<IconNames, IconVariant> & BaseProps & RefAttributes<ElementRefType>
 
-export type IconsetProps<IconNames extends string, IconVariant extends string> =
-  | (ReactSVGElement & IconsetBaseProps<IconNames, IconVariant>)
-  | ReactElement<IconsetBaseProps<IconNames, IconVariant>>
+export type IconsetCoreProps<
+  IconNames extends string,
+  IconVariant extends string,
+  BaseProps = {},
+  ElementRefType = {},
+> = IconComponentCoreProps<IconNames, IconVariant, BaseProps, ElementRefType> & {
+  name: IconNames
+}
+
+export type IconsetComponentProps<IconNames extends string, IconVariant extends string> = ReactElement<
+  IconsetCoreProps<IconNames, IconVariant>
+>
+
+export type IconComponentClass<IconNames extends string, IconVariant extends string> = ForwardRefExoticComponent<
+  IconsetComponentProps<IconNames, IconVariant>
+>
 
 export type CreateIconsetOptions<IconNames extends string, IconVariant extends string> = {
   familyName: string
-} & IconBaseProps<IconNames, IconVariant>
+} & IconCoreProps<IconNames, IconVariant>
 
-export type CreateIconFactoryType<T, P = {}> = (
-  iconProps: IconSVG,
-) => ForwardRefExoticComponent<PropsWithoutRef<P> & RefAttributes<T>>
+export type CreateIconFactoryType<P = {}, T = {}> = (iconProps: IconSVG) => IconComponentType<P, T>
 
-export type CreateIconsetFactoryResponseType<
+export type IconsetComponentType<
   IconNames extends string,
   IconVariant extends string,
-  ElementType = any,
-> = ForwardRefExoticComponent<IconsetBaseProps<IconNames, IconVariant> & RefAttributes<ElementType>>
+  ElementProps = {},
+  ElementRefType = {},
+> = ComponentType<IconsetCoreProps<IconNames, IconVariant, ElementProps, ElementRefType>>
+
+export type IconComponentType<ElementProps = {}, ElementRefType = {}> = ComponentType<
+  IconComponentCoreProps<string, string, ElementProps, ElementRefType>
+>
 
 export type CreateFamilyOptions<IconNames extends string, IconVariant extends string> = {
   familyName: string
