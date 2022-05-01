@@ -24,13 +24,14 @@ export type WebIconBaseComponentType<IconNames extends string, IconVariant exten
 >
 
 export type WebIconsetBaseComponentType<
-IconNames extends string,
-IconVariant extends string,
-> = IconsetComponentCoreType<IconNames, IconVariant, 
-WebIconBaseProps,
-WebIconRefType>
+  IconNames extends string,
+  IconVariant extends string,
+> = IconsetComponentCoreType<IconNames, IconVariant, WebIconBaseProps, WebIconRefType>
 
-export type WebIconVariantsMapType<IconNames extends string, IconVariant extends string> = Record<IconVariant, WebIconsetBaseComponentType<IconNames, IconVariant>>;
+export type WebIconVariantsMapType<IconNames extends string, IconVariant extends string> = Record<
+  IconVariant,
+  WebIconsetBaseComponentType<IconNames, IconVariant>
+>
 
 export type WebIconComponentProps = WebIconBaseComponentProps<string, string>
 

@@ -17,8 +17,29 @@ export const NativeIconContent = memo(
       } & NativeIconContentBaseProps,
       svgRef: ForwardedRef<NativeIconContentRefType>,
     ) => {
-      const { name, as = 'symbol', variant, children, ...restProps } = props
-      const svgContent = getContentFromIconProps(props)
+      const {
+        variantsMap,
+        defaultVariant,
+        resolveType,
+        content,
+        map,
+        familyName,
+        name,
+        as = 'symbol',
+        variant,
+        children,
+        ...restProps
+      } = props
+      const svgContent = getContentFromIconProps({
+        variantsMap,
+        defaultVariant,
+        resolveType,
+        content,
+        map,
+        name,
+        familyName,
+        variant,
+      })
       const { attrs = {}, data: svgData = [] } = svgContent || {}
       const elements = useMemo(() => renderChildren(svgData), [svgData])
       if (!svgContent) {

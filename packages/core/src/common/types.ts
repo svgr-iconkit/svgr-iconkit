@@ -46,6 +46,7 @@ export type IconCoreProps<IconNames extends string, IconVariant extends string> 
   name?: IconNames
   colorize?: boolean
   variantsMap?: IconsetMap<IconNames, IconVariant>
+  familyName?: string
   map?: IconsMapType<IconNames>
   variant?: IconVariant
   defaultVariant?: IconVariant

@@ -24,13 +24,14 @@ export type NativeIconBaseComponentType<
 > = NativeIconBaseComponentProps<IconNames, IconVariant>
 
 export type NativeIconsetBaseComponentType<
-IconNames extends string,
-IconVariant extends string,
-> = IconsetComponentCoreType<IconNames, IconVariant, 
-NativeIconBaseProps,
-NativeIconRefType>
+  IconNames extends string,
+  IconVariant extends string,
+> = IconsetComponentCoreType<IconNames, IconVariant, NativeIconBaseProps, NativeIconRefType>
 
-export type NativeIconVariantsMapType<IconNames extends string, IconVariant extends string> = Record<IconVariant, NativeIconsetBaseComponentType<IconNames, IconVariant>>;
+export type NativeIconVariantsMapType<IconNames extends string, IconVariant extends string> = Record<
+  IconVariant,
+  NativeIconsetBaseComponentType<IconNames, IconVariant>
+>
 
 export type NativeIconComponentProps = NativeIconBaseComponentProps<string, string>
 

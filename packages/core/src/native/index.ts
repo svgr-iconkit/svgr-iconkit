@@ -27,13 +27,13 @@ export type IconBaseComponentType<IconNames extends string, IconVariant extends 
   IconNames,
   IconVariant
 >
-export type IconsetBaseComponentType<IconNames extends string, IconVariant extends string> = NativeIconsetBaseComponentType<
-IconNames,
-IconVariant
->;
+export type IconsetBaseComponentType<
+  IconNames extends string,
+  IconVariant extends string,
+> = NativeIconsetBaseComponentType<IconNames, IconVariant>
 export type IconVariantsMapType<IconNames extends string, IconVariant extends string> = NativeIconVariantsMapType<
-IconNames,
-IconVariant
+  IconNames,
+  IconVariant
 >
 export type IconComponentProps = NativeIconComponentProps
 export type IconComponentType = NativeIconComponentType

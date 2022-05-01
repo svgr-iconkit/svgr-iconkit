@@ -13,8 +13,29 @@ export const WebIconContent = memo(
       props: IconComponentCoreProps<IconNames, IconVariant> & { as?: string } & WebIconContentBaseProps,
       svgRef: ForwardedRef<WebIconContentRefType>,
     ) => {
-      const { name, as = 'symbol', variant, children, ...restProps } = props
-      const svgContent = getContentFromIconProps(props)
+      const {
+        variantsMap,
+        defaultVariant,
+        resolveType,
+        content,
+        map,
+        familyName,
+        name,
+        as = 'symbol',
+        variant,
+        children,
+        ...restProps
+      } = props
+      const svgContent = getContentFromIconProps({
+        variantsMap,
+        defaultVariant,
+        resolveType,
+        content,
+        map,
+        familyName,
+        name,
+        variant,
+      })
       const { attrs = {}, data: svgData = [] } = svgContent || {}
       const elements = useMemo(() => renderChildren(svgData), [svgData])
       if (!svgContent) {

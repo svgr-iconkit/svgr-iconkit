@@ -9,7 +9,9 @@ import type { NativeIconBaseComponentType, NativeIconRefType } from './types'
  * @param {IconSVG} content;
  * @returns {React.ComponentType<IconBaseProps>}
  */
-export const createNativeIcon: CreateIconFactoryReturnType<IconContentBaseProps, NativeIconRefType> = (content: IconSVG) => {
+export const createNativeIcon: CreateIconFactoryReturnType<IconContentBaseProps, NativeIconRefType> = (
+  content: IconSVG,
+) => {
   return memo((props: NativeIconBaseComponentType<string, string>) => {
     return createElement(NativeIcon, {
       resolveType: ResolveType.Content,

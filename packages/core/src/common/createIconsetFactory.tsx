@@ -1,4 +1,4 @@
-import { createElement } from 'react'
+import { createElement, memo } from 'react'
 import { ResolveType } from './constants'
 import type { CreateIconsetOptions, IconsetComponentCoreType } from './types'
 import { getContentFromIconProps } from './utils'
@@ -24,7 +24,7 @@ export function createIconsetFactory<
     displayName = `IconsetVariant(${componentName})`
   }
 
-  const Iconset: IconsetComponentCoreType<IconNames, IconVariant, ElementProps, ElementRefType> = (props) => {
+  const Iconset: IconsetComponentCoreType<IconNames, IconVariant, ElementProps, ElementRefType> = memo((props) => {
     const { ref, name, ...restProps } = props // select target variant or assume there is no varaint from iconsmap data
 
     const content = getContentFromIconProps({
@@ -52,7 +52,7 @@ export function createIconsetFactory<
       resolveType: ResolveType.Content,
       content,
     })
-  }
+  })
 
   Iconset.displayName = displayName
 

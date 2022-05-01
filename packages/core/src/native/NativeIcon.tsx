@@ -20,6 +20,12 @@ const InternalNativeIcon = function <IconNames extends string, IconVariant exten
     ref: svgRef,
     name,
     variant,
+    variantsMap,
+    defaultVariant,
+    resolveType,
+    content,
+    map,
+    familyName,
     size,
     color,
     colorize = true,
@@ -30,7 +36,16 @@ const InternalNativeIcon = function <IconNames extends string, IconVariant exten
     debug,
     ...restProps
   } = props
-  const svgContent = getContentFromIconProps(props)
+  const svgContent = getContentFromIconProps({
+    variantsMap,
+    defaultVariant,
+    resolveType,
+    content,
+    map,
+    name,
+    variant,
+    familyName,
+  })
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
   const elements = useMemo(() => renderChildren(svgData), [svgData])
   if (debug) {

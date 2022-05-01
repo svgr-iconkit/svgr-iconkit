@@ -16,6 +16,12 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
 ) {
   const {
     ref: svgRef,
+    variantsMap,
+    defaultVariant,
+    resolveType,
+    content,
+    map,
+    familyName,
     name,
     variant,
     size,
@@ -28,7 +34,16 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
     debug,
     ...restProps
   } = props
-  const svgContent = getContentFromIconProps(props)
+  const svgContent = getContentFromIconProps({
+    variantsMap,
+    defaultVariant,
+    resolveType,
+    content,
+    map,
+    familyName,
+    name,
+    variant,
+  })
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
   const elements = renderChildren(svgData)
 
