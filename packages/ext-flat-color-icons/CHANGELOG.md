@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0-beta.10 (2022-05-02)
+
+**Note:** Version bump only for package @svgr-iconkit/flat-color-icons
+
+
+
+
+
 # [0.3.0-beta.9](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.3.0-beta.3...v0.3.0-beta.9) (2022-05-01)
 
 

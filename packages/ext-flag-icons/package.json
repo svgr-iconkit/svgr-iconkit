@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/flag-icons",
-  "version": "0.3.0-beta.9",
+  "version": "0.3.0-beta.10",
   "description": "flag-icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -56,11 +56,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.9"
+    "@svgr-iconkit/core": "^0.3.0-beta.10"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.0-beta.9",
-    "@svgr-iconkit/cli": "^0.3.0-beta.9",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.10",
+    "@svgr-iconkit/cli": "^0.3.0-beta.10",
     "@types/node": "^15.6.1",
     "flag-icons": "^6.1.1",
     "npm-run-all": "^4.1.5",
