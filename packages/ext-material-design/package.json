@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-design",
-  "version": "0.3.0-beta.12",
+  "version": "0.3.0-beta.13",
   "keywords": [
     "SVG",
     "Icons",
@@ -47,7 +47,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.12"
+    "@svgr-iconkit/core": "^0.3.0-beta.13"
   },
   "devDependencies": {
     "@svgr-iconkit/build-config": "^0.3.0-beta.11",

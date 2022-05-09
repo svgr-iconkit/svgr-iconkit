@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/octicons",
-  "version": "0.3.0-beta.12",
+  "version": "0.3.0-beta.13",
   "description": "Octicons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.12",
+    "@svgr-iconkit/core": "^0.3.0-beta.13",
     "ionicons": "^6.0.1"
   },
   "devDependencies": {

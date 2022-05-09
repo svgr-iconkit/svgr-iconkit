@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/entypo",
-  "version": "0.3.0-beta.12",
+  "version": "0.3.0-beta.13",
   "description": "Entypo Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -51,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.12"
+    "@svgr-iconkit/core": "^0.3.0-beta.13"
   },
   "devDependencies": {
     "@entypo-icons/core": "^1.0.1",
