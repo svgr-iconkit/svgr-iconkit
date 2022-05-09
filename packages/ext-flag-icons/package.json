@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/flag-icons",
-  "version": "0.3.0-beta.11",
+  "version": "0.3.0-beta.12",
   "description": "flag-icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -56,7 +56,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.11"
+    "@svgr-iconkit/core": "^0.3.0-beta.12"
   },
   "devDependencies": {
     "@svgr-iconkit/build-config": "^0.3.0-beta.11",

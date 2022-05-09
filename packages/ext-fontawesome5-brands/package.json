@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontawesome5-brands",
-  "version": "0.3.0-beta.11",
+  "version": "0.3.0-beta.12",
   "description": "FontAwesome5 (brands) for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -48,7 +48,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.11"
+    "@svgr-iconkit/core": "^0.3.0-beta.12"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.0.0",
