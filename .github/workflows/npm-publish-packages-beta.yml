@@ -30,7 +30,6 @@ jobs:
           yarn version:beta --yes --no-push
           git status
           git add ./
-          git status
       - name: Build all
         run: |
           yarn run build

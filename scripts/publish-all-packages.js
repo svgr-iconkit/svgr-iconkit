@@ -67,9 +67,9 @@ function executeCommand(cwd, name, params = {}) {
         if (isError) {
           hasError = true;
         }
-        if (String(data).startsWith("ERR!") || isDebug) {
+        // if (String(data).startsWith("ERR!") || isDebug) {
           console.log(`${name}# stderr: ${data}`);
-        }
+        // }
       });
     } catch (error) {
       console.error(`${name}# exception`);
