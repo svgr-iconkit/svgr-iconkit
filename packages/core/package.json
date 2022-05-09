@@ -14,14 +14,12 @@
   "license": "MIT",
   "main": "lib/commonjs/web/index",
   "react-native": "lib/es/native/index",
+  "react-native-web": "lib/es/native/index",
   "commonjs": "lib/commonjs/web/index",
   "module": "lib/es/web/index",
-  "directories": {
-    "lib": "lib",
-    "native": "native"
-  },
   "files": [
     "icons",
+    "types",
     "lib",
     "native",
     "index.js",
@@ -67,6 +65,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
+    "source-map-explorer": "^2.5.2",
     "terser": "^5.7.0",
     "tslib": "^2.3.1",
     "typescript": "^4.3.4"
@@ -76,7 +75,7 @@
   },
   "scripts": {
     "transform": "svgr-iconkit transform assets",
-    "prebuild": "rimraf ./lib ./dist",
+    "prebuild": "rimraf ./lib ./dist ./native/lib ./native/dist",
     "build": "rollup -c",
     "build:dev": "ENV=development npm-run-all prebuild build",
     "build:full": "npm-run-all prebuild build"

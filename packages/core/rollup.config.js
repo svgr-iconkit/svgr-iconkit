@@ -1,78 +1,65 @@
-import resolve from "@rollup/plugin-node-resolve";
-import commonjs from "@rollup/plugin-commonjs";
-import sourceMaps from "rollup-plugin-sourcemaps";
-import json from "@rollup/plugin-json";
-import external from "rollup-plugin-peer-deps-external";
-import typescript from "rollup-plugin-typescript2";
-import { terser } from "rollup-plugin-terser";
-import { camelCase } from "lodash";
-import { rollupPlugins } from "@svgr-iconkit/build-config";
+import resolve from '@rollup/plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
+import sourceMaps from 'rollup-plugin-sourcemaps'
+import json from '@rollup/plugin-json'
+import external from 'rollup-plugin-peer-deps-external'
+import typescript from 'rollup-plugin-typescript2'
+import { terser } from 'rollup-plugin-terser'
+import { camelCase } from 'lodash'
+import { rollupPlugins } from '@svgr-iconkit/build-config'
 
-const pkg = require("./package.json");
+const pkg = require('./package.json')
 
-const isDev = process.env.ENV === "development"
+const isDev = process.env.ENV === 'development'
 
 const globals = {
-  react: "React",
-  "react-native": "ReactNative",
-  "react-native-svg": "ReactNativeSVG",
-};
-const packageBasedSourcemapPathTransform = (
-  packageName,
-  relativeSourcePath
-) => {
-  const output = String(relativeSourcePath).replace(
-    /\.\.\/(src|node_modules)/g,
-    `${packageName}/$1`
-  );
+  react: 'React',
+  'react-native': 'ReactNative',
+  'react-native-svg': 'ReactNativeSVG',
+}
+const packageBasedSourcemapPathTransform = (packageName, relativeSourcePath) => {
+  const output = String(relativeSourcePath).replace(/\.\.\/(src|node_modules)/g, `${packageName}/$1`)
   // console.log("package=%s, relative=%s, path=%s", packageName, relativeSourcePath, output);
-  return output;
-};
+  return output
+}
 
 const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) =>
-  packageBasedSourcemapPathTransform(
-    pkg.name,
-    relativeSourcePath,
-    sourcemapPath
-  );
+  packageBasedSourcemapPathTransform(pkg.name, relativeSourcePath, sourcemapPath)
 
 const defaultExport = [
   {
-    input: ["src/web/index.ts"],
+    input: ['src/web/index.ts'],
     output: [
       {
-        dir: './lib/commonjs/web',
+        dir: './lib/cjs',
         name: camelCase(pkg.name),
-        format: "commonjs",
+        format: 'commonjs',
         sourcemap: true,
         sourcemapPathTransform,
         globals,
-        exports: "named",
-        plugins: [rollupPlugins.rnAlias({groupName: 'web'})]
+        exports: 'named',
+        plugins: [rollupPlugins.rnAlias({ groupName: 'web' })],
       },
       {
-        dir: './lib/es/web',
-        format: "es",
+        dir: './lib/esm',
+        format: 'es',
         sourcemap: true,
         sourcemapPathTransform,
         globals,
-        plugins: [rollupPlugins.rnAlias({groupName: 'web'})]
+        plugins: [rollupPlugins.rnAlias({ groupName: 'web' })],
       },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [],
     watch: {
-      include: "src/**",
+      include: 'src/**',
     },
     plugins: [
-
       sourceMaps(),
 
-      external({
-        
-      }),
+      external({}),
       // Compile TypeScript files
-      typescript({ useTsconfigDeclarationDir: true, }),
+      typescript({ useTsconfigDeclarationDir: true }),
       // Allow json resolution
       json(),
       // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
@@ -86,39 +73,36 @@ const defaultExport = [
     ],
   },
   {
-    input: ["src/native/index.ts"],
+    input: ['src/native/index.ts'],
     output: [
       {
-        dir: './lib/commonjs/native',
+        dir: './native/lib/cjs',
         name: camelCase(pkg.name),
-        format: "commonjs",
+        format: 'commonjs',
         sourcemap: true,
         sourcemapPathTransform,
         globals,
-        exports: "named",
-        plugins: [rollupPlugins.rnAlias({groupName: 'native'})]
+        exports: 'named',
+        plugins: [rollupPlugins.rnAlias({ path: '../../../', groupName: 'native' })],
       },
       {
-        dir: './lib/es/native',
-        format: "es",
+        dir: './native/lib/esm',
+        format: 'es',
         sourcemap: true,
         sourcemapPathTransform,
         globals,
-        plugins: [rollupPlugins.rnAlias({groupName: 'native'})]
+        plugins: [rollupPlugins.rnAlias({ path: '../../../', groupName: 'native' })],
       },
     ],
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [],
     watch: {
-      include: "src/**",
+      include: 'src/**',
     },
     plugins: [
-
       sourceMaps(),
 
-      external({
-        
-      }),
+      external({}),
       // Compile TypeScript files
       typescript({ useTsconfigDeclarationDir: true }),
       // Allow json resolution
@@ -130,6 +114,6 @@ const defaultExport = [
       isDev ? undefined : terser(),
     ],
   },
-];
+]
 
-export default defaultExport;
+export default defaultExport

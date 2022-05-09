@@ -1,1 +1,1 @@
-module.exports = require('../lib/commonjs/native/index');
+module.exports = require('./lib/cjs/index');

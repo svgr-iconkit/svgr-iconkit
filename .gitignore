@@ -7,6 +7,7 @@ lib/
 gen/
 dist/
 build/
+types/
 tmp/
 cache/
 .DS_Store

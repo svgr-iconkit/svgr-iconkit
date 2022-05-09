@@ -1,2 +1,2 @@
-export { default } from "../lib/types/native/index";
-export * from "../lib/types/native/index";
+export { default } from "../types/native/index";
+export * from "../types/native/index";
