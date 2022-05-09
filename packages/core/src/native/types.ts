@@ -4,7 +4,10 @@ import { IconComponentCoreProps, IconsetComponentCoreType } from '../common/type
 
 export type NativeIconRefType = Component<SvgProps>
 
-export type NativeIconBaseProps = PropsWithChildren<SvgProps>
+/**
+ * Workaround: ```color``` from ```SvgProps``` is conflict with ```IconComponentProps```.
+ */
+export type NativeIconBaseProps = PropsWithChildren<Omit<SvgProps, "color">>
 
 export type NativeIconForwardedRef = ForwardedRef<NativeIconRefType>
 

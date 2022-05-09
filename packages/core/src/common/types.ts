@@ -58,7 +58,7 @@ export type IconComponentCoreProps<
   IconVariant extends string,
   BaseProps = {},
   ElementRefType = {},
-> = IconContentBaseProps & IconCoreProps<IconNames, IconVariant> & BaseProps & RefAttributes<ElementRefType>
+> = BaseProps & IconContentBaseProps & IconCoreProps<IconNames, IconVariant> & RefAttributes<ElementRefType>
 
 export type IconsetCoreProps<
   IconNames extends string,
