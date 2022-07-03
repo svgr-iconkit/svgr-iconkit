@@ -60,6 +60,9 @@ module.exports = {
       description: "Target file suffix",
     },
     {
+      flag: "--disable-convert-xlink",
+    },
+    {
       flag: "--fill-color <color>",
     },
     {
@@ -80,6 +83,7 @@ module.exports = {
       targetFileSuffix = "",
       fillColor,
       strokeColor,
+      disableConvertXlink = false,
       dynamicImport = false,
     } = options;
 
@@ -143,6 +147,7 @@ module.exports = {
         fillColor,
         strokeColor,
         typescript: true,
+        disableConvertXlink,
       });
       writeFile(tarFilePath, tarFileContent);
 

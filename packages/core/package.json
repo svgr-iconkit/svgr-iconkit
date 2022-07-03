@@ -12,9 +12,20 @@
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
   "homepage": "https://svgr-iconkit.dev",
   "license": "MIT",
+  "exports": {
+    "default": "./lib/cjs/index.js",
+    "native/": {
+      "default": "./native/lib/esm/index.js",
+      "require": "./native/lib/cjs/index.js",
+      "browser": "./native/lib/cjs/index.js"
+    },
+    "main": "./lib/cjs/index.js",
+    "require": "./lib/cjs/index.js",
+    "import": "./lib/esm/index.js",
+    "react-native": "./native/lib/esm/index.js"
+  },
   "main": "lib/cjs/index",
-  "react-native": "native/lib/esm/index",
-  "react-native-web": "native/lib/esm/index",
+  "react-native": "lib/esm/native",
   "commonjs": "lib/cjs/index",
   "module": "lib/esm/index",
   "files": [
@@ -31,6 +42,7 @@
     "README.md"
   ],
   "peerDependencies": {
+    "camel-case": "^4.1.2",
     "react": "^16.8.0 || ^17.0.1 || ^18.0.0",
     "react-native": "*",
     "react-native-svg": "*"
@@ -52,7 +64,7 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@svgr-iconkit/cli": "^0.3.0-beta.10",
+    "@svgr-iconkit/cli": "^0.3.0-beta.14",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.1",
     "@types/react-native": "^0.61.0",
@@ -80,5 +92,8 @@
     "build:dev": "ENV=development npm-run-all prebuild build",
     "build:full": "npm-run-all prebuild build"
   },
-  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd"
+  "gitHead": "6277f374ee3386099173394f98c692819e4fc3cd",
+  "dependencies": {
+    "camel-case": "^4.1.2"
+  }
 }

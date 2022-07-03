@@ -48,24 +48,26 @@ function getChildrenData(node, options) {
   const { fillColor, strokeColor, idMap = {}, parents = [] } = options
 
   // Workaround - copying xlink:href target prevent missing rendering in native
-  if (attrs['xlink:href']) {
-    const hrefTarget = attrs['xlink:href'].replace('#', '')
-    const targetNode = idMap[hrefTarget]
-    if (targetNode) {
-      modifiedTagName = 'g'
-      modifiedChildren = [
-        {
-          ...targetNode,
-        },
-      ]
-      attrs['xlink:href'] = undefined
-    } else {
-      console.warn(
-        '[svgrData/getChildrenData] Unable to find use target %s at node %o',
-        attrs['xlink:href'],
-        [...parents, tagName].join('/'),
-      )
-    }
+  if (!options.disableConvertXlink && attrs['xlink:href']) {
+    attrs['href'] = attrs['xlink:href']
+    attrs['xlink:href'] = undefined
+    // const hrefTarget = attrs['xlink:href'].replace('#', '')
+    // const targetNode = idMap[hrefTarget]
+    // if (targetNode) {
+    //   modifiedTagName = 'g'
+    //   modifiedChildren = [
+    //     {
+    //       ...targetNode,
+    //     },
+    //   ]
+    //   attrs['xlink:href'] = undefined
+    // } else {
+    //   console.warn(
+    //     '[svgrData/getChildrenData] Unable to find use target %s at node %o',
+    //     attrs['xlink:href'],
+    //     [...parents, tagName].join('/'),
+    //   )
+    // }
   }
 
   // Overwrite colors when attributes exist (if non-none)
@@ -115,25 +117,30 @@ function getIdMap(node, options) {
   return idMap
 }
 
-export function convertSvgData(name, source, { fillColor, strokeColor, forceWidth, forceHeight, typescript = false }) {
+export function convertSvgData(
+  name,
+  source,
+  { fillColor, strokeColor, forceWidth, forceHeight, typescript = false, disableConvertXlink = false },
+) {
+  const plugins = [
+    {
+      name: 'convertStyleToAttrs',
+    },
+    {
+      name: 'removeDimensions',
+    },
+    {
+      name: 'removeStyleElement',
+    },
+    {
+      name: 'removeScriptElement',
+    },
+  ]
+  if (!disableConvertXlink) {
+    plugins.push({ name: 'removeXMLNS' })
+  }
   const optimizedSource = optimize(source, {
-    plugins: [
-      {
-        name: 'removeXMLNS',
-      },
-      {
-        name: 'convertStyleToAttrs',
-      },
-      {
-        name: 'removeDimensions',
-      },
-      {
-        name: 'removeStyleElement',
-      },
-      {
-        name: 'removeScriptElement',
-      },
-    ],
+    plugins,
   })
   if (!optimizedSource || !optimizedSource.data) {
     console.error('[svgrData/convert] unexcepted optimize error. source=%s', source)
@@ -179,6 +186,7 @@ export function convertSvgData(name, source, { fillColor, strokeColor, forceWidt
         idMap,
         fillColor,
         strokeColor,
+        disableConvertXlink,
       }),
     ),
   }
@@ -193,15 +201,11 @@ export function convertSvgData(name, source, { fillColor, strokeColor, forceWidt
 
   const contentStr = JSON.stringify(result)
   if (typescript) {
-    return `
-import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = ${contentStr};
-export default content;
-`
+    return `import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = ${contentStr || '{}'};
+export default content;`
   }
 
-  return `
-export const content = ${contentStr};
-export default content;
-`
+  return `export const content = ${contentStr || '{}'};
+export default content;`
 }

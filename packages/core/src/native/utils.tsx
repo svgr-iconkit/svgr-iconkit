@@ -54,7 +54,7 @@ export const nodeComponentMap: Record<string, ComponentType<PropsWithChildren<an
 const propNamesRemap = {
   class: 'className',
   'xmlns:xlink': 'xmlnsXlink',
-  'xlink:href': 'xlinkHref',
+  'xlink:href': 'href',
   strokeWidth: 'strokeWidth',
   'stroke-width': 'strokeWidth',
   strokeOpacity: 'strokeOpacity',

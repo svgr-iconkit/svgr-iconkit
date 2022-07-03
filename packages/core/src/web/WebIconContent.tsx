@@ -1,13 +1,13 @@
 import type { ForwardedRef } from 'react'
 import { createElement, forwardRef, memo, useMemo } from 'react'
 import type { IconComponentCoreProps } from '../common/types'
-import { getContentFromIconProps, showDebugWarning } from '../common/utils'
+import { createRandomId, getContentFromIconProps, showDebugWarning } from '../common/utils'
 import type { WebIconContentBaseProps, WebIconContentRefType } from './types'
 import { renderChildren } from './utils'
 /**
  * Render svg data within in <symbol>
  */
-export const WebIconContent = memo(
+export const WebIconContent =
   forwardRef(
     <IconNames extends string, IconVariant extends string>(
       props: IconComponentCoreProps<IconNames, IconVariant> & { as?: string } & WebIconContentBaseProps,
@@ -26,6 +26,7 @@ export const WebIconContent = memo(
         children,
         ...restProps
       } = props
+      const elmNs = useMemo(() => `sik-${createRandomId()}`, [])
       const svgContent = getContentFromIconProps({
         variantsMap,
         defaultVariant,
@@ -37,7 +38,7 @@ export const WebIconContent = memo(
         variant,
       })
       const { attrs = {}, data: svgData = [] } = svgContent || {}
-      const elements = useMemo(() => renderChildren(svgData), [svgData])
+      const elements = useMemo(() => renderChildren(svgData, '#', `@${elmNs}:`), [svgData])
       if (!svgContent) {
         if (variant && name) {
           showDebugWarning(`IconContent was not found by given name '${name}' and variant '${variant}'`)
@@ -58,5 +59,5 @@ export const WebIconContent = memo(
         children,
       )
     },
-  ),
-)
+  )
+

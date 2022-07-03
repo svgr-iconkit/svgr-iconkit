@@ -1,13 +1,15 @@
 import { camelCase } from 'camel-case'
 import { ResolveType } from './constants'
-import type { CreateIconsetOptions, IconComponentCoreProps, IconCoreProps, IconSVG } from './types'
+import type { IconCoreProps, IconSVG } from './types'
 
 const numberStartedRegExp = /^[0-9]/
 const numberOnlyRegExp = /^[0-9]$/
 
 export const PRIMARY_CURRENT_COLOR = 'currentColor'
 
-const ignoredPropNames = ['xmlns', 'title', 'version', 'style', 'content']
+export const createRandomId = (base = 0x100000) => ((1 + Math.random()) * base|0).toString(24)
+
+const ignoredPropNames = ['title', 'version', 'style', 'content']
 
 export const filterNonNumberStartedString = (str: any) => !String(str).match(numberStartedRegExp)
 export const filterNubmerOnlyString = (str: any) => !!String(str).match(numberOnlyRegExp)

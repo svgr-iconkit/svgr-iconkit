@@ -1,7 +1,8 @@
-import { createElement, memo } from 'react'
+import { createElement, memo, useMemo } from 'react'
 import type { IconComponentCoreProps } from '../common/types'
 import {
   appendUnit,
+  createRandomId,
   filterNonEmptyString,
   getContentFromIconProps,
   getViewboxValue,
@@ -34,6 +35,7 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
     debug,
     ...restProps
   } = props
+  const elmNs = useMemo(() => `sik-${createRandomId()}`, [])
   const svgContent = getContentFromIconProps({
     variantsMap,
     defaultVariant,
@@ -45,7 +47,7 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
     variant,
   })
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
-  const elements = renderChildren(svgData)
+  const elements = useMemo(() => renderChildren(svgData, '#', `@${elmNs}:`), [svgData,elmNs]);
 
   if (debug) {
     console.debug(`Icon render. id='%s', name='${name}', variant='${variant}', props=%o`, props.id, props)
@@ -123,4 +125,4 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
 
 InternalWebIcon.displayName = 'WebIcon'
 
-export const WebIcon = memo(InternalWebIcon)
+export const WebIcon = InternalWebIcon
