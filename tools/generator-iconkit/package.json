@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/generator-svgr-iconkit",
-  "version": "0.3.0-beta.15",
+  "version": "0.3.0",
   "description": "Yeomen generator for svgr-iconkit template",
   "author": "LemanK <leman@lmswork.com>",
   "homepage": "https://github.com/svgr-iconkit/svgr-iconkit",
