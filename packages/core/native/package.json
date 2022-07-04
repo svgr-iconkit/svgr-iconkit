@@ -1,7 +1,8 @@
 {
   "name": "@svgr-iconkit/core/native",
   "private": true,
-  "main": "../lib/commonjs/native.js",
-  "module": "../lib/es/native.js",
-  "types": "../lib/types/native.d.ts"
+  "main": "lib/cjs/index",
+  "jsnext:main": "lib/esm/index",
+  "module": "lib/esm/index",
+  "types": "../types/native/index"
 }

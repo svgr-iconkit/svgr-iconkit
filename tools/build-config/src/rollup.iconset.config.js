@@ -49,12 +49,14 @@ function createRollupLibraryConfig({
   plugins = [],
   outputs = {
     commonjs: {
-      dir: "lib/commonjs/",
+      dir: "lib/cjs/",
       exports: "named",
+      plugins: [],
     },
     esm: {
-      dir: "lib/es/",
+      dir: "lib/esm/",
       exports: "named",
+      plugins: [],
     },
   },
 }) {

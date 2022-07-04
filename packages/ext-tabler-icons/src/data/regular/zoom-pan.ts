@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"zoom-pan","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"circle","attrs":{"cx":12,"cy":12,"r":3}},{"tagName":"path","attrs":{"d":"M17 17l-2.5 -2.5"}},{"tagName":"path","attrs":{"d":"M10 5l2 -2l2 2"}},{"tagName":"path","attrs":{"d":"M19 10l2 2l-2 2"}},{"tagName":"path","attrs":{"d":"M5 10l-2 2l2 2"}},{"tagName":"path","attrs":{"d":"M10 19l2 2l2 -2"}}]};
+export default content;

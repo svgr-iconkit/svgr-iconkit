@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"bowl-chopsticks","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M5.38 2.1a.75.75 0 011.02.28L11.37 11h2.26L9.1 3.12a.75.75 0 011.3-.74L15.37 11h5.93c.39 0 .7.31.7.7v.3a10 10 0 01-.46 3H2.46A10 10 0 012 12v-.3c0-.39.31-.7.7-.7h6.93L5.1 3.12a.75.75 0 01.28-1.02zM3.07 16.5a10 10 0 0017.86 0H3.07z"}}]};
+export default content;

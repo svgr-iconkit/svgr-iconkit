@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sc","attrs":{"id":"flag-icons-sc","viewBox":"0 0 640 480"},"data":[{"tagName":"path","attrs":{"fill":"#fff","d":"M0 0h640v480H0Z"}},{"tagName":"path","attrs":{"fill":"#d92223","d":"M0 480V0h640v160z"}},{"tagName":"path","attrs":{"fill":"#fcd955","d":"M0 480V0h426.7z"}},{"tagName":"path","attrs":{"fill":"#003d88","d":"M0 480V0h213.3z"}},{"tagName":"path","attrs":{"fill":"#007a39","d":"m0 480 640-160v160z"}}]};
+export default content;

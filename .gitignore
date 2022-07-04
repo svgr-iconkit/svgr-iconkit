@@ -4,12 +4,15 @@
 tmp/
 node_modules/
 lib/
+gen/
 dist/
 build/
+types/
 tmp/
-gen/
 cache/
 .DS_Store
 
 report.*.json
 .npmrc
+package-lock.json
+yarn.lock

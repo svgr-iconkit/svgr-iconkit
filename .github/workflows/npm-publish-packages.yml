@@ -52,7 +52,7 @@ jobs:
       - name: Bump version
         if: github.event.inputs.cbVersionChange != 'no'
         run: |
-          yarn version $VERSION_CHANGE --yes --no-push
+          yarn lerna version $VERSION_CHANGE --yes --no-push
           git status
           git add ./
       - name: Build all

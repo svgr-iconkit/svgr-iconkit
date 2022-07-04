@@ -2,10 +2,34 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 
 name: Packages release (beta)
+concurrency:
+  group: 'svgr-iconkit-cicd-release-beta'
+  cancel-in-progress: true
 
 on:
   workflow_dispatch:
+    inputs:
+      cbVersionChange:
+        type: choice 
+        required: true
+        description: The type of version change
+        default: "prerelease"
+        options:
+        - "no"
+        - "prerelease"
+        - "prepatch"
+        - "preminor"
+        - "premajor"
+      cNpmPublish:
+        type: choice 
+        required: true
+        description: Require publish to npm registry?
+        default: "yes"
+        options:
+        - "no"
+        - "yes"
 
+permissions: write-all
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,32 +38,41 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16
-      - run: yarn
+      - name: Setup git
+        run: |
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+      - name: Install packages
+        run: |
+          yarn config set disable-self-update-check true
+          yarn config set ignore-engines true
+          yarn config list
+          yarn install
+      - name: Bump version
+        if: github.event.inputs.cbVersionChange != 'no'
+        run: |
+          yarn version:beta --yes --no-push
+          git status
+          git add ./
       - name: Build all
-        run: yarn run build:full
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com/
-      - run: yarn
-      - name: publish to github
-        run: git commit -m "bump version" && git push
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: |
+          yarn run build
       - name: publish to registry(github)
-        run: yarn publish:all:github
+        if: github.event.inputs.cNpmPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
+          echo "always-auth = true" >> .npmrc
+          yarn publish:all:github
       - name: publish to registry(npmjs.com)
-        run: yarn publish:all
+        if: github.event.inputs.cNpmPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
+          echo "always-auth = true" >> .npmrc
+          yarn publish:all --registry=https://registry.npmjs.org/
+      - name: push result
+        run: |
+          git push --force --all

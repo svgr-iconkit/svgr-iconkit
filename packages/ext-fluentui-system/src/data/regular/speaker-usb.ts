@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"speaker-usb","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M15 4.25a1.25 1.25 0 00-2.06-.96L7.98 7.5H4.25C3.01 7.5 2 8.52 2 9.76v4.5c0 1.24 1 2.25 2.25 2.25h3.73l4.96 4.2a1.25 1.25 0 002.06-.95V4.25zM8.52 9l4.98-4.21V19.2L8.52 15H4.25a.75.75 0 01-.75-.75v-4.5c0-.42.34-.75.75-.75h4.27zm7.64 4.96L17.5 16v2a1 1 0 001 1h2a1 1 0 001-1v-2l1.33-2a1 1 0 00.17-.56V10a1 1 0 00-1-1V7a1 1 0 00-1-1h-3a1 1 0 00-1 1v2a1 1 0 00-1 1v3.4c0 .2.06.4.16.56zM18.5 7.5h2V9h-2V7.5z"}}]};
+export default content;

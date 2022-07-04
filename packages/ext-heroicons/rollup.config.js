@@ -11,14 +11,15 @@ export default [
   createRollupLibraryConfig({
     libraryName: pkg.name,
     entry: ["./src/index.ts", "./src/native.ts"],
+    sourcemap: false,
     plugins,
   }),
   createRollupDataConfig({
-    entryPath: "./src/gen/icons/solid",
+    entryPath: "./src/data/solid",
     outputPath: "./icons/solid",
   }),
   createRollupDataConfig({
-    entryPath: "./src/gen/icons/outline",
+    entryPath: "./src/data/outline",
     outputPath: "./icons/outline",
   }),
 ];

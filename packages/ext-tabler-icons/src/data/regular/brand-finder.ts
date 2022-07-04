@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-finder","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"rect","attrs":{"x":3,"y":4,"width":18,"height":16,"rx":1}},{"tagName":"path","attrs":{"d":"M7 8v1"}},{"tagName":"path","attrs":{"d":"M17 8v1"}},{"tagName":"path","attrs":{"d":"M12.5 4c-.654 1.486 -1.26 3.443 -1.5 9h2.5c-.19 2.867 .094 5.024 .5 7"}},{"tagName":"path","attrs":{"d":"M7 15.5c3.667 2 6.333 2 10 0"}}]};
+export default content;

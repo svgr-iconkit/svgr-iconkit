@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"wheelchair","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"circle","attrs":{"cx":8,"cy":16,"r":5}},{"tagName":"circle","attrs":{"cx":19,"cy":19,"r":2}},{"tagName":"path","attrs":{"d":"M19 17a3 3 0 0 0 -3 -3h-3.4"}},{"tagName":"path","attrs":{"d":"M3 3h1a2 2 0 0 1 2 2v6"}},{"tagName":"path","attrs":{"d":"M6 8h11"}},{"tagName":"path","attrs":{"d":"M15 8v6"}}]};
+export default content;

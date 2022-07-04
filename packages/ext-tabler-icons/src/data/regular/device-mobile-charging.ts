@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"device-mobile-charging","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"rect","attrs":{"x":6,"y":3,"width":12,"height":18,"rx":2}},{"tagName":"path","attrs":{"d":"M11 4h2"}},{"tagName":"path","attrs":{"d":"M12 9.5l-1 2.5h2l-1 2.5"}}]};
+export default content;

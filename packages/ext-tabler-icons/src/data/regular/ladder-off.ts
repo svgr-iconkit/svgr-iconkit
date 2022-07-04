@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"ladder-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8 3v1m0 4v13"}},{"tagName":"path","attrs":{"d":"M16 3v9m0 4v5"}},{"tagName":"path","attrs":{"d":"M8 14h6"}},{"tagName":"path","attrs":{"d":"M8 10h2m4 0h2"}},{"tagName":"path","attrs":{"d":"M10 6h6"}},{"tagName":"path","attrs":{"d":"M8 18h8"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

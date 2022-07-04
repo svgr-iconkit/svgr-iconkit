@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"people-lock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 7a4 4 0 11-8 0 4 4 0 018 0zm4 3.83a3.49 3.49 0 012.45-.2 3 3 0 10-2.44.2zm-2.3 3.3A2.5 2.5 0 0012 16.5v2.49A7.08 7.08 0 018 20c-6 0-6-4.5-6-4.5v-.25C2 14.01 3 13 4.25 13h7.5c.83 0 1.56.45 1.95 1.13zM15 15v-1a2.5 2.5 0 015 0v1h.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-6a1.5 1.5 0 01-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5h.5zm1.5-1v1h2v-1a1 1 0 10-2 0zm2 5a1 1 0 10-2 0 1 1 0 002 0z"}}]};
+export default content;

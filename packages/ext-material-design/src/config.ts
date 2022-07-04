@@ -1,9 +1,9 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { IconNames, map as regularIconsMap } from "./gen/icons/regular";
-import { map as outlinedIconsMap } from "./gen/icons/outlined";
-import { map as roundIconsMap } from "./gen/icons/round";
-import { map as sharpIconsMap } from "./gen/icons/sharp";
-export { IconNames } from "./gen/icons/regular";
+import { IconNames, map as regularIconsMap } from "./data/regular";
+import { map as outlinedIconsMap } from "./data/outlined";
+import { map as roundIconsMap } from "./data/round";
+import { map as sharpIconsMap } from "./data/sharp";
+export { IconNames } from "./data/regular";
 
 export type IconVariant = "regular" | "outlined" | "round" | "sharp";
 

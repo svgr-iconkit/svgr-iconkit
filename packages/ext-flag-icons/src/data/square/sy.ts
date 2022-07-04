@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sy","attrs":{"id":"flag-icons-sy","viewBox":"0 0 512 512"},"data":[{"tagName":"path","attrs":{"d":"M0 0h512v512H0Z"}},{"tagName":"path","attrs":{"fill":"#fff","d":"M0 0h512v341.3H0Z"}},{"tagName":"path","attrs":{"fill":"#ce1126","d":"M0 0h512v170.7H0Z"}},{"tagName":"path","attrs":{"fill":"#007a3d","d":"M86.4 320 128 192l41.6 128-108.9-79.1h134.6M342.4 320 384 192l41.6 128-108.9-79.1h134.6"}}]};
+export default content;

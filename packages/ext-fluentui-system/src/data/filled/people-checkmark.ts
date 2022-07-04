@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"people-checkmark","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M8 11a4 4 0 100-8 4 4 0 000 8zm9 0a3 3 0 100-6 3 3 0 000 6zM4.25 13C3.01 13 2 14 2 15.25v.25S2 20 8 20a7.9 7.9 0 003.28-.61 6.5 6.5 0 011.36-6.2 2.24 2.24 0 00-.89-.19h-7.5zM23 17.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0zm-2.85-2.35l-3.65 3.64-1.65-1.64a.5.5 0 00-.7.7l2 2c.2.2.5.2.7 0l4-4a.5.5 0 00-.7-.7z"}}]};
+export default content;

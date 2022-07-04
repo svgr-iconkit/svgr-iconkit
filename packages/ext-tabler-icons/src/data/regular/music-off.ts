@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"music-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"circle","attrs":{"cx":6,"cy":17,"r":3}},{"tagName":"path","attrs":{"d":"M14.42 14.45a3 3 0 1 0 4.138 4.119"}},{"tagName":"path","attrs":{"d":"M9 17v-8m0 -4v-1h10v11"}},{"tagName":"path","attrs":{"d":"M12 8h7"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

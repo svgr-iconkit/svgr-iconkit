@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"text-align-right-rotate-90","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M18.25 5c.41 0 .75.34.75.75v15.5a.75.75 0 01-1.5 0V5.75c0-.41.34-.75.75-.75zm-13 5c.41 0 .75.34.75.75v10.5a.75.75 0 01-1.5 0v-10.5c0-.41.34-.75.75-.75zm7.25-7.25a.75.75 0 00-1.5 0v18.5a.75.75 0 001.5 0V2.75z"}}]};
+export default content;

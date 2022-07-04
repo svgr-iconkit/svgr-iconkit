@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
-    "target": "es5",
+    "target": "es2017",
     "module":"esnext",
     "lib": ["esnext", "es2015", "es2016", "es2017", "dom"],
     "strict": true,
     "sourceMap": true,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
+    "checkJs": false,
     "jsx": "react",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": false,

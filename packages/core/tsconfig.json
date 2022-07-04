@@ -1,8 +1,9 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "declarationDir": "./lib/types"
+    "declaration": true,
+    "declarationDir": "./types"
   },
-  "include": ["src"],
+  "include": ["src", "index.native.js", "index.web.js"],
   "exclude": ["types", "lib"]
 }

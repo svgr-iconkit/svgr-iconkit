@@ -1,0 +1,7 @@
+{
+  "name": "@svgr-iconkit/grommet-icons/native",
+  "private": true,
+  "main": "../lib/cjs/native.js",
+  "module": "../lib/esm/native.js",
+  "types": "../lib/types/native.d.ts"
+}

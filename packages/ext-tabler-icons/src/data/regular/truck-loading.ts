@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"truck-loading","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M2 3h1a2 2 0 0 1 2 2v10a2 2 0 0 0 2 2h15"}},{"tagName":"rect","attrs":{"x":9,"y":6,"width":10,"height":8,"rx":3}},{"tagName":"circle","attrs":{"cx":9,"cy":19,"r":2}},{"tagName":"circle","attrs":{"cx":18,"cy":19,"r":2}}]};
+export default content;

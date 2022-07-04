@@ -2,11 +2,11 @@ import { IconsMapType } from "@svgr-iconkit/core";
 import {
   IconNames as filledIconNames,
   map as filledIconsMap,
-} from "./gen/icons/filled";
+} from "./data/filled";
 import {
   IconNames as outlinedIconNames,
   map as outlinedIconsMap,
-} from "./gen/icons/outlined";
+} from "./data/outlined";
 
 export type IconVariant = "filled" | "outlined";
 

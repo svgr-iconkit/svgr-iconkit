@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"people-list","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M8 12a4 4 0 100-8 4 4 0 000 8zm9 0a3 3 0 100-6 3 3 0 000 6zM4.25 14C3.01 14 2 15 2 16.25v.25S2 21 8 21c1.85 0 3.14-.43 4.02-1.02.06-.38.24-.72.5-.98a1.74 1.74 0 010-2.5 1.74 1.74 0 01-.1-2.4c-.2-.06-.43-.1-.67-.1h-7.5zm9.5.5a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5zm0 2.5a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5zm0 2.5a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5z"}}]};
+export default content;

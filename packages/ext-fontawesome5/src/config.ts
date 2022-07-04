@@ -1,6 +1,6 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { map as regularIconsMap, IconNames as regularIconNames } from "./gen/icons/regular";
-import { map as solidIconsMap, IconNames as solidIconNames } from "./gen/icons/solid";
+import { map as regularIconsMap, IconNames as regularIconNames } from "./data/regular";
+import { map as solidIconsMap, IconNames as solidIconNames } from "./data/solid";
 
 export type IconNames = regularIconNames & solidIconNames;
 

@@ -1,7 +1,7 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { map as solidIconsMap } from "./gen/icons/solid";
-import { map as outlineIconsMap } from "./gen/icons/outline";
-export { IconNames } from "./gen/icons/solid";
+import { map as solidIconsMap } from "./data/solid";
+import { map as outlineIconsMap } from "./data/outline";
+export { IconNames } from "./data/solid";
 
 export type IconVariant = "solid" | "outline";
 
