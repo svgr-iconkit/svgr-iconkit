@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"toggle-on","attrs":{"viewBox":"0 0 24 24","fill":"none"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15.5074 8H8.50742C6.44074 8.14693 4.87871 9.93211 5.00742 12C4.87871 14.0679 6.44074 15.8531 8.50742 16H15.5074C17.5741 15.8531 19.1361 14.0679 19.0074 12C19.1361 9.93211 17.5741 8.14693 15.5074 8Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}},{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15.0074 14C16.112 14 17.0074 13.1046 17.0074 12C17.0074 10.8954 16.112 10 15.0074 10C13.9028 10 13.0074 10.8954 13.0074 12C13.0074 13.1046 13.9028 14 15.0074 14Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}}]};
 export default content;

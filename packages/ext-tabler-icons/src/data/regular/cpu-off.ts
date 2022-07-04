@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"cpu-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M9 5h9a1 1 0 0 1 1 1v9m-.292 3.706a0.997 .997 0 0 1 -.708 .294h-12a1 1 0 0 1 -1 -1v-12c0 -.272 .108 -.518 .284 -.698"}},{"tagName":"path","attrs":{"d":"M13 9h2v2m0 4h-6v-6"}},{"tagName":"path","attrs":{"d":"M3 10h2"}},{"tagName":"path","attrs":{"d":"M3 14h2"}},{"tagName":"path","attrs":{"d":"M10 3v2"}},{"tagName":"path","attrs":{"d":"M14 3v2"}},{"tagName":"path","attrs":{"d":"M21 10h-2"}},{"tagName":"path","attrs":{"d":"M21 14h-2"}},{"tagName":"path","attrs":{"d":"M14 21v-2"}},{"tagName":"path","attrs":{"d":"M10 21v-2"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
 export default content;

@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"adjustments-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"circle","attrs":{"cx":6,"cy":10,"r":2}},{"tagName":"path","attrs":{"d":"M6 6v2"}},{"tagName":"path","attrs":{"d":"M6 12v8"}},{"tagName":"circle","attrs":{"cx":12,"cy":16,"r":2}},{"tagName":"path","attrs":{"d":"M12 4v4"}},{"tagName":"path","attrs":{"d":"M12 12v2"}},{"tagName":"path","attrs":{"d":"M12 18v2"}},{"tagName":"circle","attrs":{"cx":18,"cy":7,"r":2}},{"tagName":"path","attrs":{"d":"M18 4v1"}},{"tagName":"path","attrs":{"d":"M18 9v5"}},{"tagName":"path","attrs":{"d":"M18 18v2"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
 export default content;

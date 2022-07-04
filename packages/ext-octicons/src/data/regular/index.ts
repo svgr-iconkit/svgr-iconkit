@@ -41,6 +41,8 @@ import SVG_chevronUp from "./chevron-up";
 import SVG_circle from "./circle";
 import SVG_circleSlash from "./circle-slash";
 import SVG_clock from "./clock";
+import SVG_cloud from "./cloud";
+import SVG_cloudOffline from "./cloud-offline";
 import SVG_code from "./code";
 import SVG_codeOfConduct from "./code-of-conduct";
 import SVG_codeReview from "./code-review";
@@ -53,6 +55,7 @@ import SVG_comment from "./comment";
 import SVG_commentDiscussion from "./comment-discussion";
 import SVG_commit from "./commit";
 import SVG_container from "./container";
+import SVG_copilot from "./copilot";
 import SVG_copy from "./copy";
 import SVG_cpu from "./cpu";
 import SVG_creditCard from "./credit-card";
@@ -165,6 +168,7 @@ import SVG_quote from "./quote";
 import SVG_reply from "./reply";
 import SVG_repo from "./repo";
 import SVG_repoForked from "./repo-forked";
+import SVG_repoLocked from "./repo-locked";
 import SVG_repoPush from "./repo-push";
 import SVG_repoTemplate from "./repo-template";
 import SVG_report from "./report";
@@ -234,7 +238,7 @@ import SVG_xCircleFill from "./x-circle-fill";
 import SVG_zap from "./zap"
 
 // types
-export type IconNames = "alert" | "archive" | "arrow-both" | "arrow-down" | "arrow-down-left" | "arrow-down-right" | "arrow-left" | "arrow-right" | "arrow-switch" | "arrow-up" | "arrow-up-left" | "arrow-up-right" | "beaker" | "bell" | "bell-fill" | "bell-slash" | "blocked" | "bold" | "book" | "bookmark" | "bookmark-fill" | "bookmark-slash" | "bookmark-slash-fill" | "briefcase" | "broadcast" | "browser" | "bug" | "calendar" | "check" | "check-circle" | "check-circle-fill" | "checklist" | "chevron-down" | "chevron-left" | "chevron-right" | "chevron-up" | "circle" | "circle-slash" | "clock" | "code" | "code-of-conduct" | "code-review" | "code-square" | "codescan" | "codescan-checkmark" | "codespaces" | "columns" | "comment" | "comment-discussion" | "commit" | "container" | "copy" | "cpu" | "credit-card" | "cross-reference" | "dash" | "database" | "dependabot" | "desktop-download" | "device-camera-video" | "device-desktop" | "device-mobile" | "diamond" | "diff" | "dot" | "dot-fill" | "download" | "duplicate" | "eye" | "eye-closed" | "file" | "file-binary" | "file-code" | "file-diff" | "file-directory" | "file-directory-fill" | "file-media" | "file-submodule" | "file-symlink-file" | "file-zip" | "filter" | "flame" | "fold" | "fold-down" | "fold-up" | "gear" | "gift" | "git-branch" | "git-commit" | "git-compare" | "git-merge" | "git-pull-request" | "git-pull-request-closed" | "git-pull-request-draft" | "globe" | "grabber" | "graph" | "hash" | "heading" | "heart" | "heart-fill" | "history" | "home" | "home-fill" | "horizontal-rule" | "hourglass" | "hubot" | "image" | "inbox" | "infinity" | "info" | "issue-closed" | "issue-draft" | "issue-opened" | "issue-reopened" | "italic" | "iterations" | "kebab-horizontal" | "key" | "law" | "light-bulb" | "link" | "link-external" | "list-ordered" | "list-unordered" | "location" | "lock" | "mail" | "megaphone" | "mention" | "milestone" | "mirror" | "moon" | "mortar-board" | "multi-select" | "mute" | "no-entry" | "north-star" | "note" | "number" | "organization" | "package" | "package-dependencies" | "package-dependents" | "paper-airplane" | "paste" | "pencil" | "people" | "person" | "person-add" | "person-fill" | "pin" | "play" | "plug" | "plus" | "plus-circle" | "project" | "pulse" | "question" | "quote" | "reply" | "repo" | "repo-forked" | "repo-push" | "repo-template" | "report" | "rocket" | "rows" | "rss" | "ruby" | "screen-full" | "screen-normal" | "search" | "server" | "share" | "share-android" | "shield" | "shield-check" | "shield-lock" | "shield-x" | "sidebar-collapse" | "sidebar-expand" | "sign-in" | "sign-out" | "single-select" | "skip" | "smiley" | "sort-asc" | "sort-desc" | "square" | "square-fill" | "squirrel" | "stack" | "star" | "star-fill" | "stop" | "stopwatch" | "strikethrough" | "sun" | "sync" | "tab" | "table" | "tag" | "tasklist" | "telescope" | "telescope-fill" | "terminal" | "thumbsdown" | "thumbsup" | "tools" | "trash" | "triangle-down" | "triangle-left" | "triangle-right" | "triangle-up" | "trophy" | "typography" | "unfold" | "unlock" | "unmute" | "unverified" | "upload" | "verified" | "versions" | "video" | "workflow" | "x" | "x-circle" | "x-circle-fill" | "zap";
+export type IconNames = "alert" | "archive" | "arrow-both" | "arrow-down" | "arrow-down-left" | "arrow-down-right" | "arrow-left" | "arrow-right" | "arrow-switch" | "arrow-up" | "arrow-up-left" | "arrow-up-right" | "beaker" | "bell" | "bell-fill" | "bell-slash" | "blocked" | "bold" | "book" | "bookmark" | "bookmark-fill" | "bookmark-slash" | "bookmark-slash-fill" | "briefcase" | "broadcast" | "browser" | "bug" | "calendar" | "check" | "check-circle" | "check-circle-fill" | "checklist" | "chevron-down" | "chevron-left" | "chevron-right" | "chevron-up" | "circle" | "circle-slash" | "clock" | "cloud" | "cloud-offline" | "code" | "code-of-conduct" | "code-review" | "code-square" | "codescan" | "codescan-checkmark" | "codespaces" | "columns" | "comment" | "comment-discussion" | "commit" | "container" | "copilot" | "copy" | "cpu" | "credit-card" | "cross-reference" | "dash" | "database" | "dependabot" | "desktop-download" | "device-camera-video" | "device-desktop" | "device-mobile" | "diamond" | "diff" | "dot" | "dot-fill" | "download" | "duplicate" | "eye" | "eye-closed" | "file" | "file-binary" | "file-code" | "file-diff" | "file-directory" | "file-directory-fill" | "file-media" | "file-submodule" | "file-symlink-file" | "file-zip" | "filter" | "flame" | "fold" | "fold-down" | "fold-up" | "gear" | "gift" | "git-branch" | "git-commit" | "git-compare" | "git-merge" | "git-pull-request" | "git-pull-request-closed" | "git-pull-request-draft" | "globe" | "grabber" | "graph" | "hash" | "heading" | "heart" | "heart-fill" | "history" | "home" | "home-fill" | "horizontal-rule" | "hourglass" | "hubot" | "image" | "inbox" | "infinity" | "info" | "issue-closed" | "issue-draft" | "issue-opened" | "issue-reopened" | "italic" | "iterations" | "kebab-horizontal" | "key" | "law" | "light-bulb" | "link" | "link-external" | "list-ordered" | "list-unordered" | "location" | "lock" | "mail" | "megaphone" | "mention" | "milestone" | "mirror" | "moon" | "mortar-board" | "multi-select" | "mute" | "no-entry" | "north-star" | "note" | "number" | "organization" | "package" | "package-dependencies" | "package-dependents" | "paper-airplane" | "paste" | "pencil" | "people" | "person" | "person-add" | "person-fill" | "pin" | "play" | "plug" | "plus" | "plus-circle" | "project" | "pulse" | "question" | "quote" | "reply" | "repo" | "repo-forked" | "repo-locked" | "repo-push" | "repo-template" | "report" | "rocket" | "rows" | "rss" | "ruby" | "screen-full" | "screen-normal" | "search" | "server" | "share" | "share-android" | "shield" | "shield-check" | "shield-lock" | "shield-x" | "sidebar-collapse" | "sidebar-expand" | "sign-in" | "sign-out" | "single-select" | "skip" | "smiley" | "sort-asc" | "sort-desc" | "square" | "square-fill" | "squirrel" | "stack" | "star" | "star-fill" | "stop" | "stopwatch" | "strikethrough" | "sun" | "sync" | "tab" | "table" | "tag" | "tasklist" | "telescope" | "telescope-fill" | "terminal" | "thumbsdown" | "thumbsup" | "tools" | "trash" | "triangle-down" | "triangle-left" | "triangle-right" | "triangle-up" | "trophy" | "typography" | "unfold" | "unlock" | "unmute" | "unverified" | "upload" | "verified" | "versions" | "video" | "workflow" | "x" | "x-circle" | "x-circle-fill" | "zap";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -277,6 +281,8 @@ export const map: IconsMapType<IconNames> = {
 "circle": SVG_circle,
 "circle-slash": SVG_circleSlash,
 "clock": SVG_clock,
+"cloud": SVG_cloud,
+"cloud-offline": SVG_cloudOffline,
 "code": SVG_code,
 "code-of-conduct": SVG_codeOfConduct,
 "code-review": SVG_codeReview,
@@ -289,6 +295,7 @@ export const map: IconsMapType<IconNames> = {
 "comment-discussion": SVG_commentDiscussion,
 "commit": SVG_commit,
 "container": SVG_container,
+"copilot": SVG_copilot,
 "copy": SVG_copy,
 "cpu": SVG_cpu,
 "credit-card": SVG_creditCard,
@@ -401,6 +408,7 @@ export const map: IconsMapType<IconNames> = {
 "reply": SVG_reply,
 "repo": SVG_repo,
 "repo-forked": SVG_repoForked,
+"repo-locked": SVG_repoLocked,
 "repo-push": SVG_repoPush,
 "repo-template": SVG_repoTemplate,
 "report": SVG_report,

@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"mark","attrs":{"viewBox":"0 0 24 24","fill":"none"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M19.6586 15.493L13.8426 6.04498C13.4589 5.39724 12.762 5 12.0091 5C11.2563 5 10.5593 5.39724 10.1756 6.04498L4.35861 15.493C3.91876 16.1817 3.88094 17.0531 4.25947 17.7773C4.63801 18.5016 5.37505 18.968 6.19161 19H17.8256C18.6422 18.968 19.3792 18.5016 19.7577 17.7773C20.1363 17.0531 20.0985 16.1817 19.6586 15.493Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}},{"tagName":"path","attrs":{"d":"M12.0086 13V8","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round"}},{"tagName":"path","attrs":{"d":"M12.0086 16V15","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round"}}]};
 export default content;

@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"list","attrs":{"version":1,"viewBox":"0 0 48 48","enable-background":"new 0 0 48 48"},"data":[{"tagName":"g","attrs":{"fill":"#2196F3"},"children":[{"tagName":"rect","attrs":{"x":6,"y":22,"width":4,"height":4}},{"tagName":"rect","attrs":{"x":6,"y":14,"width":4,"height":4}},{"tagName":"rect","attrs":{"x":6,"y":30,"width":4,"height":4}},{"tagName":"rect","attrs":{"x":6,"y":6,"width":4,"height":4}},{"tagName":"rect","attrs":{"x":6,"y":38,"width":4,"height":4}}]},{"tagName":"g","attrs":{"fill":"#2196F3"},"children":[{"tagName":"rect","attrs":{"x":14,"y":22,"width":28,"height":4}},{"tagName":"rect","attrs":{"x":14,"y":14,"width":28,"height":4}},{"tagName":"rect","attrs":{"x":14,"y":30,"width":28,"height":4}},{"tagName":"rect","attrs":{"x":14,"y":6,"width":28,"height":4}},{"tagName":"rect","attrs":{"x":14,"y":38,"width":28,"height":4}}]}]};
 export default content;

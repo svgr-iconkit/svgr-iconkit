@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"eye-table","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8.003 18.003h-.011"}},{"tagName":"path","attrs":{"d":"M12.003 18.002h-.011"}},{"tagName":"path","attrs":{"d":"M16.003 18.002h-.011"}},{"tagName":"path","attrs":{"d":"M4 3h16"}},{"tagName":"path","attrs":{"d":"M5 3v17a1 1 0 0 0 1 1h12a1 1 0 0 0 1 -1v-17"}},{"tagName":"path","attrs":{"d":"M14 7h-4"}},{"tagName":"path","attrs":{"d":"M9 15h1"}},{"tagName":"path","attrs":{"d":"M14 15h1"}},{"tagName":"path","attrs":{"d":"M12 11v-4"}}]};
 export default content;

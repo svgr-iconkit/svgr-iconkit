@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"search-minus","attrs":{"viewBox":"0 0 24 24","fill":"none"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5 11.493C5.00364 8.39226 7.19698 5.72579 10.2388 5.12416C13.2807 4.52253 16.3239 6.15327 17.5077 9.0192C18.6915 11.8851 17.686 15.1881 15.1063 16.9085C12.5265 18.6288 9.09077 18.2874 6.9 16.093C5.68148 14.8725 4.99799 13.2177 5 11.493Z","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}},{"tagName":"path","attrs":{"d":"M15.562 16.5681L19 19.9931","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round","stroke-linejoin":"round"}},{"tagName":"path","attrs":{"d":"M9.5 11.493H13.5","stroke":"currentColor","stroke-width":1.5,"stroke-linecap":"round"}}]};
 export default content;

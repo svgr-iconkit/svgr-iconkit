@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/ionicons",
-  "version": "0.3.0-beta.13",
+  "version": "0.3.0-beta.14",
   "description": "Ionicons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -16,16 +16,27 @@
     "url": "https://ionic.io/ionicons"
   },
   "license": "MIT",
-  "main": "lib/commonjs/index",
-  "react-native": "lib/es/native",
-  "commonjs": "lib/commonjs/index",
-  "module": "lib/es/index",
-  "types": "lib/types/index",
-  "directories": {
-    "icons": "icons",
-    "lib": "lib",
-    "native": "native"
+  "exports": {
+    "./icons/*": "./icons/*.js",
+    "./native": {
+      "require": "./lib/cjs/native.js",
+      "browser": "./lib/cjs/native.js",
+      "import": "./lib/esm/native.js",
+      "types": "./lib/types/native",
+      "default": "./lib/esm/native.js"
+    },
+    ".": {
+      "react-native": "./lib/esm/native.js",
+      "import": "./lib/esm/index.js",
+      "default": "./lib/cjs/index.js"
+    }
   },
+  "main": "lib/cjs/index",
+  "react-native": "lib/esm/native",
+  "commonjs": "lib/cjs/index",
+  "module": "lib/esm/index",
+  "types": "lib/types/index",
+
   "files": [
     "icons",
     "lib",
@@ -39,7 +50,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.0",
+    "@svgr-iconkit/core": "^0.3.0-beta.14",
     "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
   },
   "peerDependenciesMeta": {
@@ -48,11 +59,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.13"
+    "@svgr-iconkit/core": "^0.3.0-beta.14"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.0-beta.11",
-    "@svgr-iconkit/cli": "^0.3.0-beta.10",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.14",
+    "@svgr-iconkit/cli": "^0.3.0-beta.14",
     "@types/node": "^15.6.1",
     "ionicons": "^6.0.1",
     "npm-run-all": "^4.1.5",

@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"sync-alt","attrs":{"enable-background":"new 0 0 24 24","viewBox":"0 0 24 24"},"data":[{"tagName":"g","attrs":{},"children":[{"tagName":"rect","attrs":{"fill":"none","height":24,"width":24}},{"tagName":"rect","attrs":{"fill":"none","height":24,"width":24}}]},{"tagName":"g","attrs":{},"children":[{"tagName":"g","attrs":{}},{"tagName":"g","attrs":{},"children":[{"tagName":"path","attrs":{"d":"M21.65,7.65l-2.79-2.79C18.54,4.54,18,4.76,18,5.21V7H4C3.45,7,3,7.45,3,8v0c0,0.55,0.45,1,1,1h14v1.79 c0,0.45,0.54,0.67,0.85,0.35l2.79-2.79C21.84,8.16,21.84,7.84,21.65,7.65z"}},{"tagName":"path","attrs":{"d":"M2.35,16.35l2.79,2.79C5.46,19.46,6,19.24,6,18.79V17h14c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H6v-1.79 c0-0.45-0.54-0.67-0.85-0.35l-2.79,2.79C2.16,15.84,2.16,16.16,2.35,16.35z"}}]}]}]};
 export default content;

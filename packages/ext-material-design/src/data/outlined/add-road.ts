@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"add-road","attrs":{"enable-background":"new 0 0 24 24","viewBox":"0 0 24 24"},"data":[{"tagName":"g","attrs":{},"children":[{"tagName":"rect","attrs":{"fill":"none","height":24,"width":24}}]},{"tagName":"g","attrs":{},"children":[{"tagName":"g","attrs":{},"children":[{"tagName":"polygon","attrs":{"points":"20,18 20,15 18,15 18,18 15,18 15,20 18,20 18,23 20,23 20,20 23,20 23,18"}},{"tagName":"rect","attrs":{"height":9,"width":2,"x":18,"y":4}},{"tagName":"rect","attrs":{"height":16,"width":2,"x":4,"y":4}},{"tagName":"rect","attrs":{"height":4,"width":2,"x":11,"y":4}},{"tagName":"rect","attrs":{"height":4,"width":2,"x":11,"y":10}},{"tagName":"rect","attrs":{"height":4,"width":2,"x":11,"y":16}}]}]}]};
 export default content;

@@ -11,6 +11,7 @@ export default [
   createRollupLibraryConfig({
     libraryName: pkg.name,
     entry: ["./src/index.ts", "./src/native.ts"],
+    sourcemap: false,
     plugins,
   }),
   createRollupDataConfig({

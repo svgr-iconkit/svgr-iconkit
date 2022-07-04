@@ -1,4 +1,3 @@
-
 import { IconSVG } from "@svgr-iconkit/core";
 export const content: IconSVG = {"name":"keypad","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"rect","attrs":{"x":80,"y":16,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":208,"y":16,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":336,"y":16,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":80,"y":144,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":208,"y":144,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":336,"y":144,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":80,"y":272,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":208,"y":272,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":208,"y":400,"width":96,"height":96,"rx":8,"ry":8}},{"tagName":"rect","attrs":{"x":336,"y":272,"width":96,"height":96,"rx":8,"ry":8}}]};
 export default content;
