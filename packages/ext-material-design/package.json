@@ -48,7 +48,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.14",
+    "@svgr-iconkit/core": "^0.3.0",
     "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
   },
   "peerDependenciesMeta": {
