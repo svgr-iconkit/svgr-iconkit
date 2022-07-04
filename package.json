@@ -1,7 +1,7 @@
 {
   "name": "svgr-iconkit",
   "description": "SVG Iconkit for React & React Native",
-  "version": "0.3.0-beta.15",
+  "version": "0.3.0",
   "author": "leman <leman@lmswork.com>",
   "homepage": "https://svgr-iconkit.dev/",
   "repository": {
@@ -21,7 +21,7 @@
     "svg"
   ],
   "scripts": {
-    "version": "lerna version",
+    "lerna": "lerna",
     "version:beta": "npx lerna version --conventional-commits --preid 'beta' -m 'release: bump beta version %v'",
     "version:graduate": "npx lerna version --conventional-commits --conventional-graduate -m 'release: bump version %v'",
     "bootstrap": "lerna bootstrap --hoist",
