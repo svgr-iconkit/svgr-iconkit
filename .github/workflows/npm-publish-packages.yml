@@ -8,8 +8,29 @@ concurrency:
 
 on:
   workflow_dispatch:
+    inputs:
+      cbVersionChange:
+        type: choice 
+        required: true
+        description: The type of version change
+        default: "patch"
+        options:
+        - "no"
+        - "patch"
+        - "minor"
+        - "major"
+      cNpmPublish:
+        type: choice 
+        required: true
+        description: Require publish to npm registry?
+        default: "yes"
+        options:
+        - "no"
+        - "yes"
 
 permissions: write-all
+env:
+  VERSION_CHANGE: ${{ github.event.inputs.cbVersionChange }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,14 +50,16 @@ jobs:
           yarn config list
           yarn install
       - name: Bump version
+        if: github.event.inputs.cbVersionChange != 'no'
         run: |
-          yarn version --yes --no-push
+          yarn version $VERSION_CHANGE --yes --no-push
           git status
           git add ./
       - name: Build all
         run: |
           yarn run build
       - name: publish to registry(github)
+        if: github.event.inputs.cNpmPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
@@ -44,6 +67,7 @@ jobs:
           echo "always-auth = true" >> .npmrc
           yarn publish:all:github
       - name: publish to registry(npmjs.com)
+        if: github.event.inputs.cNpmPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
         run: |
