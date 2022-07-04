@@ -13,16 +13,19 @@
   "homepage": "https://svgr-iconkit.dev",
   "license": "MIT",
   "exports": {
-    "default": "./lib/cjs/index.js",
-    "native/": {
-      "default": "./native/lib/esm/index.js",
+    "./native": {
       "require": "./native/lib/cjs/index.js",
-      "browser": "./native/lib/cjs/index.js"
+      "browser": "./native/lib/cjs/index.js",
+      "import": "./native/lib/esm/index.js",
+      "default": "./native/lib/esm/index.js"
     },
-    "main": "./lib/cjs/index.js",
-    "require": "./lib/cjs/index.js",
-    "import": "./lib/esm/index.js",
-    "react-native": "./native/lib/esm/index.js"
+    ".": {
+      "react-native": "./native/lib/esm/index.js",
+      "require": "./lib/cjs/index.js",
+      "browser": "./lib/cjs/index.js",
+      "import": "./lib/esm/index.js",
+      "default": "./lib/cjs/index.js"
+    }
   },
   "main": "lib/cjs/index",
   "react-native": "lib/esm/native",

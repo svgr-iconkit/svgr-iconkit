@@ -3,6 +3,7 @@ import type { TextStyle } from 'react-native'
 import { Svg } from 'react-native-svg'
 import type { IconComponentCoreProps } from '../common/types'
 import {
+  createRandomId,
   filterNonEmptyString,
   getContentFromIconProps,
   getViewboxValue,
@@ -46,8 +47,9 @@ const InternalNativeIcon = function <IconNames extends string, IconVariant exten
     variant,
     familyName,
   })
+  const elmNs = useMemo(() => `sik-${createRandomId()}`, [])
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
-  const elements = useMemo(() => renderChildren(svgData), [svgData])
+  const elements = useMemo(() => renderChildren(svgData, '#', `@${elmNs}:`), [svgData, elmNs])
   if (debug) {
     console.debug(`Icon render. id='%s', name='${name}', variant='${variant}', props=%o`, props.id, props)
   }

@@ -81,7 +81,7 @@ export const filterNode = (node: IconSVGNode) => supportedNodeNames.includes(nod
 /**
  * Travel children node
  */
-export const renderChildren = (nodes: any[], parentKey: string = '#'): ReactNode[] => {
+export const renderChildren = (nodes: any[], parentKey: string = '#', namespace: string = '@'): ReactNode[] => {
   const filteredNodes = nodes.filter(filterNode)
   return filteredNodes.map((node, index) => {
     const { tagName, attrs, children } = node
@@ -94,9 +94,16 @@ export const renderChildren = (nodes: any[], parentKey: string = '#'): ReactNode
     const _props: any = convertProps(attrs, {
       key: nodeKey,
     })
+    // Rendering svg contenti n
+    if (_props.id) {
+      _props.id = namespace + _props.id
+    }
+    if (_props.href) {
+      _props.href = '#'+namespace + String(_props.href).substring(1)
+    }
     return createElement(NodeComponent, {
       ..._props,
-      children: children && children.length > 0 && renderChildren(children, nodeKey),
+      children: children && children.length > 0 && renderChildren(children, nodeKey, namespace),
     })
   })
 }
