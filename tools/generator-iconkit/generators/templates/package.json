@@ -10,12 +10,26 @@
     "expo"
   ],
   "license": "<%= license %>",
-  "main": "lib/commonjs/index",
-  "react-native": "lib/es/native",
-  "commonjs": "lib/commonjs/index",
-  "module": "lib/es/index",
+  "exports": {
+    "./icons/*": "./icons/*.js",
+    "./native": {
+      "require": "./lib/cjs/native.js",
+      "browser": "./lib/cjs/native.js",
+      "import": "./lib/esm/native.js",
+      "types": "./lib/types/native",
+      "default": "./lib/esm/native.js"
+    },
+    ".": {
+      "react-native": "./lib/esm/native.js",
+      "import": "./lib/esm/index.js",
+      "default": "./lib/cjs/index.js"
+    }
+  },
+  "main": "lib/cjs/index",
+  "react-native": "lib/esm/native",
+  "commonjs": "lib/cjs/index",
+  "module": "lib/esm/index",
   "types": "lib/types/index",
-
   "files": [
     "icons",
     "lib",
