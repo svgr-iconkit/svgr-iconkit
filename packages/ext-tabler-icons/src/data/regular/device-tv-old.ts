@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"device-tv-old","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"rect","attrs":{"x":3,"y":7,"width":18,"height":13,"rx":2}},{"tagName":"path","attrs":{"d":"M16 3l-4 4l-4 -4"}},{"tagName":"path","attrs":{"d":"M15 7v13"}},{"tagName":"path","attrs":{"d":"M18 15v.01"}},{"tagName":"path","attrs":{"d":"M18 12v.01"}}]};
+export default content;

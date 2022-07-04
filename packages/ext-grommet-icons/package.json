@@ -77,7 +77,7 @@
   },
   "scripts": {
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i img -p grommet-icons -o src/data/regular",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i img -p grommet-icons -o src/data/regular --stroke-color currentColor",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",

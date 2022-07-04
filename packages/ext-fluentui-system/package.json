@@ -64,7 +64,7 @@
     "@svgr-iconkit/core": "^0.3.0-beta.15"
   },
   "devDependencies": {
-    "@fluentui/svg-icons": "^1.1.166",
+    "@fluentui/svg-icons": "^1.1.175",
     "@svgr-iconkit/build-config": "^0.3.0-beta.15",
     "@svgr-iconkit/cli": "^0.3.0-beta.15",
     "@types/node": "^15.6.1",

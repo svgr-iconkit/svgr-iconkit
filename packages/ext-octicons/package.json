@@ -58,8 +58,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.15",
-    "ionicons": "^6.0.1"
+    "@svgr-iconkit/core": "^0.3.0-beta.15"
   },
   "devDependencies": {
     "@primer/octicons": "^17.3.0",

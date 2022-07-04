@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"toggle-multiple","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.5 8.5a2 2 0 100-4 2 2 0 000 4zm0-6.5h11a4.5 4.5 0 110 9h-11a4.5 4.5 0 010-9zm11 1.5h-11a3 3 0 000 6h11a3 3 0 100-6zm0 16a2 2 0 100-4 2 2 0 000 4zM2 17.5A4.5 4.5 0 016.5 13h11a4.5 4.5 0 110 9h-11A4.5 4.5 0 012 17.5zm4.5-3a3 3 0 100 6h11a3 3 0 100-6h-11z"}}]};
+export default content;

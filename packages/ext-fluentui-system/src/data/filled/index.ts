@@ -91,6 +91,8 @@ import SVG_arrowMinimize from "./arrow-minimize";
 import SVG_arrowMinimizeVertical from "./arrow-minimize-vertical";
 import SVG_arrowMove from "./arrow-move";
 import SVG_arrowNext from "./arrow-next";
+import SVG_arrowOutlineUpRight from "./arrow-outline-up-right";
+import SVG_arrowParagraph from "./arrow-paragraph";
 import SVG_arrowPrevious from "./arrow-previous";
 import SVG_arrowRedo from "./arrow-redo";
 import SVG_arrowRepeatAll from "./arrow-repeat-all";
@@ -108,6 +110,7 @@ import SVG_arrowSort from "./arrow-sort";
 import SVG_arrowSortDown from "./arrow-sort-down";
 import SVG_arrowSortDownLines from "./arrow-sort-down-lines";
 import SVG_arrowSortUp from "./arrow-sort-up";
+import SVG_arrowSplit from "./arrow-split";
 import SVG_arrowSquareDown from "./arrow-square-down";
 import SVG_arrowStepIn from "./arrow-step-in";
 import SVG_arrowStepInLeft from "./arrow-step-in-left";
@@ -219,6 +222,7 @@ import SVG_borderTopBottomThick from "./border-top-bottom-thick";
 import SVG_bot from "./bot";
 import SVG_botAdd from "./bot-add";
 import SVG_bowlChopsticks from "./bowl-chopsticks";
+import SVG_bowlSalad from "./bowl-salad";
 import SVG_box from "./box";
 import SVG_boxArrowLeft from "./box-arrow-left";
 import SVG_boxArrowUp from "./box-arrow-up";
@@ -259,6 +263,7 @@ import SVG_buildingHome from "./building-home";
 import SVG_buildingMultiple from "./building-multiple";
 import SVG_buildingRetail from "./building-retail";
 import SVG_buildingRetailMoney from "./building-retail-money";
+import SVG_buildingRetailMore from "./building-retail-more";
 import SVG_buildingRetailShield from "./building-retail-shield";
 import SVG_buildingRetailToolbox from "./building-retail-toolbox";
 import SVG_buildingShop from "./building-shop";
@@ -276,6 +281,7 @@ import SVG_calendarCancel from "./calendar-cancel";
 import SVG_calendarChat from "./calendar-chat";
 import SVG_calendarCheckmark from "./calendar-checkmark";
 import SVG_calendarClock from "./calendar-clock";
+import SVG_calendarDataBar from "./calendar-data-bar";
 import SVG_calendarDay from "./calendar-day";
 import SVG_calendarEdit from "./calendar-edit";
 import SVG_calendarEmpty from "./calendar-empty";
@@ -319,6 +325,7 @@ import SVG_caretRight from "./caret-right";
 import SVG_caretUp from "./caret-up";
 import SVG_cart from "./cart";
 import SVG_cast from "./cast";
+import SVG_catchUp from "./catch-up";
 import SVG_cellular_3g from "./cellular-3g";
 import SVG_cellular_4g from "./cellular-4g";
 import SVG_cellular_5g from "./cellular-5g";
@@ -383,16 +390,19 @@ import SVG_class from "./class";
 import SVG_classification from "./classification";
 import SVG_clearFormatting from "./clear-formatting";
 import SVG_clipboard from "./clipboard";
+import SVG_clipboard_3Day from "./clipboard-3-day";
 import SVG_clipboardArrowRight from "./clipboard-arrow-right";
 import SVG_clipboardCheckmark from "./clipboard-checkmark";
 import SVG_clipboardClock from "./clipboard-clock";
 import SVG_clipboardCode from "./clipboard-code";
 import SVG_clipboardDataBar from "./clipboard-data-bar";
+import SVG_clipboardDay from "./clipboard-day";
 import SVG_clipboardError from "./clipboard-error";
 import SVG_clipboardHeart from "./clipboard-heart";
 import SVG_clipboardImage from "./clipboard-image";
 import SVG_clipboardLetter from "./clipboard-letter";
 import SVG_clipboardLink from "./clipboard-link";
+import SVG_clipboardMonth from "./clipboard-month";
 import SVG_clipboardMore from "./clipboard-more";
 import SVG_clipboardPaste from "./clipboard-paste";
 import SVG_clipboardPulse from "./clipboard-pulse";
@@ -402,6 +412,7 @@ import SVG_clipboardTask from "./clipboard-task";
 import SVG_clipboardTaskAdd from "./clipboard-task-add";
 import SVG_clipboardTaskListLtr from "./clipboard-task-list-ltr";
 import SVG_clipboardTaskListRtl from "./clipboard-task-list-rtl";
+import SVG_clipboardTextEdit from "./clipboard-text-edit";
 import SVG_clipboardTextLtr from "./clipboard-text-ltr";
 import SVG_clipboardTextRtl from "./clipboard-text-rtl";
 import SVG_clock from "./clock";
@@ -461,6 +472,8 @@ import SVG_contactCard from "./contact-card";
 import SVG_contactCardGroup from "./contact-card-group";
 import SVG_contactCardRibbon from "./contact-card-ribbon";
 import SVG_contentSettings from "./content-settings";
+import SVG_contentView from "./content-view";
+import SVG_contentViewGallery from "./content-view-gallery";
 import SVG_contractDownLeft from "./contract-down-left";
 import SVG_controlButton from "./control-button";
 import SVG_convertRange from "./convert-range";
@@ -469,6 +482,7 @@ import SVG_copy from "./copy";
 import SVG_copyAdd from "./copy-add";
 import SVG_copyArrowRight from "./copy-arrow-right";
 import SVG_couch from "./couch";
+import SVG_creditCardClock from "./credit-card-clock";
 import SVG_creditCardPerson from "./credit-card-person";
 import SVG_creditCardToolbox from "./credit-card-toolbox";
 import SVG_crop from "./crop";
@@ -561,6 +575,7 @@ import SVG_documentCheckmark from "./document-checkmark";
 import SVG_documentChevronDouble from "./document-chevron-double";
 import SVG_documentCopy from "./document-copy";
 import SVG_documentCss from "./document-css";
+import SVG_documentData from "./document-data";
 import SVG_documentDismiss from "./document-dismiss";
 import SVG_documentEdit from "./document-edit";
 import SVG_documentEndnote from "./document-endnote";
@@ -667,6 +682,7 @@ import SVG_dualScreenVerticalScroll from "./dual-screen-vertical-scroll";
 import SVG_dualScreenVibrate from "./dual-screen-vibrate";
 import SVG_dumbbell from "./dumbbell";
 import SVG_earth from "./earth";
+import SVG_earthLeaf from "./earth-leaf";
 import SVG_edit from "./edit";
 import SVG_editOff from "./edit-off";
 import SVG_editProhibited from "./edit-prohibited";
@@ -705,6 +721,8 @@ import SVG_eyedropperOff from "./eyedropper-off";
 import SVG_fStop from "./f-stop";
 import SVG_fastAcceleration from "./fast-acceleration";
 import SVG_fastForward from "./fast-forward";
+import SVG_feed from "./feed";
+import SVG_filmstrip from "./filmstrip";
 import SVG_filter from "./filter";
 import SVG_filterDismiss from "./filter-dismiss";
 import SVG_filterSync from "./filter-sync";
@@ -735,6 +753,7 @@ import SVG_folderArrowUp from "./folder-arrow-up";
 import SVG_folderLink from "./folder-link";
 import SVG_folderMail from "./folder-mail";
 import SVG_folderOpen from "./folder-open";
+import SVG_folderPeople from "./folder-people";
 import SVG_folderProhibited from "./folder-prohibited";
 import SVG_folderSwap from "./folder-swap";
 import SVG_folderSync from "./folder-sync";
@@ -746,10 +765,13 @@ import SVG_fontSpaceTrackingOut from "./font-space-tracking-out";
 import SVG_food from "./food";
 import SVG_foodApple from "./food-apple";
 import SVG_foodCake from "./food-cake";
+import SVG_foodCarrot from "./food-carrot";
 import SVG_foodEgg from "./food-egg";
+import SVG_foodFish from "./food-fish";
 import SVG_foodGrains from "./food-grains";
 import SVG_foodPizza from "./food-pizza";
 import SVG_foodToast from "./food-toast";
+import SVG_form from "./form";
 import SVG_formNew from "./form-new";
 import SVG_fps_120 from "./fps-120";
 import SVG_fps_240 from "./fps-240";
@@ -798,7 +820,9 @@ import SVG_guestAdd from "./guest-add";
 import SVG_guitar from "./guitar";
 import SVG_handDraw from "./hand-draw";
 import SVG_handLeft from "./hand-left";
+import SVG_handLeftChat from "./hand-left-chat";
 import SVG_handRight from "./hand-right";
+import SVG_handWave from "./hand-wave";
 import SVG_handshake from "./handshake";
 import SVG_hatGraduation from "./hat-graduation";
 import SVG_hd from "./hd";
@@ -819,6 +843,8 @@ import SVG_historyDismiss from "./history-dismiss";
 import SVG_home from "./home";
 import SVG_homeAdd from "./home-add";
 import SVG_homeCheckmark from "./home-checkmark";
+import SVG_homeDatabase from "./home-database";
+import SVG_homeMore from "./home-more";
 import SVG_homePerson from "./home-person";
 import SVG_icons from "./icons";
 import SVG_image from "./image";
@@ -942,6 +968,8 @@ import SVG_merge from "./merge";
 import SVG_mic from "./mic";
 import SVG_micOff from "./mic-off";
 import SVG_micProhibited from "./mic-prohibited";
+import SVG_micPulse from "./mic-pulse";
+import SVG_micPulseOff from "./mic-pulse-off";
 import SVG_micSettings from "./mic-settings";
 import SVG_micSparkle from "./mic-sparkle";
 import SVG_microscope from "./microscope";
@@ -1059,6 +1087,7 @@ import SVG_personClock from "./person-clock";
 import SVG_personDelete from "./person-delete";
 import SVG_personEdit from "./person-edit";
 import SVG_personFeedback from "./person-feedback";
+import SVG_personHeart from "./person-heart";
 import SVG_personLightbulb from "./person-lightbulb";
 import SVG_personLock from "./person-lock";
 import SVG_personMail from "./person-mail";
@@ -1067,6 +1096,7 @@ import SVG_personNote from "./person-note";
 import SVG_personPill from "./person-pill";
 import SVG_personProhibited from "./person-prohibited";
 import SVG_personQuestionMark from "./person-question-mark";
+import SVG_personStar from "./person-star";
 import SVG_personSupport from "./person-support";
 import SVG_personSwap from "./person-swap";
 import SVG_personSync from "./person-sync";
@@ -1102,6 +1132,7 @@ import SVG_pictureInPictureExit from "./picture-in-picture-exit";
 import SVG_pill from "./pill";
 import SVG_pin from "./pin";
 import SVG_pinOff from "./pin-off";
+import SVG_pipeline from "./pipeline";
 import SVG_pivot from "./pivot";
 import SVG_play from "./play";
 import SVG_playCircle from "./play-circle";
@@ -1250,6 +1281,7 @@ import SVG_shieldBadge from "./shield-badge";
 import SVG_shieldCheckmark from "./shield-checkmark";
 import SVG_shieldDismiss from "./shield-dismiss";
 import SVG_shieldError from "./shield-error";
+import SVG_shieldGlobe from "./shield-globe";
 import SVG_shieldKeyhole from "./shield-keyhole";
 import SVG_shieldLock from "./shield-lock";
 import SVG_shieldProhibited from "./shield-prohibited";
@@ -1287,6 +1319,7 @@ import SVG_slideEraser from "./slide-eraser";
 import SVG_slideGrid from "./slide-grid";
 import SVG_slideHide from "./slide-hide";
 import SVG_slideLayout from "./slide-layout";
+import SVG_slideLink from "./slide-link";
 import SVG_slideMicrophone from "./slide-microphone";
 import SVG_slideMultiple from "./slide-multiple";
 import SVG_slideMultipleArrowRight from "./slide-multiple-arrow-right";
@@ -1441,13 +1474,23 @@ import SVG_textAddSpaceAfter from "./text-add-space-after";
 import SVG_textAddSpaceBefore from "./text-add-space-before";
 import SVG_textAddT from "./text-add-t";
 import SVG_textAlignCenter from "./text-align-center";
+import SVG_textAlignCenterRotate_270 from "./text-align-center-rotate-270";
+import SVG_textAlignCenterRotate_90 from "./text-align-center-rotate-90";
 import SVG_textAlignDistributed from "./text-align-distributed";
 import SVG_textAlignDistributedEvenly from "./text-align-distributed-evenly";
 import SVG_textAlignDistributedVertical from "./text-align-distributed-vertical";
 import SVG_textAlignJustify from "./text-align-justify";
 import SVG_textAlignJustifyLow from "./text-align-justify-low";
+import SVG_textAlignJustifyLowRotate_270 from "./text-align-justify-low-rotate-270";
+import SVG_textAlignJustifyLowRotate_90 from "./text-align-justify-low-rotate-90";
+import SVG_textAlignJustifyRotate_270 from "./text-align-justify-rotate-270";
+import SVG_textAlignJustifyRotate_90 from "./text-align-justify-rotate-90";
 import SVG_textAlignLeft from "./text-align-left";
+import SVG_textAlignLeftRotate_270 from "./text-align-left-rotate-270";
+import SVG_textAlignLeftRotate_90 from "./text-align-left-rotate-90";
 import SVG_textAlignRight from "./text-align-right";
+import SVG_textAlignRightRotate_270 from "./text-align-right-rotate-270";
+import SVG_textAlignRightRotate_90 from "./text-align-right-rotate-90";
 import SVG_textBold from "./text-bold";
 import SVG_textBoxSettings from "./text-box-settings";
 import SVG_textBulletListAdd from "./text-bullet-list-add";
@@ -1563,6 +1606,7 @@ import SVG_timer_2 from "./timer-2";
 import SVG_timer_3 from "./timer-3";
 import SVG_timerOff from "./timer-off";
 import SVG_toggleLeft from "./toggle-left";
+import SVG_toggleMultiple from "./toggle-multiple";
 import SVG_toggleRight from "./toggle-right";
 import SVG_toolbox from "./toolbox";
 import SVG_tooltipQuote from "./tooltip-quote";
@@ -1664,12 +1708,14 @@ import SVG_windowWrench from "./window-wrench";
 import SVG_wrench from "./wrench";
 import SVG_wrenchScrewdriver from "./wrench-screwdriver";
 import SVG_xboxConsole from "./xbox-console";
+import SVG_xboxController from "./xbox-controller";
 import SVG_xray from "./xray";
+import SVG_zoomFit from "./zoom-fit";
 import SVG_zoomIn from "./zoom-in";
 import SVG_zoomOut from "./zoom-out"
 
 // types
-export type IconNames = "access-time" | "accessibility" | "accessibility-checkmark" | "add" | "add-circle" | "add-square" | "add-subtract-circle" | "airplane" | "airplane-take-off" | "album" | "album-add" | "alert" | "alert-badge" | "alert-off" | "alert-on" | "alert-snooze" | "alert-urgent" | "align-bottom" | "align-center-horizontal" | "align-center-vertical" | "align-left" | "align-right" | "align-top" | "animal-cat" | "animal-dog" | "animal-rabbit" | "animal-turtle" | "app-folder" | "app-generic" | "app-recent" | "app-store" | "app-title" | "approvals-app" | "apps" | "apps-add-in" | "apps-list" | "apps-list-detail" | "archive" | "archive-arrow-back" | "archive-multiple" | "archive-settings" | "arrow-autofit-content" | "arrow-autofit-down" | "arrow-autofit-height" | "arrow-autofit-height-dotted" | "arrow-autofit-up" | "arrow-autofit-width" | "arrow-autofit-width-dotted" | "arrow-between-down" | "arrow-bidirectional-up-down" | "arrow-bounce" | "arrow-circle-down" | "arrow-circle-down-double" | "arrow-circle-down-right" | "arrow-circle-down-split" | "arrow-circle-left" | "arrow-circle-right" | "arrow-circle-up" | "arrow-circle-up-left" | "arrow-clockwise" | "arrow-clockwise-dashes" | "arrow-collapse-all" | "arrow-counterclockwise" | "arrow-counterclockwise-dashes" | "arrow-curve-down-left" | "arrow-down" | "arrow-down-left" | "arrow-download" | "arrow-enter-left" | "arrow-enter-up" | "arrow-expand" | "arrow-export-ltr" | "arrow-export-rtl" | "arrow-export-up" | "arrow-forward" | "arrow-forward-down-lightning" | "arrow-forward-down-person" | "arrow-hook-down-left" | "arrow-hook-down-right" | "arrow-hook-up-left" | "arrow-hook-up-right" | "arrow-import" | "arrow-left" | "arrow-maximize" | "arrow-maximize-vertical" | "arrow-minimize" | "arrow-minimize-vertical" | "arrow-move" | "arrow-next" | "arrow-previous" | "arrow-redo" | "arrow-repeat-all" | "arrow-repeat-all-off" | "arrow-reply" | "arrow-reply-all" | "arrow-reply-down" | "arrow-reset" | "arrow-right" | "arrow-rotate-clockwise" | "arrow-rotate-counterclockwise" | "arrow-routing" | "arrow-routing-rectangle-multiple" | "arrow-sort" | "arrow-sort-down" | "arrow-sort-down-lines" | "arrow-sort-up" | "arrow-square-down" | "arrow-step-in" | "arrow-step-in-left" | "arrow-step-in-right" | "arrow-step-out" | "arrow-swap" | "arrow-sync" | "arrow-sync-checkmark" | "arrow-sync-circle" | "arrow-sync-dismiss" | "arrow-trending" | "arrow-trending-checkmark" | "arrow-trending-down" | "arrow-trending-lines" | "arrow-trending-settings" | "arrow-trending-text" | "arrow-trending-wrench" | "arrow-turn-bidirectional-down-right" | "arrow-turn-right" | "arrow-undo" | "arrow-up" | "arrow-up-left" | "arrow-up-right" | "arrow-upload" | "arrows-bidirectional" | "attach" | "attach-arrow-right" | "attach-text" | "auto-fit-height" | "auto-fit-width" | "autocorrect" | "autosum" | "backpack" | "backpack-add" | "backspace" | "badge" | "balloon" | "barcode-scanner" | "battery-0" | "battery-10" | "battery-1" | "battery-2" | "battery-3" | "battery-4" | "battery-5" | "battery-6" | "battery-7" | "battery-8" | "battery-9" | "battery-charge" | "battery-checkmark" | "battery-saver" | "battery-warning" | "beach" | "beaker" | "beaker-edit" | "bed" | "bin-full" | "bluetooth" | "bluetooth-connected" | "bluetooth-disabled" | "bluetooth-searching" | "blur" | "board" | "board-heart" | "board-split" | "book" | "book-add" | "book-arrow-clockwise" | "book-clock" | "book-coins" | "book-compass" | "book-contacts" | "book-database" | "book-exclamation-mark" | "book-globe" | "book-information" | "book-letter" | "book-number" | "book-open" | "book-open-globe" | "book-open-microphone" | "book-pulse" | "book-question-mark" | "book-question-mark-rtl" | "book-search" | "book-star" | "book-theta" | "book-toolbox" | "bookmark" | "bookmark-add" | "bookmark-multiple" | "bookmark-off" | "bookmark-search" | "border-all" | "border-bottom" | "border-bottom-double" | "border-bottom-thick" | "border-left" | "border-left-right" | "border-none" | "border-outside" | "border-outside-thick" | "border-right" | "border-top" | "border-top-bottom" | "border-top-bottom-double" | "border-top-bottom-thick" | "bot" | "bot-add" | "bowl-chopsticks" | "box" | "box-arrow-left" | "box-arrow-up" | "box-checkmark" | "box-dismiss" | "box-edit" | "box-multiple" | "box-multiple-arrow-left" | "box-multiple-arrow-right" | "box-multiple-checkmark" | "box-multiple-search" | "box-search" | "box-toolbox" | "braces" | "braces-variable" | "brain-circuit" | "branch" | "branch-compare" | "branch-fork" | "branch-fork-hint" | "branch-fork-link" | "breakout-room" | "briefcase" | "briefcase-medical" | "briefcase-off" | "brightness-high" | "brightness-low" | "broad-activity-feed" | "broom" | "bug" | "building" | "building-bank" | "building-bank-link" | "building-bank-toolbox" | "building-factory" | "building-government" | "building-home" | "building-multiple" | "building-retail" | "building-retail-money" | "building-retail-shield" | "building-retail-toolbox" | "building-shop" | "building-skyscraper" | "calculator" | "calculator-arrow-clockwise" | "calculator-multiple" | "calendar-3-day" | "calendar-add" | "calendar-agenda" | "calendar-arrow-down" | "calendar-arrow-right" | "calendar-assistant" | "calendar-cancel" | "calendar-chat" | "calendar-checkmark" | "calendar-clock" | "calendar-day" | "calendar-edit" | "calendar-empty" | "calendar-error" | "calendar-ltr" | "calendar-month" | "calendar-multiple" | "calendar-person" | "calendar-question-mark" | "calendar-reply" | "calendar-rtl" | "calendar-star" | "calendar-sync" | "calendar-today" | "calendar-toolbox" | "calendar-week-numbers" | "calendar-week-start" | "calendar-work-week" | "call" | "call-add" | "call-checkmark" | "call-dismiss" | "call-end" | "call-forward" | "call-inbound" | "call-missed" | "call-outbound" | "call-park" | "call-pause" | "call-prohibited" | "calligraphy-pen" | "camera" | "camera-add" | "camera-dome" | "camera-off" | "camera-switch" | "caret-down" | "caret-down-right" | "caret-left" | "caret-right" | "caret-up" | "cart" | "cast" | "cellular-3g" | "cellular-4g" | "cellular-5g" | "cellular-data-1" | "cellular-data-2" | "cellular-data-3" | "cellular-data-4" | "cellular-data-5" | "cellular-off" | "cellular-warning" | "center-horizontal" | "center-vertical" | "certificate" | "channel" | "channel-add" | "channel-alert" | "channel-arrow-left" | "channel-dismiss" | "channel-share" | "channel-subtract" | "chart-multiple" | "chart-person" | "chat" | "chat-bubbles-question" | "chat-dismiss" | "chat-help" | "chat-multiple" | "chat-off" | "chat-settings" | "chat-video" | "chat-warning" | "check" | "checkbox-1" | "checkbox-2" | "checkbox-arrow-right" | "checkbox-checked" | "checkbox-indeterminate" | "checkbox-person" | "checkbox-unchecked" | "checkbox-warning" | "checkmark" | "checkmark-circle" | "checkmark-lock" | "checkmark-square" | "checkmark-starburst" | "chevron-circle-down" | "chevron-circle-left" | "chevron-circle-right" | "chevron-circle-up" | "chevron-down" | "chevron-left" | "chevron-right" | "chevron-up" | "chevron-up-down" | "circle" | "circle-edit" | "circle-half-fill" | "circle-line" | "circle-small" | "city" | "class" | "classification" | "clear-formatting" | "clipboard" | "clipboard-arrow-right" | "clipboard-checkmark" | "clipboard-clock" | "clipboard-code" | "clipboard-data-bar" | "clipboard-error" | "clipboard-heart" | "clipboard-image" | "clipboard-letter" | "clipboard-link" | "clipboard-more" | "clipboard-paste" | "clipboard-pulse" | "clipboard-search" | "clipboard-settings" | "clipboard-task" | "clipboard-task-add" | "clipboard-task-list-ltr" | "clipboard-task-list-rtl" | "clipboard-text-ltr" | "clipboard-text-rtl" | "clock" | "clock-alarm" | "clock-arrow-download" | "clock-dismiss" | "clock-pause" | "clock-toolbox" | "closed-caption" | "closed-caption-off" | "cloud" | "cloud-archive" | "cloud-arrow-down" | "cloud-arrow-up" | "cloud-checkmark" | "cloud-dismiss" | "cloud-flow" | "cloud-off" | "cloud-swap" | "cloud-sync" | "cloud-words" | "code" | "collections" | "collections-add" | "color" | "color-background" | "color-fill" | "color-line" | "column-edit" | "column-triple" | "column-triple-edit" | "comma" | "comment" | "comment-add" | "comment-arrow-left" | "comment-arrow-right" | "comment-checkmark" | "comment-dismiss" | "comment-edit" | "comment-error" | "comment-lightning" | "comment-mention" | "comment-multiple" | "comment-multiple-checkmark" | "comment-multiple-link" | "comment-note" | "comment-off" | "communication" | "communication-person" | "compass-northwest" | "component-2-double-tap-swipe-down" | "component-2-double-tap-swipe-up" | "compose" | "conference-room" | "connector" | "contact-card" | "contact-card-group" | "contact-card-ribbon" | "content-settings" | "contract-down-left" | "control-button" | "convert-range" | "cookies" | "copy" | "copy-add" | "copy-arrow-right" | "couch" | "credit-card-person" | "credit-card-toolbox" | "crop" | "crop-interim" | "crop-interim-off" | "cube" | "cube-multiple" | "cube-quick" | "cube-sync" | "cube-tree" | "currency-dollar-euro" | "currency-dollar-rupee" | "cursor" | "cursor-click" | "cursor-hover" | "cursor-hover-off" | "cut" | "dark-theme" | "data-area" | "data-bar-horizontal" | "data-bar-vertical" | "data-bar-vertical-add" | "data-funnel" | "data-histogram" | "data-line" | "data-pie" | "data-scatter" | "data-sunburst" | "data-treemap" | "data-trending" | "data-usage" | "data-usage-edit" | "data-usage-toolbox" | "data-waterfall" | "data-whisker" | "database" | "database-link" | "database-person" | "database-search" | "decimal-arrow-left" | "decimal-arrow-right" | "delete" | "delete-dismiss" | "delete-off" | "dentist" | "design-ideas" | "desktop" | "desktop-arrow-right" | "desktop-cursor" | "desktop-edit" | "desktop-flow" | "desktop-keyboard" | "desktop-mac" | "desktop-pulse" | "desktop-signal" | "desktop-speaker" | "desktop-speaker-off" | "desktop-sync" | "desktop-toolbox" | "developer-board" | "developer-board-search" | "device-eq" | "device-meeting-room" | "device-meeting-room-remote" | "diagram" | "dialpad" | "dialpad-off" | "diamond" | "directions" | "dismiss" | "dismiss-circle" | "dismiss-square" | "diversity" | "divider-short" | "divider-tall" | "dock" | "dock-row" | "doctor" | "document" | "document-add" | "document-arrow-left" | "document-arrow-right" | "document-briefcase" | "document-bullet-list" | "document-bullet-list-clock" | "document-bullet-list-multiple" | "document-bullet-list-off" | "document-catch-up" | "document-checkmark" | "document-chevron-double" | "document-copy" | "document-css" | "document-dismiss" | "document-edit" | "document-endnote" | "document-error" | "document-flowchart" | "document-footer" | "document-footer-dismiss" | "document-header" | "document-header-arrow-down" | "document-header-dismiss" | "document-header-footer" | "document-heart" | "document-heart-pulse" | "document-javascript" | "document-landscape" | "document-landscape-data" | "document-landscape-split" | "document-link" | "document-lock" | "document-margins" | "document-mention" | "document-multiple" | "document-multiple-percent" | "document-multiple-prohibited" | "document-one-page" | "document-page-bottom-center" | "document-page-bottom-left" | "document-page-bottom-right" | "document-page-break" | "document-page-number" | "document-page-top-center" | "document-page-top-left" | "document-page-top-right" | "document-pdf" | "document-percent" | "document-pill" | "document-prohibited" | "document-question-mark" | "document-queue" | "document-queue-add" | "document-queue-multiple" | "document-ribbon" | "document-save" | "document-search" | "document-split-hint" | "document-split-hint-off" | "document-sync" | "document-table" | "document-table-arrow-right" | "document-table-checkmark" | "document-table-cube" | "document-table-search" | "document-table-truck" | "document-text" | "document-text-clock" | "document-text-extract" | "document-text-link" | "document-text-toolbox" | "document-toolbox" | "document-width" | "door-arrow-left" | "door-tag" | "double-swipe-down" | "double-swipe-up" | "double-tap-swipe-down" | "double-tap-swipe-up" | "drafts" | "drag" | "draw-image" | "draw-shape" | "draw-text" | "drawer-add" | "drawer-arrow-download" | "drawer-dismiss" | "drawer-play" | "drawer-subtract" | "drink-beer" | "drink-coffee" | "drink-margarita" | "drink-to-go" | "drink-wine" | "drive-train" | "drop" | "dual-screen" | "dual-screen-add" | "dual-screen-arrow-right" | "dual-screen-arrow-up" | "dual-screen-clock" | "dual-screen-closed-alert" | "dual-screen-desktop" | "dual-screen-dismiss" | "dual-screen-group" | "dual-screen-header" | "dual-screen-lock" | "dual-screen-mirror" | "dual-screen-pagination" | "dual-screen-settings" | "dual-screen-span" | "dual-screen-speaker" | "dual-screen-status-bar" | "dual-screen-tablet" | "dual-screen-update" | "dual-screen-vertical-scroll" | "dual-screen-vibrate" | "dumbbell" | "earth" | "edit" | "edit-off" | "edit-prohibited" | "edit-settings" | "emoji" | "emoji-add" | "emoji-angry" | "emoji-edit" | "emoji-hand" | "emoji-laugh" | "emoji-meh" | "emoji-multiple" | "emoji-sad" | "emoji-sad-slight" | "emoji-smile-slight" | "emoji-sparkle" | "emoji-surprise" | "engine" | "equal-circle" | "equal-off" | "eraser" | "eraser-medium" | "eraser-segment" | "eraser-small" | "eraser-tool" | "error-circle" | "expand-up-left" | "expand-up-right" | "extended-dock" | "eye" | "eye-off" | "eye-tracking" | "eye-tracking-off" | "eyedropper" | "eyedropper-off" | "f-stop" | "fast-acceleration" | "fast-forward" | "filter" | "filter-dismiss" | "filter-sync" | "fingerprint" | "fixed-width" | "flag" | "flag-off" | "flag-pride" | "flash" | "flash-auto" | "flash-checkmark" | "flash-flow" | "flash-off" | "flash-settings" | "flashlight" | "flashlight-off" | "flip-horizontal" | "flip-vertical" | "flowchart" | "flowchart-circle" | "fluent" | "fluid" | "folder" | "folder-add" | "folder-arrow-left" | "folder-arrow-right" | "folder-arrow-up" | "folder-link" | "folder-mail" | "folder-open" | "folder-prohibited" | "folder-swap" | "folder-sync" | "folder-zip" | "font-decrease" | "font-increase" | "font-space-tracking-in" | "font-space-tracking-out" | "food" | "food-apple" | "food-cake" | "food-egg" | "food-grains" | "food-pizza" | "food-toast" | "form-new" | "fps-120" | "fps-240" | "fps-30" | "fps-60" | "fps-960" | "full-screen-maximize" | "full-screen-minimize" | "games" | "gantt-chart" | "gas" | "gas-pump" | "gauge" | "gavel" | "gesture" | "gif" | "gift" | "gift-card" | "gift-card-add" | "gift-card-arrow-right" | "gift-card-money" | "gift-card-multiple" | "glance" | "glance-horizontal" | "glasses" | "glasses-off" | "globe" | "globe-add" | "globe-clock" | "globe-desktop" | "globe-location" | "globe-person" | "globe-search" | "globe-shield" | "globe-surface" | "globe-video" | "grid" | "grid-dots" | "group" | "group-dismiss" | "group-list" | "group-return" | "guardian" | "guest" | "guest-add" | "guitar" | "hand-draw" | "hand-left" | "hand-right" | "handshake" | "hat-graduation" | "hd" | "hdr" | "hdr-off" | "headphones" | "headphones-sound-wave" | "headset" | "headset-add" | "headset-vr" | "heart" | "heart-circle" | "heart-pulse" | "highlight" | "highlight-accent" | "history" | "history-dismiss" | "home" | "home-add" | "home-checkmark" | "home-person" | "icons" | "image" | "image-add" | "image-alt-text" | "image-arrow-back" | "image-arrow-counterclockwise" | "image-arrow-forward" | "image-copy" | "image-edit" | "image-globe" | "image-multiple" | "image-off" | "image-prohibited" | "image-reflection" | "image-search" | "image-shadow" | "immersive-reader" | "important" | "incognito" | "info" | "ink-stroke" | "inking-tool" | "inking-tool-accent" | "inprivate-account" | "ios-arrow-ltr" | "ios-arrow-rtl" | "iot" | "javascript" | "key" | "key-command" | "key-reset" | "keyboard-123" | "keyboard" | "keyboard-dock" | "keyboard-layout-float" | "keyboard-layout-one-handed-left" | "keyboard-layout-resize" | "keyboard-layout-split" | "keyboard-shift" | "keyboard-shift-uppercase" | "keyboard-tab" | "laptop" | "lasso" | "launcher-settings" | "layer" | "leaf-one" | "leaf-three" | "leaf-two" | "learning-app" | "library" | "lightbulb" | "lightbulb-circle" | "lightbulb-filament" | "likert" | "line" | "line-dashes" | "line-style" | "link" | "link-dismiss" | "link-edit" | "link-square" | "list" | "live" | "live-off" | "local-language" | "location" | "location-add" | "location-dismiss" | "location-live" | "location-off" | "lock-closed" | "lock-multiple" | "lock-open" | "lock-shield" | "lottery" | "luggage" | "mail" | "mail-add" | "mail-alert" | "mail-all-read" | "mail-arrow-up" | "mail-attach" | "mail-clock" | "mail-copy" | "mail-dismiss" | "mail-edit" | "mail-error" | "mail-inbox" | "mail-inbox-add" | "mail-inbox-all" | "mail-inbox-arrow-right" | "mail-inbox-arrow-up" | "mail-inbox-checkmark" | "mail-inbox-dismiss" | "mail-link" | "mail-list" | "mail-multiple" | "mail-off" | "mail-open-person" | "mail-prohibited" | "mail-read" | "mail-read-multiple" | "mail-template" | "mail-unread" | "mail-warning" | "map" | "map-drive" | "match-app-layout" | "math-format-linear" | "math-format-professional" | "math-formula" | "math-symbols" | "maximize" | "meet-now" | "megaphone" | "megaphone-loud" | "megaphone-off" | "mention" | "merge" | "mic" | "mic-off" | "mic-prohibited" | "mic-settings" | "mic-sparkle" | "microscope" | "midi" | "mobile-optimized" | "molecule" | "money" | "money-calculator" | "money-dismiss" | "money-hand" | "money-off" | "more-horizontal" | "more-vertical" | "movies-and-tv" | "multiplier-1-2x" | "multiplier-1-5x" | "multiplier-1-8x" | "multiplier-1x" | "multiplier-2x" | "multiplier-5x" | "multiselect-ltr" | "multiselect-rtl" | "music-note-1" | "music-note-2" | "music-note-off-1" | "music-note-off-2" | "my-location" | "navigation" | "navigation-unread" | "network-check" | "new" | "news" | "next" | "note" | "note-add" | "note-edit" | "notebook" | "notebook-add" | "notebook-error" | "notebook-lightning" | "notebook-question-mark" | "notebook-section" | "notebook-section-arrow-right" | "notebook-subsection" | "notebook-sync" | "notepad" | "notepad-person" | "number-circle-1" | "number-row" | "number-symbol" | "number-symbol-dismiss" | "number-symbol-square" | "open" | "open-folder" | "open-off" | "options" | "organization" | "orientation" | "oval" | "padding-down" | "padding-left" | "padding-right" | "padding-top" | "page-fit" | "paint-brush" | "paint-brush-arrow-down" | "paint-brush-arrow-up" | "paint-bucket" | "pair" | "panel-left" | "panel-left-contract" | "panel-left-expand" | "panel-left-focus-right" | "panel-right" | "panel-right-contract" | "password" | "patch" | "patient" | "pause" | "pause-circle" | "payment" | "pen" | "pen-off" | "pen-prohibited" | "people" | "people-add" | "people-audience" | "people-checkmark" | "people-community" | "people-community-add" | "people-error" | "people-list" | "people-lock" | "people-money" | "people-prohibited" | "people-queue" | "people-search" | "people-settings" | "people-swap" | "people-team" | "people-team-add" | "people-team-delete" | "people-team-toolbox" | "person" | "person-accounts" | "person-add" | "person-arrow-left" | "person-arrow-right" | "person-available" | "person-board" | "person-call" | "person-chat" | "person-circle" | "person-clock" | "person-delete" | "person-edit" | "person-feedback" | "person-lightbulb" | "person-lock" | "person-mail" | "person-money" | "person-note" | "person-pill" | "person-prohibited" | "person-question-mark" | "person-support" | "person-swap" | "person-sync" | "person-tag" | "person-voice" | "phone" | "phone-add" | "phone-arrow-right" | "phone-desktop" | "phone-dismiss" | "phone-key" | "phone-laptop" | "phone-link-setup" | "phone-lock" | "phone-page-header" | "phone-pagination" | "phone-screen-time" | "phone-shake" | "phone-span-in" | "phone-span-out" | "phone-speaker" | "phone-status-bar" | "phone-tablet" | "phone-update" | "phone-update-checkmark" | "phone-vertical-scroll" | "phone-vibrate" | "photo-filter" | "pi" | "picture-in-picture" | "picture-in-picture-enter" | "picture-in-picture-exit" | "pill" | "pin" | "pin-off" | "pivot" | "play" | "play-circle" | "plug-connected" | "plug-disconnected" | "point-scan" | "poll" | "port-hdmi" | "port-micro-usb" | "port-usb-a" | "port-usb-c" | "position-backward" | "position-forward" | "position-to-back" | "position-to-front" | "power" | "predictions" | "premium" | "premium-person" | "presence-available" | "presence-away" | "presence-busy" | "presence-dnd" | "presenter" | "presenter-off" | "preview-link" | "previous" | "print" | "print-add" | "production" | "production-checkmark" | "prohibited" | "prohibited-multiple" | "projection-screen" | "projection-screen-dismiss" | "protocol-handler" | "pulse" | "pulse-square" | "puzzle-cube" | "puzzle-piece" | "qr-code" | "question" | "question-circle" | "quiz-new" | "radio-button" | "rating-mature" | "ratio-one-to-one" | "re-order" | "re-order-dots-horizontal" | "re-order-dots-vertical" | "read-aloud" | "reading-list" | "reading-list-add" | "reading-mode-mobile" | "real-estate" | "receipt" | "receipt-add" | "receipt-bag" | "receipt-cube" | "receipt-money" | "receipt-play" | "record" | "record-stop" | "rectangle-landscape" | "rename" | "resize" | "resize-image" | "resize-large" | "resize-small" | "resize-table" | "resize-video" | "reward" | "rewind" | "rhombus" | "ribbon" | "ribbon-add" | "ribbon-off" | "ribbon-star" | "road-cone" | "rocket" | "rotate-left" | "rotate-right" | "router" | "row-triple" | "rss" | "ruler" | "run" | "sanitize" | "save" | "save-arrow-right" | "save-copy" | "save-edit" | "save-multiple" | "savings" | "scale-fill" | "scale-fit" | "scales" | "scan" | "scan-camera" | "scan-dash" | "scan-object" | "scan-table" | "scan-text" | "scan-thumb-up" | "scan-thumb-up-off" | "scan-type" | "scan-type-checkmark" | "scratchpad" | "screen-search" | "screenshot" | "search" | "search-info" | "search-square" | "search-visual" | "select-all-off" | "select-all-on" | "select-object" | "select-object-skew" | "select-object-skew-dismiss" | "select-object-skew-edit" | "send" | "send-clock" | "send-copy" | "serial-port" | "server" | "service-bell" | "settings" | "settings-chat" | "shape-exclude" | "shape-intersect" | "shape-subtract" | "shape-union" | "shapes" | "share" | "share-android" | "share-close-tray" | "share-ios" | "share-screen-person" | "share-screen-person-overlay" | "share-screen-person-overlay-inside" | "share-screen-person-p" | "share-screen-start" | "share-screen-stop" | "shield" | "shield-badge" | "shield-checkmark" | "shield-dismiss" | "shield-error" | "shield-keyhole" | "shield-lock" | "shield-prohibited" | "shield-task" | "shifts" | "shifts-30-minutes" | "shifts-activity" | "shifts-add" | "shifts-availability" | "shifts-checkmark" | "shifts-day" | "shifts-open" | "shifts-prohibited" | "shifts-question-mark" | "shifts-team" | "shopping-bag" | "shopping-bag-arrow-left" | "shopping-bag-dismiss" | "shopping-bag-pause" | "shopping-bag-percent" | "shopping-bag-play" | "shopping-bag-tag" | "shortpick" | "sign-out" | "signature" | "sim" | "skip-back-10" | "skip-forward-10" | "skip-forward-30" | "skip-forward-tab" | "sleep" | "slide-add" | "slide-arrow-right" | "slide-eraser" | "slide-grid" | "slide-hide" | "slide-layout" | "slide-microphone" | "slide-multiple" | "slide-multiple-arrow-right" | "slide-multiple-search" | "slide-search" | "slide-settings" | "slide-size" | "slide-text" | "slide-transition" | "smartwatch" | "smartwatch-dot" | "snooze" | "sound-source" | "sound-wave-circle" | "spacebar" | "sparkle" | "speaker-0" | "speaker-1" | "speaker-2" | "speaker-bluetooth" | "speaker-edit" | "speaker-mute" | "speaker-off" | "speaker-settings" | "speaker-usb" | "split-horizontal" | "split-vertical" | "sport" | "sport-american-football" | "sport-baseball" | "sport-basketball" | "sport-hockey" | "sport-soccer" | "square" | "square-arrow-forward" | "square-hint" | "square-hint-apps" | "square-hint-sparkles" | "square-multiple" | "stack" | "stack-arrow-forward" | "stack-star" | "star" | "star-add" | "star-arrow-right-end" | "star-arrow-right-start" | "star-dismiss" | "star-edit" | "star-emphasis" | "star-half" | "star-line-horizontal-3" | "star-off" | "star-one-quarter" | "star-prohibited" | "star-settings" | "star-three-quarter" | "status" | "steps" | "stethoscope" | "sticker" | "sticker-add" | "stop" | "storage" | "store-microsoft" | "stream" | "style-guide" | "sub-grid" | "subtitles" | "subtract" | "subtract-circle" | "subtract-square" | "surface-earbuds" | "surface-hub" | "swipe-down" | "swipe-right" | "swipe-up" | "symbols" | "syringe" | "system" | "tab" | "tab-add" | "tab-arrow-left" | "tab-desktop" | "tab-desktop-arrow-clockwise" | "tab-desktop-bottom" | "tab-desktop-image" | "tab-desktop-multiple-bottom" | "tab-in-private" | "tab-inprivate-account" | "tab-prohibited" | "tab-shield-dismiss" | "table" | "table-add" | "table-bottom-row" | "table-cell-edit" | "table-cells-merge" | "table-cells-split" | "table-delete-column" | "table-delete-row" | "table-dismiss" | "table-edit" | "table-freeze-column" | "table-freeze-column-and-row" | "table-freeze-row" | "table-insert-column" | "table-insert-row" | "table-lightning" | "table-link" | "table-move-above" | "table-move-below" | "table-move-left" | "table-move-right" | "table-resize-column" | "table-resize-row" | "table-settings" | "table-simple" | "table-stack-above" | "table-stack-below" | "table-stack-left" | "table-stack-right" | "table-switch" | "tablet" | "tablet-speaker" | "tabs" | "tag" | "tag-dismiss" | "tag-error" | "tag-lock" | "tag-lock-accent" | "tag-multiple" | "tag-off" | "tag-question-mark" | "tag-reset" | "tag-search" | "tap-double" | "tap-single" | "target" | "target-arrow" | "target-edit" | "task-list-add" | "task-list-ltr" | "task-list-rtl" | "task-list-square-add" | "task-list-square-ltr" | "task-list-square-rtl" | "tasks-app" | "teddy" | "temperature" | "tent" | "tetris-app" | "text-add-space-after" | "text-add-space-before" | "text-add-t" | "text-align-center" | "text-align-distributed" | "text-align-distributed-evenly" | "text-align-distributed-vertical" | "text-align-justify" | "text-align-justify-low" | "text-align-left" | "text-align-right" | "text-bold" | "text-box-settings" | "text-bullet-list-add" | "text-bullet-list-ltr" | "text-bullet-list-rotate-270" | "text-bullet-list-rotate-90" | "text-bullet-list-rtl" | "text-bullet-list-square" | "text-bullet-list-square-edit" | "text-bullet-list-square-warning" | "text-bullet-list-tree" | "text-case-lowercase" | "text-case-title" | "text-case-uppercase" | "text-change-case" | "text-clear-formatting" | "text-collapse" | "text-color" | "text-color-accent" | "text-column-one" | "text-column-one-narrow" | "text-column-one-wide" | "text-column-one-wide-lightning" | "text-column-three" | "text-column-two" | "text-column-two-left" | "text-column-two-right" | "text-continuous" | "text-density" | "text-description" | "text-direction-horizontal-left" | "text-direction-horizontal-right" | "text-direction-rotate-270-right" | "text-direction-rotate-90-left" | "text-direction-rotate-90-right" | "text-direction-vertical" | "text-edit-style" | "text-effects" | "text-expand" | "text-field" | "text-first-line" | "text-font" | "text-font-info" | "text-font-size" | "text-footnote" | "text-grammar-arrow-left" | "text-grammar-arrow-right" | "text-grammar-checkmark" | "text-grammar-dismiss" | "text-grammar-settings" | "text-grammar-wand" | "text-hanging" | "text-header-1" | "text-header-2" | "text-header-3" | "text-indent-decrease-ltr" | "text-indent-decrease-rotate-270" | "text-indent-decrease-rotate-90" | "text-indent-decrease-rtl" | "text-indent-increase-ltr" | "text-indent-increase-rotate-270" | "text-indent-increase-rotate-90" | "text-indent-increase-rtl" | "text-italic" | "text-line-spacing" | "text-more" | "text-number-format" | "text-number-list-ltr" | "text-number-list-rotate-270" | "text-number-list-rotate-90" | "text-number-list-rtl" | "text-paragraph" | "text-paragraph-direction" | "text-position-behind" | "text-position-front" | "text-position-line" | "text-position-square" | "text-position-through" | "text-position-tight" | "text-position-top-bottom" | "text-proofing-tools" | "text-quote" | "text-sort-ascending" | "text-sort-descending" | "text-strikethrough" | "text-subscript" | "text-superscript" | "text-t" | "text-underline" | "text-word-count" | "text-wrap" | "textbox" | "textbox-align-bottom" | "textbox-align-bottom-rotate-90" | "textbox-align-center" | "textbox-align-middle" | "textbox-align-middle-rotate-90" | "textbox-align-top" | "textbox-align-top-rotate-90" | "textbox-more" | "textbox-rotate-90" | "thinking" | "thumb-dislike" | "thumb-like" | "ticket-diagonal" | "ticket-horizontal" | "time-and-weather" | "time-picker" | "timeline" | "timer-10" | "timer" | "timer-2" | "timer-3" | "timer-off" | "toggle-left" | "toggle-right" | "toolbox" | "tooltip-quote" | "top-speed" | "translate" | "transmission" | "tray-item-add" | "tray-item-remove" | "trophy" | "trophy-off" | "tv" | "tv-usb" | "umbrella" | "uninstall-app" | "usb-plug" | "usb-stick" | "vault" | "vehicle-bicycle" | "vehicle-bus" | "vehicle-cab" | "vehicle-car" | "vehicle-car-collision" | "vehicle-ship" | "vehicle-subway" | "vehicle-truck" | "vehicle-truck-bag" | "vehicle-truck-cube" | "vehicle-truck-profile" | "video" | "video-360" | "video-add" | "video-background-effect" | "video-chat" | "video-clip" | "video-clip-multiple" | "video-clip-off" | "video-off" | "video-person" | "video-person-call" | "video-person-off" | "video-person-sparkle" | "video-person-star" | "video-person-star-off" | "video-play-pause" | "video-prohibited" | "video-security" | "video-switch" | "view-desktop" | "view-desktop-mobile" | "voicemail" | "vote" | "walkie-talkie" | "wallet" | "wallet-credit-card" | "wallpaper" | "wand" | "warning" | "weather-blowing-snow" | "weather-cloudy" | "weather-drizzle" | "weather-duststorm" | "weather-fog" | "weather-hail-day" | "weather-hail-night" | "weather-haze" | "weather-moon" | "weather-moon-off" | "weather-partly-cloudy-day" | "weather-partly-cloudy-night" | "weather-rain" | "weather-rain-showers-day" | "weather-rain-showers-night" | "weather-rain-snow" | "weather-snow" | "weather-snow-shower-day" | "weather-snow-shower-night" | "weather-snowflake" | "weather-squalls" | "weather-sunny" | "weather-sunny-high" | "weather-sunny-low" | "weather-thunderstorm" | "web-asset" | "whiteboard" | "wifi-1" | "wifi-2" | "wifi-3" | "wifi-4" | "wifi-lock" | "wifi-off" | "wifi-warning" | "window" | "window-apps" | "window-arrow-up" | "window-dev-tools" | "window-new" | "window-shield" | "window-wrench" | "wrench" | "wrench-screwdriver" | "xbox-console" | "xray" | "zoom-in" | "zoom-out";
+export type IconNames = "access-time" | "accessibility" | "accessibility-checkmark" | "add" | "add-circle" | "add-square" | "add-subtract-circle" | "airplane" | "airplane-take-off" | "album" | "album-add" | "alert" | "alert-badge" | "alert-off" | "alert-on" | "alert-snooze" | "alert-urgent" | "align-bottom" | "align-center-horizontal" | "align-center-vertical" | "align-left" | "align-right" | "align-top" | "animal-cat" | "animal-dog" | "animal-rabbit" | "animal-turtle" | "app-folder" | "app-generic" | "app-recent" | "app-store" | "app-title" | "approvals-app" | "apps" | "apps-add-in" | "apps-list" | "apps-list-detail" | "archive" | "archive-arrow-back" | "archive-multiple" | "archive-settings" | "arrow-autofit-content" | "arrow-autofit-down" | "arrow-autofit-height" | "arrow-autofit-height-dotted" | "arrow-autofit-up" | "arrow-autofit-width" | "arrow-autofit-width-dotted" | "arrow-between-down" | "arrow-bidirectional-up-down" | "arrow-bounce" | "arrow-circle-down" | "arrow-circle-down-double" | "arrow-circle-down-right" | "arrow-circle-down-split" | "arrow-circle-left" | "arrow-circle-right" | "arrow-circle-up" | "arrow-circle-up-left" | "arrow-clockwise" | "arrow-clockwise-dashes" | "arrow-collapse-all" | "arrow-counterclockwise" | "arrow-counterclockwise-dashes" | "arrow-curve-down-left" | "arrow-down" | "arrow-down-left" | "arrow-download" | "arrow-enter-left" | "arrow-enter-up" | "arrow-expand" | "arrow-export-ltr" | "arrow-export-rtl" | "arrow-export-up" | "arrow-forward" | "arrow-forward-down-lightning" | "arrow-forward-down-person" | "arrow-hook-down-left" | "arrow-hook-down-right" | "arrow-hook-up-left" | "arrow-hook-up-right" | "arrow-import" | "arrow-left" | "arrow-maximize" | "arrow-maximize-vertical" | "arrow-minimize" | "arrow-minimize-vertical" | "arrow-move" | "arrow-next" | "arrow-outline-up-right" | "arrow-paragraph" | "arrow-previous" | "arrow-redo" | "arrow-repeat-all" | "arrow-repeat-all-off" | "arrow-reply" | "arrow-reply-all" | "arrow-reply-down" | "arrow-reset" | "arrow-right" | "arrow-rotate-clockwise" | "arrow-rotate-counterclockwise" | "arrow-routing" | "arrow-routing-rectangle-multiple" | "arrow-sort" | "arrow-sort-down" | "arrow-sort-down-lines" | "arrow-sort-up" | "arrow-split" | "arrow-square-down" | "arrow-step-in" | "arrow-step-in-left" | "arrow-step-in-right" | "arrow-step-out" | "arrow-swap" | "arrow-sync" | "arrow-sync-checkmark" | "arrow-sync-circle" | "arrow-sync-dismiss" | "arrow-trending" | "arrow-trending-checkmark" | "arrow-trending-down" | "arrow-trending-lines" | "arrow-trending-settings" | "arrow-trending-text" | "arrow-trending-wrench" | "arrow-turn-bidirectional-down-right" | "arrow-turn-right" | "arrow-undo" | "arrow-up" | "arrow-up-left" | "arrow-up-right" | "arrow-upload" | "arrows-bidirectional" | "attach" | "attach-arrow-right" | "attach-text" | "auto-fit-height" | "auto-fit-width" | "autocorrect" | "autosum" | "backpack" | "backpack-add" | "backspace" | "badge" | "balloon" | "barcode-scanner" | "battery-0" | "battery-10" | "battery-1" | "battery-2" | "battery-3" | "battery-4" | "battery-5" | "battery-6" | "battery-7" | "battery-8" | "battery-9" | "battery-charge" | "battery-checkmark" | "battery-saver" | "battery-warning" | "beach" | "beaker" | "beaker-edit" | "bed" | "bin-full" | "bluetooth" | "bluetooth-connected" | "bluetooth-disabled" | "bluetooth-searching" | "blur" | "board" | "board-heart" | "board-split" | "book" | "book-add" | "book-arrow-clockwise" | "book-clock" | "book-coins" | "book-compass" | "book-contacts" | "book-database" | "book-exclamation-mark" | "book-globe" | "book-information" | "book-letter" | "book-number" | "book-open" | "book-open-globe" | "book-open-microphone" | "book-pulse" | "book-question-mark" | "book-question-mark-rtl" | "book-search" | "book-star" | "book-theta" | "book-toolbox" | "bookmark" | "bookmark-add" | "bookmark-multiple" | "bookmark-off" | "bookmark-search" | "border-all" | "border-bottom" | "border-bottom-double" | "border-bottom-thick" | "border-left" | "border-left-right" | "border-none" | "border-outside" | "border-outside-thick" | "border-right" | "border-top" | "border-top-bottom" | "border-top-bottom-double" | "border-top-bottom-thick" | "bot" | "bot-add" | "bowl-chopsticks" | "bowl-salad" | "box" | "box-arrow-left" | "box-arrow-up" | "box-checkmark" | "box-dismiss" | "box-edit" | "box-multiple" | "box-multiple-arrow-left" | "box-multiple-arrow-right" | "box-multiple-checkmark" | "box-multiple-search" | "box-search" | "box-toolbox" | "braces" | "braces-variable" | "brain-circuit" | "branch" | "branch-compare" | "branch-fork" | "branch-fork-hint" | "branch-fork-link" | "breakout-room" | "briefcase" | "briefcase-medical" | "briefcase-off" | "brightness-high" | "brightness-low" | "broad-activity-feed" | "broom" | "bug" | "building" | "building-bank" | "building-bank-link" | "building-bank-toolbox" | "building-factory" | "building-government" | "building-home" | "building-multiple" | "building-retail" | "building-retail-money" | "building-retail-more" | "building-retail-shield" | "building-retail-toolbox" | "building-shop" | "building-skyscraper" | "calculator" | "calculator-arrow-clockwise" | "calculator-multiple" | "calendar-3-day" | "calendar-add" | "calendar-agenda" | "calendar-arrow-down" | "calendar-arrow-right" | "calendar-assistant" | "calendar-cancel" | "calendar-chat" | "calendar-checkmark" | "calendar-clock" | "calendar-data-bar" | "calendar-day" | "calendar-edit" | "calendar-empty" | "calendar-error" | "calendar-ltr" | "calendar-month" | "calendar-multiple" | "calendar-person" | "calendar-question-mark" | "calendar-reply" | "calendar-rtl" | "calendar-star" | "calendar-sync" | "calendar-today" | "calendar-toolbox" | "calendar-week-numbers" | "calendar-week-start" | "calendar-work-week" | "call" | "call-add" | "call-checkmark" | "call-dismiss" | "call-end" | "call-forward" | "call-inbound" | "call-missed" | "call-outbound" | "call-park" | "call-pause" | "call-prohibited" | "calligraphy-pen" | "camera" | "camera-add" | "camera-dome" | "camera-off" | "camera-switch" | "caret-down" | "caret-down-right" | "caret-left" | "caret-right" | "caret-up" | "cart" | "cast" | "catch-up" | "cellular-3g" | "cellular-4g" | "cellular-5g" | "cellular-data-1" | "cellular-data-2" | "cellular-data-3" | "cellular-data-4" | "cellular-data-5" | "cellular-off" | "cellular-warning" | "center-horizontal" | "center-vertical" | "certificate" | "channel" | "channel-add" | "channel-alert" | "channel-arrow-left" | "channel-dismiss" | "channel-share" | "channel-subtract" | "chart-multiple" | "chart-person" | "chat" | "chat-bubbles-question" | "chat-dismiss" | "chat-help" | "chat-multiple" | "chat-off" | "chat-settings" | "chat-video" | "chat-warning" | "check" | "checkbox-1" | "checkbox-2" | "checkbox-arrow-right" | "checkbox-checked" | "checkbox-indeterminate" | "checkbox-person" | "checkbox-unchecked" | "checkbox-warning" | "checkmark" | "checkmark-circle" | "checkmark-lock" | "checkmark-square" | "checkmark-starburst" | "chevron-circle-down" | "chevron-circle-left" | "chevron-circle-right" | "chevron-circle-up" | "chevron-down" | "chevron-left" | "chevron-right" | "chevron-up" | "chevron-up-down" | "circle" | "circle-edit" | "circle-half-fill" | "circle-line" | "circle-small" | "city" | "class" | "classification" | "clear-formatting" | "clipboard" | "clipboard-3-day" | "clipboard-arrow-right" | "clipboard-checkmark" | "clipboard-clock" | "clipboard-code" | "clipboard-data-bar" | "clipboard-day" | "clipboard-error" | "clipboard-heart" | "clipboard-image" | "clipboard-letter" | "clipboard-link" | "clipboard-month" | "clipboard-more" | "clipboard-paste" | "clipboard-pulse" | "clipboard-search" | "clipboard-settings" | "clipboard-task" | "clipboard-task-add" | "clipboard-task-list-ltr" | "clipboard-task-list-rtl" | "clipboard-text-edit" | "clipboard-text-ltr" | "clipboard-text-rtl" | "clock" | "clock-alarm" | "clock-arrow-download" | "clock-dismiss" | "clock-pause" | "clock-toolbox" | "closed-caption" | "closed-caption-off" | "cloud" | "cloud-archive" | "cloud-arrow-down" | "cloud-arrow-up" | "cloud-checkmark" | "cloud-dismiss" | "cloud-flow" | "cloud-off" | "cloud-swap" | "cloud-sync" | "cloud-words" | "code" | "collections" | "collections-add" | "color" | "color-background" | "color-fill" | "color-line" | "column-edit" | "column-triple" | "column-triple-edit" | "comma" | "comment" | "comment-add" | "comment-arrow-left" | "comment-arrow-right" | "comment-checkmark" | "comment-dismiss" | "comment-edit" | "comment-error" | "comment-lightning" | "comment-mention" | "comment-multiple" | "comment-multiple-checkmark" | "comment-multiple-link" | "comment-note" | "comment-off" | "communication" | "communication-person" | "compass-northwest" | "component-2-double-tap-swipe-down" | "component-2-double-tap-swipe-up" | "compose" | "conference-room" | "connector" | "contact-card" | "contact-card-group" | "contact-card-ribbon" | "content-settings" | "content-view" | "content-view-gallery" | "contract-down-left" | "control-button" | "convert-range" | "cookies" | "copy" | "copy-add" | "copy-arrow-right" | "couch" | "credit-card-clock" | "credit-card-person" | "credit-card-toolbox" | "crop" | "crop-interim" | "crop-interim-off" | "cube" | "cube-multiple" | "cube-quick" | "cube-sync" | "cube-tree" | "currency-dollar-euro" | "currency-dollar-rupee" | "cursor" | "cursor-click" | "cursor-hover" | "cursor-hover-off" | "cut" | "dark-theme" | "data-area" | "data-bar-horizontal" | "data-bar-vertical" | "data-bar-vertical-add" | "data-funnel" | "data-histogram" | "data-line" | "data-pie" | "data-scatter" | "data-sunburst" | "data-treemap" | "data-trending" | "data-usage" | "data-usage-edit" | "data-usage-toolbox" | "data-waterfall" | "data-whisker" | "database" | "database-link" | "database-person" | "database-search" | "decimal-arrow-left" | "decimal-arrow-right" | "delete" | "delete-dismiss" | "delete-off" | "dentist" | "design-ideas" | "desktop" | "desktop-arrow-right" | "desktop-cursor" | "desktop-edit" | "desktop-flow" | "desktop-keyboard" | "desktop-mac" | "desktop-pulse" | "desktop-signal" | "desktop-speaker" | "desktop-speaker-off" | "desktop-sync" | "desktop-toolbox" | "developer-board" | "developer-board-search" | "device-eq" | "device-meeting-room" | "device-meeting-room-remote" | "diagram" | "dialpad" | "dialpad-off" | "diamond" | "directions" | "dismiss" | "dismiss-circle" | "dismiss-square" | "diversity" | "divider-short" | "divider-tall" | "dock" | "dock-row" | "doctor" | "document" | "document-add" | "document-arrow-left" | "document-arrow-right" | "document-briefcase" | "document-bullet-list" | "document-bullet-list-clock" | "document-bullet-list-multiple" | "document-bullet-list-off" | "document-catch-up" | "document-checkmark" | "document-chevron-double" | "document-copy" | "document-css" | "document-data" | "document-dismiss" | "document-edit" | "document-endnote" | "document-error" | "document-flowchart" | "document-footer" | "document-footer-dismiss" | "document-header" | "document-header-arrow-down" | "document-header-dismiss" | "document-header-footer" | "document-heart" | "document-heart-pulse" | "document-javascript" | "document-landscape" | "document-landscape-data" | "document-landscape-split" | "document-link" | "document-lock" | "document-margins" | "document-mention" | "document-multiple" | "document-multiple-percent" | "document-multiple-prohibited" | "document-one-page" | "document-page-bottom-center" | "document-page-bottom-left" | "document-page-bottom-right" | "document-page-break" | "document-page-number" | "document-page-top-center" | "document-page-top-left" | "document-page-top-right" | "document-pdf" | "document-percent" | "document-pill" | "document-prohibited" | "document-question-mark" | "document-queue" | "document-queue-add" | "document-queue-multiple" | "document-ribbon" | "document-save" | "document-search" | "document-split-hint" | "document-split-hint-off" | "document-sync" | "document-table" | "document-table-arrow-right" | "document-table-checkmark" | "document-table-cube" | "document-table-search" | "document-table-truck" | "document-text" | "document-text-clock" | "document-text-extract" | "document-text-link" | "document-text-toolbox" | "document-toolbox" | "document-width" | "door-arrow-left" | "door-tag" | "double-swipe-down" | "double-swipe-up" | "double-tap-swipe-down" | "double-tap-swipe-up" | "drafts" | "drag" | "draw-image" | "draw-shape" | "draw-text" | "drawer-add" | "drawer-arrow-download" | "drawer-dismiss" | "drawer-play" | "drawer-subtract" | "drink-beer" | "drink-coffee" | "drink-margarita" | "drink-to-go" | "drink-wine" | "drive-train" | "drop" | "dual-screen" | "dual-screen-add" | "dual-screen-arrow-right" | "dual-screen-arrow-up" | "dual-screen-clock" | "dual-screen-closed-alert" | "dual-screen-desktop" | "dual-screen-dismiss" | "dual-screen-group" | "dual-screen-header" | "dual-screen-lock" | "dual-screen-mirror" | "dual-screen-pagination" | "dual-screen-settings" | "dual-screen-span" | "dual-screen-speaker" | "dual-screen-status-bar" | "dual-screen-tablet" | "dual-screen-update" | "dual-screen-vertical-scroll" | "dual-screen-vibrate" | "dumbbell" | "earth" | "earth-leaf" | "edit" | "edit-off" | "edit-prohibited" | "edit-settings" | "emoji" | "emoji-add" | "emoji-angry" | "emoji-edit" | "emoji-hand" | "emoji-laugh" | "emoji-meh" | "emoji-multiple" | "emoji-sad" | "emoji-sad-slight" | "emoji-smile-slight" | "emoji-sparkle" | "emoji-surprise" | "engine" | "equal-circle" | "equal-off" | "eraser" | "eraser-medium" | "eraser-segment" | "eraser-small" | "eraser-tool" | "error-circle" | "expand-up-left" | "expand-up-right" | "extended-dock" | "eye" | "eye-off" | "eye-tracking" | "eye-tracking-off" | "eyedropper" | "eyedropper-off" | "f-stop" | "fast-acceleration" | "fast-forward" | "feed" | "filmstrip" | "filter" | "filter-dismiss" | "filter-sync" | "fingerprint" | "fixed-width" | "flag" | "flag-off" | "flag-pride" | "flash" | "flash-auto" | "flash-checkmark" | "flash-flow" | "flash-off" | "flash-settings" | "flashlight" | "flashlight-off" | "flip-horizontal" | "flip-vertical" | "flowchart" | "flowchart-circle" | "fluent" | "fluid" | "folder" | "folder-add" | "folder-arrow-left" | "folder-arrow-right" | "folder-arrow-up" | "folder-link" | "folder-mail" | "folder-open" | "folder-people" | "folder-prohibited" | "folder-swap" | "folder-sync" | "folder-zip" | "font-decrease" | "font-increase" | "font-space-tracking-in" | "font-space-tracking-out" | "food" | "food-apple" | "food-cake" | "food-carrot" | "food-egg" | "food-fish" | "food-grains" | "food-pizza" | "food-toast" | "form" | "form-new" | "fps-120" | "fps-240" | "fps-30" | "fps-60" | "fps-960" | "full-screen-maximize" | "full-screen-minimize" | "games" | "gantt-chart" | "gas" | "gas-pump" | "gauge" | "gavel" | "gesture" | "gif" | "gift" | "gift-card" | "gift-card-add" | "gift-card-arrow-right" | "gift-card-money" | "gift-card-multiple" | "glance" | "glance-horizontal" | "glasses" | "glasses-off" | "globe" | "globe-add" | "globe-clock" | "globe-desktop" | "globe-location" | "globe-person" | "globe-search" | "globe-shield" | "globe-surface" | "globe-video" | "grid" | "grid-dots" | "group" | "group-dismiss" | "group-list" | "group-return" | "guardian" | "guest" | "guest-add" | "guitar" | "hand-draw" | "hand-left" | "hand-left-chat" | "hand-right" | "hand-wave" | "handshake" | "hat-graduation" | "hd" | "hdr" | "hdr-off" | "headphones" | "headphones-sound-wave" | "headset" | "headset-add" | "headset-vr" | "heart" | "heart-circle" | "heart-pulse" | "highlight" | "highlight-accent" | "history" | "history-dismiss" | "home" | "home-add" | "home-checkmark" | "home-database" | "home-more" | "home-person" | "icons" | "image" | "image-add" | "image-alt-text" | "image-arrow-back" | "image-arrow-counterclockwise" | "image-arrow-forward" | "image-copy" | "image-edit" | "image-globe" | "image-multiple" | "image-off" | "image-prohibited" | "image-reflection" | "image-search" | "image-shadow" | "immersive-reader" | "important" | "incognito" | "info" | "ink-stroke" | "inking-tool" | "inking-tool-accent" | "inprivate-account" | "ios-arrow-ltr" | "ios-arrow-rtl" | "iot" | "javascript" | "key" | "key-command" | "key-reset" | "keyboard-123" | "keyboard" | "keyboard-dock" | "keyboard-layout-float" | "keyboard-layout-one-handed-left" | "keyboard-layout-resize" | "keyboard-layout-split" | "keyboard-shift" | "keyboard-shift-uppercase" | "keyboard-tab" | "laptop" | "lasso" | "launcher-settings" | "layer" | "leaf-one" | "leaf-three" | "leaf-two" | "learning-app" | "library" | "lightbulb" | "lightbulb-circle" | "lightbulb-filament" | "likert" | "line" | "line-dashes" | "line-style" | "link" | "link-dismiss" | "link-edit" | "link-square" | "list" | "live" | "live-off" | "local-language" | "location" | "location-add" | "location-dismiss" | "location-live" | "location-off" | "lock-closed" | "lock-multiple" | "lock-open" | "lock-shield" | "lottery" | "luggage" | "mail" | "mail-add" | "mail-alert" | "mail-all-read" | "mail-arrow-up" | "mail-attach" | "mail-clock" | "mail-copy" | "mail-dismiss" | "mail-edit" | "mail-error" | "mail-inbox" | "mail-inbox-add" | "mail-inbox-all" | "mail-inbox-arrow-right" | "mail-inbox-arrow-up" | "mail-inbox-checkmark" | "mail-inbox-dismiss" | "mail-link" | "mail-list" | "mail-multiple" | "mail-off" | "mail-open-person" | "mail-prohibited" | "mail-read" | "mail-read-multiple" | "mail-template" | "mail-unread" | "mail-warning" | "map" | "map-drive" | "match-app-layout" | "math-format-linear" | "math-format-professional" | "math-formula" | "math-symbols" | "maximize" | "meet-now" | "megaphone" | "megaphone-loud" | "megaphone-off" | "mention" | "merge" | "mic" | "mic-off" | "mic-prohibited" | "mic-pulse" | "mic-pulse-off" | "mic-settings" | "mic-sparkle" | "microscope" | "midi" | "mobile-optimized" | "molecule" | "money" | "money-calculator" | "money-dismiss" | "money-hand" | "money-off" | "more-horizontal" | "more-vertical" | "movies-and-tv" | "multiplier-1-2x" | "multiplier-1-5x" | "multiplier-1-8x" | "multiplier-1x" | "multiplier-2x" | "multiplier-5x" | "multiselect-ltr" | "multiselect-rtl" | "music-note-1" | "music-note-2" | "music-note-off-1" | "music-note-off-2" | "my-location" | "navigation" | "navigation-unread" | "network-check" | "new" | "news" | "next" | "note" | "note-add" | "note-edit" | "notebook" | "notebook-add" | "notebook-error" | "notebook-lightning" | "notebook-question-mark" | "notebook-section" | "notebook-section-arrow-right" | "notebook-subsection" | "notebook-sync" | "notepad" | "notepad-person" | "number-circle-1" | "number-row" | "number-symbol" | "number-symbol-dismiss" | "number-symbol-square" | "open" | "open-folder" | "open-off" | "options" | "organization" | "orientation" | "oval" | "padding-down" | "padding-left" | "padding-right" | "padding-top" | "page-fit" | "paint-brush" | "paint-brush-arrow-down" | "paint-brush-arrow-up" | "paint-bucket" | "pair" | "panel-left" | "panel-left-contract" | "panel-left-expand" | "panel-left-focus-right" | "panel-right" | "panel-right-contract" | "password" | "patch" | "patient" | "pause" | "pause-circle" | "payment" | "pen" | "pen-off" | "pen-prohibited" | "people" | "people-add" | "people-audience" | "people-checkmark" | "people-community" | "people-community-add" | "people-error" | "people-list" | "people-lock" | "people-money" | "people-prohibited" | "people-queue" | "people-search" | "people-settings" | "people-swap" | "people-team" | "people-team-add" | "people-team-delete" | "people-team-toolbox" | "person" | "person-accounts" | "person-add" | "person-arrow-left" | "person-arrow-right" | "person-available" | "person-board" | "person-call" | "person-chat" | "person-circle" | "person-clock" | "person-delete" | "person-edit" | "person-feedback" | "person-heart" | "person-lightbulb" | "person-lock" | "person-mail" | "person-money" | "person-note" | "person-pill" | "person-prohibited" | "person-question-mark" | "person-star" | "person-support" | "person-swap" | "person-sync" | "person-tag" | "person-voice" | "phone" | "phone-add" | "phone-arrow-right" | "phone-desktop" | "phone-dismiss" | "phone-key" | "phone-laptop" | "phone-link-setup" | "phone-lock" | "phone-page-header" | "phone-pagination" | "phone-screen-time" | "phone-shake" | "phone-span-in" | "phone-span-out" | "phone-speaker" | "phone-status-bar" | "phone-tablet" | "phone-update" | "phone-update-checkmark" | "phone-vertical-scroll" | "phone-vibrate" | "photo-filter" | "pi" | "picture-in-picture" | "picture-in-picture-enter" | "picture-in-picture-exit" | "pill" | "pin" | "pin-off" | "pipeline" | "pivot" | "play" | "play-circle" | "plug-connected" | "plug-disconnected" | "point-scan" | "poll" | "port-hdmi" | "port-micro-usb" | "port-usb-a" | "port-usb-c" | "position-backward" | "position-forward" | "position-to-back" | "position-to-front" | "power" | "predictions" | "premium" | "premium-person" | "presence-available" | "presence-away" | "presence-busy" | "presence-dnd" | "presenter" | "presenter-off" | "preview-link" | "previous" | "print" | "print-add" | "production" | "production-checkmark" | "prohibited" | "prohibited-multiple" | "projection-screen" | "projection-screen-dismiss" | "protocol-handler" | "pulse" | "pulse-square" | "puzzle-cube" | "puzzle-piece" | "qr-code" | "question" | "question-circle" | "quiz-new" | "radio-button" | "rating-mature" | "ratio-one-to-one" | "re-order" | "re-order-dots-horizontal" | "re-order-dots-vertical" | "read-aloud" | "reading-list" | "reading-list-add" | "reading-mode-mobile" | "real-estate" | "receipt" | "receipt-add" | "receipt-bag" | "receipt-cube" | "receipt-money" | "receipt-play" | "record" | "record-stop" | "rectangle-landscape" | "rename" | "resize" | "resize-image" | "resize-large" | "resize-small" | "resize-table" | "resize-video" | "reward" | "rewind" | "rhombus" | "ribbon" | "ribbon-add" | "ribbon-off" | "ribbon-star" | "road-cone" | "rocket" | "rotate-left" | "rotate-right" | "router" | "row-triple" | "rss" | "ruler" | "run" | "sanitize" | "save" | "save-arrow-right" | "save-copy" | "save-edit" | "save-multiple" | "savings" | "scale-fill" | "scale-fit" | "scales" | "scan" | "scan-camera" | "scan-dash" | "scan-object" | "scan-table" | "scan-text" | "scan-thumb-up" | "scan-thumb-up-off" | "scan-type" | "scan-type-checkmark" | "scratchpad" | "screen-search" | "screenshot" | "search" | "search-info" | "search-square" | "search-visual" | "select-all-off" | "select-all-on" | "select-object" | "select-object-skew" | "select-object-skew-dismiss" | "select-object-skew-edit" | "send" | "send-clock" | "send-copy" | "serial-port" | "server" | "service-bell" | "settings" | "settings-chat" | "shape-exclude" | "shape-intersect" | "shape-subtract" | "shape-union" | "shapes" | "share" | "share-android" | "share-close-tray" | "share-ios" | "share-screen-person" | "share-screen-person-overlay" | "share-screen-person-overlay-inside" | "share-screen-person-p" | "share-screen-start" | "share-screen-stop" | "shield" | "shield-badge" | "shield-checkmark" | "shield-dismiss" | "shield-error" | "shield-globe" | "shield-keyhole" | "shield-lock" | "shield-prohibited" | "shield-task" | "shifts" | "shifts-30-minutes" | "shifts-activity" | "shifts-add" | "shifts-availability" | "shifts-checkmark" | "shifts-day" | "shifts-open" | "shifts-prohibited" | "shifts-question-mark" | "shifts-team" | "shopping-bag" | "shopping-bag-arrow-left" | "shopping-bag-dismiss" | "shopping-bag-pause" | "shopping-bag-percent" | "shopping-bag-play" | "shopping-bag-tag" | "shortpick" | "sign-out" | "signature" | "sim" | "skip-back-10" | "skip-forward-10" | "skip-forward-30" | "skip-forward-tab" | "sleep" | "slide-add" | "slide-arrow-right" | "slide-eraser" | "slide-grid" | "slide-hide" | "slide-layout" | "slide-link" | "slide-microphone" | "slide-multiple" | "slide-multiple-arrow-right" | "slide-multiple-search" | "slide-search" | "slide-settings" | "slide-size" | "slide-text" | "slide-transition" | "smartwatch" | "smartwatch-dot" | "snooze" | "sound-source" | "sound-wave-circle" | "spacebar" | "sparkle" | "speaker-0" | "speaker-1" | "speaker-2" | "speaker-bluetooth" | "speaker-edit" | "speaker-mute" | "speaker-off" | "speaker-settings" | "speaker-usb" | "split-horizontal" | "split-vertical" | "sport" | "sport-american-football" | "sport-baseball" | "sport-basketball" | "sport-hockey" | "sport-soccer" | "square" | "square-arrow-forward" | "square-hint" | "square-hint-apps" | "square-hint-sparkles" | "square-multiple" | "stack" | "stack-arrow-forward" | "stack-star" | "star" | "star-add" | "star-arrow-right-end" | "star-arrow-right-start" | "star-dismiss" | "star-edit" | "star-emphasis" | "star-half" | "star-line-horizontal-3" | "star-off" | "star-one-quarter" | "star-prohibited" | "star-settings" | "star-three-quarter" | "status" | "steps" | "stethoscope" | "sticker" | "sticker-add" | "stop" | "storage" | "store-microsoft" | "stream" | "style-guide" | "sub-grid" | "subtitles" | "subtract" | "subtract-circle" | "subtract-square" | "surface-earbuds" | "surface-hub" | "swipe-down" | "swipe-right" | "swipe-up" | "symbols" | "syringe" | "system" | "tab" | "tab-add" | "tab-arrow-left" | "tab-desktop" | "tab-desktop-arrow-clockwise" | "tab-desktop-bottom" | "tab-desktop-image" | "tab-desktop-multiple-bottom" | "tab-in-private" | "tab-inprivate-account" | "tab-prohibited" | "tab-shield-dismiss" | "table" | "table-add" | "table-bottom-row" | "table-cell-edit" | "table-cells-merge" | "table-cells-split" | "table-delete-column" | "table-delete-row" | "table-dismiss" | "table-edit" | "table-freeze-column" | "table-freeze-column-and-row" | "table-freeze-row" | "table-insert-column" | "table-insert-row" | "table-lightning" | "table-link" | "table-move-above" | "table-move-below" | "table-move-left" | "table-move-right" | "table-resize-column" | "table-resize-row" | "table-settings" | "table-simple" | "table-stack-above" | "table-stack-below" | "table-stack-left" | "table-stack-right" | "table-switch" | "tablet" | "tablet-speaker" | "tabs" | "tag" | "tag-dismiss" | "tag-error" | "tag-lock" | "tag-lock-accent" | "tag-multiple" | "tag-off" | "tag-question-mark" | "tag-reset" | "tag-search" | "tap-double" | "tap-single" | "target" | "target-arrow" | "target-edit" | "task-list-add" | "task-list-ltr" | "task-list-rtl" | "task-list-square-add" | "task-list-square-ltr" | "task-list-square-rtl" | "tasks-app" | "teddy" | "temperature" | "tent" | "tetris-app" | "text-add-space-after" | "text-add-space-before" | "text-add-t" | "text-align-center" | "text-align-center-rotate-270" | "text-align-center-rotate-90" | "text-align-distributed" | "text-align-distributed-evenly" | "text-align-distributed-vertical" | "text-align-justify" | "text-align-justify-low" | "text-align-justify-low-rotate-270" | "text-align-justify-low-rotate-90" | "text-align-justify-rotate-270" | "text-align-justify-rotate-90" | "text-align-left" | "text-align-left-rotate-270" | "text-align-left-rotate-90" | "text-align-right" | "text-align-right-rotate-270" | "text-align-right-rotate-90" | "text-bold" | "text-box-settings" | "text-bullet-list-add" | "text-bullet-list-ltr" | "text-bullet-list-rotate-270" | "text-bullet-list-rotate-90" | "text-bullet-list-rtl" | "text-bullet-list-square" | "text-bullet-list-square-edit" | "text-bullet-list-square-warning" | "text-bullet-list-tree" | "text-case-lowercase" | "text-case-title" | "text-case-uppercase" | "text-change-case" | "text-clear-formatting" | "text-collapse" | "text-color" | "text-color-accent" | "text-column-one" | "text-column-one-narrow" | "text-column-one-wide" | "text-column-one-wide-lightning" | "text-column-three" | "text-column-two" | "text-column-two-left" | "text-column-two-right" | "text-continuous" | "text-density" | "text-description" | "text-direction-horizontal-left" | "text-direction-horizontal-right" | "text-direction-rotate-270-right" | "text-direction-rotate-90-left" | "text-direction-rotate-90-right" | "text-direction-vertical" | "text-edit-style" | "text-effects" | "text-expand" | "text-field" | "text-first-line" | "text-font" | "text-font-info" | "text-font-size" | "text-footnote" | "text-grammar-arrow-left" | "text-grammar-arrow-right" | "text-grammar-checkmark" | "text-grammar-dismiss" | "text-grammar-settings" | "text-grammar-wand" | "text-hanging" | "text-header-1" | "text-header-2" | "text-header-3" | "text-indent-decrease-ltr" | "text-indent-decrease-rotate-270" | "text-indent-decrease-rotate-90" | "text-indent-decrease-rtl" | "text-indent-increase-ltr" | "text-indent-increase-rotate-270" | "text-indent-increase-rotate-90" | "text-indent-increase-rtl" | "text-italic" | "text-line-spacing" | "text-more" | "text-number-format" | "text-number-list-ltr" | "text-number-list-rotate-270" | "text-number-list-rotate-90" | "text-number-list-rtl" | "text-paragraph" | "text-paragraph-direction" | "text-position-behind" | "text-position-front" | "text-position-line" | "text-position-square" | "text-position-through" | "text-position-tight" | "text-position-top-bottom" | "text-proofing-tools" | "text-quote" | "text-sort-ascending" | "text-sort-descending" | "text-strikethrough" | "text-subscript" | "text-superscript" | "text-t" | "text-underline" | "text-word-count" | "text-wrap" | "textbox" | "textbox-align-bottom" | "textbox-align-bottom-rotate-90" | "textbox-align-center" | "textbox-align-middle" | "textbox-align-middle-rotate-90" | "textbox-align-top" | "textbox-align-top-rotate-90" | "textbox-more" | "textbox-rotate-90" | "thinking" | "thumb-dislike" | "thumb-like" | "ticket-diagonal" | "ticket-horizontal" | "time-and-weather" | "time-picker" | "timeline" | "timer-10" | "timer" | "timer-2" | "timer-3" | "timer-off" | "toggle-left" | "toggle-multiple" | "toggle-right" | "toolbox" | "tooltip-quote" | "top-speed" | "translate" | "transmission" | "tray-item-add" | "tray-item-remove" | "trophy" | "trophy-off" | "tv" | "tv-usb" | "umbrella" | "uninstall-app" | "usb-plug" | "usb-stick" | "vault" | "vehicle-bicycle" | "vehicle-bus" | "vehicle-cab" | "vehicle-car" | "vehicle-car-collision" | "vehicle-ship" | "vehicle-subway" | "vehicle-truck" | "vehicle-truck-bag" | "vehicle-truck-cube" | "vehicle-truck-profile" | "video" | "video-360" | "video-add" | "video-background-effect" | "video-chat" | "video-clip" | "video-clip-multiple" | "video-clip-off" | "video-off" | "video-person" | "video-person-call" | "video-person-off" | "video-person-sparkle" | "video-person-star" | "video-person-star-off" | "video-play-pause" | "video-prohibited" | "video-security" | "video-switch" | "view-desktop" | "view-desktop-mobile" | "voicemail" | "vote" | "walkie-talkie" | "wallet" | "wallet-credit-card" | "wallpaper" | "wand" | "warning" | "weather-blowing-snow" | "weather-cloudy" | "weather-drizzle" | "weather-duststorm" | "weather-fog" | "weather-hail-day" | "weather-hail-night" | "weather-haze" | "weather-moon" | "weather-moon-off" | "weather-partly-cloudy-day" | "weather-partly-cloudy-night" | "weather-rain" | "weather-rain-showers-day" | "weather-rain-showers-night" | "weather-rain-snow" | "weather-snow" | "weather-snow-shower-day" | "weather-snow-shower-night" | "weather-snowflake" | "weather-squalls" | "weather-sunny" | "weather-sunny-high" | "weather-sunny-low" | "weather-thunderstorm" | "web-asset" | "whiteboard" | "wifi-1" | "wifi-2" | "wifi-3" | "wifi-4" | "wifi-lock" | "wifi-off" | "wifi-warning" | "window" | "window-apps" | "window-arrow-up" | "window-dev-tools" | "window-new" | "window-shield" | "window-wrench" | "wrench" | "wrench-screwdriver" | "xbox-console" | "xbox-controller" | "xray" | "zoom-fit" | "zoom-in" | "zoom-out";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -1762,6 +1808,8 @@ export const map: IconsMapType<IconNames> = {
 "arrow-minimize-vertical": SVG_arrowMinimizeVertical,
 "arrow-move": SVG_arrowMove,
 "arrow-next": SVG_arrowNext,
+"arrow-outline-up-right": SVG_arrowOutlineUpRight,
+"arrow-paragraph": SVG_arrowParagraph,
 "arrow-previous": SVG_arrowPrevious,
 "arrow-redo": SVG_arrowRedo,
 "arrow-repeat-all": SVG_arrowRepeatAll,
@@ -1779,6 +1827,7 @@ export const map: IconsMapType<IconNames> = {
 "arrow-sort-down": SVG_arrowSortDown,
 "arrow-sort-down-lines": SVG_arrowSortDownLines,
 "arrow-sort-up": SVG_arrowSortUp,
+"arrow-split": SVG_arrowSplit,
 "arrow-square-down": SVG_arrowSquareDown,
 "arrow-step-in": SVG_arrowStepIn,
 "arrow-step-in-left": SVG_arrowStepInLeft,
@@ -1890,6 +1939,7 @@ export const map: IconsMapType<IconNames> = {
 "bot": SVG_bot,
 "bot-add": SVG_botAdd,
 "bowl-chopsticks": SVG_bowlChopsticks,
+"bowl-salad": SVG_bowlSalad,
 "box": SVG_box,
 "box-arrow-left": SVG_boxArrowLeft,
 "box-arrow-up": SVG_boxArrowUp,
@@ -1930,6 +1980,7 @@ export const map: IconsMapType<IconNames> = {
 "building-multiple": SVG_buildingMultiple,
 "building-retail": SVG_buildingRetail,
 "building-retail-money": SVG_buildingRetailMoney,
+"building-retail-more": SVG_buildingRetailMore,
 "building-retail-shield": SVG_buildingRetailShield,
 "building-retail-toolbox": SVG_buildingRetailToolbox,
 "building-shop": SVG_buildingShop,
@@ -1947,6 +1998,7 @@ export const map: IconsMapType<IconNames> = {
 "calendar-chat": SVG_calendarChat,
 "calendar-checkmark": SVG_calendarCheckmark,
 "calendar-clock": SVG_calendarClock,
+"calendar-data-bar": SVG_calendarDataBar,
 "calendar-day": SVG_calendarDay,
 "calendar-edit": SVG_calendarEdit,
 "calendar-empty": SVG_calendarEmpty,
@@ -1990,6 +2042,7 @@ export const map: IconsMapType<IconNames> = {
 "caret-up": SVG_caretUp,
 "cart": SVG_cart,
 "cast": SVG_cast,
+"catch-up": SVG_catchUp,
 "cellular-3g": SVG_cellular_3g,
 "cellular-4g": SVG_cellular_4g,
 "cellular-5g": SVG_cellular_5g,
@@ -2054,16 +2107,19 @@ export const map: IconsMapType<IconNames> = {
 "classification": SVG_classification,
 "clear-formatting": SVG_clearFormatting,
 "clipboard": SVG_clipboard,
+"clipboard-3-day": SVG_clipboard_3Day,
 "clipboard-arrow-right": SVG_clipboardArrowRight,
 "clipboard-checkmark": SVG_clipboardCheckmark,
 "clipboard-clock": SVG_clipboardClock,
 "clipboard-code": SVG_clipboardCode,
 "clipboard-data-bar": SVG_clipboardDataBar,
+"clipboard-day": SVG_clipboardDay,
 "clipboard-error": SVG_clipboardError,
 "clipboard-heart": SVG_clipboardHeart,
 "clipboard-image": SVG_clipboardImage,
 "clipboard-letter": SVG_clipboardLetter,
 "clipboard-link": SVG_clipboardLink,
+"clipboard-month": SVG_clipboardMonth,
 "clipboard-more": SVG_clipboardMore,
 "clipboard-paste": SVG_clipboardPaste,
 "clipboard-pulse": SVG_clipboardPulse,
@@ -2073,6 +2129,7 @@ export const map: IconsMapType<IconNames> = {
 "clipboard-task-add": SVG_clipboardTaskAdd,
 "clipboard-task-list-ltr": SVG_clipboardTaskListLtr,
 "clipboard-task-list-rtl": SVG_clipboardTaskListRtl,
+"clipboard-text-edit": SVG_clipboardTextEdit,
 "clipboard-text-ltr": SVG_clipboardTextLtr,
 "clipboard-text-rtl": SVG_clipboardTextRtl,
 "clock": SVG_clock,
@@ -2132,6 +2189,8 @@ export const map: IconsMapType<IconNames> = {
 "contact-card-group": SVG_contactCardGroup,
 "contact-card-ribbon": SVG_contactCardRibbon,
 "content-settings": SVG_contentSettings,
+"content-view": SVG_contentView,
+"content-view-gallery": SVG_contentViewGallery,
 "contract-down-left": SVG_contractDownLeft,
 "control-button": SVG_controlButton,
 "convert-range": SVG_convertRange,
@@ -2140,6 +2199,7 @@ export const map: IconsMapType<IconNames> = {
 "copy-add": SVG_copyAdd,
 "copy-arrow-right": SVG_copyArrowRight,
 "couch": SVG_couch,
+"credit-card-clock": SVG_creditCardClock,
 "credit-card-person": SVG_creditCardPerson,
 "credit-card-toolbox": SVG_creditCardToolbox,
 "crop": SVG_crop,
@@ -2232,6 +2292,7 @@ export const map: IconsMapType<IconNames> = {
 "document-chevron-double": SVG_documentChevronDouble,
 "document-copy": SVG_documentCopy,
 "document-css": SVG_documentCss,
+"document-data": SVG_documentData,
 "document-dismiss": SVG_documentDismiss,
 "document-edit": SVG_documentEdit,
 "document-endnote": SVG_documentEndnote,
@@ -2338,6 +2399,7 @@ export const map: IconsMapType<IconNames> = {
 "dual-screen-vibrate": SVG_dualScreenVibrate,
 "dumbbell": SVG_dumbbell,
 "earth": SVG_earth,
+"earth-leaf": SVG_earthLeaf,
 "edit": SVG_edit,
 "edit-off": SVG_editOff,
 "edit-prohibited": SVG_editProhibited,
@@ -2376,6 +2438,8 @@ export const map: IconsMapType<IconNames> = {
 "f-stop": SVG_fStop,
 "fast-acceleration": SVG_fastAcceleration,
 "fast-forward": SVG_fastForward,
+"feed": SVG_feed,
+"filmstrip": SVG_filmstrip,
 "filter": SVG_filter,
 "filter-dismiss": SVG_filterDismiss,
 "filter-sync": SVG_filterSync,
@@ -2406,6 +2470,7 @@ export const map: IconsMapType<IconNames> = {
 "folder-link": SVG_folderLink,
 "folder-mail": SVG_folderMail,
 "folder-open": SVG_folderOpen,
+"folder-people": SVG_folderPeople,
 "folder-prohibited": SVG_folderProhibited,
 "folder-swap": SVG_folderSwap,
 "folder-sync": SVG_folderSync,
@@ -2417,10 +2482,13 @@ export const map: IconsMapType<IconNames> = {
 "food": SVG_food,
 "food-apple": SVG_foodApple,
 "food-cake": SVG_foodCake,
+"food-carrot": SVG_foodCarrot,
 "food-egg": SVG_foodEgg,
+"food-fish": SVG_foodFish,
 "food-grains": SVG_foodGrains,
 "food-pizza": SVG_foodPizza,
 "food-toast": SVG_foodToast,
+"form": SVG_form,
 "form-new": SVG_formNew,
 "fps-120": SVG_fps_120,
 "fps-240": SVG_fps_240,
@@ -2469,7 +2537,9 @@ export const map: IconsMapType<IconNames> = {
 "guitar": SVG_guitar,
 "hand-draw": SVG_handDraw,
 "hand-left": SVG_handLeft,
+"hand-left-chat": SVG_handLeftChat,
 "hand-right": SVG_handRight,
+"hand-wave": SVG_handWave,
 "handshake": SVG_handshake,
 "hat-graduation": SVG_hatGraduation,
 "hd": SVG_hd,
@@ -2490,6 +2560,8 @@ export const map: IconsMapType<IconNames> = {
 "home": SVG_home,
 "home-add": SVG_homeAdd,
 "home-checkmark": SVG_homeCheckmark,
+"home-database": SVG_homeDatabase,
+"home-more": SVG_homeMore,
 "home-person": SVG_homePerson,
 "icons": SVG_icons,
 "image": SVG_image,
@@ -2613,6 +2685,8 @@ export const map: IconsMapType<IconNames> = {
 "mic": SVG_mic,
 "mic-off": SVG_micOff,
 "mic-prohibited": SVG_micProhibited,
+"mic-pulse": SVG_micPulse,
+"mic-pulse-off": SVG_micPulseOff,
 "mic-settings": SVG_micSettings,
 "mic-sparkle": SVG_micSparkle,
 "microscope": SVG_microscope,
@@ -2730,6 +2804,7 @@ export const map: IconsMapType<IconNames> = {
 "person-delete": SVG_personDelete,
 "person-edit": SVG_personEdit,
 "person-feedback": SVG_personFeedback,
+"person-heart": SVG_personHeart,
 "person-lightbulb": SVG_personLightbulb,
 "person-lock": SVG_personLock,
 "person-mail": SVG_personMail,
@@ -2738,6 +2813,7 @@ export const map: IconsMapType<IconNames> = {
 "person-pill": SVG_personPill,
 "person-prohibited": SVG_personProhibited,
 "person-question-mark": SVG_personQuestionMark,
+"person-star": SVG_personStar,
 "person-support": SVG_personSupport,
 "person-swap": SVG_personSwap,
 "person-sync": SVG_personSync,
@@ -2773,6 +2849,7 @@ export const map: IconsMapType<IconNames> = {
 "pill": SVG_pill,
 "pin": SVG_pin,
 "pin-off": SVG_pinOff,
+"pipeline": SVG_pipeline,
 "pivot": SVG_pivot,
 "play": SVG_play,
 "play-circle": SVG_playCircle,
@@ -2921,6 +2998,7 @@ export const map: IconsMapType<IconNames> = {
 "shield-checkmark": SVG_shieldCheckmark,
 "shield-dismiss": SVG_shieldDismiss,
 "shield-error": SVG_shieldError,
+"shield-globe": SVG_shieldGlobe,
 "shield-keyhole": SVG_shieldKeyhole,
 "shield-lock": SVG_shieldLock,
 "shield-prohibited": SVG_shieldProhibited,
@@ -2958,6 +3036,7 @@ export const map: IconsMapType<IconNames> = {
 "slide-grid": SVG_slideGrid,
 "slide-hide": SVG_slideHide,
 "slide-layout": SVG_slideLayout,
+"slide-link": SVG_slideLink,
 "slide-microphone": SVG_slideMicrophone,
 "slide-multiple": SVG_slideMultiple,
 "slide-multiple-arrow-right": SVG_slideMultipleArrowRight,
@@ -3112,13 +3191,23 @@ export const map: IconsMapType<IconNames> = {
 "text-add-space-before": SVG_textAddSpaceBefore,
 "text-add-t": SVG_textAddT,
 "text-align-center": SVG_textAlignCenter,
+"text-align-center-rotate-270": SVG_textAlignCenterRotate_270,
+"text-align-center-rotate-90": SVG_textAlignCenterRotate_90,
 "text-align-distributed": SVG_textAlignDistributed,
 "text-align-distributed-evenly": SVG_textAlignDistributedEvenly,
 "text-align-distributed-vertical": SVG_textAlignDistributedVertical,
 "text-align-justify": SVG_textAlignJustify,
 "text-align-justify-low": SVG_textAlignJustifyLow,
+"text-align-justify-low-rotate-270": SVG_textAlignJustifyLowRotate_270,
+"text-align-justify-low-rotate-90": SVG_textAlignJustifyLowRotate_90,
+"text-align-justify-rotate-270": SVG_textAlignJustifyRotate_270,
+"text-align-justify-rotate-90": SVG_textAlignJustifyRotate_90,
 "text-align-left": SVG_textAlignLeft,
+"text-align-left-rotate-270": SVG_textAlignLeftRotate_270,
+"text-align-left-rotate-90": SVG_textAlignLeftRotate_90,
 "text-align-right": SVG_textAlignRight,
+"text-align-right-rotate-270": SVG_textAlignRightRotate_270,
+"text-align-right-rotate-90": SVG_textAlignRightRotate_90,
 "text-bold": SVG_textBold,
 "text-box-settings": SVG_textBoxSettings,
 "text-bullet-list-add": SVG_textBulletListAdd,
@@ -3234,6 +3323,7 @@ export const map: IconsMapType<IconNames> = {
 "timer-3": SVG_timer_3,
 "timer-off": SVG_timerOff,
 "toggle-left": SVG_toggleLeft,
+"toggle-multiple": SVG_toggleMultiple,
 "toggle-right": SVG_toggleRight,
 "toolbox": SVG_toolbox,
 "tooltip-quote": SVG_tooltipQuote,
@@ -3335,7 +3425,9 @@ export const map: IconsMapType<IconNames> = {
 "wrench": SVG_wrench,
 "wrench-screwdriver": SVG_wrenchScrewdriver,
 "xbox-console": SVG_xboxConsole,
+"xbox-controller": SVG_xboxController,
 "xray": SVG_xray,
+"zoom-fit": SVG_zoomFit,
 "zoom-in": SVG_zoomIn,
 "zoom-out": SVG_zoomOut
 };

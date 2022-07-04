@@ -61,7 +61,7 @@
     "@svgr-iconkit/core": "^0.3.0-beta.15"
   },
   "devDependencies": {
-    "@mdi/svg": "^6.6.96",
+    "@mdi/svg": "^6.9.96",
     "@svgr-iconkit/build-config": "^0.3.0-beta.15",
     "@svgr-iconkit/cli": "^0.3.0-beta.15",
     "@types/node": "^15.6.1",
@@ -74,6 +74,7 @@
     "access": "public"
   },
   "scripts": {
+    "iconsmap:upgrade": "yarn add -D @mdi/svg",
     "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/svgs; mkdir -p ./src/gen/assets/outline; mkdir -p ./src/gen/assets/regular",
     "iconsmap:copy:outline": "svgr-iconkit deep-copy -i svg -p @mdi/svg -o src/gen/assets/outline -E '-outline.svg' --remove-name-suffix '-outline'",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -i svg -p @mdi/svg -o src/gen/assets/regular --not-ends-with '-outline.svg'",

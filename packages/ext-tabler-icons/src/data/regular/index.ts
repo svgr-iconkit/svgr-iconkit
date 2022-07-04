@@ -34,10 +34,14 @@ import SVG_alignCenter from "./align-center";
 import SVG_alignJustified from "./align-justified";
 import SVG_alignLeft from "./align-left";
 import SVG_alignRight from "./align-right";
+import SVG_alphabetCyrillic from "./alphabet-cyrillic";
+import SVG_alphabetGreek from "./alphabet-greek";
+import SVG_alphabetLatin from "./alphabet-latin";
 import SVG_ambulance from "./ambulance";
 import SVG_anchorOff from "./anchor-off";
 import SVG_anchor from "./anchor";
 import SVG_angle from "./angle";
+import SVG_ankh from "./ankh";
 import SVG_antennaBars_1 from "./antenna-bars-1";
 import SVG_antennaBars_2 from "./antenna-bars-2";
 import SVG_antennaBars_3 from "./antenna-bars-3";
@@ -166,6 +170,8 @@ import SVG_arrowsDoubleSeNw from "./arrows-double-se-nw";
 import SVG_arrowsDoubleSwNe from "./arrows-double-sw-ne";
 import SVG_arrowsDownUp from "./arrows-down-up";
 import SVG_arrowsDown from "./arrows-down";
+import SVG_arrowsExchange_2 from "./arrows-exchange-2";
+import SVG_arrowsExchange from "./arrows-exchange";
 import SVG_arrowsHorizontal from "./arrows-horizontal";
 import SVG_arrowsJoin_2 from "./arrows-join-2";
 import SVG_arrowsJoin from "./arrows-join";
@@ -190,8 +196,10 @@ import SVG_arrowsUp from "./arrows-up";
 import SVG_arrowsVertical from "./arrows-vertical";
 import SVG_artboardOff from "./artboard-off";
 import SVG_artboard from "./artboard";
+import SVG_article from "./article";
 import SVG_aspectRatioOff from "./aspect-ratio-off";
 import SVG_aspectRatio from "./aspect-ratio";
+import SVG_asset from "./asset";
 import SVG_asteriskSimple from "./asterisk-simple";
 import SVG_asterisk from "./asterisk";
 import SVG_atOff from "./at-off";
@@ -328,17 +336,25 @@ import SVG_boxPadding from "./box-padding";
 import SVG_box from "./box";
 import SVG_bracesOff from "./braces-off";
 import SVG_braces from "./braces";
+import SVG_bracketsContainEnd from "./brackets-contain-end";
+import SVG_bracketsContainStart from "./brackets-contain-start";
+import SVG_bracketsContain from "./brackets-contain";
 import SVG_bracketsOff from "./brackets-off";
 import SVG_brackets from "./brackets";
 import SVG_brandAdobe from "./brand-adobe";
 import SVG_brandAirbnb from "./brand-airbnb";
 import SVG_brandAirtable from "./brand-airtable";
+import SVG_brandAmongus from "./brand-amongus";
 import SVG_brandAndroid from "./brand-android";
 import SVG_brandAngular from "./brand-angular";
 import SVG_brandAppleArcade from "./brand-apple-arcade";
+import SVG_brandApplePodcast from "./brand-apple-podcast";
 import SVG_brandApple from "./brand-apple";
 import SVG_brandAppstore from "./brand-appstore";
 import SVG_brandAsana from "./brand-asana";
+import SVG_brandBadoo from "./brand-badoo";
+import SVG_brandBandcamp from "./brand-bandcamp";
+import SVG_brandBeats from "./brand-beats";
 import SVG_brandBehance from "./brand-behance";
 import SVG_brandBing from "./brand-bing";
 import SVG_brandBitbucket from "./brand-bitbucket";
@@ -347,11 +363,14 @@ import SVG_brandBootstrap from "./brand-bootstrap";
 import SVG_brandChrome from "./brand-chrome";
 import SVG_brandCodepen from "./brand-codepen";
 import SVG_brandCodesandbox from "./brand-codesandbox";
+import SVG_brandCoinbase from "./brand-coinbase";
+import SVG_brandComedyCentral from "./brand-comedy-central";
 import SVG_brandCss3 from "./brand-css3";
 import SVG_brandCucumber from "./brand-cucumber";
 import SVG_brandDebian from "./brand-debian";
 import SVG_brandDeviantart from "./brand-deviantart";
 import SVG_brandDiscord from "./brand-discord";
+import SVG_brandDisney from "./brand-disney";
 import SVG_brandDisqus from "./brand-disqus";
 import SVG_brandDocker from "./brand-docker";
 import SVG_brandDoctrine from "./brand-doctrine";
@@ -359,9 +378,11 @@ import SVG_brandDribbble from "./brand-dribbble";
 import SVG_brandEdge from "./brand-edge";
 import SVG_brandFacebook from "./brand-facebook";
 import SVG_brandFigma from "./brand-figma";
+import SVG_brandFinder from "./brand-finder";
 import SVG_brandFirebase from "./brand-firebase";
 import SVG_brandFirefox from "./brand-firefox";
 import SVG_brandFlickr from "./brand-flickr";
+import SVG_brandFlipboard from "./brand-flipboard";
 import SVG_brandFoursquare from "./brand-foursquare";
 import SVG_brandFramer from "./brand-framer";
 import SVG_brandGit from "./brand-git";
@@ -370,23 +391,28 @@ import SVG_brandGitlab from "./brand-gitlab";
 import SVG_brandGmail from "./brand-gmail";
 import SVG_brandGoogleAnalytics from "./brand-google-analytics";
 import SVG_brandGoogleDrive from "./brand-google-drive";
+import SVG_brandGooglePhotos from "./brand-google-photos";
 import SVG_brandGooglePlay from "./brand-google-play";
 import SVG_brandGoogle from "./brand-google";
 import SVG_brandGravatar from "./brand-gravatar";
+import SVG_brandGrindr from "./brand-grindr";
 import SVG_brandHipchat from "./brand-hipchat";
 import SVG_brandHtml5 from "./brand-html5";
 import SVG_brandInstagram from "./brand-instagram";
+import SVG_brandIntercom from "./brand-intercom";
 import SVG_brandJavascript from "./brand-javascript";
 import SVG_brandKickstarter from "./brand-kickstarter";
 import SVG_brandKotlin from "./brand-kotlin";
 import SVG_brandLastfm from "./brand-lastfm";
 import SVG_brandLinkedin from "./brand-linkedin";
+import SVG_brandLinktree from "./brand-linktree";
 import SVG_brandLoom from "./brand-loom";
 import SVG_brandMastercard from "./brand-mastercard";
 import SVG_brandMedium from "./brand-medium";
 import SVG_brandMercedes from "./brand-mercedes";
 import SVG_brandMessenger from "./brand-messenger";
 import SVG_brandMeta from "./brand-meta";
+import SVG_brandMonday from "./brand-monday";
 import SVG_brandNetbeans from "./brand-netbeans";
 import SVG_brandNetflix from "./brand-netflix";
 import SVG_brandNextjs from "./brand-nextjs";
@@ -402,6 +428,7 @@ import SVG_brandPhp from "./brand-php";
 import SVG_brandPinterest from "./brand-pinterest";
 import SVG_brandPocket from "./brand-pocket";
 import SVG_brandProducthunt from "./brand-producthunt";
+import SVG_brandPushover from "./brand-pushover";
 import SVG_brandPython from "./brand-python";
 import SVG_brandReactNative from "./brand-react-native";
 import SVG_brandReddit from "./brand-reddit";
@@ -435,14 +462,23 @@ import SVG_brandUbuntu from "./brand-ubuntu";
 import SVG_brandUnsplash from "./brand-unsplash";
 import SVG_brandVercel from "./brand-vercel";
 import SVG_brandVimeo from "./brand-vimeo";
+import SVG_brandVinted from "./brand-vinted";
 import SVG_brandVisualStudio from "./brand-visual-studio";
+import SVG_brandVivaldi from "./brand-vivaldi";
 import SVG_brandVk from "./brand-vk";
 import SVG_brandVue from "./brand-vue";
+import SVG_brandWalmart from "./brand-walmart";
 import SVG_brandWhatsapp from "./brand-whatsapp";
 import SVG_brandWindows from "./brand-windows";
+import SVG_brandWish from "./brand-wish";
+import SVG_brandXing from "./brand-xing";
 import SVG_brandYahoo from "./brand-yahoo";
+import SVG_brandYatse from "./brand-yatse";
 import SVG_brandYcombinator from "./brand-ycombinator";
+import SVG_brandYoutubeKids from "./brand-youtube-kids";
 import SVG_brandYoutube from "./brand-youtube";
+import SVG_brandZoom from "./brand-zoom";
+import SVG_brandZwift from "./brand-zwift";
 import SVG_bread from "./bread";
 import SVG_briefcase from "./briefcase";
 import SVG_brightness_2 from "./brightness-2";
@@ -450,6 +486,8 @@ import SVG_brightnessDown from "./brightness-down";
 import SVG_brightnessHalf from "./brightness-half";
 import SVG_brightnessUp from "./brightness-up";
 import SVG_brightness from "./brightness";
+import SVG_broadcastOff from "./broadcast-off";
+import SVG_broadcast from "./broadcast";
 import SVG_browserCheck from "./browser-check";
 import SVG_browserOff from "./browser-off";
 import SVG_browserPlus from "./browser-plus";
@@ -488,6 +526,7 @@ import SVG_bus from "./bus";
 import SVG_businessplan from "./businessplan";
 import SVG_butterfly from "./butterfly";
 import SVG_cSharp from "./c-sharp";
+import SVG_cactus from "./cactus";
 import SVG_cakeOff from "./cake-off";
 import SVG_cake from "./cake";
 import SVG_calculatorOff from "./calculator-off";
@@ -521,12 +560,15 @@ import SVG_caretDown from "./caret-down";
 import SVG_caretLeft from "./caret-left";
 import SVG_caretRight from "./caret-right";
 import SVG_caretUp from "./caret-up";
+import SVG_carrot from "./carrot";
 import SVG_cashBanknoteOff from "./cash-banknote-off";
 import SVG_cashBanknote from "./cash-banknote";
 import SVG_cashOff from "./cash-off";
 import SVG_cash from "./cash";
 import SVG_castOff from "./cast-off";
 import SVG_cast from "./cast";
+import SVG_category_2 from "./category-2";
+import SVG_category from "./category";
 import SVG_ceOff from "./ce-off";
 import SVG_ce from "./ce";
 import SVG_cellSignal_1 from "./cell-signal-1";
@@ -571,6 +613,7 @@ import SVG_checklist from "./checklist";
 import SVG_checks from "./checks";
 import SVG_checkupList from "./checkup-list";
 import SVG_cheese from "./cheese";
+import SVG_chefHat from "./chef-hat";
 import SVG_chevronDownLeft from "./chevron-down-left";
 import SVG_chevronDownRight from "./chevron-down-right";
 import SVG_chevronDown from "./chevron-down";
@@ -628,6 +671,8 @@ import SVG_clipboard from "./clipboard";
 import SVG_clock_2 from "./clock-2";
 import SVG_clockOff from "./clock-off";
 import SVG_clock from "./clock";
+import SVG_cloudComputing from "./cloud-computing";
+import SVG_cloudDataConnection from "./cloud-data-connection";
 import SVG_cloudDownload from "./cloud-download";
 import SVG_cloudFog from "./cloud-fog";
 import SVG_cloudLockOpen from "./cloud-lock-open";
@@ -638,6 +683,8 @@ import SVG_cloudSnow from "./cloud-snow";
 import SVG_cloudStorm from "./cloud-storm";
 import SVG_cloudUpload from "./cloud-upload";
 import SVG_cloud from "./cloud";
+import SVG_clover_2 from "./clover-2";
+import SVG_clover from "./clover";
 import SVG_clubs from "./clubs";
 import SVG_codeMinus from "./code-minus";
 import SVG_codeOff from "./code-off";
@@ -697,7 +744,12 @@ import SVG_cpuOff from "./cpu-off";
 import SVG_cpu from "./cpu";
 import SVG_craneOff from "./crane-off";
 import SVG_crane from "./crane";
+import SVG_creativeCommonsBy from "./creative-commons-by";
+import SVG_creativeCommonsNc from "./creative-commons-nc";
+import SVG_creativeCommonsNd from "./creative-commons-nd";
 import SVG_creativeCommonsOff from "./creative-commons-off";
+import SVG_creativeCommonsSa from "./creative-commons-sa";
+import SVG_creativeCommonsZero from "./creative-commons-zero";
 import SVG_creativeCommons from "./creative-commons";
 import SVG_creditCardOff from "./credit-card-off";
 import SVG_creditCard from "./credit-card";
@@ -772,10 +824,12 @@ import SVG_deviceDesktopAnalytics from "./device-desktop-analytics";
 import SVG_deviceDesktopOff from "./device-desktop-off";
 import SVG_deviceDesktop from "./device-desktop";
 import SVG_deviceFloppy from "./device-floppy";
+import SVG_deviceGamepad_2 from "./device-gamepad-2";
 import SVG_deviceGamepad from "./device-gamepad";
 import SVG_deviceHeartMonitor from "./device-heart-monitor";
 import SVG_deviceLaptopOff from "./device-laptop-off";
 import SVG_deviceLaptop from "./device-laptop";
+import SVG_deviceMobileCharging from "./device-mobile-charging";
 import SVG_deviceMobileMessage from "./device-mobile-message";
 import SVG_deviceMobileOff from "./device-mobile-off";
 import SVG_deviceMobileRotated from "./device-mobile-rotated";
@@ -788,6 +842,7 @@ import SVG_deviceSpeaker from "./device-speaker";
 import SVG_deviceTabletOff from "./device-tablet-off";
 import SVG_deviceTablet from "./device-tablet";
 import SVG_deviceTvOff from "./device-tv-off";
+import SVG_deviceTvOld from "./device-tv-old";
 import SVG_deviceTv from "./device-tv";
 import SVG_deviceWatchOff from "./device-watch-off";
 import SVG_deviceWatchStats_2 from "./device-watch-stats-2";
@@ -812,6 +867,7 @@ import SVG_dice_6 from "./dice-6";
 import SVG_dice from "./dice";
 import SVG_dimensions from "./dimensions";
 import SVG_directionHorizontal from "./direction-horizontal";
+import SVG_directionSign from "./direction-sign";
 import SVG_direction from "./direction";
 import SVG_directionsOff from "./directions-off";
 import SVG_directions from "./directions";
@@ -821,6 +877,7 @@ import SVG_disabled from "./disabled";
 import SVG_discOff from "./disc-off";
 import SVG_disc from "./disc";
 import SVG_discount_2 from "./discount-2";
+import SVG_discountCheck from "./discount-check";
 import SVG_discount from "./discount";
 import SVG_divide from "./divide";
 import SVG_dna_2Off from "./dna-2-off";
@@ -953,6 +1010,7 @@ import SVG_fingerprintOff from "./fingerprint-off";
 import SVG_fingerprint from "./fingerprint";
 import SVG_firetruck from "./firetruck";
 import SVG_firstAidKit from "./first-aid-kit";
+import SVG_fishHook from "./fish-hook";
 import SVG_fishOff from "./fish-off";
 import SVG_fish from "./fish";
 import SVG_flag_2Off from "./flag-2-off";
@@ -986,16 +1044,24 @@ import SVG_folderOff from "./folder-off";
 import SVG_folderPlus from "./folder-plus";
 import SVG_folderX from "./folder-x";
 import SVG_folder from "./folder";
+import SVG_foldersOff from "./folders-off";
 import SVG_folders from "./folders";
 import SVG_forbid_2 from "./forbid-2";
 import SVG_forbid from "./forbid";
 import SVG_forklift from "./forklift";
 import SVG_forms from "./forms";
+import SVG_fountainOff from "./fountain-off";
 import SVG_fountain from "./fountain";
+import SVG_frameOff from "./frame-off";
 import SVG_frame from "./frame";
 import SVG_freeRights from "./free-rights";
+import SVG_fridge from "./fridge";
+import SVG_friendsOff from "./friends-off";
 import SVG_friends from "./friends";
+import SVG_function from "./function";
+import SVG_gasStationOff from "./gas-station-off";
 import SVG_gasStation from "./gas-station";
+import SVG_gaugeOff from "./gauge-off";
 import SVG_gauge from "./gauge";
 import SVG_gavel from "./gavel";
 import SVG_genderAgender from "./gender-agender";
@@ -1031,12 +1097,15 @@ import SVG_gizmo from "./gizmo";
 import SVG_glassFull from "./glass-full";
 import SVG_glassOff from "./glass-off";
 import SVG_glass from "./glass";
+import SVG_globeOff from "./globe-off";
 import SVG_globe from "./globe";
+import SVG_golfOff from "./golf-off";
 import SVG_golf from "./golf";
 import SVG_gps from "./gps";
 import SVG_grain from "./grain";
 import SVG_gridDots from "./grid-dots";
 import SVG_gridPattern from "./grid-pattern";
+import SVG_grillOff from "./grill-off";
 import SVG_grill from "./grill";
 import SVG_gripHorizontal from "./grip-horizontal";
 import SVG_gripVertical from "./grip-vertical";
@@ -1047,8 +1116,10 @@ import SVG_h_3 from "./h-3";
 import SVG_h_4 from "./h-4";
 import SVG_h_5 from "./h-5";
 import SVG_h_6 from "./h-6";
+import SVG_hammerOff from "./hammer-off";
 import SVG_hammer from "./hammer";
 import SVG_handClick from "./hand-click";
+import SVG_handFingerOff from "./hand-finger-off";
 import SVG_handFinger from "./hand-finger";
 import SVG_handGrab from "./hand-grab";
 import SVG_handLittleFinger from "./hand-little-finger";
@@ -1061,20 +1132,27 @@ import SVG_handStop from "./hand-stop";
 import SVG_handThreeFingers from "./hand-three-fingers";
 import SVG_handTwoFingers from "./hand-two-fingers";
 import SVG_hanger_2 from "./hanger-2";
+import SVG_hangerOff from "./hanger-off";
 import SVG_hanger from "./hanger";
 import SVG_hash from "./hash";
 import SVG_haze from "./haze";
+import SVG_headingOff from "./heading-off";
 import SVG_heading from "./heading";
 import SVG_headphonesOff from "./headphones-off";
 import SVG_headphones from "./headphones";
 import SVG_headset from "./headset";
+import SVG_healthRecognition from "./health-recognition";
 import SVG_heartBroken from "./heart-broken";
 import SVG_heartHandshake from "./heart-handshake";
+import SVG_heartMinus from "./heart-minus";
+import SVG_heartOff from "./heart-off";
+import SVG_heartPlus from "./heart-plus";
 import SVG_heartRateMonitor from "./heart-rate-monitor";
 import SVG_heart from "./heart";
 import SVG_heartbeat from "./heartbeat";
 import SVG_helicopterLanding from "./helicopter-landing";
 import SVG_helicopter from "./helicopter";
+import SVG_helmetOff from "./helmet-off";
 import SVG_helmet from "./helmet";
 import SVG_help from "./help";
 import SVG_hexagonOff from "./hexagon-off";
@@ -1082,20 +1160,29 @@ import SVG_hexagon from "./hexagon";
 import SVG_hexagons from "./hexagons";
 import SVG_hierarchy_2 from "./hierarchy-2";
 import SVG_hierarchy from "./hierarchy";
+import SVG_highlightOff from "./highlight-off";
 import SVG_highlight from "./highlight";
+import SVG_historyToggle from "./history-toggle";
 import SVG_history from "./history";
 import SVG_home_2 from "./home-2";
+import SVG_homeOff from "./home-off";
 import SVG_home from "./home";
 import SVG_hotelService from "./hotel-service";
+import SVG_hourglassEmpty from "./hourglass-empty";
 import SVG_hourglassHigh from "./hourglass-high";
 import SVG_hourglassLow from "./hourglass-low";
+import SVG_hourglassOff from "./hourglass-off";
 import SVG_hourglass from "./hourglass";
 import SVG_iceCream_2 from "./ice-cream-2";
+import SVG_iceCreamOff from "./ice-cream-off";
 import SVG_iceCream from "./ice-cream";
 import SVG_iceSkating from "./ice-skating";
+import SVG_icons from "./icons";
 import SVG_idBadge_2 from "./id-badge-2";
 import SVG_idBadge from "./id-badge";
+import SVG_idOff from "./id-off";
 import SVG_id from "./id";
+import SVG_inboxOff from "./inbox-off";
 import SVG_inbox from "./inbox";
 import SVG_indentDecrease from "./indent-decrease";
 import SVG_indentIncrease from "./indent-increase";
@@ -1103,25 +1190,33 @@ import SVG_infinity from "./infinity";
 import SVG_infoCircle from "./info-circle";
 import SVG_infoSquare from "./info-square";
 import SVG_italic from "./italic";
+import SVG_jewishStar from "./jewish-star";
 import SVG_jumpRope from "./jump-rope";
 import SVG_karate from "./karate";
+import SVG_kayak from "./kayak";
 import SVG_kering from "./kering";
+import SVG_keyOff from "./key-off";
 import SVG_key from "./key";
 import SVG_keyboardHide from "./keyboard-hide";
 import SVG_keyboardOff from "./keyboard-off";
 import SVG_keyboardShow from "./keyboard-show";
 import SVG_keyboard from "./keyboard";
+import SVG_ladderOff from "./ladder-off";
 import SVG_ladder from "./ladder";
 import SVG_lamp_2 from "./lamp-2";
+import SVG_lampOff from "./lamp-off";
 import SVG_lamp from "./lamp";
 import SVG_languageHiragana from "./language-hiragana";
 import SVG_languageKatakana from "./language-katakana";
+import SVG_languageOff from "./language-off";
 import SVG_language from "./language";
+import SVG_lassoOff from "./lasso-off";
 import SVG_lasso from "./lasso";
 import SVG_layersDifference from "./layers-difference";
 import SVG_layersIntersect_2 from "./layers-intersect-2";
 import SVG_layersIntersect from "./layers-intersect";
 import SVG_layersLinked from "./layers-linked";
+import SVG_layersOff from "./layers-off";
 import SVG_layersSubtract from "./layers-subtract";
 import SVG_layersUnion from "./layers-union";
 import SVG_layout_2 from "./layout-2";
@@ -1144,6 +1239,7 @@ import SVG_layoutGrid from "./layout-grid";
 import SVG_layoutKanban from "./layout-kanban";
 import SVG_layoutList from "./layout-list";
 import SVG_layoutNavbar from "./layout-navbar";
+import SVG_layoutOff from "./layout-off";
 import SVG_layoutRows from "./layout-rows";
 import SVG_layoutSidebarLeftCollapse from "./layout-sidebar-left-collapse";
 import SVG_layoutSidebarLeftExpand from "./layout-sidebar-left-expand";
@@ -1152,6 +1248,7 @@ import SVG_layoutSidebarRightExpand from "./layout-sidebar-right-expand";
 import SVG_layoutSidebarRight from "./layout-sidebar-right";
 import SVG_layoutSidebar from "./layout-sidebar";
 import SVG_layout from "./layout";
+import SVG_leafOff from "./leaf-off";
 import SVG_leaf from "./leaf";
 import SVG_lego from "./lego";
 import SVG_lemon_2 from "./lemon-2";
@@ -1187,7 +1284,9 @@ import SVG_letterW from "./letter-w";
 import SVG_letterX from "./letter-x";
 import SVG_letterY from "./letter-y";
 import SVG_letterZ from "./letter-z";
+import SVG_licenseOff from "./license-off";
 import SVG_license from "./license";
+import SVG_lifebuoyOff from "./lifebuoy-off";
 import SVG_lifebuoy from "./lifebuoy";
 import SVG_lineDashed from "./line-dashed";
 import SVG_lineDotted from "./line-dotted";
@@ -1201,29 +1300,38 @@ import SVG_listSearch from "./list-search";
 import SVG_list from "./list";
 import SVG_livePhoto from "./live-photo";
 import SVG_liveView from "./live-view";
+import SVG_loader_2 from "./loader-2";
 import SVG_loaderQuarter from "./loader-quarter";
 import SVG_loader from "./loader";
+import SVG_locationOff from "./location-off";
 import SVG_location from "./location";
 import SVG_lockAccess from "./lock-access";
 import SVG_lockOff from "./lock-off";
+import SVG_lockOpenOff from "./lock-open-off";
 import SVG_lockOpen from "./lock-open";
 import SVG_lockSquare from "./lock-square";
 import SVG_lock from "./lock";
 import SVG_login from "./login";
 import SVG_logout from "./logout";
+import SVG_lollipopOff from "./lollipop-off";
 import SVG_lollipop from "./lollipop";
+import SVG_luggageOff from "./luggage-off";
 import SVG_luggage from "./luggage";
 import SVG_lungs from "./lungs";
 import SVG_macro from "./macro";
+import SVG_magnetOff from "./magnet-off";
 import SVG_magnet from "./magnet";
 import SVG_mailFast from "./mail-fast";
 import SVG_mailForward from "./mail-forward";
+import SVG_mailOff from "./mail-off";
 import SVG_mailOpened from "./mail-opened";
 import SVG_mail from "./mail";
+import SVG_mailboxOff from "./mailbox-off";
 import SVG_mailbox from "./mailbox";
 import SVG_man from "./man";
 import SVG_manualGearbox from "./manual-gearbox";
 import SVG_map_2 from "./map-2";
+import SVG_mapOff from "./map-off";
 import SVG_mapPinOff from "./map-pin-off";
 import SVG_mapPin from "./map-pin";
 import SVG_mapPins from "./map-pins";
@@ -1231,21 +1339,25 @@ import SVG_mapSearch from "./map-search";
 import SVG_map from "./map";
 import SVG_markdown from "./markdown";
 import SVG_marquee_2 from "./marquee-2";
+import SVG_marqueeOff from "./marquee-off";
 import SVG_marquee from "./marquee";
 import SVG_mars from "./mars";
 import SVG_maskOff from "./mask-off";
 import SVG_mask from "./mask";
 import SVG_massage from "./massage";
 import SVG_mathAvg from "./math-avg";
+import SVG_mathFunctionOff from "./math-function-off";
 import SVG_mathFunction from "./math-function";
 import SVG_mathMax from "./math-max";
 import SVG_mathMin from "./math-min";
 import SVG_mathSymbols from "./math-symbols";
 import SVG_math from "./math";
+import SVG_maximizeOff from "./maximize-off";
 import SVG_maximize from "./maximize";
 import SVG_meat from "./meat";
 import SVG_medal_2 from "./medal-2";
 import SVG_medal from "./medal";
+import SVG_medicalCrossOff from "./medical-cross-off";
 import SVG_medicalCross from "./medical-cross";
 import SVG_medicineSyrup from "./medicine-syrup";
 import SVG_menu_2 from "./menu-2";
@@ -1266,6 +1378,7 @@ import SVG_messageShare from "./message-share";
 import SVG_message from "./message";
 import SVG_messagesOff from "./messages-off";
 import SVG_messages from "./messages";
+import SVG_meteor from "./meteor";
 import SVG_microphone_2 from "./microphone-2";
 import SVG_microphoneOff from "./microphone-off";
 import SVG_microphone from "./microphone";
@@ -1286,36 +1399,48 @@ import SVG_moodHappy from "./mood-happy";
 import SVG_moodKid from "./mood-kid";
 import SVG_moodNervous from "./mood-nervous";
 import SVG_moodNeutral from "./mood-neutral";
+import SVG_moodOff from "./mood-off";
 import SVG_moodSad from "./mood-sad";
 import SVG_moodSmile from "./mood-smile";
 import SVG_moodSuprised from "./mood-suprised";
 import SVG_moodTongue from "./mood-tongue";
 import SVG_moon_2 from "./moon-2";
+import SVG_moonOff from "./moon-off";
 import SVG_moonStars from "./moon-stars";
 import SVG_moon from "./moon";
 import SVG_moped from "./moped";
 import SVG_motorbike from "./motorbike";
 import SVG_mountain from "./mountain";
+import SVG_mouse_2 from "./mouse-2";
+import SVG_mouseOff from "./mouse-off";
 import SVG_mouse from "./mouse";
+import SVG_movieOff from "./movie-off";
 import SVG_movie from "./movie";
+import SVG_mugOff from "./mug-off";
 import SVG_mug from "./mug";
 import SVG_multiplier_0_5x from "./multiplier-0-5x";
 import SVG_multiplier_1_5x from "./multiplier-1-5x";
 import SVG_multiplier_1x from "./multiplier-1x";
 import SVG_multiplier_2x from "./multiplier-2x";
 import SVG_mushroom from "./mushroom";
+import SVG_musicOff from "./music-off";
 import SVG_music from "./music";
 import SVG_network from "./network";
 import SVG_newSection from "./new-section";
+import SVG_newsOff from "./news-off";
 import SVG_news from "./news";
+import SVG_nfcOff from "./nfc-off";
 import SVG_nfc from "./nfc";
 import SVG_noCopyright from "./no-copyright";
 import SVG_noCreativeCommons from "./no-creative-commons";
 import SVG_noDerivatives from "./no-derivatives";
 import SVG_northStar from "./north-star";
+import SVG_noteOff from "./note-off";
 import SVG_note from "./note";
 import SVG_notebook from "./notebook";
+import SVG_notesOff from "./notes-off";
 import SVG_notes from "./notes";
+import SVG_notificationOff from "./notification-off";
 import SVG_notification from "./notification";
 import SVG_number_0 from "./number-0";
 import SVG_number_1 from "./number-1";
@@ -1327,6 +1452,7 @@ import SVG_number_6 from "./number-6";
 import SVG_number_7 from "./number-7";
 import SVG_number_8 from "./number-8";
 import SVG_number_9 from "./number-9";
+import SVG_number from "./number";
 import SVG_numbers from "./numbers";
 import SVG_nurse from "./nurse";
 import SVG_octagonOff from "./octagon-off";
@@ -1338,28 +1464,41 @@ import SVG_outlet from "./outlet";
 import SVG_ovalVertical from "./oval-vertical";
 import SVG_oval from "./oval";
 import SVG_overline from "./overline";
+import SVG_packageOff from "./package-off";
 import SVG_package from "./package";
 import SVG_packgeExport from "./packge-export";
 import SVG_packgeImport from "./packge-import";
 import SVG_pacman from "./pacman";
 import SVG_pageBreak from "./page-break";
+import SVG_paintOff from "./paint-off";
 import SVG_paint from "./paint";
+import SVG_paletteOff from "./palette-off";
 import SVG_palette from "./palette";
 import SVG_panoramaHorizontal from "./panorama-horizontal";
 import SVG_panoramaVertical from "./panorama-vertical";
+import SVG_paperBagOff from "./paper-bag-off";
 import SVG_paperBag from "./paper-bag";
 import SVG_paperclip from "./paperclip";
+import SVG_parachuteOff from "./parachute-off";
 import SVG_parachute from "./parachute";
+import SVG_parenthesesOff from "./parentheses-off";
 import SVG_parentheses from "./parentheses";
+import SVG_parkingOff from "./parking-off";
 import SVG_parking from "./parking";
 import SVG_paw from "./paw";
 import SVG_peace from "./peace";
+import SVG_pencilMinus from "./pencil-minus";
+import SVG_pencilOff from "./pencil-off";
+import SVG_pencilPlus from "./pencil-plus";
 import SVG_pencil from "./pencil";
 import SVG_pennant_2 from "./pennant-2";
+import SVG_pennantOff from "./pennant-off";
 import SVG_pennant from "./pennant";
 import SVG_pentagon from "./pentagon";
+import SVG_pepperOff from "./pepper-off";
 import SVG_pepper from "./pepper";
 import SVG_percentage from "./percentage";
+import SVG_perspectiveOff from "./perspective-off";
 import SVG_perspective from "./perspective";
 import SVG_phoneCall from "./phone-call";
 import SVG_phoneCalling from "./phone-calling";
@@ -1378,20 +1517,29 @@ import SVG_pictureInPictureOff from "./picture-in-picture-off";
 import SVG_pictureInPictureOn from "./picture-in-picture-on";
 import SVG_pictureInPictureTop from "./picture-in-picture-top";
 import SVG_pictureInPicture from "./picture-in-picture";
+import SVG_pigOff from "./pig-off";
 import SVG_pig from "./pig";
+import SVG_pillOff from "./pill-off";
 import SVG_pill from "./pill";
 import SVG_pills from "./pills";
 import SVG_pin from "./pin";
 import SVG_pinnedOff from "./pinned-off";
 import SVG_pinned from "./pinned";
+import SVG_pizzaOff from "./pizza-off";
 import SVG_pizza from "./pizza";
 import SVG_planeArrival from "./plane-arrival";
 import SVG_planeDeparture from "./plane-departure";
 import SVG_planeInflight from "./plane-inflight";
+import SVG_planeOff from "./plane-off";
+import SVG_planeTilt from "./plane-tilt";
 import SVG_plane from "./plane";
+import SVG_planetOff from "./planet-off";
 import SVG_planet from "./planet";
+import SVG_plant_2Off from "./plant-2-off";
 import SVG_plant_2 from "./plant-2";
+import SVG_plantOff from "./plant-off";
 import SVG_plant from "./plant";
+import SVG_playCardOff from "./play-card-off";
 import SVG_playCard from "./play-card";
 import SVG_playerEject from "./player-eject";
 import SVG_playerPause from "./player-pause";
@@ -1403,16 +1551,21 @@ import SVG_playerStop from "./player-stop";
 import SVG_playerTrackNext from "./player-track-next";
 import SVG_playerTrackPrev from "./player-track-prev";
 import SVG_playlistAdd from "./playlist-add";
+import SVG_playlistOff from "./playlist-off";
 import SVG_playlistX from "./playlist-x";
 import SVG_playlist from "./playlist";
 import SVG_plugConnectedX from "./plug-connected-x";
 import SVG_plugConnected from "./plug-connected";
+import SVG_plugOff from "./plug-off";
 import SVG_plugX from "./plug-x";
 import SVG_plug from "./plug";
 import SVG_plus from "./plus";
+import SVG_podium from "./podium";
+import SVG_pointOff from "./point-off";
 import SVG_point from "./point";
 import SVG_pokeball from "./pokeball";
 import SVG_polaroid from "./polaroid";
+import SVG_polygonOff from "./polygon-off";
 import SVG_polygon from "./polygon";
 import SVG_pool from "./pool";
 import SVG_power from "./power";
@@ -1420,25 +1573,33 @@ import SVG_pray from "./pray";
 import SVG_premiumRights from "./premium-rights";
 import SVG_prescription from "./prescription";
 import SVG_presentationAnalytics from "./presentation-analytics";
+import SVG_presentationOff from "./presentation-off";
 import SVG_presentation from "./presentation";
+import SVG_printerOff from "./printer-off";
 import SVG_printer from "./printer";
 import SVG_prison from "./prison";
 import SVG_prompt from "./prompt";
+import SVG_propellerOff from "./propeller-off";
 import SVG_propeller from "./propeller";
 import SVG_puzzle_2 from "./puzzle-2";
+import SVG_puzzleOff from "./puzzle-off";
 import SVG_puzzle from "./puzzle";
+import SVG_pyramidOff from "./pyramid-off";
 import SVG_pyramid from "./pyramid";
 import SVG_qrcode from "./qrcode";
 import SVG_questionMark from "./question-mark";
+import SVG_quoteOff from "./quote-off";
 import SVG_quote from "./quote";
 import SVG_radar_2 from "./radar-2";
 import SVG_radar from "./radar";
 import SVG_radio from "./radio";
+import SVG_radioactiveOff from "./radioactive-off";
 import SVG_radioactive from "./radioactive";
 import SVG_radiusBottomLeft from "./radius-bottom-left";
 import SVG_radiusBottomRight from "./radius-bottom-right";
 import SVG_radiusTopLeft from "./radius-top-left";
 import SVG_radiusTopRight from "./radius-top-right";
+import SVG_rainbowOff from "./rainbow-off";
 import SVG_rainbow from "./rainbow";
 import SVG_receipt_2 from "./receipt-2";
 import SVG_receiptOff from "./receipt-off";
@@ -1446,30 +1607,39 @@ import SVG_receiptRefund from "./receipt-refund";
 import SVG_receiptTax from "./receipt-tax";
 import SVG_receipt from "./receipt";
 import SVG_recharging from "./recharging";
+import SVG_recordMailOff from "./record-mail-off";
 import SVG_recordMail from "./record-mail";
 import SVG_rectangleVertical from "./rectangle-vertical";
 import SVG_rectangle from "./rectangle";
+import SVG_recycleOff from "./recycle-off";
 import SVG_recycle from "./recycle";
 import SVG_refreshAlert from "./refresh-alert";
 import SVG_refreshDot from "./refresh-dot";
+import SVG_refreshOff from "./refresh-off";
 import SVG_refresh from "./refresh";
 import SVG_registered from "./registered";
 import SVG_relationManyToMany from "./relation-many-to-many";
 import SVG_relationOneToMany from "./relation-one-to-many";
 import SVG_relationOneToOne from "./relation-one-to-one";
+import SVG_repeatOff from "./repeat-off";
 import SVG_repeatOnce from "./repeat-once";
 import SVG_repeat from "./repeat";
 import SVG_replace from "./replace";
 import SVG_reportAnalytics from "./report-analytics";
 import SVG_reportMedical from "./report-medical";
 import SVG_reportMoney from "./report-money";
+import SVG_reportOff from "./report-off";
 import SVG_reportSearch from "./report-search";
 import SVG_report from "./report";
 import SVG_resize from "./resize";
+import SVG_rippleOff from "./ripple-off";
 import SVG_ripple from "./ripple";
+import SVG_roadOff from "./road-off";
 import SVG_roadSign from "./road-sign";
 import SVG_road from "./road";
+import SVG_robotOff from "./robot-off";
 import SVG_robot from "./robot";
+import SVG_rocketOff from "./rocket-off";
 import SVG_rocket from "./rocket";
 import SVG_rollerSkating from "./roller-skating";
 import SVG_rollercoaster from "./rollercoaster";
@@ -1480,32 +1650,45 @@ import SVG_rotateClockwise from "./rotate-clockwise";
 import SVG_rotateDot from "./rotate-dot";
 import SVG_rotateRectangle from "./rotate-rectangle";
 import SVG_rotate from "./rotate";
+import SVG_routeOff from "./route-off";
 import SVG_route from "./route";
 import SVG_router from "./router";
 import SVG_rowInsertBottom from "./row-insert-bottom";
 import SVG_rowInsertTop from "./row-insert-top";
 import SVG_rss from "./rss";
+import SVG_ruler_2Off from "./ruler-2-off";
 import SVG_ruler_2 from "./ruler-2";
+import SVG_rulerOff from "./ruler-off";
 import SVG_ruler from "./ruler";
 import SVG_run from "./run";
 import SVG_sailboat from "./sailboat";
 import SVG_salt from "./salt";
+import SVG_satelliteOff from "./satellite-off";
 import SVG_satellite from "./satellite";
 import SVG_sausage from "./sausage";
+import SVG_scaleOff from "./scale-off";
+import SVG_scaleOutlineOff from "./scale-outline-off";
 import SVG_scaleOutline from "./scale-outline";
 import SVG_scale from "./scale";
+import SVG_scanEye from "./scan-eye";
 import SVG_scan from "./scan";
+import SVG_schema from "./schema";
+import SVG_schoolOff from "./school-off";
 import SVG_school from "./school";
+import SVG_scissorsOff from "./scissors-off";
 import SVG_scissors from "./scissors";
 import SVG_scooterElectric from "./scooter-electric";
 import SVG_scooter from "./scooter";
 import SVG_screenShareOff from "./screen-share-off";
 import SVG_screenShare from "./screen-share";
+import SVG_screenshot from "./screenshot";
 import SVG_scribble from "./scribble";
 import SVG_scubaMask from "./scuba-mask";
+import SVG_searchOff from "./search-off";
 import SVG_search from "./search";
 import SVG_sectionSign from "./section-sign";
 import SVG_section from "./section";
+import SVG_seedingOff from "./seeding-off";
 import SVG_seeding from "./seeding";
 import SVG_select from "./select";
 import SVG_selector from "./selector";
@@ -1514,15 +1697,19 @@ import SVG_separatorHorizontal from "./separator-horizontal";
 import SVG_separatorVertical from "./separator-vertical";
 import SVG_separator from "./separator";
 import SVG_server_2 from "./server-2";
+import SVG_serverOff from "./server-off";
 import SVG_server from "./server";
 import SVG_servicemark from "./servicemark";
 import SVG_settingsAutomation from "./settings-automation";
+import SVG_settingsOff from "./settings-off";
 import SVG_settings from "./settings";
 import SVG_shadowOff from "./shadow-off";
 import SVG_shadow from "./shadow";
 import SVG_shape_2 from "./shape-2";
 import SVG_shape_3 from "./shape-3";
+import SVG_shapeOff from "./shape-off";
 import SVG_shape from "./shape";
+import SVG_shareOff from "./share-off";
 import SVG_share from "./share";
 import SVG_shieldCheck from "./shield-check";
 import SVG_shieldCheckered from "./shield-checkered";
@@ -1532,27 +1719,38 @@ import SVG_shieldOff from "./shield-off";
 import SVG_shieldX from "./shield-x";
 import SVG_shield from "./shield";
 import SVG_ship from "./ship";
+import SVG_shirtOff from "./shirt-off";
 import SVG_shirt from "./shirt";
+import SVG_shoeOff from "./shoe-off";
 import SVG_shoe from "./shoe";
 import SVG_shoppingCartDiscount from "./shopping-cart-discount";
 import SVG_shoppingCartOff from "./shopping-cart-off";
 import SVG_shoppingCartPlus from "./shopping-cart-plus";
 import SVG_shoppingCartX from "./shopping-cart-x";
 import SVG_shoppingCart from "./shopping-cart";
+import SVG_shovel from "./shovel";
 import SVG_shredder from "./shredder";
 import SVG_signLeft from "./sign-left";
 import SVG_signRight from "./sign-right";
+import SVG_signal_3g from "./signal-3g";
+import SVG_signal_4g from "./signal-4g";
+import SVG_signal_5g from "./signal-5g";
+import SVG_signatureOff from "./signature-off";
 import SVG_signature from "./signature";
+import SVG_sitemapOff from "./sitemap-off";
 import SVG_sitemap from "./sitemap";
 import SVG_skateboard from "./skateboard";
 import SVG_sleigh from "./sleigh";
 import SVG_slice from "./slice";
 import SVG_slideshow from "./slideshow";
+import SVG_smartHomeOff from "./smart-home-off";
 import SVG_smartHome from "./smart-home";
 import SVG_smokingNo from "./smoking-no";
 import SVG_smoking from "./smoking";
+import SVG_snowflakeOff from "./snowflake-off";
 import SVG_snowflake from "./snowflake";
 import SVG_soccerField from "./soccer-field";
+import SVG_socialOff from "./social-off";
 import SVG_social from "./social";
 import SVG_sock from "./sock";
 import SVG_sofa from "./sofa";
@@ -1565,6 +1763,7 @@ import SVG_sortDescendingLetters from "./sort-descending-letters";
 import SVG_sortDescendingNumbers from "./sort-descending-numbers";
 import SVG_sortDescending from "./sort-descending";
 import SVG_soup from "./soup";
+import SVG_spaceOff from "./space-off";
 import SVG_space from "./space";
 import SVG_spacingHorizontal from "./spacing-horizontal";
 import SVG_spacingVertical from "./spacing-vertical";
@@ -1572,6 +1771,7 @@ import SVG_spade from "./spade";
 import SVG_speakerphone from "./speakerphone";
 import SVG_speedboat from "./speedboat";
 import SVG_sportBillard from "./sport-billard";
+import SVG_spy from "./spy";
 import SVG_square_0 from "./square-0";
 import SVG_square_1 from "./square-1";
 import SVG_square_2 from "./square-2";
@@ -1622,6 +1822,7 @@ import SVG_strikethrough from "./strikethrough";
 import SVG_submarine from "./submarine";
 import SVG_subscript from "./subscript";
 import SVG_subtask from "./subtask";
+import SVG_sumOff from "./sum-off";
 import SVG_sum from "./sum";
 import SVG_sunOff from "./sun-off";
 import SVG_sun from "./sun";
@@ -1634,6 +1835,7 @@ import SVG_switch_3 from "./switch-3";
 import SVG_switchHorizontal from "./switch-horizontal";
 import SVG_switchVertical from "./switch-vertical";
 import SVG_switch from "./switch";
+import SVG_swordOff from "./sword-off";
 import SVG_sword from "./sword";
 import SVG_swords from "./swords";
 import SVG_tableExport from "./table-export";
@@ -1650,45 +1852,61 @@ import SVG_tallymark_3 from "./tallymark-3";
 import SVG_tallymark_4 from "./tallymark-4";
 import SVG_tallymarks from "./tallymarks";
 import SVG_tank from "./tank";
+import SVG_targetOff from "./target-off";
 import SVG_target from "./target";
+import SVG_telescopeOff from "./telescope-off";
 import SVG_telescope from "./telescope";
 import SVG_temperatureCelsius from "./temperature-celsius";
 import SVG_temperatureFahrenheit from "./temperature-fahrenheit";
 import SVG_temperatureMinus from "./temperature-minus";
+import SVG_temperatureOff from "./temperature-off";
 import SVG_temperaturePlus from "./temperature-plus";
 import SVG_temperature from "./temperature";
+import SVG_templateOff from "./template-off";
 import SVG_template from "./template";
 import SVG_tent from "./tent";
 import SVG_terminal_2 from "./terminal-2";
 import SVG_terminal from "./terminal";
 import SVG_testPipe_2 from "./test-pipe-2";
+import SVG_testPipeOff from "./test-pipe-off";
 import SVG_testPipe from "./test-pipe";
+import SVG_textDecrease from "./text-decrease";
 import SVG_textDirectionLtr from "./text-direction-ltr";
 import SVG_textDirectionRtl from "./text-direction-rtl";
+import SVG_textIncrease from "./text-increase";
+import SVG_textRecognition from "./text-recognition";
 import SVG_textResize from "./text-resize";
 import SVG_textWrapDisabled from "./text-wrap-disabled";
 import SVG_textWrap from "./text-wrap";
 import SVG_thermometer from "./thermometer";
 import SVG_thumbDown from "./thumb-down";
 import SVG_thumbUp from "./thumb-up";
+import SVG_ticketOff from "./ticket-off";
 import SVG_ticket from "./ticket";
 import SVG_tie from "./tie";
+import SVG_tiltShiftOff from "./tilt-shift-off";
 import SVG_tiltShift from "./tilt-shift";
 import SVG_timeline from "./timeline";
 import SVG_tir from "./tir";
 import SVG_toggleLeft from "./toggle-left";
 import SVG_toggleRight from "./toggle-right";
+import SVG_toiletPaperOff from "./toilet-paper-off";
 import SVG_toiletPaper from "./toilet-paper";
 import SVG_tool from "./tool";
+import SVG_toolsKitchen_2Off from "./tools-kitchen-2-off";
 import SVG_toolsKitchen_2 from "./tools-kitchen-2";
+import SVG_toolsKitchenOff from "./tools-kitchen-off";
 import SVG_toolsKitchen from "./tools-kitchen";
+import SVG_toolsOff from "./tools-off";
 import SVG_tools from "./tools";
 import SVG_tornado from "./tornado";
 import SVG_tournament from "./tournament";
 import SVG_track from "./track";
 import SVG_tractor from "./tractor";
 import SVG_trademark from "./trademark";
+import SVG_trafficConeOff from "./traffic-cone-off";
 import SVG_trafficCone from "./traffic-cone";
+import SVG_trafficLightsOff from "./traffic-lights-off";
 import SVG_trafficLights from "./traffic-lights";
 import SVG_train from "./train";
 import SVG_transferIn from "./transfer-in";
@@ -1712,10 +1930,13 @@ import SVG_triangles from "./triangles";
 import SVG_trident from "./trident";
 import SVG_trophy from "./trophy";
 import SVG_truckDelivery from "./truck-delivery";
+import SVG_truckLoading from "./truck-loading";
 import SVG_truckOff from "./truck-off";
 import SVG_truckReturn from "./truck-return";
 import SVG_truck from "./truck";
+import SVG_typographyOff from "./typography-off";
 import SVG_typography from "./typography";
+import SVG_umbrellaOff from "./umbrella-off";
 import SVG_umbrella from "./umbrella";
 import SVG_underline from "./underline";
 import SVG_unlink from "./unlink";
@@ -1733,19 +1954,26 @@ import SVG_userX from "./user-x";
 import SVG_user from "./user";
 import SVG_users from "./users";
 import SVG_vaccineBottle from "./vaccine-bottle";
+import SVG_vaccineOff from "./vaccine-off";
 import SVG_vaccine from "./vaccine";
+import SVG_variableOff from "./variable-off";
 import SVG_variable from "./variable";
-import SVG_vectorBeizer_2 from "./vector-beizer-2";
+import SVG_vectorBezier_2 from "./vector-bezier-2";
 import SVG_vectorBezier from "./vector-bezier";
+import SVG_vectorOff from "./vector-off";
+import SVG_vectorTriangleOff from "./vector-triangle-off";
 import SVG_vectorTriangle from "./vector-triangle";
 import SVG_vector from "./vector";
 import SVG_venus from "./venus";
+import SVG_versionsOff from "./versions-off";
 import SVG_versions from "./versions";
 import SVG_videoMinus from "./video-minus";
 import SVG_videoOff from "./video-off";
 import SVG_videoPlus from "./video-plus";
 import SVG_video from "./video";
+import SVG_view_360Off from "./view-360-off";
 import SVG_view_360 from "./view-360";
+import SVG_viewfinderOff from "./viewfinder-off";
 import SVG_viewfinder from "./viewfinder";
 import SVG_viewportNarrow from "./viewport-narrow";
 import SVG_viewportWide from "./viewport-wide";
@@ -1756,23 +1984,33 @@ import SVG_virus from "./virus";
 import SVG_vocabulary from "./vocabulary";
 import SVG_volume_2 from "./volume-2";
 import SVG_volume_3 from "./volume-3";
+import SVG_volumeOff from "./volume-off";
 import SVG_volume from "./volume";
 import SVG_walk from "./walk";
 import SVG_wall from "./wall";
+import SVG_walletOff from "./wallet-off";
 import SVG_wallet from "./wallet";
+import SVG_wallpaperOff from "./wallpaper-off";
 import SVG_wallpaper from "./wallpaper";
+import SVG_wandOff from "./wand-off";
 import SVG_wand from "./wand";
 import SVG_waveSawTool from "./wave-saw-tool";
 import SVG_waveSine from "./wave-sine";
 import SVG_waveSquare from "./wave-square";
 import SVG_webhook from "./webhook";
+import SVG_wheelchair from "./wheelchair";
 import SVG_wifi_0 from "./wifi-0";
 import SVG_wifi_1 from "./wifi-1";
 import SVG_wifi_2 from "./wifi-2";
 import SVG_wifiOff from "./wifi-off";
 import SVG_wifi from "./wifi";
+import SVG_windOff from "./wind-off";
 import SVG_wind from "./wind";
+import SVG_windmillOff from "./windmill-off";
 import SVG_windmill from "./windmill";
+import SVG_windowMaximize from "./window-maximize";
+import SVG_windowMinimize from "./window-minimize";
+import SVG_windowOff from "./window-off";
 import SVG_window from "./window";
 import SVG_windsock from "./windsock";
 import SVG_wiperWash from "./wiper-wash";
@@ -1781,9 +2019,12 @@ import SVG_woman from "./woman";
 import SVG_worldDownload from "./world-download";
 import SVG_worldLatitude from "./world-latitude";
 import SVG_worldLongitude from "./world-longitude";
+import SVG_worldOff from "./world-off";
 import SVG_worldUpload from "./world-upload";
 import SVG_world from "./world";
 import SVG_wreckingBall from "./wrecking-ball";
+import SVG_writingOff from "./writing-off";
+import SVG_writingSignOff from "./writing-sign-off";
 import SVG_writingSign from "./writing-sign";
 import SVG_writing from "./writing";
 import SVG_x from "./x";
@@ -1805,13 +2046,17 @@ import SVG_zoomCancel from "./zoom-cancel";
 import SVG_zoomCheck from "./zoom-check";
 import SVG_zoomCode from "./zoom-code";
 import SVG_zoomExclamation from "./zoom-exclamation";
+import SVG_zoomInArea from "./zoom-in-area";
 import SVG_zoomIn from "./zoom-in";
 import SVG_zoomMoney from "./zoom-money";
+import SVG_zoomOutArea from "./zoom-out-area";
 import SVG_zoomOut from "./zoom-out";
-import SVG_zoomQuestion from "./zoom-question"
+import SVG_zoomPan from "./zoom-pan";
+import SVG_zoomQuestion from "./zoom-question";
+import SVG_zzz from "./zzz"
 
 // types
-export type IconNames = "2fa" | "3d-cube-sphere" | "3d-rotate" | "a-b-off" | "a-b" | "abacus" | "access-point-off" | "access-point" | "accessible-off" | "accessible" | "activity-heartbeat" | "activity" | "ad-2" | "ad" | "address-book" | "adjustments-alt" | "adjustments-horizontal" | "adjustments-off" | "adjustments" | "aerial-lift" | "affiliate" | "alarm-off" | "alarm" | "album" | "alert-circle" | "alert-octagon" | "alert-triangle" | "alien" | "align-center" | "align-justified" | "align-left" | "align-right" | "ambulance" | "anchor-off" | "anchor" | "angle" | "antenna-bars-1" | "antenna-bars-2" | "antenna-bars-3" | "antenna-bars-4" | "antenna-bars-5" | "antenna-bars-off" | "antenna" | "aperture" | "api-app-off" | "api-app" | "api-off" | "api" | "app-window" | "apple" | "apps-off" | "apps" | "archive-off" | "archive" | "armchair-2" | "armchair" | "arrow-autofit-content" | "arrow-autofit-down" | "arrow-autofit-height" | "arrow-autofit-left" | "arrow-autofit-right" | "arrow-autofit-up" | "arrow-autofit-width" | "arrow-back-up" | "arrow-back" | "arrow-bar-down" | "arrow-bar-left" | "arrow-bar-right" | "arrow-bar-to-down" | "arrow-bar-to-left" | "arrow-bar-to-right" | "arrow-bar-to-up" | "arrow-bar-up" | "arrow-bear-left-2" | "arrow-bear-left" | "arrow-bear-right-2" | "arrow-bear-right" | "arrow-big-down-line" | "arrow-big-down-lines" | "arrow-big-down" | "arrow-big-left-line" | "arrow-big-left-lines" | "arrow-big-left" | "arrow-big-right-line" | "arrow-big-right-lines" | "arrow-big-right" | "arrow-big-top" | "arrow-big-up-line" | "arrow-big-up-lines" | "arrow-bottom-bar" | "arrow-bottom-circle" | "arrow-bottom-square" | "arrow-bottom-tail" | "arrow-curve-left" | "arrow-curve-right" | "arrow-down-circle" | "arrow-down-left-circle" | "arrow-down-left" | "arrow-down-right-circle" | "arrow-down-right" | "arrow-down" | "arrow-fork" | "arrow-forward-up" | "arrow-forward" | "arrow-left-bar" | "arrow-left-circle" | "arrow-left-right" | "arrow-left-square" | "arrow-left-tail" | "arrow-left" | "arrow-loop-left-2" | "arrow-loop-left" | "arrow-loop-right-2" | "arrow-loop-right" | "arrow-merge" | "arrow-narrow-down" | "arrow-narrow-left" | "arrow-narrow-right" | "arrow-narrow-up" | "arrow-ramp-left-2" | "arrow-ramp-left-3" | "arrow-ramp-left" | "arrow-ramp-right-2" | "arrow-ramp-right-3" | "arrow-ramp-right" | "arrow-right-bar" | "arrow-right-circle" | "arrow-right-square" | "arrow-right-tail" | "arrow-right" | "arrow-rotary-first-left" | "arrow-rotary-first-right" | "arrow-rotary-last-left" | "arrow-rotary-last-right" | "arrow-rotary-left" | "arrow-rotary-right" | "arrow-rotary-straight" | "arrow-sharp-turn-left" | "arrow-sharp-turn-right" | "arrow-top-bar" | "arrow-top-circle" | "arrow-top-square" | "arrow-top-tail" | "arrow-up-circle" | "arrow-up-left-circle" | "arrow-up-left" | "arrow-up-right-circle" | "arrow-up-right" | "arrow-up" | "arrow-wave-left-down" | "arrow-wave-left-up" | "arrow-wave-right-down" | "arrow-wave-right-up" | "arrows-cross" | "arrows-diagonal-2" | "arrows-diagonal-minimize-2" | "arrows-diagonal-minimize" | "arrows-diagonal" | "arrows-double-ne-sw" | "arrows-double-nw-se" | "arrows-double-se-nw" | "arrows-double-sw-ne" | "arrows-down-up" | "arrows-down" | "arrows-horizontal" | "arrows-join-2" | "arrows-join" | "arrows-left-down" | "arrows-left-right" | "arrows-left" | "arrows-maximize" | "arrows-minimize" | "arrows-random" | "arrows-right-down" | "arrows-right-left" | "arrows-right" | "arrows-shuffle-2" | "arrows-shuffle" | "arrows-sort" | "arrows-split-2" | "arrows-split" | "arrows-up-down" | "arrows-up-left" | "arrows-up-right" | "arrows-up" | "arrows-vertical" | "artboard-off" | "artboard" | "aspect-ratio-off" | "aspect-ratio" | "asterisk-simple" | "asterisk" | "at-off" | "at" | "atom-2" | "atom-off" | "atom" | "augmented-reality" | "award-off" | "award" | "axe" | "axis-x" | "axis-y" | "baby-carriage" | "backhoe" | "backpack" | "backspace" | "badge-off" | "badge" | "badges-off" | "badges" | "ball-american-football" | "ball-baseball" | "ball-basketball" | "ball-bowling" | "ball-football-off" | "ball-football" | "ball-tennis" | "ball-volleyball" | "ballon-off" | "ballon" | "ballpen-off" | "ballpen" | "ban" | "bandage" | "barbell-off" | "barbell" | "barcode-off" | "barcode" | "barrel-off" | "barrel" | "barrier-block-off" | "barrier-block" | "baseline" | "basket-off" | "basket" | "bath-off" | "bath" | "battery-1" | "battery-2" | "battery-3" | "battery-4" | "battery-automotive" | "battery-charging-2" | "battery-charging" | "battery-eco" | "battery-off" | "battery" | "beach-off" | "beach" | "bed-off" | "bed" | "beer-off" | "beer" | "bell-minus" | "bell-off" | "bell-plus" | "bell-ringing-2" | "bell-ringing" | "bell-school" | "bell-x" | "bell-z" | "bell" | "bible" | "bike-off" | "bike" | "binary" | "biohazard-off" | "biohazard" | "blockquote" | "bluetooth-connected" | "bluetooth-off" | "bluetooth-x" | "bluetooth" | "blur" | "bold-off" | "bold" | "bolt-off" | "bolt" | "bone-off" | "bone" | "book-2" | "book-download" | "book-off" | "book-upload" | "book" | "bookmark-off" | "bookmark" | "bookmarks-off" | "bookmarks" | "books-off" | "books" | "border-all" | "border-bottom" | "border-horizontal" | "border-inner" | "border-left" | "border-none" | "border-outer" | "border-radius" | "border-right" | "border-style-2" | "border-style" | "border-top" | "border-vertical" | "bottle" | "bow" | "box-margin" | "box-model-2" | "box-model" | "box-multiple-0" | "box-multiple-1" | "box-multiple-2" | "box-multiple-3" | "box-multiple-4" | "box-multiple-5" | "box-multiple-6" | "box-multiple-7" | "box-multiple-8" | "box-multiple-9" | "box-multiple" | "box-off" | "box-padding" | "box" | "braces-off" | "braces" | "brackets-off" | "brackets" | "brand-adobe" | "brand-airbnb" | "brand-airtable" | "brand-android" | "brand-angular" | "brand-apple-arcade" | "brand-apple" | "brand-appstore" | "brand-asana" | "brand-behance" | "brand-bing" | "brand-bitbucket" | "brand-booking" | "brand-bootstrap" | "brand-chrome" | "brand-codepen" | "brand-codesandbox" | "brand-css3" | "brand-cucumber" | "brand-debian" | "brand-deviantart" | "brand-discord" | "brand-disqus" | "brand-docker" | "brand-doctrine" | "brand-dribbble" | "brand-edge" | "brand-facebook" | "brand-figma" | "brand-firebase" | "brand-firefox" | "brand-flickr" | "brand-foursquare" | "brand-framer" | "brand-git" | "brand-github" | "brand-gitlab" | "brand-gmail" | "brand-google-analytics" | "brand-google-drive" | "brand-google-play" | "brand-google" | "brand-gravatar" | "brand-hipchat" | "brand-html5" | "brand-instagram" | "brand-javascript" | "brand-kickstarter" | "brand-kotlin" | "brand-lastfm" | "brand-linkedin" | "brand-loom" | "brand-mastercard" | "brand-medium" | "brand-mercedes" | "brand-messenger" | "brand-meta" | "brand-netbeans" | "brand-netflix" | "brand-nextjs" | "brand-notion" | "brand-nuxt" | "brand-nytimes" | "brand-open-source" | "brand-opera" | "brand-pagekit" | "brand-patreon" | "brand-paypal" | "brand-php" | "brand-pinterest" | "brand-pocket" | "brand-producthunt" | "brand-python" | "brand-react-native" | "brand-reddit" | "brand-safari" | "brand-sass" | "brand-sentry" | "brand-shazam" | "brand-sketch" | "brand-skype" | "brand-slack" | "brand-snapchat" | "brand-soundcloud" | "brand-spotify" | "brand-stackoverflow" | "brand-steam" | "brand-stripe" | "brand-sublime-text" | "brand-svelte" | "brand-tabler" | "brand-tailwind" | "brand-telegram" | "brand-tidal" | "brand-tiktok" | "brand-tinder" | "brand-tripadvisor" | "brand-tumblr" | "brand-twitch" | "brand-twitter" | "brand-uber" | "brand-ubuntu" | "brand-unsplash" | "brand-vercel" | "brand-vimeo" | "brand-visual-studio" | "brand-vk" | "brand-vue" | "brand-whatsapp" | "brand-windows" | "brand-yahoo" | "brand-ycombinator" | "brand-youtube" | "bread" | "briefcase" | "brightness-2" | "brightness-down" | "brightness-half" | "brightness-up" | "brightness" | "browser-check" | "browser-off" | "browser-plus" | "browser-x" | "browser" | "brush-off" | "brush" | "bucket-off" | "bucket" | "bug-off" | "bug" | "building-arch" | "building-bank" | "building-bridge-2" | "building-bridge" | "building-carousel" | "building-castle" | "building-church" | "building-community" | "building-cottage" | "building-factory-2" | "building-factory" | "building-fortress" | "building-hospital" | "building-lighthouse" | "building-monument" | "building-pavilon" | "building-skyscraper" | "building-store" | "building-warehouse" | "building" | "bulb-off" | "bulb" | "bulldozer" | "bus" | "businessplan" | "butterfly" | "c-sharp" | "cake-off" | "cake" | "calculator-off" | "calculator" | "calendar-event" | "calendar-minus" | "calendar-off" | "calendar-plus" | "calendar-stats" | "calendar-time" | "calendar" | "camera-minus" | "camera-off" | "camera-plus" | "camera-rotate" | "camera-selfie" | "camera" | "candle" | "candy-off" | "candy" | "capture-off" | "capture" | "car-crane" | "car-crash" | "car-off" | "car" | "caravan" | "cardboards-off" | "cardboards" | "caret-down" | "caret-left" | "caret-right" | "caret-up" | "cash-banknote-off" | "cash-banknote" | "cash-off" | "cash" | "cast-off" | "cast" | "ce-off" | "ce" | "cell-signal-1" | "cell-signal-2" | "cell-signal-3" | "cell-signal-4" | "cell-signal-5" | "cell-signal-off" | "cell" | "certificate-2-off" | "certificate-2" | "certificate-off" | "certificate" | "charging-pile" | "chart-arcs-3" | "chart-arcs" | "chart-area-line" | "chart-area" | "chart-arrows-vertical" | "chart-arrows" | "chart-bar" | "chart-bubble" | "chart-candle" | "chart-circles" | "chart-donut-2" | "chart-donut-3" | "chart-donut-4" | "chart-donut" | "chart-dots-2" | "chart-dots-3" | "chart-dots" | "chart-infographic" | "chart-line" | "chart-pie-2" | "chart-pie-3" | "chart-pie-4" | "chart-pie" | "chart-radar" | "check" | "checkbox" | "checklist" | "checks" | "checkup-list" | "cheese" | "chevron-down-left" | "chevron-down-right" | "chevron-down" | "chevron-left" | "chevron-right" | "chevron-up-left" | "chevron-up-right" | "chevron-up" | "chevrons-down-left" | "chevrons-down-right" | "chevrons-down" | "chevrons-left" | "chevrons-right" | "chevrons-up-left" | "chevrons-up-right" | "chevrons-up" | "christmas-tree" | "circle-0" | "circle-1" | "circle-2" | "circle-3" | "circle-4" | "circle-5" | "circle-6" | "circle-7" | "circle-8" | "circle-9" | "circle-check" | "circle-dashed" | "circle-dot" | "circle-dotted" | "circle-half-2" | "circle-half-vertical" | "circle-half" | "circle-minus" | "circle-off" | "circle-plus" | "circle-rectangle-off" | "circle-rectangle" | "circle-square" | "circle-triangle" | "circle-x" | "circle" | "circles" | "clear-all" | "clear-formatting" | "click" | "clipboard-check" | "clipboard-list" | "clipboard-off" | "clipboard-plus" | "clipboard-text" | "clipboard-x" | "clipboard" | "clock-2" | "clock-off" | "clock" | "cloud-download" | "cloud-fog" | "cloud-lock-open" | "cloud-lock" | "cloud-off" | "cloud-rain" | "cloud-snow" | "cloud-storm" | "cloud-upload" | "cloud" | "clubs" | "code-minus" | "code-off" | "code-plus" | "code" | "coffee-off" | "coffee" | "coin-off" | "coin" | "color-picker-off" | "color-picker" | "color-swatch-off" | "color-swatch" | "column-insert-left" | "column-insert-right" | "columns-off" | "columns" | "comet" | "command" | "compass-off" | "compass" | "components-off" | "components" | "cone-2" | "cone" | "confetti" | "container-off" | "container" | "contrast-2" | "contrast" | "cookie-off" | "cookie" | "copy-off" | "copy" | "copyleft-off" | "copyleft" | "copyright-off" | "copyright" | "corner-down-left-double" | "corner-down-left" | "corner-down-right-double" | "corner-down-right" | "corner-left-down-double" | "corner-left-down" | "corner-left-up-double" | "corner-left-up" | "corner-right-down-double" | "corner-right-down" | "corner-right-up-double" | "corner-right-up" | "corner-up-left-double" | "corner-up-left" | "corner-up-right-double" | "corner-up-right" | "cpu-2" | "cpu-off" | "cpu" | "crane-off" | "crane" | "creative-commons-off" | "creative-commons" | "credit-card-off" | "credit-card" | "cricket" | "crop" | "cross-off" | "cross" | "crosshair" | "crown-off" | "crown" | "crutches-off" | "crutches" | "cup-off" | "cup" | "curling" | "curly-loop" | "currency-bahraini" | "currency-baht" | "currency-bitcoin" | "currency-cent" | "currency-dinar" | "currency-dirham" | "currency-dogecoin" | "currency-dollar-australian" | "currency-dollar-canadian" | "currency-dollar-singapore" | "currency-dollar" | "currency-ethereum" | "currency-euro" | "currency-forint" | "currency-frank" | "currency-krone-czech" | "currency-krone-danish" | "currency-krone-swedish" | "currency-leu" | "currency-lira" | "currency-litecoin" | "currency-naira" | "currency-pound" | "currency-real" | "currency-renminbi" | "currency-ripple" | "currency-riyal" | "currency-rubel" | "currency-rupee" | "currency-shekel" | "currency-taka" | "currency-tugrik" | "currency-won" | "currency-yen" | "currency-zloty" | "currency" | "current-location-off" | "current-location" | "cursor-off" | "cursor-text" | "cut" | "dashboard" | "database-export" | "database-import" | "database-off" | "database" | "dental-off" | "dental" | "details" | "device-analytics" | "device-audio-tape" | "device-cctv" | "device-computer-camera-off" | "device-computer-camera" | "device-desktop-analytics" | "device-desktop-off" | "device-desktop" | "device-floppy" | "device-gamepad" | "device-heart-monitor" | "device-laptop-off" | "device-laptop" | "device-mobile-message" | "device-mobile-off" | "device-mobile-rotated" | "device-mobile-vibration" | "device-mobile" | "device-nintendo-off" | "device-nintendo" | "device-speaker-off" | "device-speaker" | "device-tablet-off" | "device-tablet" | "device-tv-off" | "device-tv" | "device-watch-off" | "device-watch-stats-2" | "device-watch-stats" | "device-watch" | "devices-2" | "devices-off" | "devices-pc-off" | "devices-pc" | "devices" | "dialpad-off" | "dialpad" | "diamond-off" | "diamond" | "diamonds" | "dice-1" | "dice-2" | "dice-3" | "dice-4" | "dice-5" | "dice-6" | "dice" | "dimensions" | "direction-horizontal" | "direction" | "directions-off" | "directions" | "disabled-2" | "disabled-off" | "disabled" | "disc-off" | "disc" | "discount-2" | "discount" | "divide" | "dna-2-off" | "dna-2" | "dna-off" | "dna" | "dog-bowl" | "door-enter" | "door-exit" | "door-off" | "door" | "dots-circle-horizontal" | "dots-diagonal-2" | "dots-diagonal" | "dots-vertical" | "dots" | "download-off" | "download" | "drag-drop-2" | "drag-drop" | "drone-off" | "drone" | "drop-circle" | "droplet-filled-2" | "droplet-filled" | "droplet-half-2" | "droplet-half" | "droplet-off" | "droplet" | "ear-off" | "ear" | "edit-circle-off" | "edit-circle" | "edit-off" | "edit" | "egg-off" | "egg" | "elevator" | "emergency-bed" | "emphasis" | "engine-off" | "engine" | "equal-not" | "equal" | "eraser-off" | "eraser" | "error-404-off" | "error-404" | "exchange-off" | "exchange" | "exclamation-mark-off" | "exclamation-mark" | "exposure" | "external-link-off" | "external-link" | "eye-check" | "eye-off" | "eye-table" | "eye" | "eyeglass-2" | "eyeglass-off" | "eyeglass" | "face-id-error" | "face-id" | "face-mask-off" | "face-mask" | "fall" | "feather-off" | "feather" | "fence-off" | "fence" | "fidget-spinner" | "file-3d" | "file-alert" | "file-analytics" | "file-arrow-left" | "file-arrow-right" | "file-barcode" | "file-certificate" | "file-chart" | "file-check" | "file-code-2" | "file-code" | "file-database" | "file-description" | "file-diff" | "file-digit" | "file-dislike" | "file-dollar" | "file-dots" | "file-download" | "file-euro" | "file-export" | "file-horizontal" | "file-import" | "file-info" | "file-invoice" | "file-like" | "file-minus" | "file-music" | "file-off" | "file-pencil" | "file-phone" | "file-plus" | "file-power" | "file-report" | "file-rss" | "file-scissors" | "file-search" | "file-settings" | "file-shredder" | "file-signal" | "file-spreadsheet" | "file-star" | "file-symlink" | "file-text" | "file-time" | "file-typography" | "file-unknown" | "file-upload" | "file-vector" | "file-x" | "file-zip" | "file" | "files-off" | "files" | "filter-off" | "filter" | "fingerprint-off" | "fingerprint" | "firetruck" | "first-aid-kit" | "fish-off" | "fish" | "flag-2-off" | "flag-2" | "flag-3" | "flag-off" | "flag" | "flame-off" | "flame" | "flare" | "flask-2-off" | "flask-2" | "flask-off" | "flask" | "flip-horizontal" | "flip-vertical" | "float-center" | "float-left" | "float-none" | "float-right" | "flower-off" | "flower" | "focus-2" | "focus-centered" | "focus" | "fold-down" | "fold-up" | "fold" | "folder-minus" | "folder-off" | "folder-plus" | "folder-x" | "folder" | "folders" | "forbid-2" | "forbid" | "forklift" | "forms" | "fountain" | "frame" | "free-rights" | "friends" | "gas-station" | "gauge" | "gavel" | "gender-agender" | "gender-androgyne" | "gender-bigender" | "gender-demiboy" | "gender-demigirl" | "gender-epicene" | "gender-female" | "gender-femme" | "gender-genderfluid" | "gender-genderless" | "gender-genderqueer" | "gender-hermaphrodite" | "gender-intergender" | "gender-male" | "gender-neutrois" | "gender-third" | "gender-transgender" | "gender-trasvesti" | "geometry" | "ghost" | "gift" | "git-branch" | "git-commit" | "git-compare" | "git-fork" | "git-merge" | "git-pull-request-closed" | "git-pull-request-draft" | "git-pull-request" | "gizmo" | "glass-full" | "glass-off" | "glass" | "globe" | "golf" | "gps" | "grain" | "grid-dots" | "grid-pattern" | "grill" | "grip-horizontal" | "grip-vertical" | "growth" | "h-1" | "h-2" | "h-3" | "h-4" | "h-5" | "h-6" | "hammer" | "hand-click" | "hand-finger" | "hand-grab" | "hand-little-finger" | "hand-middle-finger" | "hand-move" | "hand-off" | "hand-ring-finger" | "hand-rock" | "hand-stop" | "hand-three-fingers" | "hand-two-fingers" | "hanger-2" | "hanger" | "hash" | "haze" | "heading" | "headphones-off" | "headphones" | "headset" | "heart-broken" | "heart-handshake" | "heart-rate-monitor" | "heart" | "heartbeat" | "helicopter-landing" | "helicopter" | "helmet" | "help" | "hexagon-off" | "hexagon" | "hexagons" | "hierarchy-2" | "hierarchy" | "highlight" | "history" | "home-2" | "home" | "hotel-service" | "hourglass-high" | "hourglass-low" | "hourglass" | "ice-cream-2" | "ice-cream" | "ice-skating" | "id-badge-2" | "id-badge" | "id" | "inbox" | "indent-decrease" | "indent-increase" | "infinity" | "info-circle" | "info-square" | "italic" | "jump-rope" | "karate" | "kering" | "key" | "keyboard-hide" | "keyboard-off" | "keyboard-show" | "keyboard" | "ladder" | "lamp-2" | "lamp" | "language-hiragana" | "language-katakana" | "language" | "lasso" | "layers-difference" | "layers-intersect-2" | "layers-intersect" | "layers-linked" | "layers-subtract" | "layers-union" | "layout-2" | "layout-align-bottom" | "layout-align-center" | "layout-align-left" | "layout-align-middle" | "layout-align-right" | "layout-align-top" | "layout-board-split" | "layout-board" | "layout-bottombar" | "layout-cards" | "layout-columns" | "layout-dashboard" | "layout-distribute-horizontal" | "layout-distribute-vertical" | "layout-grid-add" | "layout-grid" | "layout-kanban" | "layout-list" | "layout-navbar" | "layout-rows" | "layout-sidebar-left-collapse" | "layout-sidebar-left-expand" | "layout-sidebar-right-collapse" | "layout-sidebar-right-expand" | "layout-sidebar-right" | "layout-sidebar" | "layout" | "leaf" | "lego" | "lemon-2" | "lemon" | "letter-a" | "letter-b" | "letter-c" | "letter-case-lower" | "letter-case-toggle" | "letter-case-upper" | "letter-case" | "letter-d" | "letter-e" | "letter-f" | "letter-g" | "letter-h" | "letter-i" | "letter-j" | "letter-k" | "letter-l" | "letter-m" | "letter-n" | "letter-o" | "letter-p" | "letter-q" | "letter-r" | "letter-s" | "letter-spacing" | "letter-t" | "letter-u" | "letter-v" | "letter-w" | "letter-x" | "letter-y" | "letter-z" | "license" | "lifebuoy" | "line-dashed" | "line-dotted" | "line-height" | "line" | "link" | "list-check" | "list-details" | "list-numbers" | "list-search" | "list" | "live-photo" | "live-view" | "loader-quarter" | "loader" | "location" | "lock-access" | "lock-off" | "lock-open" | "lock-square" | "lock" | "login" | "logout" | "lollipop" | "luggage" | "lungs" | "macro" | "magnet" | "mail-fast" | "mail-forward" | "mail-opened" | "mail" | "mailbox" | "man" | "manual-gearbox" | "map-2" | "map-pin-off" | "map-pin" | "map-pins" | "map-search" | "map" | "markdown" | "marquee-2" | "marquee" | "mars" | "mask-off" | "mask" | "massage" | "math-avg" | "math-function" | "math-max" | "math-min" | "math-symbols" | "math" | "maximize" | "meat" | "medal-2" | "medal" | "medical-cross" | "medicine-syrup" | "menu-2" | "menu" | "message-2-code" | "message-2-share" | "message-2" | "message-circle-2" | "message-circle-off" | "message-circle" | "message-code" | "message-dots" | "message-language" | "message-off" | "message-plus" | "message-report" | "message-share" | "message" | "messages-off" | "messages" | "microphone-2" | "microphone-off" | "microphone" | "microscope" | "military-award" | "military-rank" | "milk" | "minimize" | "minus-vertical" | "minus" | "mist" | "mood-boy" | "mood-confuzed" | "mood-crazy-happy" | "mood-cry" | "mood-empty" | "mood-happy" | "mood-kid" | "mood-nervous" | "mood-neutral" | "mood-sad" | "mood-smile" | "mood-suprised" | "mood-tongue" | "moon-2" | "moon-stars" | "moon" | "moped" | "motorbike" | "mountain" | "mouse" | "movie" | "mug" | "multiplier-0-5x" | "multiplier-1-5x" | "multiplier-1x" | "multiplier-2x" | "mushroom" | "music" | "network" | "new-section" | "news" | "nfc" | "no-copyright" | "no-creative-commons" | "no-derivatives" | "north-star" | "note" | "notebook" | "notes" | "notification" | "number-0" | "number-1" | "number-2" | "number-3" | "number-4" | "number-5" | "number-6" | "number-7" | "number-8" | "number-9" | "numbers" | "nurse" | "octagon-off" | "octagon" | "old" | "olympics" | "omega" | "outlet" | "oval-vertical" | "oval" | "overline" | "package" | "packge-export" | "packge-import" | "pacman" | "page-break" | "paint" | "palette" | "panorama-horizontal" | "panorama-vertical" | "paper-bag" | "paperclip" | "parachute" | "parentheses" | "parking" | "paw" | "peace" | "pencil" | "pennant-2" | "pennant" | "pentagon" | "pepper" | "percentage" | "perspective" | "phone-call" | "phone-calling" | "phone-check" | "phone-incoming" | "phone-off" | "phone-outgoing" | "phone-pause" | "phone-plus" | "phone-x" | "phone" | "photo-off" | "photo" | "physotherapist" | "picture-in-picture-off" | "picture-in-picture-on" | "picture-in-picture-top" | "picture-in-picture" | "pig" | "pill" | "pills" | "pin" | "pinned-off" | "pinned" | "pizza" | "plane-arrival" | "plane-departure" | "plane-inflight" | "plane" | "planet" | "plant-2" | "plant" | "play-card" | "player-eject" | "player-pause" | "player-play" | "player-record" | "player-skip-back" | "player-skip-forward" | "player-stop" | "player-track-next" | "player-track-prev" | "playlist-add" | "playlist-x" | "playlist" | "plug-connected-x" | "plug-connected" | "plug-x" | "plug" | "plus" | "point" | "pokeball" | "polaroid" | "polygon" | "pool" | "power" | "pray" | "premium-rights" | "prescription" | "presentation-analytics" | "presentation" | "printer" | "prison" | "prompt" | "propeller" | "puzzle-2" | "puzzle" | "pyramid" | "qrcode" | "question-mark" | "quote" | "radar-2" | "radar" | "radio" | "radioactive" | "radius-bottom-left" | "radius-bottom-right" | "radius-top-left" | "radius-top-right" | "rainbow" | "receipt-2" | "receipt-off" | "receipt-refund" | "receipt-tax" | "receipt" | "recharging" | "record-mail" | "rectangle-vertical" | "rectangle" | "recycle" | "refresh-alert" | "refresh-dot" | "refresh" | "registered" | "relation-many-to-many" | "relation-one-to-many" | "relation-one-to-one" | "repeat-once" | "repeat" | "replace" | "report-analytics" | "report-medical" | "report-money" | "report-search" | "report" | "resize" | "ripple" | "road-sign" | "road" | "robot" | "rocket" | "roller-skating" | "rollercoaster" | "rotate-2" | "rotate-360" | "rotate-clockwise-2" | "rotate-clockwise" | "rotate-dot" | "rotate-rectangle" | "rotate" | "route" | "router" | "row-insert-bottom" | "row-insert-top" | "rss" | "ruler-2" | "ruler" | "run" | "sailboat" | "salt" | "satellite" | "sausage" | "scale-outline" | "scale" | "scan" | "school" | "scissors" | "scooter-electric" | "scooter" | "screen-share-off" | "screen-share" | "scribble" | "scuba-mask" | "search" | "section-sign" | "section" | "seeding" | "select" | "selector" | "send" | "separator-horizontal" | "separator-vertical" | "separator" | "server-2" | "server" | "servicemark" | "settings-automation" | "settings" | "shadow-off" | "shadow" | "shape-2" | "shape-3" | "shape" | "share" | "shield-check" | "shield-checkered" | "shield-chevron" | "shield-lock" | "shield-off" | "shield-x" | "shield" | "ship" | "shirt" | "shoe" | "shopping-cart-discount" | "shopping-cart-off" | "shopping-cart-plus" | "shopping-cart-x" | "shopping-cart" | "shredder" | "sign-left" | "sign-right" | "signature" | "sitemap" | "skateboard" | "sleigh" | "slice" | "slideshow" | "smart-home" | "smoking-no" | "smoking" | "snowflake" | "soccer-field" | "social" | "sock" | "sofa" | "sort-ascending-2" | "sort-ascending-letters" | "sort-ascending-numbers" | "sort-ascending" | "sort-descending-2" | "sort-descending-letters" | "sort-descending-numbers" | "sort-descending" | "soup" | "space" | "spacing-horizontal" | "spacing-vertical" | "spade" | "speakerphone" | "speedboat" | "sport-billard" | "square-0" | "square-1" | "square-2" | "square-3" | "square-4" | "square-5" | "square-6" | "square-7" | "square-8" | "square-9" | "square-asterisk" | "square-check" | "square-dot" | "square-forbid-2" | "square-forbid" | "square-half" | "square-minus" | "square-off" | "square-plus" | "square-root-2" | "square-root" | "square-rotated-forbid-2" | "square-rotated-forbid" | "square-rotated-off" | "square-rotated" | "square-toggle-horizontal" | "square-toggle" | "square-x" | "square" | "squares-diagonal" | "squares-filled" | "stack-2" | "stack-3" | "stack" | "stairs-down" | "stairs-up" | "stairs" | "star-half" | "star-off" | "star" | "stars" | "steering-wheel" | "step-into" | "step-out" | "stethoscope" | "sticker" | "strikethrough" | "submarine" | "subscript" | "subtask" | "sum" | "sun-off" | "sun" | "sunrise" | "sunset" | "superscript" | "swimming" | "switch-2" | "switch-3" | "switch-horizontal" | "switch-vertical" | "switch" | "sword" | "swords" | "table-export" | "table-import" | "table-off" | "table" | "tag-off" | "tag" | "tags-off" | "tags" | "tallymark-1" | "tallymark-2" | "tallymark-3" | "tallymark-4" | "tallymarks" | "tank" | "target" | "telescope" | "temperature-celsius" | "temperature-fahrenheit" | "temperature-minus" | "temperature-plus" | "temperature" | "template" | "tent" | "terminal-2" | "terminal" | "test-pipe-2" | "test-pipe" | "text-direction-ltr" | "text-direction-rtl" | "text-resize" | "text-wrap-disabled" | "text-wrap" | "thermometer" | "thumb-down" | "thumb-up" | "ticket" | "tie" | "tilt-shift" | "timeline" | "tir" | "toggle-left" | "toggle-right" | "toilet-paper" | "tool" | "tools-kitchen-2" | "tools-kitchen" | "tools" | "tornado" | "tournament" | "track" | "tractor" | "trademark" | "traffic-cone" | "traffic-lights" | "train" | "transfer-in" | "transfer-out" | "trash-off" | "trash-x" | "trash" | "tree" | "trees" | "trending-down-2" | "trending-down-3" | "trending-down" | "trending-up-2" | "trending-up-3" | "trending-up" | "triangle-inverted" | "triangle-off" | "triangle-square-circle" | "triangle" | "triangles" | "trident" | "trophy" | "truck-delivery" | "truck-off" | "truck-return" | "truck" | "typography" | "umbrella" | "underline" | "unlink" | "upload" | "urgent" | "usb" | "user-check" | "user-circle" | "user-exclamation" | "user-minus" | "user-off" | "user-plus" | "user-search" | "user-x" | "user" | "users" | "vaccine-bottle" | "vaccine" | "variable" | "vector-beizer-2" | "vector-bezier" | "vector-triangle" | "vector" | "venus" | "versions" | "video-minus" | "video-off" | "video-plus" | "video" | "view-360" | "viewfinder" | "viewport-narrow" | "viewport-wide" | "vinyl" | "virus-off" | "virus-search" | "virus" | "vocabulary" | "volume-2" | "volume-3" | "volume" | "walk" | "wall" | "wallet" | "wallpaper" | "wand" | "wave-saw-tool" | "wave-sine" | "wave-square" | "webhook" | "wifi-0" | "wifi-1" | "wifi-2" | "wifi-off" | "wifi" | "wind" | "windmill" | "window" | "windsock" | "wiper-wash" | "wiper" | "woman" | "world-download" | "world-latitude" | "world-longitude" | "world-upload" | "world" | "wrecking-ball" | "writing-sign" | "writing" | "x" | "yin-yang" | "yoga" | "zodiac-aquarius" | "zodiac-aries" | "zodiac-cancer" | "zodiac-capricorn" | "zodiac-gemini" | "zodiac-leo" | "zodiac-libra" | "zodiac-pisces" | "zodiac-sagittarius" | "zodiac-scorpio" | "zodiac-taurus" | "zodiac-virgo" | "zoom-cancel" | "zoom-check" | "zoom-code" | "zoom-exclamation" | "zoom-in" | "zoom-money" | "zoom-out" | "zoom-question";
+export type IconNames = "2fa" | "3d-cube-sphere" | "3d-rotate" | "a-b-off" | "a-b" | "abacus" | "access-point-off" | "access-point" | "accessible-off" | "accessible" | "activity-heartbeat" | "activity" | "ad-2" | "ad" | "address-book" | "adjustments-alt" | "adjustments-horizontal" | "adjustments-off" | "adjustments" | "aerial-lift" | "affiliate" | "alarm-off" | "alarm" | "album" | "alert-circle" | "alert-octagon" | "alert-triangle" | "alien" | "align-center" | "align-justified" | "align-left" | "align-right" | "alphabet-cyrillic" | "alphabet-greek" | "alphabet-latin" | "ambulance" | "anchor-off" | "anchor" | "angle" | "ankh" | "antenna-bars-1" | "antenna-bars-2" | "antenna-bars-3" | "antenna-bars-4" | "antenna-bars-5" | "antenna-bars-off" | "antenna" | "aperture" | "api-app-off" | "api-app" | "api-off" | "api" | "app-window" | "apple" | "apps-off" | "apps" | "archive-off" | "archive" | "armchair-2" | "armchair" | "arrow-autofit-content" | "arrow-autofit-down" | "arrow-autofit-height" | "arrow-autofit-left" | "arrow-autofit-right" | "arrow-autofit-up" | "arrow-autofit-width" | "arrow-back-up" | "arrow-back" | "arrow-bar-down" | "arrow-bar-left" | "arrow-bar-right" | "arrow-bar-to-down" | "arrow-bar-to-left" | "arrow-bar-to-right" | "arrow-bar-to-up" | "arrow-bar-up" | "arrow-bear-left-2" | "arrow-bear-left" | "arrow-bear-right-2" | "arrow-bear-right" | "arrow-big-down-line" | "arrow-big-down-lines" | "arrow-big-down" | "arrow-big-left-line" | "arrow-big-left-lines" | "arrow-big-left" | "arrow-big-right-line" | "arrow-big-right-lines" | "arrow-big-right" | "arrow-big-top" | "arrow-big-up-line" | "arrow-big-up-lines" | "arrow-bottom-bar" | "arrow-bottom-circle" | "arrow-bottom-square" | "arrow-bottom-tail" | "arrow-curve-left" | "arrow-curve-right" | "arrow-down-circle" | "arrow-down-left-circle" | "arrow-down-left" | "arrow-down-right-circle" | "arrow-down-right" | "arrow-down" | "arrow-fork" | "arrow-forward-up" | "arrow-forward" | "arrow-left-bar" | "arrow-left-circle" | "arrow-left-right" | "arrow-left-square" | "arrow-left-tail" | "arrow-left" | "arrow-loop-left-2" | "arrow-loop-left" | "arrow-loop-right-2" | "arrow-loop-right" | "arrow-merge" | "arrow-narrow-down" | "arrow-narrow-left" | "arrow-narrow-right" | "arrow-narrow-up" | "arrow-ramp-left-2" | "arrow-ramp-left-3" | "arrow-ramp-left" | "arrow-ramp-right-2" | "arrow-ramp-right-3" | "arrow-ramp-right" | "arrow-right-bar" | "arrow-right-circle" | "arrow-right-square" | "arrow-right-tail" | "arrow-right" | "arrow-rotary-first-left" | "arrow-rotary-first-right" | "arrow-rotary-last-left" | "arrow-rotary-last-right" | "arrow-rotary-left" | "arrow-rotary-right" | "arrow-rotary-straight" | "arrow-sharp-turn-left" | "arrow-sharp-turn-right" | "arrow-top-bar" | "arrow-top-circle" | "arrow-top-square" | "arrow-top-tail" | "arrow-up-circle" | "arrow-up-left-circle" | "arrow-up-left" | "arrow-up-right-circle" | "arrow-up-right" | "arrow-up" | "arrow-wave-left-down" | "arrow-wave-left-up" | "arrow-wave-right-down" | "arrow-wave-right-up" | "arrows-cross" | "arrows-diagonal-2" | "arrows-diagonal-minimize-2" | "arrows-diagonal-minimize" | "arrows-diagonal" | "arrows-double-ne-sw" | "arrows-double-nw-se" | "arrows-double-se-nw" | "arrows-double-sw-ne" | "arrows-down-up" | "arrows-down" | "arrows-exchange-2" | "arrows-exchange" | "arrows-horizontal" | "arrows-join-2" | "arrows-join" | "arrows-left-down" | "arrows-left-right" | "arrows-left" | "arrows-maximize" | "arrows-minimize" | "arrows-random" | "arrows-right-down" | "arrows-right-left" | "arrows-right" | "arrows-shuffle-2" | "arrows-shuffle" | "arrows-sort" | "arrows-split-2" | "arrows-split" | "arrows-up-down" | "arrows-up-left" | "arrows-up-right" | "arrows-up" | "arrows-vertical" | "artboard-off" | "artboard" | "article" | "aspect-ratio-off" | "aspect-ratio" | "asset" | "asterisk-simple" | "asterisk" | "at-off" | "at" | "atom-2" | "atom-off" | "atom" | "augmented-reality" | "award-off" | "award" | "axe" | "axis-x" | "axis-y" | "baby-carriage" | "backhoe" | "backpack" | "backspace" | "badge-off" | "badge" | "badges-off" | "badges" | "ball-american-football" | "ball-baseball" | "ball-basketball" | "ball-bowling" | "ball-football-off" | "ball-football" | "ball-tennis" | "ball-volleyball" | "ballon-off" | "ballon" | "ballpen-off" | "ballpen" | "ban" | "bandage" | "barbell-off" | "barbell" | "barcode-off" | "barcode" | "barrel-off" | "barrel" | "barrier-block-off" | "barrier-block" | "baseline" | "basket-off" | "basket" | "bath-off" | "bath" | "battery-1" | "battery-2" | "battery-3" | "battery-4" | "battery-automotive" | "battery-charging-2" | "battery-charging" | "battery-eco" | "battery-off" | "battery" | "beach-off" | "beach" | "bed-off" | "bed" | "beer-off" | "beer" | "bell-minus" | "bell-off" | "bell-plus" | "bell-ringing-2" | "bell-ringing" | "bell-school" | "bell-x" | "bell-z" | "bell" | "bible" | "bike-off" | "bike" | "binary" | "biohazard-off" | "biohazard" | "blockquote" | "bluetooth-connected" | "bluetooth-off" | "bluetooth-x" | "bluetooth" | "blur" | "bold-off" | "bold" | "bolt-off" | "bolt" | "bone-off" | "bone" | "book-2" | "book-download" | "book-off" | "book-upload" | "book" | "bookmark-off" | "bookmark" | "bookmarks-off" | "bookmarks" | "books-off" | "books" | "border-all" | "border-bottom" | "border-horizontal" | "border-inner" | "border-left" | "border-none" | "border-outer" | "border-radius" | "border-right" | "border-style-2" | "border-style" | "border-top" | "border-vertical" | "bottle" | "bow" | "box-margin" | "box-model-2" | "box-model" | "box-multiple-0" | "box-multiple-1" | "box-multiple-2" | "box-multiple-3" | "box-multiple-4" | "box-multiple-5" | "box-multiple-6" | "box-multiple-7" | "box-multiple-8" | "box-multiple-9" | "box-multiple" | "box-off" | "box-padding" | "box" | "braces-off" | "braces" | "brackets-contain-end" | "brackets-contain-start" | "brackets-contain" | "brackets-off" | "brackets" | "brand-adobe" | "brand-airbnb" | "brand-airtable" | "brand-amongus" | "brand-android" | "brand-angular" | "brand-apple-arcade" | "brand-apple-podcast" | "brand-apple" | "brand-appstore" | "brand-asana" | "brand-badoo" | "brand-bandcamp" | "brand-beats" | "brand-behance" | "brand-bing" | "brand-bitbucket" | "brand-booking" | "brand-bootstrap" | "brand-chrome" | "brand-codepen" | "brand-codesandbox" | "brand-coinbase" | "brand-comedy-central" | "brand-css3" | "brand-cucumber" | "brand-debian" | "brand-deviantart" | "brand-discord" | "brand-disney" | "brand-disqus" | "brand-docker" | "brand-doctrine" | "brand-dribbble" | "brand-edge" | "brand-facebook" | "brand-figma" | "brand-finder" | "brand-firebase" | "brand-firefox" | "brand-flickr" | "brand-flipboard" | "brand-foursquare" | "brand-framer" | "brand-git" | "brand-github" | "brand-gitlab" | "brand-gmail" | "brand-google-analytics" | "brand-google-drive" | "brand-google-photos" | "brand-google-play" | "brand-google" | "brand-gravatar" | "brand-grindr" | "brand-hipchat" | "brand-html5" | "brand-instagram" | "brand-intercom" | "brand-javascript" | "brand-kickstarter" | "brand-kotlin" | "brand-lastfm" | "brand-linkedin" | "brand-linktree" | "brand-loom" | "brand-mastercard" | "brand-medium" | "brand-mercedes" | "brand-messenger" | "brand-meta" | "brand-monday" | "brand-netbeans" | "brand-netflix" | "brand-nextjs" | "brand-notion" | "brand-nuxt" | "brand-nytimes" | "brand-open-source" | "brand-opera" | "brand-pagekit" | "brand-patreon" | "brand-paypal" | "brand-php" | "brand-pinterest" | "brand-pocket" | "brand-producthunt" | "brand-pushover" | "brand-python" | "brand-react-native" | "brand-reddit" | "brand-safari" | "brand-sass" | "brand-sentry" | "brand-shazam" | "brand-sketch" | "brand-skype" | "brand-slack" | "brand-snapchat" | "brand-soundcloud" | "brand-spotify" | "brand-stackoverflow" | "brand-steam" | "brand-stripe" | "brand-sublime-text" | "brand-svelte" | "brand-tabler" | "brand-tailwind" | "brand-telegram" | "brand-tidal" | "brand-tiktok" | "brand-tinder" | "brand-tripadvisor" | "brand-tumblr" | "brand-twitch" | "brand-twitter" | "brand-uber" | "brand-ubuntu" | "brand-unsplash" | "brand-vercel" | "brand-vimeo" | "brand-vinted" | "brand-visual-studio" | "brand-vivaldi" | "brand-vk" | "brand-vue" | "brand-walmart" | "brand-whatsapp" | "brand-windows" | "brand-wish" | "brand-xing" | "brand-yahoo" | "brand-yatse" | "brand-ycombinator" | "brand-youtube-kids" | "brand-youtube" | "brand-zoom" | "brand-zwift" | "bread" | "briefcase" | "brightness-2" | "brightness-down" | "brightness-half" | "brightness-up" | "brightness" | "broadcast-off" | "broadcast" | "browser-check" | "browser-off" | "browser-plus" | "browser-x" | "browser" | "brush-off" | "brush" | "bucket-off" | "bucket" | "bug-off" | "bug" | "building-arch" | "building-bank" | "building-bridge-2" | "building-bridge" | "building-carousel" | "building-castle" | "building-church" | "building-community" | "building-cottage" | "building-factory-2" | "building-factory" | "building-fortress" | "building-hospital" | "building-lighthouse" | "building-monument" | "building-pavilon" | "building-skyscraper" | "building-store" | "building-warehouse" | "building" | "bulb-off" | "bulb" | "bulldozer" | "bus" | "businessplan" | "butterfly" | "c-sharp" | "cactus" | "cake-off" | "cake" | "calculator-off" | "calculator" | "calendar-event" | "calendar-minus" | "calendar-off" | "calendar-plus" | "calendar-stats" | "calendar-time" | "calendar" | "camera-minus" | "camera-off" | "camera-plus" | "camera-rotate" | "camera-selfie" | "camera" | "candle" | "candy-off" | "candy" | "capture-off" | "capture" | "car-crane" | "car-crash" | "car-off" | "car" | "caravan" | "cardboards-off" | "cardboards" | "caret-down" | "caret-left" | "caret-right" | "caret-up" | "carrot" | "cash-banknote-off" | "cash-banknote" | "cash-off" | "cash" | "cast-off" | "cast" | "category-2" | "category" | "ce-off" | "ce" | "cell-signal-1" | "cell-signal-2" | "cell-signal-3" | "cell-signal-4" | "cell-signal-5" | "cell-signal-off" | "cell" | "certificate-2-off" | "certificate-2" | "certificate-off" | "certificate" | "charging-pile" | "chart-arcs-3" | "chart-arcs" | "chart-area-line" | "chart-area" | "chart-arrows-vertical" | "chart-arrows" | "chart-bar" | "chart-bubble" | "chart-candle" | "chart-circles" | "chart-donut-2" | "chart-donut-3" | "chart-donut-4" | "chart-donut" | "chart-dots-2" | "chart-dots-3" | "chart-dots" | "chart-infographic" | "chart-line" | "chart-pie-2" | "chart-pie-3" | "chart-pie-4" | "chart-pie" | "chart-radar" | "check" | "checkbox" | "checklist" | "checks" | "checkup-list" | "cheese" | "chef-hat" | "chevron-down-left" | "chevron-down-right" | "chevron-down" | "chevron-left" | "chevron-right" | "chevron-up-left" | "chevron-up-right" | "chevron-up" | "chevrons-down-left" | "chevrons-down-right" | "chevrons-down" | "chevrons-left" | "chevrons-right" | "chevrons-up-left" | "chevrons-up-right" | "chevrons-up" | "christmas-tree" | "circle-0" | "circle-1" | "circle-2" | "circle-3" | "circle-4" | "circle-5" | "circle-6" | "circle-7" | "circle-8" | "circle-9" | "circle-check" | "circle-dashed" | "circle-dot" | "circle-dotted" | "circle-half-2" | "circle-half-vertical" | "circle-half" | "circle-minus" | "circle-off" | "circle-plus" | "circle-rectangle-off" | "circle-rectangle" | "circle-square" | "circle-triangle" | "circle-x" | "circle" | "circles" | "clear-all" | "clear-formatting" | "click" | "clipboard-check" | "clipboard-list" | "clipboard-off" | "clipboard-plus" | "clipboard-text" | "clipboard-x" | "clipboard" | "clock-2" | "clock-off" | "clock" | "cloud-computing" | "cloud-data-connection" | "cloud-download" | "cloud-fog" | "cloud-lock-open" | "cloud-lock" | "cloud-off" | "cloud-rain" | "cloud-snow" | "cloud-storm" | "cloud-upload" | "cloud" | "clover-2" | "clover" | "clubs" | "code-minus" | "code-off" | "code-plus" | "code" | "coffee-off" | "coffee" | "coin-off" | "coin" | "color-picker-off" | "color-picker" | "color-swatch-off" | "color-swatch" | "column-insert-left" | "column-insert-right" | "columns-off" | "columns" | "comet" | "command" | "compass-off" | "compass" | "components-off" | "components" | "cone-2" | "cone" | "confetti" | "container-off" | "container" | "contrast-2" | "contrast" | "cookie-off" | "cookie" | "copy-off" | "copy" | "copyleft-off" | "copyleft" | "copyright-off" | "copyright" | "corner-down-left-double" | "corner-down-left" | "corner-down-right-double" | "corner-down-right" | "corner-left-down-double" | "corner-left-down" | "corner-left-up-double" | "corner-left-up" | "corner-right-down-double" | "corner-right-down" | "corner-right-up-double" | "corner-right-up" | "corner-up-left-double" | "corner-up-left" | "corner-up-right-double" | "corner-up-right" | "cpu-2" | "cpu-off" | "cpu" | "crane-off" | "crane" | "creative-commons-by" | "creative-commons-nc" | "creative-commons-nd" | "creative-commons-off" | "creative-commons-sa" | "creative-commons-zero" | "creative-commons" | "credit-card-off" | "credit-card" | "cricket" | "crop" | "cross-off" | "cross" | "crosshair" | "crown-off" | "crown" | "crutches-off" | "crutches" | "cup-off" | "cup" | "curling" | "curly-loop" | "currency-bahraini" | "currency-baht" | "currency-bitcoin" | "currency-cent" | "currency-dinar" | "currency-dirham" | "currency-dogecoin" | "currency-dollar-australian" | "currency-dollar-canadian" | "currency-dollar-singapore" | "currency-dollar" | "currency-ethereum" | "currency-euro" | "currency-forint" | "currency-frank" | "currency-krone-czech" | "currency-krone-danish" | "currency-krone-swedish" | "currency-leu" | "currency-lira" | "currency-litecoin" | "currency-naira" | "currency-pound" | "currency-real" | "currency-renminbi" | "currency-ripple" | "currency-riyal" | "currency-rubel" | "currency-rupee" | "currency-shekel" | "currency-taka" | "currency-tugrik" | "currency-won" | "currency-yen" | "currency-zloty" | "currency" | "current-location-off" | "current-location" | "cursor-off" | "cursor-text" | "cut" | "dashboard" | "database-export" | "database-import" | "database-off" | "database" | "dental-off" | "dental" | "details" | "device-analytics" | "device-audio-tape" | "device-cctv" | "device-computer-camera-off" | "device-computer-camera" | "device-desktop-analytics" | "device-desktop-off" | "device-desktop" | "device-floppy" | "device-gamepad-2" | "device-gamepad" | "device-heart-monitor" | "device-laptop-off" | "device-laptop" | "device-mobile-charging" | "device-mobile-message" | "device-mobile-off" | "device-mobile-rotated" | "device-mobile-vibration" | "device-mobile" | "device-nintendo-off" | "device-nintendo" | "device-speaker-off" | "device-speaker" | "device-tablet-off" | "device-tablet" | "device-tv-off" | "device-tv-old" | "device-tv" | "device-watch-off" | "device-watch-stats-2" | "device-watch-stats" | "device-watch" | "devices-2" | "devices-off" | "devices-pc-off" | "devices-pc" | "devices" | "dialpad-off" | "dialpad" | "diamond-off" | "diamond" | "diamonds" | "dice-1" | "dice-2" | "dice-3" | "dice-4" | "dice-5" | "dice-6" | "dice" | "dimensions" | "direction-horizontal" | "direction-sign" | "direction" | "directions-off" | "directions" | "disabled-2" | "disabled-off" | "disabled" | "disc-off" | "disc" | "discount-2" | "discount-check" | "discount" | "divide" | "dna-2-off" | "dna-2" | "dna-off" | "dna" | "dog-bowl" | "door-enter" | "door-exit" | "door-off" | "door" | "dots-circle-horizontal" | "dots-diagonal-2" | "dots-diagonal" | "dots-vertical" | "dots" | "download-off" | "download" | "drag-drop-2" | "drag-drop" | "drone-off" | "drone" | "drop-circle" | "droplet-filled-2" | "droplet-filled" | "droplet-half-2" | "droplet-half" | "droplet-off" | "droplet" | "ear-off" | "ear" | "edit-circle-off" | "edit-circle" | "edit-off" | "edit" | "egg-off" | "egg" | "elevator" | "emergency-bed" | "emphasis" | "engine-off" | "engine" | "equal-not" | "equal" | "eraser-off" | "eraser" | "error-404-off" | "error-404" | "exchange-off" | "exchange" | "exclamation-mark-off" | "exclamation-mark" | "exposure" | "external-link-off" | "external-link" | "eye-check" | "eye-off" | "eye-table" | "eye" | "eyeglass-2" | "eyeglass-off" | "eyeglass" | "face-id-error" | "face-id" | "face-mask-off" | "face-mask" | "fall" | "feather-off" | "feather" | "fence-off" | "fence" | "fidget-spinner" | "file-3d" | "file-alert" | "file-analytics" | "file-arrow-left" | "file-arrow-right" | "file-barcode" | "file-certificate" | "file-chart" | "file-check" | "file-code-2" | "file-code" | "file-database" | "file-description" | "file-diff" | "file-digit" | "file-dislike" | "file-dollar" | "file-dots" | "file-download" | "file-euro" | "file-export" | "file-horizontal" | "file-import" | "file-info" | "file-invoice" | "file-like" | "file-minus" | "file-music" | "file-off" | "file-pencil" | "file-phone" | "file-plus" | "file-power" | "file-report" | "file-rss" | "file-scissors" | "file-search" | "file-settings" | "file-shredder" | "file-signal" | "file-spreadsheet" | "file-star" | "file-symlink" | "file-text" | "file-time" | "file-typography" | "file-unknown" | "file-upload" | "file-vector" | "file-x" | "file-zip" | "file" | "files-off" | "files" | "filter-off" | "filter" | "fingerprint-off" | "fingerprint" | "firetruck" | "first-aid-kit" | "fish-hook" | "fish-off" | "fish" | "flag-2-off" | "flag-2" | "flag-3" | "flag-off" | "flag" | "flame-off" | "flame" | "flare" | "flask-2-off" | "flask-2" | "flask-off" | "flask" | "flip-horizontal" | "flip-vertical" | "float-center" | "float-left" | "float-none" | "float-right" | "flower-off" | "flower" | "focus-2" | "focus-centered" | "focus" | "fold-down" | "fold-up" | "fold" | "folder-minus" | "folder-off" | "folder-plus" | "folder-x" | "folder" | "folders-off" | "folders" | "forbid-2" | "forbid" | "forklift" | "forms" | "fountain-off" | "fountain" | "frame-off" | "frame" | "free-rights" | "fridge" | "friends-off" | "friends" | "function" | "gas-station-off" | "gas-station" | "gauge-off" | "gauge" | "gavel" | "gender-agender" | "gender-androgyne" | "gender-bigender" | "gender-demiboy" | "gender-demigirl" | "gender-epicene" | "gender-female" | "gender-femme" | "gender-genderfluid" | "gender-genderless" | "gender-genderqueer" | "gender-hermaphrodite" | "gender-intergender" | "gender-male" | "gender-neutrois" | "gender-third" | "gender-transgender" | "gender-trasvesti" | "geometry" | "ghost" | "gift" | "git-branch" | "git-commit" | "git-compare" | "git-fork" | "git-merge" | "git-pull-request-closed" | "git-pull-request-draft" | "git-pull-request" | "gizmo" | "glass-full" | "glass-off" | "glass" | "globe-off" | "globe" | "golf-off" | "golf" | "gps" | "grain" | "grid-dots" | "grid-pattern" | "grill-off" | "grill" | "grip-horizontal" | "grip-vertical" | "growth" | "h-1" | "h-2" | "h-3" | "h-4" | "h-5" | "h-6" | "hammer-off" | "hammer" | "hand-click" | "hand-finger-off" | "hand-finger" | "hand-grab" | "hand-little-finger" | "hand-middle-finger" | "hand-move" | "hand-off" | "hand-ring-finger" | "hand-rock" | "hand-stop" | "hand-three-fingers" | "hand-two-fingers" | "hanger-2" | "hanger-off" | "hanger" | "hash" | "haze" | "heading-off" | "heading" | "headphones-off" | "headphones" | "headset" | "health-recognition" | "heart-broken" | "heart-handshake" | "heart-minus" | "heart-off" | "heart-plus" | "heart-rate-monitor" | "heart" | "heartbeat" | "helicopter-landing" | "helicopter" | "helmet-off" | "helmet" | "help" | "hexagon-off" | "hexagon" | "hexagons" | "hierarchy-2" | "hierarchy" | "highlight-off" | "highlight" | "history-toggle" | "history" | "home-2" | "home-off" | "home" | "hotel-service" | "hourglass-empty" | "hourglass-high" | "hourglass-low" | "hourglass-off" | "hourglass" | "ice-cream-2" | "ice-cream-off" | "ice-cream" | "ice-skating" | "icons" | "id-badge-2" | "id-badge" | "id-off" | "id" | "inbox-off" | "inbox" | "indent-decrease" | "indent-increase" | "infinity" | "info-circle" | "info-square" | "italic" | "jewish-star" | "jump-rope" | "karate" | "kayak" | "kering" | "key-off" | "key" | "keyboard-hide" | "keyboard-off" | "keyboard-show" | "keyboard" | "ladder-off" | "ladder" | "lamp-2" | "lamp-off" | "lamp" | "language-hiragana" | "language-katakana" | "language-off" | "language" | "lasso-off" | "lasso" | "layers-difference" | "layers-intersect-2" | "layers-intersect" | "layers-linked" | "layers-off" | "layers-subtract" | "layers-union" | "layout-2" | "layout-align-bottom" | "layout-align-center" | "layout-align-left" | "layout-align-middle" | "layout-align-right" | "layout-align-top" | "layout-board-split" | "layout-board" | "layout-bottombar" | "layout-cards" | "layout-columns" | "layout-dashboard" | "layout-distribute-horizontal" | "layout-distribute-vertical" | "layout-grid-add" | "layout-grid" | "layout-kanban" | "layout-list" | "layout-navbar" | "layout-off" | "layout-rows" | "layout-sidebar-left-collapse" | "layout-sidebar-left-expand" | "layout-sidebar-right-collapse" | "layout-sidebar-right-expand" | "layout-sidebar-right" | "layout-sidebar" | "layout" | "leaf-off" | "leaf" | "lego" | "lemon-2" | "lemon" | "letter-a" | "letter-b" | "letter-c" | "letter-case-lower" | "letter-case-toggle" | "letter-case-upper" | "letter-case" | "letter-d" | "letter-e" | "letter-f" | "letter-g" | "letter-h" | "letter-i" | "letter-j" | "letter-k" | "letter-l" | "letter-m" | "letter-n" | "letter-o" | "letter-p" | "letter-q" | "letter-r" | "letter-s" | "letter-spacing" | "letter-t" | "letter-u" | "letter-v" | "letter-w" | "letter-x" | "letter-y" | "letter-z" | "license-off" | "license" | "lifebuoy-off" | "lifebuoy" | "line-dashed" | "line-dotted" | "line-height" | "line" | "link" | "list-check" | "list-details" | "list-numbers" | "list-search" | "list" | "live-photo" | "live-view" | "loader-2" | "loader-quarter" | "loader" | "location-off" | "location" | "lock-access" | "lock-off" | "lock-open-off" | "lock-open" | "lock-square" | "lock" | "login" | "logout" | "lollipop-off" | "lollipop" | "luggage-off" | "luggage" | "lungs" | "macro" | "magnet-off" | "magnet" | "mail-fast" | "mail-forward" | "mail-off" | "mail-opened" | "mail" | "mailbox-off" | "mailbox" | "man" | "manual-gearbox" | "map-2" | "map-off" | "map-pin-off" | "map-pin" | "map-pins" | "map-search" | "map" | "markdown" | "marquee-2" | "marquee-off" | "marquee" | "mars" | "mask-off" | "mask" | "massage" | "math-avg" | "math-function-off" | "math-function" | "math-max" | "math-min" | "math-symbols" | "math" | "maximize-off" | "maximize" | "meat" | "medal-2" | "medal" | "medical-cross-off" | "medical-cross" | "medicine-syrup" | "menu-2" | "menu" | "message-2-code" | "message-2-share" | "message-2" | "message-circle-2" | "message-circle-off" | "message-circle" | "message-code" | "message-dots" | "message-language" | "message-off" | "message-plus" | "message-report" | "message-share" | "message" | "messages-off" | "messages" | "meteor" | "microphone-2" | "microphone-off" | "microphone" | "microscope" | "military-award" | "military-rank" | "milk" | "minimize" | "minus-vertical" | "minus" | "mist" | "mood-boy" | "mood-confuzed" | "mood-crazy-happy" | "mood-cry" | "mood-empty" | "mood-happy" | "mood-kid" | "mood-nervous" | "mood-neutral" | "mood-off" | "mood-sad" | "mood-smile" | "mood-suprised" | "mood-tongue" | "moon-2" | "moon-off" | "moon-stars" | "moon" | "moped" | "motorbike" | "mountain" | "mouse-2" | "mouse-off" | "mouse" | "movie-off" | "movie" | "mug-off" | "mug" | "multiplier-0-5x" | "multiplier-1-5x" | "multiplier-1x" | "multiplier-2x" | "mushroom" | "music-off" | "music" | "network" | "new-section" | "news-off" | "news" | "nfc-off" | "nfc" | "no-copyright" | "no-creative-commons" | "no-derivatives" | "north-star" | "note-off" | "note" | "notebook" | "notes-off" | "notes" | "notification-off" | "notification" | "number-0" | "number-1" | "number-2" | "number-3" | "number-4" | "number-5" | "number-6" | "number-7" | "number-8" | "number-9" | "number" | "numbers" | "nurse" | "octagon-off" | "octagon" | "old" | "olympics" | "omega" | "outlet" | "oval-vertical" | "oval" | "overline" | "package-off" | "package" | "packge-export" | "packge-import" | "pacman" | "page-break" | "paint-off" | "paint" | "palette-off" | "palette" | "panorama-horizontal" | "panorama-vertical" | "paper-bag-off" | "paper-bag" | "paperclip" | "parachute-off" | "parachute" | "parentheses-off" | "parentheses" | "parking-off" | "parking" | "paw" | "peace" | "pencil-minus" | "pencil-off" | "pencil-plus" | "pencil" | "pennant-2" | "pennant-off" | "pennant" | "pentagon" | "pepper-off" | "pepper" | "percentage" | "perspective-off" | "perspective" | "phone-call" | "phone-calling" | "phone-check" | "phone-incoming" | "phone-off" | "phone-outgoing" | "phone-pause" | "phone-plus" | "phone-x" | "phone" | "photo-off" | "photo" | "physotherapist" | "picture-in-picture-off" | "picture-in-picture-on" | "picture-in-picture-top" | "picture-in-picture" | "pig-off" | "pig" | "pill-off" | "pill" | "pills" | "pin" | "pinned-off" | "pinned" | "pizza-off" | "pizza" | "plane-arrival" | "plane-departure" | "plane-inflight" | "plane-off" | "plane-tilt" | "plane" | "planet-off" | "planet" | "plant-2-off" | "plant-2" | "plant-off" | "plant" | "play-card-off" | "play-card" | "player-eject" | "player-pause" | "player-play" | "player-record" | "player-skip-back" | "player-skip-forward" | "player-stop" | "player-track-next" | "player-track-prev" | "playlist-add" | "playlist-off" | "playlist-x" | "playlist" | "plug-connected-x" | "plug-connected" | "plug-off" | "plug-x" | "plug" | "plus" | "podium" | "point-off" | "point" | "pokeball" | "polaroid" | "polygon-off" | "polygon" | "pool" | "power" | "pray" | "premium-rights" | "prescription" | "presentation-analytics" | "presentation-off" | "presentation" | "printer-off" | "printer" | "prison" | "prompt" | "propeller-off" | "propeller" | "puzzle-2" | "puzzle-off" | "puzzle" | "pyramid-off" | "pyramid" | "qrcode" | "question-mark" | "quote-off" | "quote" | "radar-2" | "radar" | "radio" | "radioactive-off" | "radioactive" | "radius-bottom-left" | "radius-bottom-right" | "radius-top-left" | "radius-top-right" | "rainbow-off" | "rainbow" | "receipt-2" | "receipt-off" | "receipt-refund" | "receipt-tax" | "receipt" | "recharging" | "record-mail-off" | "record-mail" | "rectangle-vertical" | "rectangle" | "recycle-off" | "recycle" | "refresh-alert" | "refresh-dot" | "refresh-off" | "refresh" | "registered" | "relation-many-to-many" | "relation-one-to-many" | "relation-one-to-one" | "repeat-off" | "repeat-once" | "repeat" | "replace" | "report-analytics" | "report-medical" | "report-money" | "report-off" | "report-search" | "report" | "resize" | "ripple-off" | "ripple" | "road-off" | "road-sign" | "road" | "robot-off" | "robot" | "rocket-off" | "rocket" | "roller-skating" | "rollercoaster" | "rotate-2" | "rotate-360" | "rotate-clockwise-2" | "rotate-clockwise" | "rotate-dot" | "rotate-rectangle" | "rotate" | "route-off" | "route" | "router" | "row-insert-bottom" | "row-insert-top" | "rss" | "ruler-2-off" | "ruler-2" | "ruler-off" | "ruler" | "run" | "sailboat" | "salt" | "satellite-off" | "satellite" | "sausage" | "scale-off" | "scale-outline-off" | "scale-outline" | "scale" | "scan-eye" | "scan" | "schema" | "school-off" | "school" | "scissors-off" | "scissors" | "scooter-electric" | "scooter" | "screen-share-off" | "screen-share" | "screenshot" | "scribble" | "scuba-mask" | "search-off" | "search" | "section-sign" | "section" | "seeding-off" | "seeding" | "select" | "selector" | "send" | "separator-horizontal" | "separator-vertical" | "separator" | "server-2" | "server-off" | "server" | "servicemark" | "settings-automation" | "settings-off" | "settings" | "shadow-off" | "shadow" | "shape-2" | "shape-3" | "shape-off" | "shape" | "share-off" | "share" | "shield-check" | "shield-checkered" | "shield-chevron" | "shield-lock" | "shield-off" | "shield-x" | "shield" | "ship" | "shirt-off" | "shirt" | "shoe-off" | "shoe" | "shopping-cart-discount" | "shopping-cart-off" | "shopping-cart-plus" | "shopping-cart-x" | "shopping-cart" | "shovel" | "shredder" | "sign-left" | "sign-right" | "signal-3g" | "signal-4g" | "signal-5g" | "signature-off" | "signature" | "sitemap-off" | "sitemap" | "skateboard" | "sleigh" | "slice" | "slideshow" | "smart-home-off" | "smart-home" | "smoking-no" | "smoking" | "snowflake-off" | "snowflake" | "soccer-field" | "social-off" | "social" | "sock" | "sofa" | "sort-ascending-2" | "sort-ascending-letters" | "sort-ascending-numbers" | "sort-ascending" | "sort-descending-2" | "sort-descending-letters" | "sort-descending-numbers" | "sort-descending" | "soup" | "space-off" | "space" | "spacing-horizontal" | "spacing-vertical" | "spade" | "speakerphone" | "speedboat" | "sport-billard" | "spy" | "square-0" | "square-1" | "square-2" | "square-3" | "square-4" | "square-5" | "square-6" | "square-7" | "square-8" | "square-9" | "square-asterisk" | "square-check" | "square-dot" | "square-forbid-2" | "square-forbid" | "square-half" | "square-minus" | "square-off" | "square-plus" | "square-root-2" | "square-root" | "square-rotated-forbid-2" | "square-rotated-forbid" | "square-rotated-off" | "square-rotated" | "square-toggle-horizontal" | "square-toggle" | "square-x" | "square" | "squares-diagonal" | "squares-filled" | "stack-2" | "stack-3" | "stack" | "stairs-down" | "stairs-up" | "stairs" | "star-half" | "star-off" | "star" | "stars" | "steering-wheel" | "step-into" | "step-out" | "stethoscope" | "sticker" | "strikethrough" | "submarine" | "subscript" | "subtask" | "sum-off" | "sum" | "sun-off" | "sun" | "sunrise" | "sunset" | "superscript" | "swimming" | "switch-2" | "switch-3" | "switch-horizontal" | "switch-vertical" | "switch" | "sword-off" | "sword" | "swords" | "table-export" | "table-import" | "table-off" | "table" | "tag-off" | "tag" | "tags-off" | "tags" | "tallymark-1" | "tallymark-2" | "tallymark-3" | "tallymark-4" | "tallymarks" | "tank" | "target-off" | "target" | "telescope-off" | "telescope" | "temperature-celsius" | "temperature-fahrenheit" | "temperature-minus" | "temperature-off" | "temperature-plus" | "temperature" | "template-off" | "template" | "tent" | "terminal-2" | "terminal" | "test-pipe-2" | "test-pipe-off" | "test-pipe" | "text-decrease" | "text-direction-ltr" | "text-direction-rtl" | "text-increase" | "text-recognition" | "text-resize" | "text-wrap-disabled" | "text-wrap" | "thermometer" | "thumb-down" | "thumb-up" | "ticket-off" | "ticket" | "tie" | "tilt-shift-off" | "tilt-shift" | "timeline" | "tir" | "toggle-left" | "toggle-right" | "toilet-paper-off" | "toilet-paper" | "tool" | "tools-kitchen-2-off" | "tools-kitchen-2" | "tools-kitchen-off" | "tools-kitchen" | "tools-off" | "tools" | "tornado" | "tournament" | "track" | "tractor" | "trademark" | "traffic-cone-off" | "traffic-cone" | "traffic-lights-off" | "traffic-lights" | "train" | "transfer-in" | "transfer-out" | "trash-off" | "trash-x" | "trash" | "tree" | "trees" | "trending-down-2" | "trending-down-3" | "trending-down" | "trending-up-2" | "trending-up-3" | "trending-up" | "triangle-inverted" | "triangle-off" | "triangle-square-circle" | "triangle" | "triangles" | "trident" | "trophy" | "truck-delivery" | "truck-loading" | "truck-off" | "truck-return" | "truck" | "typography-off" | "typography" | "umbrella-off" | "umbrella" | "underline" | "unlink" | "upload" | "urgent" | "usb" | "user-check" | "user-circle" | "user-exclamation" | "user-minus" | "user-off" | "user-plus" | "user-search" | "user-x" | "user" | "users" | "vaccine-bottle" | "vaccine-off" | "vaccine" | "variable-off" | "variable" | "vector-bezier-2" | "vector-bezier" | "vector-off" | "vector-triangle-off" | "vector-triangle" | "vector" | "venus" | "versions-off" | "versions" | "video-minus" | "video-off" | "video-plus" | "video" | "view-360-off" | "view-360" | "viewfinder-off" | "viewfinder" | "viewport-narrow" | "viewport-wide" | "vinyl" | "virus-off" | "virus-search" | "virus" | "vocabulary" | "volume-2" | "volume-3" | "volume-off" | "volume" | "walk" | "wall" | "wallet-off" | "wallet" | "wallpaper-off" | "wallpaper" | "wand-off" | "wand" | "wave-saw-tool" | "wave-sine" | "wave-square" | "webhook" | "wheelchair" | "wifi-0" | "wifi-1" | "wifi-2" | "wifi-off" | "wifi" | "wind-off" | "wind" | "windmill-off" | "windmill" | "window-maximize" | "window-minimize" | "window-off" | "window" | "windsock" | "wiper-wash" | "wiper" | "woman" | "world-download" | "world-latitude" | "world-longitude" | "world-off" | "world-upload" | "world" | "wrecking-ball" | "writing-off" | "writing-sign-off" | "writing-sign" | "writing" | "x" | "yin-yang" | "yoga" | "zodiac-aquarius" | "zodiac-aries" | "zodiac-cancer" | "zodiac-capricorn" | "zodiac-gemini" | "zodiac-leo" | "zodiac-libra" | "zodiac-pisces" | "zodiac-sagittarius" | "zodiac-scorpio" | "zodiac-taurus" | "zodiac-virgo" | "zoom-cancel" | "zoom-check" | "zoom-code" | "zoom-exclamation" | "zoom-in-area" | "zoom-in" | "zoom-money" | "zoom-out-area" | "zoom-out" | "zoom-pan" | "zoom-question" | "zzz";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -1847,10 +2092,14 @@ export const map: IconsMapType<IconNames> = {
 "align-justified": SVG_alignJustified,
 "align-left": SVG_alignLeft,
 "align-right": SVG_alignRight,
+"alphabet-cyrillic": SVG_alphabetCyrillic,
+"alphabet-greek": SVG_alphabetGreek,
+"alphabet-latin": SVG_alphabetLatin,
 "ambulance": SVG_ambulance,
 "anchor-off": SVG_anchorOff,
 "anchor": SVG_anchor,
 "angle": SVG_angle,
+"ankh": SVG_ankh,
 "antenna-bars-1": SVG_antennaBars_1,
 "antenna-bars-2": SVG_antennaBars_2,
 "antenna-bars-3": SVG_antennaBars_3,
@@ -1979,6 +2228,8 @@ export const map: IconsMapType<IconNames> = {
 "arrows-double-sw-ne": SVG_arrowsDoubleSwNe,
 "arrows-down-up": SVG_arrowsDownUp,
 "arrows-down": SVG_arrowsDown,
+"arrows-exchange-2": SVG_arrowsExchange_2,
+"arrows-exchange": SVG_arrowsExchange,
 "arrows-horizontal": SVG_arrowsHorizontal,
 "arrows-join-2": SVG_arrowsJoin_2,
 "arrows-join": SVG_arrowsJoin,
@@ -2003,8 +2254,10 @@ export const map: IconsMapType<IconNames> = {
 "arrows-vertical": SVG_arrowsVertical,
 "artboard-off": SVG_artboardOff,
 "artboard": SVG_artboard,
+"article": SVG_article,
 "aspect-ratio-off": SVG_aspectRatioOff,
 "aspect-ratio": SVG_aspectRatio,
+"asset": SVG_asset,
 "asterisk-simple": SVG_asteriskSimple,
 "asterisk": SVG_asterisk,
 "at-off": SVG_atOff,
@@ -2141,17 +2394,25 @@ export const map: IconsMapType<IconNames> = {
 "box": SVG_box,
 "braces-off": SVG_bracesOff,
 "braces": SVG_braces,
+"brackets-contain-end": SVG_bracketsContainEnd,
+"brackets-contain-start": SVG_bracketsContainStart,
+"brackets-contain": SVG_bracketsContain,
 "brackets-off": SVG_bracketsOff,
 "brackets": SVG_brackets,
 "brand-adobe": SVG_brandAdobe,
 "brand-airbnb": SVG_brandAirbnb,
 "brand-airtable": SVG_brandAirtable,
+"brand-amongus": SVG_brandAmongus,
 "brand-android": SVG_brandAndroid,
 "brand-angular": SVG_brandAngular,
 "brand-apple-arcade": SVG_brandAppleArcade,
+"brand-apple-podcast": SVG_brandApplePodcast,
 "brand-apple": SVG_brandApple,
 "brand-appstore": SVG_brandAppstore,
 "brand-asana": SVG_brandAsana,
+"brand-badoo": SVG_brandBadoo,
+"brand-bandcamp": SVG_brandBandcamp,
+"brand-beats": SVG_brandBeats,
 "brand-behance": SVG_brandBehance,
 "brand-bing": SVG_brandBing,
 "brand-bitbucket": SVG_brandBitbucket,
@@ -2160,11 +2421,14 @@ export const map: IconsMapType<IconNames> = {
 "brand-chrome": SVG_brandChrome,
 "brand-codepen": SVG_brandCodepen,
 "brand-codesandbox": SVG_brandCodesandbox,
+"brand-coinbase": SVG_brandCoinbase,
+"brand-comedy-central": SVG_brandComedyCentral,
 "brand-css3": SVG_brandCss3,
 "brand-cucumber": SVG_brandCucumber,
 "brand-debian": SVG_brandDebian,
 "brand-deviantart": SVG_brandDeviantart,
 "brand-discord": SVG_brandDiscord,
+"brand-disney": SVG_brandDisney,
 "brand-disqus": SVG_brandDisqus,
 "brand-docker": SVG_brandDocker,
 "brand-doctrine": SVG_brandDoctrine,
@@ -2172,9 +2436,11 @@ export const map: IconsMapType<IconNames> = {
 "brand-edge": SVG_brandEdge,
 "brand-facebook": SVG_brandFacebook,
 "brand-figma": SVG_brandFigma,
+"brand-finder": SVG_brandFinder,
 "brand-firebase": SVG_brandFirebase,
 "brand-firefox": SVG_brandFirefox,
 "brand-flickr": SVG_brandFlickr,
+"brand-flipboard": SVG_brandFlipboard,
 "brand-foursquare": SVG_brandFoursquare,
 "brand-framer": SVG_brandFramer,
 "brand-git": SVG_brandGit,
@@ -2183,23 +2449,28 @@ export const map: IconsMapType<IconNames> = {
 "brand-gmail": SVG_brandGmail,
 "brand-google-analytics": SVG_brandGoogleAnalytics,
 "brand-google-drive": SVG_brandGoogleDrive,
+"brand-google-photos": SVG_brandGooglePhotos,
 "brand-google-play": SVG_brandGooglePlay,
 "brand-google": SVG_brandGoogle,
 "brand-gravatar": SVG_brandGravatar,
+"brand-grindr": SVG_brandGrindr,
 "brand-hipchat": SVG_brandHipchat,
 "brand-html5": SVG_brandHtml5,
 "brand-instagram": SVG_brandInstagram,
+"brand-intercom": SVG_brandIntercom,
 "brand-javascript": SVG_brandJavascript,
 "brand-kickstarter": SVG_brandKickstarter,
 "brand-kotlin": SVG_brandKotlin,
 "brand-lastfm": SVG_brandLastfm,
 "brand-linkedin": SVG_brandLinkedin,
+"brand-linktree": SVG_brandLinktree,
 "brand-loom": SVG_brandLoom,
 "brand-mastercard": SVG_brandMastercard,
 "brand-medium": SVG_brandMedium,
 "brand-mercedes": SVG_brandMercedes,
 "brand-messenger": SVG_brandMessenger,
 "brand-meta": SVG_brandMeta,
+"brand-monday": SVG_brandMonday,
 "brand-netbeans": SVG_brandNetbeans,
 "brand-netflix": SVG_brandNetflix,
 "brand-nextjs": SVG_brandNextjs,
@@ -2215,6 +2486,7 @@ export const map: IconsMapType<IconNames> = {
 "brand-pinterest": SVG_brandPinterest,
 "brand-pocket": SVG_brandPocket,
 "brand-producthunt": SVG_brandProducthunt,
+"brand-pushover": SVG_brandPushover,
 "brand-python": SVG_brandPython,
 "brand-react-native": SVG_brandReactNative,
 "brand-reddit": SVG_brandReddit,
@@ -2248,14 +2520,23 @@ export const map: IconsMapType<IconNames> = {
 "brand-unsplash": SVG_brandUnsplash,
 "brand-vercel": SVG_brandVercel,
 "brand-vimeo": SVG_brandVimeo,
+"brand-vinted": SVG_brandVinted,
 "brand-visual-studio": SVG_brandVisualStudio,
+"brand-vivaldi": SVG_brandVivaldi,
 "brand-vk": SVG_brandVk,
 "brand-vue": SVG_brandVue,
+"brand-walmart": SVG_brandWalmart,
 "brand-whatsapp": SVG_brandWhatsapp,
 "brand-windows": SVG_brandWindows,
+"brand-wish": SVG_brandWish,
+"brand-xing": SVG_brandXing,
 "brand-yahoo": SVG_brandYahoo,
+"brand-yatse": SVG_brandYatse,
 "brand-ycombinator": SVG_brandYcombinator,
+"brand-youtube-kids": SVG_brandYoutubeKids,
 "brand-youtube": SVG_brandYoutube,
+"brand-zoom": SVG_brandZoom,
+"brand-zwift": SVG_brandZwift,
 "bread": SVG_bread,
 "briefcase": SVG_briefcase,
 "brightness-2": SVG_brightness_2,
@@ -2263,6 +2544,8 @@ export const map: IconsMapType<IconNames> = {
 "brightness-half": SVG_brightnessHalf,
 "brightness-up": SVG_brightnessUp,
 "brightness": SVG_brightness,
+"broadcast-off": SVG_broadcastOff,
+"broadcast": SVG_broadcast,
 "browser-check": SVG_browserCheck,
 "browser-off": SVG_browserOff,
 "browser-plus": SVG_browserPlus,
@@ -2301,6 +2584,7 @@ export const map: IconsMapType<IconNames> = {
 "businessplan": SVG_businessplan,
 "butterfly": SVG_butterfly,
 "c-sharp": SVG_cSharp,
+"cactus": SVG_cactus,
 "cake-off": SVG_cakeOff,
 "cake": SVG_cake,
 "calculator-off": SVG_calculatorOff,
@@ -2334,12 +2618,15 @@ export const map: IconsMapType<IconNames> = {
 "caret-left": SVG_caretLeft,
 "caret-right": SVG_caretRight,
 "caret-up": SVG_caretUp,
+"carrot": SVG_carrot,
 "cash-banknote-off": SVG_cashBanknoteOff,
 "cash-banknote": SVG_cashBanknote,
 "cash-off": SVG_cashOff,
 "cash": SVG_cash,
 "cast-off": SVG_castOff,
 "cast": SVG_cast,
+"category-2": SVG_category_2,
+"category": SVG_category,
 "ce-off": SVG_ceOff,
 "ce": SVG_ce,
 "cell-signal-1": SVG_cellSignal_1,
@@ -2384,6 +2671,7 @@ export const map: IconsMapType<IconNames> = {
 "checks": SVG_checks,
 "checkup-list": SVG_checkupList,
 "cheese": SVG_cheese,
+"chef-hat": SVG_chefHat,
 "chevron-down-left": SVG_chevronDownLeft,
 "chevron-down-right": SVG_chevronDownRight,
 "chevron-down": SVG_chevronDown,
@@ -2441,6 +2729,8 @@ export const map: IconsMapType<IconNames> = {
 "clock-2": SVG_clock_2,
 "clock-off": SVG_clockOff,
 "clock": SVG_clock,
+"cloud-computing": SVG_cloudComputing,
+"cloud-data-connection": SVG_cloudDataConnection,
 "cloud-download": SVG_cloudDownload,
 "cloud-fog": SVG_cloudFog,
 "cloud-lock-open": SVG_cloudLockOpen,
@@ -2451,6 +2741,8 @@ export const map: IconsMapType<IconNames> = {
 "cloud-storm": SVG_cloudStorm,
 "cloud-upload": SVG_cloudUpload,
 "cloud": SVG_cloud,
+"clover-2": SVG_clover_2,
+"clover": SVG_clover,
 "clubs": SVG_clubs,
 "code-minus": SVG_codeMinus,
 "code-off": SVG_codeOff,
@@ -2510,7 +2802,12 @@ export const map: IconsMapType<IconNames> = {
 "cpu": SVG_cpu,
 "crane-off": SVG_craneOff,
 "crane": SVG_crane,
+"creative-commons-by": SVG_creativeCommonsBy,
+"creative-commons-nc": SVG_creativeCommonsNc,
+"creative-commons-nd": SVG_creativeCommonsNd,
 "creative-commons-off": SVG_creativeCommonsOff,
+"creative-commons-sa": SVG_creativeCommonsSa,
+"creative-commons-zero": SVG_creativeCommonsZero,
 "creative-commons": SVG_creativeCommons,
 "credit-card-off": SVG_creditCardOff,
 "credit-card": SVG_creditCard,
@@ -2585,10 +2882,12 @@ export const map: IconsMapType<IconNames> = {
 "device-desktop-off": SVG_deviceDesktopOff,
 "device-desktop": SVG_deviceDesktop,
 "device-floppy": SVG_deviceFloppy,
+"device-gamepad-2": SVG_deviceGamepad_2,
 "device-gamepad": SVG_deviceGamepad,
 "device-heart-monitor": SVG_deviceHeartMonitor,
 "device-laptop-off": SVG_deviceLaptopOff,
 "device-laptop": SVG_deviceLaptop,
+"device-mobile-charging": SVG_deviceMobileCharging,
 "device-mobile-message": SVG_deviceMobileMessage,
 "device-mobile-off": SVG_deviceMobileOff,
 "device-mobile-rotated": SVG_deviceMobileRotated,
@@ -2601,6 +2900,7 @@ export const map: IconsMapType<IconNames> = {
 "device-tablet-off": SVG_deviceTabletOff,
 "device-tablet": SVG_deviceTablet,
 "device-tv-off": SVG_deviceTvOff,
+"device-tv-old": SVG_deviceTvOld,
 "device-tv": SVG_deviceTv,
 "device-watch-off": SVG_deviceWatchOff,
 "device-watch-stats-2": SVG_deviceWatchStats_2,
@@ -2625,6 +2925,7 @@ export const map: IconsMapType<IconNames> = {
 "dice": SVG_dice,
 "dimensions": SVG_dimensions,
 "direction-horizontal": SVG_directionHorizontal,
+"direction-sign": SVG_directionSign,
 "direction": SVG_direction,
 "directions-off": SVG_directionsOff,
 "directions": SVG_directions,
@@ -2634,6 +2935,7 @@ export const map: IconsMapType<IconNames> = {
 "disc-off": SVG_discOff,
 "disc": SVG_disc,
 "discount-2": SVG_discount_2,
+"discount-check": SVG_discountCheck,
 "discount": SVG_discount,
 "divide": SVG_divide,
 "dna-2-off": SVG_dna_2Off,
@@ -2766,6 +3068,7 @@ export const map: IconsMapType<IconNames> = {
 "fingerprint": SVG_fingerprint,
 "firetruck": SVG_firetruck,
 "first-aid-kit": SVG_firstAidKit,
+"fish-hook": SVG_fishHook,
 "fish-off": SVG_fishOff,
 "fish": SVG_fish,
 "flag-2-off": SVG_flag_2Off,
@@ -2799,16 +3102,24 @@ export const map: IconsMapType<IconNames> = {
 "folder-plus": SVG_folderPlus,
 "folder-x": SVG_folderX,
 "folder": SVG_folder,
+"folders-off": SVG_foldersOff,
 "folders": SVG_folders,
 "forbid-2": SVG_forbid_2,
 "forbid": SVG_forbid,
 "forklift": SVG_forklift,
 "forms": SVG_forms,
+"fountain-off": SVG_fountainOff,
 "fountain": SVG_fountain,
+"frame-off": SVG_frameOff,
 "frame": SVG_frame,
 "free-rights": SVG_freeRights,
+"fridge": SVG_fridge,
+"friends-off": SVG_friendsOff,
 "friends": SVG_friends,
+"function": SVG_function,
+"gas-station-off": SVG_gasStationOff,
 "gas-station": SVG_gasStation,
+"gauge-off": SVG_gaugeOff,
 "gauge": SVG_gauge,
 "gavel": SVG_gavel,
 "gender-agender": SVG_genderAgender,
@@ -2844,12 +3155,15 @@ export const map: IconsMapType<IconNames> = {
 "glass-full": SVG_glassFull,
 "glass-off": SVG_glassOff,
 "glass": SVG_glass,
+"globe-off": SVG_globeOff,
 "globe": SVG_globe,
+"golf-off": SVG_golfOff,
 "golf": SVG_golf,
 "gps": SVG_gps,
 "grain": SVG_grain,
 "grid-dots": SVG_gridDots,
 "grid-pattern": SVG_gridPattern,
+"grill-off": SVG_grillOff,
 "grill": SVG_grill,
 "grip-horizontal": SVG_gripHorizontal,
 "grip-vertical": SVG_gripVertical,
@@ -2860,8 +3174,10 @@ export const map: IconsMapType<IconNames> = {
 "h-4": SVG_h_4,
 "h-5": SVG_h_5,
 "h-6": SVG_h_6,
+"hammer-off": SVG_hammerOff,
 "hammer": SVG_hammer,
 "hand-click": SVG_handClick,
+"hand-finger-off": SVG_handFingerOff,
 "hand-finger": SVG_handFinger,
 "hand-grab": SVG_handGrab,
 "hand-little-finger": SVG_handLittleFinger,
@@ -2874,20 +3190,27 @@ export const map: IconsMapType<IconNames> = {
 "hand-three-fingers": SVG_handThreeFingers,
 "hand-two-fingers": SVG_handTwoFingers,
 "hanger-2": SVG_hanger_2,
+"hanger-off": SVG_hangerOff,
 "hanger": SVG_hanger,
 "hash": SVG_hash,
 "haze": SVG_haze,
+"heading-off": SVG_headingOff,
 "heading": SVG_heading,
 "headphones-off": SVG_headphonesOff,
 "headphones": SVG_headphones,
 "headset": SVG_headset,
+"health-recognition": SVG_healthRecognition,
 "heart-broken": SVG_heartBroken,
 "heart-handshake": SVG_heartHandshake,
+"heart-minus": SVG_heartMinus,
+"heart-off": SVG_heartOff,
+"heart-plus": SVG_heartPlus,
 "heart-rate-monitor": SVG_heartRateMonitor,
 "heart": SVG_heart,
 "heartbeat": SVG_heartbeat,
 "helicopter-landing": SVG_helicopterLanding,
 "helicopter": SVG_helicopter,
+"helmet-off": SVG_helmetOff,
 "helmet": SVG_helmet,
 "help": SVG_help,
 "hexagon-off": SVG_hexagonOff,
@@ -2895,20 +3218,29 @@ export const map: IconsMapType<IconNames> = {
 "hexagons": SVG_hexagons,
 "hierarchy-2": SVG_hierarchy_2,
 "hierarchy": SVG_hierarchy,
+"highlight-off": SVG_highlightOff,
 "highlight": SVG_highlight,
+"history-toggle": SVG_historyToggle,
 "history": SVG_history,
 "home-2": SVG_home_2,
+"home-off": SVG_homeOff,
 "home": SVG_home,
 "hotel-service": SVG_hotelService,
+"hourglass-empty": SVG_hourglassEmpty,
 "hourglass-high": SVG_hourglassHigh,
 "hourglass-low": SVG_hourglassLow,
+"hourglass-off": SVG_hourglassOff,
 "hourglass": SVG_hourglass,
 "ice-cream-2": SVG_iceCream_2,
+"ice-cream-off": SVG_iceCreamOff,
 "ice-cream": SVG_iceCream,
 "ice-skating": SVG_iceSkating,
+"icons": SVG_icons,
 "id-badge-2": SVG_idBadge_2,
 "id-badge": SVG_idBadge,
+"id-off": SVG_idOff,
 "id": SVG_id,
+"inbox-off": SVG_inboxOff,
 "inbox": SVG_inbox,
 "indent-decrease": SVG_indentDecrease,
 "indent-increase": SVG_indentIncrease,
@@ -2916,25 +3248,33 @@ export const map: IconsMapType<IconNames> = {
 "info-circle": SVG_infoCircle,
 "info-square": SVG_infoSquare,
 "italic": SVG_italic,
+"jewish-star": SVG_jewishStar,
 "jump-rope": SVG_jumpRope,
 "karate": SVG_karate,
+"kayak": SVG_kayak,
 "kering": SVG_kering,
+"key-off": SVG_keyOff,
 "key": SVG_key,
 "keyboard-hide": SVG_keyboardHide,
 "keyboard-off": SVG_keyboardOff,
 "keyboard-show": SVG_keyboardShow,
 "keyboard": SVG_keyboard,
+"ladder-off": SVG_ladderOff,
 "ladder": SVG_ladder,
 "lamp-2": SVG_lamp_2,
+"lamp-off": SVG_lampOff,
 "lamp": SVG_lamp,
 "language-hiragana": SVG_languageHiragana,
 "language-katakana": SVG_languageKatakana,
+"language-off": SVG_languageOff,
 "language": SVG_language,
+"lasso-off": SVG_lassoOff,
 "lasso": SVG_lasso,
 "layers-difference": SVG_layersDifference,
 "layers-intersect-2": SVG_layersIntersect_2,
 "layers-intersect": SVG_layersIntersect,
 "layers-linked": SVG_layersLinked,
+"layers-off": SVG_layersOff,
 "layers-subtract": SVG_layersSubtract,
 "layers-union": SVG_layersUnion,
 "layout-2": SVG_layout_2,
@@ -2957,6 +3297,7 @@ export const map: IconsMapType<IconNames> = {
 "layout-kanban": SVG_layoutKanban,
 "layout-list": SVG_layoutList,
 "layout-navbar": SVG_layoutNavbar,
+"layout-off": SVG_layoutOff,
 "layout-rows": SVG_layoutRows,
 "layout-sidebar-left-collapse": SVG_layoutSidebarLeftCollapse,
 "layout-sidebar-left-expand": SVG_layoutSidebarLeftExpand,
@@ -2965,6 +3306,7 @@ export const map: IconsMapType<IconNames> = {
 "layout-sidebar-right": SVG_layoutSidebarRight,
 "layout-sidebar": SVG_layoutSidebar,
 "layout": SVG_layout,
+"leaf-off": SVG_leafOff,
 "leaf": SVG_leaf,
 "lego": SVG_lego,
 "lemon-2": SVG_lemon_2,
@@ -3000,7 +3342,9 @@ export const map: IconsMapType<IconNames> = {
 "letter-x": SVG_letterX,
 "letter-y": SVG_letterY,
 "letter-z": SVG_letterZ,
+"license-off": SVG_licenseOff,
 "license": SVG_license,
+"lifebuoy-off": SVG_lifebuoyOff,
 "lifebuoy": SVG_lifebuoy,
 "line-dashed": SVG_lineDashed,
 "line-dotted": SVG_lineDotted,
@@ -3014,29 +3358,38 @@ export const map: IconsMapType<IconNames> = {
 "list": SVG_list,
 "live-photo": SVG_livePhoto,
 "live-view": SVG_liveView,
+"loader-2": SVG_loader_2,
 "loader-quarter": SVG_loaderQuarter,
 "loader": SVG_loader,
+"location-off": SVG_locationOff,
 "location": SVG_location,
 "lock-access": SVG_lockAccess,
 "lock-off": SVG_lockOff,
+"lock-open-off": SVG_lockOpenOff,
 "lock-open": SVG_lockOpen,
 "lock-square": SVG_lockSquare,
 "lock": SVG_lock,
 "login": SVG_login,
 "logout": SVG_logout,
+"lollipop-off": SVG_lollipopOff,
 "lollipop": SVG_lollipop,
+"luggage-off": SVG_luggageOff,
 "luggage": SVG_luggage,
 "lungs": SVG_lungs,
 "macro": SVG_macro,
+"magnet-off": SVG_magnetOff,
 "magnet": SVG_magnet,
 "mail-fast": SVG_mailFast,
 "mail-forward": SVG_mailForward,
+"mail-off": SVG_mailOff,
 "mail-opened": SVG_mailOpened,
 "mail": SVG_mail,
+"mailbox-off": SVG_mailboxOff,
 "mailbox": SVG_mailbox,
 "man": SVG_man,
 "manual-gearbox": SVG_manualGearbox,
 "map-2": SVG_map_2,
+"map-off": SVG_mapOff,
 "map-pin-off": SVG_mapPinOff,
 "map-pin": SVG_mapPin,
 "map-pins": SVG_mapPins,
@@ -3044,21 +3397,25 @@ export const map: IconsMapType<IconNames> = {
 "map": SVG_map,
 "markdown": SVG_markdown,
 "marquee-2": SVG_marquee_2,
+"marquee-off": SVG_marqueeOff,
 "marquee": SVG_marquee,
 "mars": SVG_mars,
 "mask-off": SVG_maskOff,
 "mask": SVG_mask,
 "massage": SVG_massage,
 "math-avg": SVG_mathAvg,
+"math-function-off": SVG_mathFunctionOff,
 "math-function": SVG_mathFunction,
 "math-max": SVG_mathMax,
 "math-min": SVG_mathMin,
 "math-symbols": SVG_mathSymbols,
 "math": SVG_math,
+"maximize-off": SVG_maximizeOff,
 "maximize": SVG_maximize,
 "meat": SVG_meat,
 "medal-2": SVG_medal_2,
 "medal": SVG_medal,
+"medical-cross-off": SVG_medicalCrossOff,
 "medical-cross": SVG_medicalCross,
 "medicine-syrup": SVG_medicineSyrup,
 "menu-2": SVG_menu_2,
@@ -3079,6 +3436,7 @@ export const map: IconsMapType<IconNames> = {
 "message": SVG_message,
 "messages-off": SVG_messagesOff,
 "messages": SVG_messages,
+"meteor": SVG_meteor,
 "microphone-2": SVG_microphone_2,
 "microphone-off": SVG_microphoneOff,
 "microphone": SVG_microphone,
@@ -3099,36 +3457,48 @@ export const map: IconsMapType<IconNames> = {
 "mood-kid": SVG_moodKid,
 "mood-nervous": SVG_moodNervous,
 "mood-neutral": SVG_moodNeutral,
+"mood-off": SVG_moodOff,
 "mood-sad": SVG_moodSad,
 "mood-smile": SVG_moodSmile,
 "mood-suprised": SVG_moodSuprised,
 "mood-tongue": SVG_moodTongue,
 "moon-2": SVG_moon_2,
+"moon-off": SVG_moonOff,
 "moon-stars": SVG_moonStars,
 "moon": SVG_moon,
 "moped": SVG_moped,
 "motorbike": SVG_motorbike,
 "mountain": SVG_mountain,
+"mouse-2": SVG_mouse_2,
+"mouse-off": SVG_mouseOff,
 "mouse": SVG_mouse,
+"movie-off": SVG_movieOff,
 "movie": SVG_movie,
+"mug-off": SVG_mugOff,
 "mug": SVG_mug,
 "multiplier-0-5x": SVG_multiplier_0_5x,
 "multiplier-1-5x": SVG_multiplier_1_5x,
 "multiplier-1x": SVG_multiplier_1x,
 "multiplier-2x": SVG_multiplier_2x,
 "mushroom": SVG_mushroom,
+"music-off": SVG_musicOff,
 "music": SVG_music,
 "network": SVG_network,
 "new-section": SVG_newSection,
+"news-off": SVG_newsOff,
 "news": SVG_news,
+"nfc-off": SVG_nfcOff,
 "nfc": SVG_nfc,
 "no-copyright": SVG_noCopyright,
 "no-creative-commons": SVG_noCreativeCommons,
 "no-derivatives": SVG_noDerivatives,
 "north-star": SVG_northStar,
+"note-off": SVG_noteOff,
 "note": SVG_note,
 "notebook": SVG_notebook,
+"notes-off": SVG_notesOff,
 "notes": SVG_notes,
+"notification-off": SVG_notificationOff,
 "notification": SVG_notification,
 "number-0": SVG_number_0,
 "number-1": SVG_number_1,
@@ -3140,6 +3510,7 @@ export const map: IconsMapType<IconNames> = {
 "number-7": SVG_number_7,
 "number-8": SVG_number_8,
 "number-9": SVG_number_9,
+"number": SVG_number,
 "numbers": SVG_numbers,
 "nurse": SVG_nurse,
 "octagon-off": SVG_octagonOff,
@@ -3151,28 +3522,41 @@ export const map: IconsMapType<IconNames> = {
 "oval-vertical": SVG_ovalVertical,
 "oval": SVG_oval,
 "overline": SVG_overline,
+"package-off": SVG_packageOff,
 "package": SVG_package,
 "packge-export": SVG_packgeExport,
 "packge-import": SVG_packgeImport,
 "pacman": SVG_pacman,
 "page-break": SVG_pageBreak,
+"paint-off": SVG_paintOff,
 "paint": SVG_paint,
+"palette-off": SVG_paletteOff,
 "palette": SVG_palette,
 "panorama-horizontal": SVG_panoramaHorizontal,
 "panorama-vertical": SVG_panoramaVertical,
+"paper-bag-off": SVG_paperBagOff,
 "paper-bag": SVG_paperBag,
 "paperclip": SVG_paperclip,
+"parachute-off": SVG_parachuteOff,
 "parachute": SVG_parachute,
+"parentheses-off": SVG_parenthesesOff,
 "parentheses": SVG_parentheses,
+"parking-off": SVG_parkingOff,
 "parking": SVG_parking,
 "paw": SVG_paw,
 "peace": SVG_peace,
+"pencil-minus": SVG_pencilMinus,
+"pencil-off": SVG_pencilOff,
+"pencil-plus": SVG_pencilPlus,
 "pencil": SVG_pencil,
 "pennant-2": SVG_pennant_2,
+"pennant-off": SVG_pennantOff,
 "pennant": SVG_pennant,
 "pentagon": SVG_pentagon,
+"pepper-off": SVG_pepperOff,
 "pepper": SVG_pepper,
 "percentage": SVG_percentage,
+"perspective-off": SVG_perspectiveOff,
 "perspective": SVG_perspective,
 "phone-call": SVG_phoneCall,
 "phone-calling": SVG_phoneCalling,
@@ -3191,20 +3575,29 @@ export const map: IconsMapType<IconNames> = {
 "picture-in-picture-on": SVG_pictureInPictureOn,
 "picture-in-picture-top": SVG_pictureInPictureTop,
 "picture-in-picture": SVG_pictureInPicture,
+"pig-off": SVG_pigOff,
 "pig": SVG_pig,
+"pill-off": SVG_pillOff,
 "pill": SVG_pill,
 "pills": SVG_pills,
 "pin": SVG_pin,
 "pinned-off": SVG_pinnedOff,
 "pinned": SVG_pinned,
+"pizza-off": SVG_pizzaOff,
 "pizza": SVG_pizza,
 "plane-arrival": SVG_planeArrival,
 "plane-departure": SVG_planeDeparture,
 "plane-inflight": SVG_planeInflight,
+"plane-off": SVG_planeOff,
+"plane-tilt": SVG_planeTilt,
 "plane": SVG_plane,
+"planet-off": SVG_planetOff,
 "planet": SVG_planet,
+"plant-2-off": SVG_plant_2Off,
 "plant-2": SVG_plant_2,
+"plant-off": SVG_plantOff,
 "plant": SVG_plant,
+"play-card-off": SVG_playCardOff,
 "play-card": SVG_playCard,
 "player-eject": SVG_playerEject,
 "player-pause": SVG_playerPause,
@@ -3216,16 +3609,21 @@ export const map: IconsMapType<IconNames> = {
 "player-track-next": SVG_playerTrackNext,
 "player-track-prev": SVG_playerTrackPrev,
 "playlist-add": SVG_playlistAdd,
+"playlist-off": SVG_playlistOff,
 "playlist-x": SVG_playlistX,
 "playlist": SVG_playlist,
 "plug-connected-x": SVG_plugConnectedX,
 "plug-connected": SVG_plugConnected,
+"plug-off": SVG_plugOff,
 "plug-x": SVG_plugX,
 "plug": SVG_plug,
 "plus": SVG_plus,
+"podium": SVG_podium,
+"point-off": SVG_pointOff,
 "point": SVG_point,
 "pokeball": SVG_pokeball,
 "polaroid": SVG_polaroid,
+"polygon-off": SVG_polygonOff,
 "polygon": SVG_polygon,
 "pool": SVG_pool,
 "power": SVG_power,
@@ -3233,25 +3631,33 @@ export const map: IconsMapType<IconNames> = {
 "premium-rights": SVG_premiumRights,
 "prescription": SVG_prescription,
 "presentation-analytics": SVG_presentationAnalytics,
+"presentation-off": SVG_presentationOff,
 "presentation": SVG_presentation,
+"printer-off": SVG_printerOff,
 "printer": SVG_printer,
 "prison": SVG_prison,
 "prompt": SVG_prompt,
+"propeller-off": SVG_propellerOff,
 "propeller": SVG_propeller,
 "puzzle-2": SVG_puzzle_2,
+"puzzle-off": SVG_puzzleOff,
 "puzzle": SVG_puzzle,
+"pyramid-off": SVG_pyramidOff,
 "pyramid": SVG_pyramid,
 "qrcode": SVG_qrcode,
 "question-mark": SVG_questionMark,
+"quote-off": SVG_quoteOff,
 "quote": SVG_quote,
 "radar-2": SVG_radar_2,
 "radar": SVG_radar,
 "radio": SVG_radio,
+"radioactive-off": SVG_radioactiveOff,
 "radioactive": SVG_radioactive,
 "radius-bottom-left": SVG_radiusBottomLeft,
 "radius-bottom-right": SVG_radiusBottomRight,
 "radius-top-left": SVG_radiusTopLeft,
 "radius-top-right": SVG_radiusTopRight,
+"rainbow-off": SVG_rainbowOff,
 "rainbow": SVG_rainbow,
 "receipt-2": SVG_receipt_2,
 "receipt-off": SVG_receiptOff,
@@ -3259,30 +3665,39 @@ export const map: IconsMapType<IconNames> = {
 "receipt-tax": SVG_receiptTax,
 "receipt": SVG_receipt,
 "recharging": SVG_recharging,
+"record-mail-off": SVG_recordMailOff,
 "record-mail": SVG_recordMail,
 "rectangle-vertical": SVG_rectangleVertical,
 "rectangle": SVG_rectangle,
+"recycle-off": SVG_recycleOff,
 "recycle": SVG_recycle,
 "refresh-alert": SVG_refreshAlert,
 "refresh-dot": SVG_refreshDot,
+"refresh-off": SVG_refreshOff,
 "refresh": SVG_refresh,
 "registered": SVG_registered,
 "relation-many-to-many": SVG_relationManyToMany,
 "relation-one-to-many": SVG_relationOneToMany,
 "relation-one-to-one": SVG_relationOneToOne,
+"repeat-off": SVG_repeatOff,
 "repeat-once": SVG_repeatOnce,
 "repeat": SVG_repeat,
 "replace": SVG_replace,
 "report-analytics": SVG_reportAnalytics,
 "report-medical": SVG_reportMedical,
 "report-money": SVG_reportMoney,
+"report-off": SVG_reportOff,
 "report-search": SVG_reportSearch,
 "report": SVG_report,
 "resize": SVG_resize,
+"ripple-off": SVG_rippleOff,
 "ripple": SVG_ripple,
+"road-off": SVG_roadOff,
 "road-sign": SVG_roadSign,
 "road": SVG_road,
+"robot-off": SVG_robotOff,
 "robot": SVG_robot,
+"rocket-off": SVG_rocketOff,
 "rocket": SVG_rocket,
 "roller-skating": SVG_rollerSkating,
 "rollercoaster": SVG_rollercoaster,
@@ -3293,32 +3708,45 @@ export const map: IconsMapType<IconNames> = {
 "rotate-dot": SVG_rotateDot,
 "rotate-rectangle": SVG_rotateRectangle,
 "rotate": SVG_rotate,
+"route-off": SVG_routeOff,
 "route": SVG_route,
 "router": SVG_router,
 "row-insert-bottom": SVG_rowInsertBottom,
 "row-insert-top": SVG_rowInsertTop,
 "rss": SVG_rss,
+"ruler-2-off": SVG_ruler_2Off,
 "ruler-2": SVG_ruler_2,
+"ruler-off": SVG_rulerOff,
 "ruler": SVG_ruler,
 "run": SVG_run,
 "sailboat": SVG_sailboat,
 "salt": SVG_salt,
+"satellite-off": SVG_satelliteOff,
 "satellite": SVG_satellite,
 "sausage": SVG_sausage,
+"scale-off": SVG_scaleOff,
+"scale-outline-off": SVG_scaleOutlineOff,
 "scale-outline": SVG_scaleOutline,
 "scale": SVG_scale,
+"scan-eye": SVG_scanEye,
 "scan": SVG_scan,
+"schema": SVG_schema,
+"school-off": SVG_schoolOff,
 "school": SVG_school,
+"scissors-off": SVG_scissorsOff,
 "scissors": SVG_scissors,
 "scooter-electric": SVG_scooterElectric,
 "scooter": SVG_scooter,
 "screen-share-off": SVG_screenShareOff,
 "screen-share": SVG_screenShare,
+"screenshot": SVG_screenshot,
 "scribble": SVG_scribble,
 "scuba-mask": SVG_scubaMask,
+"search-off": SVG_searchOff,
 "search": SVG_search,
 "section-sign": SVG_sectionSign,
 "section": SVG_section,
+"seeding-off": SVG_seedingOff,
 "seeding": SVG_seeding,
 "select": SVG_select,
 "selector": SVG_selector,
@@ -3327,15 +3755,19 @@ export const map: IconsMapType<IconNames> = {
 "separator-vertical": SVG_separatorVertical,
 "separator": SVG_separator,
 "server-2": SVG_server_2,
+"server-off": SVG_serverOff,
 "server": SVG_server,
 "servicemark": SVG_servicemark,
 "settings-automation": SVG_settingsAutomation,
+"settings-off": SVG_settingsOff,
 "settings": SVG_settings,
 "shadow-off": SVG_shadowOff,
 "shadow": SVG_shadow,
 "shape-2": SVG_shape_2,
 "shape-3": SVG_shape_3,
+"shape-off": SVG_shapeOff,
 "shape": SVG_shape,
+"share-off": SVG_shareOff,
 "share": SVG_share,
 "shield-check": SVG_shieldCheck,
 "shield-checkered": SVG_shieldCheckered,
@@ -3345,27 +3777,38 @@ export const map: IconsMapType<IconNames> = {
 "shield-x": SVG_shieldX,
 "shield": SVG_shield,
 "ship": SVG_ship,
+"shirt-off": SVG_shirtOff,
 "shirt": SVG_shirt,
+"shoe-off": SVG_shoeOff,
 "shoe": SVG_shoe,
 "shopping-cart-discount": SVG_shoppingCartDiscount,
 "shopping-cart-off": SVG_shoppingCartOff,
 "shopping-cart-plus": SVG_shoppingCartPlus,
 "shopping-cart-x": SVG_shoppingCartX,
 "shopping-cart": SVG_shoppingCart,
+"shovel": SVG_shovel,
 "shredder": SVG_shredder,
 "sign-left": SVG_signLeft,
 "sign-right": SVG_signRight,
+"signal-3g": SVG_signal_3g,
+"signal-4g": SVG_signal_4g,
+"signal-5g": SVG_signal_5g,
+"signature-off": SVG_signatureOff,
 "signature": SVG_signature,
+"sitemap-off": SVG_sitemapOff,
 "sitemap": SVG_sitemap,
 "skateboard": SVG_skateboard,
 "sleigh": SVG_sleigh,
 "slice": SVG_slice,
 "slideshow": SVG_slideshow,
+"smart-home-off": SVG_smartHomeOff,
 "smart-home": SVG_smartHome,
 "smoking-no": SVG_smokingNo,
 "smoking": SVG_smoking,
+"snowflake-off": SVG_snowflakeOff,
 "snowflake": SVG_snowflake,
 "soccer-field": SVG_soccerField,
+"social-off": SVG_socialOff,
 "social": SVG_social,
 "sock": SVG_sock,
 "sofa": SVG_sofa,
@@ -3378,6 +3821,7 @@ export const map: IconsMapType<IconNames> = {
 "sort-descending-numbers": SVG_sortDescendingNumbers,
 "sort-descending": SVG_sortDescending,
 "soup": SVG_soup,
+"space-off": SVG_spaceOff,
 "space": SVG_space,
 "spacing-horizontal": SVG_spacingHorizontal,
 "spacing-vertical": SVG_spacingVertical,
@@ -3385,6 +3829,7 @@ export const map: IconsMapType<IconNames> = {
 "speakerphone": SVG_speakerphone,
 "speedboat": SVG_speedboat,
 "sport-billard": SVG_sportBillard,
+"spy": SVG_spy,
 "square-0": SVG_square_0,
 "square-1": SVG_square_1,
 "square-2": SVG_square_2,
@@ -3435,6 +3880,7 @@ export const map: IconsMapType<IconNames> = {
 "submarine": SVG_submarine,
 "subscript": SVG_subscript,
 "subtask": SVG_subtask,
+"sum-off": SVG_sumOff,
 "sum": SVG_sum,
 "sun-off": SVG_sunOff,
 "sun": SVG_sun,
@@ -3447,6 +3893,7 @@ export const map: IconsMapType<IconNames> = {
 "switch-horizontal": SVG_switchHorizontal,
 "switch-vertical": SVG_switchVertical,
 "switch": SVG_switch,
+"sword-off": SVG_swordOff,
 "sword": SVG_sword,
 "swords": SVG_swords,
 "table-export": SVG_tableExport,
@@ -3463,45 +3910,61 @@ export const map: IconsMapType<IconNames> = {
 "tallymark-4": SVG_tallymark_4,
 "tallymarks": SVG_tallymarks,
 "tank": SVG_tank,
+"target-off": SVG_targetOff,
 "target": SVG_target,
+"telescope-off": SVG_telescopeOff,
 "telescope": SVG_telescope,
 "temperature-celsius": SVG_temperatureCelsius,
 "temperature-fahrenheit": SVG_temperatureFahrenheit,
 "temperature-minus": SVG_temperatureMinus,
+"temperature-off": SVG_temperatureOff,
 "temperature-plus": SVG_temperaturePlus,
 "temperature": SVG_temperature,
+"template-off": SVG_templateOff,
 "template": SVG_template,
 "tent": SVG_tent,
 "terminal-2": SVG_terminal_2,
 "terminal": SVG_terminal,
 "test-pipe-2": SVG_testPipe_2,
+"test-pipe-off": SVG_testPipeOff,
 "test-pipe": SVG_testPipe,
+"text-decrease": SVG_textDecrease,
 "text-direction-ltr": SVG_textDirectionLtr,
 "text-direction-rtl": SVG_textDirectionRtl,
+"text-increase": SVG_textIncrease,
+"text-recognition": SVG_textRecognition,
 "text-resize": SVG_textResize,
 "text-wrap-disabled": SVG_textWrapDisabled,
 "text-wrap": SVG_textWrap,
 "thermometer": SVG_thermometer,
 "thumb-down": SVG_thumbDown,
 "thumb-up": SVG_thumbUp,
+"ticket-off": SVG_ticketOff,
 "ticket": SVG_ticket,
 "tie": SVG_tie,
+"tilt-shift-off": SVG_tiltShiftOff,
 "tilt-shift": SVG_tiltShift,
 "timeline": SVG_timeline,
 "tir": SVG_tir,
 "toggle-left": SVG_toggleLeft,
 "toggle-right": SVG_toggleRight,
+"toilet-paper-off": SVG_toiletPaperOff,
 "toilet-paper": SVG_toiletPaper,
 "tool": SVG_tool,
+"tools-kitchen-2-off": SVG_toolsKitchen_2Off,
 "tools-kitchen-2": SVG_toolsKitchen_2,
+"tools-kitchen-off": SVG_toolsKitchenOff,
 "tools-kitchen": SVG_toolsKitchen,
+"tools-off": SVG_toolsOff,
 "tools": SVG_tools,
 "tornado": SVG_tornado,
 "tournament": SVG_tournament,
 "track": SVG_track,
 "tractor": SVG_tractor,
 "trademark": SVG_trademark,
+"traffic-cone-off": SVG_trafficConeOff,
 "traffic-cone": SVG_trafficCone,
+"traffic-lights-off": SVG_trafficLightsOff,
 "traffic-lights": SVG_trafficLights,
 "train": SVG_train,
 "transfer-in": SVG_transferIn,
@@ -3525,10 +3988,13 @@ export const map: IconsMapType<IconNames> = {
 "trident": SVG_trident,
 "trophy": SVG_trophy,
 "truck-delivery": SVG_truckDelivery,
+"truck-loading": SVG_truckLoading,
 "truck-off": SVG_truckOff,
 "truck-return": SVG_truckReturn,
 "truck": SVG_truck,
+"typography-off": SVG_typographyOff,
 "typography": SVG_typography,
+"umbrella-off": SVG_umbrellaOff,
 "umbrella": SVG_umbrella,
 "underline": SVG_underline,
 "unlink": SVG_unlink,
@@ -3546,19 +4012,26 @@ export const map: IconsMapType<IconNames> = {
 "user": SVG_user,
 "users": SVG_users,
 "vaccine-bottle": SVG_vaccineBottle,
+"vaccine-off": SVG_vaccineOff,
 "vaccine": SVG_vaccine,
+"variable-off": SVG_variableOff,
 "variable": SVG_variable,
-"vector-beizer-2": SVG_vectorBeizer_2,
+"vector-bezier-2": SVG_vectorBezier_2,
 "vector-bezier": SVG_vectorBezier,
+"vector-off": SVG_vectorOff,
+"vector-triangle-off": SVG_vectorTriangleOff,
 "vector-triangle": SVG_vectorTriangle,
 "vector": SVG_vector,
 "venus": SVG_venus,
+"versions-off": SVG_versionsOff,
 "versions": SVG_versions,
 "video-minus": SVG_videoMinus,
 "video-off": SVG_videoOff,
 "video-plus": SVG_videoPlus,
 "video": SVG_video,
+"view-360-off": SVG_view_360Off,
 "view-360": SVG_view_360,
+"viewfinder-off": SVG_viewfinderOff,
 "viewfinder": SVG_viewfinder,
 "viewport-narrow": SVG_viewportNarrow,
 "viewport-wide": SVG_viewportWide,
@@ -3569,23 +4042,33 @@ export const map: IconsMapType<IconNames> = {
 "vocabulary": SVG_vocabulary,
 "volume-2": SVG_volume_2,
 "volume-3": SVG_volume_3,
+"volume-off": SVG_volumeOff,
 "volume": SVG_volume,
 "walk": SVG_walk,
 "wall": SVG_wall,
+"wallet-off": SVG_walletOff,
 "wallet": SVG_wallet,
+"wallpaper-off": SVG_wallpaperOff,
 "wallpaper": SVG_wallpaper,
+"wand-off": SVG_wandOff,
 "wand": SVG_wand,
 "wave-saw-tool": SVG_waveSawTool,
 "wave-sine": SVG_waveSine,
 "wave-square": SVG_waveSquare,
 "webhook": SVG_webhook,
+"wheelchair": SVG_wheelchair,
 "wifi-0": SVG_wifi_0,
 "wifi-1": SVG_wifi_1,
 "wifi-2": SVG_wifi_2,
 "wifi-off": SVG_wifiOff,
 "wifi": SVG_wifi,
+"wind-off": SVG_windOff,
 "wind": SVG_wind,
+"windmill-off": SVG_windmillOff,
 "windmill": SVG_windmill,
+"window-maximize": SVG_windowMaximize,
+"window-minimize": SVG_windowMinimize,
+"window-off": SVG_windowOff,
 "window": SVG_window,
 "windsock": SVG_windsock,
 "wiper-wash": SVG_wiperWash,
@@ -3594,9 +4077,12 @@ export const map: IconsMapType<IconNames> = {
 "world-download": SVG_worldDownload,
 "world-latitude": SVG_worldLatitude,
 "world-longitude": SVG_worldLongitude,
+"world-off": SVG_worldOff,
 "world-upload": SVG_worldUpload,
 "world": SVG_world,
 "wrecking-ball": SVG_wreckingBall,
+"writing-off": SVG_writingOff,
+"writing-sign-off": SVG_writingSignOff,
 "writing-sign": SVG_writingSign,
 "writing": SVG_writing,
 "x": SVG_x,
@@ -3618,9 +4104,13 @@ export const map: IconsMapType<IconNames> = {
 "zoom-check": SVG_zoomCheck,
 "zoom-code": SVG_zoomCode,
 "zoom-exclamation": SVG_zoomExclamation,
+"zoom-in-area": SVG_zoomInArea,
 "zoom-in": SVG_zoomIn,
 "zoom-money": SVG_zoomMoney,
+"zoom-out-area": SVG_zoomOutArea,
 "zoom-out": SVG_zoomOut,
-"zoom-question": SVG_zoomQuestion
+"zoom-pan": SVG_zoomPan,
+"zoom-question": SVG_zoomQuestion,
+"zzz": SVG_zzz
 };
 

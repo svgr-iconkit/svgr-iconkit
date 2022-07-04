@@ -66,7 +66,7 @@
   "devDependencies": {
     "@svgr-iconkit/build-config": "^0.3.0-beta.15",
     "@svgr-iconkit/cli": "^0.3.0-beta.15",
-    "@tabler/icons": "^1.64.0",
+    "@tabler/icons": "^1.72.0",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
@@ -77,7 +77,7 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:upgrade": "yarn add -D @tabler-icons",
+    "iconsmap:upgrade": "yarn add -D @tabler/icons",
     "iconsmap:prepare": "rimraf ./src/gen",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -i icons -o ./src/gen/assets/regular/ -p \"@tabler/icons\"",
     "iconsmap:copy": "npm-run-all iconsmap:copy:regular",

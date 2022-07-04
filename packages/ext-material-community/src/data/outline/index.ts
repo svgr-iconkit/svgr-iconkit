@@ -7,6 +7,7 @@ import SVG_accountArrowDown from "./account-arrow-down";
 import SVG_accountArrowLeft from "./account-arrow-left";
 import SVG_accountArrowRight from "./account-arrow-right";
 import SVG_accountArrowUp from "./account-arrow-up";
+import SVG_accountBadge from "./account-badge";
 import SVG_accountBoxMultiple from "./account-box-multiple";
 import SVG_accountBox from "./account-box";
 import SVG_accountCancel from "./account-cancel";
@@ -36,6 +37,7 @@ import SVG_accountMultiplePlus from "./account-multiple-plus";
 import SVG_accountMultipleRemove from "./account-multiple-remove";
 import SVG_accountMultiple from "./account-multiple";
 import SVG_accountMusic from "./account-music";
+import SVG_accountNetworkOff from "./account-network-off";
 import SVG_accountNetwork from "./account-network";
 import SVG_accountOff from "./account-off";
 import SVG_accountPlus from "./account-plus";
@@ -214,6 +216,7 @@ import SVG_badgeAccountAlert from "./badge-account-alert";
 import SVG_badgeAccountHorizontal from "./badge-account-horizontal";
 import SVG_badgeAccount from "./badge-account";
 import SVG_bagPersonalOff from "./bag-personal-off";
+import SVG_bagPersonalTag from "./bag-personal-tag";
 import SVG_bagPersonal from "./bag-personal";
 import SVG_bagSuitcaseOff from "./bag-suitcase-off";
 import SVG_bagSuitcase from "./bag-suitcase";
@@ -221,6 +224,7 @@ import SVG_ballotRecount from "./ballot-recount";
 import SVG_ballot from "./ballot";
 import SVG_bankOff from "./bank-off";
 import SVG_bank from "./bank";
+import SVG_barrel from "./barrel";
 import SVG_baseballDiamond from "./baseball-diamond";
 import SVG_basketCheck from "./basket-check";
 import SVG_basketMinus from "./basket-minus";
@@ -264,6 +268,7 @@ import SVG_bellBadge from "./bell-badge";
 import SVG_bellCancel from "./bell-cancel";
 import SVG_bellCheck from "./bell-check";
 import SVG_bellCircle from "./bell-circle";
+import SVG_bellCog from "./bell-cog";
 import SVG_bellMinus from "./bell-minus";
 import SVG_bellOff from "./bell-off";
 import SVG_bellPlus from "./bell-plus";
@@ -329,6 +334,8 @@ import SVG_bowlMix from "./bowl-mix";
 import SVG_bowl from "./bowl";
 import SVG_breadSlice from "./bread-slice";
 import SVG_briefcaseAccount from "./briefcase-account";
+import SVG_briefcaseArrowLeftRight from "./briefcase-arrow-left-right";
+import SVG_briefcaseArrowUpDown from "./briefcase-arrow-up-down";
 import SVG_briefcaseCheck from "./briefcase-check";
 import SVG_briefcaseClock from "./briefcase-clock";
 import SVG_briefcaseDownload from "./briefcase-download";
@@ -346,6 +353,9 @@ import SVG_briefcase from "./briefcase";
 import SVG_brush from "./brush";
 import SVG_bucket from "./bucket";
 import SVG_bugCheck from "./bug-check";
+import SVG_bugPause from "./bug-pause";
+import SVG_bugPlay from "./bug-play";
+import SVG_bugStop from "./bug-stop";
 import SVG_bug from "./bug";
 import SVG_bullhornVariant from "./bullhorn-variant";
 import SVG_bullhorn from "./bullhorn";
@@ -357,13 +367,18 @@ import SVG_calendarAccount from "./calendar-account";
 import SVG_calendarBlank from "./calendar-blank";
 import SVG_calendarCheck from "./calendar-check";
 import SVG_calendarClock from "./calendar-clock";
+import SVG_calendarFilter from "./calendar-filter";
 import SVG_calendarLock from "./calendar-lock";
 import SVG_calendarMonth from "./calendar-month";
 import SVG_calendarRange from "./calendar-range";
 import SVG_calendarRefresh from "./calendar-refresh";
 import SVG_calendarRemove from "./calendar-remove";
+import SVG_calendarStar from "./calendar-star";
 import SVG_calendarSync from "./calendar-sync";
 import SVG_calendarText from "./calendar-text";
+import SVG_calendarToday from "./calendar-today";
+import SVG_calendarWeekBegin from "./calendar-week-begin";
+import SVG_calendarWeek from "./calendar-week";
 import SVG_calendarWeekend from "./calendar-weekend";
 import SVG_calendar from "./calendar";
 import SVG_cameraEnhance from "./camera-enhance";
@@ -455,6 +470,7 @@ import SVG_chiliHot from "./chili-hot";
 import SVG_chiliMedium from "./chili-medium";
 import SVG_chiliMild from "./chili-mild";
 import SVG_chiliOff from "./chili-off";
+import SVG_church from "./church";
 import SVG_circleBox from "./circle-box";
 import SVG_circleEdit from "./circle-edit";
 import SVG_circleMultiple from "./circle-multiple";
@@ -521,6 +537,7 @@ import SVG_cloudCheck from "./cloud-check";
 import SVG_cloudDownload from "./cloud-download";
 import SVG_cloudLock from "./cloud-lock";
 import SVG_cloudOff from "./cloud-off";
+import SVG_cloudPercent from "./cloud-percent";
 import SVG_cloudPrint from "./cloud-print";
 import SVG_cloudSearch from "./cloud-search";
 import SVG_cloudSync from "./cloud-sync";
@@ -573,8 +590,10 @@ import SVG_contentSaveAll from "./content-save-all";
 import SVG_contentSaveCheck from "./content-save-check";
 import SVG_contentSaveCog from "./content-save-cog";
 import SVG_contentSaveEdit from "./content-save-edit";
+import SVG_contentSaveMinus from "./content-save-minus";
 import SVG_contentSaveMove from "./content-save-move";
 import SVG_contentSaveOff from "./content-save-off";
+import SVG_contentSavePlus from "./content-save-plus";
 import SVG_contentSaveSettings from "./content-save-settings";
 import SVG_contentSave from "./content-save";
 import SVG_controllerClassic from "./controller-classic";
@@ -687,6 +706,7 @@ import SVG_earbudsOff from "./earbuds-off";
 import SVG_earbuds from "./earbuds";
 import SVG_eggOff from "./egg-off";
 import SVG_egg from "./egg";
+import SVG_ejectCircle from "./eject-circle";
 import SVG_eject from "./eject";
 import SVG_elevatorPassengerOff from "./elevator-passenger-off";
 import SVG_elevatorPassenger from "./elevator-passenger";
@@ -750,6 +770,8 @@ import SVG_fastForward from "./fast-forward";
 import SVG_featureSearch from "./feature-search";
 import SVG_fileAccount from "./file-account";
 import SVG_fileAlert from "./file-alert";
+import SVG_fileArrowLeftRight from "./file-arrow-left-right";
+import SVG_fileArrowUpDown from "./file-arrow-up-down";
 import SVG_fileCancel from "./file-cancel";
 import SVG_fileCertificate from "./file-certificate";
 import SVG_fileChartCheck from "./file-chart-check";
@@ -760,8 +782,13 @@ import SVG_fileCloud from "./file-cloud";
 import SVG_fileCode from "./file-code";
 import SVG_fileCog from "./file-cog";
 import SVG_fileDelimited from "./file-delimited";
+import SVG_fileDocumentAlert from "./file-document-alert";
+import SVG_fileDocumentCheck from "./file-document-check";
 import SVG_fileDocumentEdit from "./file-document-edit";
+import SVG_fileDocumentMinus from "./file-document-minus";
 import SVG_fileDocumentMultiple from "./file-document-multiple";
+import SVG_fileDocumentPlus from "./file-document-plus";
+import SVG_fileDocumentRemove from "./file-document-remove";
 import SVG_fileDocument from "./file-document";
 import SVG_fileDownload from "./file-download";
 import SVG_fileEdit from "./file-edit";
@@ -781,6 +808,7 @@ import SVG_fileLink from "./file-link";
 import SVG_fileLockOpen from "./file-lock-open";
 import SVG_fileLock from "./file-lock";
 import SVG_fileMarker from "./file-marker";
+import SVG_fileMinus from "./file-minus";
 import SVG_fileMove from "./file-move";
 import SVG_fileMultiple from "./file-multiple";
 import SVG_fileMusic from "./file-music";
@@ -794,6 +822,8 @@ import SVG_fileRefresh from "./file-refresh";
 import SVG_fileRemove from "./file-remove";
 import SVG_fileReplace from "./file-replace";
 import SVG_fileRestore from "./file-restore";
+import SVG_fileRotateLeft from "./file-rotate-left";
+import SVG_fileRotateRight from "./file-rotate-right";
 import SVG_fileSearch from "./file-search";
 import SVG_fileSend from "./file-send";
 import SVG_fileSettings from "./file-settings";
@@ -811,11 +841,14 @@ import SVG_fileWordBox from "./file-word-box";
 import SVG_fileWord from "./file-word";
 import SVG_file from "./file";
 import SVG_filterCheck from "./filter-check";
+import SVG_filterCog from "./filter-cog";
 import SVG_filterMenu from "./filter-menu";
 import SVG_filterMinus from "./filter-minus";
+import SVG_filterMultiple from "./filter-multiple";
 import SVG_filterOff from "./filter-off";
 import SVG_filterPlus from "./filter-plus";
 import SVG_filterRemove from "./filter-remove";
+import SVG_filterSettings from "./filter-settings";
 import SVG_filter from "./filter";
 import SVG_fishbowl from "./fishbowl";
 import SVG_fitToPage from "./fit-to-page";
@@ -827,6 +860,8 @@ import SVG_flagRemove from "./flag-remove";
 import SVG_flagVariant from "./flag-variant";
 import SVG_flag from "./flag";
 import SVG_flashAlert from "./flash-alert";
+import SVG_flashOff from "./flash-off";
+import SVG_flashTriangle from "./flash-triangle";
 import SVG_flash from "./flash";
 import SVG_flaskEmptyMinus from "./flask-empty-minus";
 import SVG_flaskEmptyOff from "./flask-empty-off";
@@ -868,7 +903,10 @@ import SVG_folderHome from "./folder-home";
 import SVG_folderInformation from "./folder-information";
 import SVG_folderKeyNetwork from "./folder-key-network";
 import SVG_folderKey from "./folder-key";
+import SVG_folderLockOpen from "./folder-lock-open";
+import SVG_folderLock from "./folder-lock";
 import SVG_folderMarker from "./folder-marker";
+import SVG_folderMinus from "./folder-minus";
 import SVG_folderMove from "./folder-move";
 import SVG_folderMultiplePlus from "./folder-multiple-plus";
 import SVG_folderMultiple from "./folder-multiple";
@@ -903,6 +941,9 @@ import SVG_food from "./food";
 import SVG_formatQuoteClose from "./format-quote-close";
 import SVG_formatQuoteOpen from "./format-quote-open";
 import SVG_formatTextVariant from "./format-text-variant";
+import SVG_forumMinus from "./forum-minus";
+import SVG_forumPlus from "./forum-plus";
+import SVG_forumRemove from "./forum-remove";
 import SVG_forum from "./forum";
 import SVG_fridgeAlert from "./fridge-alert";
 import SVG_fridgeIndustrialAlert from "./fridge-industrial-alert";
@@ -969,6 +1010,7 @@ import SVG_heartPlus from "./heart-plus";
 import SVG_heartRemove from "./heart-remove";
 import SVG_heartSettings from "./heart-settings";
 import SVG_heart from "./heart";
+import SVG_heatPump from "./heat-pump";
 import SVG_helpCircle from "./help-circle";
 import SVG_helpNetwork from "./help-network";
 import SVG_helpRhombus from "./help-rhombus";
@@ -986,6 +1028,7 @@ import SVG_homeImport from "./home-import";
 import SVG_homeLightbulb from "./home-lightbulb";
 import SVG_homeLightningBolt from "./home-lightning-bolt";
 import SVG_homeMinus from "./home-minus";
+import SVG_homeOff from "./home-off";
 import SVG_homePlus from "./home-plus";
 import SVG_homeRemove from "./home-remove";
 import SVG_homeSearch from "./home-search";
@@ -994,12 +1037,17 @@ import SVG_homeThermometer from "./home-thermometer";
 import SVG_homeVariant from "./home-variant";
 import SVG_home from "./home";
 import SVG_hospitalBox from "./hospital-box";
+import SVG_imageCheck from "./image-check";
 import SVG_imageEdit from "./image-edit";
 import SVG_imageFilterCenterFocusStrong from "./image-filter-center-focus-strong";
+import SVG_imageLock from "./image-lock";
 import SVG_imageMarker from "./image-marker";
+import SVG_imageMinus from "./image-minus";
 import SVG_imageMultiple from "./image-multiple";
 import SVG_imageOff from "./image-off";
+import SVG_imagePlus from "./image-plus";
 import SVG_imageRefresh from "./image-refresh";
+import SVG_imageRemove from "./image-remove";
 import SVG_imageSearch from "./image-search";
 import SVG_imageSync from "./image-sync";
 import SVG_image from "./image";
@@ -1032,6 +1080,7 @@ import SVG_labelVariant from "./label-variant";
 import SVG_label from "./label";
 import SVG_lamp from "./lamp";
 import SVG_lamps from "./lamps";
+import SVG_landslide from "./landslide";
 import SVG_languageMarkdown from "./language-markdown";
 import SVG_layersOff from "./layers-off";
 import SVG_layersSearch from "./layers-search";
@@ -1048,6 +1097,7 @@ import SVG_lightbulbGroupOff from "./lightbulb-group-off";
 import SVG_lightbulbGroup from "./lightbulb-group";
 import SVG_lightbulbMultipleOff from "./lightbulb-multiple-off";
 import SVG_lightbulbMultiple from "./lightbulb-multiple";
+import SVG_lightbulbNight from "./lightbulb-night";
 import SVG_lightbulbOff from "./lightbulb-off";
 import SVG_lightbulbOn from "./lightbulb-on";
 import SVG_lightbulbQuestion from "./lightbulb-question";
@@ -1098,6 +1148,7 @@ import SVG_mapMarker from "./map-marker";
 import SVG_mapSearch from "./map-search";
 import SVG_map from "./map";
 import SVG_medal from "./medal";
+import SVG_medication from "./medication";
 import SVG_menuDown from "./menu-down";
 import SVG_menuLeft from "./menu-left";
 import SVG_menuRight from "./menu-right";
@@ -1127,6 +1178,8 @@ import SVG_messageTextFast from "./message-text-fast";
 import SVG_messageTextLock from "./message-text-lock";
 import SVG_messageText from "./message-text";
 import SVG_message from "./message";
+import SVG_meterElectric from "./meter-electric";
+import SVG_meterGas from "./meter-gas";
 import SVG_microphoneQuestion from "./microphone-question";
 import SVG_microphone from "./microphone";
 import SVG_middleware from "./middleware";
@@ -1283,6 +1336,7 @@ import SVG_phoneDial from "./phone-dial";
 import SVG_phoneForward from "./phone-forward";
 import SVG_phoneHangup from "./phone-hangup";
 import SVG_phoneInTalk from "./phone-in-talk";
+import SVG_phoneIncomingOutgoing from "./phone-incoming-outgoing";
 import SVG_phoneIncoming from "./phone-incoming";
 import SVG_phoneLock from "./phone-lock";
 import SVG_phoneLog from "./phone-log";
@@ -1331,6 +1385,7 @@ import SVG_powerPlugOff from "./power-plug-off";
 import SVG_powerPlug from "./power-plug";
 import SVG_printer_3dNozzleAlert from "./printer-3d-nozzle-alert";
 import SVG_printer_3dNozzleHeat from "./printer-3d-nozzle-heat";
+import SVG_printer_3dNozzleOff from "./printer-3d-nozzle-off";
 import SVG_printer_3dNozzle from "./printer-3d-nozzle";
 import SVG_printerOff from "./printer-off";
 import SVG_printer from "./printer";
@@ -1348,9 +1403,14 @@ import SVG_puzzlePlus from "./puzzle-plus";
 import SVG_puzzleRemove from "./puzzle-remove";
 import SVG_puzzleStar from "./puzzle-star";
 import SVG_puzzle from "./puzzle";
+import SVG_rabbitVariant from "./rabbit-variant";
 import SVG_radioactiveCircle from "./radioactive-circle";
 import SVG_radiologyBox from "./radiology-box";
 import SVG_radius from "./radius";
+import SVG_receiptTextCheck from "./receipt-text-check";
+import SVG_receiptTextMinus from "./receipt-text-minus";
+import SVG_receiptTextPlus from "./receipt-text-plus";
+import SVG_receiptTextRemove from "./receipt-text-remove";
 import SVG_receipt from "./receipt";
 import SVG_recordCircle from "./record-circle";
 import SVG_rectangle from "./rectangle";
@@ -1372,6 +1432,7 @@ import SVG_robotOff from "./robot-off";
 import SVG_robot from "./robot";
 import SVG_rocketLaunch from "./rocket-launch";
 import SVG_rocket from "./rocket";
+import SVG_rolodex from "./rolodex";
 import SVG_roomService from "./room-service";
 import SVG_safeSquare from "./safe-square";
 import SVG_sale from "./sale";
@@ -1384,6 +1445,7 @@ import SVG_scriptText from "./script-text";
 import SVG_script from "./script";
 import SVG_seat from "./seat";
 import SVG_seedOff from "./seed-off";
+import SVG_seedPlus from "./seed-plus";
 import SVG_seed from "./seed";
 import SVG_sendCheck from "./send-check";
 import SVG_sendCircle from "./send-circle";
@@ -1421,7 +1483,9 @@ import SVG_shieldSun from "./shield-sun";
 import SVG_shieldSword from "./shield-sword";
 import SVG_shieldSync from "./shield-sync";
 import SVG_shield from "./shield";
+import SVG_shoppingSearch from "./shopping-search";
 import SVG_shopping from "./shopping";
+import SVG_signLanguage from "./sign-language";
 import SVG_signalCellular from "./signal-cellular";
 import SVG_simAlert from "./sim-alert";
 import SVG_simOff from "./sim-off";
@@ -1445,6 +1509,7 @@ import SVG_smokeDetectorOff from "./smoke-detector-off";
 import SVG_smokeDetector from "./smoke-detector";
 import SVG_sofaSingle from "./sofa-single";
 import SVG_sofa from "./sofa";
+import SVG_solarPowerVariant from "./solar-power-variant";
 import SVG_sortClockAscending from "./sort-clock-ascending";
 import SVG_sortClockDescending from "./sort-clock-descending";
 import SVG_spa from "./spa";
@@ -1455,6 +1520,7 @@ import SVG_squareOff from "./square-off";
 import SVG_squareRoundedBadge from "./square-rounded-badge";
 import SVG_squareRounded from "./square-rounded";
 import SVG_square from "./square";
+import SVG_stadium from "./stadium";
 import SVG_starBoxMultiple from "./star-box-multiple";
 import SVG_starBox from "./star-box";
 import SVG_starCheck from "./star-check";
@@ -1479,6 +1545,7 @@ import SVG_stickerText from "./sticker-text";
 import SVG_sticker from "./sticker";
 import SVG_stool from "./stool";
 import SVG_stopCircle from "./stop-circle";
+import SVG_storageTank from "./storage-tank";
 import SVG_storeAlert from "./store-alert";
 import SVG_storeCheck from "./store-check";
 import SVG_storeClock from "./store-clock";
@@ -1495,14 +1562,18 @@ import SVG_store from "./store";
 import SVG_storefront from "./storefront";
 import SVG_stretchToPage from "./stretch-to-page";
 import SVG_subtitles from "./subtitles";
+import SVG_sunAngle from "./sun-angle";
+import SVG_sunClock from "./sun-clock";
 import SVG_sunThermometer from "./sun-thermometer";
 import SVG_sunWireless from "./sun-wireless";
 import SVG_swapHorizontalCircle from "./swap-horizontal-circle";
 import SVG_swapVerticalCircle from "./swap-vertical-circle";
+import SVG_synagogue from "./synagogue";
 import SVG_tagArrowDown from "./tag-arrow-down";
 import SVG_tagArrowLeft from "./tag-arrow-left";
 import SVG_tagArrowRight from "./tag-arrow-right";
 import SVG_tagArrowUp from "./tag-arrow-up";
+import SVG_tagCheck from "./tag-check";
 import SVG_tagHeart from "./tag-heart";
 import SVG_tagMinus from "./tag-minus";
 import SVG_tagMultiple from "./tag-multiple";
@@ -1513,7 +1584,10 @@ import SVG_tagSearch from "./tag-search";
 import SVG_tagText from "./tag-text";
 import SVG_tag from "./tag";
 import SVG_tea from "./tea";
+import SVG_templeBuddhist from "./temple-buddhist";
+import SVG_templeHindu from "./temple-hindu";
 import SVG_textBoxCheck from "./text-box-check";
+import SVG_textBoxEdit from "./text-box-edit";
 import SVG_textBoxMinus from "./text-box-minus";
 import SVG_textBoxMultiple from "./text-box-multiple";
 import SVG_textBoxPlus from "./text-box-plus";
@@ -1536,9 +1610,26 @@ import SVG_timelinePlus from "./timeline-plus";
 import SVG_timelineRemove from "./timeline-remove";
 import SVG_timelineText from "./timeline-text";
 import SVG_timeline from "./timeline";
+import SVG_timerAlert from "./timer-alert";
+import SVG_timerCancel from "./timer-cancel";
+import SVG_timerCheck from "./timer-check";
 import SVG_timerCog from "./timer-cog";
+import SVG_timerEdit from "./timer-edit";
+import SVG_timerLockOpen from "./timer-lock-open";
+import SVG_timerLock from "./timer-lock";
+import SVG_timerMarker from "./timer-marker";
+import SVG_timerMinus from "./timer-minus";
+import SVG_timerMusic from "./timer-music";
 import SVG_timerOff from "./timer-off";
+import SVG_timerPause from "./timer-pause";
+import SVG_timerPlay from "./timer-play";
+import SVG_timerPlus from "./timer-plus";
+import SVG_timerRefresh from "./timer-refresh";
+import SVG_timerRemove from "./timer-remove";
 import SVG_timerSettings from "./timer-settings";
+import SVG_timerStar from "./timer-star";
+import SVG_timerStop from "./timer-stop";
+import SVG_timerSync from "./timer-sync";
 import SVG_timer from "./timer";
 import SVG_toggleSwitchOff from "./toggle-switch-off";
 import SVG_toggleSwitch from "./toggle-switch";
@@ -1616,6 +1707,7 @@ import SVG_viewStream from "./view-stream";
 import SVG_viewWeek from "./view-week";
 import SVG_virusOff from "./virus-off";
 import SVG_virus from "./virus";
+import SVG_volcano from "./volcano";
 import SVG_vote from "./vote";
 import SVG_wallSconceFlatVariant from "./wall-sconce-flat-variant";
 import SVG_wallSconceFlat from "./wall-sconce-flat";
@@ -1631,6 +1723,7 @@ import SVG_waterMinus from "./water-minus";
 import SVG_waterOff from "./water-off";
 import SVG_waterPlus from "./water-plus";
 import SVG_waterRemove from "./water-remove";
+import SVG_waterThermometer from "./water-thermometer";
 import SVG_waterWell from "./water-well";
 import SVG_water from "./water";
 import SVG_wateringCan from "./watering-can";
@@ -1641,11 +1734,12 @@ import SVG_wifiStrengthLockOpen from "./wifi-strength-lock-open";
 import SVG_wifiStrengthLock from "./wifi-strength-lock";
 import SVG_wifiStrengthOff from "./wifi-strength-off";
 import SVG_wifiStrength from "./wifi-strength";
+import SVG_windPower from "./wind-power";
 import SVG_wrench from "./wrench";
 import SVG_zipBox from "./zip-box"
 
 // types
-export type IconNames = "account-alert" | "account-arrow-down" | "account-arrow-left" | "account-arrow-right" | "account-arrow-up" | "account-box-multiple" | "account-box" | "account-cancel" | "account-cash" | "account-check" | "account-child" | "account-circle" | "account-clock" | "account-cog" | "account-convert" | "account-cowboy-hat" | "account-details" | "account-edit" | "account-eye" | "account-filter" | "account-group" | "account-hard-hat" | "account-heart" | "account-injury" | "account-key" | "account-lock-open" | "account-lock" | "account-minus" | "account-multiple-check" | "account-multiple-minus" | "account-multiple-plus" | "account-multiple-remove" | "account-multiple" | "account-music" | "account-network" | "account-off" | "account-plus" | "account-question" | "account-reactivate" | "account-remove" | "account-school" | "account-search" | "account-settings" | "account-star" | "account-supervisor-circle" | "account-supervisor" | "account-switch" | "account-sync" | "account-tie-hat" | "account-tie-voice-off" | "account-tie-voice" | "account-tie" | "account-wrench" | "account" | "airballoon" | "alarm-light-off" | "alarm-light" | "alarm-panel" | "alert-box" | "alert-circle-check" | "alert-circle" | "alert-decagram" | "alert-minus" | "alert-octagon" | "alert-octagram" | "alert-plus" | "alert-remove" | "alert-rhombus" | "alert" | "alien" | "all-inclusive-box" | "alpha-a-box" | "alpha-a-circle" | "alpha-b-box" | "alpha-b-circle" | "alpha-c-box" | "alpha-c-circle" | "alpha-d-box" | "alpha-d-circle" | "alpha-e-box" | "alpha-e-circle" | "alpha-f-box" | "alpha-f-circle" | "alpha-g-box" | "alpha-g-circle" | "alpha-h-box" | "alpha-h-circle" | "alpha-i-box" | "alpha-i-circle" | "alpha-j-box" | "alpha-j-circle" | "alpha-k-box" | "alpha-k-circle" | "alpha-l-box" | "alpha-l-circle" | "alpha-m-box" | "alpha-m-circle" | "alpha-n-box" | "alpha-n-circle" | "alpha-o-box" | "alpha-o-circle" | "alpha-p-box" | "alpha-p-circle" | "alpha-q-box" | "alpha-q-circle" | "alpha-r-box" | "alpha-r-circle" | "alpha-s-box" | "alpha-s-circle" | "alpha-t-box" | "alpha-t-circle" | "alpha-u-box" | "alpha-u-circle" | "alpha-v-box" | "alpha-v-circle" | "alpha-w-box" | "alpha-w-circle" | "alpha-x-box" | "alpha-x-circle" | "alpha-y-box" | "alpha-y-circle" | "alpha-z-box" | "alpha-z-circle" | "animation-play" | "animation" | "application-array" | "application-braces" | "application-brackets" | "application-cog" | "application-edit" | "application-parentheses" | "application-settings" | "application-variable" | "application" | "archive-alert" | "archive-arrow-down" | "archive-arrow-up" | "archive-cancel" | "archive-check" | "archive-clock" | "archive-cog" | "archive-edit" | "archive-eye" | "archive-lock-open" | "archive-lock" | "archive-marker" | "archive-minus" | "archive-music" | "archive-off" | "archive-plus" | "archive-refresh" | "archive-remove" | "archive-search" | "archive-settings" | "archive-star" | "archive-sync" | "archive" | "arm-flex" | "arrow-bottom-left-bold-box" | "arrow-bottom-left-bold" | "arrow-bottom-left-thin-circle" | "arrow-bottom-right-bold-box" | "arrow-bottom-right-bold" | "arrow-bottom-right-thin-circle" | "arrow-decision-auto" | "arrow-decision" | "arrow-down-bold-box" | "arrow-down-bold-circle" | "arrow-down-bold-hexagon" | "arrow-down-bold" | "arrow-down-circle" | "arrow-down-drop-circle" | "arrow-down-thin-circle" | "arrow-left-bold-box" | "arrow-left-bold-circle" | "arrow-left-bold-hexagon" | "arrow-left-bold" | "arrow-left-circle" | "arrow-left-drop-circle" | "arrow-left-right-bold" | "arrow-left-thin-circle" | "arrow-right-bold-box" | "arrow-right-bold-circle" | "arrow-right-bold-hexagon" | "arrow-right-bold" | "arrow-right-circle" | "arrow-right-drop-circle" | "arrow-right-thin-circle" | "arrow-top-left-bold-box" | "arrow-top-left-bold" | "arrow-top-left-thin-circle" | "arrow-top-right-bold-box" | "arrow-top-right-bold" | "arrow-top-right-thin-circle" | "arrow-up-bold-box" | "arrow-up-bold-circle" | "arrow-up-bold-hexagon" | "arrow-up-bold" | "arrow-up-circle" | "arrow-up-down-bold" | "arrow-up-drop-circle" | "arrow-up-thin-circle" | "asterisk-circle" | "baby-bottle" | "baby-face" | "backspace-reverse" | "backspace" | "bacteria" | "badge-account-alert" | "badge-account-horizontal" | "badge-account" | "bag-personal-off" | "bag-personal" | "bag-suitcase-off" | "bag-suitcase" | "ballot-recount" | "ballot" | "bank-off" | "bank" | "baseball-diamond" | "basket-check" | "basket-minus" | "basket-off" | "basket-plus" | "basket-remove" | "basket" | "basketball-hoop" | "bathtub" | "battery-alert-variant" | "battery-arrow-down" | "battery-arrow-up" | "battery-charging-wireless" | "battery-charging" | "battery-check" | "battery-clock" | "battery-heart" | "battery-minus" | "battery-off" | "battery-plus" | "battery-remove" | "battery-sync" | "battery" | "beaker-alert" | "beaker-check" | "beaker-minus" | "beaker-plus" | "beaker-question" | "beaker-remove" | "beaker" | "bed-double" | "bed-king" | "bed-queen" | "bed-single" | "bed" | "beehive-off" | "beehive" | "beer" | "bell-alert" | "bell-badge" | "bell-cancel" | "bell-check" | "bell-circle" | "bell-minus" | "bell-off" | "bell-plus" | "bell-remove" | "bell-ring" | "bell-sleep" | "bell" | "blender" | "book-account" | "book-alert" | "book-arrow-down" | "book-arrow-left" | "book-arrow-right" | "book-arrow-up" | "book-cancel" | "book-check" | "book-clock" | "book-cog" | "book-edit" | "book-education" | "book-heart" | "book-lock-open" | "book-lock" | "book-marker" | "book-minus-multiple" | "book-minus" | "book-multiple" | "book-music" | "book-off" | "book-open-page-variant" | "book-open" | "book-play" | "book-plus-multiple" | "book-plus" | "book-refresh" | "book-remove-multiple" | "book-remove" | "book-search" | "book-settings" | "book-sync" | "book" | "bookmark-box-multiple" | "bookmark-check" | "bookmark-minus" | "bookmark-multiple" | "bookmark-music" | "bookmark-off" | "bookmark-plus" | "bookmark-remove" | "bookmark" | "boom-gate-alert" | "boom-gate-arrow-down" | "boom-gate-arrow-up" | "boom-gate-up" | "boom-gate" | "bottle-soda-classic" | "bottle-soda" | "bottle-tonic-plus" | "bottle-tonic-skull" | "bottle-tonic" | "bottle-wine" | "bowl-mix" | "bowl" | "bread-slice" | "briefcase-account" | "briefcase-check" | "briefcase-clock" | "briefcase-download" | "briefcase-edit" | "briefcase-eye" | "briefcase-minus" | "briefcase-off" | "briefcase-plus" | "briefcase-remove" | "briefcase-search" | "briefcase-upload" | "briefcase-variant-off" | "briefcase-variant" | "briefcase" | "brush" | "bucket" | "bug-check" | "bug" | "bullhorn-variant" | "bullhorn" | "bunk-bed" | "butterfly" | "cake-variant" | "calculator-variant" | "calendar-account" | "calendar-blank" | "calendar-check" | "calendar-clock" | "calendar-lock" | "calendar-month" | "calendar-range" | "calendar-refresh" | "calendar-remove" | "calendar-sync" | "calendar-text" | "calendar-weekend" | "calendar" | "camera-enhance" | "camera-flip" | "camera-lock" | "camera-marker" | "camera-off" | "camera-plus" | "camera-retake" | "camera-switch" | "camera-wireless" | "camera" | "candy-off" | "candy" | "car-electric" | "car-windshield" | "car" | "card-account-details-star" | "card-account-details" | "card-account-mail" | "card-account-phone" | "card-bulleted-off" | "card-bulleted-settings" | "card-bulleted" | "card-minus" | "card-multiple" | "card-off" | "card-plus" | "card-remove" | "card-search" | "card-text" | "card" | "cards-club" | "cards-diamond" | "cards-heart" | "cards-playing-club-multiple" | "cards-playing-club" | "cards-playing-diamond-multiple" | "cards-playing-diamond" | "cards-playing-heart-multiple" | "cards-playing-heart" | "cards-playing-spade-multiple" | "cards-playing-spade" | "cards-playing" | "cards-spade" | "cards" | "cart" | "ceiling-light-multiple" | "ceiling-light" | "certificate" | "chart-box-plus" | "chart-box" | "chat-alert" | "chat-minus" | "chat-plus" | "chat-processing" | "chat-question" | "chat-remove" | "chat-sleep" | "chat" | "check-circle" | "check-decagram" | "check-network" | "check-underline-circle" | "check" | "checkbox-blank-badge" | "checkbox-blank-circle" | "checkbox-blank-off" | "checkbox-blank" | "checkbox-marked-circle-plus" | "checkbox-marked-circle" | "checkbox-marked" | "checkbox-multiple-blank-circle" | "checkbox-multiple-blank" | "checkbox-multiple-marked-circle" | "checkbox-multiple-marked" | "checkbox-multiple" | "checkbox" | "chevron-down-box" | "chevron-down-circle" | "chevron-left-box" | "chevron-left-circle" | "chevron-right-box" | "chevron-right-circle" | "chevron-up-box" | "chevron-up-circle" | "chili-alert" | "chili-hot" | "chili-medium" | "chili-mild" | "chili-off" | "circle-box" | "circle-edit" | "circle-multiple" | "circle-off" | "circle" | "city-variant" | "clipboard-account" | "clipboard-alert" | "clipboard-arrow-down" | "clipboard-arrow-left" | "clipboard-arrow-right" | "clipboard-arrow-up" | "clipboard-check-multiple" | "clipboard-check" | "clipboard-clock" | "clipboard-edit" | "clipboard-file" | "clipboard-flow" | "clipboard-list" | "clipboard-minus" | "clipboard-multiple" | "clipboard-off" | "clipboard-play-multiple" | "clipboard-play" | "clipboard-plus" | "clipboard-pulse" | "clipboard-remove" | "clipboard-search" | "clipboard-text-clock" | "clipboard-text-multiple" | "clipboard-text-off" | "clipboard-text-play" | "clipboard-text-search" | "clipboard-text" | "clipboard" | "clock-alert" | "clock-check" | "clock-edit" | "clock-minus" | "clock-plus" | "clock-remove" | "clock-time-eight" | "clock-time-eleven" | "clock-time-five" | "clock-time-four" | "clock-time-nine" | "clock-time-one" | "clock-time-seven" | "clock-time-six" | "clock-time-ten" | "clock-time-three" | "clock-time-twelve" | "clock-time-two" | "clock" | "close-box-multiple" | "close-box" | "close-circle-multiple" | "close-circle" | "close-network" | "close-octagon" | "close" | "closed-caption" | "cloud-check" | "cloud-download" | "cloud-lock" | "cloud-off" | "cloud-print" | "cloud-search" | "cloud-sync" | "cloud-upload" | "cloud" | "coffee-maker-check" | "coffee-maker" | "coffee-off" | "coffee-to-go" | "coffee" | "cog-off" | "cog-pause" | "cog-play" | "cog-refresh" | "cog-stop" | "cog-sync" | "cog-transfer" | "cog" | "collapse-all" | "comma-box" | "comma-circle" | "comment-account" | "comment-alert" | "comment-arrow-left" | "comment-arrow-right" | "comment-bookmark" | "comment-check" | "comment-edit" | "comment-eye" | "comment-flash" | "comment-minus" | "comment-multiple" | "comment-off" | "comment-plus" | "comment-processing" | "comment-question" | "comment-quote" | "comment-remove" | "comment-search" | "comment-text-multiple" | "comment-text" | "comment" | "compass-off" | "compass" | "console-network" | "contactless-payment-circle" | "contacts" | "content-save-alert" | "content-save-all" | "content-save-check" | "content-save-cog" | "content-save-edit" | "content-save-move" | "content-save-off" | "content-save-settings" | "content-save" | "controller-classic" | "cookie-alert" | "cookie-check" | "cookie-clock" | "cookie-cog" | "cookie-edit" | "cookie-lock" | "cookie-minus" | "cookie-off" | "cookie-plus" | "cookie-refresh" | "cookie-remove" | "cookie-settings" | "cookie" | "countertop" | "cradle" | "credit-card-check" | "credit-card-chip" | "credit-card-clock" | "credit-card-edit" | "credit-card-fast" | "credit-card-lock" | "credit-card-marker" | "credit-card-minus" | "credit-card-multiple" | "credit-card-off" | "credit-card-plus" | "credit-card-refresh" | "credit-card-refund" | "credit-card-remove" | "credit-card-scan" | "credit-card-search" | "credit-card-settings" | "credit-card-sync" | "credit-card-wireless-off" | "credit-card-wireless" | "credit-card" | "cross" | "crown-circle" | "crown" | "cube-off" | "cube" | "cup-off" | "cup" | "cupboard" | "cursor-default-click" | "cursor-default-gesture" | "cursor-default" | "database-alert" | "database-arrow-down" | "database-arrow-left" | "database-arrow-right" | "database-arrow-up" | "database-check" | "database-clock" | "database-cog" | "database-edit" | "database-export" | "database-eye-off" | "database-eye" | "database-import" | "database-lock" | "database-marker" | "database-minus" | "database-off" | "database-plus" | "database-refresh" | "database-remove" | "database-search" | "database-settings" | "database-sync" | "database" | "decagram" | "delete-alert" | "delete-circle" | "delete-clock" | "delete-empty" | "delete-forever" | "delete-off" | "delete-sweep" | "delete" | "diameter" | "diamond" | "dice-1" | "dice-2" | "dice-3" | "dice-4" | "dice-5" | "dice-6" | "dice-d10" | "dice-d12" | "dice-d20" | "dice-d4" | "dice-d6" | "dice-d8" | "dice-multiple" | "dns" | "dots-horizontal-circle" | "dots-vertical-circle" | "download-box" | "download-circle" | "download-lock" | "download-network" | "download-off" | "download" | "dresser" | "earbuds-off" | "earbuds" | "egg-off" | "egg" | "eject" | "elevator-passenger-off" | "elevator-passenger" | "ellipse" | "email-alert" | "email-check" | "email-edit" | "email-fast" | "email-minus" | "email-multiple" | "email-off" | "email-open-multiple" | "email-open" | "email-plus" | "email-receive" | "email-remove" | "email-seal" | "email-search" | "email-send" | "email-sync" | "email" | "emoticon-angry" | "emoticon-confused" | "emoticon-cool" | "emoticon-cry" | "emoticon-dead" | "emoticon-devil" | "emoticon-excited" | "emoticon-frown" | "emoticon-happy" | "emoticon-kiss" | "emoticon-lol" | "emoticon-neutral" | "emoticon-poop" | "emoticon-sad" | "emoticon-sick" | "emoticon-tongue" | "emoticon-wink" | "emoticon" | "engine-off" | "engine" | "equalizer" | "expand-all" | "eye-arrow-left" | "eye-arrow-right" | "eye-check" | "eye-circle" | "eye-minus" | "eye-off" | "eye-plus" | "eye-refresh" | "eye-remove" | "eye-settings" | "eye" | "face-man-shimmer" | "face-man" | "face-mask" | "face-woman-shimmer" | "face-woman" | "fast-forward" | "feature-search" | "file-account" | "file-alert" | "file-cancel" | "file-certificate" | "file-chart-check" | "file-chart" | "file-check" | "file-clock" | "file-cloud" | "file-code" | "file-cog" | "file-delimited" | "file-document-edit" | "file-document-multiple" | "file-document" | "file-download" | "file-edit" | "file-excel-box" | "file-excel" | "file-export" | "file-eye" | "file-find" | "file-image-marker" | "file-image-minus" | "file-image-plus" | "file-image-remove" | "file-image" | "file-import" | "file-key" | "file-link" | "file-lock-open" | "file-lock" | "file-marker" | "file-move" | "file-multiple" | "file-music" | "file-percent" | "file-phone" | "file-plus" | "file-powerpoint-box" | "file-powerpoint" | "file-question" | "file-refresh" | "file-remove" | "file-replace" | "file-restore" | "file-search" | "file-send" | "file-settings" | "file-star" | "file-swap" | "file-sync" | "file-table-box-multiple" | "file-table-box" | "file-table" | "file-tree" | "file-undo" | "file-upload" | "file-video" | "file-word-box" | "file-word" | "file" | "filter-check" | "filter-menu" | "filter-minus" | "filter-off" | "filter-plus" | "filter-remove" | "filter" | "fishbowl" | "fit-to-page" | "fit-to-screen" | "flag-minus" | "flag-off" | "flag-plus" | "flag-remove" | "flag-variant" | "flag" | "flash-alert" | "flash" | "flask-empty-minus" | "flask-empty-off" | "flask-empty-plus" | "flask-empty-remove" | "flask-empty" | "flask-minus" | "flask-off" | "flask-plus" | "flask-remove" | "flask-round-bottom-empty" | "flask-round-bottom" | "flask" | "floor-lamp-dual" | "floor-lamp-torchiere-variant" | "floor-lamp-torchiere" | "floor-lamp" | "flower-pollen" | "flower-tulip" | "flower" | "folder-account" | "folder-alert" | "folder-arrow-down" | "folder-arrow-left-right" | "folder-arrow-left" | "folder-arrow-right" | "folder-arrow-up-down" | "folder-arrow-up" | "folder-cancel" | "folder-check" | "folder-clock" | "folder-cog" | "folder-download" | "folder-edit" | "folder-eye" | "folder-file" | "folder-heart" | "folder-home" | "folder-information" | "folder-key-network" | "folder-key" | "folder-marker" | "folder-move" | "folder-multiple-plus" | "folder-multiple" | "folder-music" | "folder-network" | "folder-off" | "folder-open" | "folder-play" | "folder-plus" | "folder-pound" | "folder-question" | "folder-refresh" | "folder-remove" | "folder-search" | "folder-settings" | "folder-star-multiple" | "folder-star" | "folder-swap" | "folder-sync" | "folder-table" | "folder-text" | "folder-upload" | "folder-wrench" | "folder-zip" | "folder" | "food-apple" | "food-drumstick-off" | "food-drumstick" | "food-off" | "food-takeout-box" | "food" | "format-quote-close" | "format-quote-open" | "format-text-variant" | "forum" | "fridge-alert" | "fridge-industrial-alert" | "fridge-industrial-off" | "fridge-industrial" | "fridge-off" | "fridge-variant-alert" | "fridge-variant-off" | "fridge-variant" | "fridge" | "fruit-grapes" | "gamepad-circle" | "gamepad-round" | "gamepad-square" | "gamepad-variant" | "gamepad" | "gas-station-off" | "gas-station" | "ghost-off" | "ghost" | "gift-off" | "gift-open" | "gift" | "glass-pint" | "graph" | "grill" | "guitar-pick" | "hair-dryer" | "hand-back-left-off" | "hand-back-left" | "hand-back-right-off" | "hand-back-right" | "hand-coin" | "hand-extended" | "hand-front-left" | "hand-front-right" | "hand-heart" | "hand-wash" | "hand-wave" | "handshake" | "head-alert" | "head-check" | "head-cog" | "head-dots-horizontal" | "head-flash" | "head-heart" | "head-lightbulb" | "head-minus" | "head-plus" | "head-question" | "head-remove" | "head-snowflake" | "head-sync" | "head" | "heart-box" | "heart-broken" | "heart-circle" | "heart-cog" | "heart-half" | "heart-minus" | "heart-multiple" | "heart-off" | "heart-plus" | "heart-remove" | "heart-settings" | "heart" | "help-circle" | "help-network" | "help-rhombus" | "hexagon-multiple" | "hexagon" | "hexagram" | "home-alert" | "home-battery" | "home-circle" | "home-city" | "home-clock" | "home-edit" | "home-export" | "home-import" | "home-lightbulb" | "home-lightning-bolt" | "home-minus" | "home-plus" | "home-remove" | "home-search" | "home-switch" | "home-thermometer" | "home-variant" | "home" | "hospital-box" | "image-edit" | "image-filter-center-focus-strong" | "image-marker" | "image-multiple" | "image-off" | "image-refresh" | "image-search" | "image-sync" | "image" | "inbox-arrow-down" | "inbox-arrow-up" | "inbox-full" | "inbox-multiple" | "inbox-remove" | "inbox" | "information-off" | "information" | "ip-network" | "ip" | "iron" | "jellyfish" | "kettle-alert" | "kettle-off" | "kettle-steam" | "kettle" | "key-alert" | "key" | "keyboard-off" | "keyboard-settings" | "keyboard" | "kite" | "label-multiple" | "label-off" | "label-percent" | "label-variant" | "label" | "lamp" | "lamps" | "language-markdown" | "layers-off" | "layers-search" | "layers-triple" | "layers" | "leaf-circle" | "led-variant" | "led" | "library" | "lightbulb-alert" | "lightbulb-auto" | "lightbulb-fluorescent-tube" | "lightbulb-group-off" | "lightbulb-group" | "lightbulb-multiple-off" | "lightbulb-multiple" | "lightbulb-off" | "lightbulb-on" | "lightbulb-question" | "lightbulb-variant" | "lightbulb" | "lightning-bolt" | "link-box-variant" | "link-box" | "lock-alert" | "lock-check" | "lock-minus" | "lock-off" | "lock-open-alert" | "lock-open-check" | "lock-open-minus" | "lock-open-plus" | "lock-open-remove" | "lock-open-variant" | "lock-open" | "lock-plus" | "lock-remove" | "lock" | "lotion-plus" | "lotion" | "magnify-minus" | "magnify-plus" | "magnify-remove" | "mailbox-open-up" | "mailbox-open" | "mailbox-up" | "mailbox" | "map-check" | "map-clock" | "map-marker-account" | "map-marker-alert" | "map-marker-check" | "map-marker-left" | "map-marker-minus" | "map-marker-multiple" | "map-marker-off" | "map-marker-plus" | "map-marker-question" | "map-marker-radius" | "map-marker-remove" | "map-marker-right" | "map-marker-star" | "map-marker" | "map-search" | "map" | "medal" | "menu-down" | "menu-left" | "menu-right" | "menu-swap" | "menu-up" | "message-alert" | "message-arrow-left" | "message-arrow-right" | "message-badge" | "message-bookmark" | "message-cog" | "message-fast" | "message-flash" | "message-image" | "message-lock" | "message-minus" | "message-off" | "message-plus" | "message-processing" | "message-question" | "message-reply-text" | "message-reply" | "message-settings" | "message-star" | "message-text-clock" | "message-text-fast" | "message-text-lock" | "message-text" | "message" | "microphone-question" | "microphone" | "middleware" | "minus-box-multiple" | "minus-box" | "minus-circle-multiple" | "minus-circle-off" | "minus-circle" | "minus-network" | "moped-electric" | "moped" | "motion-pause" | "motion-play" | "motion" | "movie-check" | "movie-cog" | "movie-edit" | "movie-filter" | "movie-minus" | "movie-off" | "movie-open-check" | "movie-open-cog" | "movie-open-edit" | "movie-open-minus" | "movie-open-off" | "movie-open-play" | "movie-open-plus" | "movie-open-remove" | "movie-open-settings" | "movie-open-star" | "movie-open" | "movie-play" | "movie-plus" | "movie-remove" | "movie-search" | "movie-settings" | "movie-star" | "movie" | "mushroom-off" | "mushroom" | "music-box-multiple" | "music-box" | "music-circle" | "music-note-off" | "music-note" | "navigation-variant" | "navigation" | "network-off" | "network-strength-off" | "network-strength" | "network" | "newspaper-variant-multiple" | "newspaper-variant" | "note-alert" | "note-check" | "note-edit" | "note-minus" | "note-multiple" | "note-off" | "note-plus" | "note-remove" | "note-search" | "note-text" | "note" | "notebook-check" | "notebook-edit" | "notebook-heart" | "notebook-minus" | "notebook-plus" | "notebook-remove" | "notebook" | "numeric-0-box-multiple" | "numeric-0-box" | "numeric-0-circle" | "numeric-1-box-multiple" | "numeric-1-box" | "numeric-1-circle" | "numeric-10-box-multiple" | "numeric-10-box" | "numeric-10-circle" | "numeric-2-box-multiple" | "numeric-2-box" | "numeric-2-circle" | "numeric-3-box-multiple" | "numeric-3-box" | "numeric-3-circle" | "numeric-4-box-multiple" | "numeric-4-box" | "numeric-4-circle" | "numeric-5-box-multiple" | "numeric-5-box" | "numeric-5-circle" | "numeric-6-box-multiple" | "numeric-6-box" | "numeric-6-circle" | "numeric-7-box-multiple" | "numeric-7-box" | "numeric-7-circle" | "numeric-8-box-multiple" | "numeric-8-box" | "numeric-8-circle" | "numeric-9-box-multiple" | "numeric-9-box" | "numeric-9-circle" | "numeric-9-plus-box-multiple" | "numeric-9-plus-box" | "numeric-9-plus-circle" | "octagon" | "octagram" | "office-building-cog" | "office-building-marker" | "office-building" | "page-next" | "page-previous" | "pail-minus" | "pail-off" | "pail-plus" | "pail-remove" | "pail" | "palette-swatch" | "palette" | "panorama-horizontal" | "panorama-sphere" | "panorama-variant" | "panorama-vertical" | "panorama-wide-angle" | "panorama" | "paper-roll" | "parachute" | "pause-circle" | "pause-octagon" | "paw-off" | "paw" | "peanut-off" | "peanut" | "pencil-box-multiple" | "pencil-box" | "pencil-circle" | "pencil-lock" | "pencil-minus" | "pencil-off" | "pencil-plus" | "pencil-remove" | "pencil" | "pentagon" | "percent-box" | "percent-circle" | "percent" | "phone-alert" | "phone-bluetooth" | "phone-cancel" | "phone-check" | "phone-dial" | "phone-forward" | "phone-hangup" | "phone-in-talk" | "phone-incoming" | "phone-lock" | "phone-log" | "phone-message" | "phone-minus" | "phone-missed" | "phone-off" | "phone-outgoing" | "phone-paused" | "phone-plus" | "phone-refresh" | "phone-remove" | "phone-return" | "phone-ring" | "phone-settings" | "phone-sync" | "phone" | "picture-in-picture-bottom-right" | "picture-in-picture-top-right" | "pig-variant" | "piggy-bank" | "pin-off" | "pin" | "pinwheel" | "play-box-lock-open" | "play-box-lock" | "play-box-multiple" | "play-box" | "play-circle" | "play-network" | "play" | "playlist-music" | "plus-box-multiple" | "plus-box" | "plus-circle-multiple" | "plus-circle" | "plus-network" | "plus" | "police-badge" | "post" | "pot-mix" | "pot-steam" | "pot" | "pound-box" | "power-plug-off" | "power-plug" | "printer-3d-nozzle-alert" | "printer-3d-nozzle-heat" | "printer-3d-nozzle" | "printer-off" | "printer" | "projector-screen-off" | "projector-screen-variant-off" | "projector-screen-variant" | "projector-screen" | "propane-tank" | "purse" | "puzzle-check" | "puzzle-edit" | "puzzle-heart" | "puzzle-minus" | "puzzle-plus" | "puzzle-remove" | "puzzle-star" | "puzzle" | "radioactive-circle" | "radiology-box" | "radius" | "receipt" | "record-circle" | "rectangle" | "reply-all" | "reply" | "rewind" | "rhombus-medium" | "rhombus-split" | "rhombus" | "robot-angry" | "robot-confused" | "robot-dead" | "robot-excited" | "robot-happy" | "robot-industrial" | "robot-love" | "robot-mower" | "robot-off" | "robot" | "rocket-launch" | "rocket" | "room-service" | "safe-square" | "sale" | "scatter-plot" | "school" | "scoreboard" | "script-text-key" | "script-text-play" | "script-text" | "script" | "seat" | "seed-off" | "seed" | "send-check" | "send-circle" | "send-clock" | "send-lock" | "send" | "shaker" | "shape" | "share-all" | "share-off" | "share-variant" | "share" | "shark-fin" | "shield-account-variant" | "shield-account" | "shield-airplane" | "shield-alert" | "shield-bug" | "shield-check" | "shield-cross" | "shield-crown" | "shield-edit" | "shield-home" | "shield-key" | "shield-link-variant" | "shield-lock-open" | "shield-lock" | "shield-moon" | "shield-off" | "shield-plus" | "shield-refresh" | "shield-remove" | "shield-star" | "shield-sun" | "shield-sword" | "shield-sync" | "shield" | "shopping" | "signal-cellular" | "sim-alert" | "sim-off" | "sim" | "sitemap" | "skip-backward" | "skip-forward" | "skip-next-circle" | "skip-next" | "skip-previous-circle" | "skip-previous" | "skull-crossbones" | "skull-scan" | "skull" | "slot-machine" | "smart-card-off" | "smart-card-reader" | "smart-card" | "smoke-detector-alert" | "smoke-detector-off" | "smoke-detector" | "sofa-single" | "sofa" | "sort-clock-ascending" | "sort-clock-descending" | "spa" | "sprout" | "square-edit" | "square-medium" | "square-off" | "square-rounded-badge" | "square-rounded" | "square" | "star-box-multiple" | "star-box" | "star-check" | "star-circle" | "star-cog" | "star-four-points" | "star-minus" | "star-off" | "star-plus" | "star-remove" | "star-settings" | "star-shooting" | "star-three-points" | "star" | "sticker-alert" | "sticker-check" | "sticker-circle" | "sticker-minus" | "sticker-plus" | "sticker-remove" | "sticker-text" | "sticker" | "stool" | "stop-circle" | "store-alert" | "store-check" | "store-clock" | "store-cog" | "store-edit" | "store-marker" | "store-minus" | "store-off" | "store-plus" | "store-remove" | "store-search" | "store-settings" | "store" | "storefront" | "stretch-to-page" | "subtitles" | "sun-thermometer" | "sun-wireless" | "swap-horizontal-circle" | "swap-vertical-circle" | "tag-arrow-down" | "tag-arrow-left" | "tag-arrow-right" | "tag-arrow-up" | "tag-heart" | "tag-minus" | "tag-multiple" | "tag-off" | "tag-plus" | "tag-remove" | "tag-search" | "tag-text" | "tag" | "tea" | "text-box-check" | "text-box-minus" | "text-box-multiple" | "text-box-plus" | "text-box-remove" | "text-box-search" | "text-box" | "thought-bubble" | "thumb-down" | "thumb-up" | "thumbs-up-down" | "ticket-confirmation" | "ticket-percent" | "ticket" | "timeline-alert" | "timeline-check" | "timeline-clock" | "timeline-help" | "timeline-minus" | "timeline-plus" | "timeline-remove" | "timeline-text" | "timeline" | "timer-cog" | "timer-off" | "timer-settings" | "timer" | "toggle-switch-off" | "toggle-switch" | "toolbox" | "tooltip-check" | "tooltip-edit" | "tooltip-image" | "tooltip-minus" | "tooltip-plus" | "tooltip-remove" | "tooltip-text" | "tooltip" | "tooth" | "toy-brick-marker" | "toy-brick-minus" | "toy-brick-plus" | "toy-brick-remove" | "toy-brick-search" | "toy-brick" | "traffic-light" | "trash-can" | "tree" | "triangle" | "trophy-variant" | "trophy" | "truck-alert" | "truck-check" | "truck-delivery" | "truck-fast" | "truck-minus" | "truck-plus" | "truck-remove" | "truck" | "tshirt-crew" | "tshirt-v" | "tunnel" | "turnstile" | "ufo" | "umbrella-beach" | "umbrella-closed" | "umbrella" | "upload-lock" | "upload-network" | "upload-off" | "upload" | "usb-flash-drive" | "vacuum" | "video-check" | "video-marker" | "video-minus" | "video-off" | "video-plus" | "video-switch" | "video-wireless" | "video" | "view-agenda" | "view-array" | "view-carousel" | "view-column" | "view-comfy" | "view-compact" | "view-dashboard-edit" | "view-dashboard-variant" | "view-dashboard" | "view-day" | "view-gallery" | "view-grid-plus" | "view-grid" | "view-list" | "view-module" | "view-parallel" | "view-quilt" | "view-sequential" | "view-stream" | "view-week" | "virus-off" | "virus" | "vote" | "wall-sconce-flat-variant" | "wall-sconce-flat" | "wall-sconce-round-variant" | "wall-sconce-round" | "wall-sconce" | "wallet-plus" | "wallet" | "wardrobe" | "water-alert" | "water-check" | "water-minus" | "water-off" | "water-plus" | "water-remove" | "water-well" | "water" | "watering-can" | "whistle" | "widgets" | "wifi-strength-alert" | "wifi-strength-lock-open" | "wifi-strength-lock" | "wifi-strength-off" | "wifi-strength" | "wrench" | "zip-box";
+export type IconNames = "account-alert" | "account-arrow-down" | "account-arrow-left" | "account-arrow-right" | "account-arrow-up" | "account-badge" | "account-box-multiple" | "account-box" | "account-cancel" | "account-cash" | "account-check" | "account-child" | "account-circle" | "account-clock" | "account-cog" | "account-convert" | "account-cowboy-hat" | "account-details" | "account-edit" | "account-eye" | "account-filter" | "account-group" | "account-hard-hat" | "account-heart" | "account-injury" | "account-key" | "account-lock-open" | "account-lock" | "account-minus" | "account-multiple-check" | "account-multiple-minus" | "account-multiple-plus" | "account-multiple-remove" | "account-multiple" | "account-music" | "account-network-off" | "account-network" | "account-off" | "account-plus" | "account-question" | "account-reactivate" | "account-remove" | "account-school" | "account-search" | "account-settings" | "account-star" | "account-supervisor-circle" | "account-supervisor" | "account-switch" | "account-sync" | "account-tie-hat" | "account-tie-voice-off" | "account-tie-voice" | "account-tie" | "account-wrench" | "account" | "airballoon" | "alarm-light-off" | "alarm-light" | "alarm-panel" | "alert-box" | "alert-circle-check" | "alert-circle" | "alert-decagram" | "alert-minus" | "alert-octagon" | "alert-octagram" | "alert-plus" | "alert-remove" | "alert-rhombus" | "alert" | "alien" | "all-inclusive-box" | "alpha-a-box" | "alpha-a-circle" | "alpha-b-box" | "alpha-b-circle" | "alpha-c-box" | "alpha-c-circle" | "alpha-d-box" | "alpha-d-circle" | "alpha-e-box" | "alpha-e-circle" | "alpha-f-box" | "alpha-f-circle" | "alpha-g-box" | "alpha-g-circle" | "alpha-h-box" | "alpha-h-circle" | "alpha-i-box" | "alpha-i-circle" | "alpha-j-box" | "alpha-j-circle" | "alpha-k-box" | "alpha-k-circle" | "alpha-l-box" | "alpha-l-circle" | "alpha-m-box" | "alpha-m-circle" | "alpha-n-box" | "alpha-n-circle" | "alpha-o-box" | "alpha-o-circle" | "alpha-p-box" | "alpha-p-circle" | "alpha-q-box" | "alpha-q-circle" | "alpha-r-box" | "alpha-r-circle" | "alpha-s-box" | "alpha-s-circle" | "alpha-t-box" | "alpha-t-circle" | "alpha-u-box" | "alpha-u-circle" | "alpha-v-box" | "alpha-v-circle" | "alpha-w-box" | "alpha-w-circle" | "alpha-x-box" | "alpha-x-circle" | "alpha-y-box" | "alpha-y-circle" | "alpha-z-box" | "alpha-z-circle" | "animation-play" | "animation" | "application-array" | "application-braces" | "application-brackets" | "application-cog" | "application-edit" | "application-parentheses" | "application-settings" | "application-variable" | "application" | "archive-alert" | "archive-arrow-down" | "archive-arrow-up" | "archive-cancel" | "archive-check" | "archive-clock" | "archive-cog" | "archive-edit" | "archive-eye" | "archive-lock-open" | "archive-lock" | "archive-marker" | "archive-minus" | "archive-music" | "archive-off" | "archive-plus" | "archive-refresh" | "archive-remove" | "archive-search" | "archive-settings" | "archive-star" | "archive-sync" | "archive" | "arm-flex" | "arrow-bottom-left-bold-box" | "arrow-bottom-left-bold" | "arrow-bottom-left-thin-circle" | "arrow-bottom-right-bold-box" | "arrow-bottom-right-bold" | "arrow-bottom-right-thin-circle" | "arrow-decision-auto" | "arrow-decision" | "arrow-down-bold-box" | "arrow-down-bold-circle" | "arrow-down-bold-hexagon" | "arrow-down-bold" | "arrow-down-circle" | "arrow-down-drop-circle" | "arrow-down-thin-circle" | "arrow-left-bold-box" | "arrow-left-bold-circle" | "arrow-left-bold-hexagon" | "arrow-left-bold" | "arrow-left-circle" | "arrow-left-drop-circle" | "arrow-left-right-bold" | "arrow-left-thin-circle" | "arrow-right-bold-box" | "arrow-right-bold-circle" | "arrow-right-bold-hexagon" | "arrow-right-bold" | "arrow-right-circle" | "arrow-right-drop-circle" | "arrow-right-thin-circle" | "arrow-top-left-bold-box" | "arrow-top-left-bold" | "arrow-top-left-thin-circle" | "arrow-top-right-bold-box" | "arrow-top-right-bold" | "arrow-top-right-thin-circle" | "arrow-up-bold-box" | "arrow-up-bold-circle" | "arrow-up-bold-hexagon" | "arrow-up-bold" | "arrow-up-circle" | "arrow-up-down-bold" | "arrow-up-drop-circle" | "arrow-up-thin-circle" | "asterisk-circle" | "baby-bottle" | "baby-face" | "backspace-reverse" | "backspace" | "bacteria" | "badge-account-alert" | "badge-account-horizontal" | "badge-account" | "bag-personal-off" | "bag-personal-tag" | "bag-personal" | "bag-suitcase-off" | "bag-suitcase" | "ballot-recount" | "ballot" | "bank-off" | "bank" | "barrel" | "baseball-diamond" | "basket-check" | "basket-minus" | "basket-off" | "basket-plus" | "basket-remove" | "basket" | "basketball-hoop" | "bathtub" | "battery-alert-variant" | "battery-arrow-down" | "battery-arrow-up" | "battery-charging-wireless" | "battery-charging" | "battery-check" | "battery-clock" | "battery-heart" | "battery-minus" | "battery-off" | "battery-plus" | "battery-remove" | "battery-sync" | "battery" | "beaker-alert" | "beaker-check" | "beaker-minus" | "beaker-plus" | "beaker-question" | "beaker-remove" | "beaker" | "bed-double" | "bed-king" | "bed-queen" | "bed-single" | "bed" | "beehive-off" | "beehive" | "beer" | "bell-alert" | "bell-badge" | "bell-cancel" | "bell-check" | "bell-circle" | "bell-cog" | "bell-minus" | "bell-off" | "bell-plus" | "bell-remove" | "bell-ring" | "bell-sleep" | "bell" | "blender" | "book-account" | "book-alert" | "book-arrow-down" | "book-arrow-left" | "book-arrow-right" | "book-arrow-up" | "book-cancel" | "book-check" | "book-clock" | "book-cog" | "book-edit" | "book-education" | "book-heart" | "book-lock-open" | "book-lock" | "book-marker" | "book-minus-multiple" | "book-minus" | "book-multiple" | "book-music" | "book-off" | "book-open-page-variant" | "book-open" | "book-play" | "book-plus-multiple" | "book-plus" | "book-refresh" | "book-remove-multiple" | "book-remove" | "book-search" | "book-settings" | "book-sync" | "book" | "bookmark-box-multiple" | "bookmark-check" | "bookmark-minus" | "bookmark-multiple" | "bookmark-music" | "bookmark-off" | "bookmark-plus" | "bookmark-remove" | "bookmark" | "boom-gate-alert" | "boom-gate-arrow-down" | "boom-gate-arrow-up" | "boom-gate-up" | "boom-gate" | "bottle-soda-classic" | "bottle-soda" | "bottle-tonic-plus" | "bottle-tonic-skull" | "bottle-tonic" | "bottle-wine" | "bowl-mix" | "bowl" | "bread-slice" | "briefcase-account" | "briefcase-arrow-left-right" | "briefcase-arrow-up-down" | "briefcase-check" | "briefcase-clock" | "briefcase-download" | "briefcase-edit" | "briefcase-eye" | "briefcase-minus" | "briefcase-off" | "briefcase-plus" | "briefcase-remove" | "briefcase-search" | "briefcase-upload" | "briefcase-variant-off" | "briefcase-variant" | "briefcase" | "brush" | "bucket" | "bug-check" | "bug-pause" | "bug-play" | "bug-stop" | "bug" | "bullhorn-variant" | "bullhorn" | "bunk-bed" | "butterfly" | "cake-variant" | "calculator-variant" | "calendar-account" | "calendar-blank" | "calendar-check" | "calendar-clock" | "calendar-filter" | "calendar-lock" | "calendar-month" | "calendar-range" | "calendar-refresh" | "calendar-remove" | "calendar-star" | "calendar-sync" | "calendar-text" | "calendar-today" | "calendar-week-begin" | "calendar-week" | "calendar-weekend" | "calendar" | "camera-enhance" | "camera-flip" | "camera-lock" | "camera-marker" | "camera-off" | "camera-plus" | "camera-retake" | "camera-switch" | "camera-wireless" | "camera" | "candy-off" | "candy" | "car-electric" | "car-windshield" | "car" | "card-account-details-star" | "card-account-details" | "card-account-mail" | "card-account-phone" | "card-bulleted-off" | "card-bulleted-settings" | "card-bulleted" | "card-minus" | "card-multiple" | "card-off" | "card-plus" | "card-remove" | "card-search" | "card-text" | "card" | "cards-club" | "cards-diamond" | "cards-heart" | "cards-playing-club-multiple" | "cards-playing-club" | "cards-playing-diamond-multiple" | "cards-playing-diamond" | "cards-playing-heart-multiple" | "cards-playing-heart" | "cards-playing-spade-multiple" | "cards-playing-spade" | "cards-playing" | "cards-spade" | "cards" | "cart" | "ceiling-light-multiple" | "ceiling-light" | "certificate" | "chart-box-plus" | "chart-box" | "chat-alert" | "chat-minus" | "chat-plus" | "chat-processing" | "chat-question" | "chat-remove" | "chat-sleep" | "chat" | "check-circle" | "check-decagram" | "check-network" | "check-underline-circle" | "check" | "checkbox-blank-badge" | "checkbox-blank-circle" | "checkbox-blank-off" | "checkbox-blank" | "checkbox-marked-circle-plus" | "checkbox-marked-circle" | "checkbox-marked" | "checkbox-multiple-blank-circle" | "checkbox-multiple-blank" | "checkbox-multiple-marked-circle" | "checkbox-multiple-marked" | "checkbox-multiple" | "checkbox" | "chevron-down-box" | "chevron-down-circle" | "chevron-left-box" | "chevron-left-circle" | "chevron-right-box" | "chevron-right-circle" | "chevron-up-box" | "chevron-up-circle" | "chili-alert" | "chili-hot" | "chili-medium" | "chili-mild" | "chili-off" | "church" | "circle-box" | "circle-edit" | "circle-multiple" | "circle-off" | "circle" | "city-variant" | "clipboard-account" | "clipboard-alert" | "clipboard-arrow-down" | "clipboard-arrow-left" | "clipboard-arrow-right" | "clipboard-arrow-up" | "clipboard-check-multiple" | "clipboard-check" | "clipboard-clock" | "clipboard-edit" | "clipboard-file" | "clipboard-flow" | "clipboard-list" | "clipboard-minus" | "clipboard-multiple" | "clipboard-off" | "clipboard-play-multiple" | "clipboard-play" | "clipboard-plus" | "clipboard-pulse" | "clipboard-remove" | "clipboard-search" | "clipboard-text-clock" | "clipboard-text-multiple" | "clipboard-text-off" | "clipboard-text-play" | "clipboard-text-search" | "clipboard-text" | "clipboard" | "clock-alert" | "clock-check" | "clock-edit" | "clock-minus" | "clock-plus" | "clock-remove" | "clock-time-eight" | "clock-time-eleven" | "clock-time-five" | "clock-time-four" | "clock-time-nine" | "clock-time-one" | "clock-time-seven" | "clock-time-six" | "clock-time-ten" | "clock-time-three" | "clock-time-twelve" | "clock-time-two" | "clock" | "close-box-multiple" | "close-box" | "close-circle-multiple" | "close-circle" | "close-network" | "close-octagon" | "close" | "closed-caption" | "cloud-check" | "cloud-download" | "cloud-lock" | "cloud-off" | "cloud-percent" | "cloud-print" | "cloud-search" | "cloud-sync" | "cloud-upload" | "cloud" | "coffee-maker-check" | "coffee-maker" | "coffee-off" | "coffee-to-go" | "coffee" | "cog-off" | "cog-pause" | "cog-play" | "cog-refresh" | "cog-stop" | "cog-sync" | "cog-transfer" | "cog" | "collapse-all" | "comma-box" | "comma-circle" | "comment-account" | "comment-alert" | "comment-arrow-left" | "comment-arrow-right" | "comment-bookmark" | "comment-check" | "comment-edit" | "comment-eye" | "comment-flash" | "comment-minus" | "comment-multiple" | "comment-off" | "comment-plus" | "comment-processing" | "comment-question" | "comment-quote" | "comment-remove" | "comment-search" | "comment-text-multiple" | "comment-text" | "comment" | "compass-off" | "compass" | "console-network" | "contactless-payment-circle" | "contacts" | "content-save-alert" | "content-save-all" | "content-save-check" | "content-save-cog" | "content-save-edit" | "content-save-minus" | "content-save-move" | "content-save-off" | "content-save-plus" | "content-save-settings" | "content-save" | "controller-classic" | "cookie-alert" | "cookie-check" | "cookie-clock" | "cookie-cog" | "cookie-edit" | "cookie-lock" | "cookie-minus" | "cookie-off" | "cookie-plus" | "cookie-refresh" | "cookie-remove" | "cookie-settings" | "cookie" | "countertop" | "cradle" | "credit-card-check" | "credit-card-chip" | "credit-card-clock" | "credit-card-edit" | "credit-card-fast" | "credit-card-lock" | "credit-card-marker" | "credit-card-minus" | "credit-card-multiple" | "credit-card-off" | "credit-card-plus" | "credit-card-refresh" | "credit-card-refund" | "credit-card-remove" | "credit-card-scan" | "credit-card-search" | "credit-card-settings" | "credit-card-sync" | "credit-card-wireless-off" | "credit-card-wireless" | "credit-card" | "cross" | "crown-circle" | "crown" | "cube-off" | "cube" | "cup-off" | "cup" | "cupboard" | "cursor-default-click" | "cursor-default-gesture" | "cursor-default" | "database-alert" | "database-arrow-down" | "database-arrow-left" | "database-arrow-right" | "database-arrow-up" | "database-check" | "database-clock" | "database-cog" | "database-edit" | "database-export" | "database-eye-off" | "database-eye" | "database-import" | "database-lock" | "database-marker" | "database-minus" | "database-off" | "database-plus" | "database-refresh" | "database-remove" | "database-search" | "database-settings" | "database-sync" | "database" | "decagram" | "delete-alert" | "delete-circle" | "delete-clock" | "delete-empty" | "delete-forever" | "delete-off" | "delete-sweep" | "delete" | "diameter" | "diamond" | "dice-1" | "dice-2" | "dice-3" | "dice-4" | "dice-5" | "dice-6" | "dice-d10" | "dice-d12" | "dice-d20" | "dice-d4" | "dice-d6" | "dice-d8" | "dice-multiple" | "dns" | "dots-horizontal-circle" | "dots-vertical-circle" | "download-box" | "download-circle" | "download-lock" | "download-network" | "download-off" | "download" | "dresser" | "earbuds-off" | "earbuds" | "egg-off" | "egg" | "eject-circle" | "eject" | "elevator-passenger-off" | "elevator-passenger" | "ellipse" | "email-alert" | "email-check" | "email-edit" | "email-fast" | "email-minus" | "email-multiple" | "email-off" | "email-open-multiple" | "email-open" | "email-plus" | "email-receive" | "email-remove" | "email-seal" | "email-search" | "email-send" | "email-sync" | "email" | "emoticon-angry" | "emoticon-confused" | "emoticon-cool" | "emoticon-cry" | "emoticon-dead" | "emoticon-devil" | "emoticon-excited" | "emoticon-frown" | "emoticon-happy" | "emoticon-kiss" | "emoticon-lol" | "emoticon-neutral" | "emoticon-poop" | "emoticon-sad" | "emoticon-sick" | "emoticon-tongue" | "emoticon-wink" | "emoticon" | "engine-off" | "engine" | "equalizer" | "expand-all" | "eye-arrow-left" | "eye-arrow-right" | "eye-check" | "eye-circle" | "eye-minus" | "eye-off" | "eye-plus" | "eye-refresh" | "eye-remove" | "eye-settings" | "eye" | "face-man-shimmer" | "face-man" | "face-mask" | "face-woman-shimmer" | "face-woman" | "fast-forward" | "feature-search" | "file-account" | "file-alert" | "file-arrow-left-right" | "file-arrow-up-down" | "file-cancel" | "file-certificate" | "file-chart-check" | "file-chart" | "file-check" | "file-clock" | "file-cloud" | "file-code" | "file-cog" | "file-delimited" | "file-document-alert" | "file-document-check" | "file-document-edit" | "file-document-minus" | "file-document-multiple" | "file-document-plus" | "file-document-remove" | "file-document" | "file-download" | "file-edit" | "file-excel-box" | "file-excel" | "file-export" | "file-eye" | "file-find" | "file-image-marker" | "file-image-minus" | "file-image-plus" | "file-image-remove" | "file-image" | "file-import" | "file-key" | "file-link" | "file-lock-open" | "file-lock" | "file-marker" | "file-minus" | "file-move" | "file-multiple" | "file-music" | "file-percent" | "file-phone" | "file-plus" | "file-powerpoint-box" | "file-powerpoint" | "file-question" | "file-refresh" | "file-remove" | "file-replace" | "file-restore" | "file-rotate-left" | "file-rotate-right" | "file-search" | "file-send" | "file-settings" | "file-star" | "file-swap" | "file-sync" | "file-table-box-multiple" | "file-table-box" | "file-table" | "file-tree" | "file-undo" | "file-upload" | "file-video" | "file-word-box" | "file-word" | "file" | "filter-check" | "filter-cog" | "filter-menu" | "filter-minus" | "filter-multiple" | "filter-off" | "filter-plus" | "filter-remove" | "filter-settings" | "filter" | "fishbowl" | "fit-to-page" | "fit-to-screen" | "flag-minus" | "flag-off" | "flag-plus" | "flag-remove" | "flag-variant" | "flag" | "flash-alert" | "flash-off" | "flash-triangle" | "flash" | "flask-empty-minus" | "flask-empty-off" | "flask-empty-plus" | "flask-empty-remove" | "flask-empty" | "flask-minus" | "flask-off" | "flask-plus" | "flask-remove" | "flask-round-bottom-empty" | "flask-round-bottom" | "flask" | "floor-lamp-dual" | "floor-lamp-torchiere-variant" | "floor-lamp-torchiere" | "floor-lamp" | "flower-pollen" | "flower-tulip" | "flower" | "folder-account" | "folder-alert" | "folder-arrow-down" | "folder-arrow-left-right" | "folder-arrow-left" | "folder-arrow-right" | "folder-arrow-up-down" | "folder-arrow-up" | "folder-cancel" | "folder-check" | "folder-clock" | "folder-cog" | "folder-download" | "folder-edit" | "folder-eye" | "folder-file" | "folder-heart" | "folder-home" | "folder-information" | "folder-key-network" | "folder-key" | "folder-lock-open" | "folder-lock" | "folder-marker" | "folder-minus" | "folder-move" | "folder-multiple-plus" | "folder-multiple" | "folder-music" | "folder-network" | "folder-off" | "folder-open" | "folder-play" | "folder-plus" | "folder-pound" | "folder-question" | "folder-refresh" | "folder-remove" | "folder-search" | "folder-settings" | "folder-star-multiple" | "folder-star" | "folder-swap" | "folder-sync" | "folder-table" | "folder-text" | "folder-upload" | "folder-wrench" | "folder-zip" | "folder" | "food-apple" | "food-drumstick-off" | "food-drumstick" | "food-off" | "food-takeout-box" | "food" | "format-quote-close" | "format-quote-open" | "format-text-variant" | "forum-minus" | "forum-plus" | "forum-remove" | "forum" | "fridge-alert" | "fridge-industrial-alert" | "fridge-industrial-off" | "fridge-industrial" | "fridge-off" | "fridge-variant-alert" | "fridge-variant-off" | "fridge-variant" | "fridge" | "fruit-grapes" | "gamepad-circle" | "gamepad-round" | "gamepad-square" | "gamepad-variant" | "gamepad" | "gas-station-off" | "gas-station" | "ghost-off" | "ghost" | "gift-off" | "gift-open" | "gift" | "glass-pint" | "graph" | "grill" | "guitar-pick" | "hair-dryer" | "hand-back-left-off" | "hand-back-left" | "hand-back-right-off" | "hand-back-right" | "hand-coin" | "hand-extended" | "hand-front-left" | "hand-front-right" | "hand-heart" | "hand-wash" | "hand-wave" | "handshake" | "head-alert" | "head-check" | "head-cog" | "head-dots-horizontal" | "head-flash" | "head-heart" | "head-lightbulb" | "head-minus" | "head-plus" | "head-question" | "head-remove" | "head-snowflake" | "head-sync" | "head" | "heart-box" | "heart-broken" | "heart-circle" | "heart-cog" | "heart-half" | "heart-minus" | "heart-multiple" | "heart-off" | "heart-plus" | "heart-remove" | "heart-settings" | "heart" | "heat-pump" | "help-circle" | "help-network" | "help-rhombus" | "hexagon-multiple" | "hexagon" | "hexagram" | "home-alert" | "home-battery" | "home-circle" | "home-city" | "home-clock" | "home-edit" | "home-export" | "home-import" | "home-lightbulb" | "home-lightning-bolt" | "home-minus" | "home-off" | "home-plus" | "home-remove" | "home-search" | "home-switch" | "home-thermometer" | "home-variant" | "home" | "hospital-box" | "image-check" | "image-edit" | "image-filter-center-focus-strong" | "image-lock" | "image-marker" | "image-minus" | "image-multiple" | "image-off" | "image-plus" | "image-refresh" | "image-remove" | "image-search" | "image-sync" | "image" | "inbox-arrow-down" | "inbox-arrow-up" | "inbox-full" | "inbox-multiple" | "inbox-remove" | "inbox" | "information-off" | "information" | "ip-network" | "ip" | "iron" | "jellyfish" | "kettle-alert" | "kettle-off" | "kettle-steam" | "kettle" | "key-alert" | "key" | "keyboard-off" | "keyboard-settings" | "keyboard" | "kite" | "label-multiple" | "label-off" | "label-percent" | "label-variant" | "label" | "lamp" | "lamps" | "landslide" | "language-markdown" | "layers-off" | "layers-search" | "layers-triple" | "layers" | "leaf-circle" | "led-variant" | "led" | "library" | "lightbulb-alert" | "lightbulb-auto" | "lightbulb-fluorescent-tube" | "lightbulb-group-off" | "lightbulb-group" | "lightbulb-multiple-off" | "lightbulb-multiple" | "lightbulb-night" | "lightbulb-off" | "lightbulb-on" | "lightbulb-question" | "lightbulb-variant" | "lightbulb" | "lightning-bolt" | "link-box-variant" | "link-box" | "lock-alert" | "lock-check" | "lock-minus" | "lock-off" | "lock-open-alert" | "lock-open-check" | "lock-open-minus" | "lock-open-plus" | "lock-open-remove" | "lock-open-variant" | "lock-open" | "lock-plus" | "lock-remove" | "lock" | "lotion-plus" | "lotion" | "magnify-minus" | "magnify-plus" | "magnify-remove" | "mailbox-open-up" | "mailbox-open" | "mailbox-up" | "mailbox" | "map-check" | "map-clock" | "map-marker-account" | "map-marker-alert" | "map-marker-check" | "map-marker-left" | "map-marker-minus" | "map-marker-multiple" | "map-marker-off" | "map-marker-plus" | "map-marker-question" | "map-marker-radius" | "map-marker-remove" | "map-marker-right" | "map-marker-star" | "map-marker" | "map-search" | "map" | "medal" | "medication" | "menu-down" | "menu-left" | "menu-right" | "menu-swap" | "menu-up" | "message-alert" | "message-arrow-left" | "message-arrow-right" | "message-badge" | "message-bookmark" | "message-cog" | "message-fast" | "message-flash" | "message-image" | "message-lock" | "message-minus" | "message-off" | "message-plus" | "message-processing" | "message-question" | "message-reply-text" | "message-reply" | "message-settings" | "message-star" | "message-text-clock" | "message-text-fast" | "message-text-lock" | "message-text" | "message" | "meter-electric" | "meter-gas" | "microphone-question" | "microphone" | "middleware" | "minus-box-multiple" | "minus-box" | "minus-circle-multiple" | "minus-circle-off" | "minus-circle" | "minus-network" | "moped-electric" | "moped" | "motion-pause" | "motion-play" | "motion" | "movie-check" | "movie-cog" | "movie-edit" | "movie-filter" | "movie-minus" | "movie-off" | "movie-open-check" | "movie-open-cog" | "movie-open-edit" | "movie-open-minus" | "movie-open-off" | "movie-open-play" | "movie-open-plus" | "movie-open-remove" | "movie-open-settings" | "movie-open-star" | "movie-open" | "movie-play" | "movie-plus" | "movie-remove" | "movie-search" | "movie-settings" | "movie-star" | "movie" | "mushroom-off" | "mushroom" | "music-box-multiple" | "music-box" | "music-circle" | "music-note-off" | "music-note" | "navigation-variant" | "navigation" | "network-off" | "network-strength-off" | "network-strength" | "network" | "newspaper-variant-multiple" | "newspaper-variant" | "note-alert" | "note-check" | "note-edit" | "note-minus" | "note-multiple" | "note-off" | "note-plus" | "note-remove" | "note-search" | "note-text" | "note" | "notebook-check" | "notebook-edit" | "notebook-heart" | "notebook-minus" | "notebook-plus" | "notebook-remove" | "notebook" | "numeric-0-box-multiple" | "numeric-0-box" | "numeric-0-circle" | "numeric-1-box-multiple" | "numeric-1-box" | "numeric-1-circle" | "numeric-10-box-multiple" | "numeric-10-box" | "numeric-10-circle" | "numeric-2-box-multiple" | "numeric-2-box" | "numeric-2-circle" | "numeric-3-box-multiple" | "numeric-3-box" | "numeric-3-circle" | "numeric-4-box-multiple" | "numeric-4-box" | "numeric-4-circle" | "numeric-5-box-multiple" | "numeric-5-box" | "numeric-5-circle" | "numeric-6-box-multiple" | "numeric-6-box" | "numeric-6-circle" | "numeric-7-box-multiple" | "numeric-7-box" | "numeric-7-circle" | "numeric-8-box-multiple" | "numeric-8-box" | "numeric-8-circle" | "numeric-9-box-multiple" | "numeric-9-box" | "numeric-9-circle" | "numeric-9-plus-box-multiple" | "numeric-9-plus-box" | "numeric-9-plus-circle" | "octagon" | "octagram" | "office-building-cog" | "office-building-marker" | "office-building" | "page-next" | "page-previous" | "pail-minus" | "pail-off" | "pail-plus" | "pail-remove" | "pail" | "palette-swatch" | "palette" | "panorama-horizontal" | "panorama-sphere" | "panorama-variant" | "panorama-vertical" | "panorama-wide-angle" | "panorama" | "paper-roll" | "parachute" | "pause-circle" | "pause-octagon" | "paw-off" | "paw" | "peanut-off" | "peanut" | "pencil-box-multiple" | "pencil-box" | "pencil-circle" | "pencil-lock" | "pencil-minus" | "pencil-off" | "pencil-plus" | "pencil-remove" | "pencil" | "pentagon" | "percent-box" | "percent-circle" | "percent" | "phone-alert" | "phone-bluetooth" | "phone-cancel" | "phone-check" | "phone-dial" | "phone-forward" | "phone-hangup" | "phone-in-talk" | "phone-incoming-outgoing" | "phone-incoming" | "phone-lock" | "phone-log" | "phone-message" | "phone-minus" | "phone-missed" | "phone-off" | "phone-outgoing" | "phone-paused" | "phone-plus" | "phone-refresh" | "phone-remove" | "phone-return" | "phone-ring" | "phone-settings" | "phone-sync" | "phone" | "picture-in-picture-bottom-right" | "picture-in-picture-top-right" | "pig-variant" | "piggy-bank" | "pin-off" | "pin" | "pinwheel" | "play-box-lock-open" | "play-box-lock" | "play-box-multiple" | "play-box" | "play-circle" | "play-network" | "play" | "playlist-music" | "plus-box-multiple" | "plus-box" | "plus-circle-multiple" | "plus-circle" | "plus-network" | "plus" | "police-badge" | "post" | "pot-mix" | "pot-steam" | "pot" | "pound-box" | "power-plug-off" | "power-plug" | "printer-3d-nozzle-alert" | "printer-3d-nozzle-heat" | "printer-3d-nozzle-off" | "printer-3d-nozzle" | "printer-off" | "printer" | "projector-screen-off" | "projector-screen-variant-off" | "projector-screen-variant" | "projector-screen" | "propane-tank" | "purse" | "puzzle-check" | "puzzle-edit" | "puzzle-heart" | "puzzle-minus" | "puzzle-plus" | "puzzle-remove" | "puzzle-star" | "puzzle" | "rabbit-variant" | "radioactive-circle" | "radiology-box" | "radius" | "receipt-text-check" | "receipt-text-minus" | "receipt-text-plus" | "receipt-text-remove" | "receipt" | "record-circle" | "rectangle" | "reply-all" | "reply" | "rewind" | "rhombus-medium" | "rhombus-split" | "rhombus" | "robot-angry" | "robot-confused" | "robot-dead" | "robot-excited" | "robot-happy" | "robot-industrial" | "robot-love" | "robot-mower" | "robot-off" | "robot" | "rocket-launch" | "rocket" | "rolodex" | "room-service" | "safe-square" | "sale" | "scatter-plot" | "school" | "scoreboard" | "script-text-key" | "script-text-play" | "script-text" | "script" | "seat" | "seed-off" | "seed-plus" | "seed" | "send-check" | "send-circle" | "send-clock" | "send-lock" | "send" | "shaker" | "shape" | "share-all" | "share-off" | "share-variant" | "share" | "shark-fin" | "shield-account-variant" | "shield-account" | "shield-airplane" | "shield-alert" | "shield-bug" | "shield-check" | "shield-cross" | "shield-crown" | "shield-edit" | "shield-home" | "shield-key" | "shield-link-variant" | "shield-lock-open" | "shield-lock" | "shield-moon" | "shield-off" | "shield-plus" | "shield-refresh" | "shield-remove" | "shield-star" | "shield-sun" | "shield-sword" | "shield-sync" | "shield" | "shopping-search" | "shopping" | "sign-language" | "signal-cellular" | "sim-alert" | "sim-off" | "sim" | "sitemap" | "skip-backward" | "skip-forward" | "skip-next-circle" | "skip-next" | "skip-previous-circle" | "skip-previous" | "skull-crossbones" | "skull-scan" | "skull" | "slot-machine" | "smart-card-off" | "smart-card-reader" | "smart-card" | "smoke-detector-alert" | "smoke-detector-off" | "smoke-detector" | "sofa-single" | "sofa" | "solar-power-variant" | "sort-clock-ascending" | "sort-clock-descending" | "spa" | "sprout" | "square-edit" | "square-medium" | "square-off" | "square-rounded-badge" | "square-rounded" | "square" | "stadium" | "star-box-multiple" | "star-box" | "star-check" | "star-circle" | "star-cog" | "star-four-points" | "star-minus" | "star-off" | "star-plus" | "star-remove" | "star-settings" | "star-shooting" | "star-three-points" | "star" | "sticker-alert" | "sticker-check" | "sticker-circle" | "sticker-minus" | "sticker-plus" | "sticker-remove" | "sticker-text" | "sticker" | "stool" | "stop-circle" | "storage-tank" | "store-alert" | "store-check" | "store-clock" | "store-cog" | "store-edit" | "store-marker" | "store-minus" | "store-off" | "store-plus" | "store-remove" | "store-search" | "store-settings" | "store" | "storefront" | "stretch-to-page" | "subtitles" | "sun-angle" | "sun-clock" | "sun-thermometer" | "sun-wireless" | "swap-horizontal-circle" | "swap-vertical-circle" | "synagogue" | "tag-arrow-down" | "tag-arrow-left" | "tag-arrow-right" | "tag-arrow-up" | "tag-check" | "tag-heart" | "tag-minus" | "tag-multiple" | "tag-off" | "tag-plus" | "tag-remove" | "tag-search" | "tag-text" | "tag" | "tea" | "temple-buddhist" | "temple-hindu" | "text-box-check" | "text-box-edit" | "text-box-minus" | "text-box-multiple" | "text-box-plus" | "text-box-remove" | "text-box-search" | "text-box" | "thought-bubble" | "thumb-down" | "thumb-up" | "thumbs-up-down" | "ticket-confirmation" | "ticket-percent" | "ticket" | "timeline-alert" | "timeline-check" | "timeline-clock" | "timeline-help" | "timeline-minus" | "timeline-plus" | "timeline-remove" | "timeline-text" | "timeline" | "timer-alert" | "timer-cancel" | "timer-check" | "timer-cog" | "timer-edit" | "timer-lock-open" | "timer-lock" | "timer-marker" | "timer-minus" | "timer-music" | "timer-off" | "timer-pause" | "timer-play" | "timer-plus" | "timer-refresh" | "timer-remove" | "timer-settings" | "timer-star" | "timer-stop" | "timer-sync" | "timer" | "toggle-switch-off" | "toggle-switch" | "toolbox" | "tooltip-check" | "tooltip-edit" | "tooltip-image" | "tooltip-minus" | "tooltip-plus" | "tooltip-remove" | "tooltip-text" | "tooltip" | "tooth" | "toy-brick-marker" | "toy-brick-minus" | "toy-brick-plus" | "toy-brick-remove" | "toy-brick-search" | "toy-brick" | "traffic-light" | "trash-can" | "tree" | "triangle" | "trophy-variant" | "trophy" | "truck-alert" | "truck-check" | "truck-delivery" | "truck-fast" | "truck-minus" | "truck-plus" | "truck-remove" | "truck" | "tshirt-crew" | "tshirt-v" | "tunnel" | "turnstile" | "ufo" | "umbrella-beach" | "umbrella-closed" | "umbrella" | "upload-lock" | "upload-network" | "upload-off" | "upload" | "usb-flash-drive" | "vacuum" | "video-check" | "video-marker" | "video-minus" | "video-off" | "video-plus" | "video-switch" | "video-wireless" | "video" | "view-agenda" | "view-array" | "view-carousel" | "view-column" | "view-comfy" | "view-compact" | "view-dashboard-edit" | "view-dashboard-variant" | "view-dashboard" | "view-day" | "view-gallery" | "view-grid-plus" | "view-grid" | "view-list" | "view-module" | "view-parallel" | "view-quilt" | "view-sequential" | "view-stream" | "view-week" | "virus-off" | "virus" | "volcano" | "vote" | "wall-sconce-flat-variant" | "wall-sconce-flat" | "wall-sconce-round-variant" | "wall-sconce-round" | "wall-sconce" | "wallet-plus" | "wallet" | "wardrobe" | "water-alert" | "water-check" | "water-minus" | "water-off" | "water-plus" | "water-remove" | "water-thermometer" | "water-well" | "water" | "watering-can" | "whistle" | "widgets" | "wifi-strength-alert" | "wifi-strength-lock-open" | "wifi-strength-lock" | "wifi-strength-off" | "wifi-strength" | "wind-power" | "wrench" | "zip-box";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -1654,6 +1748,7 @@ export const map: IconsMapType<IconNames> = {
 "account-arrow-left": SVG_accountArrowLeft,
 "account-arrow-right": SVG_accountArrowRight,
 "account-arrow-up": SVG_accountArrowUp,
+"account-badge": SVG_accountBadge,
 "account-box-multiple": SVG_accountBoxMultiple,
 "account-box": SVG_accountBox,
 "account-cancel": SVG_accountCancel,
@@ -1683,6 +1778,7 @@ export const map: IconsMapType<IconNames> = {
 "account-multiple-remove": SVG_accountMultipleRemove,
 "account-multiple": SVG_accountMultiple,
 "account-music": SVG_accountMusic,
+"account-network-off": SVG_accountNetworkOff,
 "account-network": SVG_accountNetwork,
 "account-off": SVG_accountOff,
 "account-plus": SVG_accountPlus,
@@ -1861,6 +1957,7 @@ export const map: IconsMapType<IconNames> = {
 "badge-account-horizontal": SVG_badgeAccountHorizontal,
 "badge-account": SVG_badgeAccount,
 "bag-personal-off": SVG_bagPersonalOff,
+"bag-personal-tag": SVG_bagPersonalTag,
 "bag-personal": SVG_bagPersonal,
 "bag-suitcase-off": SVG_bagSuitcaseOff,
 "bag-suitcase": SVG_bagSuitcase,
@@ -1868,6 +1965,7 @@ export const map: IconsMapType<IconNames> = {
 "ballot": SVG_ballot,
 "bank-off": SVG_bankOff,
 "bank": SVG_bank,
+"barrel": SVG_barrel,
 "baseball-diamond": SVG_baseballDiamond,
 "basket-check": SVG_basketCheck,
 "basket-minus": SVG_basketMinus,
@@ -1911,6 +2009,7 @@ export const map: IconsMapType<IconNames> = {
 "bell-cancel": SVG_bellCancel,
 "bell-check": SVG_bellCheck,
 "bell-circle": SVG_bellCircle,
+"bell-cog": SVG_bellCog,
 "bell-minus": SVG_bellMinus,
 "bell-off": SVG_bellOff,
 "bell-plus": SVG_bellPlus,
@@ -1976,6 +2075,8 @@ export const map: IconsMapType<IconNames> = {
 "bowl": SVG_bowl,
 "bread-slice": SVG_breadSlice,
 "briefcase-account": SVG_briefcaseAccount,
+"briefcase-arrow-left-right": SVG_briefcaseArrowLeftRight,
+"briefcase-arrow-up-down": SVG_briefcaseArrowUpDown,
 "briefcase-check": SVG_briefcaseCheck,
 "briefcase-clock": SVG_briefcaseClock,
 "briefcase-download": SVG_briefcaseDownload,
@@ -1993,6 +2094,9 @@ export const map: IconsMapType<IconNames> = {
 "brush": SVG_brush,
 "bucket": SVG_bucket,
 "bug-check": SVG_bugCheck,
+"bug-pause": SVG_bugPause,
+"bug-play": SVG_bugPlay,
+"bug-stop": SVG_bugStop,
 "bug": SVG_bug,
 "bullhorn-variant": SVG_bullhornVariant,
 "bullhorn": SVG_bullhorn,
@@ -2004,13 +2108,18 @@ export const map: IconsMapType<IconNames> = {
 "calendar-blank": SVG_calendarBlank,
 "calendar-check": SVG_calendarCheck,
 "calendar-clock": SVG_calendarClock,
+"calendar-filter": SVG_calendarFilter,
 "calendar-lock": SVG_calendarLock,
 "calendar-month": SVG_calendarMonth,
 "calendar-range": SVG_calendarRange,
 "calendar-refresh": SVG_calendarRefresh,
 "calendar-remove": SVG_calendarRemove,
+"calendar-star": SVG_calendarStar,
 "calendar-sync": SVG_calendarSync,
 "calendar-text": SVG_calendarText,
+"calendar-today": SVG_calendarToday,
+"calendar-week-begin": SVG_calendarWeekBegin,
+"calendar-week": SVG_calendarWeek,
 "calendar-weekend": SVG_calendarWeekend,
 "calendar": SVG_calendar,
 "camera-enhance": SVG_cameraEnhance,
@@ -2102,6 +2211,7 @@ export const map: IconsMapType<IconNames> = {
 "chili-medium": SVG_chiliMedium,
 "chili-mild": SVG_chiliMild,
 "chili-off": SVG_chiliOff,
+"church": SVG_church,
 "circle-box": SVG_circleBox,
 "circle-edit": SVG_circleEdit,
 "circle-multiple": SVG_circleMultiple,
@@ -2168,6 +2278,7 @@ export const map: IconsMapType<IconNames> = {
 "cloud-download": SVG_cloudDownload,
 "cloud-lock": SVG_cloudLock,
 "cloud-off": SVG_cloudOff,
+"cloud-percent": SVG_cloudPercent,
 "cloud-print": SVG_cloudPrint,
 "cloud-search": SVG_cloudSearch,
 "cloud-sync": SVG_cloudSync,
@@ -2220,8 +2331,10 @@ export const map: IconsMapType<IconNames> = {
 "content-save-check": SVG_contentSaveCheck,
 "content-save-cog": SVG_contentSaveCog,
 "content-save-edit": SVG_contentSaveEdit,
+"content-save-minus": SVG_contentSaveMinus,
 "content-save-move": SVG_contentSaveMove,
 "content-save-off": SVG_contentSaveOff,
+"content-save-plus": SVG_contentSavePlus,
 "content-save-settings": SVG_contentSaveSettings,
 "content-save": SVG_contentSave,
 "controller-classic": SVG_controllerClassic,
@@ -2334,6 +2447,7 @@ export const map: IconsMapType<IconNames> = {
 "earbuds": SVG_earbuds,
 "egg-off": SVG_eggOff,
 "egg": SVG_egg,
+"eject-circle": SVG_ejectCircle,
 "eject": SVG_eject,
 "elevator-passenger-off": SVG_elevatorPassengerOff,
 "elevator-passenger": SVG_elevatorPassenger,
@@ -2397,6 +2511,8 @@ export const map: IconsMapType<IconNames> = {
 "feature-search": SVG_featureSearch,
 "file-account": SVG_fileAccount,
 "file-alert": SVG_fileAlert,
+"file-arrow-left-right": SVG_fileArrowLeftRight,
+"file-arrow-up-down": SVG_fileArrowUpDown,
 "file-cancel": SVG_fileCancel,
 "file-certificate": SVG_fileCertificate,
 "file-chart-check": SVG_fileChartCheck,
@@ -2407,8 +2523,13 @@ export const map: IconsMapType<IconNames> = {
 "file-code": SVG_fileCode,
 "file-cog": SVG_fileCog,
 "file-delimited": SVG_fileDelimited,
+"file-document-alert": SVG_fileDocumentAlert,
+"file-document-check": SVG_fileDocumentCheck,
 "file-document-edit": SVG_fileDocumentEdit,
+"file-document-minus": SVG_fileDocumentMinus,
 "file-document-multiple": SVG_fileDocumentMultiple,
+"file-document-plus": SVG_fileDocumentPlus,
+"file-document-remove": SVG_fileDocumentRemove,
 "file-document": SVG_fileDocument,
 "file-download": SVG_fileDownload,
 "file-edit": SVG_fileEdit,
@@ -2428,6 +2549,7 @@ export const map: IconsMapType<IconNames> = {
 "file-lock-open": SVG_fileLockOpen,
 "file-lock": SVG_fileLock,
 "file-marker": SVG_fileMarker,
+"file-minus": SVG_fileMinus,
 "file-move": SVG_fileMove,
 "file-multiple": SVG_fileMultiple,
 "file-music": SVG_fileMusic,
@@ -2441,6 +2563,8 @@ export const map: IconsMapType<IconNames> = {
 "file-remove": SVG_fileRemove,
 "file-replace": SVG_fileReplace,
 "file-restore": SVG_fileRestore,
+"file-rotate-left": SVG_fileRotateLeft,
+"file-rotate-right": SVG_fileRotateRight,
 "file-search": SVG_fileSearch,
 "file-send": SVG_fileSend,
 "file-settings": SVG_fileSettings,
@@ -2458,11 +2582,14 @@ export const map: IconsMapType<IconNames> = {
 "file-word": SVG_fileWord,
 "file": SVG_file,
 "filter-check": SVG_filterCheck,
+"filter-cog": SVG_filterCog,
 "filter-menu": SVG_filterMenu,
 "filter-minus": SVG_filterMinus,
+"filter-multiple": SVG_filterMultiple,
 "filter-off": SVG_filterOff,
 "filter-plus": SVG_filterPlus,
 "filter-remove": SVG_filterRemove,
+"filter-settings": SVG_filterSettings,
 "filter": SVG_filter,
 "fishbowl": SVG_fishbowl,
 "fit-to-page": SVG_fitToPage,
@@ -2474,6 +2601,8 @@ export const map: IconsMapType<IconNames> = {
 "flag-variant": SVG_flagVariant,
 "flag": SVG_flag,
 "flash-alert": SVG_flashAlert,
+"flash-off": SVG_flashOff,
+"flash-triangle": SVG_flashTriangle,
 "flash": SVG_flash,
 "flask-empty-minus": SVG_flaskEmptyMinus,
 "flask-empty-off": SVG_flaskEmptyOff,
@@ -2515,7 +2644,10 @@ export const map: IconsMapType<IconNames> = {
 "folder-information": SVG_folderInformation,
 "folder-key-network": SVG_folderKeyNetwork,
 "folder-key": SVG_folderKey,
+"folder-lock-open": SVG_folderLockOpen,
+"folder-lock": SVG_folderLock,
 "folder-marker": SVG_folderMarker,
+"folder-minus": SVG_folderMinus,
 "folder-move": SVG_folderMove,
 "folder-multiple-plus": SVG_folderMultiplePlus,
 "folder-multiple": SVG_folderMultiple,
@@ -2550,6 +2682,9 @@ export const map: IconsMapType<IconNames> = {
 "format-quote-close": SVG_formatQuoteClose,
 "format-quote-open": SVG_formatQuoteOpen,
 "format-text-variant": SVG_formatTextVariant,
+"forum-minus": SVG_forumMinus,
+"forum-plus": SVG_forumPlus,
+"forum-remove": SVG_forumRemove,
 "forum": SVG_forum,
 "fridge-alert": SVG_fridgeAlert,
 "fridge-industrial-alert": SVG_fridgeIndustrialAlert,
@@ -2616,6 +2751,7 @@ export const map: IconsMapType<IconNames> = {
 "heart-remove": SVG_heartRemove,
 "heart-settings": SVG_heartSettings,
 "heart": SVG_heart,
+"heat-pump": SVG_heatPump,
 "help-circle": SVG_helpCircle,
 "help-network": SVG_helpNetwork,
 "help-rhombus": SVG_helpRhombus,
@@ -2633,6 +2769,7 @@ export const map: IconsMapType<IconNames> = {
 "home-lightbulb": SVG_homeLightbulb,
 "home-lightning-bolt": SVG_homeLightningBolt,
 "home-minus": SVG_homeMinus,
+"home-off": SVG_homeOff,
 "home-plus": SVG_homePlus,
 "home-remove": SVG_homeRemove,
 "home-search": SVG_homeSearch,
@@ -2641,12 +2778,17 @@ export const map: IconsMapType<IconNames> = {
 "home-variant": SVG_homeVariant,
 "home": SVG_home,
 "hospital-box": SVG_hospitalBox,
+"image-check": SVG_imageCheck,
 "image-edit": SVG_imageEdit,
 "image-filter-center-focus-strong": SVG_imageFilterCenterFocusStrong,
+"image-lock": SVG_imageLock,
 "image-marker": SVG_imageMarker,
+"image-minus": SVG_imageMinus,
 "image-multiple": SVG_imageMultiple,
 "image-off": SVG_imageOff,
+"image-plus": SVG_imagePlus,
 "image-refresh": SVG_imageRefresh,
+"image-remove": SVG_imageRemove,
 "image-search": SVG_imageSearch,
 "image-sync": SVG_imageSync,
 "image": SVG_image,
@@ -2679,6 +2821,7 @@ export const map: IconsMapType<IconNames> = {
 "label": SVG_label,
 "lamp": SVG_lamp,
 "lamps": SVG_lamps,
+"landslide": SVG_landslide,
 "language-markdown": SVG_languageMarkdown,
 "layers-off": SVG_layersOff,
 "layers-search": SVG_layersSearch,
@@ -2695,6 +2838,7 @@ export const map: IconsMapType<IconNames> = {
 "lightbulb-group": SVG_lightbulbGroup,
 "lightbulb-multiple-off": SVG_lightbulbMultipleOff,
 "lightbulb-multiple": SVG_lightbulbMultiple,
+"lightbulb-night": SVG_lightbulbNight,
 "lightbulb-off": SVG_lightbulbOff,
 "lightbulb-on": SVG_lightbulbOn,
 "lightbulb-question": SVG_lightbulbQuestion,
@@ -2745,6 +2889,7 @@ export const map: IconsMapType<IconNames> = {
 "map-search": SVG_mapSearch,
 "map": SVG_map,
 "medal": SVG_medal,
+"medication": SVG_medication,
 "menu-down": SVG_menuDown,
 "menu-left": SVG_menuLeft,
 "menu-right": SVG_menuRight,
@@ -2774,6 +2919,8 @@ export const map: IconsMapType<IconNames> = {
 "message-text-lock": SVG_messageTextLock,
 "message-text": SVG_messageText,
 "message": SVG_message,
+"meter-electric": SVG_meterElectric,
+"meter-gas": SVG_meterGas,
 "microphone-question": SVG_microphoneQuestion,
 "microphone": SVG_microphone,
 "middleware": SVG_middleware,
@@ -2930,6 +3077,7 @@ export const map: IconsMapType<IconNames> = {
 "phone-forward": SVG_phoneForward,
 "phone-hangup": SVG_phoneHangup,
 "phone-in-talk": SVG_phoneInTalk,
+"phone-incoming-outgoing": SVG_phoneIncomingOutgoing,
 "phone-incoming": SVG_phoneIncoming,
 "phone-lock": SVG_phoneLock,
 "phone-log": SVG_phoneLog,
@@ -2978,6 +3126,7 @@ export const map: IconsMapType<IconNames> = {
 "power-plug": SVG_powerPlug,
 "printer-3d-nozzle-alert": SVG_printer_3dNozzleAlert,
 "printer-3d-nozzle-heat": SVG_printer_3dNozzleHeat,
+"printer-3d-nozzle-off": SVG_printer_3dNozzleOff,
 "printer-3d-nozzle": SVG_printer_3dNozzle,
 "printer-off": SVG_printerOff,
 "printer": SVG_printer,
@@ -2995,9 +3144,14 @@ export const map: IconsMapType<IconNames> = {
 "puzzle-remove": SVG_puzzleRemove,
 "puzzle-star": SVG_puzzleStar,
 "puzzle": SVG_puzzle,
+"rabbit-variant": SVG_rabbitVariant,
 "radioactive-circle": SVG_radioactiveCircle,
 "radiology-box": SVG_radiologyBox,
 "radius": SVG_radius,
+"receipt-text-check": SVG_receiptTextCheck,
+"receipt-text-minus": SVG_receiptTextMinus,
+"receipt-text-plus": SVG_receiptTextPlus,
+"receipt-text-remove": SVG_receiptTextRemove,
 "receipt": SVG_receipt,
 "record-circle": SVG_recordCircle,
 "rectangle": SVG_rectangle,
@@ -3019,6 +3173,7 @@ export const map: IconsMapType<IconNames> = {
 "robot": SVG_robot,
 "rocket-launch": SVG_rocketLaunch,
 "rocket": SVG_rocket,
+"rolodex": SVG_rolodex,
 "room-service": SVG_roomService,
 "safe-square": SVG_safeSquare,
 "sale": SVG_sale,
@@ -3031,6 +3186,7 @@ export const map: IconsMapType<IconNames> = {
 "script": SVG_script,
 "seat": SVG_seat,
 "seed-off": SVG_seedOff,
+"seed-plus": SVG_seedPlus,
 "seed": SVG_seed,
 "send-check": SVG_sendCheck,
 "send-circle": SVG_sendCircle,
@@ -3068,7 +3224,9 @@ export const map: IconsMapType<IconNames> = {
 "shield-sword": SVG_shieldSword,
 "shield-sync": SVG_shieldSync,
 "shield": SVG_shield,
+"shopping-search": SVG_shoppingSearch,
 "shopping": SVG_shopping,
+"sign-language": SVG_signLanguage,
 "signal-cellular": SVG_signalCellular,
 "sim-alert": SVG_simAlert,
 "sim-off": SVG_simOff,
@@ -3092,6 +3250,7 @@ export const map: IconsMapType<IconNames> = {
 "smoke-detector": SVG_smokeDetector,
 "sofa-single": SVG_sofaSingle,
 "sofa": SVG_sofa,
+"solar-power-variant": SVG_solarPowerVariant,
 "sort-clock-ascending": SVG_sortClockAscending,
 "sort-clock-descending": SVG_sortClockDescending,
 "spa": SVG_spa,
@@ -3102,6 +3261,7 @@ export const map: IconsMapType<IconNames> = {
 "square-rounded-badge": SVG_squareRoundedBadge,
 "square-rounded": SVG_squareRounded,
 "square": SVG_square,
+"stadium": SVG_stadium,
 "star-box-multiple": SVG_starBoxMultiple,
 "star-box": SVG_starBox,
 "star-check": SVG_starCheck,
@@ -3126,6 +3286,7 @@ export const map: IconsMapType<IconNames> = {
 "sticker": SVG_sticker,
 "stool": SVG_stool,
 "stop-circle": SVG_stopCircle,
+"storage-tank": SVG_storageTank,
 "store-alert": SVG_storeAlert,
 "store-check": SVG_storeCheck,
 "store-clock": SVG_storeClock,
@@ -3142,14 +3303,18 @@ export const map: IconsMapType<IconNames> = {
 "storefront": SVG_storefront,
 "stretch-to-page": SVG_stretchToPage,
 "subtitles": SVG_subtitles,
+"sun-angle": SVG_sunAngle,
+"sun-clock": SVG_sunClock,
 "sun-thermometer": SVG_sunThermometer,
 "sun-wireless": SVG_sunWireless,
 "swap-horizontal-circle": SVG_swapHorizontalCircle,
 "swap-vertical-circle": SVG_swapVerticalCircle,
+"synagogue": SVG_synagogue,
 "tag-arrow-down": SVG_tagArrowDown,
 "tag-arrow-left": SVG_tagArrowLeft,
 "tag-arrow-right": SVG_tagArrowRight,
 "tag-arrow-up": SVG_tagArrowUp,
+"tag-check": SVG_tagCheck,
 "tag-heart": SVG_tagHeart,
 "tag-minus": SVG_tagMinus,
 "tag-multiple": SVG_tagMultiple,
@@ -3160,7 +3325,10 @@ export const map: IconsMapType<IconNames> = {
 "tag-text": SVG_tagText,
 "tag": SVG_tag,
 "tea": SVG_tea,
+"temple-buddhist": SVG_templeBuddhist,
+"temple-hindu": SVG_templeHindu,
 "text-box-check": SVG_textBoxCheck,
+"text-box-edit": SVG_textBoxEdit,
 "text-box-minus": SVG_textBoxMinus,
 "text-box-multiple": SVG_textBoxMultiple,
 "text-box-plus": SVG_textBoxPlus,
@@ -3183,9 +3351,26 @@ export const map: IconsMapType<IconNames> = {
 "timeline-remove": SVG_timelineRemove,
 "timeline-text": SVG_timelineText,
 "timeline": SVG_timeline,
+"timer-alert": SVG_timerAlert,
+"timer-cancel": SVG_timerCancel,
+"timer-check": SVG_timerCheck,
 "timer-cog": SVG_timerCog,
+"timer-edit": SVG_timerEdit,
+"timer-lock-open": SVG_timerLockOpen,
+"timer-lock": SVG_timerLock,
+"timer-marker": SVG_timerMarker,
+"timer-minus": SVG_timerMinus,
+"timer-music": SVG_timerMusic,
 "timer-off": SVG_timerOff,
+"timer-pause": SVG_timerPause,
+"timer-play": SVG_timerPlay,
+"timer-plus": SVG_timerPlus,
+"timer-refresh": SVG_timerRefresh,
+"timer-remove": SVG_timerRemove,
 "timer-settings": SVG_timerSettings,
+"timer-star": SVG_timerStar,
+"timer-stop": SVG_timerStop,
+"timer-sync": SVG_timerSync,
 "timer": SVG_timer,
 "toggle-switch-off": SVG_toggleSwitchOff,
 "toggle-switch": SVG_toggleSwitch,
@@ -3263,6 +3448,7 @@ export const map: IconsMapType<IconNames> = {
 "view-week": SVG_viewWeek,
 "virus-off": SVG_virusOff,
 "virus": SVG_virus,
+"volcano": SVG_volcano,
 "vote": SVG_vote,
 "wall-sconce-flat-variant": SVG_wallSconceFlatVariant,
 "wall-sconce-flat": SVG_wallSconceFlat,
@@ -3278,6 +3464,7 @@ export const map: IconsMapType<IconNames> = {
 "water-off": SVG_waterOff,
 "water-plus": SVG_waterPlus,
 "water-remove": SVG_waterRemove,
+"water-thermometer": SVG_waterThermometer,
 "water-well": SVG_waterWell,
 "water": SVG_water,
 "watering-can": SVG_wateringCan,
@@ -3288,6 +3475,7 @@ export const map: IconsMapType<IconNames> = {
 "wifi-strength-lock": SVG_wifiStrengthLock,
 "wifi-strength-off": SVG_wifiStrengthOff,
 "wifi-strength": SVG_wifiStrength,
+"wind-power": SVG_windPower,
 "wrench": SVG_wrench,
 "zip-box": SVG_zipBox
 };

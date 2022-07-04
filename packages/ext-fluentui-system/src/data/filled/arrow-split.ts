@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-split","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 3a1 1 0 011 1v5h2.25A2.75 2.75 0 0118 11.75v5.84l1.3-1.3a1 1 0 011.4 1.42l-3 3a1 1 0 01-1.4 0l-3-3a1 1 0 011.4-1.42l1.3 1.3v-5.84a.75.75 0 00-.75-.75h-6.5a.75.75 0 00-.75.75v5.84l1.3-1.3a1 1 0 011.4 1.42l-3 3a1 1 0 01-1.4 0l-3-3a1 1 0 111.4-1.42L6 17.6v-5.84A2.75 2.75 0 018.75 9H11V4a1 1 0 011-1z"}}]};
+export default content;
