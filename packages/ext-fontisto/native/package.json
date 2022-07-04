@@ -1,7 +1,7 @@
 {
   "name": "@svgr-iconkit/fontisto/native",
   "private": true,
-  "main": "../lib/commonjs/native.js",
-  "module": "../lib/es/native.js",
+  "main": "../lib/cjs/native.js",
+  "module": "../lib/esm/native.js",
   "types": "../lib/types/native.d.ts"
 }
