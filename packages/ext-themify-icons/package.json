@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/themify-icons",
-  "version": "0.3.0-beta.14",
+  "version": "0.3.0-beta.15",
   "description": "Themify icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -36,7 +36,6 @@
   "commonjs": "lib/cjs/index",
   "module": "lib/esm/index",
   "types": "lib/types/index",
-
   "files": [
     "icons",
     "lib",
@@ -62,11 +61,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.14"
+    "@svgr-iconkit/core": "^0.3.0-beta.15"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.0-beta.14",
-    "@svgr-iconkit/cli": "^0.3.0-beta.14",
+    "@svgr-iconkit/build-config": "^0.3.0-beta.15",
+    "@svgr-iconkit/cli": "^0.3.0-beta.15",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
