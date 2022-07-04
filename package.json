@@ -21,6 +21,7 @@
     "svg"
   ],
   "scripts": {
+    "version": "lerna version",
     "version:beta": "npx lerna version --conventional-commits --preid 'beta' -m 'release: bump beta version %v'",
     "version:graduate": "npx lerna version --conventional-commits --conventional-graduate -m 'release: bump version %v'",
     "bootstrap": "lerna bootstrap --hoist",
@@ -51,10 +52,10 @@
     "@svgr/hast-util-to-babel-ast": "^5.5.0",
     "@types/node": "^15.6.1",
     "camel-case": "^4.1.2",
-    "param-case": "^3.0.4",
     "lerna": "^4.0.0",
     "lodash": "^4.17.21",
     "npm-run-all": "^4.1.5",
+    "param-case": "^3.0.4",
     "rimraf": "^3.0.2",
     "rollup": "^2.50.4",
     "rollup-plugin-peer-deps-external": "^2.2.4",
