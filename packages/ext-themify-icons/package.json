@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/themify-icons",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Themify icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -49,7 +49,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@svgr-iconkit/core": "^0.3.0-beta.14",
+    "@svgr-iconkit/core": "^0.3.0",
     "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
   },
   "peerDependenciesMeta": {
@@ -61,11 +61,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.0"
+    "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.0",
-    "@svgr-iconkit/cli": "^0.3.0",
+    "@svgr-iconkit/build-config": "^0.3.1",
+    "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
