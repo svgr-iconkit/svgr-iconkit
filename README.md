@@ -13,7 +13,8 @@ It provide below benefits:
 Details can check official site *[svgr-iconkit.dev](https://svgr-iconkit.dev/)*
 
 Next-step To-do items:
-- [ ] Expose individual svg content for import only few icons.
-- [ ] Create a portal to create svg iconset online instantly.
+- [x] Expose individual svg content for import only few icons.
+- [ ] Allowing content to be rendered with other svg documents
 - [ ] Secondary color support.
+- [ ] Create a portal to create svg iconset online instantly.
 
