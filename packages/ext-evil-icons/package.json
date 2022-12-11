@@ -63,7 +63,7 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.1",
+    "@svgr-iconkit/build-config": "^0.3.2-beta.1",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
     "evil-icons": "^1.10.1",
