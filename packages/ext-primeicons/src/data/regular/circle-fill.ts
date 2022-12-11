@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"circle-fill","attrs":{"viewBox":"0 0 1024 1024"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 960.00) scale(1, -1)","d":"M1023.989 448c0-282.763-229.226-511.989-511.989-511.989s-511.989 229.226-511.989 511.989c0 282.763 229.226 511.989 511.989 511.989s511.989-229.226 511.989-511.989z"}}]};
+export default content;
