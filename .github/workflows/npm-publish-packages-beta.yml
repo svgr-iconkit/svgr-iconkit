@@ -104,6 +104,7 @@ jobs:
         run: |
           ls -al
           npm install --legacy-peer-deps
+          ls -al ./node_modules
       - name: 'Upload target package packages'
         if: github.event.inputs.cbPackage != 'all'
         uses: actions/upload-artifact@v3
