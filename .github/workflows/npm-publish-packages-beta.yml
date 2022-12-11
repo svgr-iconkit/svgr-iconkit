@@ -21,6 +21,9 @@ on:
         - "prepatch"
         - "preminor"
         - "premajor"
+        - "patch"
+        - "minor"
+        - "major"
       cbPackage:
         type: choice 
         required: true
