@@ -1,15 +1,15 @@
-# `@svgr-iconkit/simple-icons`
+# `@svgr-iconkit/simple-line-icons`
 
-Icons re-exported from [simple-icons](https://simpleicons.org).
+Icons re-exported from [Simple Line Icons](https://simplelineicons.github.io/).
 
-Full details please check on website https://svgr-iconkit.dev/explorer/simple-icons.
+Full details please check on website https://svgr-iconkit.dev/explorer/simple-line-icons.
 
 ## Usage
 
 ### React Web
 
 ```javascript
-import Icon from '@svgr-iconkit/simple-icons';
+import Icon from '@svgr-iconkit/simple-line-icons';
 
 export default function App() {
   return <div><Icon name="arrow-left" /></div>
@@ -21,7 +21,7 @@ export default function App() {
 
 ```javascript
 import { View } from "react-native";
-import Icon from '@svgr-iconkit/simple-icons';
+import Icon from '@svgr-iconkit/simple-line-icons';
 
 export default function App() {
   return <View><Icon name="arrow-left" /></View>
