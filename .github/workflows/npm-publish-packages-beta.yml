@@ -103,7 +103,7 @@ jobs:
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
-          npm install --legacy-peer-deps
+          yarn install --force
       - name: Bump version to all
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
         run: |
