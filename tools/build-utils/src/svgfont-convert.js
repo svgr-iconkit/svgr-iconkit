@@ -11,6 +11,9 @@ export function convertSvgFont(
 ) {
   const plugins = [
     {
+      name: 'removeMetadata',
+    },
+    {
       name: 'removeTitle',
     },
     {
@@ -91,13 +94,18 @@ export function convertSvgFont(
     console.warn('[svgFont/convert] No glyph defined. node: %o', fontNode)
     return Promise.reject(new Error('No glyph defined.'))
   }
+  console.log('[svgFont/convert] found %s icons', glyphNodes.length)
 
   const { 'font-family': fontFamily, 'units-per-em': size = 16, descent = 0 } = fontFaceProperties
 
   return Promise.resolve(
-    glyphNodes.map(glyphNode => {
+    glyphNodes.filter( glyphNode => glyphNode?.properties['glyph-name'] && glyphNode?.properties['glyph-name'] !== '').map((glyphNode, index) => {
       const { properties = {} } = glyphNode
       const iconName = properties['glyph-name']
+      if (!iconName) {
+        console.error("[svgFont/convert] No icon name give from object at index %s. object: %o", index, glyphNode)
+        throw new Error("No icon name given.");
+      }
 
       const width = forceWidth ?? size
       const height = forceHeight ?? size
