@@ -8,6 +8,7 @@ const commands = [
   require("./commands/transform"),
   require("./commands/build-map"),
   require("./commands/convert-data"),
+  require("./commands/convert-svgfont"),
   require("./commands/deep-copy"),
 ];
 

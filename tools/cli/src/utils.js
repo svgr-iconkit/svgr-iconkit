@@ -40,4 +40,11 @@ export const resolvePackagePath = async (packageName) => {
   return Promise.resolve(null)
 }
 
-  
+export const createRootIconset = (family) => `
+import { createIconset } from "@svgr-iconkit/core";
+import { IconNames, map } from "./map";
+export const familyName: string = ${JSON.stringify(family)};
+export const Iconset = createIconset<IconNames>({familyName, map});
+
+export default Iconset;
+`;

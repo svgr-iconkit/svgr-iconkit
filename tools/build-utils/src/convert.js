@@ -1,5 +1,6 @@
 import { parse } from 'svg-parser'
 import { optimize } from 'svgo'
+import { nodeToCode } from './utils'
 
 const disallowedTagNames = ['style', 'title']
 const disallowedAttributeNames = ['class', 'className', 'style']
@@ -124,6 +125,15 @@ export function convertSvgData(
 ) {
   const plugins = [
     {
+      name: 'removeTitle',
+    },
+    {
+      name: 'removeDesc',
+    },
+    {
+      name: 'removeUselessDefs',
+    },
+    {
       name: 'convertStyleToAttrs',
     },
     {
@@ -143,7 +153,7 @@ export function convertSvgData(
     plugins,
   })
   if (!optimizedSource || !optimizedSource.data) {
-    console.error('[svgrData/convert] unexcepted optimize error. source=%s', source)
+    console.error('[svgrData/convert] unexcepted optimize error. source: %s', source)
     console.error('[svgrData/convert] output=%o', optimizedSource)
     process.exit(1)
     return
@@ -153,13 +163,13 @@ export function convertSvgData(
   const { type, tagName, properties = {}, children = [] } = node.children[0]
 
   if (type !== 'element') {
-    console.error('[svgrData/convert] unexcepted root children. node=%o', node)
+    console.error('[svgrData/convert] unexcepted root children. node: %o', node)
     process.exit(1)
     return
   }
 
   if (!children) {
-    console.warn('[svgrData/convert] unable to handle undefined root children. node=%o', node)
+    console.warn('[svgrData/convert] unable to handle undefined root children. node: %o', node)
     process.exit(1)
     return
   }
@@ -199,13 +209,5 @@ export function convertSvgData(
     result.attrs.height = forceHeight
   }
 
-  const contentStr = JSON.stringify(result)
-  if (typescript) {
-    return `import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = ${contentStr || '{}'};
-export default content;`
-  }
-
-  return `export const content = ${contentStr || '{}'};
-export default content;`
+  return nodeToCode(result, { typescript});
 }
