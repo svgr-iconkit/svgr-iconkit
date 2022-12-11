@@ -131,7 +131,12 @@ jobs:
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbVersionChange != 'no'
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
+          OLD_VERSION=$(node -e "console.log(require('./package.json').version)")
           yarn version --${{ github.event.inputs.cbVersionChange }} --preid beta --yes --no-push
+          NEW_VERSION=$(node -e "console.log(require('./package.json').version)")
+          echo "Package version changed." >> $GITHUB_STEP_SUMMARY
+          echo "Old version: $OLD_VERSION" >> $GITHUB_STEP_SUMMARY
+          echo "New version: $NEW_VERSION" >> $GITHUB_STEP_SUMMARY
           git status
           git add ./
       - name: Build all
@@ -191,4 +196,7 @@ jobs:
           yarn publish --access public --non-interactive  --no-git-tag-version --registry=https://registry.npmjs.org/
       - name: push result
         run: |
-          git push --force --all
+          git status
+          git pull --rebase -f
+          git push --verbose
+          echo "Package changes pushed." >> $GITHUB_STEP_SUMMARY
