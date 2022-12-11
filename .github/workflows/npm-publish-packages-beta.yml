@@ -75,6 +75,15 @@ on:
         options:
         - "no"
         - "yes"
+      cbDebug:
+        type: choice 
+        required: true
+        description: Debug mode?
+        default: "no"
+        options:
+        - "no"
+        - "yes"
+
 
 permissions: write-all
 jobs:
@@ -104,11 +113,9 @@ jobs:
         run: |
           cat ../../package.json
           rm -rf ../../package.json
-          ls -al
           npm install --legacy-peer-deps
-          ls -al ./node_modules
       - name: 'Upload target package packages'
-        if: github.event.inputs.cbPackage != 'all'
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v3
         with:
           name: release-beta-install
@@ -142,7 +149,7 @@ jobs:
 # cat ./tsconfig.tmp.json > ./tsconfig.json
 # unlink -f ./tsconfig.tmp.json
       - name: 'Upload target package artifact'
-        if: github.event.inputs.cbPackage != 'all'
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v3
         with:
           name: release-beta-build
