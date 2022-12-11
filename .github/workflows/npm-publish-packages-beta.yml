@@ -138,7 +138,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
-          cd ${{ github.event.inputs.cbPackage }}
           echo "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "always-auth = true" >> .npmrc
           yarn publish --access public --non-interactive  --no-git-tag-version  --registry=https://npm.pkg.github.com/
