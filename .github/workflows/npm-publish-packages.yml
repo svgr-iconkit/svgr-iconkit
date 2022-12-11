@@ -49,6 +49,7 @@ on:
         - "packages/ext-material-community"
         - "packages/ext-material-design"
         - "packages/ext-octicons"
+        - "packages/ext-primeicons"
         - "packages/ext-simple-icons"
         - "packages/ext-simple-line-icons"
         - "packages/ext-tablet-icons"
