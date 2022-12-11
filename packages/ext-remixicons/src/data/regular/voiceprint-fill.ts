@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"voiceprint-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 850H350V350H250V850zM50 700H150V500H50V700zM450 1100H550V200H450V1100zM650 1000H750V100H650V1000zM850 850H950V350H850V850zM1050 700H1150V500H1050V700z"}}]};
+export default content;

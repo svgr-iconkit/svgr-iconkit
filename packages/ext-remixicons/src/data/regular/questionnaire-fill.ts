@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"questionnaire-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M322.75 250L100 75V1000A50 50 0 0 0 150 1050H1050A50 50 0 0 0 1100 1000V300A50 50 0 0 0 1050 250H322.75zM550 500V400H650V500H550zM428.35 759.3499999999999L526.45 739.6999999999999A75 75 0 1 0 600 650H550V550H600A175 175 0 1 1 428.35 759.3500000000001z"}}]};
+export default content;

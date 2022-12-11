@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"speaker-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 950V250H950V950H250zM200 1050H1000A50 50 0 0 0 1050 1000V200A50 50 0 0 0 1000 150H200A50 50 0 0 0 150 200V1000A50 50 0 0 0 200 1050zM600 400A200 200 0 1 1 600 800A200 200 0 0 1 600 400zM600 300A300 300 0 1 0 600 900A300 300 0 0 0 600 300zM600 525A75 75 0 1 0 600 675A75 75 0 0 0 600 525z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"smartphone-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M300 1100H900A50 50 0 0 0 950 1050V150A50 50 0 0 0 900 100H300A50 50 0 0 0 250 150V1050A50 50 0 0 0 300 1100zM600 350A50 50 0 1 1 600 250A50 50 0 0 1 600 350z"}}]};
+export default content;

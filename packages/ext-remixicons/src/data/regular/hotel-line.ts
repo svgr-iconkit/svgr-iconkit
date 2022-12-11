@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hotel-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1100 150H100V250H150V1000A50 50 0 0 0 200 1050H900A50 50 0 0 0 950 1000V750H1050V250H1100V150zM850 250H950V650H650V250H750V550H850V250zM850 750V950H250V250H550V750H850zM350 650H450V550H350V650zM350 450H450V350H350V450zM350 850H450V750H350V850z"}}]};
+export default content;

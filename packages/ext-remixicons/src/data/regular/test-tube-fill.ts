@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"test-tube-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 1100V1000H800V300C800 189.5 710.5 100 600 100S400 189.5 400 300V1000H350V1100H850zM650 450C622.4 450 600 427.6 600 400S622.4 350 650 350S700 372.4 700 400S677.6 450 650 450zM550 600C522.4 600 500 577.6 500 550S522.4 500 550 500S600 522.4 600 550S577.6 600 550 600zM700 1000H500V800H700V1000z"}}]};
+export default content;

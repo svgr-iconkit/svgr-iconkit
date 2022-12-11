@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chat-history-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 1100C876.15 1100 1100 876.15 1100 600S876.15 100 600 100C514.9 100 434.75 121.25 364.6 158.75L100 100L158.8 364.5C121.3 434.7000000000001 100 514.85 100 600C100 876.15 323.85 1100 600 1100zM650 850H550V500H850V600H650V850z"}}]};
+export default content;

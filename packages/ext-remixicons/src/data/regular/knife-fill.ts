@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"knife-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1118.65 227.9999999999999A75 75 0 0 0 1012.6000000000003 122L782.8000000000001 351.7999999999999L606 175L217.1 563.9A400 400 0 0 0 208.4 1120.6499999999999L217.1 1129.6L1118.65 227.9999999999999z"}}]};
+export default content;

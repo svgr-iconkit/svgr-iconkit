@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"angularjs-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 1100L1065 934L994.1 318.4999999999999L600 100L205.9 318.5L135 934L600 1100zM600 989.5L309.3 336.9999999999999H417.7L476.15 482.9999999999999H722.85L781.35 336.9999999999999H889.7L600 989.5zM684.9 573H515.1L600 777.5L684.9 573z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"compass-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M916.4 987.1L529.3000000000001 600L600 529.3000000000001L987.1 916.4A497.8500000000001 497.8500000000001 0 0 0 1100 600C1100 324 876 100 600 100S100 324 100 600S324 1100 600 1100C720 1100 830.1999999999999 1057.65 916.4 987.1z"}}]};
+export default content;

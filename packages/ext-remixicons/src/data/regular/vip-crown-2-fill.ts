@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"vip-crown-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M140 940L350 800L559.3 1093A50 50 0 0 0 640.7 1093L850 800L1060 940A50 50 0 0 0 1137.35 892.5L1055.2 194.15A50 50 0 0 0 1005.55 150H194.45A50 50 0 0 0 144.8 194.15L62.65 892.55A50 50 0 0 0 140 940zM600 450A100 100 0 1 1 600 650A100 100 0 0 1 600 450z"}}]};
+export default content;

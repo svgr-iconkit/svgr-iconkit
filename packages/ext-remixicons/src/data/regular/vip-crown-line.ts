@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"vip-crown-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 250H1100V150H100V250zM100 950L350 775L600 1100L850 775L1100 950V350H100V950zM200 757.9499999999999V450H1000V757.95L828.9999999999999 638.25L600 936L371 638.25L200 758z"}}]};
+export default content;

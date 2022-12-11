@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"calculator-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M200 1100H1000A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V1050A50 50 0 0 0 200 1100zM350 600V500H450V600H350zM350 400V300H450V400H350zM550 600V500H650V600H550zM550 400V300H650V400H550zM750 600V300H850V600H750zM350 900V700H850V900H350z"}}]};
+export default content;

@@ -21,6 +21,7 @@ export const propNamesRemap = {
   'stroke-dashoffset': 'strokeDashoffset',
   strokeMiterlimit: 'strokeMiterlimit',
   'stroke-miterlimit': 'strokeMiterlimit',
+  'transform-origin': 'transform-origin',
   style: null,
 }
 

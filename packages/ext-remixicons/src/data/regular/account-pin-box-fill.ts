@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"account-pin-box-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M700 150L600 50L500 150H249.75A99.75 99.75 0 0 0 150 249.75V950.25C150 1005.35 194.65 1050 249.75 1050H950.25C1005.35 1050 1050 1005.35 1050 950.25V249.75A99.75 99.75 0 0 0 950.25 150H700zM317.85 300H892.35A349.6 349.6 0 0 1 605.1 450A349.6 349.6 0 0 1 317.85 300zM600 550A175 175 0 1 1 600 900A175 175 0 0 1 600 550z"}}]};
+export default content;

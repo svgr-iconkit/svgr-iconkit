@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"linkedin-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 722.5C645.85 769.35 705.5500000000001 800 775 800A275 275 0 0 0 1050 525V150H950V525A175 175 0 0 1 600 525V150H500V775H600V722.5zM250 875A75 75 0 1 0 250 1025A75 75 0 0 0 250 875zM200 775H300V150H200V775z"}}]};
+export default content;

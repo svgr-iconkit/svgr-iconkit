@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"flag-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 400V100H150V1050H619.1A50 50 0 0 0 663.8 1022.35L700 950H1000A50 50 0 0 0 1050 900V350A50 50 0 0 0 1000 300H680.9A50 50 0 0 0 636.2 327.6500000000001L600 400H250zM250 950V500H661.8000000000001L711.8000000000001 400H950V850H638.1999999999999L588.1999999999999 950H250z"}}]};
+export default content;

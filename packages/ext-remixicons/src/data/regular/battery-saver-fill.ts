@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"battery-saver-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M700 1100A50 50 0 0 0 750 1050V1000H900A50 50 0 0 0 950 950V150A50 50 0 0 0 900 100H300A50 50 0 0 0 250 150V950A50 50 0 0 0 300 1000H450V1050A50 50 0 0 0 500 1100H700zM650 750H550V600H400V500H550V350H650V500H800V600H650V750z"}}]};
+export default content;

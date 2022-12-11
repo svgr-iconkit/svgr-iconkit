@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"apps-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M325 625A225 225 0 1 0 325 1075A225 225 0 0 0 325 625zM350 125A225 225 0 1 0 350 575A225 225 0 0 0 350 125zM850 625A225 225 0 1 0 850 1075A225 225 0 0 0 850 625zM850 125A225 225 0 1 0 850 575A225 225 0 0 0 850 125zM325 725A125 125 0 1 1 325 975A125 125 0 0 1 325 725zM350 225A125 125 0 1 1 350 475A125 125 0 0 1 350 225zM850 725A125 125 0 1 1 850 975A125 125 0 0 1 850 725zM850 225A125 125 0 1 1 850 475A125 125 0 0 1 850 225z"}}]};
+export default content;

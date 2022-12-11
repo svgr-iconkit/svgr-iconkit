@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"coin-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1150 600V500C1150 334.3 903.75 200 600 200C301.6500000000001 200 58.8 329.5500000000001 50.25 491.15L50 500V600C50 434.3 296.25 300 600 300S1150 434.3 1150 600zM600 1000C903.75 1000 1150 865.7 1150 700S903.75 400 600 400S50 534.3 50 700S296.25 1000 600 1000z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"question-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM600 200A400 400 0 1 1 600 1000A400 400 0 0 1 600 200zM550 450H650V350H550V450zM650 532.25V500H550V575A50 50 0 0 0 600 625A75 75 0 1 1 526.45 714.7L428.35 734.3500000000001A175.04999999999998 175.04999999999998 0 1 0 650 532.25z"}}]};
+export default content;

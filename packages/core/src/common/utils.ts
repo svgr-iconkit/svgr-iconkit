@@ -37,23 +37,24 @@ export const propNameFiltering = (name: string) =>
  * @returns
  */
 export const createConvertReactProps =
-  (namesRemap?: Record<string, string | null>) =>
-  (attrs: Record<string, any>, originalContent: any = {}, { allowNonWhitelistProp = true } = {}) => {
+  (namesRemap: Record<string, string | null>, {convertCamelCase = true} = {}) =>
+  (attrs: Record<string, any>, originalContent: any = {}, {  allowNonWhitelistProp = true } = {}) => {
     const exportedProps: any = {
       ...originalContent,
     }
 
-    return Object.keys(attrs)
+    const newAttrs = Object.keys(attrs)
       .filter(propNameFiltering)
       .reduce((curProps, sourceName: string) => {
         let targetName = !namesRemap ? sourceName : namesRemap[sourceName]
         if (!targetName && allowNonWhitelistProp) targetName = sourceName
         if (targetName) {
-          const convertedName = camelCase(targetName)
+          const convertedName = convertCamelCase && !namesRemap[sourceName] ? camelCase(targetName) : targetName
           curProps[convertedName] = attrs[targetName] || attrs[sourceName]
         }
         return curProps
       }, exportedProps)
+    return newAttrs;
   }
 
 /**

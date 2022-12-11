@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"spam-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M875 1075L1150 600L875 125H325L50 600L325 1075H875zM817.35 975H382.65L165.55 600L382.65 225H817.35L1034.45 600L817.35 975zM550 450H650V350H550V450zM550 850H650V550H550V850z"}}]};
+export default content;

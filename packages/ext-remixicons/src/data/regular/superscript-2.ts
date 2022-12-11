@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"superscript-2","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 850V200H450V850H150V950H750V850H550zM977.5 871A40.00000000000001 40.00000000000001 0 1 1 911.5 889L853.8000000000001 872.5A100.05000000000001 100.05000000000001 0 0 0 950 1000A100 100 0 0 0 1018.65 827.3L937.2 750H1050V700H850V750L977.5 871z"}}]};
+export default content;

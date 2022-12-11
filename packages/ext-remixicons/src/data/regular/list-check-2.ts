@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"list-check-2","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 1000H1050V900H550V1000zM550 800H850V700H550V800zM550 500H1050V400H550V500zM550 300H850V200H550V300zM150 1000H450V700H150V1000zM250 900V800H350V900H250zM150 500H450V200H150V500zM250 400V300H350V400H250z"}}]};
+export default content;

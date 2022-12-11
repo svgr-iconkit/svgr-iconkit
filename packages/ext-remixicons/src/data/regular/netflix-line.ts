@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"netflix-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M799.2 339.6000000000002L800 1100H900V100A379.65000000000003 379.65000000000003 0 0 1 799 125L400 884.9000000000001V125A366.75 366.75 0 0 1 300 100V1100H400L799.2 339.6000000000002z"}}]};
+export default content;

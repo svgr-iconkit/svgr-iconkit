@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"asterisk","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 1050V686.65L964.7 868.3L1014.7 781.7L700.0500000000001 600.0500000000001L1014.7 418.3000000000001L964.7 331.7000000000001L650 513.4000000000001V150H550V513.4000000000001L235.3 331.7000000000001L185.3 418.3L499.95 600L185.3 781.7L235.3 868.3L550 686.65V1050z"}}]};
+export default content;

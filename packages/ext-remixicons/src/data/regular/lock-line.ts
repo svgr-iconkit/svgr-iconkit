@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"lock-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M950 700H1000A50 50 0 0 0 1050 650V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V650A50 50 0 0 0 200 700H250V750A350 350 0 1 0 950 750V700zM250 600V200H950V600H250zM550 500H650V300H550V500zM850 700V750A250 250 0 0 1 350 750V700H850z"}}]};
+export default content;

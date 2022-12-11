@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"git-repository-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 150V25L500 125L350 25V150H325A175 175 0 0 0 150 325V950A150 150 0 0 0 300 1100H1000A50 50 0 0 0 1050 1050V200A50 50 0 0 0 1000 150H650zM350 250V350H650V250H950V400H325A75 75 0 0 1 325 250H350zM350 950V850H450V950H350zM350 800V700H450V800H350zM350 650V550H450V650H350z"}}]};
+export default content;

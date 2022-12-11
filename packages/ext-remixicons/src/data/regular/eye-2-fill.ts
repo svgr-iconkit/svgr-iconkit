@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"eye-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 1100C876.15 1100 1100 876.15 1100 600S876.15 100 600 100S100 323.85 100 600S323.85 1100 600 1100zM600 850C574.35 850 549.65 846.15 526.3499999999999 839A125 125 0 1 0 361.05 673.6500000000001A250 250 0 1 1 600 850z"}}]};
+export default content;

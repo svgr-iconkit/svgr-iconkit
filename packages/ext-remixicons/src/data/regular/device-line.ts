@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"device-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M950 800H1050A50 50 0 0 0 1100 750V150A50 50 0 0 0 1050 100H650A50 50 0 0 0 600 150V200H200A50 50 0 0 0 150 250V1050A50 50 0 0 0 200 1100H900A50 50 0 0 0 950 1050V800zM850 800V1000H250V300H600V750A50 50 0 0 0 650 800H850zM700 700V200H1000V700H700z"}}]};
+export default content;

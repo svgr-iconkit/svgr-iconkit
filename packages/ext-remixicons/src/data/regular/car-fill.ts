@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"car-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M950 200H250V150A50 50 0 0 0 200 100H150A50 50 0 0 0 100 150V600L225.65 935.1A100 100 0 0 0 319.3 1000H880.7A100 100 0 0 0 974.3500000000003 935.1L1100 600V150A50 50 0 0 0 1050 100H1000A50 50 0 0 0 950 150V200zM206.8 600H993.2L880.7 900H319.3L206.8 600zM325 350A75 75 0 1 1 325 500A75 75 0 0 1 325 350zM875 350A75 75 0 1 1 875 500A75 75 0 0 1 875 350z"}}]};
+export default content;

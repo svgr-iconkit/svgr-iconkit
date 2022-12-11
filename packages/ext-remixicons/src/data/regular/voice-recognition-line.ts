@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"voice-recognition-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 450V250H450V150H150V450H250zM1050 450V150H750V250H950V450H1050zM650 900V300H550V900H650zM450 750V450H350V750H450zM850 750V450H750V750H850zM450 1050V950H250V750H150V1050H450zM1050 1050V750H950V950H750V1050H1050z"}}]};
+export default content;

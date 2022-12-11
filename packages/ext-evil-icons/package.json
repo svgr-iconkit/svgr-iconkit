@@ -1,0 +1,90 @@
+{
+  "name": "@svgr-iconkit/evil-icons",
+  "version": "0.3.1",
+  "description": "evil-icons for @svgr-iconkit",
+  "keywords": [
+    "SVG",
+    "Icons",
+    "react",
+    "react-native",
+    "expo"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
+  "homepage": "https://svgr-iconkit.dev/explorer/evil-icons",
+  "originalAuthor": {
+    "name": "Evil Icons",
+    "package": "evil-icons",
+    "version": "1.10.1",
+    "url": "https://evil-icons.io/"
+  },
+  "exports": {
+    "./icons/*": "./icons/*.js",
+    "./native": {
+      "require": "./lib/cjs/native.js",
+      "browser": "./lib/cjs/native.js",
+      "import": "./lib/esm/native.js",
+      "types": "./lib/types/native",
+      "default": "./lib/esm/native.js"
+    },
+    ".": {
+      "react-native": "./lib/esm/native.js",
+      "import": "./lib/esm/index.js",
+      "default": "./lib/cjs/index.js"
+    }
+  },
+  "main": "lib/cjs/index",
+  "react-native": "lib/esm/native",
+  "commonjs": "lib/cjs/index",
+  "module": "lib/esm/index",
+  "types": "lib/types/index",
+  "files": [
+    "icons",
+    "lib",
+    "native",
+    "index.js",
+    "index.*.ts",
+    "index.*.js",
+    "native.js",
+    "native.d.ts",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@svgr-iconkit/core": "^0.3.0",
+    "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native-svg": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@svgr-iconkit/core": "^0.3.1"
+  },
+  "devDependencies": {
+    "@svgr-iconkit/build-config": "^0.3.2",
+    "@svgr-iconkit/cli": "^0.3.1",
+    "@types/node": "^15.6.1",
+    "evil-icons": "^1.10.1",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "iconsmap:upgrade": "yarn add -D evil-icons",
+    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:copy:regular": "svgr-iconkit deep-copy -i assets/icons -o ./src/gen/assets/regular/ -p evil-icons --remove-name-prefix 'ei-'",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./src/gen/assets/regular/ -o ./src/data/regular/ --fill-color 'currentColor'",
+    "iconsmap:create": "npm-run-all iconsmap:copy:regular iconsmap:create:regular",
+    "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
+    "prebuild": "rimraf ./lib ./dist ./gen ./icons",
+    "compile": "rollup -c",
+    "build": "npm-run-all compile",
+    "build:full": "npm-run-all prebuild iconsmap compile"
+  }
+}

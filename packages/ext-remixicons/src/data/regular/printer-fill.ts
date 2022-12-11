@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"printer-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M350 350H850V100H350V350zM950 200V450H250V200H150A50 50 0 0 0 100 250V750A50 50 0 0 0 150 800H1050A50 50 0 0 0 1100 750V250A50 50 0 0 0 1050 200H950zM250 700V600H400V700H250zM350 1100H850A50 50 0 0 0 900 1050V900H300V1050A50 50 0 0 0 350 1100z"}}]};
+export default content;

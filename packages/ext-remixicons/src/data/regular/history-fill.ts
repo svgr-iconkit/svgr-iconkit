@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"history-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 1100C876.15 1100 1100 876.15 1100 600S876.15 100 600 100S100 323.85 100 600H200C200 379.1 379.1 200 600 200S1000 379.1 1000 600S820.9 1000 600 1000C476.8 1000 366.6 944.3 293.25 856.75L400 750H100V1050L222.35 927.7C314 1033.2 449.2 1100 600 1100zM650 850V620.75L812.15 458.5999999999999L741.4 387.8499999999999L550 579.35V850H650z"}}]};
+export default content;

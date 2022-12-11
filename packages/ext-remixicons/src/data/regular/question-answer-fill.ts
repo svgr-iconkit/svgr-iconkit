@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"question-answer-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 300H911.8500000000003L1000 230.7499999999999V750H1050A50 50 0 0 0 1100 700V25L877.2500000000001 200H450A50 50 0 0 0 400 250V300zM272.75 400L50 225V1000A50 50 0 0 0 100 1050H850A50 50 0 0 0 900 1000V400H272.75z"}}]};
+export default content;

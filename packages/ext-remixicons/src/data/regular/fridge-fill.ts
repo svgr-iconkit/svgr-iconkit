@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"fridge-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 600V100C1000 72.4000000000001 977.6 50 950 50H250C222.4 50 200 72.4000000000001 200 100V600H1000zM450 500H350V250H450V500zM950 1150C977.6 1150 1000 1127.6 1000 1100V700H200V1100C200 1127.6 222.4 1150 250 1150H950zM450 1000H350V800H450V1000z"}}]};
+export default content;

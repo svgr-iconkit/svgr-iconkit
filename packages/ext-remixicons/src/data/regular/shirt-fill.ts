@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shirt-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M350 1000V650L600 775L850 650V1000H1000A50 50 0 0 0 1050 950V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V950A50 50 0 0 0 200 1000H350zM600 800L375 1050H825L600 800zM650 638.1999999999999L600 663.1999999999999L550 638.1999999999999V200H650V638.1999999999999zM750 500V400H950V500H750z"}}]};
+export default content;

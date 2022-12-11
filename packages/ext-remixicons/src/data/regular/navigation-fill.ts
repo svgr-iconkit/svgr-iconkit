@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"navigation-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M145 1085L1085.25 771.6A25 25 0 0 0 1086.6499999999999 724.6500000000001L650 550L428.75 107.5A25 25 0 0 0 382.35 111.8L113 1054.45A25 25 0 0 0 145 1085z"}}]};
+export default content;

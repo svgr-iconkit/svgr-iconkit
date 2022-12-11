@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"route-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M200 450V775A225 225 0 0 0 650 775V425A125 125 0 1 1 900 425V758.5A150.04999999999998 150.04999999999998 0 1 0 1000 758.5V425A225 225 0 1 0 550 425V775A125 125 0 0 1 300 775V450H450L250 200L50 450H200zM950 850A50 50 0 1 1 950 950A50 50 0 0 1 950 850z"}}]};
+export default content;

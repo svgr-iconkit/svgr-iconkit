@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"vuejs-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M165.8 1050L600 300L1034.1999999999998 1050H1150L600 100L50 1050H165.8zM382.9 1050L600 675L817.0999999999999 1050H932.8999999999997L600 475L267.1 1050H382.9z"}}]};
+export default content;

@@ -9,6 +9,7 @@ import {
   getCamelIconName,
   paramCase,
   camelCase,
+  createRootIconset,
 } from "../utils";
 import {
   createIconsMapTs,
@@ -45,15 +46,6 @@ function buildIconFolder({
       .catch((error) => reject(error));
   });
 }
-
-const createRootIconset = (family) => `
-import { createIconset } from "@svgr-iconkit/core";
-import { IconNames, map } from "./map";
-export const familyName: string = ${JSON.stringify(family)};
-export const Iconset = createIconset<IconNames>({familyName, map});
-
-export default Iconset;
-`;
 
 const platforms = {
   web: {

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-go-forward-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M908.6 850H550A300 300 0 1 1 550 250H1000V150H550A400 400 0 1 0 550 950H908.6L781.8000000000001 1076.8L852.5 1147.5L1100 900L852.5 652.5L781.8000000000001 723.2L908.6 850z"}}]};
+export default content;

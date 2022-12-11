@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"scan-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M283.55 987.15L670.6999999999999 600L600 529.3000000000001L284 845.3A400 400 0 1 1 469.3 978.2L392.5 1055A498.15 498.15 0 0 0 600 1100C876.15 1100 1100 876.15 1100 600S876.15 100 600 100S100 323.85 100 600A499 499 0 0 0 283.55 987.15z"}}]};
+export default content;

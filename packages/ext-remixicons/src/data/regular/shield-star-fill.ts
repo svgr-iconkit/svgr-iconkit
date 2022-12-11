@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shield-star-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M189.15 1058.7L600 1150L1010.85 1058.7A50 50 0 0 0 1050 1009.9V510.5500000000001A300 300 0 0 0 916.4 260.9500000000001L600 50L283.6 260.9500000000001A300 300 0 0 0 150 510.5V1009.9A50 50 0 0 0 189.15 1058.7zM600 525L746.95 447.75L718.9 611.35L837.75 727.25L673.4499999999999 751.15L600 900L526.5 751.15L362.25 727.25L481.1 611.35L453.1 447.75L600 525z"}}]};
+export default content;

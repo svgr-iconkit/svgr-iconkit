@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"charging-pile-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 650H950V850H1000V1000H1100V850H1150V650H1100V300A150 150 0 0 0 800 300V500H700V250H750V150H100V250H150V1000A50 50 0 0 0 200 1050H650A50 50 0 0 0 700 1000V600H800A100 100 0 0 0 900 500V300A50 50 0 0 1 1000 300V650zM600 250V950H250V250H600zM450 650H600L400 350V550H250L450 850V650z"}}]};
+export default content;

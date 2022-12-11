@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"lightbulb-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 300H397.05C382.2 363.65 315.2 415.7000000000001 287.7 450A400 400 0 1 0 912.2 449.9C884.6999999999999 415.65 817.8000000000001 363.5999999999999 802.95 300H650V550H550V300zM800 200V150A100 100 0 0 0 700 50H500A100 100 0 0 0 400 150V200H800z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cloudy-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M475 900A325 325 0 0 1 475 250H825A225 225 0 1 1 777.15 694.9A325.1 325.1 0 0 1 475 900zM825 150H475A424.99999999999994 424.99999999999994 0 1 0 835.75 799.85A325 325 0 0 0 825 150z"}}]};
+export default content;

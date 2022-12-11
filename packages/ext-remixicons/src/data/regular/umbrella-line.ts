@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"umbrella-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 1097.5C902.65 1072.45 1100 859.25 1100 600V550H650V250A100 100 0 1 1 850 250V300H950V250A200 200 0 1 0 550 250V550H100V600C100 859.25 297.35 1072.45 550 1097.5V1100A50 50 0 0 0 650 1100V1097.5zM996.9 650A400.04999999999995 400.04999999999995 0 0 1 203.1 650H996.9z"}}]};
+export default content;

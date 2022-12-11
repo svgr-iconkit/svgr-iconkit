@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"share-forward-box-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M450 1050V950H200V250H1000V700H1100V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050H450zM800 950V1150L1150 850H700A100 100 0 0 1 600 750V450H500V750A200 200 0 0 0 700 950H800z"}}]};
+export default content;

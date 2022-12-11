@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"red-packet-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 903.15A599.25 599.25 0 0 0 709.7 710A125 125 0 0 1 490.3000000000001 710A599.25 599.25 0 0 0 150 903.15V1050A50 50 0 0 0 200 1100H1000A50 50 0 0 0 1050 1050V903.15zM1050 763.8V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V763.8A697.2 697.2 0 0 1 481.5000000000001 610A125.04999999999998 125.04999999999998 0 0 1 718.5 610A697.2 697.2 0 0 1 1050 763.8z"}}]};
+export default content;

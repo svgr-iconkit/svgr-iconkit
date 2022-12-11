@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"rest-time-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 900V500H950C950 279.1 770.9 100 550 100S150 279.1 150 500C150 716.75 329 900 550 900zM1050 1100V1000L783.65 700H1050V600H650V700L916.3 1000H650V1100H1050z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"patreon-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M750 350A375 375 0 1 0 750 1100A375 375 0 0 0 750 350zM750 450A275 275 0 1 1 750 1000A275 275 0 0 1 750 450zM100 1100H350V100H100V1100zM200 1000V200H250V1000H200z"}}]};
+export default content;
