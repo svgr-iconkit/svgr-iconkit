@@ -2,6 +2,7 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 
 name: Packages release (beta)
+run-name: Beta release ${{github.event.inputs.cbPackage}} with ${{github.event.inputs.cbVersionChange}} version
 concurrency:
   group: 'svgr-iconkit-cicd-release-beta'
   cancel-in-progress: true
@@ -20,6 +21,44 @@ on:
         - "prepatch"
         - "preminor"
         - "premajor"
+      cbPackage:
+        type: choice 
+        required: true
+        description: Package to be publish
+        default: "all"
+        options:
+        - "all"
+        - "packages/ext-ant-design"
+        - "packages/ext-bootstrap"
+        - "packages/ext-css-gg"
+        - "packages/ext-entypo"
+        - "packages/ext-evil-icons"
+        - "packages/ext-feather"
+        - "packages/ext-flag-icons"
+        - "packages/ext-flat-color-icons"
+        - "packages/ext-fluentui-system"
+        - "packages/ext-fontawesome"
+        - "packages/ext-fontawesome-brands"
+        - "packages/ext-fontawesome5"
+        - "packages/ext-fontawesome5-brands"
+        - "packages/ext-fontisto"
+        - "packages/ext-foundation"
+        - "packages/ext-grommet-icons"
+        - "packages/ext-heroicons"
+        - "packages/ext-ionicons"
+        - "packages/ext-material-community"
+        - "packages/ext-material-design"
+        - "packages/ext-octicons"
+        - "packages/ext-simple-icons"
+        - "packages/ext-simple-line-icons"
+        - "packages/ext-tablet-icons"
+        - "packages/ext-themify-icons"
+        - "packages/ext-typicons"
+        - "packages/ext-weather-icons"
+        - "packages/ext-xnix"
+        - "tools/build-config"
+        - "tools/build-utils"
+        - "tools/cli"
       cNpmPublish:
         type: choice 
         required: true
@@ -42,37 +81,74 @@ jobs:
         run: |
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
-      - name: Install packages
+      - name: Install all packages
+        if: github.event.inputs.cbPackage == 'all'
         run: |
           yarn config set disable-self-update-check true
           yarn config set ignore-engines true
           yarn config list
           yarn install
-      - name: Bump version
-        if: github.event.inputs.cbVersionChange != 'no'
+      - name: Install target package
+        if: github.event.inputs.cbPackage != 'all'
+        run: |
+          cd ${{ github.event.inputs.cbPackage }}
+          npm install
+      - name: Bump version to all
+        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
         run: |
           yarn version:beta --yes --no-push
           git status
           git add ./
+      - name: Bump version to target package
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbVersionChange != 'no'
+        run: |
+          cd ${{ github.event.inputs.cbPackage }}
+          yarn version --${{ github.event.inputs.cbVersionChange }} --preid beta --yes --no-push
+          git status
+          git add ./
       - name: Build all
+        if: github.event.inputs.cbPackage == 'all'
         run: |
           yarn run build
-      - name: publish to registry(github)
-        if: github.event.inputs.cNpmPublish == 'yes'
+      - name: Build to target package
+        if: github.event.inputs.cbPackage != 'all'
+        run: |
+          cd ${{ github.event.inputs.cbPackage }}
+          yarn build
+      - name: publish all to registry(github)
+        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cNpmPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
           echo "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "always-auth = true" >> .npmrc
           yarn publish:all:github
-      - name: publish to registry(npmjs.com)
-        if: github.event.inputs.cNpmPublish == 'yes'
+      - name: publish all to registry(github)
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cNpmPublish == 'yes'
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: |
+          cd ${{ github.event.inputs.cbPackage }}
+          echo "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
+          echo "always-auth = true" >> .npmrc
+          yarn publish
+      - name: publish all to registry(npmjs.com)
+        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cNpmPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
         run: |
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "always-auth = true" >> .npmrc
           yarn publish:all --registry=https://registry.npmjs.org/
+      - name: publish all to registry(npmjs.com)
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cNpmPublish == 'yes'
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
+        run: |
+          cd ${{ github.event.inputs.cbPackage }}
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
+          echo "always-auth = true" >> .npmrc
+          yarn publish --registry=https://registry.npmjs.org/
       - name: push result
         run: |
           git push --force --all
