@@ -104,6 +104,13 @@ jobs:
         run: |
           ls -al
           yarn install --force
+      - name: 'Upload target package packages'
+        if: github.event.inputs.cbPackage != 'all'
+        uses: actions/upload-artifact@v3
+        with:
+          name: release-beta-install
+          path: ${{ github.event.inputs.cbPackage }}
+          retention-days: 14
       - name: Bump version to all
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
         run: |
