@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"credit-card","attrs":{"viewBox":"0 0 1024 1024"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 960.00) scale(1, -1)","d":"M928.144 784h-832.288c-53.0244 0 -96 -42.9756 -96 -96v-480c0 -53.0244 42.9756 -96 96 -96h832.288c53.0244 0 96 42.9756 96 96v480c0 53.0244 -42.9756 96 -96 96zM95.8555 720h832.288c17.6641 0 32 -14.3359 32 -32v-64h-896.288v64c0 17.6641 14.3516 32 32 32z M928.144 176h-832.288c-17.6641 0 -32 14.3359 -32 32v288h896.288v-288c0 -17.6641 -14.3516 -32 -32 -32z"}}]};
+export default content;
