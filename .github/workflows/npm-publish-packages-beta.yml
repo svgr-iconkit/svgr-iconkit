@@ -134,6 +134,8 @@ jobs:
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
+          cat ../../package.json
+          rm -rf ../../package.json
           cat ../../tsconfig.json > ./tsconfig.json
           npm run build
 # cat ./tsconfig.json > ./tsconfig.tmp.json
