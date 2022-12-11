@@ -62,6 +62,9 @@
   "dependencies": {
     "@svgr-iconkit/core": "^0.3.1"
   },
+  "overrides": {
+    "react": "^17.0.1"
+  },
   "devDependencies": {
     "@svgr-iconkit/build-config": "^0.3.2-beta.1",
     "@svgr-iconkit/cli": "^0.3.1",
