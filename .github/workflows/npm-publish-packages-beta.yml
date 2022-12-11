@@ -5,7 +5,7 @@ name: Packages release (beta)
 run-name: Beta release ${{github.event.inputs.cbPackage}} with ${{github.event.inputs.cbVersionChange}} version
 concurrency:
   group: 'svgr-iconkit-cicd-release-beta'
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 on:
   workflow_dispatch:
