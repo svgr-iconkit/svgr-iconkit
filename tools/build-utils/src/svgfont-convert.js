@@ -110,8 +110,7 @@ export function convertSvgFont(
           {
             tagName: 'path',
             attrs: {
-              transform: `translate(0, ${Number(descent).toFixed(2)}) scale(1, -1)`,
-              'transform-origin': 'center',
+              transform: `translate(0, ${Number(height + descent).toFixed(2)}) scale(1, -1)`,
               fill: fillColor,
               d: properties.d,
             },

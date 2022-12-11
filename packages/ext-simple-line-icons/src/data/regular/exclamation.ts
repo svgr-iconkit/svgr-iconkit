@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"exclamation","attrs":{"viewBox":"0 0 1024 1024"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, -64.00) scale(1, -1)","transform-origin":"center","d":"M480 286v482c0 18 14 32 32 32s32 -14 32 -32v-482h-64zM480 223h64v-60h-64v60zM0 448c0 283 229 512 512 512s512 -229 512 -512s-229 -512 -512 -512s-512 229 -512 512zM961 448c0 247 -202 448 -449 448s-448 -201 -448 -448s201 -448 448 -448s449 201 449 448z "}}]};
+export const content: IconSVG = {"name":"exclamation","attrs":{"viewBox":"0 0 1024 1024"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 960.00) scale(1, -1)","d":"M480 286v482c0 18 14 32 32 32s32 -14 32 -32v-482h-64zM480 223h64v-60h-64v60zM0 448c0 283 229 512 512 512s512 -229 512 -512s-229 -512 -512 -512s-512 229 -512 512zM961 448c0 247 -202 448 -449 448s-448 -201 -448 -448s201 -448 448 -448s449 201 449 448z "}}]};
 export default content;
