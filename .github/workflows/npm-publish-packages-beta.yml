@@ -92,7 +92,7 @@ jobs:
         if: github.event.inputs.cbPackage != 'all'
         run: |
           cd ${{ github.event.inputs.cbPackage }}
-          npm install
+          npm install --legacy-peer-deps
       - name: Bump version to all
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
         run: |
