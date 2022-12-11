@@ -59,6 +59,14 @@ on:
         - "tools/build-config"
         - "tools/build-utils"
         - "tools/cli"
+      cGithubPackagesPublish:
+        type: choice 
+        required: true
+        description: Require publish to github registry?
+        default: "yes"
+        options:
+        - "no"
+        - "yes"
       cNpmPublish:
         type: choice 
         required: true
@@ -127,7 +135,7 @@ jobs:
           path: ${{ github.event.inputs.cbPackage }}
           retention-days: 14
       - name: publish all to registry(github)
-        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cNpmPublish == 'yes'
+        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cGithubPackagesPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
@@ -135,7 +143,7 @@ jobs:
           echo "always-auth = true" >> .npmrc
           yarn publish:all:github
       - name: publish target package to registry(github)
-        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cNpmPublish == 'yes'
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cGithubPackagesPublish == 'yes'
         working-directory: ${{ github.event.inputs.cbPackage }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
