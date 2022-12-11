@@ -103,7 +103,7 @@ jobs:
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
-          yarn install --force
+          npm install
       - name: 'Upload target package packages'
         if: github.event.inputs.cbPackage != 'all'
         uses: actions/upload-artifact@v3
@@ -134,7 +134,7 @@ jobs:
         run: |
           ls -al
           cat ../../tsconfig.json > ./tsconfig.json
-          yarn build
+          npm run build
 # cat ./tsconfig.json > ./tsconfig.tmp.json
 # cat ./tsconfig.tmp.json > ./tsconfig.json
 # unlink -f ./tsconfig.tmp.json
