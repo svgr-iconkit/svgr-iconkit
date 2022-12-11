@@ -31,7 +31,7 @@ const defaultExport = [
     input: ['src/web/index.ts'],
     output: [
       {
-        dir: './lib/cjs',
+        file: './lib/cjs/index.js',
         name: camelCase(pkg.name),
         format: 'commonjs',
         sourcemap: true,
@@ -41,7 +41,7 @@ const defaultExport = [
         plugins: [rollupPlugins.rnAlias({ groupName: 'web' })],
       },
       {
-        dir: './lib/esm',
+        file: './lib/esm/index.js',
         format: 'es',
         sourcemap: true,
         sourcemapPathTransform,
@@ -68,8 +68,41 @@ const defaultExport = [
       // which external modules to include in the bundle
       // https://github.com/rollup/rollup-plugin-node-resolve#usage
       resolve(),
+      terser(),
 
-      isDev ? undefined : terser(),
+    ],
+  },
+  {
+    input: ['src/web/index.ts'],
+    output: [
+      {
+        file: './lib/cjs/index.dev.js',
+        name: camelCase(pkg.name),
+        format: 'commonjs',
+        sourcemap: false,
+        globals,
+        exports: 'named',
+        plugins: [rollupPlugins.rnAlias({ groupName: 'web' })],
+      },
+    ],
+    // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
+    external: [],
+    watch: {
+      include: 'src/**',
+    },
+    plugins: [
+      external({}),
+      // Compile TypeScript files
+      typescript({ useTsconfigDeclarationDir: true }),
+      // Allow json resolution
+      json(),
+      // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
+      commonjs(),
+      // Allow node_modules resolution, so you can use 'external' to control
+      // which external modules to include in the bundle
+      // https://github.com/rollup/rollup-plugin-node-resolve#usage
+      resolve(),
+
     ],
   },
   {
@@ -111,7 +144,7 @@ const defaultExport = [
       commonjs(),
       resolve(),
 
-      isDev ? undefined : terser(),
+      terser(),
     ],
   },
 ]

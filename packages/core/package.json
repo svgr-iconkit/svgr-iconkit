@@ -21,16 +21,16 @@
     },
     ".": {
       "react-native": "./native/lib/esm/index.js",
-      "require": "./lib/cjs/index.js",
-      "browser": "./lib/cjs/index.js",
+      "require": "./index.cjs",
+      "browser": "./index.cjs",
       "import": "./lib/esm/index.js",
-      "default": "./lib/cjs/index.js"
+      "default": "./index.cjs"
     }
   },
-  "main": "lib/cjs/index",
+  "main": "index.cjs",
   "react-native": "./native/lib/esm/index",
-  "commonjs": "lib/cjs/index",
-  "module": "lib/esm/index",
+  "commonjs": "index.cjs",
+  "module": "./lib/esm/index.js",
   "files": [
     "icons",
     "types",
@@ -40,6 +40,7 @@
     "index.*.ts",
     "index.*.js",
     "native.js",
+    "native.*.js",
     "native.d.ts",
     "LICENSE.md",
     "README.md"
@@ -67,6 +68,7 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-terser": "^0.2.0",
     "@svgr-iconkit/build-config": "^0.3.2",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^16.11.6",

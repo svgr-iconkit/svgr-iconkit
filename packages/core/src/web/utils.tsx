@@ -21,10 +21,11 @@ export const propNamesRemap = {
   'stroke-dashoffset': 'strokeDashoffset',
   strokeMiterlimit: 'strokeMiterlimit',
   'stroke-miterlimit': 'strokeMiterlimit',
+  'transform-origin': 'transform-origin',
   style: null,
 }
 
-export const convertRunner = createConvertReactProps(propNamesRemap, { convertCamelCase: false})
+export const convertRunner = createConvertReactProps(propNamesRemap)
 
 export const filterNode = (node: IconSVGNode) => node.tagName !== 'title'
 /**

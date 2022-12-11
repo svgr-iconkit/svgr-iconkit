@@ -47,7 +47,7 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
     variant,
   })
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
-  const elements = useMemo(() => renderChildren(svgData, '#', `@${elmNs}:`), [svgData,elmNs]);
+  const elements = useMemo(() => renderChildren(svgData, '#' + elmNs, `@${elmNs}:`), [svgData,elmNs]);
 
   if (debug) {
     console.debug(`Icon render. id='%s', name='${name}', variant='${variant}', props=%o`, props.id, props)
@@ -74,6 +74,7 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
     ...attrProps,
     viewBox,
     ...iconProps,
+    'data-sik-ns': elmNs,
   }
 
   if (fill !== 'none' && colorize) {
