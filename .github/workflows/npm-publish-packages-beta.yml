@@ -7,7 +7,6 @@ concurrency:
   group: 'svgr-iconkit-cicd-release-beta'
   cancel-in-progress: false
 
-permissions: write-all
 on:
   workflow_dispatch:
     inputs:
