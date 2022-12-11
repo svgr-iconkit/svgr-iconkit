@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tape-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M541.5 550H658.5A150 150 0 1 0 800 450H400A150 150 0 1 0 541.5 550zM200 950V250H1000V950H200zM150 1050H1050A50 50 0 0 0 1100 1000V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050zM400 550A50 50 0 1 1 400 650A50 50 0 0 1 400 550zM800 550A50 50 0 1 1 800 650A50 50 0 0 1 800 550z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"windy-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M525 350H200V450H525A175 175 0 1 0 361.1 213.5L454.7499999999999 248.65A75 75 0 1 1 525 350zM250 650H925A175 175 0 1 0 761.1 413.5L854.75 448.65A75 75 0 1 1 925 550H250A150 150 0 0 0 250 850H675A75 75 0 1 1 604.75 951.35L511.1000000000001 986.45A175.04999999999998 175.04999999999998 0 0 0 850 925A175 175 0 0 0 675 750H250A50 50 0 1 1 250 650z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"moon-foggy-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M800 183.3000000000001V300H700V500H166.6A475.54999999999995 475.54999999999995 0 0 0 150 625C150 853 310.65 1043.5 525 1089.45A400 400 0 0 1 1099.5 603.25A475.25000000000006 475.25000000000006 0 0 0 800 183.25zM350 200H700V100H350V200zM100 400H600V300H100V400z"}}]};
+export default content;

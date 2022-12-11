@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"showers-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M750 300H450V150H350V312.5999999999999A400 400 0 1 0 822.8999999999999 845.0999999999999A275 275 0 1 0 875 300L850 299.95V149.9500000000001H750V299.95zM550 200H650V50H550V200z"}}]};
+export default content;

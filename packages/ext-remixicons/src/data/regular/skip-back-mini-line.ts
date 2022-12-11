@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"skip-back-mini-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M350 900A50 50 0 0 0 400 850V350A50 50 0 0 0 300 350V850A50 50 0 0 0 350 900zM750 493V707L598.4 600L750 493zM453.95 579.5999999999999A25 25 0 0 0 453.95 620.4L810.6 872.1999999999999A25 25 0 0 0 850 851.75V348.25A25 25 0 0 0 810.6 327.8000000000001L453.95 579.6z"}}]};
+export default content;

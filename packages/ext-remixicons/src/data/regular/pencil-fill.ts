@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"pencil-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M645 857.1L857.1 644.95L362.1 150H150V362.1500000000001L645 857.1500000000001zM715.7 927.8L821.7499999999999 1033.9A50 50 0 0 0 892.45 1033.9L1033.9 892.45A50 50 0 0 0 1033.9 821.75L927.8 715.7L715.7 927.8z"}}]};
+export default content;

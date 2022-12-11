@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"newspaper-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M950 100H250A150 150 0 0 0 100 250V1050A50 50 0 0 0 150 1100H850A50 50 0 0 0 900 1050V700H1100V250A150 150 0 0 0 950 100zM900 600V250A50 50 0 0 1 1000 250V600H900zM250 900V600H550V900H250zM250 550V450H750V550H250zM250 400V300H750V400H250zM350 800H450V700H350V800z"}}]};
+export default content;

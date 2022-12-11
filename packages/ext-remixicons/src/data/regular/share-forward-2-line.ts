@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"share-forward-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M200 250H1000V500H1100V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V500H200V250zM808.6 850L611.1 1047.5L681.8000000000001 1118.2L1000 800L681.8 481.8L611.1 552.5L808.6 750H250V850H808.6z"}}]};
+export default content;

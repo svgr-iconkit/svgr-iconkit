@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"compass-4-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM600 200A400 400 0 1 1 600 1000A400 400 0 0 1 600 200zM772.3 701.6L498.4 427.7000000000001A200.99999999999997 200.99999999999997 0 0 0 427.7 498.4L701.6 772.3A200.99999999999997 200.99999999999997 0 0 0 772.3 701.6z"}}]};
+export default content;

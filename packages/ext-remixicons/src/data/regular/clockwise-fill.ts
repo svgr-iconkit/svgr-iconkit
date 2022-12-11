@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"clockwise-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 700H1150L950 450L750 700H900V800A150 150 0 0 1 750 950H550V1050H750A250 250 0 0 0 1000 800V700zM650 750A50 50 0 0 0 700 700V200A50 50 0 0 0 650 150H150A50 50 0 0 0 100 200V700A50 50 0 0 0 150 750H650z"}}]};
+export default content;

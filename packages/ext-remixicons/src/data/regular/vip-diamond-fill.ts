@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"vip-diamond-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M243.65 1050H956.35A50 50 0 0 0 996.8 1029.4L1187.95 766.6A25 25 0 0 0 1186.1000000000001 734.95L618.35 119.9000000000001A25 25 0 0 0 581.6500000000001 119.9000000000001L13.9 734.9000000000001A25 25 0 0 0 12.05 766.6L203.2 1029.4A50 50 0 0 0 243.65 1050z"}}]};
+export default content;

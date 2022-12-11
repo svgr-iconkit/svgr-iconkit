@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"flutter-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M729.85 665.8000000000001H871.25L588.4000000000001 382.9000000000001L871.25 100.1000000000001H729.85L447 383L729.85 665.85zM720.15 1099.8H861.5999999999999L295.9000000000001 534.1L225.2 604.8L720.2 1099.8z"}}]};
+export default content;

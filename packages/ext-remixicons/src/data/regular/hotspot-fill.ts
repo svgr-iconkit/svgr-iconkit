@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hotspot-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 1100V650H900V150A50 50 0 0 0 850 100H250A50 50 0 0 0 200 150V1050A50 50 0 0 0 250 1100H550zM650 850A100 100 0 0 0 750 750H650V850zM650 1000A250 250 0 0 0 900 750H800A150 150 0 0 1 650 900V1000zM650 1150A400 400 0 0 0 1050 750H950A300 300 0 0 1 650 1050V1150z"}}]};
+export default content;

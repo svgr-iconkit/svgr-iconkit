@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"drive-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M397 992.7L571.1 691.2L274.1 176.55L100 478L397 992.7zM505.8 477.9999999999999H1100L925.9 176.55H331.75L505.8 477.9999999999999zM722.9499999999999 527.9999999999999L425.9000000000001 1042.75H774.1L1071.1000000000001 528H723z"}}]};
+export default content;

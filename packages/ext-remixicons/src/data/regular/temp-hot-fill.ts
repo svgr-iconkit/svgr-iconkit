@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"temp-hot-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 687.25V950A200 200 0 1 0 800 950V687.25A350 350 0 1 0 400 687.25zM550 593.6999999999999A200.10000000000002 200.10000000000002 0 0 1 600 200A200 200 0 0 1 650 593.6999999999999V950H550V593.6999999999999z"}}]};
+export default content;

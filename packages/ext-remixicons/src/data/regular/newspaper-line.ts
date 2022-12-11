@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"newspaper-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M800 200V1000H200V250A50 50 0 0 1 250 200H800zM950 100H250A150 150 0 0 0 100 250V1050A50 50 0 0 0 150 1100H850A50 50 0 0 0 900 1050V700H1100V250A150 150 0 0 0 950 100zM900 600V250A50 50 0 0 1 1000 250V600H900zM300 900H600V600H300V900zM400 800V700H500V800H400zM300 550H700V450H300V550zM300 400H700V300H300V400z"}}]};
+export default content;

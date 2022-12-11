@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"game-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 1100A499 499 0 0 0 987.15 916.45L670.6999999999999 600L987.15 283.55A499 499 0 0 0 600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100zM600 950A75 75 0 1 1 600 800A75 75 0 0 1 600 950z"}}]};
+export default content;

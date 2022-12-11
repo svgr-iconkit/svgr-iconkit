@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"building-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 250V915A50 50 0 0 0 182.9 962L666.4499999999999 1137.8A25 25 0 0 0 699.9999999999999 1114.3V866.6500000000001L1015.8 761.4A50 50 0 0 0 1050 713.95V250H1150V150H50V250H150zM250 250H600V1007.25L250 879.95V250zM950 250V677.9L700 761.25V250H950z"}}]};
+export default content;

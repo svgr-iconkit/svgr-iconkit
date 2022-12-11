@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hammer-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 800V1100H1000A50 50 0 0 0 1050 1050V850A50 50 0 0 0 1000 800H850zM750 100A50 50 0 0 0 700 50H500A50 50 0 0 0 450 100V800H125V896.3A50 50 0 0 0 149.8 939.45L425 1100H750V100z"}}]};
+export default content;

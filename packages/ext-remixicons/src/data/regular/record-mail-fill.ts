@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"record-mail-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M487.15 450H712.85A275 275 0 1 0 925 350H275A275 275 0 1 0 487.15 450zM275 550A75 75 0 1 1 275 700A75 75 0 0 1 275 550zM925 550A75 75 0 1 1 925 700A75 75 0 0 1 925 550z"}}]};
+export default content;

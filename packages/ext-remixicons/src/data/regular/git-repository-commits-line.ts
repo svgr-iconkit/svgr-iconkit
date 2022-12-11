@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"git-repository-commits-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M900 400V500H950V1000H300V498.25A176.5 176.5 0 0 0 325 500H400V400H325A75 75 0 0 1 325 250H500V150H325A175 175 0 0 0 150 325V950A150 150 0 0 0 300 1100H1000A50 50 0 0 0 1050 1050V200A50 50 0 0 0 1000 150H800V250H950V400H900zM350 950H450V850H350V950zM350 800H450V700H350V800zM700 350V50H600V350H450L650 600L850 350H700z"}}]};
+export default content;

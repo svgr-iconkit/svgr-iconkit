@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"truck-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 800H1000L1150 597.1999999999999V300H1048.25A175 175 0 0 0 701.75 300H448.25A175 175 0 0 0 101.75 300H50V900A50 50 0 0 0 100 950H800A50 50 0 0 0 850 900V800zM850 700V550H1050V564.25L949.6 700H850z"}}]};
+export default content;

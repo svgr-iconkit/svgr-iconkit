@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"bit-coin-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM550 400V300H650V400H700A125 125 0 0 1 800 600A125 125 0 0 1 700 800H650V900H550V800H400V400H550zM500 550H700A25 25 0 1 0 700 500H500V550zM500 700H700A25 25 0 1 0 700 650H500V700z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"battery-share-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M700 1100A50 50 0 0 0 750 1050V1000H900A50 50 0 0 0 950 950V850H850V900H650V1000H550V900H350V200H850V350H950V150A50 50 0 0 0 900 100H300A50 50 0 0 0 250 150V950A50 50 0 0 0 300 1000H450V1050A50 50 0 0 0 500 1100H700zM750 800L1000 600L750 400V550H700C647.3 550 600 502.5 600 450V300H500V450A200 200 0 0 0 700 650H750V800z"}}]};
+export default content;

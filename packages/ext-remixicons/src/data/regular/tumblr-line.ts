@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tumblr-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 800C453.7499999999999 800 574.85 833.65 574.85 1025V1100H649.85V800H900V700H649.85V554.5C650 430.5 650 370.25 650 350C649.9 239.6000000000002 730.75 180.0000000000001 889.25 180.0000000000001V100H777.15C657.05 99.9000000000001 549.85 201.75 549.85 327.2500000000001V700H350V800H400z"}}]};
+export default content;

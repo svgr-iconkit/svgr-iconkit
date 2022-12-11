@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"coupon-3-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 1000A50 50 0 0 0 150 1050H1050A50 50 0 0 0 1100 1000V725A125 125 0 1 1 1100 475V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000zM404.2500000000001 250A75 75 0 0 0 545.75 250H1000V398.4A225 225 0 0 0 1000 801.6V950H545.75A75 75 0 0 0 404.25 950H200V250H404.2500000000001zM475 650A75 75 0 1 0 475 800A75 75 0 0 0 475 650zM475 400A75 75 0 1 0 475 550A75 75 0 0 0 475 400z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"phone-find-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M900 1100A50 50 0 0 0 950 1050V650H850V1000H350V200H550V100H300A50 50 0 0 0 250 150V1050A50 50 0 0 0 300 1100H900zM750 600A200 200 0 0 0 922.3 298.4L1032.8000000000002 187.9L962.15 117.1500000000001L851.5500000000001 227.6500000000001A200 200 0 1 0 750 600zM750 500A100 100 0 1 1 750 300A100 100 0 0 1 750 500z"}}]};
+export default content;

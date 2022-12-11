@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"remote-control-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M900 1100A50 50 0 0 0 950 1050V150A50 50 0 0 0 900 100H300A50 50 0 0 0 250 150V1050A50 50 0 0 0 300 1100H900zM850 1000H350V200H850V1000zM750 450V350H650V450H750zM550 450V350H450V450H550zM650 900V800H750V700H649.95L650 600H550L549.95 700H450V800H550V900H650z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"calendar-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 650H1100V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V650zM850 1050H1050A50 50 0 0 0 1100 1000V750H100V1000A50 50 0 0 0 150 1050H350V1150H450V1050H750V1150H850V1050z"}}]};
+export default content;

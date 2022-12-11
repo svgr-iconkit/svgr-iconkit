@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"nurse-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M747.8 421.8C880.7499999999999 368.9 978.6 246.8 996.9 100H203.1C221.4 246.8 319.25 368.9 452.2 421.8L600 200L747.8 421.8zM900 1100V800C900 634.3 765.7 500 600 500S300 634.3 300 800V1100H900zM800 800H400C400 689.5 489.4999999999999 600 600 600S800 689.5 800 800z"}}]};
+export default content;

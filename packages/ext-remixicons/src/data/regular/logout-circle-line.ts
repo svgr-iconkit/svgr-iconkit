@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"logout-circle-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 650H650V550H250V400L0 600L250 800V650zM200 300H335.4000000000001A400 400 0 1 1 335.4000000000001 900H200A499.25 499.25 0 0 0 600 1100C876.15 1100 1100 876.15 1100 600S876.15 100 600 100A499.25 499.25 0 0 0 200 300z"}}]};
+export default content;

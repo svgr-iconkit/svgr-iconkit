@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"bar-chart-grouped-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 600H200V150H100V600zM250 500H350V150H250V500zM800 800H900V150H800V800zM950 700H1050V150H950V700zM450 1100H550V150H450V1100zM600 1000H700V150H600V1000z"}}]};
+export default content;

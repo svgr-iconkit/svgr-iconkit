@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"git-commit-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M793.7 550A200.10000000000002 200.10000000000002 0 0 0 406.3000000000001 550H150V650H406.3000000000001A200.10000000000002 200.10000000000002 0 0 0 793.7000000000002 650H1050V550H793.6999999999999z"}}]};
+export default content;

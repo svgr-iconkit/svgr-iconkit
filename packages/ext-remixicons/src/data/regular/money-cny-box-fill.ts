@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"money-cny-box-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 1050H1050A50 50 0 0 0 1100 1000V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050zM650 550V600H800V700H670.6999999999999L776.8 806.05L706.05 876.8L600 770.7L493.95 876.8L423.2000000000001 806L529.3000000000001 700H400V600H550V550H400V450H550V350H650V450H800V550H650z"}}]};
+export default content;

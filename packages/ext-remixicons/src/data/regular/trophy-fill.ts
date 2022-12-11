@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"trophy-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 353.1V250H900V150H300V250H550V353.1A400.04999999999995 400.04999999999995 0 0 0 200 750V1050H1000V750A400.04999999999995 400.04999999999995 0 0 0 650 353.1zM50 950H150V750H50V950zM1050 950H1150V750H1050V950z"}}]};
+export default content;

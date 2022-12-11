@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"eraser-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M700 250H1050V150H600L400.1 149.9000000000001L75.7499999999999 474.2500000000001A50 50 0 0 0 75.7499999999999 544.95L606 1075.3A50 50 0 0 0 676.75 1075.3L1065.6499999999999 686.4A50 50 0 0 0 1065.6499999999999 615.7L700 250zM782.85 474.25L959.6 651.05L641.4 969.25L464.65 792.4499999999999L782.85 474.25z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"medicine-bottle-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 950V850C932.85 850 1000 782.85 1000 700V150C1000 122.4000000000001 977.6 100 950 100H250C222.4 100 200 122.4000000000001 200 150V700C200 782.85 267.15 850 350 850V950H850zM650 650H550V550H450V450H549.95L550 350H650L649.95 450H750V550H650V650zM950 1100V1000H250V1100H950z"}}]};
+export default content;

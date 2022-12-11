@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"contrast-drop-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M281.8 868.2L600 1186.4L918.2 868.2A450 450 0 1 0 281.8000000000001 868.2zM352.5 797.5A350 350 0 0 1 600.1999999999999 200L600 1045L352.5 797.5z"}}]};
+export default content;

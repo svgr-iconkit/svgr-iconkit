@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"passport-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 1100A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V1050A50 50 0 0 0 200 1100H1000zM950 1000H250V200H950V1000zM800 400V300H400V400H800zM600 900A200 200 0 1 0 600 500A200 200 0 0 0 600 900zM600 800A100 100 0 1 1 600 600A100 100 0 0 1 600 800z"}}]};
+export default content;

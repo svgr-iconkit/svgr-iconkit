@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"government-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 250V800H50V900H200V1000A50 50 0 0 0 250 1050H950A50 50 0 0 0 1000 1000V900H1150V800H1100V250H1150V150H50V250H100zM650 250V600H550V250H650zM400 250V600H300V250H400zM900 250V600H800V250H900zM300 950V900H900V950H300z"}}]};
+export default content;

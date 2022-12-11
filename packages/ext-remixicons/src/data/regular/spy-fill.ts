@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"spy-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 550A200 200 0 1 0 850 150C742.9 150 650 239.5 650 350H550A200 200 0 1 0 523.25 450H676.75A199.90000000000003 199.90000000000003 0 0 0 850 550zM100 600V700H200V850A200 200 0 0 0 400 1050H800A200 200 0 0 0 1000 850V700H1100V600H100z"}}]};
+export default content;

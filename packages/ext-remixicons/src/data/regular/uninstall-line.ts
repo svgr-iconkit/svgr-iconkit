@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"uninstall-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 1100V1000H250L249.95 500H949.95L950 1000H800V1100H1000A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V1050A50 50 0 0 0 200 1100H400zM949.9500000000002 400H249.9500000000001L250 200H950L949.95 400zM850 350V250H750V350H850zM600 1100L800 900H650V650H550V900H400L600 1100z"}}]};
+export default content;

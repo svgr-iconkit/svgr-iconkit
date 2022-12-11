@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"charging-pile-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 250V1000A50 50 0 0 0 200 1050H650A50 50 0 0 0 700 1000V600H800A100 100 0 0 0 900 500V300A50 50 0 0 1 1000 300V650H900A50 50 0 0 0 850 700V879.3L767.15 962.15L837.85 1032.85L1085.3500000000001 785.35A49.85 49.85 0 0 0 1100 750V300A150 150 0 0 0 800 300V500H700V250H750V150H100V250H150zM450 650V850L250 550H400V350L600 650H450z"}}]};
+export default content;

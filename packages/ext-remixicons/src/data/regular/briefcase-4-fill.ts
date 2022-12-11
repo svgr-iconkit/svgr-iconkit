@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"briefcase-4-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M450 550V400H750V550H1100V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V550H450zM550 650H650V500H550V650zM350 950V1100A50 50 0 0 0 400 1150H800A50 50 0 0 0 850 1100V950H1050A50 50 0 0 0 1100 900V650H750V750H450V650H100V900A50 50 0 0 0 150 950H350zM450 1050V950H750V1050H450z"}}]};
+export default content;

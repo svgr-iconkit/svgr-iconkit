@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"barcode-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 1000H200V200H100V1000zM300 1000H400V200H300V1000zM450 1000H600V200H450V1000zM650 1000H750V200H650V1000zM800 1000H900V200H800V1000zM950 1000H1100V200H950V1000z"}}]};
+export default content;

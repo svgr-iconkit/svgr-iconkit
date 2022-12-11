@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"focus-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 1100C876 1100 1100 876 1100 600S876 100 600 100S100 324 100 600S324 1100 600 1100zM600 700C545 700 500 655 500 600S545 500 600 500S700 545 700 600S655 700 600 700z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"device-recover-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M950 1100A50 50 0 0 0 1000 1050V150A50 50 0 0 0 950 100H250A50 50 0 0 0 200 150V1050A50 50 0 0 0 250 1100H950zM600 850A250 250 0 1 1 647.75 354.5500000000001L600 450A150 150 0 0 0 600 750C679.9000000000001 750 750 683 750 600H625L731.4 387.3000000000001A250 250 0 0 1 600 850z"}}]};
+export default content;

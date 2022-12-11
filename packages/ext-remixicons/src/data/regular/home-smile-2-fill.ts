@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"home-smile-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 200A50 50 0 0 0 1000 150H200A50 50 0 0 0 150 200V734.3A50 50 0 0 0 169 773.55L569 1089.1A50 50 0 0 0 631 1089.1L1030.9999999999998 773.6000000000001A50 50 0 0 0 1049.9999999999998 734.3000000000001V200zM350 600A250 250 0 0 1 850 600H750A150 150 0 0 0 450 600H350z"}}]};
+export default content;

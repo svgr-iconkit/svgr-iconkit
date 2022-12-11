@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chat-heart-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M322.75 250L100 75V1000A50 50 0 0 0 150 1050H1050A50 50 0 0 0 1100 1000V300A50 50 0 0 0 1050 250H322.75zM600.9000000000001 465L768.85 632.95A112.5 112.5 0 0 1 609.75 792.0500000000001L600.9000000000001 783.2L592.0500000000001 792.0500000000001A112.5 112.5 0 0 1 432.9500000000001 632.95L600.9000000000001 465z"}}]};
+export default content;

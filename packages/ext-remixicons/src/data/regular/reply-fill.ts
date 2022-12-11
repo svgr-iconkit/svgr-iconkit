@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"reply-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 200L50 600L550 1000V750C826.15 750 1050 526.15 1050 250C1050 236.35 1049.5 222.85 1048.4 209.5000000000001C973 352.5 822.8999999999999 450 650 450H550V200z"}}]};
+export default content;

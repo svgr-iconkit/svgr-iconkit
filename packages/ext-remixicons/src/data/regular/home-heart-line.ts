@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"home-heart-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 200A50 50 0 0 0 950 150H250A50 50 0 0 0 200 200V650H50L566.35 1119.4A50 50 0 0 0 633.65 1119.4L1150 650H1000V200zM900 250V742.15L600 1014.85L300 742.15V250H900zM600 350L432.05 517.95A112.5 112.5 0 1 0 591.15 677.0500000000001L600 668.2L608.85 677.0500000000001A112.5 112.5 0 1 0 767.95 517.95L600 350z"}}]};
+export default content;

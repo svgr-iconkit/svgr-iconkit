@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"line-chart-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 1050V250H1050V150H150V1050H250zM996.9999999999998 903L1103 797L800 493.9L650 643.9L453 446.9L347 553L650 856L800 706L997.0000000000002 903z"}}]};
+export default content;

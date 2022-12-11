@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"file-shred-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M300 600H900V800H700V1000H300V600zM200 600V1050.25C200 1077.75 222.25 1100 249.8 1100H750L1000 850V600H1100V500H100V600H200zM150 400H250V100H150V400zM950 400H1050V100H950V400zM750 400H850V100H750V400zM550 400H650V100H550V400zM350 400H450V100H350V400z"}}]};
+export default content;

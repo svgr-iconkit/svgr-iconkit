@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"delete-bin-3-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 850V200A100 100 0 0 0 900 100H300A100 100 0 0 0 200 200V850H100V950H1100V850H1000zM300 850V200H900V850H300zM550 750H650V650H550V750zM550 600H650V500H550V600zM550 450H650V350H550V450zM350 1100H850V1000H350V1100z"}}]};
+export default content;

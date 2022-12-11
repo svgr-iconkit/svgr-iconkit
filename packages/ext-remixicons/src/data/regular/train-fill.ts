@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"train-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M860 200L950 125V100H250V125L340 200H250A100 100 0 0 0 150 300V850A200 200 0 0 0 350 1050H850A200 200 0 0 0 1050 850V300A100 100 0 0 0 950 200H860zM250 850V650H950V850H250zM600 300A100 100 0 1 1 600 500A100 100 0 0 1 600 300z"}}]};
+export default content;

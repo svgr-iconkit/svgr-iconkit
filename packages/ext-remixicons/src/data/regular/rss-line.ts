@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"rss-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 350A200 200 0 0 0 350 150H150V350zM150 700C453.7499999999999 700 700 453.75 700 150H600A450 450 0 0 1 150 600V700zM150 1050C647.0500000000001 1050 1050 647.0500000000001 1050 150H950C950 591.85 591.85 950 150 950V1050z"}}]};
+export default content;

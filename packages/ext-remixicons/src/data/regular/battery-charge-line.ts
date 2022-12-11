@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"battery-charge-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 250H150A50 50 0 0 0 100 300V900A50 50 0 0 0 150 950H481.25L422.9000000000001 850H200V350H400V250zM618.75 250L677.1 350H900V850H700V950H950A50 50 0 0 0 1000 900V300A50 50 0 0 0 950 250H618.75zM1050 750H1150V450H1050V750zM600 650H750L500 250V550H350L600 950V650z"}}]};
+export default content;

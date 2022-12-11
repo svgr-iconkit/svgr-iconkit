@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"vidicon-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 740L1110.65 922.5A25 25 0 0 0 1150 902V298A25 25 0 0 0 1110.65 277.5L850 460V250A50 50 0 0 0 800 200H100A50 50 0 0 0 50 250V950A50 50 0 0 0 100 1000H800A50 50 0 0 0 850 950V740zM850 582.0500000000001L1050 442.0500000000001V758L850 618V582.1zM150 900V300H750V900H150zM250 800H350V700H250V800z"}}]};
+export default content;

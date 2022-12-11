@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"contacts-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M950 850H1200V750H950V850zM850 600H1200V500H850V600zM1000 350H1200V250H1000V350zM100 100A400 400 0 1 0 900 100H800A300 300 0 1 1 200 100H100zM500 550C334.25 550 200 684.25 200 850S334.25 1150 500 1150S800 1015.75 800 850S665.75 550 500 550zM500 650C610.5 650 700 739.5 700 850S610.5 1050 500 1050S300 960.5 300 850S389.5 650 500 650z"}}]};
+export default content;

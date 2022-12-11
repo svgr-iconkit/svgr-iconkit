@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sim-card-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M300 1000V200H900V808.5999999999999L708.6 1000H300zM250 1100H750L985.35 864.6500000000001A50 50 0 0 0 1000 829.3V150A50 50 0 0 0 950 100H250A50 50 0 0 0 200 150V1050A50 50 0 0 0 250 1100zM400 600H800V300H400V600z"}}]};
+export default content;

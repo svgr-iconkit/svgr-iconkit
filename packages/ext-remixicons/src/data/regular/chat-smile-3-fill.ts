@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chat-smile-3-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M246.45 246.45A498.45 498.45 0 0 0 100 600C100 876.15 323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100H100L246.45 246.45zM400 550A200 200 0 1 1 800 550H400z"}}]};
+export default content;

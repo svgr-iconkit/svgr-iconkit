@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"moon-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M569 1099.05A375 375 0 1 1 1099 569.05C1083.1 307.3000000000001 865.8 100 600.05 100C323.85 100 100 323.85 100 600C100 865.75 307.3 1083.05 569 1099.05z"}}]};
+export default content;

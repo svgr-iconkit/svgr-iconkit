@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"money-dollar-box-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 1050H1050A50 50 0 0 0 1100 1000V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050zM425 500V400H550V300H650V400H700A125 125 0 1 1 700 650H500A25 25 0 1 0 500 700H775V800H650V900H550V800H500A125 125 0 0 1 500 550H700A25 25 0 1 0 700 500H425z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"product-hunt-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM666.6999999999999 600H525V750H666.6999999999999A75 75 0 0 0 666.6999999999999 600zM666.6999999999999 850H425V350H525V500H666.6999999999999A175 175 0 0 1 666.6999999999999 850z"}}]};
+export default content;

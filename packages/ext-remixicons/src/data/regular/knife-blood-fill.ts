@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"knife-blood-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M217.1 1129.6L1118.65 227.9999999999999A75 75 0 0 0 1012.6000000000003 121.8999999999999L782.8000000000001 351.75L606 175L400 381V250A50 50 0 0 0 300 250V450A50 50 0 0 1 200.35 455.85L200 450V400A50 50 0 0 0 100 400V839.3A398.8 398.8 0 0 0 208.4 1120.6499999999999L217.1 1129.6z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"price-tag-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 850L572.25 1131.5A50 50 0 0 0 627.75 1131.5L1050 850V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V850zM250 796.5V200H950V796.5L600 1029.8L250 796.5zM600 650A100 100 0 1 0 600 850A100 100 0 0 0 600 650z"}}]};
+export default content;

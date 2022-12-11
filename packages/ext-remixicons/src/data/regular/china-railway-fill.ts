@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"china-railway-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 250V550L450 600V750H750V600L650 550V250L900 200V100H300V200L550 250zM500 1088.85V1150H700V1088.85A450.15 450.15 0 0 0 849.65 275.5500000000002L794.15 358.7500000000003A350 350 0 1 1 405.8 358.7500000000003L350.35 275.5500000000002A450.15 450.15 0 0 0 500 1088.85z"}}]};
+export default content;

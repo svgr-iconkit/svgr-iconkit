@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sd-card-mini-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 1000V710.35A125 125 0 0 0 363.5 622.1L300 558.35V200H900V1000H400zM350 1100H950A50 50 0 0 0 1000 1050V150A50 50 0 0 0 950 100H250A50 50 0 0 0 200 150V579A50 50 0 0 0 214.6 614.3L292.7 692.6999999999999A25 25 0 0 1 300 710.35V1050A50 50 0 0 0 350 1100zM750 950H850V750H750V950zM600 950H700V750H600V950zM450 950H550V750H450V950z"}}]};
+export default content;

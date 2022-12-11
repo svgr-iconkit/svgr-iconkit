@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sd-card-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M214.65 864.6500000000001L450 1100H950A50 50 0 0 0 1000 1050V150A50 50 0 0 0 950 100H250A50 50 0 0 0 200 150V829.3A50 50 0 0 0 214.65 864.6500000000001zM750 950V750H850V950H750zM600 950V750H700V950H600zM450 950V750H550V950H450z"}}]};
+export default content;

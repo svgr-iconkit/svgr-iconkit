@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"layout-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 200A50 50 0 0 0 1000 150H200A50 50 0 0 0 150 200V1000A50 50 0 0 0 200 1050H1000A50 50 0 0 0 1050 1000V200zM550 950H250V250H550V950zM950 550H650V250H950V550zM950 950H650V650H950V950z"}}]};
+export default content;

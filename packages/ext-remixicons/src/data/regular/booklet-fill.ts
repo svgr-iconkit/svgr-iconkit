@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"booklet-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 1100V100H200V300H100V400H200V550H100V650H200V800H100V900H200V1100H400zM1000.2500000000002 1100C1055.35 1100 1100 1055.1 1100 1000.5V199.5000000000001C1100 144.5500000000002 1055.35 100.0000000000002 1000.25 100.0000000000002H500V1100H1000.2500000000002z"}}]};
+export default content;

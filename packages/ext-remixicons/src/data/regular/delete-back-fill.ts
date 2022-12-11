@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"delete-back-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M326.75 1050H1050A50 50 0 0 0 1100 1000V200A50 50 0 0 0 1050 150H326.75A50 50 0 0 0 285.1500000000001 172.25L18.5 572.25A50 50 0 0 0 18.5 627.75L285.1500000000001 1027.75A50 50 0 0 0 326.75 1050zM800 650H450V550H800V650z"}}]};
+export default content;

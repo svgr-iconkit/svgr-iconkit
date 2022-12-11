@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shopping-bag-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 100H200A50 50 0 0 0 150 150V1050A50 50 0 0 0 200 1100H1000A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100zM950 200V1000H250V200H950zM450 900V800A150 150 0 0 1 750 800V900H850V800A250 250 0 0 0 350 800V900H450z"}}]};
+export default content;

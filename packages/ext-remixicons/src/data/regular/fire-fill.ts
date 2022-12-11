@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"fire-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 50A375 375 0 0 0 343.1 698.15C410.2000000000001 761.3000000000001 575 875 550 1125C850 925 1000 725 700 425C750 425 825 425 950 548.5C963.5 509.85 975 468.3 975 425A375 375 0 0 0 600 50z"}}]};
+export default content;

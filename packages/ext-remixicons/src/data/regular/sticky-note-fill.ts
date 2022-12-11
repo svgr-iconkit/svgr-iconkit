@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sticky-note-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M750 500L744.15 499.65A50 50 0 0 1 700.35 455.85L700 450V150H199.9A49.800000000000004 49.800000000000004 0 0 0 150 199.65V1000.35C150 1027.75 172.25 1050 199.65 1050H1000.35C1027.75 1050 1049.9999999999998 1027.65 1049.9999999999998 1000.05V500H749.9999999999998zM1050 400L800 150.1500000000001V400H1050z"}}]};
+export default content;
