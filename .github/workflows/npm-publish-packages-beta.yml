@@ -90,8 +90,8 @@ jobs:
           yarn install
       - name: Install target package
         if: github.event.inputs.cbPackage != 'all'
+        working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
-          cd ${{ github.event.inputs.cbPackage }}
           npm install --legacy-peer-deps
       - name: Bump version to all
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
@@ -101,8 +101,8 @@ jobs:
           git add ./
       - name: Bump version to target package
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbVersionChange != 'no'
+        working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
-          cd ${{ github.event.inputs.cbPackage }}
           yarn version --${{ github.event.inputs.cbVersionChange }} --preid beta --yes --no-push
           git status
           git add ./
@@ -112,9 +112,16 @@ jobs:
           yarn run build
       - name: Build to target package
         if: github.event.inputs.cbPackage != 'all'
+        working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
-          cd ${{ github.event.inputs.cbPackage }}
           yarn build
+      - name: 'Upload target package artifact'
+        if: github.event.inputs.cbPackage != 'all'
+        uses: actions/upload-artifact@v3
+        with:
+          name: release-beta-${{ github.event.inputs.cbPackage }}
+          path: ${{ github.event.inputs.cbPackage }}
+          retention-days: 14
       - name: publish all to registry(github)
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cNpmPublish == 'yes'
         env:
@@ -123,15 +130,16 @@ jobs:
           echo "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "always-auth = true" >> .npmrc
           yarn publish:all:github
-      - name: publish all to registry(github)
+      - name: publish target package to registry(github)
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cNpmPublish == 'yes'
+        working-directory: ${{ github.event.inputs.cbPackage }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
           cd ${{ github.event.inputs.cbPackage }}
           echo "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "always-auth = true" >> .npmrc
-          yarn publish
+          yarn publish --access public --non-interactive  --no-git-tag-version  --registry=https://npm.pkg.github.com/
       - name: publish all to registry(npmjs.com)
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cNpmPublish == 'yes'
         env:
@@ -140,15 +148,15 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "always-auth = true" >> .npmrc
           yarn publish:all --registry=https://registry.npmjs.org/
-      - name: publish all to registry(npmjs.com)
+      - name: publish target package to registry(npmjs.com)
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cNpmPublish == 'yes'
+        working-directory: ${{ github.event.inputs.cbPackage }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
         run: |
-          cd ${{ github.event.inputs.cbPackage }}
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           echo "always-auth = true" >> .npmrc
-          yarn publish --registry=https://registry.npmjs.org/
+          yarn publish --access public --non-interactive  --no-git-tag-version --registry=https://registry.npmjs.org/
       - name: push result
         run: |
           git push --force --all
