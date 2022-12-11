@@ -102,6 +102,8 @@ jobs:
         if: github.event.inputs.cbPackage != 'all'
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
+          cat ../../package.json
+          rm -rf ../../package.json
           ls -al
           npm install --legacy-peer-deps
           ls -al ./node_modules
@@ -134,8 +136,6 @@ jobs:
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
-          cat ../../package.json
-          rm -rf ../../package.json
           cat ../../tsconfig.json > ./tsconfig.json
           npm run build
 # cat ./tsconfig.json > ./tsconfig.tmp.json
