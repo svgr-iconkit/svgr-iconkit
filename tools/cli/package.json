@@ -32,7 +32,7 @@
     "build:full": "babel --config-file ./babel.config.js ./src --out-dir ./lib"
   },
   "dependencies": {
-    "@svgr-iconkit/build-utils": "0.3.3-beta.0",
+    "@svgr-iconkit/build-utils": "^0.3.3-beta.0",
     "@svgr/cli": "^5.5.0",
     "@svgr/core": "^5.5.0",
     "@svgr/plugin-svgo": "^5.5.0",
