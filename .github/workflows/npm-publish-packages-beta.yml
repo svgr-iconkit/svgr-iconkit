@@ -103,7 +103,7 @@ jobs:
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
-          npm install --force
+          npm install --legacy-peer-deps
       - name: 'Upload target package packages'
         if: github.event.inputs.cbPackage != 'all'
         uses: actions/upload-artifact@v3
