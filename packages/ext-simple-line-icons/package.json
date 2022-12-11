@@ -58,7 +58,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.1"
+    "@svgr-iconkit/core": "^0.3.2-beta.0"
   },
   "devDependencies": {
     "@svgr-iconkit/build-config": "^0.3.2",
