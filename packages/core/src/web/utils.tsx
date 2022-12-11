@@ -24,7 +24,7 @@ export const propNamesRemap = {
   style: null,
 }
 
-export const convertRunner = createConvertReactProps(propNamesRemap)
+export const convertRunner = createConvertReactProps(propNamesRemap, { convertCamelCase: false})
 
 export const filterNode = (node: IconSVGNode) => node.tagName !== 'title'
 /**

@@ -63,7 +63,7 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.2-beta.1",
+    "@svgr-iconkit/build-config": "^0.3.2",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
     "evil-icons": "^1.10.1",
@@ -79,7 +79,7 @@
     "iconsmap:upgrade": "yarn add -D evil-icons",
     "iconsmap:prepare": "rimraf ./src/gen",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -i assets/icons -o ./src/gen/assets/regular/ -p evil-icons --remove-name-prefix 'ei-'",
-    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./src/gen/assets/regular/ -o ./src/data/regular/",
+    "iconsmap:create:regular": "svgr-iconkit convert-data -i ./src/gen/assets/regular/ -o ./src/data/regular/ --fill-color 'currentColor'",
     "iconsmap:create": "npm-run-all iconsmap:copy:regular iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
