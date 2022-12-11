@@ -151,11 +151,7 @@ jobs:
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
-          cat ../../tsconfig.json > ./tsconfig.json
           npm run build
-# cat ./tsconfig.json > ./tsconfig.tmp.json
-# cat ./tsconfig.tmp.json > ./tsconfig.json
-# unlink -f ./tsconfig.tmp.json
       - name: 'Upload target package artifact'
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v3
