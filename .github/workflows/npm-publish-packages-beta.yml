@@ -115,8 +115,9 @@ jobs:
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           cat ../../package.json
-          rm -rf ../../package.json
+          mv ../../package.json ../../package.tmp.json
           npm install --legacy-peer-deps
+          mv ../../package.tmp.json ../../package.json
       - name: 'Upload target package packages'
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v3
