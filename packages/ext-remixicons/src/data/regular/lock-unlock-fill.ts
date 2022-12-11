@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"lock-unlock-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M350 700H1000A50 50 0 0 0 1050 650V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V650A50 50 0 0 0 200 700H250V750A350 350 0 0 0 913.1 906.55L823.65 861.85A250 250 0 0 1 350 750V700zM500 450V350H700V450H500z"}}]};
+export default content;

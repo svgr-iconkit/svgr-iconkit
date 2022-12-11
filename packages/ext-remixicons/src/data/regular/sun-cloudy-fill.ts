@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sun-cloudy-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M499.2 947A325 325 0 1 0 1063.5 625.2A275 275 0 0 0 875 150L450 150.05A400 400 0 1 0 499.2 947.05zM602.75 919.8A401.3 401.3 0 0 0 822.8999999999999 695.05A276.45000000000005 276.45000000000005 0 0 0 978.9 679.6999999999999A225 225 0 0 1 602.8 919.8z"}}]};
+export default content;

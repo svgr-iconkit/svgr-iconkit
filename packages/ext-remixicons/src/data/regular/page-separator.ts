@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"page-separator","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 150V350H350V150H250V400A50 50 0 0 0 300 450H900A50 50 0 0 0 950 400V150H850zM350 1050V850H850V1050H950V800A50 50 0 0 0 900 750H300A50 50 0 0 0 250 800V1050H350zM100 750L300 600L100 450V750zM1100 750V450L900 600L1100 750z"}}]};
+export default content;

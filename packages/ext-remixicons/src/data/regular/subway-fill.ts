@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"subway-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M860 200L950 125V100H250V125L340 200H250A100 100 0 0 0 150 300V850A200 200 0 0 0 350 1050H850A200 200 0 0 0 1050 850V300A100 100 0 0 0 950 200H860zM550 600V950H350A100 100 0 0 1 250 850V600H550zM650 600H950V850A100 100 0 0 1 850 950H650V600zM375 300A75 75 0 1 1 375 450A75 75 0 0 1 375 300zM825 300A75 75 0 1 1 825 450A75 75 0 0 1 825 300z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"flutter-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M675.15 1099.95L175.15 599.95L329.3 445.8000000000001L983.3 1099.95H675.15zM674.85 640.05L406.1 369L674.7 100H984.15L714.8 369.9999999999999L984.2499999999998 640H674.85z"}}]};
+export default content;

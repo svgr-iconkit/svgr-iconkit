@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"money-dollar-circle-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM425 500V400H550V300H650V400H700A125 125 0 1 1 700 650H500A25 25 0 1 0 500 700H775V800H650V900H550V800H500A125 125 0 0 1 500 550H700A25 25 0 1 0 700 500H425z"}}]};
+export default content;

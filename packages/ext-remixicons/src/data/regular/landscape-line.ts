@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"landscape-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M563.5 589.2L750 900L1150 150H100L450 800L563.5 589.1999999999999zM619.5 488.1L749.35 250H983.3500000000003L744.8500000000001 697.1L619.5000000000001 488.1zM267.4 250H632.6L450 589.0500000000001L267.4 250zM275 800A125 125 0 1 0 275 1050A125 125 0 0 0 275 800z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"temp-hot-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 950A200 200 0 1 0 800 950V687.25A350 350 0 1 0 400 687.25V950zM457.2 605.25A250 250 0 1 1 742.8 605.25L700 635.1V950A100 100 0 1 1 500 950V635.1L457.2 605.25zM550 593.7V950H650V593.6999999999999A200.10000000000002 200.10000000000002 0 0 0 600 200A200 200 0 0 0 550 593.6999999999999zM600 300A100 100 0 1 1 600 500A100 100 0 0 1 600 300z"}}]};
+export default content;

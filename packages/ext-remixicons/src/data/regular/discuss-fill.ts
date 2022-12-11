@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"discuss-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M840 250L700 75L560 250H300A50 50 0 0 0 250 300V844.85A50 50 0 0 0 300 894.85H1100A50 50 0 0 0 1150 844.85V300A50 50 0 0 0 1100 250H840zM100 1100H950V1000H150V450H50V1050A50 50 0 0 0 100 1100z"}}]};
+export default content;

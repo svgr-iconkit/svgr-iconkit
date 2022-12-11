@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sip-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M698 874.8L839.45 1016.2A50 50 0 0 0 910.15 1016.2L1016.2 910.15A50 50 0 0 0 1016.2 839.45L874.8000000000001 698L963.15 609.6L892.45 538.9L538.95 892.45L609.6 963.15L698 874.8zM538.9 751L751.0500000000001 538.8499999999999L362.1500000000001 150H150V362.1500000000001L538.9 751.0500000000001z"}}]};
+export default content;

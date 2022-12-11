@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"wallet-3-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1100 900H750A300 300 0 1 1 750 300H1100V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050H1050A50 50 0 0 0 1100 1000V900zM750 800H1150V400H750A200 200 0 1 0 750 800zM750 650V550H900V650H750z"}}]};
+export default content;

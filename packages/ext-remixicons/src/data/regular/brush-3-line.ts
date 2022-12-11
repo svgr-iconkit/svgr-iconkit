@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brush-3-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 200V450H500V200H950V550H250V200H400zM200 650H1000V800H700V1000H500V800H200V650zM150 150V550H100V850A50 50 0 0 0 150 900H400V1050A50 50 0 0 0 450 1100H750A50 50 0 0 0 800 1050V900H1050A50 50 0 0 0 1100 850V550H1050V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150z"}}]};
+export default content;

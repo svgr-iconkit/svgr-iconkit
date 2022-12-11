@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"forbid-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM600 200A400 400 0 1 1 600 1000A400 400 0 0 1 600 200zM426.15 844.55L844.55 426.15A301.99999999999994 301.99999999999994 0 0 0 773.8499999999999 355.45L355.45 773.85A301.99999999999994 301.99999999999994 0 0 0 426.15 844.5z"}}]};
+export default content;

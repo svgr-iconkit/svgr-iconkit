@@ -54,6 +54,7 @@ on:
         - "packages/ext-material-design"
         - "packages/ext-octicons"
         - "packages/ext-primeicons"
+        - "packages/ext-remixicons"
         - "packages/ext-simple-icons"
         - "packages/ext-simple-line-icons"
         - "packages/ext-tablet-icons"

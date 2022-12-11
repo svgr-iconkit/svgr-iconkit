@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"seedling-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1100 850V725C1100 545.5 954.5 400 775 400H650V150H550V500L550.95 550C563.7 717.8 703.95 850 875 850H1100zM300 1050C454.6 1050 585.8000000000001 949.75 632.1500000000001 810.7C557.1500000000001 746.95 507.65 654.3000000000001 500.8000000000001 550H450C256.7000000000001 550 100 706.7 100 900V1050H300z"}}]};
+export default content;

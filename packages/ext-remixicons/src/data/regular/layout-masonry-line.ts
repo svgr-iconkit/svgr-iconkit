@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"layout-masonry-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1100 200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050H1050A50 50 0 0 0 1100 1000V200zM550 450H200V250H550V450zM1000 650H650V250H1000V650zM550 950H200V550H550V950zM1000 950H650V750H1000V950z"}}]};
+export default content;

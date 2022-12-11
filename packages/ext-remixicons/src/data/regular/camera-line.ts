@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"camera-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M491.4 950L391.4 850H200V250H1000V850H808.6L708.6 950H491.4zM450 1050H750L850 950H1050A50 50 0 0 0 1100 900V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V900A50 50 0 0 0 150 950H350L450 1050zM600 300A275 275 0 1 0 600 850A275 275 0 0 0 600 300zM600 400A175 175 0 1 1 600 750A175 175 0 0 1 600 400z"}}]};
+export default content;

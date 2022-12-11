@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tumblr-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M313.5 818.5A288 288 0 0 1 540.75 1100H692.25V842.4H874.0999999999999V660.6H692.3V387.9C692.3 362.15 702.15 327.55 737.75 304.5499999999999C761.45 289.2 811.95 281.65 889.25 281.8V100H677.15A227.25000000000003 227.25000000000003 0 0 0 449.85 327.2500000000001V660.6H313.5V818.5z"}}]};
+export default content;

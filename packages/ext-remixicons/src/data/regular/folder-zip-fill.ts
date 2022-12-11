@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"folder-zip-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 950A50 50 0 0 0 1100 900V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050H520.6999999999999L620.6999999999999 950H800V850H900V950H1050zM900 550H800V450H700V300H900V550zM800 650H700V550H800V650zM900 750H800V650H900V750zM800 850H700V750H800V850z"}}]};
+export default content;

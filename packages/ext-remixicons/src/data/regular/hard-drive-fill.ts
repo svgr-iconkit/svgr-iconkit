@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hard-drive-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M697.5 1100H1000A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V552.5C166.45 550.85 183.15 550 200 550C476.15 550 700 773.85 700 1050C700 1066.85 699.15 1083.55 697.5 1100zM750 400V300H850V400H750zM596.9 1100A400 400 0 0 0 150 653.1V1050A50 50 0 0 0 200 1100H596.9z"}}]};
+export default content;

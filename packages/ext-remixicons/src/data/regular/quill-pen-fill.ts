@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"quill-pen-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 1100C300 1100 200 400 150 100H249.9C283.2000000000001 266.6499999999999 366.55 358.3000000000001 500 375C700 400 850 575 900 725L825 775L875 825C925 875 975.2 950 1050 1100z"}}]};
+export default content;

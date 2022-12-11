@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"collage-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M559.45 542.15L628.5 150L200 150C172.4 150 150 172.4000000000001 150 200V469.9L559.45 542.15zM1000 1050C1027.6 1050 1050 1027.6 1050 1000V200C1050 172.4000000000001 1027.6 150 1000 150H730.1L571.4000000000001 1050H1000zM469.85 1050L542.0500000000001 640.6L150 571.5L150 1000C150 1027.6 172.4 1050 200 1050H469.85z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"inbox-archive-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M200 1050H1000L1100 850V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V849.8L200 1050zM1000 750H200V250H1000V750zM988.2 850L938.2 950H261.85L211.85 850H988.2zM650 500H800L600 300L400 500H550V700H650V500z"}}]};
+export default content;

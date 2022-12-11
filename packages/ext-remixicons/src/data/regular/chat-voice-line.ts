@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chat-voice-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 600C100 876.15 323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100H100L246.45 246.45A498.45 498.45 0 0 0 100 600zM341.4000000000001 200H600A400 400 0 1 1 200 600C200 492.4 242.55 391.75 317.15 317.15L387.85 246.45L341.4 200zM550 900H650V300H550V900zM350 750H450V450H350V750zM750 750H850V450H750V750z"}}]};
+export default content;

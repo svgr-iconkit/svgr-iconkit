@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shopping-cart-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M200 879.3L37.85 1041.4L108.6 1112.15L270.7 950H1032.8A50 50 0 0 0 1080.6999999999998 885.65L960.7 485.6500000000001A50 50 0 0 0 912.8 450.0000000000001H300V350H850V250H250A50 50 0 0 0 200 300V879.3zM275 50A75 75 0 1 0 275 200A75 75 0 0 0 275 50zM875 50A75 75 0 1 0 875 200A75 75 0 0 0 875 50z"}}]};
+export default content;

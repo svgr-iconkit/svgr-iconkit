@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"oil-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 950H950A50 50 0 0 0 1000 900V150A50 50 0 0 0 950 100H250A50 50 0 0 0 200 150V650L400 950zM650 1150H900A50 50 0 0 0 950 1100V1000H600V1100A50 50 0 0 0 650 1150zM300 600V250H400V600H300z"}}]};
+export default content;

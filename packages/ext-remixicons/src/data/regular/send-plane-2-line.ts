@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"send-plane-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M187.05 1129.6L1110.1499999999999 621.9A25 25 0 0 0 1110.1499999999999 578.1L187.05 70.4000000000001A25 25 0 0 0 150 92.3V1107.7A25 25 0 0 0 187.05 1129.6zM250 550V219.15L942.5000000000002 600L250 980.85V650H500V550H250z"}}]};
+export default content;

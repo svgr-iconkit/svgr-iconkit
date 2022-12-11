@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"fridge-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M950 1150C977.6 1150 1000 1127.6 1000 1100V100C1000 72.4000000000001 977.6 50 950 50H250C222.4 50 200 72.4000000000001 200 100V1100C200 1127.6 222.4 1150 250 1150H950zM900 600H300V150H900V600zM500 500V300H400V500H500zM900 1050H300V700H900V1050zM500 950V800H400V950H500z"}}]};
+export default content;

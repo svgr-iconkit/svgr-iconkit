@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"door-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M900 1050C927.6 1050 950 1027.6 950 1000V200C950 172.4000000000001 927.6 150 900 150H300C272.4000000000001 150 250 172.4000000000001 250 200V1000C250 1027.6 272.4000000000001 1050 300 1050H900zM700 650C672.4 650 650 627.6 650 600S672.4 550 700 550S750 572.4 750 600S727.6 650 700 650z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"price-tag-3-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M545 1095L1039.95 1024.25L1110.65 529.25L651.0500000000001 69.6500000000001A50 50 0 0 0 580.35 69.6500000000001L85.35 564.6500000000001A50 50 0 0 0 85.35 635.35L545 1095zM686.4 670.6999999999999A100 100 0 1 1 827.8000000000001 812.1500000000001A100 100 0 0 1 686.4000000000001 670.6999999999999z"}}]};
+export default content;

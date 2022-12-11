@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"skip-forward-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M800 566.65L288.85 225.9000000000001A25 25 0 0 0 250 246.7000000000001V953.3A25 25 0 0 0 288.85 974.1L800 633.35V950A50 50 0 0 0 900 950V250A50 50 0 0 0 800 250V566.65zM350 813.15V386.8500000000002L669.7 600L350 813.15z"}}]};
+export default content;

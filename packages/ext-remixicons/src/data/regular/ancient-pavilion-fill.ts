@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"ancient-pavilion-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M625.65 1099.95A450.2 450.2 0 0 1 1124.15 806.1A225.05 225.05 0 0 0 950 605.6V250L1050 249.95V149.9500000000001H150V249.95H250V605.5999999999999A225.15 225.15 0 0 0 75.8 806.0999999999999A450.2 450.2 0 0 1 574.4 1099.8999999999999H625.65zM850 600H350V250H850V600z"}}]};
+export default content;

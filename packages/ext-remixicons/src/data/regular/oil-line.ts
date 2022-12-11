@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"oil-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M453.5 850L300 619.7V200H900V850H453.5zM400 950H950A50 50 0 0 0 1000 900V150A50 50 0 0 0 950 100H250A50 50 0 0 0 200 150V650L400 950zM650 1150H900A50 50 0 0 0 950 1100V1000H600V1100A50 50 0 0 0 650 1150zM400 600H500V300H400V600z"}}]};
+export default content;

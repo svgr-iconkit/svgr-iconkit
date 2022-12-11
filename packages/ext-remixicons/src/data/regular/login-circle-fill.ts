@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"login-circle-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M500 650H102.5C127.5 902.65 340.7 1100 600 1100C876.15 1100 1100 876.15 1100 600S876.15 100 600 100C340.75 100 127.55 297.3499999999999 102.5 550H500V400L750 600L500 800V650z"}}]};
+export default content;

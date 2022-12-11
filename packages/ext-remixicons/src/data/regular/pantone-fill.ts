@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"pantone-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M200 253.9L132.5 281.1500000000001A50 50 0 0 0 104.9 346.25L200 581.65V253.9zM443 150H350A50 50 0 0 0 300 200V503.9L443 150zM301.1 901.6L764.7 1088.9A50 50 0 0 0 829.75 1061.3L1110.75 365.9000000000001A50 50 0 0 0 1083.1 300.8000000000001L619.5 113.5A50 50 0 0 0 554.4000000000001 141.1500000000001L273.5 836.5A50 50 0 0 0 301.15 901.55zM450 750A50 50 0 1 1 450 850A50 50 0 0 1 450 750z"}}]};
+export default content;

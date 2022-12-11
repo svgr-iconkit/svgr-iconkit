@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"play-mini-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M387.6 928.05L912.9999999999998 621.5500000000001A25 25 0 0 0 912.9999999999998 578.4000000000001L387.6 271.9000000000001A25 25 0 0 0 350 293.6V906.45A25 25 0 0 0 387.6 928.05z"}}]};
+export default content;

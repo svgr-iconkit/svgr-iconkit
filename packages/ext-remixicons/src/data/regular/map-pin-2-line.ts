@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"map-pin-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 13.5999999999999L281.8 331.8A450 450 0 1 0 918.2 331.8L600 13.5999999999999zM847.5 402.4999999999999A350 350 0 1 1 352.5 402.4999999999999L600 155L847.5 402.5zM600 550A100 100 0 1 0 600 750A100 100 0 0 0 600 550z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shut-down-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M313.25 1009.65L370.6 927.7A400 400 0 1 1 829.4000000000001 927.7L886.75 1009.65A499.4 499.4 0 0 0 1100 600C1100 323.85 876.15 100 600 100S100 323.85 100 600A499.4 499.4 0 0 0 313.25 1009.65zM550 600V1100H650V600H550z"}}]};
+export default content;

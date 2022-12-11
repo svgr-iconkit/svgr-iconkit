@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tape-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M541.5 550A150 150 0 1 1 400 450H800A150 150 0 1 1 658.5 550H541.5zM150 1050H1050A50 50 0 0 0 1100 1000V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050zM800 550A50 50 0 1 0 800 650A50 50 0 0 0 800 550zM400 550A50 50 0 1 0 400 650A50 50 0 0 0 400 550z"}}]};
+export default content;

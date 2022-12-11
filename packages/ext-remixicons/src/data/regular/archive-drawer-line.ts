@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"archive-drawer-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 1050.4C150 1077.8 172.25 1100 199.65 1100H1000.35A50 50 0 0 0 1049.9999999999998 1050.4V149.6000000000001A49.65 49.65 0 0 0 1000.35 100H199.65A50 50 0 0 0 150 149.6000000000001V1050.4zM950 650V1000H250V650H950zM950 550H250V200H950V550zM450 900H750V800H450V900zM450 450H750V350H450V450z"}}]};
+export default content;

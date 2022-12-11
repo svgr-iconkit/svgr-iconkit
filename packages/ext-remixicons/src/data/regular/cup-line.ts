@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cup-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M800 550V950H300V550A100 100 0 0 1 400 450H700A100 100 0 0 1 800 550zM250 1050H1000A100 100 0 0 0 1100 950V800A100 100 0 0 0 1000 700H900V550A200 200 0 0 0 700 350H400A200 200 0 0 0 200 550V1000A50 50 0 0 0 250 1050zM900 950V800H1000V950H900zM100 250H1000V150H100V250z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hail-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M949.75 310.3A200 200 0 0 1 695.5 492.5A200.05 200.05 0 0 1 300 450C300 396.0000000000001 321.4 347.05 356.1 311.1A400 400 0 1 0 822.85 845.1A275 275 0 0 0 949.7 310.3000000000002zM500 350A100 100 0 1 0 500 550A100 100 0 0 0 500 350zM750 200A100 100 0 1 0 750 400A100 100 0 0 0 750 200zM500 50A100 100 0 1 0 500 250A100 100 0 0 0 500 50z"}}]};
+export default content;

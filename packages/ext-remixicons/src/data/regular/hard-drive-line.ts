@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hard-drive-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 653.1A400.20000000000005 400.20000000000005 0 0 1 596.9 1000H250V653.1zM250 552.4499999999999V200H950V1000H697.5A500.15000000000003 500.15000000000003 0 0 0 250 552.5zM200 1100H1000A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V1050A50 50 0 0 0 200 1100zM750 400H850V300H750V400z"}}]};
+export default content;

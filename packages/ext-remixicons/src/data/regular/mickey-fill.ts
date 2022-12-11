@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mickey-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M925 1100A225 225 0 0 0 969.15 654.35A400 400 0 1 0 230.8999999999999 654.4A224.94999999999996 224.94999999999996 0 0 0 275 1100A225 225 0 0 0 499.65 887.3A399.90000000000003 399.90000000000003 0 0 0 600 900C634.65 900 668.25 895.6 700.3 887.3A225 225 0 0 0 925 1100z"}}]};
+export default content;

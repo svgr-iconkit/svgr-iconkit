@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"money-pound-box-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 1050H1050A50 50 0 0 0 1100 1000V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050zM200 950V250H1000V950H200zM450 550H400V650H450V700A175 175 0 0 0 787.3000000000001 765.55L688 740.75A74.95000000000002 74.95000000000002 0 0 1 550 700V650H700V550H550V450H800V350H400V450H450V550z"}}]};
+export default content;

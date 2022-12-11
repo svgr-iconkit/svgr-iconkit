@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"folder-keyhole-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M520.6999999999999 1050L620.6999999999999 950H1050A50 50 0 0 0 1100 900V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050H520.6999999999999zM600 750A100 100 0 0 1 550 563.4000000000001V350H650L650.05 563.4000000000001A100 100 0 0 1 600 750z"}}]};
+export default content;

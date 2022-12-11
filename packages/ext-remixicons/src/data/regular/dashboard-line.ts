@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"dashboard-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 150V650H1050V150H650zM150 550V1050H550V550H150zM450 650V950H250V650H450zM150 150V450H550V150H150zM250 250H450V350H250V250zM750 250H950V550H750V250zM650 1050H1050V750H650V1050zM750 950V850H950V950H750z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"flag-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 1050H619.1A50 50 0 0 0 663.8 1022.35L700 950H1000A50 50 0 0 0 1050 900V350A50 50 0 0 0 1000 300H680.9A50 50 0 0 0 636.2 327.6500000000001L600 400H250V100H150V1050z"}}]};
+export default content;

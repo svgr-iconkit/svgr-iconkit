@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"moon-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M500 850A350 350 0 0 1 1100 605V600C1100 323.85 876.15 100 600 100S100 323.85 100 600S323.85 1100 600 1100H605A348.95 348.95 0 0 1 500 850zM200 600A400 400 0 0 1 953.1 411.9A450 450 0 0 0 411.9 953.1A399.94999999999993 399.94999999999993 0 0 1 200 600z"}}]};
+export default content;

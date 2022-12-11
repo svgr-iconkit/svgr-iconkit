@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"trello-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 950V250H950V950H250zM250 1050H950A100 100 0 0 0 1050 950V250A100 100 0 0 0 950 150H250A100 100 0 0 0 150 250V950A100 100 0 0 0 250 1050zM400 850H500A50 50 0 0 0 550 800V400A50 50 0 0 0 500 350H400A50 50 0 0 0 350 400V800A50 50 0 0 0 400 850zM700 850H800A50 50 0 0 0 850 800V600A50 50 0 0 0 800 550H700A50 50 0 0 0 650 600V800A50 50 0 0 0 700 850z"}}]};
+export default content;

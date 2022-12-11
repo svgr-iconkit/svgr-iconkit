@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"women-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 403.3000000000001A375.04999999999995 375.04999999999995 0 0 0 600 1150A375 375 0 0 0 650 403.3000000000001V300H900V200H650V0H550V200H300V300H550V403.3z"}}]};
+export default content;

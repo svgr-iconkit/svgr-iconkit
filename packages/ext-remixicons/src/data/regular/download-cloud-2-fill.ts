@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"download-cloud-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 550V270.75L741.4 362.15L812.15 291.4L600 79.3L387.85 291.4L458.6 362.15L550 270.75V550H650zM600 1100A350.05 350.05 0 0 0 947.7 790.3000000000001A275 275 0 0 0 900.0500000000001 251.0999999999999L900 350A300 300 0 0 1 300.2 361.2500000000001L300 350V251.0999999999999A275 275 0 0 0 252.3 790.3A350 350 0 0 0 600 1100z"}}]};
+export default content;

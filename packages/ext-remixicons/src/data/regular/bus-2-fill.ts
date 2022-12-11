@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"bus-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 200H350V150A50 50 0 0 0 300 100H200A50 50 0 0 0 150 150V600H100V800H150V950A100 100 0 0 0 250 1050H950A100 100 0 0 0 1050 950V800H1100V600H1050V150A50 50 0 0 0 1000 100H900A50 50 0 0 0 850 150V200zM250 950V600H950V950H250zM375 300A75 75 0 1 1 375 450A75 75 0 0 1 375 300zM825 300A75 75 0 1 1 825 450A75 75 0 0 1 825 300z"}}]};
+export default content;

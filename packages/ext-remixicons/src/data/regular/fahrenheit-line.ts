@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"fahrenheit-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 600H950V500H600V150H500V800A200 200 0 0 0 700 1000H1050V900H700A100 100 0 0 1 600 800V600zM225 700A175 175 0 1 0 225 1050A175 175 0 0 0 225 700zM225 800A75 75 0 1 1 225 950A75 75 0 0 1 225 800z"}}]};
+export default content;

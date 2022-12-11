@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"polaroid-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1032.95 700A300 300 0 1 1 1032.95 500H1050V200A50 50 0 0 0 1000 150H200A50 50 0 0 0 150 200V1000A50 50 0 0 0 200 1050H1000A50 50 0 0 0 1050 1000V700H1032.95zM250 900V750H350V900H250zM750 400A200 200 0 1 0 750 800A200 200 0 0 0 750 400zM750 500A100 100 0 1 1 750 700A100 100 0 0 1 750 500z"}}]};
+export default content;

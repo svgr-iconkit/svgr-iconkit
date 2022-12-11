@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"funds-box-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 1050H1050A50 50 0 0 0 1100 1000V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V1000A50 50 0 0 0 150 1050zM739.65 710.35L617.15 587.85L511.1 693.95L298.95 481.8000000000001L369.6499999999999 411.1L511.1 552.5L617.15 446.4500000000001L810.35 639.65L900 550V800H650L739.65 710.35z"}}]};
+export default content;

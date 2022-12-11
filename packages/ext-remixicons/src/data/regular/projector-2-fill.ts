@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"projector-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1100 250V150H1000V250H200V150H100V250A50 50 0 0 0 50 300V900A50 50 0 0 0 100 950H590.5A324.05 324.05 0 0 0 825 1050C917.15 1050 1000.35 1011.65 1059.5 950H1100A50 50 0 0 0 1150 900V300A50 50 0 0 0 1100 250zM825 500A225 225 0 1 1 825 950A225 225 0 0 1 825 500zM825 600A125 125 0 1 0 825 850A125 125 0 0 0 825 600zM200 550V450H300V550H200zM400 550V450H500V550H400z"}}]};
+export default content;

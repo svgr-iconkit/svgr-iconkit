@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"camera-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M450 1050H750L850 950H1050A50 50 0 0 0 1100 900V200A50 50 0 0 0 1050 150H150A50 50 0 0 0 100 200V900A50 50 0 0 0 150 950H350L450 1050zM600 250A300 300 0 1 1 600 850A300 300 0 0 1 600 250zM600 350A200 200 0 1 0 600 750A200 200 0 0 0 600 350z"}}]};
+export default content;

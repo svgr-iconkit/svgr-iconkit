@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"pencil-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M786.4 715.7L715.7 786.4L250 320.7000000000001V250H320.7L786.4 715.7zM857.1 786.4L927.8 857.0999999999999L857.1 927.8L786.4 857.0999999999999L857.1 786.4zM362.1 150H150V362.1500000000001L821.7499999999999 1033.9A50 50 0 0 0 892.45 1033.9L1033.9 892.45A50 50 0 0 0 1033.9 821.75L362.1500000000001 150z"}}]};
+export default content;

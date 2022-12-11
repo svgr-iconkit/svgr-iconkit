@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"barricade-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M977.8 250H1050V150H150V250H222.2L266.7 450H933.3500000000003L977.8 250zM866.6499999999999 750L911.15 550H288.85L333.3 750H866.6zM844.4499999999999 850H355.5L391.25 1010.85A50 50 0 0 0 440.1 1050H759.9A50 50 0 0 0 808.6999999999999 1010.85L844.4499999999999 850z"}}]};
+export default content;

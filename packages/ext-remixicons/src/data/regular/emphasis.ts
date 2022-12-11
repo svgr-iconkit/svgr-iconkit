@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"emphasis","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 250A75 75 0 1 0 600 100A75 75 0 0 0 600 250zM325 250A75 75 0 1 0 325 100A75 75 0 0 0 325 250zM875 250A75 75 0 1 0 875 100A75 75 0 0 0 875 250zM900 1050V950H400V750H850V650H400V450H900V350H300V1050H900z"}}]};
+export default content;

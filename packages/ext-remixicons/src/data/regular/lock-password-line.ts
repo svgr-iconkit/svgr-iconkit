@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"lock-password-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M900 800H1000A50 50 0 0 0 1050 750V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V750A50 50 0 0 0 200 800H300V850A300 300 0 1 0 900 850V800zM250 700V200H950V700H250zM550 500H650V400H550V500zM350 500H450V400H350V500zM750 500H850V400H750V500zM800 800V850A200 200 0 1 1 400 850V800H800z"}}]};
+export default content;

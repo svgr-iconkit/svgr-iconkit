@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cake-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 850V650H1000A50 50 0 0 0 1050 600V200H1150V100H50V200H150V600A50 50 0 0 0 200 650H550V850H650zM950 550H250V200H950V550zM691.5 1179.9A150 150 0 0 0 636.5999999999999 975L550 925A150 150 0 0 0 604.9000000000001 1129.9L691.5 1179.9z"}}]};
+export default content;

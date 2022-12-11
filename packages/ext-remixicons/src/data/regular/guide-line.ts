@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"guide-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 800V400A150 150 0 0 0 500 250H391.5A150.04999999999998 150.04999999999998 0 1 0 391.5 350H500A50 50 0 0 1 550 400V800A150 150 0 0 0 700 950H850V1100L1100 900L850 700V850H700A50 50 0 0 1 650 800zM250 250A50 50 0 1 1 250 350A50 50 0 0 1 250 250z"}}]};
+export default content;

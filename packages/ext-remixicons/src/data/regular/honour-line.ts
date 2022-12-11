@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"honour-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 1000V263.9500000000001A25 25 0 0 0 1035.1000000000001 241.0500000000001L600 48.5L164.9 241A25 25 0 0 0 150 264V1000H50V1100H1150V1000H1050zM250 1000V312.7500000000001L600 157.75L950 312.7500000000001V1000H250zM400 800H800V700H400V800zM400 600H800V500H400V600z"}}]};
+export default content;

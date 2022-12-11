@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"travesti-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M447.5 773.15A375 375 0 1 0 376.85 702.5L233.1 846.25L109.3 722.5L38.6 793.2L356.8 1111.4L427.5000000000001 1040.7L303.75 916.95L447.55 773.1500000000001zM675 200A275 275 0 1 1 675 750A275 275 0 0 1 675 200z"}}]};
+export default content;

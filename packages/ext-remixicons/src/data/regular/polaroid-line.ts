@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"polaroid-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 900H950V950H250V250H950V300H1050V200A50 50 0 0 0 1000 150H200A50 50 0 0 0 150 200V1000A50 50 0 0 0 200 1050H1000A50 50 0 0 0 1050 1000V900zM300 900H400V750H300V900zM750 400A200 200 0 1 1 750 800A200 200 0 0 1 750 400zM750 300A300 300 0 1 0 750 900A300 300 0 0 0 750 300zM750 500A100 100 0 1 0 750 700A100 100 0 0 0 750 500z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"contacts-book-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1000 100H300A150 150 0 0 0 150 250V950A150 150 0 0 0 300 1100H1000A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100zM950 200V300H300A50 50 0 0 1 300 200H950zM250 391.4999999999999C265.65 396.9999999999999 282.5 400 300 400H950V1000H300A50 50 0 0 1 250 950V391.4999999999999zM600 700A100 100 0 1 0 600 900A100 100 0 0 0 600 700zM450 500A150 150 0 0 0 750 500H450z"}}]};
+export default content;

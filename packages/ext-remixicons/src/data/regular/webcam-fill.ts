@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"webcam-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 150V203.5A350.09999999999997 350.09999999999997 0 0 0 250 550V800A350 350 0 1 0 950 800V550A350.09999999999997 350.09999999999997 0 0 0 650 203.5V150H850V50H350V150H550zM600 750A50 50 0 1 0 600 850A50 50 0 0 0 600 750zM600 650A150 150 0 1 1 600 950A150 150 0 0 1 600 650z"}}]};
+export default content;

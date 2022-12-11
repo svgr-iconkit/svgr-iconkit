@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"globe-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 150H900V50H300V150H550V202.5A500.1000000000001 500.1000000000001 0 0 0 165.8 451.9L252.65 501.5A400 400 0 1 1 798.5 1047.35L848.1 1134.2A499.8 499.8 0 0 0 1100 700C1100 440.7500000000001 902.65 227.5500000000001 650 202.5V150zM600 350A350 350 0 1 0 600 1050A350 350 0 0 0 600 350zM600 450A250 250 0 1 1 600 950A250 250 0 0 1 600 450z"}}]};
+export default content;

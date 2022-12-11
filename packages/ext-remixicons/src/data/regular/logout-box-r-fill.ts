@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"logout-box-r-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 100A50 50 0 0 0 200 150V1050A50 50 0 0 0 250 1100H950A50 50 0 0 0 1000 1050V150A50 50 0 0 0 950 100H250zM750 400L1000 600L750 800V650H450V550H750V400z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"plug-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 300V200H950V100H650A100 100 0 0 0 550 200V300H400A200 200 0 0 0 200 500V700H1000V500A200 200 0 0 0 800 300H650zM850 900H950A50 50 0 0 0 1000 850V750H200V850A50 50 0 0 0 250 900H350V1100H450V900H750V1100H850V900zM600 475A50 50 0 1 1 600 575A50 50 0 0 1 600 475zM550 1100H650V950H550V1100z"}}]};
+export default content;

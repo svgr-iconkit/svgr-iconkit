@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"money-pound-circle-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM450 550V450H400V350H800V450H550V550H700V650H550V700A75 75 0 0 0 688 740.75L787.3000000000001 765.55A175.04999999999998 175.04999999999998 0 0 1 450 700V650H400V550H450z"}}]};
+export default content;

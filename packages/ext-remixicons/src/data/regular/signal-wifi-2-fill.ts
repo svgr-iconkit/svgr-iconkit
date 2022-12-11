@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"signal-wifi-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 1050C814.1999999999999 1050 1011 975.15 1165.5 850.2L600 150L34.5 850.15C189 975.15 385.7000000000001 1050 600 1050zM600 950C448.6 950 303.85 907.9 179 830.4000000000001L337.9 633.65C415.8 675.95 505.1 700 600 700C694.9 700 784.15 676 862.05 633.65L1021.0000000000002 830.5C896.1 907.95 751.3499999999999 950 600 950z"}}]};
+export default content;
