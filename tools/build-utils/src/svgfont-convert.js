@@ -1,8 +1,8 @@
 import { parse } from 'svg-parser'
 import { optimize } from 'svgo'
 
-import FS from "fs";
-import { nodeToCode } from './utils';
+import FS from 'fs'
+import { nodeToCode } from './utils'
 
 export function convertSvgFont(
   name,
@@ -36,10 +36,10 @@ export function convertSvgFont(
     plugins.push({ name: 'removeXMLNS' })
   }
 
-  let sourceContent = FS.readFileSync(source, "utf-8");
-  if (sourceContent.charCodeAt(0) === 0xFEFF) {
-		sourceContent = sourceContent.slice(1);
-	}
+  let sourceContent = FS.readFileSync(source, 'utf-8')
+  if (sourceContent.charCodeAt(0) === 0xfeff) {
+    sourceContent = sourceContent.slice(1)
+  }
   const optimizedSource = optimize(sourceContent, {
     plugins,
   })
@@ -66,61 +66,62 @@ export function convertSvgFont(
   }
 
   const svgNode = children[0]
-  if(svgNode.tagName !== 'defs') {
-    console.warn('[svgFont/convert] unexpected first tag. Looking for <defs>. node: %o', node);
-    return Promise.reject(new Error("Unexpected tag found."));
+  if (svgNode.tagName !== 'defs') {
+    console.warn('[svgFont/convert] unexpected first tag. Looking for <defs>. node: %o', node)
+    return Promise.reject(new Error('Unexpected tag found.'))
   }
-  const fontNodes = svgNode.children.filter( childNode => childNode.tagName === 'font')
+  const fontNodes = svgNode.children.filter(childNode => childNode.tagName === 'font')
 
-  
-  if(!fontNodes || fontNodes.length < 1) {
-    console.warn('[svgFont/convert] No font-face defined. node: %o', svgNode);
-    return Promise.reject(new Error("No font-face defined."));
+  if (!fontNodes || fontNodes.length < 1) {
+    console.warn('[svgFont/convert] No font-face defined. node: %o', svgNode)
+    return Promise.reject(new Error('No font-face defined.'))
   }
   const fontNode = fontNodes[0]
 
-  const fontFaceNodes = fontNode.children.filter( childNode => childNode.tagName === 'font-face')
-  const glyphNodes = fontNode.children.filter( childNode => childNode.tagName === 'glyph')
+  const fontFaceNodes = fontNode.children.filter(childNode => childNode.tagName === 'font-face')
+  const glyphNodes = fontNode.children.filter(childNode => childNode.tagName === 'glyph')
 
-  
-  if(!fontFaceNodes || fontFaceNodes.length < 1) {
-    console.warn('[svgFont/convert] No font-face defined. node: %o', fontNode);
-    return Promise.reject(new Error("No font-face defined."));
+  if (!fontFaceNodes || fontFaceNodes.length < 1) {
+    console.warn('[svgFont/convert] No font-face defined. node: %o', fontNode)
+    return Promise.reject(new Error('No font-face defined.'))
   }
   const { properties: fontFaceProperties } = fontFaceNodes[0]
-  
-  if(!glyphNodes || glyphNodes.length < 1) {
-    console.warn('[svgFont/convert] No glyph defined. node: %o', fontNode);
-    return Promise.reject(new Error("No glyph defined."));
+
+  if (!glyphNodes || glyphNodes.length < 1) {
+    console.warn('[svgFont/convert] No glyph defined. node: %o', fontNode)
+    return Promise.reject(new Error('No glyph defined.'))
   }
 
-  const { 'font-family': fontFamily, 'units-per-em': size = 16} = fontFaceProperties
+  const { 'font-family': fontFamily, 'units-per-em': size = 16, descent = 0 } = fontFaceProperties
 
-  return Promise.resolve( glyphNodes.map( glyphNode => {
-    const {
-      properties = {}
-    } = glyphNode;
-    const iconName = properties['glyph-name']
-    
-    const width = forceWidth ?? size;
-    const height = forceHeight ?? size;
-    const result = {
-      name: iconName,
-      attrs: {
-        viewBox: `0 0 ${width} ${height}`,
-      },
-      data: [{
-        tagName: 'path',
+  return Promise.resolve(
+    glyphNodes.map(glyphNode => {
+      const { properties = {} } = glyphNode
+      const iconName = properties['glyph-name']
+
+      const width = forceWidth ?? size
+      const height = forceHeight ?? size
+      const result = {
+        name: iconName,
         attrs: {
-          fill: fillColor,
-          d: properties.d,
-        }
-      }]
-    }
-    return {
-      name: iconName,
-      result,
-      code: nodeToCode(result, { typescript }),
-    }
-  }));
+          viewBox: `0 0 ${width} ${height}`,
+        },
+        data: [
+          {
+            tagName: 'path',
+            attrs: {
+              transform: `translate(0, ${Number(descent).toFixed(2)})`,
+              fill: fillColor,
+              d: properties.d,
+            },
+          },
+        ],
+      }
+      return {
+        name: iconName,
+        result,
+        code: nodeToCode(result, { typescript }),
+      }
+    }),
+  )
 }
