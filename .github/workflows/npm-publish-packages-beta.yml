@@ -92,6 +92,7 @@ jobs:
         if: github.event.inputs.cbPackage != 'all'
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
+          ls -al
           npm install --legacy-peer-deps
       - name: Bump version to all
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
@@ -114,12 +115,13 @@ jobs:
         if: github.event.inputs.cbPackage != 'all'
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
+          ls -al
           yarn build
       - name: 'Upload target package artifact'
         if: github.event.inputs.cbPackage != 'all'
         uses: actions/upload-artifact@v3
         with:
-          name: release-beta-${{ github.event.inputs.cbPackage }}
+          name: release-beta-build
           path: ${{ github.event.inputs.cbPackage }}
           retention-days: 14
       - name: publish all to registry(github)
