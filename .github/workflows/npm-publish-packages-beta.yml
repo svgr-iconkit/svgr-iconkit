@@ -57,7 +57,7 @@ on:
         - "packages/ext-remixicons"
         - "packages/ext-simple-icons"
         - "packages/ext-simple-line-icons"
-        - "packages/ext-tablet-icons"
+        - "packages/ext-tabler-icons"
         - "packages/ext-themify-icons"
         - "packages/ext-typicons"
         - "packages/ext-weather-icons"
