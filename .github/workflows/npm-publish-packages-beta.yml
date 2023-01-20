@@ -156,8 +156,9 @@ jobs:
           git add ./
       - name: Build iconsmap
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbIconsmap == 'yes'
+        working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
-          yarn run iconsmap
+          yarn iconsmap
           git status
           git add ./
       - name: Build all
