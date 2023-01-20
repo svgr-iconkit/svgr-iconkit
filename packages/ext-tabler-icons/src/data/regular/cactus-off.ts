@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cactus-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M6 9v1a3 3 0 0 0 3 3h1"}},{"tagName":"path","attrs":{"d":"M18 8v5a3 3 0 0 1 -.129 .872m-2.014 2.004a3 3 0 0 1 -.857 .124h-1"}},{"tagName":"path","attrs":{"d":"M10 21v-11m0 -4v-1a2 2 0 1 1 4 0v5m0 4v7"}},{"tagName":"path","attrs":{"d":"M7 21h10"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

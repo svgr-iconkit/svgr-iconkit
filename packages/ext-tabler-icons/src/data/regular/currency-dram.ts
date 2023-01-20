@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"currency-dram","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M4 10a6 6 0 1 1 12 0v10"}},{"tagName":"path","attrs":{"d":"M12 16h8"}},{"tagName":"path","attrs":{"d":"M12 12h8"}}]};
+export default content;

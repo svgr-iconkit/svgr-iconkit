@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"logic-nand","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M22 12h-3"}},{"tagName":"path","attrs":{"d":"M2 9h3"}},{"tagName":"path","attrs":{"d":"M2 15h3"}},{"tagName":"path","attrs":{"d":"M7 5c6 0 8 3.5 8 7s-2 7 -8 7h-2v-14h2z"}},{"tagName":"circle","attrs":{"cx":17,"cy":12,"r":2}}]};
+export default content;

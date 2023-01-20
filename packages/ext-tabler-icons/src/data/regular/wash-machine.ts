@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"wash-machine","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"rect","attrs":{"x":5,"y":3,"width":14,"height":18,"rx":2}},{"tagName":"circle","attrs":{"cx":12,"cy":14,"r":4}},{"tagName":"path","attrs":{"d":"M8 6h.01"}},{"tagName":"path","attrs":{"d":"M11 6h.01"}},{"tagName":"path","attrs":{"d":"M14 6h2"}},{"tagName":"path","attrs":{"d":"M8 14c1.333 -.667 2.667 -.667 4 0c1.333 .667 2.667 .667 4 0"}}]};
+export default content;

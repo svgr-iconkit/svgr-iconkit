@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-wix","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 9l1.5 6l1.379 -5.515a0.64 .64 0 0 1 1.242 0l1.379 5.515l1.5 -6"}},{"tagName":"path","attrs":{"d":"M13 11.5v3.5"}},{"tagName":"path","attrs":{"d":"M16 9l5 6"}},{"tagName":"path","attrs":{"d":"M21 9l-5 6"}},{"tagName":"path","attrs":{"d":"M13 9h.01"}}]};
+export default content;

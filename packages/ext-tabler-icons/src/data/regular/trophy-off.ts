@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"trophy-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8 21h8"}},{"tagName":"path","attrs":{"d":"M12 17v4"}},{"tagName":"path","attrs":{"d":"M8 4h9"}},{"tagName":"path","attrs":{"d":"M17 4v8c0 .31 -.028 .612 -.082 .905m-1.384 2.632a5 5 0 0 1 -8.534 -3.537v-5"}},{"tagName":"circle","attrs":{"cx":5,"cy":9,"r":2}},{"tagName":"circle","attrs":{"cx":19,"cy":9,"r":2}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;
