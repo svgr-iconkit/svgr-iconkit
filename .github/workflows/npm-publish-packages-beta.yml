@@ -161,6 +161,7 @@ jobs:
           yarn iconsmap
           git status
           git add ./
+          git commit -m "chore: iconsmap created for ${{ github.event.inputs.cbPackage }}"
       - name: Build all
         if: github.event.inputs.cbPackage == 'all'
         run: |
