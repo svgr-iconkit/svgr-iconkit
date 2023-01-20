@@ -81,6 +81,14 @@ on:
         options:
         - "no"
         - "yes"
+      cbIconsmap:
+        type: choice 
+        required: true
+        description: Build iconsmap
+        default: "no"
+        options:
+        - "no"
+        - "yes"
       cbDebug:
         type: choice 
         required: true
@@ -146,16 +154,24 @@ jobs:
           echo "New version: $NEW_VERSION" >> $GITHUB_STEP_SUMMARY
           git status
           git add ./
+      - name: Build iconsmap
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbIconsmap == 'yes'
+        run: |
+          yarn run iconsmap
+          git status
+          git add ./
       - name: Build all
         if: github.event.inputs.cbPackage == 'all'
         run: |
           yarn run build
+      
       - name: Build to target package
         if: github.event.inputs.cbPackage != 'all'
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
           npm run build
+          
       - name: 'Upload target package artifact'
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v3
