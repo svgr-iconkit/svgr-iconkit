@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"carousel-horizontal","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"rect","attrs":{"x":7,"y":5,"width":10,"height":14,"rx":1}},{"tagName":"path","attrs":{"d":"M22 17h-1a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h1"}},{"tagName":"path","attrs":{"d":"M2 17h1a1 1 0 0 0 1 -1v-8a1 1 0 0 0 -1 -1h-1"}}]};
+export default content;
