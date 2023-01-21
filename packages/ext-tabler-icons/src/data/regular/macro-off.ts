@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"macro-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M6 15a6 6 0 0 0 11.47 2.467"}},{"tagName":"path","attrs":{"d":"M15.53 15.53a6.001 6.001 0 0 0 -3.53 5.47"}},{"tagName":"path","attrs":{"d":"M12 21a6 6 0 0 0 -6 -6"}},{"tagName":"path","attrs":{"d":"M12 21v-10"}},{"tagName":"path","attrs":{"d":"M10.866 10.87a5.007 5.007 0 0 1 -3.734 -3.723m-.132 -4.147l3 2l2 -2l2 2l3 -2v3a5 5 0 0 1 -2.604 4.389"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

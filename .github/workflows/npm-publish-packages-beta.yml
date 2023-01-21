@@ -57,7 +57,7 @@ on:
         - "packages/ext-remixicons"
         - "packages/ext-simple-icons"
         - "packages/ext-simple-line-icons"
-        - "packages/ext-tablet-icons"
+        - "packages/ext-tabler-icons"
         - "packages/ext-themify-icons"
         - "packages/ext-typicons"
         - "packages/ext-weather-icons"
@@ -78,6 +78,14 @@ on:
         required: true
         description: Require publish to npm registry?
         default: "yes"
+        options:
+        - "no"
+        - "yes"
+      cbIconsmap:
+        type: choice 
+        required: true
+        description: Build iconsmap
+        default: "no"
         options:
         - "no"
         - "yes"
@@ -146,16 +154,26 @@ jobs:
           echo "New version: $NEW_VERSION" >> $GITHUB_STEP_SUMMARY
           git status
           git add ./
+      - name: Build iconsmap
+        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbIconsmap == 'yes'
+        working-directory: ${{ github.event.inputs.cbPackage }}
+        run: |
+          yarn iconsmap
+          git status
+          git add ./
+          git commit -m "chore: iconsmap created for ${{ github.event.inputs.cbPackage }}"
       - name: Build all
         if: github.event.inputs.cbPackage == 'all'
         run: |
           yarn run build
+      
       - name: Build to target package
         if: github.event.inputs.cbPackage != 'all'
         working-directory: ${{ github.event.inputs.cbPackage }}
         run: |
           ls -al
           npm run build
+          
       - name: 'Upload target package artifact'
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v3

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"first-aid-kit-off","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8.595 4.577a1.994 1.994 0 0 1 1.405 -.577h4a2 2 0 0 1 2 2v2"}},{"tagName":"path","attrs":{"d":"M12 8h6a2 2 0 0 1 2 2v6m-.576 3.405a1.994 1.994 0 0 1 -1.424 .595h-12a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2"}},{"tagName":"path","attrs":{"d":"M10 14h4"}},{"tagName":"path","attrs":{"d":"M12 12v4"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

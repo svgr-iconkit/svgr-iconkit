@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-qq","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M14 7h.01"}},{"tagName":"path","attrs":{"d":"M10 7h.01"}},{"tagName":"path","attrs":{"d":"M6 11c4 4 8 4 12 0"}},{"tagName":"path","attrs":{"d":"M9 13.5v2.5"}},{"tagName":"path","attrs":{"d":"M10.5 10c.667 1.333 2.333 1.333 3 0h-3z"}},{"tagName":"path","attrs":{"d":"M16 21c1.5 0 3.065 -1 1 -3c4.442 2 1.987 -4.5 1 -7c0 -4 -1.558 -8 -6 -8s-6 4 -6 8c-.987 2.5 -3.442 9 1 7c-2.065 2 -.5 3 1 3h8z"}}]};
+export default content;

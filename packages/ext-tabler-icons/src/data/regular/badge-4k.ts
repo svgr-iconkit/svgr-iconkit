@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"badge-4k","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"rect","attrs":{"x":3,"y":5,"width":18,"height":14,"rx":2}},{"tagName":"path","attrs":{"d":"M7 9v2a1 1 0 0 0 1 1h1"}},{"tagName":"path","attrs":{"d":"M10 9v6"}},{"tagName":"path","attrs":{"d":"M14 9v6"}},{"tagName":"path","attrs":{"d":"M17 9l-2 3l2 3"}},{"tagName":"path","attrs":{"d":"M15 12h-1"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"inner-shadow-top-left","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M12 3a9 9 0 1 1 0 18a9 9 0 0 1 0 -18z"}},{"tagName":"path","attrs":{"d":"M6 12a6 6 0 0 1 6 -6"}}]};
+export default content;

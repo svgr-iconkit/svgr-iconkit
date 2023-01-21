@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"whirl","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z"}},{"tagName":"path","attrs":{"d":"M12 21c-3.314 0 -6 -2.462 -6 -5.5s2.686 -5.5 6 -5.5"}},{"tagName":"path","attrs":{"d":"M21 12c0 3.314 -2.462 6 -5.5 6s-5.5 -2.686 -5.5 -6"}},{"tagName":"path","attrs":{"d":"M12 14c3.314 0 6 -2.462 6 -5.5s-2.686 -5.5 -6 -5.5"}},{"tagName":"path","attrs":{"d":"M14 12c0 -3.314 -2.462 -6 -5.5 -6s-5.5 2.686 -5.5 6"}}]};
+export default content;

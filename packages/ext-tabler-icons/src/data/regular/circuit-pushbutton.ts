@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"circuit-pushbutton","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M2 17h2"}},{"tagName":"path","attrs":{"d":"M20 17h2"}},{"tagName":"circle","attrs":{"cx":6,"cy":17,"r":2}},{"tagName":"circle","attrs":{"cx":18,"cy":17,"r":2}},{"tagName":"path","attrs":{"d":"M6 11h12"}},{"tagName":"path","attrs":{"d":"M12 11v-6"}}]};
+export default content;

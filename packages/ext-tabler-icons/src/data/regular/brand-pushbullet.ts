@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-pushbullet","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"circle","attrs":{"cx":12,"cy":12,"r":9}},{"tagName":"path","attrs":{"d":"M11 8v8h2a4 4 0 1 0 0 -8h-2z"}},{"tagName":"path","attrs":{"d":"M8 8v8"}}]};
+export default content;
