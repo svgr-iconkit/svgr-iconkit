@@ -61,7 +61,7 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@primer/octicons": "^17.3.0",
+    "@primer/octicons": "~18.3.0",
     "@svgr-iconkit/build-config": "^0.3.1",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
