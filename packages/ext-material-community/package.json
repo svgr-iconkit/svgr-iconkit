@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-community",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Material Community Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -61,7 +61,7 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@mdi/svg": "^6.9.96",
+    "@mdi/svg": "~7.2.96",
     "@svgr-iconkit/build-config": "^0.3.1",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",

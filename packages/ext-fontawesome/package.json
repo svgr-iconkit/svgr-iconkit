@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontawesome",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "FontAwesome (regular) for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -61,7 +61,7 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@fortawesome/fontawesome-free": "~6.4.0",
     "@svgr-iconkit/build-config": "^0.3.1",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",

@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/flag-icons",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "flag-icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -72,7 +72,7 @@
     "@svgr-iconkit/build-config": "^0.3.1",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
-    "flag-icons": "^6.6.2",
+    "flag-icons": "~6.6.6",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",

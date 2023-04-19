@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fluentui-system",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "FluentUI System Icon for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -64,7 +64,7 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@fluentui/svg-icons": "^1.1.175",
+    "@fluentui/svg-icons": "~1.1.198",
     "@svgr-iconkit/build-config": "^0.3.1",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
