@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/heroicons",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Heroicons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -64,7 +64,7 @@
     "@svgr-iconkit/build-config": "^0.3.1",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
-    "heroicons": "^1.0.6",
+    "heroicons": "~2.0.17",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
@@ -76,8 +76,8 @@
   "scripts": {
     "iconsmap:upgrade": "yarn add -D heroicons",
     "iconsmap:prepare": "rimraf ./src/gen",
-    "iconsmap:create:solid": "svgr-iconkit convert-data -i solid -o src/data/solid --stroke-color 'currentColor' -p heroicons",
-    "iconsmap:create:outline": "svgr-iconkit convert-data -i outline -o src/data/outline --stroke-color 'currentColor' -p heroicons",
+    "iconsmap:create:solid": "svgr-iconkit convert-data -i 24/solid -o src/data/solid --stroke-color 'currentColor' -p heroicons",
+    "iconsmap:create:outline": "svgr-iconkit convert-data -i 24/outline -o src/data/outline --stroke-color 'currentColor' -p heroicons",
     "iconsmap:create": "npm-run-all iconsmap:create:solid iconsmap:create:outline",
     "iconsmap": "npm-run-all iconsmap:prepare  iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
