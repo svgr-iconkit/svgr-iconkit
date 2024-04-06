@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"dust","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm16 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM7 21a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM8.66 6.94A5.25 5.25 0 1 1 17.42 12a5.24 5.24 0 0 1-3.67 9 5.25 5.25 0 0 1-5.09-3.94 5.25 5.25 0 1 1 0-10.12Z"}}]};
+export default content;

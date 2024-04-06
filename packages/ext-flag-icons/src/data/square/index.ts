@@ -2,7 +2,6 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 
 // import assets
-import SVG_ac from "./ac";
 import SVG_ad from "./ad";
 import SVG_ae from "./ae";
 import SVG_af from "./af";
@@ -13,6 +12,7 @@ import SVG_am from "./am";
 import SVG_ao from "./ao";
 import SVG_aq from "./aq";
 import SVG_ar from "./ar";
+import SVG_arab from "./arab";
 import SVG_as from "./as";
 import SVG_at from "./at";
 import SVG_au from "./au";
@@ -68,7 +68,7 @@ import SVG_dk from "./dk";
 import SVG_dm from "./dm";
 import SVG_do from "./do";
 import SVG_dz from "./dz";
-import SVG_ea from "./ea";
+import SVG_eac from "./eac";
 import SVG_ec from "./ec";
 import SVG_ee from "./ee";
 import SVG_eg from "./eg";
@@ -76,6 +76,7 @@ import SVG_eh from "./eh";
 import SVG_er from "./er";
 import SVG_esCt from "./es-ct";
 import SVG_esGa from "./es-ga";
+import SVG_esPv from "./es-pv";
 import SVG_es from "./es";
 import SVG_et from "./et";
 import SVG_eu from "./eu";
@@ -188,6 +189,7 @@ import SVG_nu from "./nu";
 import SVG_nz from "./nz";
 import SVG_om from "./om";
 import SVG_pa from "./pa";
+import SVG_pc from "./pc";
 import SVG_pe from "./pe";
 import SVG_pf from "./pf";
 import SVG_pg from "./pg";
@@ -213,6 +215,9 @@ import SVG_sc from "./sc";
 import SVG_sd from "./sd";
 import SVG_se from "./se";
 import SVG_sg from "./sg";
+import SVG_shAc from "./sh-ac";
+import SVG_shHl from "./sh-hl";
+import SVG_shTa from "./sh-ta";
 import SVG_sh from "./sh";
 import SVG_si from "./si";
 import SVG_sj from "./sj";
@@ -228,7 +233,6 @@ import SVG_sv from "./sv";
 import SVG_sx from "./sx";
 import SVG_sy from "./sy";
 import SVG_sz from "./sz";
-import SVG_ta from "./ta";
 import SVG_tc from "./tc";
 import SVG_td from "./td";
 import SVG_tf from "./tf";
@@ -270,11 +274,10 @@ import SVG_zm from "./zm";
 import SVG_zw from "./zw"
 
 // types
-export type IconNames = "ac" | "ad" | "ae" | "af" | "ag" | "ai" | "al" | "am" | "ao" | "aq" | "ar" | "as" | "at" | "au" | "aw" | "ax" | "az" | "ba" | "bb" | "bd" | "be" | "bf" | "bg" | "bh" | "bi" | "bj" | "bl" | "bm" | "bn" | "bo" | "bq" | "br" | "bs" | "bt" | "bv" | "bw" | "by" | "bz" | "ca" | "cc" | "cd" | "cefta" | "cf" | "cg" | "ch" | "ci" | "ck" | "cl" | "cm" | "cn" | "co" | "cp" | "cr" | "cu" | "cv" | "cw" | "cx" | "cy" | "cz" | "de" | "dg" | "dj" | "dk" | "dm" | "do" | "dz" | "ea" | "ec" | "ee" | "eg" | "eh" | "er" | "es-ct" | "es-ga" | "es" | "et" | "eu" | "fi" | "fj" | "fk" | "fm" | "fo" | "fr" | "ga" | "gb-eng" | "gb-nir" | "gb-sct" | "gb-wls" | "gb" | "gd" | "ge" | "gf" | "gg" | "gh" | "gi" | "gl" | "gm" | "gn" | "gp" | "gq" | "gr" | "gs" | "gt" | "gu" | "gw" | "gy" | "hk" | "hm" | "hn" | "hr" | "ht" | "hu" | "ic" | "id" | "ie" | "il" | "im" | "in" | "io" | "iq" | "ir" | "is" | "it" | "je" | "jm" | "jo" | "jp" | "ke" | "kg" | "kh" | "ki" | "km" | "kn" | "kp" | "kr" | "kw" | "ky" | "kz" | "la" | "lb" | "lc" | "li" | "lk" | "lr" | "ls" | "lt" | "lu" | "lv" | "ly" | "ma" | "mc" | "md" | "me" | "mf" | "mg" | "mh" | "mk" | "ml" | "mm" | "mn" | "mo" | "mp" | "mq" | "mr" | "ms" | "mt" | "mu" | "mv" | "mw" | "mx" | "my" | "mz" | "na" | "nc" | "ne" | "nf" | "ng" | "ni" | "nl" | "no" | "np" | "nr" | "nu" | "nz" | "om" | "pa" | "pe" | "pf" | "pg" | "ph" | "pk" | "pl" | "pm" | "pn" | "pr" | "ps" | "pt" | "pw" | "py" | "qa" | "re" | "ro" | "rs" | "ru" | "rw" | "sa" | "sb" | "sc" | "sd" | "se" | "sg" | "sh" | "si" | "sj" | "sk" | "sl" | "sm" | "sn" | "so" | "sr" | "ss" | "st" | "sv" | "sx" | "sy" | "sz" | "ta" | "tc" | "td" | "tf" | "tg" | "th" | "tj" | "tk" | "tl" | "tm" | "tn" | "to" | "tr" | "tt" | "tv" | "tw" | "tz" | "ua" | "ug" | "um" | "un" | "us" | "uy" | "uz" | "va" | "vc" | "ve" | "vg" | "vi" | "vn" | "vu" | "wf" | "ws" | "xk" | "xx" | "ye" | "yt" | "za" | "zm" | "zw";
+export type IconNames = "ad" | "ae" | "af" | "ag" | "ai" | "al" | "am" | "ao" | "aq" | "ar" | "arab" | "as" | "at" | "au" | "aw" | "ax" | "az" | "ba" | "bb" | "bd" | "be" | "bf" | "bg" | "bh" | "bi" | "bj" | "bl" | "bm" | "bn" | "bo" | "bq" | "br" | "bs" | "bt" | "bv" | "bw" | "by" | "bz" | "ca" | "cc" | "cd" | "cefta" | "cf" | "cg" | "ch" | "ci" | "ck" | "cl" | "cm" | "cn" | "co" | "cp" | "cr" | "cu" | "cv" | "cw" | "cx" | "cy" | "cz" | "de" | "dg" | "dj" | "dk" | "dm" | "do" | "dz" | "eac" | "ec" | "ee" | "eg" | "eh" | "er" | "es-ct" | "es-ga" | "es-pv" | "es" | "et" | "eu" | "fi" | "fj" | "fk" | "fm" | "fo" | "fr" | "ga" | "gb-eng" | "gb-nir" | "gb-sct" | "gb-wls" | "gb" | "gd" | "ge" | "gf" | "gg" | "gh" | "gi" | "gl" | "gm" | "gn" | "gp" | "gq" | "gr" | "gs" | "gt" | "gu" | "gw" | "gy" | "hk" | "hm" | "hn" | "hr" | "ht" | "hu" | "ic" | "id" | "ie" | "il" | "im" | "in" | "io" | "iq" | "ir" | "is" | "it" | "je" | "jm" | "jo" | "jp" | "ke" | "kg" | "kh" | "ki" | "km" | "kn" | "kp" | "kr" | "kw" | "ky" | "kz" | "la" | "lb" | "lc" | "li" | "lk" | "lr" | "ls" | "lt" | "lu" | "lv" | "ly" | "ma" | "mc" | "md" | "me" | "mf" | "mg" | "mh" | "mk" | "ml" | "mm" | "mn" | "mo" | "mp" | "mq" | "mr" | "ms" | "mt" | "mu" | "mv" | "mw" | "mx" | "my" | "mz" | "na" | "nc" | "ne" | "nf" | "ng" | "ni" | "nl" | "no" | "np" | "nr" | "nu" | "nz" | "om" | "pa" | "pc" | "pe" | "pf" | "pg" | "ph" | "pk" | "pl" | "pm" | "pn" | "pr" | "ps" | "pt" | "pw" | "py" | "qa" | "re" | "ro" | "rs" | "ru" | "rw" | "sa" | "sb" | "sc" | "sd" | "se" | "sg" | "sh-ac" | "sh-hl" | "sh-ta" | "sh" | "si" | "sj" | "sk" | "sl" | "sm" | "sn" | "so" | "sr" | "ss" | "st" | "sv" | "sx" | "sy" | "sz" | "tc" | "td" | "tf" | "tg" | "th" | "tj" | "tk" | "tl" | "tm" | "tn" | "to" | "tr" | "tt" | "tv" | "tw" | "tz" | "ua" | "ug" | "um" | "un" | "us" | "uy" | "uz" | "va" | "vc" | "ve" | "vg" | "vi" | "vn" | "vu" | "wf" | "ws" | "xk" | "xx" | "ye" | "yt" | "za" | "zm" | "zw";
 
 // map
 export const map: IconsMapType<IconNames> = {
-"ac": SVG_ac,
 "ad": SVG_ad,
 "ae": SVG_ae,
 "af": SVG_af,
@@ -285,6 +288,7 @@ export const map: IconsMapType<IconNames> = {
 "ao": SVG_ao,
 "aq": SVG_aq,
 "ar": SVG_ar,
+"arab": SVG_arab,
 "as": SVG_as,
 "at": SVG_at,
 "au": SVG_au,
@@ -340,7 +344,7 @@ export const map: IconsMapType<IconNames> = {
 "dm": SVG_dm,
 "do": SVG_do,
 "dz": SVG_dz,
-"ea": SVG_ea,
+"eac": SVG_eac,
 "ec": SVG_ec,
 "ee": SVG_ee,
 "eg": SVG_eg,
@@ -348,6 +352,7 @@ export const map: IconsMapType<IconNames> = {
 "er": SVG_er,
 "es-ct": SVG_esCt,
 "es-ga": SVG_esGa,
+"es-pv": SVG_esPv,
 "es": SVG_es,
 "et": SVG_et,
 "eu": SVG_eu,
@@ -460,6 +465,7 @@ export const map: IconsMapType<IconNames> = {
 "nz": SVG_nz,
 "om": SVG_om,
 "pa": SVG_pa,
+"pc": SVG_pc,
 "pe": SVG_pe,
 "pf": SVG_pf,
 "pg": SVG_pg,
@@ -485,6 +491,9 @@ export const map: IconsMapType<IconNames> = {
 "sd": SVG_sd,
 "se": SVG_se,
 "sg": SVG_sg,
+"sh-ac": SVG_shAc,
+"sh-hl": SVG_shHl,
+"sh-ta": SVG_shTa,
 "sh": SVG_sh,
 "si": SVG_si,
 "sj": SVG_sj,
@@ -500,7 +509,6 @@ export const map: IconsMapType<IconNames> = {
 "sx": SVG_sx,
 "sy": SVG_sy,
 "sz": SVG_sz,
-"ta": SVG_ta,
 "tc": SVG_tc,
 "td": SVG_td,
 "tf": SVG_tf,

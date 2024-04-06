@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-fit-in","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.24 7.45a.75.75 0 0 0-.04 1.06L8.52 11H2.75a.75.75 0 0 0 0 1.5h5.77L6.2 14.99A.75.75 0 1 0 7.3 16l3.5-3.75a.75.75 0 0 0 0-1.02L7.3 7.49a.75.75 0 0 0-1.06-.04Zm11.52 0c.3.28.32.76.04 1.06L15.48 11h5.77a.75.75 0 0 1 0 1.5h-5.77l2.32 2.49A.75.75 0 1 1 16.7 16l-3.5-3.75a.75.75 0 0 1 0-1.02l3.5-3.75a.75.75 0 0 1 1.06-.04Z"}}]};
+export default content;

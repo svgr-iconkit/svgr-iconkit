@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"person-ribbon","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M15 15.5c0-.52.09-1.03.26-1.5h-9C5 14 4 15.01 4 16.25v.92c0 .58.18 1.13.51 1.6 1.55 2.17 4.07 3.24 7.49 3.24 1.51 0 2.85-.21 4-.63v-3.05c-.63-.77-1-1.75-1-2.83ZM12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm11 13.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1 3.75a4.48 4.48 0 0 1-5 0v3.5c0 .2.23.32.4.21l2.1-1.45 2.1 1.45c.17.11.4 0 .4-.2v-3.51Z"}}]};
+export default content;

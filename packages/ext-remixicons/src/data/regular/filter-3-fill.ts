@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"filter-3-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M500 300H700V400H500V300zM150 900V800H1050V900H150zM300 550H900V650H300V550z"}}]};
+export const content: IconSVG = {"name":"filter-3-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M500 120H700V220H500V120zM150 720V620H1050V720H150zM300 370H900V470H300V370z"}}]};
 export default content;

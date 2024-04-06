@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sidebar-unfold-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M250 770H650V70H250V770zM950 70H750V770H950V70zM200 870C172.386 870 150 847.614 150 820V20C150 -7.615 172.386 -30 200 -30H1000C1027.615 -30 1050 -7.615 1050 20V820C1050 847.614 1027.615 870 1000 870H200zM550 420L350 595V245L550 420z"}}]};
+export default content;

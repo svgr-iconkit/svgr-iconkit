@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"text-grammar-lightning","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12.55 17H2.88A1 1 0 0 0 3 19h9.08c-.12-.35-.12-.76.06-1.14l.4-.86Zm.94-2H3a1 1 0 0 1-.12-2H14.43l-.94 2ZM21 11h.12A1 1 0 0 0 21 9H2.88A1 1 0 0 0 3 11h18Zm0-6H2.88A1 1 0 0 0 3 7h18.12A1 1 0 0 0 21 5Zm-4.68 7h4.82a.5.5 0 0 1 .44.75L19.75 16h1.5c.64 0 .98.76.56 1.24l-4.82 5.51c-.5.58-1.45.09-1.26-.66L16.5 19h-3a.5.5 0 0 1-.46-.71l2.82-6a.5.5 0 0 1 .46-.29Z"}}]};
+export default content;

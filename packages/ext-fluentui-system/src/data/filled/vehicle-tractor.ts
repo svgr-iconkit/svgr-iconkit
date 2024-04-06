@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"vehicle-tractor","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7.02 3c-1.1 0-2.04.8-2.22 1.88l-.82 4.93A6 6 0 1 0 12.66 17h3.38A3.5 3.5 0 1 0 22 15.05v-2.8C22 10.45 20.54 9 18.74 9H17.5V6.75a.75.75 0 0 0-1.5 0V9h-2.11l-.7-4.12A2.25 2.25 0 0 0 10.99 3H7.02Zm.02 6a6.05 6.05 0 0 0-1.43.16l.67-4.03a.75.75 0 0 1 .74-.63h3.96c.37 0 .68.27.74.63L12.36 9H7.04Zm12.46 6.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm-17-.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0Z"}}]};
+export default content;

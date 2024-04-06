@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"auth-2fa","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M7 16h-4l3.47 -4.66a2 2 0 1 0 -3.47 -1.54"}},{"tagName":"path","attrs":{"d":"M10 16v-8h4"}},{"tagName":"path","attrs":{"d":"M10 12l3 0"}},{"tagName":"path","attrs":{"d":"M17 16v-6a2 2 0 0 1 4 0v6"}},{"tagName":"path","attrs":{"d":"M17 13l4 0"}}]};
+export default content;

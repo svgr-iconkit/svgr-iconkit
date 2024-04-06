@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"expand-diagonal-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M320.7105 770H500V870H150V520H250V699.2895000000001L464.6445 484.645L535.355 555.3555L320.7105 770zM1050 320H950V140.71L735.355 355.355L664.645 284.645L879.29 70H700V-30H1050V320z"}}]};
+export default content;

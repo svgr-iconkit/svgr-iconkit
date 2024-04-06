@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"ellipsis-vertical","attrs":{"fill":"none","viewBox":"0 0 24 24","stroke-width":1.5,"stroke":"currentColor","aria-hidden":"true","data-slot":"icon"},"data":[{"tagName":"path","attrs":{"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"}}]};
+export default content;

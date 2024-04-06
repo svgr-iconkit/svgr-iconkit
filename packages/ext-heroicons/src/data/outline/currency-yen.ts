@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"currency-yen","attrs":{"fill":"none","viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","aria-hidden":"true"},"data":[{"tagName":"path","attrs":{"stroke-linecap":"round","stroke-linejoin":"round","d":"M9 8l3 5m0 0l3-5m-3 5v4m-3-5h6m-6 3h6m6-3a9 9 0 11-18 0 9 9 0 0118 0z"}}]};
+export const content: IconSVG = {"name":"currency-yen","attrs":{"fill":"none","viewBox":"0 0 24 24","stroke-width":1.5,"stroke":"currentColor","aria-hidden":"true","data-slot":"icon"},"data":[{"tagName":"path","attrs":{"stroke-linecap":"round","stroke-linejoin":"round","d":"m9 7.5 3 4.5m0 0 3-4.5M12 12v5.25M15 12H9m6 3H9m12-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"}}]};
 export default content;

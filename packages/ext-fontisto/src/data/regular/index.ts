@@ -184,7 +184,7 @@ import SVG_facebook from "./facebook";
 import SVG_famale from "./famale";
 import SVG_favorite from "./favorite";
 import SVG_fi from "./fi";
-import SVG_file_1 from "./file-1";
+import SVG_file1 from "./file-1";
 import SVG_file from "./file";
 import SVG_film from "./film";
 import SVG_filter from "./filter";
@@ -291,8 +291,8 @@ import SVG_line from "./line";
 import SVG_link from "./link";
 import SVG_linkedin from "./linkedin";
 import SVG_linux from "./linux";
-import SVG_list_1 from "./list-1";
-import SVG_list_2 from "./list-2";
+import SVG_list1 from "./list-1";
+import SVG_list2 from "./list-2";
 import SVG_livestream from "./livestream";
 import SVG_locked from "./locked";
 import SVG_lowVision from "./low-vision";
@@ -380,8 +380,8 @@ import SVG_phone from "./phone";
 import SVG_photograph from "./photograph";
 import SVG_php from "./php";
 import SVG_picture from "./picture";
-import SVG_pieChart_1 from "./pie-chart-1";
-import SVG_pieChart_2 from "./pie-chart-2";
+import SVG_pieChart1 from "./pie-chart-1";
+import SVG_pieChart2 from "./pie-chart-2";
 import SVG_pills from "./pills";
 import SVG_pinboard from "./pinboard";
 import SVG_pingdom from "./pingdom";
@@ -399,10 +399,10 @@ import SVG_prescription from "./prescription";
 import SVG_preview from "./preview";
 import SVG_print from "./print";
 import SVG_productHunt from "./product-hunt";
-import SVG_propeller_1 from "./propeller-1";
-import SVG_propeller_2 from "./propeller-2";
-import SVG_propeller_3 from "./propeller-3";
-import SVG_propeller_4 from "./propeller-4";
+import SVG_propeller1 from "./propeller-1";
+import SVG_propeller2 from "./propeller-2";
+import SVG_propeller3 from "./propeller-3";
+import SVG_propeller4 from "./propeller-4";
 import SVG_pulse from "./pulse";
 import SVG_python from "./python";
 import SVG_qrcode from "./qrcode";
@@ -440,7 +440,7 @@ import SVG_safari from "./safari";
 import SVG_saitBoat from "./sait-boat";
 import SVG_sass from "./sass";
 import SVG_saucelabs from "./saucelabs";
-import SVG_save_1 from "./save-1";
+import SVG_save1 from "./save-1";
 import SVG_save from "./save";
 import SVG_scissors from "./scissors";
 import SVG_scorp from "./scorp";
@@ -452,7 +452,7 @@ import SVG_shazam from "./shazam";
 import SVG_shield from "./shield";
 import SVG_ship from "./ship";
 import SVG_shopify from "./shopify";
-import SVG_shoppingBag_1 from "./shopping-bag-1";
+import SVG_shoppingBag1 from "./shopping-bag-1";
 import SVG_shoppingBag from "./shopping-bag";
 import SVG_shoppingBarcode from "./shopping-barcode";
 import SVG_shoppingBasketAdd from "./shopping-basket-add";
@@ -474,14 +474,14 @@ import SVG_smiling from "./smiling";
 import SVG_snapchat from "./snapchat";
 import SVG_snorkel from "./snorkel";
 import SVG_snow from "./snow";
-import SVG_snowflake_1 from "./snowflake-1";
-import SVG_snowflake_2 from "./snowflake-2";
-import SVG_snowflake_3 from "./snowflake-3";
-import SVG_snowflake_4 from "./snowflake-4";
-import SVG_snowflake_5 from "./snowflake-5";
-import SVG_snowflake_6 from "./snowflake-6";
-import SVG_snowflake_7 from "./snowflake-7";
-import SVG_snowflake_8 from "./snowflake-8";
+import SVG_snowflake1 from "./snowflake-1";
+import SVG_snowflake2 from "./snowflake-2";
+import SVG_snowflake3 from "./snowflake-3";
+import SVG_snowflake4 from "./snowflake-4";
+import SVG_snowflake5 from "./snowflake-5";
+import SVG_snowflake6 from "./snowflake-6";
+import SVG_snowflake7 from "./snowflake-7";
+import SVG_snowflake8 from "./snowflake-8";
 import SVG_snowflake from "./snowflake";
 import SVG_snows from "./snows";
 import SVG_soundcloud from "./soundcloud";
@@ -520,8 +520,8 @@ import SVG_svn from "./svn";
 import SVG_swarm from "./swarm";
 import SVG_swift from "./swift";
 import SVG_swimsuit from "./swimsuit";
-import SVG_table_1 from "./table-1";
-import SVG_table_2 from "./table-2";
+import SVG_table1 from "./table-1";
+import SVG_table2 from "./table-2";
 import SVG_tabletAlt from "./tablet-alt";
 import SVG_tablet from "./tablet";
 import SVG_tablets from "./tablets";
@@ -805,7 +805,7 @@ export const map: IconsMapType<IconNames> = {
 "famale": SVG_famale,
 "favorite": SVG_favorite,
 "fi": SVG_fi,
-"file-1": SVG_file_1,
+"file-1": SVG_file1,
 "file": SVG_file,
 "film": SVG_film,
 "filter": SVG_filter,
@@ -912,8 +912,8 @@ export const map: IconsMapType<IconNames> = {
 "link": SVG_link,
 "linkedin": SVG_linkedin,
 "linux": SVG_linux,
-"list-1": SVG_list_1,
-"list-2": SVG_list_2,
+"list-1": SVG_list1,
+"list-2": SVG_list2,
 "livestream": SVG_livestream,
 "locked": SVG_locked,
 "low-vision": SVG_lowVision,
@@ -1001,8 +1001,8 @@ export const map: IconsMapType<IconNames> = {
 "photograph": SVG_photograph,
 "php": SVG_php,
 "picture": SVG_picture,
-"pie-chart-1": SVG_pieChart_1,
-"pie-chart-2": SVG_pieChart_2,
+"pie-chart-1": SVG_pieChart1,
+"pie-chart-2": SVG_pieChart2,
 "pills": SVG_pills,
 "pinboard": SVG_pinboard,
 "pingdom": SVG_pingdom,
@@ -1020,10 +1020,10 @@ export const map: IconsMapType<IconNames> = {
 "preview": SVG_preview,
 "print": SVG_print,
 "product-hunt": SVG_productHunt,
-"propeller-1": SVG_propeller_1,
-"propeller-2": SVG_propeller_2,
-"propeller-3": SVG_propeller_3,
-"propeller-4": SVG_propeller_4,
+"propeller-1": SVG_propeller1,
+"propeller-2": SVG_propeller2,
+"propeller-3": SVG_propeller3,
+"propeller-4": SVG_propeller4,
 "pulse": SVG_pulse,
 "python": SVG_python,
 "qrcode": SVG_qrcode,
@@ -1061,7 +1061,7 @@ export const map: IconsMapType<IconNames> = {
 "sait-boat": SVG_saitBoat,
 "sass": SVG_sass,
 "saucelabs": SVG_saucelabs,
-"save-1": SVG_save_1,
+"save-1": SVG_save1,
 "save": SVG_save,
 "scissors": SVG_scissors,
 "scorp": SVG_scorp,
@@ -1073,7 +1073,7 @@ export const map: IconsMapType<IconNames> = {
 "shield": SVG_shield,
 "ship": SVG_ship,
 "shopify": SVG_shopify,
-"shopping-bag-1": SVG_shoppingBag_1,
+"shopping-bag-1": SVG_shoppingBag1,
 "shopping-bag": SVG_shoppingBag,
 "shopping-barcode": SVG_shoppingBarcode,
 "shopping-basket-add": SVG_shoppingBasketAdd,
@@ -1095,14 +1095,14 @@ export const map: IconsMapType<IconNames> = {
 "snapchat": SVG_snapchat,
 "snorkel": SVG_snorkel,
 "snow": SVG_snow,
-"snowflake-1": SVG_snowflake_1,
-"snowflake-2": SVG_snowflake_2,
-"snowflake-3": SVG_snowflake_3,
-"snowflake-4": SVG_snowflake_4,
-"snowflake-5": SVG_snowflake_5,
-"snowflake-6": SVG_snowflake_6,
-"snowflake-7": SVG_snowflake_7,
-"snowflake-8": SVG_snowflake_8,
+"snowflake-1": SVG_snowflake1,
+"snowflake-2": SVG_snowflake2,
+"snowflake-3": SVG_snowflake3,
+"snowflake-4": SVG_snowflake4,
+"snowflake-5": SVG_snowflake5,
+"snowflake-6": SVG_snowflake6,
+"snowflake-7": SVG_snowflake7,
+"snowflake-8": SVG_snowflake8,
 "snowflake": SVG_snowflake,
 "snows": SVG_snows,
 "soundcloud": SVG_soundcloud,
@@ -1141,8 +1141,8 @@ export const map: IconsMapType<IconNames> = {
 "swarm": SVG_swarm,
 "swift": SVG_swift,
 "swimsuit": SVG_swimsuit,
-"table-1": SVG_table_1,
-"table-2": SVG_table_2,
+"table-1": SVG_table1,
+"table-2": SVG_table2,
 "tablet-alt": SVG_tabletAlt,
 "tablet": SVG_tablet,
 "tablets": SVG_tablets,

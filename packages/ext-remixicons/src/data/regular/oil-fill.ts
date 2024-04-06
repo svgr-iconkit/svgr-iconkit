@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"oil-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M400 950H950A50 50 0 0 0 1000 900V150A50 50 0 0 0 950 100H250A50 50 0 0 0 200 150V650L400 950zM650 1150H900A50 50 0 0 0 950 1100V1000H600V1100A50 50 0 0 0 650 1150zM300 600V250H400V600H300z"}}]};
+export const content: IconSVG = {"name":"oil-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M400 745H950C977.6149999999998 745 1000 722.614 1000 695V-55C1000 -82.615 977.6149999999998 -105 950 -105H250C222.386 -105 200 -82.615 200 -55V445L400 745zM650 945H900C927.6149999999998 945 950 922.614 950 895V795H600V895C600 922.614 622.385 945 650 945zM300 395V45H400V395H300z"}}]};
 export default content;

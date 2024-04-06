@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"photo-square-rounded","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M15 8h.01"}},{"tagName":"path","attrs":{"d":"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"}},{"tagName":"path","attrs":{"d":"M3.5 15.5l4.5 -4.5c.928 -.893 2.072 -.893 3 0l5 5"}},{"tagName":"path","attrs":{"d":"M14 14l1 -1c.928 -.893 2.072 -.893 3 0l2.5 2.5"}}]};
+export default content;

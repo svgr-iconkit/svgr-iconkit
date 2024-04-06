@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-xbox","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}},{"tagName":"path","attrs":{"d":"M6.5 5c7.72 2.266 10.037 7.597 12.5 12.5"}},{"tagName":"path","attrs":{"d":"M17.5 5c-7.72 2.266 -10.037 7.597 -12.5 12.5"}}]};
+export default content;

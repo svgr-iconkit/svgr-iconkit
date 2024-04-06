@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-turn-forward-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M800 595V345C800 179.315 665.6850000000001 45 500 45C334.3145 45 200 179.315 200 345V795H100V345C100 124.085 279.086 -55 500 -55C720.915 -55 900 124.085 900 345V595H1100L850 895L600 595H800z"}}]};
+export default content;

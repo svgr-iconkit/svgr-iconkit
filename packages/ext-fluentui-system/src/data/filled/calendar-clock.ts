@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"calendar-clock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M17.75 3C19.55 3 21 4.46 21 6.25V7H3v-.75C3 4.45 4.46 3 6.25 3h11.5zM21 8.5v3.52A6.5 6.5 0 0012.02 21H6.25A3.25 3.25 0 013 17.75V8.5h18zm2 9a5.5 5.5 0 10-11 0 5.5 5.5 0 0011 0zm-5.5 0h2a.5.5 0 110 1H17a.5.5 0 01-.5-.5v-3a.5.5 0 011 0v2.5z"}}]};
+export const content: IconSVG = {"name":"calendar-clock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M21 6.25C21 4.45 19.54 3 17.75 3H6.25A3.25 3.25 0 0 0 3 6.25V7h18v-.75Zm0 5.77V8.5H3v9.25C3 19.55 4.46 21 6.25 21h5.77A6.5 6.5 0 0 1 21 12.02Zm2 5.48a5.5 5.5 0 1 0-11 0 5.5 5.5 0 0 0 11 0ZM17.5 14c.28 0 .5.22.5.5V17h2a.5.5 0 0 1 0 1h-2.5a.5.5 0 0 1-.5-.5v-3c0-.28.22-.5.5-.5Z"}}]};
 export default content;

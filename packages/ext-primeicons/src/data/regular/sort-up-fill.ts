@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sort-up-fill","attrs":{"viewBox":"0 0 1024 1024"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 960.00) scale(1, -1)","d":"M542.031 676.222c-16.586 16.585-43.476 16.585-60.062 0l-396.386-396.386c-12.146-12.147-15.78-30.414-9.206-46.283 6.573-15.872 22.059-26.214 39.237-26.214h792.769c17.181 0 32.666 10.342 39.241 26.214 6.576 15.87 2.94 34.137-9.209 46.283l-396.385 396.386z"}}]};
+export default content;

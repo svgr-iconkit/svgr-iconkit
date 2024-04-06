@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chat-lock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M22 12a10 10 0 1 0-18.86 4.65l-1.11 4.29a.85.85 0 0 0 1.04 1.04l4.29-1.12a9.96 9.96 0 0 0 5.68 1.09 2.5 2.5 0 0 1-.04-.45v-5a2.5 2.5 0 0 1 2-2.45V14a3.5 3.5 0 0 1 6.92-.74c.05-.41.08-.83.08-1.26Zm-6 3h-.5c-.83 0-1.5.67-1.5 1.5v5c0 .83.67 1.5 1.5 1.5h6c.83 0 1.5-.67 1.5-1.5v-5c0-.83-.67-1.5-1.5-1.5H21v-1a2.5 2.5 0 0 0-5 0v1Zm1.5-1a1 1 0 1 1 2 0v1h-2v-1Zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"}}]};
+export default content;

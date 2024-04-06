@@ -61,20 +61,21 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.1",
+    "@svgr-iconkit/build-config": "^0.3.2",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
-    "ionicons": "^6.0.2",
+    "ionicons": "^7.3.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
-    "typescript": "^4.3.4"
+    "typescript": "^5.4.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/assets/regular; mkdir -p ./src/gen/assets/sharp; mkdir -p ./src/gen/assets/outline",
+    "iconsmap:upgrade": "yarn add -D ionicons",
+    "iconsmap:prepare": "rimraf ./src/gen ./src/data; mkdir -p ./src/gen/assets/regular; mkdir -p ./src/gen/assets/sharp; mkdir -p ./src/gen/assets/outline",
     "iconsmap:copy": "cp -R ../../node_modules/ionicons/dist/svg/*.svg ./src/gen/assets; mv ./src/gen/assets/*-sharp.svg ./src/gen/assets/sharp/; mv ./src/gen/assets/*-outline.svg ./src/gen/assets/outline/; mv ./src/gen/assets/*.svg ./src/gen/assets/regular",
     "iconsmap:create:sharp": "svgr-iconkit convert-data -i ./src/gen/assets/sharp -o ./src/data/sharp --end-with '-sharp' --remove-name-suffix '-sharp'",
     "iconsmap:create:outline": "svgr-iconkit convert-data -i ./src/gen/assets/outline -o ./src/data/outline --end-with '-outline' --remove-name-suffix '-outline'",
@@ -82,7 +83,7 @@
     "iconsmap:create": "npm-run-all iconsmap:create:sharp iconsmap:create:outline iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
-    "compile": "rollup -c",
+    "compile": "rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"
   },

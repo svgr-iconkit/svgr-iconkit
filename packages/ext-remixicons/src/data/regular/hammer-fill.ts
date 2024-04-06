@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"hammer-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M850 800V1100H1000A50 50 0 0 0 1050 1050V850A50 50 0 0 0 1000 800H850zM750 100A50 50 0 0 0 700 50H500A50 50 0 0 0 450 100V800H125V896.3A50 50 0 0 0 149.8 939.45L425 1100H750V100z"}}]};
+export const content: IconSVG = {"name":"hammer-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M862.5 645V945H1012.5C1040.115 945 1062.5 922.614 1062.5 895V695C1062.5 667.386 1040.115 645 1012.5 645H862.5zM762.5 -55C762.5 -82.615 740.115 -105 712.5 -105H512.5C484.886 -105 462.5 -82.615 462.5 -55V645H137.5V741.2815C137.5 759.065 146.9455 775.51 162.3065 784.4705L437.5 945H762.5V-55z"}}]};
 export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"twitter-x-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M400 920H50L463.0429999999999 369.275L72.4975 -79.9950000000001H204.999L524.4150000000001 287.4500000000001L800 -80H1150L719.585 493.885L1090.005 920H957.5049999999998L658.215 575.711L400 920zM850 20L250 820H350L950 20H850z"}}]};
+export default content;

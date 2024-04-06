@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cloud-arrow-right","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7.5 8.79a4.5 4.5 0 0 1 9 0c.01.4.34.71.74.71h.26a3 3 0 0 1 2.67 1.64c.72.49 1.33 1.12 1.8 1.85a4.5 4.5 0 0 0-4.05-4.97 6 6 0 0 0-11.84 0A4.5 4.5 0 0 0 6.5 17h3.52a6.62 6.62 0 0 1 .06-1.5H6.5a3 3 0 1 1 0-6h.26c.4 0 .73-.31.75-.71Zm9 2.21a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm-3 5a.5.5 0 0 0 0 1h4.8l-1.65 1.65a.5.5 0 0 0 .7.7l2.5-2.5a.5.5 0 0 0 0-.7l-2.5-2.5a.5.5 0 0 0-.7.7L18.29 16H13.5Z"}}]};
+export default content;

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"git-commit-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M793.7 550A200.10000000000002 200.10000000000002 0 0 0 406.3000000000001 550H150V650H406.3000000000001A200.10000000000002 200.10000000000002 0 0 0 793.7000000000002 650H1050V550H793.6999999999999z"}}]};
+export const content: IconSVG = {"name":"git-commit-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M793.7 370C771.495 283.74 693.1899999999999 220 600 220C506.81 220 428.503 283.74 406.3010000000001 370H150V470H406.3010000000001C428.503 556.2615000000001 506.81 620 600 620C693.1899999999999 620 771.495 556.2615000000001 793.7 470H1050V370H793.7z"}}]};
 export default content;

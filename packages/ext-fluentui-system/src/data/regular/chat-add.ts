@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chat-add","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12.75 7.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5ZM22 12a10 10 0 1 0-18.89 4.6l-1.06 3.82a1.25 1.25 0 0 0 1.54 1.54l3.82-1.07A10 10 0 0 0 22 12ZM3.5 12a8.5 8.5 0 1 1 4.37 7.43l-.27-.15-3.99 1.11 1.11-3.98-.15-.27A8.46 8.46 0 0 1 3.5 12Z"}}]};
+export default content;

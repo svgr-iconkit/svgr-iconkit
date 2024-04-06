@@ -28,12 +28,17 @@ import SVG_accountArrowUpOutline from "./account-arrow-up-outline";
 import SVG_accountArrowUp from "./account-arrow-up";
 import SVG_accountBadgeOutline from "./account-badge-outline";
 import SVG_accountBadge from "./account-badge";
+import SVG_accountBoxEditOutline from "./account-box-edit-outline";
+import SVG_accountBoxMinusOutline from "./account-box-minus-outline";
 import SVG_accountBoxMultipleOutline from "./account-box-multiple-outline";
 import SVG_accountBoxMultiple from "./account-box-multiple";
 import SVG_accountBoxOutline from "./account-box-outline";
+import SVG_accountBoxPlusOutline from "./account-box-plus-outline";
 import SVG_accountBox from "./account-box";
 import SVG_accountCancelOutline from "./account-cancel-outline";
 import SVG_accountCancel from "./account-cancel";
+import SVG_accountCardOutline from "./account-card-outline";
+import SVG_accountCard from "./account-card";
 import SVG_accountCashOutline from "./account-cash-outline";
 import SVG_accountCash from "./account-cash";
 import SVG_accountCheckOutline from "./account-check-outline";
@@ -51,12 +56,18 @@ import SVG_accountConvertOutline from "./account-convert-outline";
 import SVG_accountConvert from "./account-convert";
 import SVG_accountCowboyHatOutline from "./account-cowboy-hat-outline";
 import SVG_accountCowboyHat from "./account-cowboy-hat";
+import SVG_accountCreditCardOutline from "./account-credit-card-outline";
+import SVG_accountCreditCard from "./account-credit-card";
 import SVG_accountDetailsOutline from "./account-details-outline";
 import SVG_accountDetails from "./account-details";
 import SVG_accountEditOutline from "./account-edit-outline";
 import SVG_accountEdit from "./account-edit";
 import SVG_accountEyeOutline from "./account-eye-outline";
 import SVG_accountEye from "./account-eye";
+import SVG_accountFileOutline from "./account-file-outline";
+import SVG_accountFileTextOutline from "./account-file-text-outline";
+import SVG_accountFileText from "./account-file-text";
+import SVG_accountFile from "./account-file";
 import SVG_accountFilterOutline from "./account-filter-outline";
 import SVG_accountFilter from "./account-filter";
 import SVG_accountGroupOutline from "./account-group-outline";
@@ -118,6 +129,8 @@ import SVG_accountSwitchOutline from "./account-switch-outline";
 import SVG_accountSwitch from "./account-switch";
 import SVG_accountSyncOutline from "./account-sync-outline";
 import SVG_accountSync from "./account-sync";
+import SVG_accountTagOutline from "./account-tag-outline";
+import SVG_accountTag from "./account-tag";
 import SVG_accountTieHatOutline from "./account-tie-hat-outline";
 import SVG_accountTieHat from "./account-tie-hat";
 import SVG_accountTieOutline from "./account-tie-outline";
@@ -140,6 +153,7 @@ import SVG_airFilter from "./air-filter";
 import SVG_airHorn from "./air-horn";
 import SVG_airHumidifierOff from "./air-humidifier-off";
 import SVG_airHumidifier from "./air-humidifier";
+import SVG_airPurifierOff from "./air-purifier-off";
 import SVG_airPurifier from "./air-purifier";
 import SVG_airbag from "./airbag";
 import SVG_airballoonOutline from "./airballoon-outline";
@@ -360,7 +374,6 @@ import SVG_ampersand from "./ampersand";
 import SVG_amplifierOff from "./amplifier-off";
 import SVG_amplifier from "./amplifier";
 import SVG_anchor from "./anchor";
-import SVG_androidMessages from "./android-messages";
 import SVG_androidStudio from "./android-studio";
 import SVG_android from "./android";
 import SVG_angleAcute from "./angle-acute";
@@ -544,6 +557,8 @@ import SVG_arrowLeftThin from "./arrow-left-thin";
 import SVG_arrowLeftTopBold from "./arrow-left-top-bold";
 import SVG_arrowLeftTop from "./arrow-left-top";
 import SVG_arrowLeft from "./arrow-left";
+import SVG_arrowOscillatingOff from "./arrow-oscillating-off";
+import SVG_arrowOscillating from "./arrow-oscillating";
 import SVG_arrowProjectileMultiple from "./arrow-projectile-multiple";
 import SVG_arrowProjectile from "./arrow-projectile";
 import SVG_arrowRightBoldBoxOutline from "./arrow-right-bold-box-outline";
@@ -626,6 +641,7 @@ import SVG_arrowUpThinCircleOutline from "./arrow-up-thin-circle-outline";
 import SVG_arrowUpThin from "./arrow-up-thin";
 import SVG_arrowUp from "./arrow-up";
 import SVG_arrowVerticalLock from "./arrow-vertical-lock";
+import SVG_artboard from "./artboard";
 import SVG_artstation from "./artstation";
 import SVG_aspectRatio from "./aspect-ratio";
 import SVG_assistant from "./assistant";
@@ -643,18 +659,23 @@ import SVG_attachmentOff from "./attachment-off";
 import SVG_attachmentPlus from "./attachment-plus";
 import SVG_attachmentRemove from "./attachment-remove";
 import SVG_attachment from "./attachment";
+import SVG_atv from "./atv";
 import SVG_audioInputRca from "./audio-input-rca";
 import SVG_audioInputStereoMinijack from "./audio-input-stereo-minijack";
 import SVG_audioInputXlr from "./audio-input-xlr";
 import SVG_audioVideoOff from "./audio-video-off";
 import SVG_audioVideo from "./audio-video";
 import SVG_augmentedReality from "./augmented-reality";
+import SVG_aurora from "./aurora";
 import SVG_autoDownload from "./auto-download";
 import SVG_autoFix from "./auto-fix";
+import SVG_autoMode from "./auto-mode";
 import SVG_autoUpload from "./auto-upload";
 import SVG_autorenewOff from "./autorenew-off";
 import SVG_autorenew from "./autorenew";
 import SVG_avTimer from "./av-timer";
+import SVG_awningOutline from "./awning-outline";
+import SVG_awning from "./awning";
 import SVG_aws from "./aws";
 import SVG_axeBattle from "./axe-battle";
 import SVG_axe from "./axe";
@@ -708,6 +729,8 @@ import SVG_bagChecked from "./bag-checked";
 import SVG_bagPersonalOffOutline from "./bag-personal-off-outline";
 import SVG_bagPersonalOff from "./bag-personal-off";
 import SVG_bagPersonalOutline from "./bag-personal-outline";
+import SVG_bagPersonalPlusOutline from "./bag-personal-plus-outline";
+import SVG_bagPersonalPlus from "./bag-personal-plus";
 import SVG_bagPersonalTagOutline from "./bag-personal-tag-outline";
 import SVG_bagPersonalTag from "./bag-personal-tag";
 import SVG_bagPersonal from "./bag-personal";
@@ -724,6 +747,8 @@ import SVG_ballotRecount from "./ballot-recount";
 import SVG_ballot from "./ballot";
 import SVG_bandage from "./bandage";
 import SVG_bankCheck from "./bank-check";
+import SVG_bankCircleOutline from "./bank-circle-outline";
+import SVG_bankCircle from "./bank-circle";
 import SVG_bankMinus from "./bank-minus";
 import SVG_bankOffOutline from "./bank-off-outline";
 import SVG_bankOff from "./bank-off";
@@ -745,6 +770,7 @@ import SVG_barrel from "./barrel";
 import SVG_baseballBat from "./baseball-bat";
 import SVG_baseballDiamondOutline from "./baseball-diamond-outline";
 import SVG_baseballDiamond from "./baseball-diamond";
+import SVG_baseballOutline from "./baseball-outline";
 import SVG_baseball from "./baseball";
 import SVG_bash from "./bash";
 import SVG_basketCheckOutline from "./basket-check-outline";
@@ -767,24 +793,24 @@ import SVG_basketball from "./basketball";
 import SVG_bat from "./bat";
 import SVG_bathtubOutline from "./bathtub-outline";
 import SVG_bathtub from "./bathtub";
-import SVG_battery_10Bluetooth from "./battery-10-bluetooth";
-import SVG_battery_10 from "./battery-10";
-import SVG_battery_20Bluetooth from "./battery-20-bluetooth";
-import SVG_battery_20 from "./battery-20";
-import SVG_battery_30Bluetooth from "./battery-30-bluetooth";
-import SVG_battery_30 from "./battery-30";
-import SVG_battery_40Bluetooth from "./battery-40-bluetooth";
-import SVG_battery_40 from "./battery-40";
-import SVG_battery_50Bluetooth from "./battery-50-bluetooth";
-import SVG_battery_50 from "./battery-50";
-import SVG_battery_60Bluetooth from "./battery-60-bluetooth";
-import SVG_battery_60 from "./battery-60";
-import SVG_battery_70Bluetooth from "./battery-70-bluetooth";
-import SVG_battery_70 from "./battery-70";
-import SVG_battery_80Bluetooth from "./battery-80-bluetooth";
-import SVG_battery_80 from "./battery-80";
-import SVG_battery_90Bluetooth from "./battery-90-bluetooth";
-import SVG_battery_90 from "./battery-90";
+import SVG_battery10Bluetooth from "./battery-10-bluetooth";
+import SVG_battery10 from "./battery-10";
+import SVG_battery20Bluetooth from "./battery-20-bluetooth";
+import SVG_battery20 from "./battery-20";
+import SVG_battery30Bluetooth from "./battery-30-bluetooth";
+import SVG_battery30 from "./battery-30";
+import SVG_battery40Bluetooth from "./battery-40-bluetooth";
+import SVG_battery40 from "./battery-40";
+import SVG_battery50Bluetooth from "./battery-50-bluetooth";
+import SVG_battery50 from "./battery-50";
+import SVG_battery60Bluetooth from "./battery-60-bluetooth";
+import SVG_battery60 from "./battery-60";
+import SVG_battery70Bluetooth from "./battery-70-bluetooth";
+import SVG_battery70 from "./battery-70";
+import SVG_battery80Bluetooth from "./battery-80-bluetooth";
+import SVG_battery80 from "./battery-80";
+import SVG_battery90Bluetooth from "./battery-90-bluetooth";
+import SVG_battery90 from "./battery-90";
 import SVG_batteryAlertBluetooth from "./battery-alert-bluetooth";
 import SVG_batteryAlertVariantOutline from "./battery-alert-variant-outline";
 import SVG_batteryAlertVariant from "./battery-alert-variant";
@@ -795,29 +821,29 @@ import SVG_batteryArrowUpOutline from "./battery-arrow-up-outline";
 import SVG_batteryArrowUp from "./battery-arrow-up";
 import SVG_batteryBluetoothVariant from "./battery-bluetooth-variant";
 import SVG_batteryBluetooth from "./battery-bluetooth";
-import SVG_batteryCharging_10 from "./battery-charging-10";
-import SVG_batteryCharging_100 from "./battery-charging-100";
-import SVG_batteryCharging_20 from "./battery-charging-20";
-import SVG_batteryCharging_30 from "./battery-charging-30";
-import SVG_batteryCharging_40 from "./battery-charging-40";
-import SVG_batteryCharging_50 from "./battery-charging-50";
-import SVG_batteryCharging_60 from "./battery-charging-60";
-import SVG_batteryCharging_70 from "./battery-charging-70";
-import SVG_batteryCharging_80 from "./battery-charging-80";
-import SVG_batteryCharging_90 from "./battery-charging-90";
+import SVG_batteryCharging10 from "./battery-charging-10";
+import SVG_batteryCharging100 from "./battery-charging-100";
+import SVG_batteryCharging20 from "./battery-charging-20";
+import SVG_batteryCharging30 from "./battery-charging-30";
+import SVG_batteryCharging40 from "./battery-charging-40";
+import SVG_batteryCharging50 from "./battery-charging-50";
+import SVG_batteryCharging60 from "./battery-charging-60";
+import SVG_batteryCharging70 from "./battery-charging-70";
+import SVG_batteryCharging80 from "./battery-charging-80";
+import SVG_batteryCharging90 from "./battery-charging-90";
 import SVG_batteryChargingHigh from "./battery-charging-high";
 import SVG_batteryChargingLow from "./battery-charging-low";
 import SVG_batteryChargingMedium from "./battery-charging-medium";
 import SVG_batteryChargingOutline from "./battery-charging-outline";
-import SVG_batteryChargingWireless_10 from "./battery-charging-wireless-10";
-import SVG_batteryChargingWireless_20 from "./battery-charging-wireless-20";
-import SVG_batteryChargingWireless_30 from "./battery-charging-wireless-30";
-import SVG_batteryChargingWireless_40 from "./battery-charging-wireless-40";
-import SVG_batteryChargingWireless_50 from "./battery-charging-wireless-50";
-import SVG_batteryChargingWireless_60 from "./battery-charging-wireless-60";
-import SVG_batteryChargingWireless_70 from "./battery-charging-wireless-70";
-import SVG_batteryChargingWireless_80 from "./battery-charging-wireless-80";
-import SVG_batteryChargingWireless_90 from "./battery-charging-wireless-90";
+import SVG_batteryChargingWireless10 from "./battery-charging-wireless-10";
+import SVG_batteryChargingWireless20 from "./battery-charging-wireless-20";
+import SVG_batteryChargingWireless30 from "./battery-charging-wireless-30";
+import SVG_batteryChargingWireless40 from "./battery-charging-wireless-40";
+import SVG_batteryChargingWireless50 from "./battery-charging-wireless-50";
+import SVG_batteryChargingWireless60 from "./battery-charging-wireless-60";
+import SVG_batteryChargingWireless70 from "./battery-charging-wireless-70";
+import SVG_batteryChargingWireless80 from "./battery-charging-wireless-80";
+import SVG_batteryChargingWireless90 from "./battery-charging-wireless-90";
 import SVG_batteryChargingWirelessAlert from "./battery-charging-wireless-alert";
 import SVG_batteryChargingWirelessOutline from "./battery-charging-wireless-outline";
 import SVG_batteryChargingWireless from "./battery-charging-wireless";
@@ -867,6 +893,7 @@ import SVG_beakerQuestion from "./beaker-question";
 import SVG_beakerRemoveOutline from "./beaker-remove-outline";
 import SVG_beakerRemove from "./beaker-remove";
 import SVG_beaker from "./beaker";
+import SVG_bedClock from "./bed-clock";
 import SVG_bedDoubleOutline from "./bed-double-outline";
 import SVG_bedDouble from "./bed-double";
 import SVG_bedEmpty from "./bed-empty";
@@ -911,6 +938,8 @@ import SVG_bellRing from "./bell-ring";
 import SVG_bellSleepOutline from "./bell-sleep-outline";
 import SVG_bellSleep from "./bell-sleep";
 import SVG_bell from "./bell";
+import SVG_benchBack from "./bench-back";
+import SVG_bench from "./bench";
 import SVG_beta from "./beta";
 import SVG_betamax from "./betamax";
 import SVG_biathlon from "./biathlon";
@@ -920,6 +949,9 @@ import SVG_bicycleElectric from "./bicycle-electric";
 import SVG_bicyclePennyFarthing from "./bicycle-penny-farthing";
 import SVG_bicycle from "./bicycle";
 import SVG_bikeFast from "./bike-fast";
+import SVG_bikePedalClipless from "./bike-pedal-clipless";
+import SVG_bikePedalMountain from "./bike-pedal-mountain";
+import SVG_bikePedal from "./bike-pedal";
 import SVG_bike from "./bike";
 import SVG_billboard from "./billboard";
 import SVG_billiardsRack from "./billiards-rack";
@@ -1002,10 +1034,12 @@ import SVG_bookMusicOutline from "./book-music-outline";
 import SVG_bookMusic from "./book-music";
 import SVG_bookOffOutline from "./book-off-outline";
 import SVG_bookOff from "./book-off";
+import SVG_bookOpenBlankVariantOutline from "./book-open-blank-variant-outline";
 import SVG_bookOpenBlankVariant from "./book-open-blank-variant";
 import SVG_bookOpenOutline from "./book-open-outline";
 import SVG_bookOpenPageVariantOutline from "./book-open-page-variant-outline";
 import SVG_bookOpenPageVariant from "./book-open-page-variant";
+import SVG_bookOpenVariantOutline from "./book-open-variant-outline";
 import SVG_bookOpenVariant from "./book-open-variant";
 import SVG_bookOpen from "./book-open";
 import SVG_bookOutline from "./book-outline";
@@ -1027,11 +1061,12 @@ import SVG_bookSettingsOutline from "./book-settings-outline";
 import SVG_bookSettings from "./book-settings";
 import SVG_bookSyncOutline from "./book-sync-outline";
 import SVG_bookSync from "./book-sync";
-import SVG_bookVariantMultiple from "./book-variant-multiple";
 import SVG_bookVariant from "./book-variant";
 import SVG_book from "./book";
 import SVG_bookmarkBoxMultipleOutline from "./bookmark-box-multiple-outline";
 import SVG_bookmarkBoxMultiple from "./bookmark-box-multiple";
+import SVG_bookmarkBoxOutline from "./bookmark-box-outline";
+import SVG_bookmarkBox from "./bookmark-box";
 import SVG_bookmarkCheckOutline from "./bookmark-check-outline";
 import SVG_bookmarkCheck from "./bookmark-check";
 import SVG_bookmarkMinusOutline from "./bookmark-minus-outline";
@@ -1144,13 +1179,13 @@ import SVG_briefcaseVariantOff from "./briefcase-variant-off";
 import SVG_briefcaseVariantOutline from "./briefcase-variant-outline";
 import SVG_briefcaseVariant from "./briefcase-variant";
 import SVG_briefcase from "./briefcase";
-import SVG_brightness_1 from "./brightness-1";
-import SVG_brightness_2 from "./brightness-2";
-import SVG_brightness_3 from "./brightness-3";
-import SVG_brightness_4 from "./brightness-4";
-import SVG_brightness_5 from "./brightness-5";
-import SVG_brightness_6 from "./brightness-6";
-import SVG_brightness_7 from "./brightness-7";
+import SVG_brightness1 from "./brightness-1";
+import SVG_brightness2 from "./brightness-2";
+import SVG_brightness3 from "./brightness-3";
+import SVG_brightness4 from "./brightness-4";
+import SVG_brightness5 from "./brightness-5";
+import SVG_brightness6 from "./brightness-6";
+import SVG_brightness7 from "./brightness-7";
 import SVG_brightnessAuto from "./brightness-auto";
 import SVG_brightnessPercent from "./brightness-percent";
 import SVG_broadcastOff from "./broadcast-off";
@@ -1197,9 +1232,11 @@ import SVG_busMarker from "./bus-marker";
 import SVG_busMultiple from "./bus-multiple";
 import SVG_busSchool from "./bus-school";
 import SVG_busSide from "./bus-side";
+import SVG_busSign from "./bus-sign";
 import SVG_busStopCovered from "./bus-stop-covered";
 import SVG_busStopUncovered from "./bus-stop-uncovered";
 import SVG_busStop from "./bus-stop";
+import SVG_busWrench from "./bus-wrench";
 import SVG_bus from "./bus";
 import SVG_butterflyOutline from "./butterfly-outline";
 import SVG_butterfly from "./butterfly";
@@ -1218,9 +1255,12 @@ import SVG_calculatorVariant from "./calculator-variant";
 import SVG_calculator from "./calculator";
 import SVG_calendarAccountOutline from "./calendar-account-outline";
 import SVG_calendarAccount from "./calendar-account";
+import SVG_calendarAlertOutline from "./calendar-alert-outline";
 import SVG_calendarAlert from "./calendar-alert";
 import SVG_calendarArrowLeft from "./calendar-arrow-left";
 import SVG_calendarArrowRight from "./calendar-arrow-right";
+import SVG_calendarBadgeOutline from "./calendar-badge-outline";
+import SVG_calendarBadge from "./calendar-badge";
 import SVG_calendarBlankMultiple from "./calendar-blank-multiple";
 import SVG_calendarBlankOutline from "./calendar-blank-outline";
 import SVG_calendarBlank from "./calendar-blank";
@@ -1228,26 +1268,40 @@ import SVG_calendarCheckOutline from "./calendar-check-outline";
 import SVG_calendarCheck from "./calendar-check";
 import SVG_calendarClockOutline from "./calendar-clock-outline";
 import SVG_calendarClock from "./calendar-clock";
+import SVG_calendarCollapseHorizontalOutline from "./calendar-collapse-horizontal-outline";
 import SVG_calendarCollapseHorizontal from "./calendar-collapse-horizontal";
+import SVG_calendarCursorOutline from "./calendar-cursor-outline";
 import SVG_calendarCursor from "./calendar-cursor";
+import SVG_calendarEditOutline from "./calendar-edit-outline";
 import SVG_calendarEdit from "./calendar-edit";
+import SVG_calendarEndOutline from "./calendar-end-outline";
 import SVG_calendarEnd from "./calendar-end";
+import SVG_calendarExpandHorizontalOutline from "./calendar-expand-horizontal-outline";
 import SVG_calendarExpandHorizontal from "./calendar-expand-horizontal";
+import SVG_calendarExportOutline from "./calendar-export-outline";
 import SVG_calendarExport from "./calendar-export";
 import SVG_calendarFilterOutline from "./calendar-filter-outline";
 import SVG_calendarFilter from "./calendar-filter";
+import SVG_calendarHeartOutline from "./calendar-heart-outline";
 import SVG_calendarHeart from "./calendar-heart";
+import SVG_calendarImportOutline from "./calendar-import-outline";
 import SVG_calendarImport from "./calendar-import";
+import SVG_calendarLockOpenOutline from "./calendar-lock-open-outline";
+import SVG_calendarLockOpen from "./calendar-lock-open";
 import SVG_calendarLockOutline from "./calendar-lock-outline";
 import SVG_calendarLock from "./calendar-lock";
+import SVG_calendarMinusOutline from "./calendar-minus-outline";
 import SVG_calendarMinus from "./calendar-minus";
 import SVG_calendarMonthOutline from "./calendar-month-outline";
 import SVG_calendarMonth from "./calendar-month";
 import SVG_calendarMultipleCheck from "./calendar-multiple-check";
 import SVG_calendarMultiple from "./calendar-multiple";
+import SVG_calendarMultiselectOutline from "./calendar-multiselect-outline";
 import SVG_calendarMultiselect from "./calendar-multiselect";
 import SVG_calendarOutline from "./calendar-outline";
+import SVG_calendarPlusOutline from "./calendar-plus-outline";
 import SVG_calendarPlus from "./calendar-plus";
+import SVG_calendarQuestionOutline from "./calendar-question-outline";
 import SVG_calendarQuestion from "./calendar-question";
 import SVG_calendarRangeOutline from "./calendar-range-outline";
 import SVG_calendarRange from "./calendar-range";
@@ -1255,9 +1309,12 @@ import SVG_calendarRefreshOutline from "./calendar-refresh-outline";
 import SVG_calendarRefresh from "./calendar-refresh";
 import SVG_calendarRemoveOutline from "./calendar-remove-outline";
 import SVG_calendarRemove from "./calendar-remove";
+import SVG_calendarSearchOutline from "./calendar-search-outline";
 import SVG_calendarSearch from "./calendar-search";
+import SVG_calendarStarFourPoints from "./calendar-star-four-points";
 import SVG_calendarStarOutline from "./calendar-star-outline";
 import SVG_calendarStar from "./calendar-star";
+import SVG_calendarStartOutline from "./calendar-start-outline";
 import SVG_calendarStart from "./calendar-start";
 import SVG_calendarSyncOutline from "./calendar-sync-outline";
 import SVG_calendarSync from "./calendar-sync";
@@ -1293,6 +1350,8 @@ import SVG_cameraFront from "./camera-front";
 import SVG_cameraGopro from "./camera-gopro";
 import SVG_cameraImage from "./camera-image";
 import SVG_cameraIris from "./camera-iris";
+import SVG_cameraLockOpenOutline from "./camera-lock-open-outline";
+import SVG_cameraLockOpen from "./camera-lock-open";
 import SVG_cameraLockOutline from "./camera-lock-outline";
 import SVG_cameraLock from "./camera-lock";
 import SVG_cameraMarkerOutline from "./camera-marker-outline";
@@ -1330,8 +1389,8 @@ import SVG_candycane from "./candycane";
 import SVG_cannabisOff from "./cannabis-off";
 import SVG_cannabis from "./cannabis";
 import SVG_capsLock from "./caps-lock";
-import SVG_car_2Plus from "./car-2-plus";
-import SVG_car_3Plus from "./car-3-plus";
+import SVG_car2Plus from "./car-2-plus";
+import SVG_car3Plus from "./car-3-plus";
 import SVG_carArrowLeft from "./car-arrow-left";
 import SVG_carArrowRight from "./car-arrow-right";
 import SVG_carBack from "./car-back";
@@ -1355,6 +1414,7 @@ import SVG_carCoolantLevel from "./car-coolant-level";
 import SVG_carCruiseControl from "./car-cruise-control";
 import SVG_carDefrostFront from "./car-defrost-front";
 import SVG_carDefrostRear from "./car-defrost-rear";
+import SVG_carDoorLockOpen from "./car-door-lock-open";
 import SVG_carDoorLock from "./car-door-lock";
 import SVG_carDoor from "./car-door";
 import SVG_carElectricOutline from "./car-electric-outline";
@@ -1376,6 +1436,8 @@ import SVG_carOff from "./car-off";
 import SVG_carOutline from "./car-outline";
 import SVG_carParkingLights from "./car-parking-lights";
 import SVG_carPickup from "./car-pickup";
+import SVG_carSearchOutline from "./car-search-outline";
+import SVG_carSearch from "./car-search";
 import SVG_carSeatCooler from "./car-seat-cooler";
 import SVG_carSeatHeater from "./car-seat-heater";
 import SVG_carSeat from "./car-seat";
@@ -1464,20 +1526,23 @@ import SVG_cartHeart from "./cart-heart";
 import SVG_cartMinus from "./cart-minus";
 import SVG_cartOff from "./cart-off";
 import SVG_cartOutline from "./cart-outline";
+import SVG_cartPercent from "./cart-percent";
 import SVG_cartPlus from "./cart-plus";
 import SVG_cartRemove from "./cart-remove";
 import SVG_cartVariant from "./cart-variant";
 import SVG_cart from "./cart";
 import SVG_caseSensitiveAlt from "./case-sensitive-alt";
-import SVG_cash_100 from "./cash-100";
+import SVG_cash100 from "./cash-100";
 import SVG_cashCheck from "./cash-check";
 import SVG_cashClock from "./cash-clock";
+import SVG_cashEdit from "./cash-edit";
 import SVG_cashFast from "./cash-fast";
 import SVG_cashLockOpen from "./cash-lock-open";
 import SVG_cashLock from "./cash-lock";
 import SVG_cashMarker from "./cash-marker";
 import SVG_cashMinus from "./cash-minus";
 import SVG_cashMultiple from "./cash-multiple";
+import SVG_cashOff from "./cash-off";
 import SVG_cashPlus from "./cash-plus";
 import SVG_cashRefund from "./cash-refund";
 import SVG_cashRegister from "./cash-register";
@@ -1534,6 +1599,7 @@ import SVG_certificate from "./certificate";
 import SVG_chairRolling from "./chair-rolling";
 import SVG_chairSchool from "./chair-school";
 import SVG_chandelier from "./chandelier";
+import SVG_charitySearch from "./charity-search";
 import SVG_charity from "./charity";
 import SVG_chartArc from "./chart-arc";
 import SVG_chartAreasplineVariant from "./chart-areaspline-variant";
@@ -1542,6 +1608,8 @@ import SVG_chartBarStacked from "./chart-bar-stacked";
 import SVG_chartBar from "./chart-bar";
 import SVG_chartBellCurveCumulative from "./chart-bell-curve-cumulative";
 import SVG_chartBellCurve from "./chart-bell-curve";
+import SVG_chartBoxMultipleOutline from "./chart-box-multiple-outline";
+import SVG_chartBoxMultiple from "./chart-box-multiple";
 import SVG_chartBoxOutline from "./chart-box-outline";
 import SVG_chartBoxPlusOutline from "./chart-box-plus-outline";
 import SVG_chartBox from "./chart-box";
@@ -1555,6 +1623,7 @@ import SVG_chartLineVariant from "./chart-line-variant";
 import SVG_chartLine from "./chart-line";
 import SVG_chartMultiline from "./chart-multiline";
 import SVG_chartMultiple from "./chart-multiple";
+import SVG_chartPieOutline from "./chart-pie-outline";
 import SVG_chartPie from "./chart-pie";
 import SVG_chartPpf from "./chart-ppf";
 import SVG_chartSankeyVariant from "./chart-sankey-variant";
@@ -1595,6 +1664,8 @@ import SVG_checkUnderlineCircleOutline from "./check-underline-circle-outline";
 import SVG_checkUnderlineCircle from "./check-underline-circle";
 import SVG_checkUnderline from "./check-underline";
 import SVG_check from "./check";
+import SVG_checkbookArrowLeft from "./checkbook-arrow-left";
+import SVG_checkbookArrowRight from "./checkbook-arrow-right";
 import SVG_checkbook from "./checkbook";
 import SVG_checkboxBlankBadgeOutline from "./checkbox-blank-badge-outline";
 import SVG_checkboxBlankBadge from "./checkbox-blank-badge";
@@ -1606,6 +1677,8 @@ import SVG_checkboxBlankOutline from "./checkbox-blank-outline";
 import SVG_checkboxBlank from "./checkbox-blank";
 import SVG_checkboxIntermediateVariant from "./checkbox-intermediate-variant";
 import SVG_checkboxIntermediate from "./checkbox-intermediate";
+import SVG_checkboxMarkedCircleAutoOutline from "./checkbox-marked-circle-auto-outline";
+import SVG_checkboxMarkedCircleMinusOutline from "./checkbox-marked-circle-minus-outline";
 import SVG_checkboxMarkedCircleOutline from "./checkbox-marked-circle-outline";
 import SVG_checkboxMarkedCirclePlusOutline from "./checkbox-marked-circle-plus-outline";
 import SVG_checkboxMarkedCircle from "./checkbox-marked-circle";
@@ -1691,17 +1764,18 @@ import SVG_circleMultiple from "./circle-multiple";
 import SVG_circleOffOutline from "./circle-off-outline";
 import SVG_circleOpacity from "./circle-opacity";
 import SVG_circleOutline from "./circle-outline";
-import SVG_circleSlice_1 from "./circle-slice-1";
-import SVG_circleSlice_2 from "./circle-slice-2";
-import SVG_circleSlice_3 from "./circle-slice-3";
-import SVG_circleSlice_4 from "./circle-slice-4";
-import SVG_circleSlice_5 from "./circle-slice-5";
-import SVG_circleSlice_6 from "./circle-slice-6";
-import SVG_circleSlice_7 from "./circle-slice-7";
-import SVG_circleSlice_8 from "./circle-slice-8";
+import SVG_circleSlice1 from "./circle-slice-1";
+import SVG_circleSlice2 from "./circle-slice-2";
+import SVG_circleSlice3 from "./circle-slice-3";
+import SVG_circleSlice4 from "./circle-slice-4";
+import SVG_circleSlice5 from "./circle-slice-5";
+import SVG_circleSlice6 from "./circle-slice-6";
+import SVG_circleSlice7 from "./circle-slice-7";
+import SVG_circleSlice8 from "./circle-slice-8";
 import SVG_circleSmall from "./circle-small";
 import SVG_circle from "./circle";
 import SVG_circularSaw from "./circular-saw";
+import SVG_citySwitch from "./city-switch";
 import SVG_cityVariantOutline from "./city-variant-outline";
 import SVG_cityVariant from "./city-variant";
 import SVG_city from "./city";
@@ -1782,6 +1856,8 @@ import SVG_clockPlusOutline from "./clock-plus-outline";
 import SVG_clockPlus from "./clock-plus";
 import SVG_clockRemoveOutline from "./clock-remove-outline";
 import SVG_clockRemove from "./clock-remove";
+import SVG_clockStarFourPointsOutline from "./clock-star-four-points-outline";
+import SVG_clockStarFourPoints from "./clock-star-four-points";
 import SVG_clockStart from "./clock-start";
 import SVG_clockTimeEightOutline from "./clock-time-eight-outline";
 import SVG_clockTimeEight from "./clock-time-eight";
@@ -1825,23 +1901,56 @@ import SVG_closeThick from "./close-thick";
 import SVG_close from "./close";
 import SVG_closedCaptionOutline from "./closed-caption-outline";
 import SVG_closedCaption from "./closed-caption";
+import SVG_cloudAlertOutline from "./cloud-alert-outline";
 import SVG_cloudAlert from "./cloud-alert";
+import SVG_cloudArrowDownOutline from "./cloud-arrow-down-outline";
+import SVG_cloudArrowDown from "./cloud-arrow-down";
+import SVG_cloudArrowLeftOutline from "./cloud-arrow-left-outline";
+import SVG_cloudArrowLeft from "./cloud-arrow-left";
+import SVG_cloudArrowRightOutline from "./cloud-arrow-right-outline";
+import SVG_cloudArrowRight from "./cloud-arrow-right";
+import SVG_cloudArrowUpOutline from "./cloud-arrow-up-outline";
+import SVG_cloudArrowUp from "./cloud-arrow-up";
 import SVG_cloudBraces from "./cloud-braces";
+import SVG_cloudCancelOutline from "./cloud-cancel-outline";
+import SVG_cloudCancel from "./cloud-cancel";
 import SVG_cloudCheckOutline from "./cloud-check-outline";
+import SVG_cloudCheckVariantOutline from "./cloud-check-variant-outline";
+import SVG_cloudCheckVariant from "./cloud-check-variant";
 import SVG_cloudCheck from "./cloud-check";
+import SVG_cloudCircleOutline from "./cloud-circle-outline";
 import SVG_cloudCircle from "./cloud-circle";
+import SVG_cloudClockOutline from "./cloud-clock-outline";
+import SVG_cloudClock from "./cloud-clock";
+import SVG_cloudCogOutline from "./cloud-cog-outline";
+import SVG_cloudCog from "./cloud-cog";
 import SVG_cloudDownloadOutline from "./cloud-download-outline";
 import SVG_cloudDownload from "./cloud-download";
+import SVG_cloudKeyOutline from "./cloud-key-outline";
+import SVG_cloudKey from "./cloud-key";
+import SVG_cloudLockOpenOutline from "./cloud-lock-open-outline";
+import SVG_cloudLockOpen from "./cloud-lock-open";
 import SVG_cloudLockOutline from "./cloud-lock-outline";
 import SVG_cloudLock from "./cloud-lock";
+import SVG_cloudMinusOutline from "./cloud-minus-outline";
+import SVG_cloudMinus from "./cloud-minus";
 import SVG_cloudOffOutline from "./cloud-off-outline";
+import SVG_cloudOff from "./cloud-off";
 import SVG_cloudOutline from "./cloud-outline";
 import SVG_cloudPercentOutline from "./cloud-percent-outline";
 import SVG_cloudPercent from "./cloud-percent";
+import SVG_cloudPlusOutline from "./cloud-plus-outline";
+import SVG_cloudPlus from "./cloud-plus";
 import SVG_cloudPrintOutline from "./cloud-print-outline";
 import SVG_cloudPrint from "./cloud-print";
+import SVG_cloudQuestionOutline from "./cloud-question-outline";
 import SVG_cloudQuestion from "./cloud-question";
+import SVG_cloudRefreshOutline from "./cloud-refresh-outline";
+import SVG_cloudRefreshVariantOutline from "./cloud-refresh-variant-outline";
+import SVG_cloudRefreshVariant from "./cloud-refresh-variant";
 import SVG_cloudRefresh from "./cloud-refresh";
+import SVG_cloudRemoveOutline from "./cloud-remove-outline";
+import SVG_cloudRemove from "./cloud-remove";
 import SVG_cloudSearchOutline from "./cloud-search-outline";
 import SVG_cloudSearch from "./cloud-search";
 import SVG_cloudSyncOutline from "./cloud-sync-outline";
@@ -1850,11 +1959,17 @@ import SVG_cloudTags from "./cloud-tags";
 import SVG_cloudUploadOutline from "./cloud-upload-outline";
 import SVG_cloudUpload from "./cloud-upload";
 import SVG_cloud from "./cloud";
+import SVG_clouds from "./clouds";
+import SVG_cloverOutline from "./clover-outline";
 import SVG_clover from "./clover";
 import SVG_coachLampVariant from "./coach-lamp-variant";
 import SVG_coachLamp from "./coach-lamp";
 import SVG_coatRack from "./coat-rack";
 import SVG_codeArray from "./code-array";
+import SVG_codeBlockBraces from "./code-block-braces";
+import SVG_codeBlockBrackets from "./code-block-brackets";
+import SVG_codeBlockParentheses from "./code-block-parentheses";
+import SVG_codeBlockTags from "./code-block-tags";
 import SVG_codeBracesBox from "./code-braces-box";
 import SVG_codeBraces from "./code-braces";
 import SVG_codeBrackets from "./code-brackets";
@@ -2011,6 +2126,8 @@ import SVG_contrastCircle from "./contrast-circle";
 import SVG_contrast from "./contrast";
 import SVG_controllerClassicOutline from "./controller-classic-outline";
 import SVG_controllerClassic from "./controller-classic";
+import SVG_controllerOff from "./controller-off";
+import SVG_controller from "./controller";
 import SVG_cookieAlertOutline from "./cookie-alert-outline";
 import SVG_cookieAlert from "./cookie-alert";
 import SVG_cookieCheckOutline from "./cookie-check-outline";
@@ -2049,11 +2166,12 @@ import SVG_countertopOutline from "./countertop-outline";
 import SVG_countertop from "./countertop";
 import SVG_cowOff from "./cow-off";
 import SVG_cow from "./cow";
-import SVG_cpu_32Bit from "./cpu-32-bit";
-import SVG_cpu_64Bit from "./cpu-64-bit";
+import SVG_cpu32Bit from "./cpu-32-bit";
+import SVG_cpu64Bit from "./cpu-64-bit";
 import SVG_cradleOutline from "./cradle-outline";
 import SVG_cradle from "./cradle";
 import SVG_crane from "./crane";
+import SVG_creationOutline from "./creation-outline";
 import SVG_creation from "./creation";
 import SVG_creativeCommons from "./creative-commons";
 import SVG_creditCardCheckOutline from "./credit-card-check-outline";
@@ -2157,8 +2275,10 @@ import SVG_currencyRial from "./currency-rial";
 import SVG_currencyRub from "./currency-rub";
 import SVG_currencyRupee from "./currency-rupee";
 import SVG_currencySign from "./currency-sign";
+import SVG_currencyThb from "./currency-thb";
 import SVG_currencyTry from "./currency-try";
 import SVG_currencyTwd from "./currency-twd";
+import SVG_currencyUah from "./currency-uah";
 import SVG_currencyUsdOff from "./currency-usd-off";
 import SVG_currencyUsd from "./currency-usd";
 import SVG_currentAc from "./current-ac";
@@ -2272,8 +2392,6 @@ import SVG_deskLamp from "./desk-lamp";
 import SVG_desk from "./desk";
 import SVG_deskphone from "./deskphone";
 import SVG_desktopClassic from "./desktop-classic";
-import SVG_desktopMacDashboard from "./desktop-mac-dashboard";
-import SVG_desktopMac from "./desktop-mac";
 import SVG_desktopTowerMonitor from "./desktop-tower-monitor";
 import SVG_desktopTower from "./desktop-tower";
 import SVG_details from "./details";
@@ -2290,18 +2408,19 @@ import SVG_diameter from "./diameter";
 import SVG_diamondOutline from "./diamond-outline";
 import SVG_diamondStone from "./diamond-stone";
 import SVG_diamond from "./diamond";
-import SVG_dice_1Outline from "./dice-1-outline";
-import SVG_dice_1 from "./dice-1";
-import SVG_dice_2Outline from "./dice-2-outline";
-import SVG_dice_2 from "./dice-2";
-import SVG_dice_3Outline from "./dice-3-outline";
-import SVG_dice_3 from "./dice-3";
-import SVG_dice_4Outline from "./dice-4-outline";
-import SVG_dice_4 from "./dice-4";
-import SVG_dice_5Outline from "./dice-5-outline";
-import SVG_dice_5 from "./dice-5";
-import SVG_dice_6Outline from "./dice-6-outline";
-import SVG_dice_6 from "./dice-6";
+import SVG_diaperOutline from "./diaper-outline";
+import SVG_dice1Outline from "./dice-1-outline";
+import SVG_dice1 from "./dice-1";
+import SVG_dice2Outline from "./dice-2-outline";
+import SVG_dice2 from "./dice-2";
+import SVG_dice3Outline from "./dice-3-outline";
+import SVG_dice3 from "./dice-3";
+import SVG_dice4Outline from "./dice-4-outline";
+import SVG_dice4 from "./dice-4";
+import SVG_dice5Outline from "./dice-5-outline";
+import SVG_dice5 from "./dice-5";
+import SVG_dice6Outline from "./dice-6-outline";
+import SVG_dice6 from "./dice-6";
 import SVG_diceD10Outline from "./dice-d10-outline";
 import SVG_diceD10 from "./dice-d10";
 import SVG_diceD12Outline from "./dice-d12-outline";
@@ -2323,7 +2442,6 @@ import SVG_directions from "./directions";
 import SVG_discAlert from "./disc-alert";
 import SVG_discPlayer from "./disc-player";
 import SVG_disc from "./disc";
-import SVG_discord from "./discord";
 import SVG_dishwasherAlert from "./dishwasher-alert";
 import SVG_dishwasherOff from "./dishwasher-off";
 import SVG_dishwasher from "./dishwasher";
@@ -2338,6 +2456,7 @@ import SVG_diversify from "./diversify";
 import SVG_divingFlippers from "./diving-flippers";
 import SVG_divingHelmet from "./diving-helmet";
 import SVG_divingScubaFlag from "./diving-scuba-flag";
+import SVG_divingScubaMask from "./diving-scuba-mask";
 import SVG_divingScubaTankMultiple from "./diving-scuba-tank-multiple";
 import SVG_divingScubaTank from "./diving-scuba-tank";
 import SVG_divingScuba from "./diving-scuba";
@@ -2366,10 +2485,12 @@ import SVG_dolphin from "./dolphin";
 import SVG_domainOff from "./domain-off";
 import SVG_domainPlus from "./domain-plus";
 import SVG_domainRemove from "./domain-remove";
+import SVG_domainSwitch from "./domain-switch";
 import SVG_domain from "./domain";
 import SVG_domeLight from "./dome-light";
 import SVG_dominoMask from "./domino-mask";
 import SVG_donkey from "./donkey";
+import SVG_doorClosedCancel from "./door-closed-cancel";
 import SVG_doorClosedLock from "./door-closed-lock";
 import SVG_doorClosed from "./door-closed";
 import SVG_doorOpen from "./door-open";
@@ -2397,6 +2518,7 @@ import SVG_downloadCircleOutline from "./download-circle-outline";
 import SVG_downloadCircle from "./download-circle";
 import SVG_downloadLockOutline from "./download-lock-outline";
 import SVG_downloadLock from "./download-lock";
+import SVG_downloadMultipleOutline from "./download-multiple-outline";
 import SVG_downloadMultiple from "./download-multiple";
 import SVG_downloadNetworkOutline from "./download-network-outline";
 import SVG_downloadNetwork from "./download-network";
@@ -2430,7 +2552,10 @@ import SVG_earbudsOffOutline from "./earbuds-off-outline";
 import SVG_earbudsOff from "./earbuds-off";
 import SVG_earbudsOutline from "./earbuds-outline";
 import SVG_earbuds from "./earbuds";
+import SVG_earthArrowDown from "./earth-arrow-down";
+import SVG_earthArrowLeft from "./earth-arrow-left";
 import SVG_earthArrowRight from "./earth-arrow-right";
+import SVG_earthArrowUp from "./earth-arrow-up";
 import SVG_earthBoxMinus from "./earth-box-minus";
 import SVG_earthBoxOff from "./earth-box-off";
 import SVG_earthBoxPlus from "./earth-box-plus";
@@ -2470,6 +2595,10 @@ import SVG_ellipseOutline from "./ellipse-outline";
 import SVG_ellipse from "./ellipse";
 import SVG_emailAlertOutline from "./email-alert-outline";
 import SVG_emailAlert from "./email-alert";
+import SVG_emailArrowLeftOutline from "./email-arrow-left-outline";
+import SVG_emailArrowLeft from "./email-arrow-left";
+import SVG_emailArrowRightOutline from "./email-arrow-right-outline";
+import SVG_emailArrowRight from "./email-arrow-right";
 import SVG_emailBox from "./email-box";
 import SVG_emailCheckOutline from "./email-check-outline";
 import SVG_emailCheck from "./email-check";
@@ -2477,6 +2606,8 @@ import SVG_emailEditOutline from "./email-edit-outline";
 import SVG_emailEdit from "./email-edit";
 import SVG_emailFastOutline from "./email-fast-outline";
 import SVG_emailFast from "./email-fast";
+import SVG_emailHeartOutline from "./email-heart-outline";
+import SVG_emailLockOutline from "./email-lock-outline";
 import SVG_emailLock from "./email-lock";
 import SVG_emailMarkAsUnread from "./email-mark-as-unread";
 import SVG_emailMinusOutline from "./email-minus-outline";
@@ -2486,6 +2617,7 @@ import SVG_emailMultiple from "./email-multiple";
 import SVG_emailNewsletter from "./email-newsletter";
 import SVG_emailOffOutline from "./email-off-outline";
 import SVG_emailOff from "./email-off";
+import SVG_emailOpenHeartOutline from "./email-open-heart-outline";
 import SVG_emailOpenMultipleOutline from "./email-open-multiple-outline";
 import SVG_emailOpenMultiple from "./email-open-multiple";
 import SVG_emailOpenOutline from "./email-open-outline";
@@ -2493,16 +2625,12 @@ import SVG_emailOpen from "./email-open";
 import SVG_emailOutline from "./email-outline";
 import SVG_emailPlusOutline from "./email-plus-outline";
 import SVG_emailPlus from "./email-plus";
-import SVG_emailReceiveOutline from "./email-receive-outline";
-import SVG_emailReceive from "./email-receive";
 import SVG_emailRemoveOutline from "./email-remove-outline";
 import SVG_emailRemove from "./email-remove";
 import SVG_emailSealOutline from "./email-seal-outline";
 import SVG_emailSeal from "./email-seal";
 import SVG_emailSearchOutline from "./email-search-outline";
 import SVG_emailSearch from "./email-search";
-import SVG_emailSendOutline from "./email-send-outline";
-import SVG_emailSend from "./email-send";
 import SVG_emailSyncOutline from "./email-sync-outline";
 import SVG_emailSync from "./email-sync";
 import SVG_emailVariant from "./email-variant";
@@ -2531,11 +2659,17 @@ import SVG_emoticonKissOutline from "./emoticon-kiss-outline";
 import SVG_emoticonKiss from "./emoticon-kiss";
 import SVG_emoticonLolOutline from "./emoticon-lol-outline";
 import SVG_emoticonLol from "./emoticon-lol";
+import SVG_emoticonMinusOutline from "./emoticon-minus-outline";
+import SVG_emoticonMinus from "./emoticon-minus";
 import SVG_emoticonNeutralOutline from "./emoticon-neutral-outline";
 import SVG_emoticonNeutral from "./emoticon-neutral";
 import SVG_emoticonOutline from "./emoticon-outline";
+import SVG_emoticonPlusOutline from "./emoticon-plus-outline";
+import SVG_emoticonPlus from "./emoticon-plus";
 import SVG_emoticonPoopOutline from "./emoticon-poop-outline";
 import SVG_emoticonPoop from "./emoticon-poop";
+import SVG_emoticonRemoveOutline from "./emoticon-remove-outline";
+import SVG_emoticonRemove from "./emoticon-remove";
 import SVG_emoticonSadOutline from "./emoticon-sad-outline";
 import SVG_emoticonSad from "./emoticon-sad";
 import SVG_emoticonSickOutline from "./emoticon-sick-outline";
@@ -2565,6 +2699,7 @@ import SVG_et from "./et";
 import SVG_ethereum from "./ethereum";
 import SVG_ethernetCableOff from "./ethernet-cable-off";
 import SVG_ethernetCable from "./ethernet-cable";
+import SVG_ethernetOff from "./ethernet-off";
 import SVG_ethernet from "./ethernet";
 import SVG_evPlugCcs1 from "./ev-plug-ccs1";
 import SVG_evPlugCcs2 from "./ev-plug-ccs2";
@@ -2595,6 +2730,11 @@ import SVG_eyeCheckOutline from "./eye-check-outline";
 import SVG_eyeCheck from "./eye-check";
 import SVG_eyeCircleOutline from "./eye-circle-outline";
 import SVG_eyeCircle from "./eye-circle";
+import SVG_eyeClosed from "./eye-closed";
+import SVG_eyeLockOpenOutline from "./eye-lock-open-outline";
+import SVG_eyeLockOpen from "./eye-lock-open";
+import SVG_eyeLockOutline from "./eye-lock-outline";
+import SVG_eyeLock from "./eye-lock";
 import SVG_eyeMinusOutline from "./eye-minus-outline";
 import SVG_eyeMinus from "./eye-minus";
 import SVG_eyeOffOutline from "./eye-off-outline";
@@ -2644,16 +2784,16 @@ import SVG_fanMinus from "./fan-minus";
 import SVG_fanOff from "./fan-off";
 import SVG_fanPlus from "./fan-plus";
 import SVG_fanRemove from "./fan-remove";
-import SVG_fanSpeed_1 from "./fan-speed-1";
-import SVG_fanSpeed_2 from "./fan-speed-2";
-import SVG_fanSpeed_3 from "./fan-speed-3";
+import SVG_fanSpeed1 from "./fan-speed-1";
+import SVG_fanSpeed2 from "./fan-speed-2";
+import SVG_fanSpeed3 from "./fan-speed-3";
 import SVG_fan from "./fan";
-import SVG_fastForward_10 from "./fast-forward-10";
-import SVG_fastForward_15 from "./fast-forward-15";
-import SVG_fastForward_30 from "./fast-forward-30";
-import SVG_fastForward_45 from "./fast-forward-45";
-import SVG_fastForward_5 from "./fast-forward-5";
-import SVG_fastForward_60 from "./fast-forward-60";
+import SVG_fastForward10 from "./fast-forward-10";
+import SVG_fastForward15 from "./fast-forward-15";
+import SVG_fastForward30 from "./fast-forward-30";
+import SVG_fastForward45 from "./fast-forward-45";
+import SVG_fastForward5 from "./fast-forward-5";
+import SVG_fastForward60 from "./fast-forward-60";
 import SVG_fastForwardOutline from "./fast-forward-outline";
 import SVG_fastForward from "./fast-forward";
 import SVG_faucetVariant from "./faucet-variant";
@@ -2702,6 +2842,8 @@ import SVG_fileDelimitedOutline from "./file-delimited-outline";
 import SVG_fileDelimited from "./file-delimited";
 import SVG_fileDocumentAlertOutline from "./file-document-alert-outline";
 import SVG_fileDocumentAlert from "./file-document-alert";
+import SVG_fileDocumentArrowRightOutline from "./file-document-arrow-right-outline";
+import SVG_fileDocumentArrowRight from "./file-document-arrow-right";
 import SVG_fileDocumentCheckOutline from "./file-document-check-outline";
 import SVG_fileDocumentCheck from "./file-document-check";
 import SVG_fileDocumentEditOutline from "./file-document-edit-outline";
@@ -2713,6 +2855,8 @@ import SVG_fileDocumentMultiple from "./file-document-multiple";
 import SVG_fileDocumentOutline from "./file-document-outline";
 import SVG_fileDocumentPlusOutline from "./file-document-plus-outline";
 import SVG_fileDocumentPlus from "./file-document-plus";
+import SVG_fileDocumentRefreshOutline from "./file-document-refresh-outline";
+import SVG_fileDocumentRefresh from "./file-document-refresh";
 import SVG_fileDocumentRemoveOutline from "./file-document-remove-outline";
 import SVG_fileDocumentRemove from "./file-document-remove";
 import SVG_fileDocument from "./file-document";
@@ -2798,6 +2942,8 @@ import SVG_fileSend from "./file-send";
 import SVG_fileSettingsOutline from "./file-settings-outline";
 import SVG_fileSettings from "./file-settings";
 import SVG_fileSign from "./file-sign";
+import SVG_fileStarFourPointsOutline from "./file-star-four-points-outline";
+import SVG_fileStarFourPoints from "./file-star-four-points";
 import SVG_fileStarOutline from "./file-star-outline";
 import SVG_fileStar from "./file-star";
 import SVG_fileSwapOutline from "./file-swap-outline";
@@ -2864,6 +3010,7 @@ import SVG_fireHydrantAlert from "./fire-hydrant-alert";
 import SVG_fireHydrantOff from "./fire-hydrant-off";
 import SVG_fireHydrant from "./fire-hydrant";
 import SVG_fireOff from "./fire-off";
+import SVG_fireStation from "./fire-station";
 import SVG_fireTruck from "./fire-truck";
 import SVG_fire from "./fire";
 import SVG_firebase from "./firebase";
@@ -2892,7 +3039,15 @@ import SVG_flagPlus from "./flag-plus";
 import SVG_flagRemoveOutline from "./flag-remove-outline";
 import SVG_flagRemove from "./flag-remove";
 import SVG_flagTriangle from "./flag-triangle";
+import SVG_flagVariantMinusOutline from "./flag-variant-minus-outline";
+import SVG_flagVariantMinus from "./flag-variant-minus";
+import SVG_flagVariantOffOutline from "./flag-variant-off-outline";
+import SVG_flagVariantOff from "./flag-variant-off";
 import SVG_flagVariantOutline from "./flag-variant-outline";
+import SVG_flagVariantPlusOutline from "./flag-variant-plus-outline";
+import SVG_flagVariantPlus from "./flag-variant-plus";
+import SVG_flagVariantRemoveOutline from "./flag-variant-remove-outline";
+import SVG_flagVariantRemove from "./flag-variant-remove";
 import SVG_flagVariant from "./flag-variant";
 import SVG_flag from "./flag";
 import SVG_flare from "./flare";
@@ -3090,6 +3245,7 @@ import SVG_footPrint from "./foot-print";
 import SVG_footballAustralian from "./football-australian";
 import SVG_footballHelmet from "./football-helmet";
 import SVG_football from "./football";
+import SVG_forestOutline from "./forest-outline";
 import SVG_forest from "./forest";
 import SVG_forklift from "./forklift";
 import SVG_formDropdown from "./form-dropdown";
@@ -3121,12 +3277,12 @@ import SVG_formatFloatRight from "./format-float-right";
 import SVG_formatFontSizeDecrease from "./format-font-size-decrease";
 import SVG_formatFontSizeIncrease from "./format-font-size-increase";
 import SVG_formatFont from "./format-font";
-import SVG_formatHeader_1 from "./format-header-1";
-import SVG_formatHeader_2 from "./format-header-2";
-import SVG_formatHeader_3 from "./format-header-3";
-import SVG_formatHeader_4 from "./format-header-4";
-import SVG_formatHeader_5 from "./format-header-5";
-import SVG_formatHeader_6 from "./format-header-6";
+import SVG_formatHeader1 from "./format-header-1";
+import SVG_formatHeader2 from "./format-header-2";
+import SVG_formatHeader3 from "./format-header-3";
+import SVG_formatHeader4 from "./format-header-4";
+import SVG_formatHeader5 from "./format-header-5";
+import SVG_formatHeader6 from "./format-header-6";
 import SVG_formatHeaderDecrease from "./format-header-decrease";
 import SVG_formatHeaderEqual from "./format-header-equal";
 import SVG_formatHeaderIncrease from "./format-header-increase";
@@ -3155,6 +3311,7 @@ import SVG_formatListBulletedType from "./format-list-bulleted-type";
 import SVG_formatListBulleted from "./format-list-bulleted";
 import SVG_formatListCheckbox from "./format-list-checkbox";
 import SVG_formatListChecks from "./format-list-checks";
+import SVG_formatListGroupPlus from "./format-list-group-plus";
 import SVG_formatListGroup from "./format-list-group";
 import SVG_formatListNumberedRtl from "./format-list-numbered-rtl";
 import SVG_formatListNumbered from "./format-list-numbered";
@@ -3165,12 +3322,14 @@ import SVG_formatPageSplit from "./format-page-split";
 import SVG_formatPaint from "./format-paint";
 import SVG_formatParagraphSpacing from "./format-paragraph-spacing";
 import SVG_formatParagraph from "./format-paragraph";
+import SVG_formatPilcrowArrowLeft from "./format-pilcrow-arrow-left";
+import SVG_formatPilcrowArrowRight from "./format-pilcrow-arrow-right";
 import SVG_formatPilcrow from "./format-pilcrow";
 import SVG_formatQuoteCloseOutline from "./format-quote-close-outline";
 import SVG_formatQuoteClose from "./format-quote-close";
 import SVG_formatQuoteOpenOutline from "./format-quote-open-outline";
 import SVG_formatQuoteOpen from "./format-quote-open";
-import SVG_formatRotate_90 from "./format-rotate-90";
+import SVG_formatRotate90 from "./format-rotate-90";
 import SVG_formatSection from "./format-section";
 import SVG_formatSize from "./format-size";
 import SVG_formatStrikethroughVariant from "./format-strikethrough-variant";
@@ -3191,8 +3350,6 @@ import SVG_formatTextWrappingOverflow from "./format-text-wrapping-overflow";
 import SVG_formatTextWrappingWrap from "./format-text-wrapping-wrap";
 import SVG_formatText from "./format-text";
 import SVG_formatTextbox from "./format-textbox";
-import SVG_formatTextdirectionLToR from "./format-textdirection-l-to-r";
-import SVG_formatTextdirectionRToL from "./format-textdirection-r-to-l";
 import SVG_formatTitle from "./format-title";
 import SVG_formatUnderlineWavy from "./format-underline-wavy";
 import SVG_formatUnderline from "./format-underline";
@@ -3295,6 +3452,8 @@ import SVG_garageVariant from "./garage-variant";
 import SVG_garage from "./garage";
 import SVG_gasBurner from "./gas-burner";
 import SVG_gasCylinder from "./gas-cylinder";
+import SVG_gasStationInUseOutline from "./gas-station-in-use-outline";
+import SVG_gasStationInUse from "./gas-station-in-use";
 import SVG_gasStationOffOutline from "./gas-station-off-outline";
 import SVG_gasStationOff from "./gas-station-off";
 import SVG_gasStationOutline from "./gas-station-outline";
@@ -3324,6 +3483,9 @@ import SVG_genderMaleFemale from "./gender-male-female";
 import SVG_genderMale from "./gender-male";
 import SVG_genderNonBinary from "./gender-non-binary";
 import SVG_genderTransgender from "./gender-transgender";
+import SVG_generatorMobile from "./generator-mobile";
+import SVG_generatorPortable from "./generator-portable";
+import SVG_generatorStationary from "./generator-stationary";
 import SVG_gentoo from "./gentoo";
 import SVG_gestureDoubleTap from "./gesture-double-tap";
 import SVG_gesturePinch from "./gesture-pinch";
@@ -3368,6 +3530,7 @@ import SVG_glassStange from "./glass-stange";
 import SVG_glassTulip from "./glass-tulip";
 import SVG_glassWine from "./glass-wine";
 import SVG_glasses from "./glasses";
+import SVG_globeLightOutline from "./globe-light-outline";
 import SVG_globeLight from "./globe-light";
 import SVG_globeModel from "./globe-model";
 import SVG_gmail from "./gmail";
@@ -3392,15 +3555,12 @@ import SVG_googleCirclesGroup from "./google-circles-group";
 import SVG_googleCircles from "./google-circles";
 import SVG_googleClassroom from "./google-classroom";
 import SVG_googleCloud from "./google-cloud";
-import SVG_googleControllerOff from "./google-controller-off";
-import SVG_googleController from "./google-controller";
 import SVG_googleDownasaur from "./google-downasaur";
 import SVG_googleDrive from "./google-drive";
 import SVG_googleEarth from "./google-earth";
 import SVG_googleFit from "./google-fit";
 import SVG_googleGlass from "./google-glass";
 import SVG_googleHangouts from "./google-hangouts";
-import SVG_googleHome from "./google-home";
 import SVG_googleKeep from "./google-keep";
 import SVG_googleLens from "./google-lens";
 import SVG_googleMaps from "./google-maps";
@@ -3463,6 +3623,7 @@ import SVG_handClapOff from "./hand-clap-off";
 import SVG_handClap from "./hand-clap";
 import SVG_handCoinOutline from "./hand-coin-outline";
 import SVG_handCoin from "./hand-coin";
+import SVG_handCycle from "./hand-cycle";
 import SVG_handExtendedOutline from "./hand-extended-outline";
 import SVG_handExtended from "./hand-extended";
 import SVG_handFrontLeftOutline from "./hand-front-left-outline";
@@ -3496,6 +3657,7 @@ import SVG_harddiskRemove from "./harddisk-remove";
 import SVG_harddisk from "./harddisk";
 import SVG_hatFedora from "./hat-fedora";
 import SVG_hazardLights from "./hazard-lights";
+import SVG_hdmiPort from "./hdmi-port";
 import SVG_hdrOff from "./hdr-off";
 import SVG_hdr from "./hdr";
 import SVG_headAlertOutline from "./head-alert-outline";
@@ -3558,6 +3720,7 @@ import SVG_heartPlus from "./heart-plus";
 import SVG_heartPulse from "./heart-pulse";
 import SVG_heartRemoveOutline from "./heart-remove-outline";
 import SVG_heartRemove from "./heart-remove";
+import SVG_heartSearch from "./heart-search";
 import SVG_heartSettingsOutline from "./heart-settings-outline";
 import SVG_heartSettings from "./heart-settings";
 import SVG_heart from "./heart";
@@ -3566,6 +3729,9 @@ import SVG_heatPump from "./heat-pump";
 import SVG_heatWave from "./heat-wave";
 import SVG_heatingCoil from "./heating-coil";
 import SVG_helicopter from "./helicopter";
+import SVG_helpBoxMultipleOutline from "./help-box-multiple-outline";
+import SVG_helpBoxMultiple from "./help-box-multiple";
+import SVG_helpBoxOutline from "./help-box-outline";
 import SVG_helpBox from "./help-box";
 import SVG_helpCircleOutline from "./help-circle-outline";
 import SVG_helpCircle from "./help-circle";
@@ -3578,12 +3744,12 @@ import SVG_hexadecimal from "./hexadecimal";
 import SVG_hexagonMultipleOutline from "./hexagon-multiple-outline";
 import SVG_hexagonMultiple from "./hexagon-multiple";
 import SVG_hexagonOutline from "./hexagon-outline";
-import SVG_hexagonSlice_1 from "./hexagon-slice-1";
-import SVG_hexagonSlice_2 from "./hexagon-slice-2";
-import SVG_hexagonSlice_3 from "./hexagon-slice-3";
-import SVG_hexagonSlice_4 from "./hexagon-slice-4";
-import SVG_hexagonSlice_5 from "./hexagon-slice-5";
-import SVG_hexagonSlice_6 from "./hexagon-slice-6";
+import SVG_hexagonSlice1 from "./hexagon-slice-1";
+import SVG_hexagonSlice2 from "./hexagon-slice-2";
+import SVG_hexagonSlice3 from "./hexagon-slice-3";
+import SVG_hexagonSlice4 from "./hexagon-slice-4";
+import SVG_hexagonSlice5 from "./hexagon-slice-5";
+import SVG_hexagonSlice6 from "./hexagon-slice-6";
 import SVG_hexagon from "./hexagon";
 import SVG_hexagramOutline from "./hexagram-outline";
 import SVG_hexagram from "./hexagram";
@@ -3613,15 +3779,15 @@ import SVG_homeEditOutline from "./home-edit-outline";
 import SVG_homeEdit from "./home-edit";
 import SVG_homeExportOutline from "./home-export-outline";
 import SVG_homeFlood from "./home-flood";
-import SVG_homeFloor_0 from "./home-floor-0";
-import SVG_homeFloor_1 from "./home-floor-1";
-import SVG_homeFloor_2 from "./home-floor-2";
-import SVG_homeFloor_3 from "./home-floor-3";
+import SVG_homeFloor0 from "./home-floor-0";
+import SVG_homeFloor1 from "./home-floor-1";
+import SVG_homeFloor2 from "./home-floor-2";
+import SVG_homeFloor3 from "./home-floor-3";
 import SVG_homeFloorA from "./home-floor-a";
 import SVG_homeFloorB from "./home-floor-b";
 import SVG_homeFloorG from "./home-floor-g";
 import SVG_homeFloorL from "./home-floor-l";
-import SVG_homeFloorNegative_1 from "./home-floor-negative-1";
+import SVG_homeFloorNegative1 from "./home-floor-negative-1";
 import SVG_homeGroupMinus from "./home-group-minus";
 import SVG_homeGroupPlus from "./home-group-plus";
 import SVG_homeGroupRemove from "./home-group-remove";
@@ -3641,6 +3807,8 @@ import SVG_homeModern from "./home-modern";
 import SVG_homeOffOutline from "./home-off-outline";
 import SVG_homeOff from "./home-off";
 import SVG_homeOutline from "./home-outline";
+import SVG_homePercentOutline from "./home-percent-outline";
+import SVG_homePercent from "./home-percent";
 import SVG_homePlusOutline from "./home-plus-outline";
 import SVG_homePlus from "./home-plus";
 import SVG_homeRemoveOutline from "./home-remove-outline";
@@ -3648,6 +3816,12 @@ import SVG_homeRemove from "./home-remove";
 import SVG_homeRoof from "./home-roof";
 import SVG_homeSearchOutline from "./home-search-outline";
 import SVG_homeSearch from "./home-search";
+import SVG_homeSiloOutline from "./home-silo-outline";
+import SVG_homeSilo from "./home-silo";
+import SVG_homeSoundInOutline from "./home-sound-in-outline";
+import SVG_homeSoundIn from "./home-sound-in";
+import SVG_homeSoundOutOutline from "./home-sound-out-outline";
+import SVG_homeSoundOut from "./home-sound-out";
 import SVG_homeSwitchOutline from "./home-switch-outline";
 import SVG_homeSwitch from "./home-switch";
 import SVG_homeThermometerOutline from "./home-thermometer-outline";
@@ -3672,7 +3846,10 @@ import SVG_hospitalBuilding from "./hospital-building";
 import SVG_hospitalMarker from "./hospital-marker";
 import SVG_hospital from "./hospital";
 import SVG_hotTub from "./hot-tub";
-import SVG_hours_24 from "./hours-24";
+import SVG_hours12 from "./hours-12";
+import SVG_hours24 from "./hours-24";
+import SVG_hubOutline from "./hub-outline";
+import SVG_hub from "./hub";
 import SVG_hubspot from "./hubspot";
 import SVG_hulu from "./hulu";
 import SVG_humanBabyChangingTable from "./human-baby-changing-table";
@@ -3684,6 +3861,7 @@ import SVG_humanDolly from "./human-dolly";
 import SVG_humanEdit from "./human-edit";
 import SVG_humanFemaleBoy from "./human-female-boy";
 import SVG_humanFemaleDance from "./human-female-dance";
+import SVG_humanFemaleFemaleChild from "./human-female-female-child";
 import SVG_humanFemaleFemale from "./human-female-female";
 import SVG_humanFemaleGirl from "./human-female-girl";
 import SVG_humanFemale from "./human-female";
@@ -3701,12 +3879,14 @@ import SVG_humanMaleFemale from "./human-male-female";
 import SVG_humanMaleGirl from "./human-male-girl";
 import SVG_humanMaleHeightVariant from "./human-male-height-variant";
 import SVG_humanMaleHeight from "./human-male-height";
+import SVG_humanMaleMaleChild from "./human-male-male-child";
 import SVG_humanMaleMale from "./human-male-male";
 import SVG_humanMale from "./human-male";
 import SVG_humanNonBinary from "./human-non-binary";
 import SVG_humanPregnant from "./human-pregnant";
 import SVG_humanQueue from "./human-queue";
 import SVG_humanScooter from "./human-scooter";
+import SVG_humanWalker from "./human-walker";
 import SVG_humanWheelchair from "./human-wheelchair";
 import SVG_humanWhiteCane from "./human-white-cane";
 import SVG_human from "./human";
@@ -3739,8 +3919,10 @@ import SVG_imageFilterCenterFocusStrongOutline from "./image-filter-center-focus
 import SVG_imageFilterCenterFocusStrong from "./image-filter-center-focus-strong";
 import SVG_imageFilterCenterFocusWeak from "./image-filter-center-focus-weak";
 import SVG_imageFilterCenterFocus from "./image-filter-center-focus";
+import SVG_imageFilterDramaOutline from "./image-filter-drama-outline";
 import SVG_imageFilterDrama from "./image-filter-drama";
 import SVG_imageFilterFrames from "./image-filter-frames";
+import SVG_imageFilterHdrOutline from "./image-filter-hdr-outline";
 import SVG_imageFilterHdr from "./image-filter-hdr";
 import SVG_imageFilterNone from "./image-filter-none";
 import SVG_imageFilterTiltShift from "./image-filter-tilt-shift";
@@ -3792,9 +3974,21 @@ import SVG_incognitoOff from "./incognito-off";
 import SVG_incognito from "./incognito";
 import SVG_induction from "./induction";
 import SVG_infinity from "./infinity";
+import SVG_informationBoxOutline from "./information-box-outline";
+import SVG_informationBox from "./information-box";
 import SVG_informationOffOutline from "./information-off-outline";
 import SVG_informationOff from "./information-off";
 import SVG_informationOutline from "./information-outline";
+import SVG_informationSlabBoxOutline from "./information-slab-box-outline";
+import SVG_informationSlabBox from "./information-slab-box";
+import SVG_informationSlabCircleOutline from "./information-slab-circle-outline";
+import SVG_informationSlabCircle from "./information-slab-circle";
+import SVG_informationSlabSymbol from "./information-slab-symbol";
+import SVG_informationSymbol from "./information-symbol";
+import SVG_informationVariantBoxOutline from "./information-variant-box-outline";
+import SVG_informationVariantBox from "./information-variant-box";
+import SVG_informationVariantCircleOutline from "./information-variant-circle-outline";
+import SVG_informationVariantCircle from "./information-variant-circle";
 import SVG_informationVariant from "./information-variant";
 import SVG_information from "./information";
 import SVG_instagram from "./instagram";
@@ -3802,6 +3996,59 @@ import SVG_instrumentTriangle from "./instrument-triangle";
 import SVG_integratedCircuitChip from "./integrated-circuit-chip";
 import SVG_invertColorsOff from "./invert-colors-off";
 import SVG_invertColors from "./invert-colors";
+import SVG_invoiceArrowLeftOutline from "./invoice-arrow-left-outline";
+import SVG_invoiceArrowLeft from "./invoice-arrow-left";
+import SVG_invoiceArrowRightOutline from "./invoice-arrow-right-outline";
+import SVG_invoiceArrowRight from "./invoice-arrow-right";
+import SVG_invoiceCheckOutline from "./invoice-check-outline";
+import SVG_invoiceCheck from "./invoice-check";
+import SVG_invoiceClockOutline from "./invoice-clock-outline";
+import SVG_invoiceClock from "./invoice-clock";
+import SVG_invoiceEditOutline from "./invoice-edit-outline";
+import SVG_invoiceEdit from "./invoice-edit";
+import SVG_invoiceExportOutline from "./invoice-export-outline";
+import SVG_invoiceFastOutline from "./invoice-fast-outline";
+import SVG_invoiceFast from "./invoice-fast";
+import SVG_invoiceImportOutline from "./invoice-import-outline";
+import SVG_invoiceImport from "./invoice-import";
+import SVG_invoiceListOutline from "./invoice-list-outline";
+import SVG_invoiceList from "./invoice-list";
+import SVG_invoiceMinusOutline from "./invoice-minus-outline";
+import SVG_invoiceMinus from "./invoice-minus";
+import SVG_invoiceMultipleOutline from "./invoice-multiple-outline";
+import SVG_invoiceMultiple from "./invoice-multiple";
+import SVG_invoiceOutline from "./invoice-outline";
+import SVG_invoicePlusOutline from "./invoice-plus-outline";
+import SVG_invoicePlus from "./invoice-plus";
+import SVG_invoiceRemoveOutline from "./invoice-remove-outline";
+import SVG_invoiceRemove from "./invoice-remove";
+import SVG_invoiceSendOutline from "./invoice-send-outline";
+import SVG_invoiceSend from "./invoice-send";
+import SVG_invoiceTextArrowLeftOutline from "./invoice-text-arrow-left-outline";
+import SVG_invoiceTextArrowLeft from "./invoice-text-arrow-left";
+import SVG_invoiceTextArrowRightOutline from "./invoice-text-arrow-right-outline";
+import SVG_invoiceTextArrowRight from "./invoice-text-arrow-right";
+import SVG_invoiceTextCheckOutline from "./invoice-text-check-outline";
+import SVG_invoiceTextCheck from "./invoice-text-check";
+import SVG_invoiceTextClockOutline from "./invoice-text-clock-outline";
+import SVG_invoiceTextClock from "./invoice-text-clock";
+import SVG_invoiceTextEditOutline from "./invoice-text-edit-outline";
+import SVG_invoiceTextEdit from "./invoice-text-edit";
+import SVG_invoiceTextFastOutline from "./invoice-text-fast-outline";
+import SVG_invoiceTextFast from "./invoice-text-fast";
+import SVG_invoiceTextMinusOutline from "./invoice-text-minus-outline";
+import SVG_invoiceTextMinus from "./invoice-text-minus";
+import SVG_invoiceTextMultipleOutline from "./invoice-text-multiple-outline";
+import SVG_invoiceTextMultiple from "./invoice-text-multiple";
+import SVG_invoiceTextOutline from "./invoice-text-outline";
+import SVG_invoiceTextPlusOutline from "./invoice-text-plus-outline";
+import SVG_invoiceTextPlus from "./invoice-text-plus";
+import SVG_invoiceTextRemoveOutline from "./invoice-text-remove-outline";
+import SVG_invoiceTextRemove from "./invoice-text-remove";
+import SVG_invoiceTextSendOutline from "./invoice-text-send-outline";
+import SVG_invoiceTextSend from "./invoice-text-send";
+import SVG_invoiceText from "./invoice-text";
+import SVG_invoice from "./invoice";
 import SVG_iobroker from "./iobroker";
 import SVG_ipNetworkOutline from "./ip-network-outline";
 import SVG_ipNetwork from "./ip-network";
@@ -3811,6 +4058,7 @@ import SVG_ipod from "./ipod";
 import SVG_ironBoard from "./iron-board";
 import SVG_ironOutline from "./iron-outline";
 import SVG_iron from "./iron";
+import SVG_islandVariant from "./island-variant";
 import SVG_island from "./island";
 import SVG_ivBag from "./iv-bag";
 import SVG_jabber from "./jabber";
@@ -3853,6 +4101,7 @@ import SVG_keyWireless from "./key-wireless";
 import SVG_key from "./key";
 import SVG_keyboardBackspace from "./keyboard-backspace";
 import SVG_keyboardCaps from "./keyboard-caps";
+import SVG_keyboardCloseOutline from "./keyboard-close-outline";
 import SVG_keyboardClose from "./keyboard-close";
 import SVG_keyboardEsc from "./keyboard-esc";
 import SVG_keyboardF1 from "./keyboard-f1";
@@ -3886,6 +4135,7 @@ import SVG_kitesurfing from "./kitesurfing";
 import SVG_klingon from "./klingon";
 import SVG_knifeMilitary from "./knife-military";
 import SVG_knife from "./knife";
+import SVG_knob from "./knob";
 import SVG_koala from "./koala";
 import SVG_kodi from "./kodi";
 import SVG_kubernetes from "./kubernetes";
@@ -3914,6 +4164,7 @@ import SVG_lan from "./lan";
 import SVG_landFields from "./land-fields";
 import SVG_landPlotsCircleVariant from "./land-plots-circle-variant";
 import SVG_landPlotsCircle from "./land-plots-circle";
+import SVG_landPlotsMarker from "./land-plots-marker";
 import SVG_landPlots from "./land-plots";
 import SVG_landRowsHorizontal from "./land-rows-horizontal";
 import SVG_landRowsVertical from "./land-rows-vertical";
@@ -3973,7 +4224,7 @@ import SVG_leafOff from "./leaf-off";
 import SVG_leaf from "./leaf";
 import SVG_leakOff from "./leak-off";
 import SVG_leak from "./leak";
-import SVG_lecturn from "./lecturn";
+import SVG_lectern from "./lectern";
 import SVG_ledOff from "./led-off";
 import SVG_ledOn from "./led-on";
 import SVG_ledOutline from "./led-outline";
@@ -4018,15 +4269,15 @@ import SVG_lightbulbNightOutline from "./lightbulb-night-outline";
 import SVG_lightbulbNight from "./lightbulb-night";
 import SVG_lightbulbOffOutline from "./lightbulb-off-outline";
 import SVG_lightbulbOff from "./lightbulb-off";
-import SVG_lightbulbOn_10 from "./lightbulb-on-10";
-import SVG_lightbulbOn_20 from "./lightbulb-on-20";
-import SVG_lightbulbOn_30 from "./lightbulb-on-30";
-import SVG_lightbulbOn_40 from "./lightbulb-on-40";
-import SVG_lightbulbOn_50 from "./lightbulb-on-50";
-import SVG_lightbulbOn_60 from "./lightbulb-on-60";
-import SVG_lightbulbOn_70 from "./lightbulb-on-70";
-import SVG_lightbulbOn_80 from "./lightbulb-on-80";
-import SVG_lightbulbOn_90 from "./lightbulb-on-90";
+import SVG_lightbulbOn10 from "./lightbulb-on-10";
+import SVG_lightbulbOn20 from "./lightbulb-on-20";
+import SVG_lightbulbOn30 from "./lightbulb-on-30";
+import SVG_lightbulbOn40 from "./lightbulb-on-40";
+import SVG_lightbulbOn50 from "./lightbulb-on-50";
+import SVG_lightbulbOn60 from "./lightbulb-on-60";
+import SVG_lightbulbOn70 from "./lightbulb-on-70";
+import SVG_lightbulbOn80 from "./lightbulb-on-80";
+import SVG_lightbulbOn90 from "./lightbulb-on-90";
 import SVG_lightbulbOnOutline from "./lightbulb-on-outline";
 import SVG_lightbulbOn from "./lightbulb-on";
 import SVG_lightbulbOutline from "./lightbulb-outline";
@@ -4048,6 +4299,9 @@ import SVG_linkBoxOutline from "./link-box-outline";
 import SVG_linkBoxVariantOutline from "./link-box-variant-outline";
 import SVG_linkBoxVariant from "./link-box-variant";
 import SVG_linkBox from "./link-box";
+import SVG_linkCircleOutline from "./link-circle-outline";
+import SVG_linkCircle from "./link-circle";
+import SVG_linkEdit from "./link-edit";
 import SVG_linkLock from "./link-lock";
 import SVG_linkOff from "./link-off";
 import SVG_linkPlus from "./link-plus";
@@ -4063,6 +4317,8 @@ import SVG_linux from "./linux";
 import SVG_lipstick from "./lipstick";
 import SVG_liquidSpot from "./liquid-spot";
 import SVG_liquor from "./liquor";
+import SVG_listBoxOutline from "./list-box-outline";
+import SVG_listBox from "./list-box";
 import SVG_listStatus from "./list-status";
 import SVG_litecoin from "./litecoin";
 import SVG_loading from "./loading";
@@ -4093,6 +4349,12 @@ import SVG_lockOpenVariant from "./lock-open-variant";
 import SVG_lockOpen from "./lock-open";
 import SVG_lockOutline from "./lock-outline";
 import SVG_lockPattern from "./lock-pattern";
+import SVG_lockPercentOpenOutline from "./lock-percent-open-outline";
+import SVG_lockPercentOpenVariantOutline from "./lock-percent-open-variant-outline";
+import SVG_lockPercentOpenVariant from "./lock-percent-open-variant";
+import SVG_lockPercentOpen from "./lock-percent-open";
+import SVG_lockPercentOutline from "./lock-percent-outline";
+import SVG_lockPercent from "./lock-percent";
 import SVG_lockPlusOutline from "./lock-plus-outline";
 import SVG_lockPlus from "./lock-plus";
 import SVG_lockQuestion from "./lock-question";
@@ -4214,9 +4476,11 @@ import SVG_medicalCottonSwab from "./medical-cotton-swab";
 import SVG_medicationOutline from "./medication-outline";
 import SVG_medication from "./medication";
 import SVG_meditation from "./meditation";
+import SVG_memoryArrowDown from "./memory-arrow-down";
 import SVG_memory from "./memory";
 import SVG_menorahFire from "./menorah-fire";
 import SVG_menorah from "./menorah";
+import SVG_menuClose from "./menu-close";
 import SVG_menuDownOutline from "./menu-down-outline";
 import SVG_menuDown from "./menu-down";
 import SVG_menuLeftOutline from "./menu-left-outline";
@@ -4242,6 +4506,8 @@ import SVG_messageBookmarkOutline from "./message-bookmark-outline";
 import SVG_messageBookmark from "./message-bookmark";
 import SVG_messageBulletedOff from "./message-bulleted-off";
 import SVG_messageBulleted from "./message-bulleted";
+import SVG_messageCheckOutline from "./message-check-outline";
+import SVG_messageCheck from "./message-check";
 import SVG_messageCogOutline from "./message-cog-outline";
 import SVG_messageCog from "./message-cog";
 import SVG_messageDraw from "./message-draw";
@@ -4290,6 +4556,8 @@ import SVG_meterGas from "./meter-gas";
 import SVG_metronomeTick from "./metronome-tick";
 import SVG_metronome from "./metronome";
 import SVG_microSd from "./micro-sd";
+import SVG_microphoneMessageOff from "./microphone-message-off";
+import SVG_microphoneMessage from "./microphone-message";
 import SVG_microphoneMinus from "./microphone-minus";
 import SVG_microphoneOff from "./microphone-off";
 import SVG_microphoneOutline from "./microphone-outline";
@@ -4305,7 +4573,7 @@ import SVG_microsoftAccess from "./microsoft-access";
 import SVG_microsoftAzureDevops from "./microsoft-azure-devops";
 import SVG_microsoftAzure from "./microsoft-azure";
 import SVG_microsoftBing from "./microsoft-bing";
-import SVG_microsoftDynamics_365 from "./microsoft-dynamics-365";
+import SVG_microsoftDynamics365 from "./microsoft-dynamics-365";
 import SVG_microsoftEdge from "./microsoft-edge";
 import SVG_microsoftExcel from "./microsoft-excel";
 import SVG_microsoftInternetExplorer from "./microsoft-internet-explorer";
@@ -4384,6 +4652,7 @@ import SVG_monitorSmall from "./monitor-small";
 import SVG_monitorSpeakerOff from "./monitor-speaker-off";
 import SVG_monitorSpeaker from "./monitor-speaker";
 import SVG_monitorStar from "./monitor-star";
+import SVG_monitorVertical from "./monitor-vertical";
 import SVG_monitor from "./monitor";
 import SVG_moonFirstQuarter from "./moon-first-quarter";
 import SVG_moonFull from "./moon-full";
@@ -4400,6 +4669,7 @@ import SVG_moped from "./moped";
 import SVG_more from "./more";
 import SVG_mortarPestlePlus from "./mortar-pestle-plus";
 import SVG_mortarPestle from "./mortar-pestle";
+import SVG_mosqueOutline from "./mosque-outline";
 import SVG_mosque from "./mosque";
 import SVG_motherHeart from "./mother-heart";
 import SVG_motherNurse from "./mother-nurse";
@@ -4415,10 +4685,16 @@ import SVG_motorbikeElectric from "./motorbike-electric";
 import SVG_motorbikeOff from "./motorbike-off";
 import SVG_motorbike from "./motorbike";
 import SVG_mouseBluetooth from "./mouse-bluetooth";
+import SVG_mouseLeftClickOutline from "./mouse-left-click-outline";
+import SVG_mouseLeftClick from "./mouse-left-click";
 import SVG_mouseMoveDown from "./mouse-move-down";
 import SVG_mouseMoveUp from "./mouse-move-up";
 import SVG_mouseMoveVertical from "./mouse-move-vertical";
 import SVG_mouseOff from "./mouse-off";
+import SVG_mouseOutline from "./mouse-outline";
+import SVG_mouseRightClickOutline from "./mouse-right-click-outline";
+import SVG_mouseRightClick from "./mouse-right-click";
+import SVG_mouseScrollWheel from "./mouse-scroll-wheel";
 import SVG_mouseVariantOff from "./mouse-variant-off";
 import SVG_mouseVariant from "./mouse-variant";
 import SVG_mouse from "./mouse";
@@ -4473,10 +4749,13 @@ import SVG_movieSettings from "./movie-settings";
 import SVG_movieStarOutline from "./movie-star-outline";
 import SVG_movieStar from "./movie-star";
 import SVG_movie from "./movie";
+import SVG_mowerBagOn from "./mower-bag-on";
 import SVG_mowerBag from "./mower-bag";
+import SVG_mowerOn from "./mower-on";
 import SVG_mower from "./mower";
 import SVG_muffin from "./muffin";
 import SVG_multicast from "./multicast";
+import SVG_multimedia from "./multimedia";
 import SVG_multiplicationBox from "./multiplication-box";
 import SVG_multiplication from "./multiplication";
 import SVG_mushroomOffOutline from "./mushroom-off-outline";
@@ -4503,6 +4782,7 @@ import SVG_musicNoteEighthDotted from "./music-note-eighth-dotted";
 import SVG_musicNoteEighth from "./music-note-eighth";
 import SVG_musicNoteHalfDotted from "./music-note-half-dotted";
 import SVG_musicNoteHalf from "./music-note-half";
+import SVG_musicNoteMinus from "./music-note-minus";
 import SVG_musicNoteOffOutline from "./music-note-off-outline";
 import SVG_musicNoteOff from "./music-note-off";
 import SVG_musicNoteOutline from "./music-note-outline";
@@ -4525,6 +4805,8 @@ import SVG_mustache from "./mustache";
 import SVG_nail from "./nail";
 import SVG_nas from "./nas";
 import SVG_nativescript from "./nativescript";
+import SVG_natureOutline from "./nature-outline";
+import SVG_naturePeopleOutline from "./nature-people-outline";
 import SVG_naturePeople from "./nature-people";
 import SVG_nature from "./nature";
 import SVG_navigationOutline from "./navigation-outline";
@@ -4540,15 +4822,15 @@ import SVG_networkOffOutline from "./network-off-outline";
 import SVG_networkOff from "./network-off";
 import SVG_networkOutline from "./network-outline";
 import SVG_networkPos from "./network-pos";
-import SVG_networkStrength_1Alert from "./network-strength-1-alert";
-import SVG_networkStrength_1 from "./network-strength-1";
-import SVG_networkStrength_2Alert from "./network-strength-2-alert";
-import SVG_networkStrength_2 from "./network-strength-2";
-import SVG_networkStrength_3Alert from "./network-strength-3-alert";
-import SVG_networkStrength_3 from "./network-strength-3";
-import SVG_networkStrength_4Alert from "./network-strength-4-alert";
-import SVG_networkStrength_4Cog from "./network-strength-4-cog";
-import SVG_networkStrength_4 from "./network-strength-4";
+import SVG_networkStrength1Alert from "./network-strength-1-alert";
+import SVG_networkStrength1 from "./network-strength-1";
+import SVG_networkStrength2Alert from "./network-strength-2-alert";
+import SVG_networkStrength2 from "./network-strength-2";
+import SVG_networkStrength3Alert from "./network-strength-3-alert";
+import SVG_networkStrength3 from "./network-strength-3";
+import SVG_networkStrength4Alert from "./network-strength-4-alert";
+import SVG_networkStrength4Cog from "./network-strength-4-cog";
+import SVG_networkStrength4 from "./network-strength-4";
 import SVG_networkStrengthOffOutline from "./network-strength-off-outline";
 import SVG_networkStrengthOff from "./network-strength-off";
 import SVG_networkStrengthOutline from "./network-strength-outline";
@@ -4619,93 +4901,93 @@ import SVG_notificationClearAll from "./notification-clear-all";
 import SVG_npm from "./npm";
 import SVG_nuke from "./nuke";
 import SVG_null from "./null";
-import SVG_numeric_0BoxMultipleOutline from "./numeric-0-box-multiple-outline";
-import SVG_numeric_0BoxMultiple from "./numeric-0-box-multiple";
-import SVG_numeric_0BoxOutline from "./numeric-0-box-outline";
-import SVG_numeric_0Box from "./numeric-0-box";
-import SVG_numeric_0CircleOutline from "./numeric-0-circle-outline";
-import SVG_numeric_0Circle from "./numeric-0-circle";
-import SVG_numeric_0 from "./numeric-0";
-import SVG_numeric_1BoxMultipleOutline from "./numeric-1-box-multiple-outline";
-import SVG_numeric_1BoxMultiple from "./numeric-1-box-multiple";
-import SVG_numeric_1BoxOutline from "./numeric-1-box-outline";
-import SVG_numeric_1Box from "./numeric-1-box";
-import SVG_numeric_1CircleOutline from "./numeric-1-circle-outline";
-import SVG_numeric_1Circle from "./numeric-1-circle";
-import SVG_numeric_1 from "./numeric-1";
-import SVG_numeric_10BoxMultipleOutline from "./numeric-10-box-multiple-outline";
-import SVG_numeric_10BoxMultiple from "./numeric-10-box-multiple";
-import SVG_numeric_10BoxOutline from "./numeric-10-box-outline";
-import SVG_numeric_10Box from "./numeric-10-box";
-import SVG_numeric_10CircleOutline from "./numeric-10-circle-outline";
-import SVG_numeric_10Circle from "./numeric-10-circle";
-import SVG_numeric_10 from "./numeric-10";
-import SVG_numeric_2BoxMultipleOutline from "./numeric-2-box-multiple-outline";
-import SVG_numeric_2BoxMultiple from "./numeric-2-box-multiple";
-import SVG_numeric_2BoxOutline from "./numeric-2-box-outline";
-import SVG_numeric_2Box from "./numeric-2-box";
-import SVG_numeric_2CircleOutline from "./numeric-2-circle-outline";
-import SVG_numeric_2Circle from "./numeric-2-circle";
-import SVG_numeric_2 from "./numeric-2";
-import SVG_numeric_3BoxMultipleOutline from "./numeric-3-box-multiple-outline";
-import SVG_numeric_3BoxMultiple from "./numeric-3-box-multiple";
-import SVG_numeric_3BoxOutline from "./numeric-3-box-outline";
-import SVG_numeric_3Box from "./numeric-3-box";
-import SVG_numeric_3CircleOutline from "./numeric-3-circle-outline";
-import SVG_numeric_3Circle from "./numeric-3-circle";
-import SVG_numeric_3 from "./numeric-3";
-import SVG_numeric_4BoxMultipleOutline from "./numeric-4-box-multiple-outline";
-import SVG_numeric_4BoxMultiple from "./numeric-4-box-multiple";
-import SVG_numeric_4BoxOutline from "./numeric-4-box-outline";
-import SVG_numeric_4Box from "./numeric-4-box";
-import SVG_numeric_4CircleOutline from "./numeric-4-circle-outline";
-import SVG_numeric_4Circle from "./numeric-4-circle";
-import SVG_numeric_4 from "./numeric-4";
-import SVG_numeric_5BoxMultipleOutline from "./numeric-5-box-multiple-outline";
-import SVG_numeric_5BoxMultiple from "./numeric-5-box-multiple";
-import SVG_numeric_5BoxOutline from "./numeric-5-box-outline";
-import SVG_numeric_5Box from "./numeric-5-box";
-import SVG_numeric_5CircleOutline from "./numeric-5-circle-outline";
-import SVG_numeric_5Circle from "./numeric-5-circle";
-import SVG_numeric_5 from "./numeric-5";
-import SVG_numeric_6BoxMultipleOutline from "./numeric-6-box-multiple-outline";
-import SVG_numeric_6BoxMultiple from "./numeric-6-box-multiple";
-import SVG_numeric_6BoxOutline from "./numeric-6-box-outline";
-import SVG_numeric_6Box from "./numeric-6-box";
-import SVG_numeric_6CircleOutline from "./numeric-6-circle-outline";
-import SVG_numeric_6Circle from "./numeric-6-circle";
-import SVG_numeric_6 from "./numeric-6";
-import SVG_numeric_7BoxMultipleOutline from "./numeric-7-box-multiple-outline";
-import SVG_numeric_7BoxMultiple from "./numeric-7-box-multiple";
-import SVG_numeric_7BoxOutline from "./numeric-7-box-outline";
-import SVG_numeric_7Box from "./numeric-7-box";
-import SVG_numeric_7CircleOutline from "./numeric-7-circle-outline";
-import SVG_numeric_7Circle from "./numeric-7-circle";
-import SVG_numeric_7 from "./numeric-7";
-import SVG_numeric_8BoxMultipleOutline from "./numeric-8-box-multiple-outline";
-import SVG_numeric_8BoxMultiple from "./numeric-8-box-multiple";
-import SVG_numeric_8BoxOutline from "./numeric-8-box-outline";
-import SVG_numeric_8Box from "./numeric-8-box";
-import SVG_numeric_8CircleOutline from "./numeric-8-circle-outline";
-import SVG_numeric_8Circle from "./numeric-8-circle";
-import SVG_numeric_8 from "./numeric-8";
-import SVG_numeric_9BoxMultipleOutline from "./numeric-9-box-multiple-outline";
-import SVG_numeric_9BoxMultiple from "./numeric-9-box-multiple";
-import SVG_numeric_9BoxOutline from "./numeric-9-box-outline";
-import SVG_numeric_9Box from "./numeric-9-box";
-import SVG_numeric_9CircleOutline from "./numeric-9-circle-outline";
-import SVG_numeric_9Circle from "./numeric-9-circle";
-import SVG_numeric_9PlusBoxMultipleOutline from "./numeric-9-plus-box-multiple-outline";
-import SVG_numeric_9PlusBoxMultiple from "./numeric-9-plus-box-multiple";
-import SVG_numeric_9PlusBoxOutline from "./numeric-9-plus-box-outline";
-import SVG_numeric_9PlusBox from "./numeric-9-plus-box";
-import SVG_numeric_9PlusCircleOutline from "./numeric-9-plus-circle-outline";
-import SVG_numeric_9PlusCircle from "./numeric-9-plus-circle";
-import SVG_numeric_9Plus from "./numeric-9-plus";
-import SVG_numeric_9 from "./numeric-9";
-import SVG_numericNegative_1 from "./numeric-negative-1";
+import SVG_numeric0BoxMultipleOutline from "./numeric-0-box-multiple-outline";
+import SVG_numeric0BoxMultiple from "./numeric-0-box-multiple";
+import SVG_numeric0BoxOutline from "./numeric-0-box-outline";
+import SVG_numeric0Box from "./numeric-0-box";
+import SVG_numeric0CircleOutline from "./numeric-0-circle-outline";
+import SVG_numeric0Circle from "./numeric-0-circle";
+import SVG_numeric0 from "./numeric-0";
+import SVG_numeric1BoxMultipleOutline from "./numeric-1-box-multiple-outline";
+import SVG_numeric1BoxMultiple from "./numeric-1-box-multiple";
+import SVG_numeric1BoxOutline from "./numeric-1-box-outline";
+import SVG_numeric1Box from "./numeric-1-box";
+import SVG_numeric1CircleOutline from "./numeric-1-circle-outline";
+import SVG_numeric1Circle from "./numeric-1-circle";
+import SVG_numeric1 from "./numeric-1";
+import SVG_numeric10BoxMultipleOutline from "./numeric-10-box-multiple-outline";
+import SVG_numeric10BoxMultiple from "./numeric-10-box-multiple";
+import SVG_numeric10BoxOutline from "./numeric-10-box-outline";
+import SVG_numeric10Box from "./numeric-10-box";
+import SVG_numeric10CircleOutline from "./numeric-10-circle-outline";
+import SVG_numeric10Circle from "./numeric-10-circle";
+import SVG_numeric10 from "./numeric-10";
+import SVG_numeric2BoxMultipleOutline from "./numeric-2-box-multiple-outline";
+import SVG_numeric2BoxMultiple from "./numeric-2-box-multiple";
+import SVG_numeric2BoxOutline from "./numeric-2-box-outline";
+import SVG_numeric2Box from "./numeric-2-box";
+import SVG_numeric2CircleOutline from "./numeric-2-circle-outline";
+import SVG_numeric2Circle from "./numeric-2-circle";
+import SVG_numeric2 from "./numeric-2";
+import SVG_numeric3BoxMultipleOutline from "./numeric-3-box-multiple-outline";
+import SVG_numeric3BoxMultiple from "./numeric-3-box-multiple";
+import SVG_numeric3BoxOutline from "./numeric-3-box-outline";
+import SVG_numeric3Box from "./numeric-3-box";
+import SVG_numeric3CircleOutline from "./numeric-3-circle-outline";
+import SVG_numeric3Circle from "./numeric-3-circle";
+import SVG_numeric3 from "./numeric-3";
+import SVG_numeric4BoxMultipleOutline from "./numeric-4-box-multiple-outline";
+import SVG_numeric4BoxMultiple from "./numeric-4-box-multiple";
+import SVG_numeric4BoxOutline from "./numeric-4-box-outline";
+import SVG_numeric4Box from "./numeric-4-box";
+import SVG_numeric4CircleOutline from "./numeric-4-circle-outline";
+import SVG_numeric4Circle from "./numeric-4-circle";
+import SVG_numeric4 from "./numeric-4";
+import SVG_numeric5BoxMultipleOutline from "./numeric-5-box-multiple-outline";
+import SVG_numeric5BoxMultiple from "./numeric-5-box-multiple";
+import SVG_numeric5BoxOutline from "./numeric-5-box-outline";
+import SVG_numeric5Box from "./numeric-5-box";
+import SVG_numeric5CircleOutline from "./numeric-5-circle-outline";
+import SVG_numeric5Circle from "./numeric-5-circle";
+import SVG_numeric5 from "./numeric-5";
+import SVG_numeric6BoxMultipleOutline from "./numeric-6-box-multiple-outline";
+import SVG_numeric6BoxMultiple from "./numeric-6-box-multiple";
+import SVG_numeric6BoxOutline from "./numeric-6-box-outline";
+import SVG_numeric6Box from "./numeric-6-box";
+import SVG_numeric6CircleOutline from "./numeric-6-circle-outline";
+import SVG_numeric6Circle from "./numeric-6-circle";
+import SVG_numeric6 from "./numeric-6";
+import SVG_numeric7BoxMultipleOutline from "./numeric-7-box-multiple-outline";
+import SVG_numeric7BoxMultiple from "./numeric-7-box-multiple";
+import SVG_numeric7BoxOutline from "./numeric-7-box-outline";
+import SVG_numeric7Box from "./numeric-7-box";
+import SVG_numeric7CircleOutline from "./numeric-7-circle-outline";
+import SVG_numeric7Circle from "./numeric-7-circle";
+import SVG_numeric7 from "./numeric-7";
+import SVG_numeric8BoxMultipleOutline from "./numeric-8-box-multiple-outline";
+import SVG_numeric8BoxMultiple from "./numeric-8-box-multiple";
+import SVG_numeric8BoxOutline from "./numeric-8-box-outline";
+import SVG_numeric8Box from "./numeric-8-box";
+import SVG_numeric8CircleOutline from "./numeric-8-circle-outline";
+import SVG_numeric8Circle from "./numeric-8-circle";
+import SVG_numeric8 from "./numeric-8";
+import SVG_numeric9BoxMultipleOutline from "./numeric-9-box-multiple-outline";
+import SVG_numeric9BoxMultiple from "./numeric-9-box-multiple";
+import SVG_numeric9BoxOutline from "./numeric-9-box-outline";
+import SVG_numeric9Box from "./numeric-9-box";
+import SVG_numeric9CircleOutline from "./numeric-9-circle-outline";
+import SVG_numeric9Circle from "./numeric-9-circle";
+import SVG_numeric9PlusBoxMultipleOutline from "./numeric-9-plus-box-multiple-outline";
+import SVG_numeric9PlusBoxMultiple from "./numeric-9-plus-box-multiple";
+import SVG_numeric9PlusBoxOutline from "./numeric-9-plus-box-outline";
+import SVG_numeric9PlusBox from "./numeric-9-plus-box";
+import SVG_numeric9PlusCircleOutline from "./numeric-9-plus-circle-outline";
+import SVG_numeric9PlusCircle from "./numeric-9-plus-circle";
+import SVG_numeric9Plus from "./numeric-9-plus";
+import SVG_numeric9 from "./numeric-9";
+import SVG_numericNegative1 from "./numeric-negative-1";
 import SVG_numericOff from "./numeric-off";
-import SVG_numericPositive_1 from "./numeric-positive-1";
+import SVG_numericPositive1 from "./numeric-positive-1";
 import SVG_numeric from "./numeric";
 import SVG_nut from "./nut";
 import SVG_nutrition from "./nutrition";
@@ -4716,7 +4998,13 @@ import SVG_oci from "./oci";
 import SVG_ocr from "./ocr";
 import SVG_octagonOutline from "./octagon-outline";
 import SVG_octagon from "./octagon";
+import SVG_octagramEditOutline from "./octagram-edit-outline";
+import SVG_octagramEdit from "./octagram-edit";
+import SVG_octagramMinusOutline from "./octagram-minus-outline";
+import SVG_octagramMinus from "./octagram-minus";
 import SVG_octagramOutline from "./octagram-outline";
+import SVG_octagramPlusOutline from "./octagram-plus-outline";
+import SVG_octagramPlus from "./octagram-plus";
 import SVG_octagram from "./octagram";
 import SVG_octahedronOff from "./octahedron-off";
 import SVG_octahedron from "./octahedron";
@@ -4726,7 +5014,13 @@ import SVG_officeBuildingCogOutline from "./office-building-cog-outline";
 import SVG_officeBuildingCog from "./office-building-cog";
 import SVG_officeBuildingMarkerOutline from "./office-building-marker-outline";
 import SVG_officeBuildingMarker from "./office-building-marker";
+import SVG_officeBuildingMinusOutline from "./office-building-minus-outline";
+import SVG_officeBuildingMinus from "./office-building-minus";
 import SVG_officeBuildingOutline from "./office-building-outline";
+import SVG_officeBuildingPlusOutline from "./office-building-plus-outline";
+import SVG_officeBuildingPlus from "./office-building-plus";
+import SVG_officeBuildingRemoveOutline from "./office-building-remove-outline";
+import SVG_officeBuildingRemove from "./office-building-remove";
 import SVG_officeBuilding from "./office-building";
 import SVG_oilLamp from "./oil-lamp";
 import SVG_oilLevel from "./oil-level";
@@ -4842,11 +5136,19 @@ import SVG_parachute from "./parachute";
 import SVG_paragliding from "./paragliding";
 import SVG_parking from "./parking";
 import SVG_partyPopper from "./party-popper";
+import SVG_passportAlert from "./passport-alert";
 import SVG_passportBiometric from "./passport-biometric";
+import SVG_passportCancel from "./passport-cancel";
+import SVG_passportCheck from "./passport-check";
+import SVG_passportMinus from "./passport-minus";
+import SVG_passportPlus from "./passport-plus";
+import SVG_passportRemove from "./passport-remove";
 import SVG_passport from "./passport";
 import SVG_pasta from "./pasta";
 import SVG_patioHeater from "./patio-heater";
 import SVG_patreon from "./patreon";
+import SVG_pauseBoxOutline from "./pause-box-outline";
+import SVG_pauseBox from "./pause-box";
 import SVG_pauseCircleOutline from "./pause-circle-outline";
 import SVG_pauseCircle from "./pause-circle";
 import SVG_pauseOctagonOutline from "./pause-octagon-outline";
@@ -4884,6 +5186,7 @@ import SVG_pencilPlusOutline from "./pencil-plus-outline";
 import SVG_pencilPlus from "./pencil-plus";
 import SVG_pencilRemoveOutline from "./pencil-remove-outline";
 import SVG_pencilRemove from "./pencil-remove";
+import SVG_pencilRulerOutline from "./pencil-ruler-outline";
 import SVG_pencilRuler from "./pencil-ruler";
 import SVG_pencil from "./pencil";
 import SVG_penguin from "./penguin";
@@ -4985,6 +5288,8 @@ import SVG_pinOutline from "./pin-outline";
 import SVG_pin from "./pin";
 import SVG_pineTreeBox from "./pine-tree-box";
 import SVG_pineTreeFire from "./pine-tree-fire";
+import SVG_pineTreeVariantOutline from "./pine-tree-variant-outline";
+import SVG_pineTreeVariant from "./pine-tree-variant";
 import SVG_pineTree from "./pine-tree";
 import SVG_pinterest from "./pinterest";
 import SVG_pinwheelOutline from "./pinwheel-outline";
@@ -5001,6 +5306,7 @@ import SVG_pitchfork from "./pitchfork";
 import SVG_pizza from "./pizza";
 import SVG_planeCar from "./plane-car";
 import SVG_planeTrain from "./plane-train";
+import SVG_playBoxEditOutline from "./play-box-edit-outline";
 import SVG_playBoxLockOpenOutline from "./play-box-lock-open-outline";
 import SVG_playBoxLockOpen from "./play-box-lock-open";
 import SVG_playBoxLockOutline from "./play-box-lock-outline";
@@ -5047,6 +5353,7 @@ import SVG_plusNetwork from "./plus-network";
 import SVG_plusOutline from "./plus-outline";
 import SVG_plusThick from "./plus-thick";
 import SVG_plus from "./plus";
+import SVG_pocket from "./pocket";
 import SVG_podcast from "./podcast";
 import SVG_podiumBronze from "./podium-bronze";
 import SVG_podiumGold from "./podium-gold";
@@ -5082,6 +5389,8 @@ import SVG_pound from "./pound";
 import SVG_powerCycle from "./power-cycle";
 import SVG_powerOff from "./power-off";
 import SVG_powerOn from "./power-on";
+import SVG_powerPlugBatteryOutline from "./power-plug-battery-outline";
+import SVG_powerPlugBattery from "./power-plug-battery";
 import SVG_powerPlugOffOutline from "./power-plug-off-outline";
 import SVG_powerPlugOff from "./power-plug-off";
 import SVG_powerPlugOutline from "./power-plug-outline";
@@ -5105,22 +5414,57 @@ import SVG_prescription from "./prescription";
 import SVG_presentationPlay from "./presentation-play";
 import SVG_presentation from "./presentation";
 import SVG_pretzel from "./pretzel";
-import SVG_printer_3dNozzleAlertOutline from "./printer-3d-nozzle-alert-outline";
-import SVG_printer_3dNozzleAlert from "./printer-3d-nozzle-alert";
-import SVG_printer_3dNozzleHeatOutline from "./printer-3d-nozzle-heat-outline";
-import SVG_printer_3dNozzleHeat from "./printer-3d-nozzle-heat";
-import SVG_printer_3dNozzleOffOutline from "./printer-3d-nozzle-off-outline";
-import SVG_printer_3dNozzleOff from "./printer-3d-nozzle-off";
-import SVG_printer_3dNozzleOutline from "./printer-3d-nozzle-outline";
-import SVG_printer_3dNozzle from "./printer-3d-nozzle";
-import SVG_printer_3dOff from "./printer-3d-off";
-import SVG_printer_3d from "./printer-3d";
+import SVG_printer3dNozzleAlertOutline from "./printer-3d-nozzle-alert-outline";
+import SVG_printer3dNozzleAlert from "./printer-3d-nozzle-alert";
+import SVG_printer3dNozzleHeatOutline from "./printer-3d-nozzle-heat-outline";
+import SVG_printer3dNozzleHeat from "./printer-3d-nozzle-heat";
+import SVG_printer3dNozzleOffOutline from "./printer-3d-nozzle-off-outline";
+import SVG_printer3dNozzleOff from "./printer-3d-nozzle-off";
+import SVG_printer3dNozzleOutline from "./printer-3d-nozzle-outline";
+import SVG_printer3dNozzle from "./printer-3d-nozzle";
+import SVG_printer3dOff from "./printer-3d-off";
+import SVG_printer3d from "./printer-3d";
 import SVG_printerAlert from "./printer-alert";
 import SVG_printerCheck from "./printer-check";
 import SVG_printerEye from "./printer-eye";
 import SVG_printerOffOutline from "./printer-off-outline";
 import SVG_printerOff from "./printer-off";
 import SVG_printerOutline from "./printer-outline";
+import SVG_printerPosAlertOutline from "./printer-pos-alert-outline";
+import SVG_printerPosAlert from "./printer-pos-alert";
+import SVG_printerPosCancelOutline from "./printer-pos-cancel-outline";
+import SVG_printerPosCancel from "./printer-pos-cancel";
+import SVG_printerPosCheckOutline from "./printer-pos-check-outline";
+import SVG_printerPosCheck from "./printer-pos-check";
+import SVG_printerPosCogOutline from "./printer-pos-cog-outline";
+import SVG_printerPosCog from "./printer-pos-cog";
+import SVG_printerPosEditOutline from "./printer-pos-edit-outline";
+import SVG_printerPosEdit from "./printer-pos-edit";
+import SVG_printerPosMinusOutline from "./printer-pos-minus-outline";
+import SVG_printerPosMinus from "./printer-pos-minus";
+import SVG_printerPosNetworkOutline from "./printer-pos-network-outline";
+import SVG_printerPosNetwork from "./printer-pos-network";
+import SVG_printerPosOffOutline from "./printer-pos-off-outline";
+import SVG_printerPosOff from "./printer-pos-off";
+import SVG_printerPosOutline from "./printer-pos-outline";
+import SVG_printerPosPauseOutline from "./printer-pos-pause-outline";
+import SVG_printerPosPause from "./printer-pos-pause";
+import SVG_printerPosPlayOutline from "./printer-pos-play-outline";
+import SVG_printerPosPlay from "./printer-pos-play";
+import SVG_printerPosPlusOutline from "./printer-pos-plus-outline";
+import SVG_printerPosPlus from "./printer-pos-plus";
+import SVG_printerPosRefreshOutline from "./printer-pos-refresh-outline";
+import SVG_printerPosRefresh from "./printer-pos-refresh";
+import SVG_printerPosRemoveOutline from "./printer-pos-remove-outline";
+import SVG_printerPosRemove from "./printer-pos-remove";
+import SVG_printerPosStarOutline from "./printer-pos-star-outline";
+import SVG_printerPosStar from "./printer-pos-star";
+import SVG_printerPosStopOutline from "./printer-pos-stop-outline";
+import SVG_printerPosStop from "./printer-pos-stop";
+import SVG_printerPosSyncOutline from "./printer-pos-sync-outline";
+import SVG_printerPosSync from "./printer-pos-sync";
+import SVG_printerPosWrenchOutline from "./printer-pos-wrench-outline";
+import SVG_printerPosWrench from "./printer-pos-wrench";
 import SVG_printerPos from "./printer-pos";
 import SVG_printerSearch from "./printer-search";
 import SVG_printerSettings from "./printer-settings";
@@ -5134,9 +5478,12 @@ import SVG_progressCheck from "./progress-check";
 import SVG_progressClock from "./progress-clock";
 import SVG_progressClose from "./progress-close";
 import SVG_progressDownload from "./progress-download";
+import SVG_progressHelper from "./progress-helper";
 import SVG_progressPencil from "./progress-pencil";
 import SVG_progressQuestion from "./progress-question";
+import SVG_progressStarFourPoints from "./progress-star-four-points";
 import SVG_progressStar from "./progress-star";
+import SVG_progressTag from "./progress-tag";
 import SVG_progressUpload from "./progress-upload";
 import SVG_progressWrench from "./progress-wrench";
 import SVG_projectorOff from "./projector-off";
@@ -5190,6 +5537,7 @@ import SVG_quadcopter from "./quadcopter";
 import SVG_qualityHigh from "./quality-high";
 import SVG_qualityLow from "./quality-low";
 import SVG_qualityMedium from "./quality-medium";
+import SVG_queueFirstInLastOut from "./queue-first-in-last-out";
 import SVG_quora from "./quora";
 import SVG_rabbitVariantOutline from "./rabbit-variant-outline";
 import SVG_rabbitVariant from "./rabbit-variant";
@@ -5211,6 +5559,7 @@ import SVG_radioactiveCircle from "./radioactive-circle";
 import SVG_radioactiveOff from "./radioactive-off";
 import SVG_radioactive from "./radioactive";
 import SVG_radioboxBlank from "./radiobox-blank";
+import SVG_radioboxIndeterminateVariant from "./radiobox-indeterminate-variant";
 import SVG_radioboxMarked from "./radiobox-marked";
 import SVG_radiologyBoxOutline from "./radiology-box-outline";
 import SVG_radiologyBox from "./radiology-box";
@@ -5232,15 +5581,31 @@ import SVG_razorDoubleEdge from "./razor-double-edge";
 import SVG_razorSingleEdge from "./razor-single-edge";
 import SVG_react from "./react";
 import SVG_read from "./read";
+import SVG_receiptClockOutline from "./receipt-clock-outline";
+import SVG_receiptClock from "./receipt-clock";
 import SVG_receiptOutline from "./receipt-outline";
+import SVG_receiptSendOutline from "./receipt-send-outline";
+import SVG_receiptSend from "./receipt-send";
+import SVG_receiptTextArrowLeftOutline from "./receipt-text-arrow-left-outline";
+import SVG_receiptTextArrowLeft from "./receipt-text-arrow-left";
+import SVG_receiptTextArrowRightOutline from "./receipt-text-arrow-right-outline";
+import SVG_receiptTextArrowRight from "./receipt-text-arrow-right";
 import SVG_receiptTextCheckOutline from "./receipt-text-check-outline";
 import SVG_receiptTextCheck from "./receipt-text-check";
+import SVG_receiptTextClockOutline from "./receipt-text-clock-outline";
+import SVG_receiptTextClock from "./receipt-text-clock";
+import SVG_receiptTextEditOutline from "./receipt-text-edit-outline";
+import SVG_receiptTextEdit from "./receipt-text-edit";
 import SVG_receiptTextMinusOutline from "./receipt-text-minus-outline";
 import SVG_receiptTextMinus from "./receipt-text-minus";
+import SVG_receiptTextOutline from "./receipt-text-outline";
 import SVG_receiptTextPlusOutline from "./receipt-text-plus-outline";
 import SVG_receiptTextPlus from "./receipt-text-plus";
 import SVG_receiptTextRemoveOutline from "./receipt-text-remove-outline";
 import SVG_receiptTextRemove from "./receipt-text-remove";
+import SVG_receiptTextSendOutline from "./receipt-text-send-outline";
+import SVG_receiptTextSend from "./receipt-text-send";
+import SVG_receiptText from "./receipt-text";
 import SVG_receipt from "./receipt";
 import SVG_recordCircleOutline from "./record-circle-outline";
 import SVG_recordCircle from "./record-circle";
@@ -5308,7 +5673,10 @@ import SVG_remoteOff from "./remote-off";
 import SVG_remoteTvOff from "./remote-tv-off";
 import SVG_remoteTv from "./remote-tv";
 import SVG_remote from "./remote";
+import SVG_renameBoxOutline from "./rename-box-outline";
 import SVG_renameBox from "./rename-box";
+import SVG_renameOutline from "./rename-outline";
+import SVG_rename from "./rename";
 import SVG_reorderHorizontal from "./reorder-horizontal";
 import SVG_reorderVertical from "./reorder-vertical";
 import SVG_repeatOff from "./repeat-off";
@@ -5332,12 +5700,12 @@ import SVG_restartOff from "./restart-off";
 import SVG_restart from "./restart";
 import SVG_restoreAlert from "./restore-alert";
 import SVG_restore from "./restore";
-import SVG_rewind_10 from "./rewind-10";
-import SVG_rewind_15 from "./rewind-15";
-import SVG_rewind_30 from "./rewind-30";
-import SVG_rewind_45 from "./rewind-45";
-import SVG_rewind_5 from "./rewind-5";
-import SVG_rewind_60 from "./rewind-60";
+import SVG_rewind10 from "./rewind-10";
+import SVG_rewind15 from "./rewind-15";
+import SVG_rewind30 from "./rewind-30";
+import SVG_rewind45 from "./rewind-45";
+import SVG_rewind5 from "./rewind-5";
+import SVG_rewind60 from "./rewind-60";
 import SVG_rewindOutline from "./rewind-outline";
 import SVG_rewind from "./rewind";
 import SVG_rhombusMediumOutline from "./rhombus-medium-outline";
@@ -5374,6 +5742,10 @@ import SVG_robotMower from "./robot-mower";
 import SVG_robotOffOutline from "./robot-off-outline";
 import SVG_robotOff from "./robot-off";
 import SVG_robotOutline from "./robot-outline";
+import SVG_robotVacuumAlert from "./robot-vacuum-alert";
+import SVG_robotVacuumOff from "./robot-vacuum-off";
+import SVG_robotVacuumVariantAlert from "./robot-vacuum-variant-alert";
+import SVG_robotVacuumVariantOff from "./robot-vacuum-variant-off";
 import SVG_robotVacuumVariant from "./robot-vacuum-variant";
 import SVG_robotVacuum from "./robot-vacuum";
 import SVG_robot from "./robot";
@@ -5391,27 +5763,28 @@ import SVG_rollerblade from "./rollerblade";
 import SVG_rollupjs from "./rollupjs";
 import SVG_rolodexOutline from "./rolodex-outline";
 import SVG_rolodex from "./rolodex";
-import SVG_romanNumeral_1 from "./roman-numeral-1";
-import SVG_romanNumeral_10 from "./roman-numeral-10";
-import SVG_romanNumeral_2 from "./roman-numeral-2";
-import SVG_romanNumeral_3 from "./roman-numeral-3";
-import SVG_romanNumeral_4 from "./roman-numeral-4";
-import SVG_romanNumeral_5 from "./roman-numeral-5";
-import SVG_romanNumeral_6 from "./roman-numeral-6";
-import SVG_romanNumeral_7 from "./roman-numeral-7";
-import SVG_romanNumeral_8 from "./roman-numeral-8";
-import SVG_romanNumeral_9 from "./roman-numeral-9";
+import SVG_romanNumeral1 from "./roman-numeral-1";
+import SVG_romanNumeral10 from "./roman-numeral-10";
+import SVG_romanNumeral2 from "./roman-numeral-2";
+import SVG_romanNumeral3 from "./roman-numeral-3";
+import SVG_romanNumeral4 from "./roman-numeral-4";
+import SVG_romanNumeral5 from "./roman-numeral-5";
+import SVG_romanNumeral6 from "./roman-numeral-6";
+import SVG_romanNumeral7 from "./roman-numeral-7";
+import SVG_romanNumeral8 from "./roman-numeral-8";
+import SVG_romanNumeral9 from "./roman-numeral-9";
 import SVG_roomServiceOutline from "./room-service-outline";
 import SVG_roomService from "./room-service";
-import SVG_rotate_360 from "./rotate-360";
-import SVG_rotate_3dVariant from "./rotate-3d-variant";
-import SVG_rotate_3d from "./rotate-3d";
+import SVG_rotate360 from "./rotate-360";
+import SVG_rotate3dVariant from "./rotate-3d-variant";
+import SVG_rotate3d from "./rotate-3d";
 import SVG_rotateLeftVariant from "./rotate-left-variant";
 import SVG_rotateLeft from "./rotate-left";
 import SVG_rotateOrbit from "./rotate-orbit";
 import SVG_rotateRightVariant from "./rotate-right-variant";
 import SVG_rotateRight from "./rotate-right";
 import SVG_roundedCorner from "./rounded-corner";
+import SVG_routerNetworkWireless from "./router-network-wireless";
 import SVG_routerNetwork from "./router-network";
 import SVG_routerWirelessOff from "./router-wireless-off";
 import SVG_routerWirelessSettings from "./router-wireless-settings";
@@ -5431,6 +5804,7 @@ import SVG_ruler from "./ruler";
 import SVG_runFast from "./run-fast";
 import SVG_run from "./run";
 import SVG_rvTruck from "./rv-truck";
+import SVG_sackOutline from "./sack-outline";
 import SVG_sackPercent from "./sack-percent";
 import SVG_sack from "./sack";
 import SVG_safeSquareOutline from "./safe-square-outline";
@@ -5513,6 +5887,8 @@ import SVG_seed from "./seed";
 import SVG_seesaw from "./seesaw";
 import SVG_segment from "./segment";
 import SVG_selectAll from "./select-all";
+import SVG_selectArrowDown from "./select-arrow-down";
+import SVG_selectArrowUp from "./select-arrow-up";
 import SVG_selectColor from "./select-color";
 import SVG_selectCompare from "./select-compare";
 import SVG_selectDrag from "./select-drag";
@@ -5547,12 +5923,20 @@ import SVG_sendClock from "./send-clock";
 import SVG_sendLockOutline from "./send-lock-outline";
 import SVG_sendLock from "./send-lock";
 import SVG_sendOutline from "./send-outline";
+import SVG_sendVariantClockOutline from "./send-variant-clock-outline";
+import SVG_sendVariantClock from "./send-variant-clock";
+import SVG_sendVariantOutline from "./send-variant-outline";
+import SVG_sendVariant from "./send-variant";
 import SVG_send from "./send";
 import SVG_serialPort from "./serial-port";
+import SVG_serverMinusOutline from "./server-minus-outline";
 import SVG_serverMinus from "./server-minus";
 import SVG_serverNetworkOff from "./server-network-off";
+import SVG_serverNetworkOutline from "./server-network-outline";
 import SVG_serverNetwork from "./server-network";
 import SVG_serverOff from "./server-off";
+import SVG_serverOutline from "./server-outline";
+import SVG_serverPlusOutline from "./server-plus-outline";
 import SVG_serverPlus from "./server-plus";
 import SVG_serverRemove from "./server-remove";
 import SVG_serverSecurity from "./server-security";
@@ -5575,6 +5959,7 @@ import SVG_shaker from "./shaker";
 import SVG_shapeCirclePlus from "./shape-circle-plus";
 import SVG_shapeOutline from "./shape-outline";
 import SVG_shapeOvalPlus from "./shape-oval-plus";
+import SVG_shapePlusOutline from "./shape-plus-outline";
 import SVG_shapePlus from "./shape-plus";
 import SVG_shapePolygonPlus from "./shape-polygon-plus";
 import SVG_shapeRectanglePlus from "./shape-rectangle-plus";
@@ -5684,13 +6069,14 @@ import SVG_signLanguage from "./sign-language";
 import SVG_signPole from "./sign-pole";
 import SVG_signRealEstate from "./sign-real-estate";
 import SVG_signText from "./sign-text";
-import SVG_signal_2g from "./signal-2g";
-import SVG_signal_3g from "./signal-3g";
-import SVG_signal_4g from "./signal-4g";
-import SVG_signal_5g from "./signal-5g";
-import SVG_signalCellular_1 from "./signal-cellular-1";
-import SVG_signalCellular_2 from "./signal-cellular-2";
-import SVG_signalCellular_3 from "./signal-cellular-3";
+import SVG_signYield from "./sign-yield";
+import SVG_signal2g from "./signal-2g";
+import SVG_signal3g from "./signal-3g";
+import SVG_signal4g from "./signal-4g";
+import SVG_signal5g from "./signal-5g";
+import SVG_signalCellular1 from "./signal-cellular-1";
+import SVG_signalCellular2 from "./signal-cellular-2";
+import SVG_signalCellular3 from "./signal-cellular-3";
 import SVG_signalCellularOutline from "./signal-cellular-outline";
 import SVG_signalDistanceVariant from "./signal-distance-variant";
 import SVG_signalHspaPlus from "./signal-hspa-plus";
@@ -5702,6 +6088,7 @@ import SVG_signatureFreehand from "./signature-freehand";
 import SVG_signatureImage from "./signature-image";
 import SVG_signatureText from "./signature-text";
 import SVG_signature from "./signature";
+import SVG_siloOutline from "./silo-outline";
 import SVG_silo from "./silo";
 import SVG_silverwareClean from "./silverware-clean";
 import SVG_silverwareForkKnife from "./silverware-fork-knife";
@@ -5805,8 +6192,8 @@ import SVG_snowmobile from "./snowmobile";
 import SVG_snowshoeing from "./snowshoeing";
 import SVG_soccerField from "./soccer-field";
 import SVG_soccer from "./soccer";
-import SVG_socialDistance_2Meters from "./social-distance-2-meters";
-import SVG_socialDistance_6Feet from "./social-distance-6-feet";
+import SVG_socialDistance2Meters from "./social-distance-2-meters";
+import SVG_socialDistance6Feet from "./social-distance-6-feet";
 import SVG_sofaOutline from "./sofa-outline";
 import SVG_sofaSingleOutline from "./sofa-single-outline";
 import SVG_sofaSingle from "./sofa-single";
@@ -5880,6 +6267,9 @@ import SVG_speakerBluetooth from "./speaker-bluetooth";
 import SVG_speakerMessage from "./speaker-message";
 import SVG_speakerMultiple from "./speaker-multiple";
 import SVG_speakerOff from "./speaker-off";
+import SVG_speakerPause from "./speaker-pause";
+import SVG_speakerPlay from "./speaker-play";
+import SVG_speakerStop from "./speaker-stop";
 import SVG_speakerWireless from "./speaker-wireless";
 import SVG_speaker from "./speaker";
 import SVG_spear from "./spear";
@@ -5889,6 +6279,7 @@ import SVG_speedometer from "./speedometer";
 import SVG_spellcheck from "./spellcheck";
 import SVG_sphereOff from "./sphere-off";
 import SVG_sphere from "./sphere";
+import SVG_spiderOutline from "./spider-outline";
 import SVG_spiderThread from "./spider-thread";
 import SVG_spiderWeb from "./spider-web";
 import SVG_spider from "./spider";
@@ -5904,6 +6295,7 @@ import SVG_sprinklerVariant from "./sprinkler-variant";
 import SVG_sprinkler from "./sprinkler";
 import SVG_sproutOutline from "./sprout-outline";
 import SVG_sprout from "./sprout";
+import SVG_squareCircleOutline from "./square-circle-outline";
 import SVG_squareCircle from "./square-circle";
 import SVG_squareEditOutline from "./square-edit-outline";
 import SVG_squareMediumOutline from "./square-medium-outline";
@@ -5948,7 +6340,12 @@ import SVG_starCog from "./star-cog";
 import SVG_starCrescent from "./star-crescent";
 import SVG_starDavid from "./star-david";
 import SVG_starFace from "./star-face";
+import SVG_starFourPointsBoxOutline from "./star-four-points-box-outline";
+import SVG_starFourPointsBox from "./star-four-points-box";
+import SVG_starFourPointsCircleOutline from "./star-four-points-circle-outline";
+import SVG_starFourPointsCircle from "./star-four-points-circle";
 import SVG_starFourPointsOutline from "./star-four-points-outline";
+import SVG_starFourPointsSmall from "./star-four-points-small";
 import SVG_starFourPoints from "./star-four-points";
 import SVG_starHalfFull from "./star-half-full";
 import SVG_starHalf from "./star-half";
@@ -5972,9 +6369,9 @@ import SVG_stateMachine from "./state-machine";
 import SVG_steam from "./steam";
 import SVG_steeringOff from "./steering-off";
 import SVG_steering from "./steering";
-import SVG_stepBackward_2 from "./step-backward-2";
+import SVG_stepBackward2 from "./step-backward-2";
 import SVG_stepBackward from "./step-backward";
-import SVG_stepForward_2 from "./step-forward-2";
+import SVG_stepForward2 from "./step-forward-2";
 import SVG_stepForward from "./step-forward";
 import SVG_stethoscope from "./stethoscope";
 import SVG_stickerAlertOutline from "./sticker-alert-outline";
@@ -6002,7 +6399,7 @@ import SVG_stopCircle from "./stop-circle";
 import SVG_stop from "./stop";
 import SVG_storageTankOutline from "./storage-tank-outline";
 import SVG_storageTank from "./storage-tank";
-import SVG_store_24Hour from "./store-24-hour";
+import SVG_store24Hour from "./store-24-hour";
 import SVG_storeAlertOutline from "./store-alert-outline";
 import SVG_storeAlert from "./store-alert";
 import SVG_storeCheckOutline from "./store-check-outline";
@@ -6029,7 +6426,17 @@ import SVG_storeSearch from "./store-search";
 import SVG_storeSettingsOutline from "./store-settings-outline";
 import SVG_storeSettings from "./store-settings";
 import SVG_store from "./store";
+import SVG_storefrontCheckOutline from "./storefront-check-outline";
+import SVG_storefrontCheck from "./storefront-check";
+import SVG_storefrontEditOutline from "./storefront-edit-outline";
+import SVG_storefrontEdit from "./storefront-edit";
+import SVG_storefrontMinusOutline from "./storefront-minus-outline";
+import SVG_storefrontMinus from "./storefront-minus";
 import SVG_storefrontOutline from "./storefront-outline";
+import SVG_storefrontPlusOutline from "./storefront-plus-outline";
+import SVG_storefrontPlus from "./storefront-plus";
+import SVG_storefrontRemoveOutline from "./storefront-remove-outline";
+import SVG_storefrontRemove from "./storefront-remove";
 import SVG_storefront from "./storefront";
 import SVG_stove from "./stove";
 import SVG_strategy from "./strategy";
@@ -6059,17 +6466,18 @@ import SVG_sunWirelessOutline from "./sun-wireless-outline";
 import SVG_sunWireless from "./sun-wireless";
 import SVG_sunglasses from "./sunglasses";
 import SVG_surfing from "./surfing";
-import SVG_surroundSound_2_0 from "./surround-sound-2-0";
-import SVG_surroundSound_2_1 from "./surround-sound-2-1";
-import SVG_surroundSound_3_1 from "./surround-sound-3-1";
-import SVG_surroundSound_5_1_2 from "./surround-sound-5-1-2";
-import SVG_surroundSound_5_1 from "./surround-sound-5-1";
-import SVG_surroundSound_7_1 from "./surround-sound-7-1";
+import SVG_surroundSound20 from "./surround-sound-2-0";
+import SVG_surroundSound21 from "./surround-sound-2-1";
+import SVG_surroundSound31 from "./surround-sound-3-1";
+import SVG_surroundSound512 from "./surround-sound-5-1-2";
+import SVG_surroundSound51 from "./surround-sound-5-1";
+import SVG_surroundSound71 from "./surround-sound-7-1";
 import SVG_surroundSound from "./surround-sound";
 import SVG_svg from "./svg";
 import SVG_swapHorizontalBold from "./swap-horizontal-bold";
 import SVG_swapHorizontalCircleOutline from "./swap-horizontal-circle-outline";
 import SVG_swapHorizontalCircle from "./swap-horizontal-circle";
+import SVG_swapHorizontalHidden from "./swap-horizontal-hidden";
 import SVG_swapHorizontalVariant from "./swap-horizontal-variant";
 import SVG_swapHorizontal from "./swap-horizontal";
 import SVG_swapVerticalBold from "./swap-vertical-bold";
@@ -6119,6 +6527,7 @@ import SVG_tableColumn from "./table-column";
 import SVG_tableEdit from "./table-edit";
 import SVG_tableEyeOff from "./table-eye-off";
 import SVG_tableEye from "./table-eye";
+import SVG_tableFilter from "./table-filter";
 import SVG_tableFurniture from "./table-furniture";
 import SVG_tableHeadersEyeOff from "./table-headers-eye-off";
 import SVG_tableHeadersEye from "./table-headers-eye";
@@ -6152,7 +6561,6 @@ import SVG_tableStar from "./table-star";
 import SVG_tableSync from "./table-sync";
 import SVG_tableTennis from "./table-tennis";
 import SVG_table from "./table";
-import SVG_tabletAndroid from "./tablet-android";
 import SVG_tabletCellphone from "./tablet-cellphone";
 import SVG_tabletDashboard from "./tablet-dashboard";
 import SVG_tablet from "./tablet";
@@ -6167,9 +6575,12 @@ import SVG_tagArrowUpOutline from "./tag-arrow-up-outline";
 import SVG_tagArrowUp from "./tag-arrow-up";
 import SVG_tagCheckOutline from "./tag-check-outline";
 import SVG_tagCheck from "./tag-check";
+import SVG_tagEditOutline from "./tag-edit-outline";
+import SVG_tagEdit from "./tag-edit";
 import SVG_tagFaces from "./tag-faces";
 import SVG_tagHeartOutline from "./tag-heart-outline";
 import SVG_tagHeart from "./tag-heart";
+import SVG_tagHidden from "./tag-hidden";
 import SVG_tagMinusOutline from "./tag-minus-outline";
 import SVG_tagMinus from "./tag-minus";
 import SVG_tagMultipleOutline from "./tag-multiple-outline";
@@ -6187,11 +6598,11 @@ import SVG_tagTextOutline from "./tag-text-outline";
 import SVG_tagText from "./tag-text";
 import SVG_tag from "./tag";
 import SVG_tailwind from "./tailwind";
-import SVG_tallyMark_1 from "./tally-mark-1";
-import SVG_tallyMark_2 from "./tally-mark-2";
-import SVG_tallyMark_3 from "./tally-mark-3";
-import SVG_tallyMark_4 from "./tally-mark-4";
-import SVG_tallyMark_5 from "./tally-mark-5";
+import SVG_tallyMark1 from "./tally-mark-1";
+import SVG_tallyMark2 from "./tally-mark-2";
+import SVG_tallyMark3 from "./tally-mark-3";
+import SVG_tallyMark4 from "./tally-mark-4";
+import SVG_tallyMark5 from "./tally-mark-5";
 import SVG_tangram from "./tangram";
 import SVG_tank from "./tank";
 import SVG_tankerTruck from "./tanker-truck";
@@ -6226,6 +6637,7 @@ import SVG_templeBuddhistOutline from "./temple-buddhist-outline";
 import SVG_templeBuddhist from "./temple-buddhist";
 import SVG_templeHinduOutline from "./temple-hindu-outline";
 import SVG_templeHindu from "./temple-hindu";
+import SVG_tennisBallOutline from "./tennis-ball-outline";
 import SVG_tennisBall from "./tennis-ball";
 import SVG_tennis from "./tennis";
 import SVG_tent from "./tent";
@@ -6257,8 +6669,6 @@ import SVG_textSearchVariant from "./text-search-variant";
 import SVG_textSearch from "./text-search";
 import SVG_textShadow from "./text-shadow";
 import SVG_textShort from "./text-short";
-import SVG_textToSpeechOff from "./text-to-speech-off";
-import SVG_textToSpeech from "./text-to-speech";
 import SVG_text from "./text";
 import SVG_textureBox from "./texture-box";
 import SVG_texture from "./texture";
@@ -6283,6 +6693,7 @@ import SVG_thermometer from "./thermometer";
 import SVG_thermostatAuto from "./thermostat-auto";
 import SVG_thermostatBoxAuto from "./thermostat-box-auto";
 import SVG_thermostatBox from "./thermostat-box";
+import SVG_thermostatCog from "./thermostat-cog";
 import SVG_thermostat from "./thermostat";
 import SVG_thoughtBubbleOutline from "./thought-bubble-outline";
 import SVG_thoughtBubble from "./thought-bubble";
@@ -6309,20 +6720,20 @@ import SVG_timelineCheckOutline from "./timeline-check-outline";
 import SVG_timelineCheck from "./timeline-check";
 import SVG_timelineClockOutline from "./timeline-clock-outline";
 import SVG_timelineClock from "./timeline-clock";
-import SVG_timelineHelpOutline from "./timeline-help-outline";
-import SVG_timelineHelp from "./timeline-help";
 import SVG_timelineMinusOutline from "./timeline-minus-outline";
 import SVG_timelineMinus from "./timeline-minus";
 import SVG_timelineOutline from "./timeline-outline";
 import SVG_timelinePlusOutline from "./timeline-plus-outline";
 import SVG_timelinePlus from "./timeline-plus";
+import SVG_timelineQuestionOutline from "./timeline-question-outline";
+import SVG_timelineQuestion from "./timeline-question";
 import SVG_timelineRemoveOutline from "./timeline-remove-outline";
 import SVG_timelineRemove from "./timeline-remove";
 import SVG_timelineTextOutline from "./timeline-text-outline";
 import SVG_timelineText from "./timeline-text";
 import SVG_timeline from "./timeline";
-import SVG_timer_10 from "./timer-10";
-import SVG_timer_3 from "./timer-3";
+import SVG_timer10 from "./timer-10";
+import SVG_timer3 from "./timer-3";
 import SVG_timerAlertOutline from "./timer-alert-outline";
 import SVG_timerAlert from "./timer-alert";
 import SVG_timerCancelOutline from "./timer-cancel-outline";
@@ -6398,6 +6809,8 @@ import SVG_tooltipMinus from "./tooltip-minus";
 import SVG_tooltipOutline from "./tooltip-outline";
 import SVG_tooltipPlusOutline from "./tooltip-plus-outline";
 import SVG_tooltipPlus from "./tooltip-plus";
+import SVG_tooltipQuestionOutline from "./tooltip-question-outline";
+import SVG_tooltipQuestion from "./tooltip-question";
 import SVG_tooltipRemoveOutline from "./tooltip-remove-outline";
 import SVG_tooltipRemove from "./tooltip-remove";
 import SVG_tooltipTextOutline from "./tooltip-text-outline";
@@ -6411,6 +6824,7 @@ import SVG_toothbrush from "./toothbrush";
 import SVG_torch from "./torch";
 import SVG_tortoise from "./tortoise";
 import SVG_toslink from "./toslink";
+import SVG_touchTextOutline from "./touch-text-outline";
 import SVG_tournament from "./tournament";
 import SVG_towTruck from "./tow-truck";
 import SVG_towerBeach from "./tower-beach";
@@ -6438,6 +6852,7 @@ import SVG_trademark from "./trademark";
 import SVG_trafficCone from "./traffic-cone";
 import SVG_trafficLightOutline from "./traffic-light-outline";
 import SVG_trafficLight from "./traffic-light";
+import SVG_trainBus from "./train-bus";
 import SVG_trainCarAutorack from "./train-car-autorack";
 import SVG_trainCarBoxFull from "./train-car-box-full";
 import SVG_trainCarBoxOpen from "./train-car-box-open";
@@ -6481,6 +6896,7 @@ import SVG_transitTransfer from "./transit-transfer";
 import SVG_transitionMasked from "./transition-masked";
 import SVG_transition from "./transition";
 import SVG_translateOff from "./translate-off";
+import SVG_translateVariant from "./translate-variant";
 import SVG_translate from "./translate";
 import SVG_transmissionTowerExport from "./transmission-tower-export";
 import SVG_transmissionTowerImport from "./transmission-tower-import";
@@ -6496,6 +6912,7 @@ import SVG_trayMinus from "./tray-minus";
 import SVG_trayPlus from "./tray-plus";
 import SVG_trayRemove from "./tray-remove";
 import SVG_tray from "./tray";
+import SVG_treasureChestOutline from "./treasure-chest-outline";
 import SVG_treasureChest from "./treasure-chest";
 import SVG_treeOutline from "./tree-outline";
 import SVG_tree from "./tree";
@@ -6503,6 +6920,8 @@ import SVG_trello from "./trello";
 import SVG_trendingDown from "./trending-down";
 import SVG_trendingNeutral from "./trending-neutral";
 import SVG_trendingUp from "./trending-up";
+import SVG_triangleDownOutline from "./triangle-down-outline";
+import SVG_triangleDown from "./triangle-down";
 import SVG_triangleOutline from "./triangle-outline";
 import SVG_triangleSmallDown from "./triangle-small-down";
 import SVG_triangleSmallUp from "./triangle-small-up";
@@ -6527,6 +6946,8 @@ import SVG_truckFast from "./truck-fast";
 import SVG_truckFlatbed from "./truck-flatbed";
 import SVG_truckMinusOutline from "./truck-minus-outline";
 import SVG_truckMinus from "./truck-minus";
+import SVG_truckOffRoadOff from "./truck-off-road-off";
+import SVG_truckOffRoad from "./truck-off-road";
 import SVG_truckOutline from "./truck-outline";
 import SVG_truckPlusOutline from "./truck-plus-outline";
 import SVG_truckPlus from "./truck-plus";
@@ -6572,6 +6993,7 @@ import SVG_umbrellaClosedVariant from "./umbrella-closed-variant";
 import SVG_umbrellaClosed from "./umbrella-closed";
 import SVG_umbrellaOutline from "./umbrella-outline";
 import SVG_umbrella from "./umbrella";
+import SVG_underwearOutline from "./underwear-outline";
 import SVG_undoVariant from "./undo-variant";
 import SVG_undo from "./undo";
 import SVG_unfoldLessHorizontal from "./unfold-less-horizontal";
@@ -6586,8 +7008,13 @@ import SVG_unicycle from "./unicycle";
 import SVG_unity from "./unity";
 import SVG_unreal from "./unreal";
 import SVG_update from "./update";
+import SVG_uploadBoxOutline from "./upload-box-outline";
+import SVG_uploadBox from "./upload-box";
+import SVG_uploadCircleOutline from "./upload-circle-outline";
+import SVG_uploadCircle from "./upload-circle";
 import SVG_uploadLockOutline from "./upload-lock-outline";
 import SVG_uploadLock from "./upload-lock";
+import SVG_uploadMultipleOutline from "./upload-multiple-outline";
 import SVG_uploadMultiple from "./upload-multiple";
 import SVG_uploadNetworkOutline from "./upload-network-outline";
 import SVG_uploadNetwork from "./upload-network";
@@ -6595,6 +7022,7 @@ import SVG_uploadOffOutline from "./upload-off-outline";
 import SVG_uploadOff from "./upload-off";
 import SVG_uploadOutline from "./upload-outline";
 import SVG_upload from "./upload";
+import SVG_usbCPort from "./usb-c-port";
 import SVG_usbFlashDriveOutline from "./usb-flash-drive-outline";
 import SVG_usbFlashDrive from "./usb-flash-drive";
 import SVG_usbPort from "./usb-port";
@@ -6625,6 +7053,10 @@ import SVG_vectorEllipse from "./vector-ellipse";
 import SVG_vectorIntersection from "./vector-intersection";
 import SVG_vectorLine from "./vector-line";
 import SVG_vectorLink from "./vector-link";
+import SVG_vectorPointEdit from "./vector-point-edit";
+import SVG_vectorPointMinus from "./vector-point-minus";
+import SVG_vectorPointPlus from "./vector-point-plus";
+import SVG_vectorPointSelect from "./vector-point-select";
 import SVG_vectorPoint from "./vector-point";
 import SVG_vectorPolygonVariant from "./vector-polygon-variant";
 import SVG_vectorPolygon from "./vector-polygon";
@@ -6648,11 +7080,11 @@ import SVG_vectorUnion from "./vector-union";
 import SVG_vhs from "./vhs";
 import SVG_vibrateOff from "./vibrate-off";
 import SVG_vibrate from "./vibrate";
-import SVG_video_2d from "./video-2d";
-import SVG_video_3dOff from "./video-3d-off";
-import SVG_video_3dVariant from "./video-3d-variant";
-import SVG_video_3d from "./video-3d";
-import SVG_video_4kBox from "./video-4k-box";
+import SVG_video2d from "./video-2d";
+import SVG_video3dOff from "./video-3d-off";
+import SVG_video3dVariant from "./video-3d-variant";
+import SVG_video3d from "./video-3d";
+import SVG_video4kBox from "./video-4k-box";
 import SVG_videoAccount from "./video-account";
 import SVG_videoBoxOff from "./video-box-off";
 import SVG_videoBox from "./video-box";
@@ -6675,6 +7107,7 @@ import SVG_videoOutline from "./video-outline";
 import SVG_videoPlusOutline from "./video-plus-outline";
 import SVG_videoPlus from "./video-plus";
 import SVG_videoStabilization from "./video-stabilization";
+import SVG_videoStandardDefinition from "./video-standard-definition";
 import SVG_videoSwitchOutline from "./video-switch-outline";
 import SVG_videoSwitch from "./video-switch";
 import SVG_videoVintage from "./video-vintage";
@@ -6703,6 +7136,7 @@ import SVG_viewDayOutline from "./view-day-outline";
 import SVG_viewDay from "./view-day";
 import SVG_viewGalleryOutline from "./view-gallery-outline";
 import SVG_viewGallery from "./view-gallery";
+import SVG_viewGridCompact from "./view-grid-compact";
 import SVG_viewGridOutline from "./view-grid-outline";
 import SVG_viewGridPlusOutline from "./view-grid-plus-outline";
 import SVG_viewGridPlus from "./view-grid-plus";
@@ -6765,6 +7199,8 @@ import SVG_wallSconceRoundVariant from "./wall-sconce-round-variant";
 import SVG_wallSconceRound from "./wall-sconce-round";
 import SVG_wallSconce from "./wall-sconce";
 import SVG_wall from "./wall";
+import SVG_walletBifoldOutline from "./wallet-bifold-outline";
+import SVG_walletBifold from "./wallet-bifold";
 import SVG_walletGiftcard from "./wallet-giftcard";
 import SVG_walletMembership from "./wallet-membership";
 import SVG_walletOutline from "./wallet-outline";
@@ -6791,6 +7227,7 @@ import SVG_watch from "./watch";
 import SVG_waterAlertOutline from "./water-alert-outline";
 import SVG_waterAlert from "./water-alert";
 import SVG_waterBoilerAlert from "./water-boiler-alert";
+import SVG_waterBoilerAuto from "./water-boiler-auto";
 import SVG_waterBoilerOff from "./water-boiler-off";
 import SVG_waterBoiler from "./water-boiler";
 import SVG_waterCheckOutline from "./water-check-outline";
@@ -6821,6 +7258,9 @@ import SVG_waterfall from "./waterfall";
 import SVG_wateringCanOutline from "./watering-can-outline";
 import SVG_wateringCan from "./watering-can";
 import SVG_watermark from "./watermark";
+import SVG_waveArrowDown from "./wave-arrow-down";
+import SVG_waveArrowUp from "./wave-arrow-up";
+import SVG_waveUndercurrent from "./wave-undercurrent";
 import SVG_wave from "./wave";
 import SVG_waveform from "./waveform";
 import SVG_wavesArrowLeft from "./waves-arrow-left";
@@ -6832,12 +7272,17 @@ import SVG_weatherCloudyAlert from "./weather-cloudy-alert";
 import SVG_weatherCloudyArrowRight from "./weather-cloudy-arrow-right";
 import SVG_weatherCloudyClock from "./weather-cloudy-clock";
 import SVG_weatherCloudy from "./weather-cloudy";
+import SVG_weatherDust from "./weather-dust";
 import SVG_weatherFog from "./weather-fog";
 import SVG_weatherHail from "./weather-hail";
 import SVG_weatherHazy from "./weather-hazy";
+import SVG_weatherHurricaneOutline from "./weather-hurricane-outline";
 import SVG_weatherHurricane from "./weather-hurricane";
 import SVG_weatherLightningRainy from "./weather-lightning-rainy";
 import SVG_weatherLightning from "./weather-lightning";
+import SVG_weatherMoonsetDown from "./weather-moonset-down";
+import SVG_weatherMoonsetUp from "./weather-moonset-up";
+import SVG_weatherMoonset from "./weather-moonset";
 import SVG_weatherNightPartlyCloudy from "./weather-night-partly-cloudy";
 import SVG_weatherNight from "./weather-night";
 import SVG_weatherPartlyCloudy from "./weather-partly-cloudy";
@@ -6913,22 +7358,22 @@ import SVG_wifiRefresh from "./wifi-refresh";
 import SVG_wifiRemove from "./wifi-remove";
 import SVG_wifiSettings from "./wifi-settings";
 import SVG_wifiStar from "./wifi-star";
-import SVG_wifiStrength_1Alert from "./wifi-strength-1-alert";
-import SVG_wifiStrength_1LockOpen from "./wifi-strength-1-lock-open";
-import SVG_wifiStrength_1Lock from "./wifi-strength-1-lock";
-import SVG_wifiStrength_1 from "./wifi-strength-1";
-import SVG_wifiStrength_2Alert from "./wifi-strength-2-alert";
-import SVG_wifiStrength_2LockOpen from "./wifi-strength-2-lock-open";
-import SVG_wifiStrength_2Lock from "./wifi-strength-2-lock";
-import SVG_wifiStrength_2 from "./wifi-strength-2";
-import SVG_wifiStrength_3Alert from "./wifi-strength-3-alert";
-import SVG_wifiStrength_3LockOpen from "./wifi-strength-3-lock-open";
-import SVG_wifiStrength_3Lock from "./wifi-strength-3-lock";
-import SVG_wifiStrength_3 from "./wifi-strength-3";
-import SVG_wifiStrength_4Alert from "./wifi-strength-4-alert";
-import SVG_wifiStrength_4LockOpen from "./wifi-strength-4-lock-open";
-import SVG_wifiStrength_4Lock from "./wifi-strength-4-lock";
-import SVG_wifiStrength_4 from "./wifi-strength-4";
+import SVG_wifiStrength1Alert from "./wifi-strength-1-alert";
+import SVG_wifiStrength1LockOpen from "./wifi-strength-1-lock-open";
+import SVG_wifiStrength1Lock from "./wifi-strength-1-lock";
+import SVG_wifiStrength1 from "./wifi-strength-1";
+import SVG_wifiStrength2Alert from "./wifi-strength-2-alert";
+import SVG_wifiStrength2LockOpen from "./wifi-strength-2-lock-open";
+import SVG_wifiStrength2Lock from "./wifi-strength-2-lock";
+import SVG_wifiStrength2 from "./wifi-strength-2";
+import SVG_wifiStrength3Alert from "./wifi-strength-3-alert";
+import SVG_wifiStrength3LockOpen from "./wifi-strength-3-lock-open";
+import SVG_wifiStrength3Lock from "./wifi-strength-3-lock";
+import SVG_wifiStrength3 from "./wifi-strength-3";
+import SVG_wifiStrength4Alert from "./wifi-strength-4-alert";
+import SVG_wifiStrength4LockOpen from "./wifi-strength-4-lock-open";
+import SVG_wifiStrength4Lock from "./wifi-strength-4-lock";
+import SVG_wifiStrength4 from "./wifi-strength-4";
 import SVG_wifiStrengthAlertOutline from "./wifi-strength-alert-outline";
 import SVG_wifiStrengthLockOpenOutline from "./wifi-strength-lock-open-outline";
 import SVG_wifiStrengthLockOutline from "./wifi-strength-lock-outline";
@@ -6952,6 +7397,7 @@ import SVG_windowOpenVariant from "./window-open-variant";
 import SVG_windowOpen from "./window-open";
 import SVG_windowRestore from "./window-restore";
 import SVG_windowShutterAlert from "./window-shutter-alert";
+import SVG_windowShutterAuto from "./window-shutter-auto";
 import SVG_windowShutterCog from "./window-shutter-cog";
 import SVG_windowShutterOpen from "./window-shutter-open";
 import SVG_windowShutterSettings from "./window-shutter-settings";
@@ -6964,7 +7410,12 @@ import SVG_wizardHat from "./wizard-hat";
 import SVG_wordpress from "./wordpress";
 import SVG_wrapDisabled from "./wrap-disabled";
 import SVG_wrap from "./wrap";
+import SVG_wrenchCheckOutline from "./wrench-check-outline";
+import SVG_wrenchCheck from "./wrench-check";
+import SVG_wrenchClockOutline from "./wrench-clock-outline";
 import SVG_wrenchClock from "./wrench-clock";
+import SVG_wrenchCogOutline from "./wrench-cog-outline";
+import SVG_wrenchCog from "./wrench-cog";
 import SVG_wrenchOutline from "./wrench-outline";
 import SVG_wrench from "./wrench";
 import SVG_xamarin from "./xamarin";
@@ -7000,7 +7451,7 @@ import SVG_zodiacTaurus from "./zodiac-taurus";
 import SVG_zodiacVirgo from "./zodiac-virgo"
 
 // types
-export type IconNames = "ab-testing" | "abacus" | "abjad-arabic" | "abjad-hebrew" | "abugida-devanagari" | "abugida-thai" | "access-point-check" | "access-point-minus" | "access-point-network-off" | "access-point-network" | "access-point-off" | "access-point-plus" | "access-point-remove" | "access-point" | "account-alert-outline" | "account-alert" | "account-arrow-down-outline" | "account-arrow-down" | "account-arrow-left-outline" | "account-arrow-left" | "account-arrow-right-outline" | "account-arrow-right" | "account-arrow-up-outline" | "account-arrow-up" | "account-badge-outline" | "account-badge" | "account-box-multiple-outline" | "account-box-multiple" | "account-box-outline" | "account-box" | "account-cancel-outline" | "account-cancel" | "account-cash-outline" | "account-cash" | "account-check-outline" | "account-check" | "account-child-circle" | "account-child-outline" | "account-child" | "account-circle-outline" | "account-circle" | "account-clock-outline" | "account-clock" | "account-cog-outline" | "account-cog" | "account-convert-outline" | "account-convert" | "account-cowboy-hat-outline" | "account-cowboy-hat" | "account-details-outline" | "account-details" | "account-edit-outline" | "account-edit" | "account-eye-outline" | "account-eye" | "account-filter-outline" | "account-filter" | "account-group-outline" | "account-group" | "account-hard-hat-outline" | "account-hard-hat" | "account-heart-outline" | "account-heart" | "account-injury-outline" | "account-injury" | "account-key-outline" | "account-key" | "account-lock-open-outline" | "account-lock-open" | "account-lock-outline" | "account-lock" | "account-minus-outline" | "account-minus" | "account-multiple-check-outline" | "account-multiple-check" | "account-multiple-minus-outline" | "account-multiple-minus" | "account-multiple-outline" | "account-multiple-plus-outline" | "account-multiple-plus" | "account-multiple-remove-outline" | "account-multiple-remove" | "account-multiple" | "account-music-outline" | "account-music" | "account-network-off-outline" | "account-network-off" | "account-network-outline" | "account-network" | "account-off-outline" | "account-off" | "account-outline" | "account-plus-outline" | "account-plus" | "account-question-outline" | "account-question" | "account-reactivate-outline" | "account-reactivate" | "account-remove-outline" | "account-remove" | "account-school-outline" | "account-school" | "account-search-outline" | "account-search" | "account-settings-outline" | "account-settings" | "account-star-outline" | "account-star" | "account-supervisor-circle-outline" | "account-supervisor-circle" | "account-supervisor-outline" | "account-supervisor" | "account-switch-outline" | "account-switch" | "account-sync-outline" | "account-sync" | "account-tie-hat-outline" | "account-tie-hat" | "account-tie-outline" | "account-tie-voice-off-outline" | "account-tie-voice-off" | "account-tie-voice-outline" | "account-tie-voice" | "account-tie-woman" | "account-tie" | "account-voice-off" | "account-voice" | "account-wrench-outline" | "account-wrench" | "account" | "adjust" | "advertisements-off" | "advertisements" | "air-conditioner" | "air-filter" | "air-horn" | "air-humidifier-off" | "air-humidifier" | "air-purifier" | "airbag" | "airballoon-outline" | "airballoon" | "airplane-alert" | "airplane-check" | "airplane-clock" | "airplane-cog" | "airplane-edit" | "airplane-landing" | "airplane-marker" | "airplane-minus" | "airplane-off" | "airplane-plus" | "airplane-remove" | "airplane-search" | "airplane-settings" | "airplane-takeoff" | "airplane" | "airport" | "alarm-bell" | "alarm-check" | "alarm-light-off-outline" | "alarm-light-off" | "alarm-light-outline" | "alarm-light" | "alarm-multiple" | "alarm-note-off" | "alarm-note" | "alarm-off" | "alarm-panel-outline" | "alarm-panel" | "alarm-plus" | "alarm-snooze" | "alarm" | "album" | "alert-box-outline" | "alert-box" | "alert-circle-check-outline" | "alert-circle-check" | "alert-circle-outline" | "alert-circle" | "alert-decagram-outline" | "alert-decagram" | "alert-minus-outline" | "alert-minus" | "alert-octagon-outline" | "alert-octagon" | "alert-octagram-outline" | "alert-octagram" | "alert-outline" | "alert-plus-outline" | "alert-plus" | "alert-remove-outline" | "alert-remove" | "alert-rhombus-outline" | "alert-rhombus" | "alert" | "alien-outline" | "alien" | "align-horizontal-center" | "align-horizontal-distribute" | "align-horizontal-left" | "align-horizontal-right" | "align-vertical-bottom" | "align-vertical-center" | "align-vertical-distribute" | "align-vertical-top" | "all-inclusive-box-outline" | "all-inclusive-box" | "all-inclusive" | "allergy" | "alpha-a-box-outline" | "alpha-a-box" | "alpha-a-circle-outline" | "alpha-a-circle" | "alpha-a" | "alpha-b-box-outline" | "alpha-b-box" | "alpha-b-circle-outline" | "alpha-b-circle" | "alpha-b" | "alpha-c-box-outline" | "alpha-c-box" | "alpha-c-circle-outline" | "alpha-c-circle" | "alpha-c" | "alpha-d-box-outline" | "alpha-d-box" | "alpha-d-circle-outline" | "alpha-d-circle" | "alpha-d" | "alpha-e-box-outline" | "alpha-e-box" | "alpha-e-circle-outline" | "alpha-e-circle" | "alpha-e" | "alpha-f-box-outline" | "alpha-f-box" | "alpha-f-circle-outline" | "alpha-f-circle" | "alpha-f" | "alpha-g-box-outline" | "alpha-g-box" | "alpha-g-circle-outline" | "alpha-g-circle" | "alpha-g" | "alpha-h-box-outline" | "alpha-h-box" | "alpha-h-circle-outline" | "alpha-h-circle" | "alpha-h" | "alpha-i-box-outline" | "alpha-i-box" | "alpha-i-circle-outline" | "alpha-i-circle" | "alpha-i" | "alpha-j-box-outline" | "alpha-j-box" | "alpha-j-circle-outline" | "alpha-j-circle" | "alpha-j" | "alpha-k-box-outline" | "alpha-k-box" | "alpha-k-circle-outline" | "alpha-k-circle" | "alpha-k" | "alpha-l-box-outline" | "alpha-l-box" | "alpha-l-circle-outline" | "alpha-l-circle" | "alpha-l" | "alpha-m-box-outline" | "alpha-m-box" | "alpha-m-circle-outline" | "alpha-m-circle" | "alpha-m" | "alpha-n-box-outline" | "alpha-n-box" | "alpha-n-circle-outline" | "alpha-n-circle" | "alpha-n" | "alpha-o-box-outline" | "alpha-o-box" | "alpha-o-circle-outline" | "alpha-o-circle" | "alpha-o" | "alpha-p-box-outline" | "alpha-p-box" | "alpha-p-circle-outline" | "alpha-p-circle" | "alpha-p" | "alpha-q-box-outline" | "alpha-q-box" | "alpha-q-circle-outline" | "alpha-q-circle" | "alpha-q" | "alpha-r-box-outline" | "alpha-r-box" | "alpha-r-circle-outline" | "alpha-r-circle" | "alpha-r" | "alpha-s-box-outline" | "alpha-s-box" | "alpha-s-circle-outline" | "alpha-s-circle" | "alpha-s" | "alpha-t-box-outline" | "alpha-t-box" | "alpha-t-circle-outline" | "alpha-t-circle" | "alpha-t" | "alpha-u-box-outline" | "alpha-u-box" | "alpha-u-circle-outline" | "alpha-u-circle" | "alpha-u" | "alpha-v-box-outline" | "alpha-v-box" | "alpha-v-circle-outline" | "alpha-v-circle" | "alpha-v" | "alpha-w-box-outline" | "alpha-w-box" | "alpha-w-circle-outline" | "alpha-w-circle" | "alpha-w" | "alpha-x-box-outline" | "alpha-x-box" | "alpha-x-circle-outline" | "alpha-x-circle" | "alpha-x" | "alpha-y-box-outline" | "alpha-y-box" | "alpha-y-circle-outline" | "alpha-y-circle" | "alpha-y" | "alpha-z-box-outline" | "alpha-z-box" | "alpha-z-circle-outline" | "alpha-z-circle" | "alpha-z" | "alpha" | "alphabet-aurebesh" | "alphabet-cyrillic" | "alphabet-greek" | "alphabet-latin" | "alphabet-piqad" | "alphabet-tengwar" | "alphabetical-off" | "alphabetical-variant-off" | "alphabetical-variant" | "alphabetical" | "altimeter" | "ambulance" | "ammunition" | "ampersand" | "amplifier-off" | "amplifier" | "anchor" | "android-messages" | "android-studio" | "android" | "angle-acute" | "angle-obtuse" | "angle-right" | "angular" | "angularjs" | "animation-outline" | "animation-play-outline" | "animation-play" | "animation" | "ansible" | "antenna" | "anvil" | "apache-kafka" | "api-off" | "api" | "apple-finder" | "apple-icloud" | "apple-ios" | "apple-keyboard-caps" | "apple-keyboard-command" | "apple-keyboard-control" | "apple-keyboard-option" | "apple-keyboard-shift" | "apple-safari" | "apple" | "application-array-outline" | "application-array" | "application-braces-outline" | "application-braces" | "application-brackets-outline" | "application-brackets" | "application-cog-outline" | "application-cog" | "application-edit-outline" | "application-edit" | "application-export" | "application-import" | "application-outline" | "application-parentheses-outline" | "application-parentheses" | "application-settings-outline" | "application-settings" | "application-variable-outline" | "application-variable" | "application" | "approximately-equal-box" | "approximately-equal" | "apps-box" | "apps" | "arch" | "archive-alert-outline" | "archive-alert" | "archive-arrow-down-outline" | "archive-arrow-down" | "archive-arrow-up-outline" | "archive-arrow-up" | "archive-cancel-outline" | "archive-cancel" | "archive-check-outline" | "archive-check" | "archive-clock-outline" | "archive-clock" | "archive-cog-outline" | "archive-cog" | "archive-edit-outline" | "archive-edit" | "archive-eye-outline" | "archive-eye" | "archive-lock-open-outline" | "archive-lock-open" | "archive-lock-outline" | "archive-lock" | "archive-marker-outline" | "archive-marker" | "archive-minus-outline" | "archive-minus" | "archive-music-outline" | "archive-music" | "archive-off-outline" | "archive-off" | "archive-outline" | "archive-plus-outline" | "archive-plus" | "archive-refresh-outline" | "archive-refresh" | "archive-remove-outline" | "archive-remove" | "archive-search-outline" | "archive-search" | "archive-settings-outline" | "archive-settings" | "archive-star-outline" | "archive-star" | "archive-sync-outline" | "archive-sync" | "archive" | "arm-flex-outline" | "arm-flex" | "arrange-bring-forward" | "arrange-bring-to-front" | "arrange-send-backward" | "arrange-send-to-back" | "arrow-all" | "arrow-bottom-left-bold-box-outline" | "arrow-bottom-left-bold-box" | "arrow-bottom-left-bold-outline" | "arrow-bottom-left-thick" | "arrow-bottom-left-thin-circle-outline" | "arrow-bottom-left-thin" | "arrow-bottom-left" | "arrow-bottom-right-bold-box-outline" | "arrow-bottom-right-bold-box" | "arrow-bottom-right-bold-outline" | "arrow-bottom-right-thick" | "arrow-bottom-right-thin-circle-outline" | "arrow-bottom-right-thin" | "arrow-bottom-right" | "arrow-collapse-all" | "arrow-collapse-down" | "arrow-collapse-horizontal" | "arrow-collapse-left" | "arrow-collapse-right" | "arrow-collapse-up" | "arrow-collapse-vertical" | "arrow-collapse" | "arrow-decision-auto-outline" | "arrow-decision-auto" | "arrow-decision-outline" | "arrow-decision" | "arrow-down-bold-box-outline" | "arrow-down-bold-box" | "arrow-down-bold-circle-outline" | "arrow-down-bold-circle" | "arrow-down-bold-hexagon-outline" | "arrow-down-bold-outline" | "arrow-down-bold" | "arrow-down-box" | "arrow-down-circle-outline" | "arrow-down-circle" | "arrow-down-drop-circle-outline" | "arrow-down-drop-circle" | "arrow-down-left-bold" | "arrow-down-left" | "arrow-down-right-bold" | "arrow-down-right" | "arrow-down-thick" | "arrow-down-thin-circle-outline" | "arrow-down-thin" | "arrow-down" | "arrow-expand-all" | "arrow-expand-down" | "arrow-expand-horizontal" | "arrow-expand-left" | "arrow-expand-right" | "arrow-expand-up" | "arrow-expand-vertical" | "arrow-expand" | "arrow-horizontal-lock" | "arrow-left-bold-box-outline" | "arrow-left-bold-box" | "arrow-left-bold-circle-outline" | "arrow-left-bold-circle" | "arrow-left-bold-hexagon-outline" | "arrow-left-bold-outline" | "arrow-left-bold" | "arrow-left-bottom-bold" | "arrow-left-bottom" | "arrow-left-box" | "arrow-left-circle-outline" | "arrow-left-circle" | "arrow-left-drop-circle-outline" | "arrow-left-drop-circle" | "arrow-left-right-bold-outline" | "arrow-left-right-bold" | "arrow-left-right" | "arrow-left-thick" | "arrow-left-thin-circle-outline" | "arrow-left-thin" | "arrow-left-top-bold" | "arrow-left-top" | "arrow-left" | "arrow-projectile-multiple" | "arrow-projectile" | "arrow-right-bold-box-outline" | "arrow-right-bold-box" | "arrow-right-bold-circle-outline" | "arrow-right-bold-circle" | "arrow-right-bold-hexagon-outline" | "arrow-right-bold-outline" | "arrow-right-bold" | "arrow-right-bottom-bold" | "arrow-right-bottom" | "arrow-right-box" | "arrow-right-circle-outline" | "arrow-right-circle" | "arrow-right-drop-circle-outline" | "arrow-right-drop-circle" | "arrow-right-thick" | "arrow-right-thin-circle-outline" | "arrow-right-thin" | "arrow-right-top-bold" | "arrow-right-top" | "arrow-right" | "arrow-split-horizontal" | "arrow-split-vertical" | "arrow-top-left-bold-box-outline" | "arrow-top-left-bold-box" | "arrow-top-left-bold-outline" | "arrow-top-left-bottom-right-bold" | "arrow-top-left-bottom-right" | "arrow-top-left-thick" | "arrow-top-left-thin-circle-outline" | "arrow-top-left-thin" | "arrow-top-left" | "arrow-top-right-bold-box-outline" | "arrow-top-right-bold-box" | "arrow-top-right-bold-outline" | "arrow-top-right-bottom-left-bold" | "arrow-top-right-bottom-left" | "arrow-top-right-thick" | "arrow-top-right-thin-circle-outline" | "arrow-top-right-thin" | "arrow-top-right" | "arrow-u-down-left-bold" | "arrow-u-down-left" | "arrow-u-down-right-bold" | "arrow-u-down-right" | "arrow-u-left-bottom-bold" | "arrow-u-left-bottom" | "arrow-u-left-top-bold" | "arrow-u-left-top" | "arrow-u-right-bottom-bold" | "arrow-u-right-bottom" | "arrow-u-right-top-bold" | "arrow-u-right-top" | "arrow-u-up-left-bold" | "arrow-u-up-left" | "arrow-u-up-right-bold" | "arrow-u-up-right" | "arrow-up-bold-box-outline" | "arrow-up-bold-box" | "arrow-up-bold-circle-outline" | "arrow-up-bold-circle" | "arrow-up-bold-hexagon-outline" | "arrow-up-bold-outline" | "arrow-up-bold" | "arrow-up-box" | "arrow-up-circle-outline" | "arrow-up-circle" | "arrow-up-down-bold-outline" | "arrow-up-down-bold" | "arrow-up-down" | "arrow-up-drop-circle-outline" | "arrow-up-drop-circle" | "arrow-up-left-bold" | "arrow-up-left" | "arrow-up-right-bold" | "arrow-up-right" | "arrow-up-thick" | "arrow-up-thin-circle-outline" | "arrow-up-thin" | "arrow-up" | "arrow-vertical-lock" | "artstation" | "aspect-ratio" | "assistant" | "asterisk-circle-outline" | "asterisk" | "at" | "atlassian" | "atm" | "atom-variant" | "atom" | "attachment-check" | "attachment-lock" | "attachment-minus" | "attachment-off" | "attachment-plus" | "attachment-remove" | "attachment" | "audio-input-rca" | "audio-input-stereo-minijack" | "audio-input-xlr" | "audio-video-off" | "audio-video" | "augmented-reality" | "auto-download" | "auto-fix" | "auto-upload" | "autorenew-off" | "autorenew" | "av-timer" | "aws" | "axe-battle" | "axe" | "axis-arrow-info" | "axis-arrow-lock" | "axis-arrow" | "axis-lock" | "axis-x-arrow-lock" | "axis-x-arrow" | "axis-x-rotate-clockwise" | "axis-x-rotate-counterclockwise" | "axis-x-y-arrow-lock" | "axis-y-arrow-lock" | "axis-y-arrow" | "axis-y-rotate-clockwise" | "axis-y-rotate-counterclockwise" | "axis-z-arrow-lock" | "axis-z-arrow" | "axis-z-rotate-clockwise" | "axis-z-rotate-counterclockwise" | "axis" | "babel" | "baby-bottle-outline" | "baby-bottle" | "baby-buggy-off" | "baby-buggy" | "baby-carriage-off" | "baby-carriage" | "baby-face-outline" | "baby-face" | "baby" | "backburger" | "backspace-outline" | "backspace-reverse-outline" | "backspace-reverse" | "backspace" | "backup-restore" | "bacteria-outline" | "bacteria" | "badge-account-alert-outline" | "badge-account-alert" | "badge-account-horizontal-outline" | "badge-account-horizontal" | "badge-account-outline" | "badge-account" | "badminton" | "bag-carry-on-check" | "bag-carry-on-off" | "bag-carry-on" | "bag-checked" | "bag-personal-off-outline" | "bag-personal-off" | "bag-personal-outline" | "bag-personal-tag-outline" | "bag-personal-tag" | "bag-personal" | "bag-suitcase-off-outline" | "bag-suitcase-off" | "bag-suitcase-outline" | "bag-suitcase" | "baguette" | "balcony" | "balloon" | "ballot-outline" | "ballot-recount-outline" | "ballot-recount" | "ballot" | "bandage" | "bank-check" | "bank-minus" | "bank-off-outline" | "bank-off" | "bank-outline" | "bank-plus" | "bank-remove" | "bank-transfer-in" | "bank-transfer-out" | "bank-transfer" | "bank" | "barcode-off" | "barcode-scan" | "barcode" | "barley-off" | "barley" | "barn" | "barrel-outline" | "barrel" | "baseball-bat" | "baseball-diamond-outline" | "baseball-diamond" | "baseball" | "bash" | "basket-check-outline" | "basket-check" | "basket-fill" | "basket-minus-outline" | "basket-minus" | "basket-off-outline" | "basket-off" | "basket-outline" | "basket-plus-outline" | "basket-plus" | "basket-remove-outline" | "basket-remove" | "basket-unfill" | "basket" | "basketball-hoop-outline" | "basketball-hoop" | "basketball" | "bat" | "bathtub-outline" | "bathtub" | "battery-10-bluetooth" | "battery-10" | "battery-20-bluetooth" | "battery-20" | "battery-30-bluetooth" | "battery-30" | "battery-40-bluetooth" | "battery-40" | "battery-50-bluetooth" | "battery-50" | "battery-60-bluetooth" | "battery-60" | "battery-70-bluetooth" | "battery-70" | "battery-80-bluetooth" | "battery-80" | "battery-90-bluetooth" | "battery-90" | "battery-alert-bluetooth" | "battery-alert-variant-outline" | "battery-alert-variant" | "battery-alert" | "battery-arrow-down-outline" | "battery-arrow-down" | "battery-arrow-up-outline" | "battery-arrow-up" | "battery-bluetooth-variant" | "battery-bluetooth" | "battery-charging-10" | "battery-charging-100" | "battery-charging-20" | "battery-charging-30" | "battery-charging-40" | "battery-charging-50" | "battery-charging-60" | "battery-charging-70" | "battery-charging-80" | "battery-charging-90" | "battery-charging-high" | "battery-charging-low" | "battery-charging-medium" | "battery-charging-outline" | "battery-charging-wireless-10" | "battery-charging-wireless-20" | "battery-charging-wireless-30" | "battery-charging-wireless-40" | "battery-charging-wireless-50" | "battery-charging-wireless-60" | "battery-charging-wireless-70" | "battery-charging-wireless-80" | "battery-charging-wireless-90" | "battery-charging-wireless-alert" | "battery-charging-wireless-outline" | "battery-charging-wireless" | "battery-charging" | "battery-check-outline" | "battery-check" | "battery-clock-outline" | "battery-clock" | "battery-heart-outline" | "battery-heart-variant" | "battery-heart" | "battery-high" | "battery-lock-open" | "battery-lock" | "battery-low" | "battery-medium" | "battery-minus-outline" | "battery-minus-variant" | "battery-minus" | "battery-negative" | "battery-off-outline" | "battery-off" | "battery-outline" | "battery-plus-outline" | "battery-plus-variant" | "battery-plus" | "battery-positive" | "battery-remove-outline" | "battery-remove" | "battery-sync-outline" | "battery-sync" | "battery-unknown-bluetooth" | "battery-unknown" | "battery" | "beach" | "beaker-alert-outline" | "beaker-alert" | "beaker-check-outline" | "beaker-check" | "beaker-minus-outline" | "beaker-minus" | "beaker-outline" | "beaker-plus-outline" | "beaker-plus" | "beaker-question-outline" | "beaker-question" | "beaker-remove-outline" | "beaker-remove" | "beaker" | "bed-double-outline" | "bed-double" | "bed-empty" | "bed-king-outline" | "bed-king" | "bed-outline" | "bed-queen-outline" | "bed-queen" | "bed-single-outline" | "bed-single" | "bed" | "bee-flower" | "bee" | "beehive-off-outline" | "beehive-outline" | "beekeeper" | "beer-outline" | "beer" | "bell-alert-outline" | "bell-alert" | "bell-badge-outline" | "bell-badge" | "bell-cancel-outline" | "bell-cancel" | "bell-check-outline" | "bell-check" | "bell-circle-outline" | "bell-circle" | "bell-cog-outline" | "bell-cog" | "bell-minus-outline" | "bell-minus" | "bell-off-outline" | "bell-off" | "bell-outline" | "bell-plus-outline" | "bell-plus" | "bell-remove-outline" | "bell-remove" | "bell-ring-outline" | "bell-ring" | "bell-sleep-outline" | "bell-sleep" | "bell" | "beta" | "betamax" | "biathlon" | "bicycle-basket" | "bicycle-cargo" | "bicycle-electric" | "bicycle-penny-farthing" | "bicycle" | "bike-fast" | "bike" | "billboard" | "billiards-rack" | "billiards" | "binoculars" | "bio" | "biohazard" | "bird" | "bitbucket" | "bitcoin" | "black-mesa" | "blender-outline" | "blender-software" | "blender" | "blinds-horizontal-closed" | "blinds-horizontal" | "blinds-open" | "blinds-vertical-closed" | "blinds-vertical" | "blinds" | "block-helper" | "blood-bag" | "bluetooth-audio" | "bluetooth-connect" | "bluetooth-off" | "bluetooth-settings" | "bluetooth-transfer" | "bluetooth" | "blur-linear" | "blur-off" | "blur-radial" | "blur" | "bolt" | "bomb-off" | "bomb" | "bone-off" | "bone" | "book-account-outline" | "book-account" | "book-alert-outline" | "book-alert" | "book-alphabet" | "book-arrow-down-outline" | "book-arrow-down" | "book-arrow-left-outline" | "book-arrow-left" | "book-arrow-right-outline" | "book-arrow-right" | "book-arrow-up-outline" | "book-arrow-up" | "book-cancel-outline" | "book-cancel" | "book-check-outline" | "book-check" | "book-clock-outline" | "book-clock" | "book-cog-outline" | "book-cog" | "book-cross" | "book-edit-outline" | "book-edit" | "book-education-outline" | "book-education" | "book-heart-outline" | "book-heart" | "book-information-variant" | "book-lock-open-outline" | "book-lock-open" | "book-lock-outline" | "book-lock" | "book-marker-outline" | "book-marker" | "book-minus-multiple-outline" | "book-minus-multiple" | "book-minus-outline" | "book-minus" | "book-multiple-outline" | "book-multiple" | "book-music-outline" | "book-music" | "book-off-outline" | "book-off" | "book-open-blank-variant" | "book-open-outline" | "book-open-page-variant-outline" | "book-open-page-variant" | "book-open-variant" | "book-open" | "book-outline" | "book-play-outline" | "book-play" | "book-plus-multiple-outline" | "book-plus-multiple" | "book-plus-outline" | "book-plus" | "book-refresh-outline" | "book-refresh" | "book-remove-multiple-outline" | "book-remove-multiple" | "book-remove-outline" | "book-remove" | "book-search-outline" | "book-search" | "book-settings-outline" | "book-settings" | "book-sync-outline" | "book-sync" | "book-variant-multiple" | "book-variant" | "book" | "bookmark-box-multiple-outline" | "bookmark-box-multiple" | "bookmark-check-outline" | "bookmark-check" | "bookmark-minus-outline" | "bookmark-minus" | "bookmark-multiple-outline" | "bookmark-multiple" | "bookmark-music-outline" | "bookmark-music" | "bookmark-off-outline" | "bookmark-off" | "bookmark-outline" | "bookmark-plus-outline" | "bookmark-plus" | "bookmark-remove-outline" | "bookmark-remove" | "bookmark" | "bookshelf" | "boom-gate-alert-outline" | "boom-gate-alert" | "boom-gate-arrow-down-outline" | "boom-gate-arrow-down" | "boom-gate-arrow-up-outline" | "boom-gate-arrow-up" | "boom-gate-outline" | "boom-gate-up-outline" | "boom-gate-up" | "boom-gate" | "boombox" | "boomerang" | "bootstrap" | "border-all-variant" | "border-all" | "border-bottom-variant" | "border-bottom" | "border-color" | "border-horizontal" | "border-inside" | "border-left-variant" | "border-left" | "border-none-variant" | "border-none" | "border-outside" | "border-radius" | "border-right-variant" | "border-right" | "border-style" | "border-top-variant" | "border-top" | "border-vertical" | "bottle-soda-classic-outline" | "bottle-soda-classic" | "bottle-soda-outline" | "bottle-soda" | "bottle-tonic-outline" | "bottle-tonic-plus-outline" | "bottle-tonic-plus" | "bottle-tonic-skull-outline" | "bottle-tonic-skull" | "bottle-tonic" | "bottle-wine-outline" | "bottle-wine" | "bow-arrow" | "bow-tie" | "bowl-mix-outline" | "bowl-mix" | "bowl-outline" | "bowl" | "bowling" | "box-cutter-off" | "box-cutter" | "box-shadow" | "box" | "boxing-glove" | "braille" | "brain" | "bread-slice-outline" | "bread-slice" | "bridge" | "briefcase-account-outline" | "briefcase-account" | "briefcase-arrow-left-right-outline" | "briefcase-arrow-left-right" | "briefcase-arrow-up-down-outline" | "briefcase-arrow-up-down" | "briefcase-check-outline" | "briefcase-check" | "briefcase-clock-outline" | "briefcase-clock" | "briefcase-download-outline" | "briefcase-download" | "briefcase-edit-outline" | "briefcase-edit" | "briefcase-eye-outline" | "briefcase-eye" | "briefcase-minus-outline" | "briefcase-minus" | "briefcase-off-outline" | "briefcase-off" | "briefcase-outline" | "briefcase-plus-outline" | "briefcase-plus" | "briefcase-remove-outline" | "briefcase-remove" | "briefcase-search-outline" | "briefcase-search" | "briefcase-upload-outline" | "briefcase-upload" | "briefcase-variant-off-outline" | "briefcase-variant-off" | "briefcase-variant-outline" | "briefcase-variant" | "briefcase" | "brightness-1" | "brightness-2" | "brightness-3" | "brightness-4" | "brightness-5" | "brightness-6" | "brightness-7" | "brightness-auto" | "brightness-percent" | "broadcast-off" | "broadcast" | "broom" | "brush-off" | "brush-outline" | "brush-variant" | "brush" | "bucket-outline" | "bucket" | "buffet" | "bug-check-outline" | "bug-check" | "bug-outline" | "bug-pause-outline" | "bug-pause" | "bug-play-outline" | "bug-play" | "bug-stop-outline" | "bug-stop" | "bug" | "bugle" | "bulkhead-light" | "bulldozer" | "bullet" | "bulletin-board" | "bullhorn-outline" | "bullhorn-variant-outline" | "bullhorn-variant" | "bullhorn" | "bullseye-arrow" | "bullseye" | "bulma" | "bunk-bed-outline" | "bunk-bed" | "bus-alert" | "bus-articulated-end" | "bus-articulated-front" | "bus-clock" | "bus-double-decker" | "bus-electric" | "bus-marker" | "bus-multiple" | "bus-school" | "bus-side" | "bus-stop-covered" | "bus-stop-uncovered" | "bus-stop" | "bus" | "butterfly-outline" | "butterfly" | "button-cursor" | "button-pointer" | "cabin-a-frame" | "cable-data" | "cached" | "cactus" | "cake-layered" | "cake-variant-outline" | "cake-variant" | "cake" | "calculator-variant-outline" | "calculator-variant" | "calculator" | "calendar-account-outline" | "calendar-account" | "calendar-alert" | "calendar-arrow-left" | "calendar-arrow-right" | "calendar-blank-multiple" | "calendar-blank-outline" | "calendar-blank" | "calendar-check-outline" | "calendar-check" | "calendar-clock-outline" | "calendar-clock" | "calendar-collapse-horizontal" | "calendar-cursor" | "calendar-edit" | "calendar-end" | "calendar-expand-horizontal" | "calendar-export" | "calendar-filter-outline" | "calendar-filter" | "calendar-heart" | "calendar-import" | "calendar-lock-outline" | "calendar-lock" | "calendar-minus" | "calendar-month-outline" | "calendar-month" | "calendar-multiple-check" | "calendar-multiple" | "calendar-multiselect" | "calendar-outline" | "calendar-plus" | "calendar-question" | "calendar-range-outline" | "calendar-range" | "calendar-refresh-outline" | "calendar-refresh" | "calendar-remove-outline" | "calendar-remove" | "calendar-search" | "calendar-star-outline" | "calendar-star" | "calendar-start" | "calendar-sync-outline" | "calendar-sync" | "calendar-text-outline" | "calendar-text" | "calendar-today-outline" | "calendar-today" | "calendar-week-begin-outline" | "calendar-week-begin" | "calendar-week-outline" | "calendar-week" | "calendar-weekend-outline" | "calendar-weekend" | "calendar" | "call-made" | "call-merge" | "call-missed" | "call-received" | "call-split" | "camcorder-off" | "camcorder" | "camera-account" | "camera-burst" | "camera-control" | "camera-document-off" | "camera-document" | "camera-enhance-outline" | "camera-enhance" | "camera-flip-outline" | "camera-flip" | "camera-front-variant" | "camera-front" | "camera-gopro" | "camera-image" | "camera-iris" | "camera-lock-outline" | "camera-lock" | "camera-marker-outline" | "camera-marker" | "camera-metering-center" | "camera-metering-matrix" | "camera-metering-partial" | "camera-metering-spot" | "camera-off-outline" | "camera-off" | "camera-outline" | "camera-party-mode" | "camera-plus-outline" | "camera-plus" | "camera-rear-variant" | "camera-rear" | "camera-retake-outline" | "camera-retake" | "camera-switch-outline" | "camera-switch" | "camera-timer" | "camera-wireless-outline" | "camera-wireless" | "camera" | "campfire" | "cancel" | "candelabra-fire" | "candelabra" | "candle" | "candy-off-outline" | "candy-off" | "candy-outline" | "candy" | "candycane" | "cannabis-off" | "cannabis" | "caps-lock" | "car-2-plus" | "car-3-plus" | "car-arrow-left" | "car-arrow-right" | "car-back" | "car-battery" | "car-brake-abs" | "car-brake-alert" | "car-brake-fluid-level" | "car-brake-hold" | "car-brake-low-pressure" | "car-brake-parking" | "car-brake-retarder" | "car-brake-temperature" | "car-brake-worn-linings" | "car-child-seat" | "car-clock" | "car-clutch" | "car-cog" | "car-connected" | "car-convertible" | "car-coolant-level" | "car-cruise-control" | "car-defrost-front" | "car-defrost-rear" | "car-door-lock" | "car-door" | "car-electric-outline" | "car-electric" | "car-emergency" | "car-esp" | "car-estate" | "car-hatchback" | "car-info" | "car-key" | "car-lifted-pickup" | "car-light-alert" | "car-light-dimmed" | "car-light-fog" | "car-light-high" | "car-limousine" | "car-multiple" | "car-off" | "car-outline" | "car-parking-lights" | "car-pickup" | "car-seat-cooler" | "car-seat-heater" | "car-seat" | "car-select" | "car-settings" | "car-shift-pattern" | "car-side" | "car-speed-limiter" | "car-sports" | "car-tire-alert" | "car-traction-control" | "car-turbocharger" | "car-wash" | "car-windshield-outline" | "car-windshield" | "car-wireless" | "car-wrench" | "car" | "carabiner" | "caravan" | "card-account-details-outline" | "card-account-details-star-outline" | "card-account-details-star" | "card-account-details" | "card-account-mail-outline" | "card-account-mail" | "card-account-phone-outline" | "card-account-phone" | "card-bulleted-off-outline" | "card-bulleted-off" | "card-bulleted-outline" | "card-bulleted-settings-outline" | "card-bulleted-settings" | "card-bulleted" | "card-minus-outline" | "card-minus" | "card-multiple-outline" | "card-multiple" | "card-off-outline" | "card-off" | "card-outline" | "card-plus-outline" | "card-plus" | "card-remove-outline" | "card-remove" | "card-search-outline" | "card-search" | "card-text-outline" | "card-text" | "card" | "cards-club-outline" | "cards-club" | "cards-diamond-outline" | "cards-diamond" | "cards-heart-outline" | "cards-heart" | "cards-outline" | "cards-playing-club-multiple-outline" | "cards-playing-club-multiple" | "cards-playing-club-outline" | "cards-playing-club" | "cards-playing-diamond-multiple-outline" | "cards-playing-diamond-multiple" | "cards-playing-diamond-outline" | "cards-playing-diamond" | "cards-playing-heart-multiple-outline" | "cards-playing-heart-multiple" | "cards-playing-heart-outline" | "cards-playing-heart" | "cards-playing-outline" | "cards-playing-spade-multiple-outline" | "cards-playing-spade-multiple" | "cards-playing-spade-outline" | "cards-playing-spade" | "cards-playing" | "cards-spade-outline" | "cards-spade" | "cards-variant" | "cards" | "carrot" | "cart-arrow-down" | "cart-arrow-right" | "cart-arrow-up" | "cart-check" | "cart-heart" | "cart-minus" | "cart-off" | "cart-outline" | "cart-plus" | "cart-remove" | "cart-variant" | "cart" | "case-sensitive-alt" | "cash-100" | "cash-check" | "cash-clock" | "cash-fast" | "cash-lock-open" | "cash-lock" | "cash-marker" | "cash-minus" | "cash-multiple" | "cash-plus" | "cash-refund" | "cash-register" | "cash-remove" | "cash-sync" | "cash" | "cassette" | "cast-audio-variant" | "cast-audio" | "cast-connected" | "cast-education" | "cast-off" | "cast-variant" | "cast" | "castle" | "cat" | "cctv-off" | "cctv" | "ceiling-fan-light" | "ceiling-fan" | "ceiling-light-multiple-outline" | "ceiling-light-multiple" | "ceiling-light-outline" | "ceiling-light" | "cellphone-arrow-down-variant" | "cellphone-arrow-down" | "cellphone-basic" | "cellphone-charging" | "cellphone-check" | "cellphone-cog" | "cellphone-dock" | "cellphone-information" | "cellphone-key" | "cellphone-link-off" | "cellphone-link" | "cellphone-lock" | "cellphone-marker" | "cellphone-message-off" | "cellphone-message" | "cellphone-nfc-off" | "cellphone-nfc" | "cellphone-off" | "cellphone-play" | "cellphone-remove" | "cellphone-screenshot" | "cellphone-settings" | "cellphone-sound" | "cellphone-text" | "cellphone-wireless" | "cellphone" | "centos" | "certificate-outline" | "certificate" | "chair-rolling" | "chair-school" | "chandelier" | "charity" | "chart-arc" | "chart-areaspline-variant" | "chart-areaspline" | "chart-bar-stacked" | "chart-bar" | "chart-bell-curve-cumulative" | "chart-bell-curve" | "chart-box-outline" | "chart-box-plus-outline" | "chart-box" | "chart-bubble" | "chart-donut-variant" | "chart-donut" | "chart-gantt" | "chart-histogram" | "chart-line-stacked" | "chart-line-variant" | "chart-line" | "chart-multiline" | "chart-multiple" | "chart-pie" | "chart-ppf" | "chart-sankey-variant" | "chart-sankey" | "chart-scatter-plot-hexbin" | "chart-scatter-plot" | "chart-timeline-variant-shimmer" | "chart-timeline-variant" | "chart-timeline" | "chart-tree" | "chart-waterfall" | "chat-alert-outline" | "chat-alert" | "chat-minus-outline" | "chat-minus" | "chat-outline" | "chat-plus-outline" | "chat-plus" | "chat-processing-outline" | "chat-processing" | "chat-question-outline" | "chat-question" | "chat-remove-outline" | "chat-remove" | "chat-sleep-outline" | "chat-sleep" | "chat" | "check-all" | "check-bold" | "check-circle-outline" | "check-circle" | "check-decagram-outline" | "check-decagram" | "check-network-outline" | "check-network" | "check-outline" | "check-underline-circle-outline" | "check-underline-circle" | "check-underline" | "check" | "checkbook" | "checkbox-blank-badge-outline" | "checkbox-blank-badge" | "checkbox-blank-circle-outline" | "checkbox-blank-circle" | "checkbox-blank-off-outline" | "checkbox-blank-off" | "checkbox-blank-outline" | "checkbox-blank" | "checkbox-intermediate-variant" | "checkbox-intermediate" | "checkbox-marked-circle-outline" | "checkbox-marked-circle-plus-outline" | "checkbox-marked-circle" | "checkbox-marked-outline" | "checkbox-marked" | "checkbox-multiple-blank-circle-outline" | "checkbox-multiple-blank-circle" | "checkbox-multiple-blank-outline" | "checkbox-multiple-blank" | "checkbox-multiple-marked-circle-outline" | "checkbox-multiple-marked-circle" | "checkbox-multiple-marked-outline" | "checkbox-multiple-marked" | "checkbox-multiple-outline" | "checkbox-outline" | "checkerboard-minus" | "checkerboard-plus" | "checkerboard-remove" | "checkerboard" | "cheese-off" | "cheese" | "chef-hat" | "chemical-weapon" | "chess-bishop" | "chess-king" | "chess-knight" | "chess-pawn" | "chess-queen" | "chess-rook" | "chevron-double-down" | "chevron-double-left" | "chevron-double-right" | "chevron-double-up" | "chevron-down-box-outline" | "chevron-down-box" | "chevron-down-circle-outline" | "chevron-down-circle" | "chevron-down" | "chevron-left-box-outline" | "chevron-left-box" | "chevron-left-circle-outline" | "chevron-left-circle" | "chevron-left" | "chevron-right-box-outline" | "chevron-right-box" | "chevron-right-circle-outline" | "chevron-right-circle" | "chevron-right" | "chevron-triple-down" | "chevron-triple-left" | "chevron-triple-right" | "chevron-triple-up" | "chevron-up-box-outline" | "chevron-up-box" | "chevron-up-circle-outline" | "chevron-up-circle" | "chevron-up" | "chili-alert-outline" | "chili-alert" | "chili-hot-outline" | "chili-hot" | "chili-medium-outline" | "chili-medium" | "chili-mild-outline" | "chili-mild" | "chili-off-outline" | "chili-off" | "chip" | "church-outline" | "church" | "cigar-off" | "cigar" | "circle-box-outline" | "circle-box" | "circle-double" | "circle-edit-outline" | "circle-expand" | "circle-half-full" | "circle-half" | "circle-medium" | "circle-multiple-outline" | "circle-multiple" | "circle-off-outline" | "circle-opacity" | "circle-outline" | "circle-slice-1" | "circle-slice-2" | "circle-slice-3" | "circle-slice-4" | "circle-slice-5" | "circle-slice-6" | "circle-slice-7" | "circle-slice-8" | "circle-small" | "circle" | "circular-saw" | "city-variant-outline" | "city-variant" | "city" | "clipboard-account-outline" | "clipboard-account" | "clipboard-alert-outline" | "clipboard-alert" | "clipboard-arrow-down-outline" | "clipboard-arrow-down" | "clipboard-arrow-left-outline" | "clipboard-arrow-left" | "clipboard-arrow-right-outline" | "clipboard-arrow-right" | "clipboard-arrow-up-outline" | "clipboard-arrow-up" | "clipboard-check-multiple-outline" | "clipboard-check-multiple" | "clipboard-check-outline" | "clipboard-check" | "clipboard-clock-outline" | "clipboard-clock" | "clipboard-edit-outline" | "clipboard-edit" | "clipboard-file-outline" | "clipboard-file" | "clipboard-flow-outline" | "clipboard-flow" | "clipboard-list-outline" | "clipboard-list" | "clipboard-minus-outline" | "clipboard-minus" | "clipboard-multiple-outline" | "clipboard-multiple" | "clipboard-off-outline" | "clipboard-off" | "clipboard-outline" | "clipboard-play-multiple-outline" | "clipboard-play-multiple" | "clipboard-play-outline" | "clipboard-play" | "clipboard-plus-outline" | "clipboard-plus" | "clipboard-pulse-outline" | "clipboard-pulse" | "clipboard-remove-outline" | "clipboard-remove" | "clipboard-search-outline" | "clipboard-search" | "clipboard-text-clock-outline" | "clipboard-text-clock" | "clipboard-text-multiple-outline" | "clipboard-text-multiple" | "clipboard-text-off-outline" | "clipboard-text-off" | "clipboard-text-outline" | "clipboard-text-play-outline" | "clipboard-text-play" | "clipboard-text-search-outline" | "clipboard-text-search" | "clipboard-text" | "clipboard" | "clippy" | "clock-alert-outline" | "clock-alert" | "clock-check-outline" | "clock-check" | "clock-digital" | "clock-edit-outline" | "clock-edit" | "clock-end" | "clock-fast" | "clock-in" | "clock-minus-outline" | "clock-minus" | "clock-out" | "clock-outline" | "clock-plus-outline" | "clock-plus" | "clock-remove-outline" | "clock-remove" | "clock-start" | "clock-time-eight-outline" | "clock-time-eight" | "clock-time-eleven-outline" | "clock-time-eleven" | "clock-time-five-outline" | "clock-time-five" | "clock-time-four-outline" | "clock-time-four" | "clock-time-nine-outline" | "clock-time-nine" | "clock-time-one-outline" | "clock-time-one" | "clock-time-seven-outline" | "clock-time-seven" | "clock-time-six-outline" | "clock-time-six" | "clock-time-ten-outline" | "clock-time-ten" | "clock-time-three-outline" | "clock-time-three" | "clock-time-twelve-outline" | "clock-time-twelve" | "clock-time-two-outline" | "clock-time-two" | "clock" | "close-box-multiple-outline" | "close-box-multiple" | "close-box-outline" | "close-box" | "close-circle-multiple-outline" | "close-circle-multiple" | "close-circle-outline" | "close-circle" | "close-network-outline" | "close-network" | "close-octagon-outline" | "close-octagon" | "close-outline" | "close-thick" | "close" | "closed-caption-outline" | "closed-caption" | "cloud-alert" | "cloud-braces" | "cloud-check-outline" | "cloud-check" | "cloud-circle" | "cloud-download-outline" | "cloud-download" | "cloud-lock-outline" | "cloud-lock" | "cloud-off-outline" | "cloud-outline" | "cloud-percent-outline" | "cloud-percent" | "cloud-print-outline" | "cloud-print" | "cloud-question" | "cloud-refresh" | "cloud-search-outline" | "cloud-search" | "cloud-sync-outline" | "cloud-sync" | "cloud-tags" | "cloud-upload-outline" | "cloud-upload" | "cloud" | "clover" | "coach-lamp-variant" | "coach-lamp" | "coat-rack" | "code-array" | "code-braces-box" | "code-braces" | "code-brackets" | "code-equal" | "code-greater-than-or-equal" | "code-greater-than" | "code-json" | "code-less-than-or-equal" | "code-less-than" | "code-not-equal-variant" | "code-not-equal" | "code-parentheses-box" | "code-parentheses" | "code-string" | "code-tags-check" | "code-tags" | "codepen" | "coffee-maker-check-outline" | "coffee-maker-check" | "coffee-maker-outline" | "coffee-maker" | "coffee-off-outline" | "coffee-off" | "coffee-outline" | "coffee-to-go-outline" | "coffee-to-go" | "coffee" | "coffin" | "cog-box" | "cog-clockwise" | "cog-counterclockwise" | "cog-off-outline" | "cog-off" | "cog-outline" | "cog-pause-outline" | "cog-pause" | "cog-play-outline" | "cog-play" | "cog-refresh-outline" | "cog-refresh" | "cog-stop-outline" | "cog-stop" | "cog-sync-outline" | "cog-sync" | "cog-transfer-outline" | "cog-transfer" | "cog" | "cogs" | "collage" | "collapse-all-outline" | "collapse-all" | "color-helper" | "comma-box-outline" | "comma-box" | "comma-circle-outline" | "comma-circle" | "comma" | "comment-account-outline" | "comment-account" | "comment-alert-outline" | "comment-alert" | "comment-arrow-left-outline" | "comment-arrow-left" | "comment-arrow-right-outline" | "comment-arrow-right" | "comment-bookmark-outline" | "comment-bookmark" | "comment-check-outline" | "comment-check" | "comment-edit-outline" | "comment-edit" | "comment-eye-outline" | "comment-eye" | "comment-flash-outline" | "comment-flash" | "comment-minus-outline" | "comment-minus" | "comment-multiple-outline" | "comment-multiple" | "comment-off-outline" | "comment-off" | "comment-outline" | "comment-plus-outline" | "comment-plus" | "comment-processing-outline" | "comment-processing" | "comment-question-outline" | "comment-question" | "comment-quote-outline" | "comment-quote" | "comment-remove-outline" | "comment-remove" | "comment-search-outline" | "comment-search" | "comment-text-multiple-outline" | "comment-text-multiple" | "comment-text-outline" | "comment-text" | "comment" | "compare-horizontal" | "compare-remove" | "compare-vertical" | "compare" | "compass-off-outline" | "compass-off" | "compass-outline" | "compass-rose" | "compass" | "compost" | "cone-off" | "cone" | "connection" | "console-line" | "console-network-outline" | "console-network" | "console" | "consolidate" | "contactless-payment-circle-outline" | "contactless-payment-circle" | "contactless-payment" | "contacts-outline" | "contacts" | "contain-end" | "contain-start" | "contain" | "content-copy" | "content-cut" | "content-duplicate" | "content-paste" | "content-save-alert-outline" | "content-save-alert" | "content-save-all-outline" | "content-save-all" | "content-save-check-outline" | "content-save-check" | "content-save-cog-outline" | "content-save-cog" | "content-save-edit-outline" | "content-save-edit" | "content-save-minus-outline" | "content-save-minus" | "content-save-move-outline" | "content-save-move" | "content-save-off-outline" | "content-save-off" | "content-save-outline" | "content-save-plus-outline" | "content-save-plus" | "content-save-settings-outline" | "content-save-settings" | "content-save" | "contrast-box" | "contrast-circle" | "contrast" | "controller-classic-outline" | "controller-classic" | "cookie-alert-outline" | "cookie-alert" | "cookie-check-outline" | "cookie-check" | "cookie-clock-outline" | "cookie-clock" | "cookie-cog-outline" | "cookie-cog" | "cookie-edit-outline" | "cookie-edit" | "cookie-lock-outline" | "cookie-lock" | "cookie-minus-outline" | "cookie-minus" | "cookie-off-outline" | "cookie-off" | "cookie-outline" | "cookie-plus-outline" | "cookie-plus" | "cookie-refresh-outline" | "cookie-refresh" | "cookie-remove-outline" | "cookie-remove" | "cookie-settings-outline" | "cookie-settings" | "cookie" | "coolant-temperature" | "copyleft" | "copyright" | "cordova" | "corn-off" | "corn" | "cosine-wave" | "counter" | "countertop-outline" | "countertop" | "cow-off" | "cow" | "cpu-32-bit" | "cpu-64-bit" | "cradle-outline" | "cradle" | "crane" | "creation" | "creative-commons" | "credit-card-check-outline" | "credit-card-check" | "credit-card-chip-outline" | "credit-card-chip" | "credit-card-clock-outline" | "credit-card-clock" | "credit-card-edit-outline" | "credit-card-edit" | "credit-card-fast-outline" | "credit-card-fast" | "credit-card-lock-outline" | "credit-card-lock" | "credit-card-marker-outline" | "credit-card-marker" | "credit-card-minus-outline" | "credit-card-minus" | "credit-card-multiple-outline" | "credit-card-multiple" | "credit-card-off-outline" | "credit-card-off" | "credit-card-outline" | "credit-card-plus-outline" | "credit-card-plus" | "credit-card-refresh-outline" | "credit-card-refresh" | "credit-card-refund-outline" | "credit-card-refund" | "credit-card-remove-outline" | "credit-card-remove" | "credit-card-scan-outline" | "credit-card-scan" | "credit-card-search-outline" | "credit-card-search" | "credit-card-settings-outline" | "credit-card-settings" | "credit-card-sync-outline" | "credit-card-sync" | "credit-card-wireless-off-outline" | "credit-card-wireless-off" | "credit-card-wireless-outline" | "credit-card-wireless" | "credit-card" | "cricket" | "crop-free" | "crop-landscape" | "crop-portrait" | "crop-rotate" | "crop-square" | "crop" | "cross-bolnisi" | "cross-celtic" | "cross-outline" | "cross" | "crosshairs-gps" | "crosshairs-off" | "crosshairs-question" | "crosshairs" | "crowd" | "crown-circle-outline" | "crown-circle" | "crown-outline" | "crown" | "cryengine" | "crystal-ball" | "cube-off-outline" | "cube-off" | "cube-outline" | "cube-scan" | "cube-send" | "cube-unfolded" | "cube" | "cup-off-outline" | "cup-off" | "cup-outline" | "cup-water" | "cup" | "cupboard-outline" | "cupboard" | "cupcake" | "curling" | "currency-bdt" | "currency-brl" | "currency-btc" | "currency-cny" | "currency-eth" | "currency-eur-off" | "currency-eur" | "currency-fra" | "currency-gbp" | "currency-ils" | "currency-inr" | "currency-jpy" | "currency-krw" | "currency-kzt" | "currency-mnt" | "currency-ngn" | "currency-php" | "currency-rial" | "currency-rub" | "currency-rupee" | "currency-sign" | "currency-try" | "currency-twd" | "currency-usd-off" | "currency-usd" | "current-ac" | "current-dc" | "cursor-default-click-outline" | "cursor-default-click" | "cursor-default-gesture-outline" | "cursor-default-gesture" | "cursor-default-outline" | "cursor-default" | "cursor-move" | "cursor-pointer" | "cursor-text" | "curtains-closed" | "curtains" | "cylinder-off" | "cylinder" | "dance-ballroom" | "dance-pole" | "data-matrix-edit" | "data-matrix-minus" | "data-matrix-plus" | "data-matrix-remove" | "data-matrix-scan" | "data-matrix" | "database-alert-outline" | "database-alert" | "database-arrow-down-outline" | "database-arrow-down" | "database-arrow-left-outline" | "database-arrow-left" | "database-arrow-right-outline" | "database-arrow-right" | "database-arrow-up-outline" | "database-arrow-up" | "database-check-outline" | "database-check" | "database-clock-outline" | "database-clock" | "database-cog-outline" | "database-cog" | "database-edit-outline" | "database-edit" | "database-export-outline" | "database-export" | "database-eye-off-outline" | "database-eye-off" | "database-eye-outline" | "database-eye" | "database-import-outline" | "database-import" | "database-lock-outline" | "database-lock" | "database-marker-outline" | "database-marker" | "database-minus-outline" | "database-minus" | "database-off-outline" | "database-off" | "database-outline" | "database-plus-outline" | "database-plus" | "database-refresh-outline" | "database-refresh" | "database-remove-outline" | "database-remove" | "database-search-outline" | "database-search" | "database-settings-outline" | "database-settings" | "database-sync-outline" | "database-sync" | "database" | "death-star-variant" | "death-star" | "deathly-hallows" | "debian" | "debug-step-into" | "debug-step-out" | "debug-step-over" | "decagram-outline" | "decagram" | "decimal-comma-decrease" | "decimal-comma-increase" | "decimal-comma" | "decimal-decrease" | "decimal-increase" | "decimal" | "delete-alert-outline" | "delete-alert" | "delete-circle-outline" | "delete-circle" | "delete-clock-outline" | "delete-clock" | "delete-empty-outline" | "delete-empty" | "delete-forever-outline" | "delete-forever" | "delete-off-outline" | "delete-off" | "delete-outline" | "delete-restore" | "delete-sweep-outline" | "delete-sweep" | "delete-variant" | "delete" | "delta" | "desk-lamp-off" | "desk-lamp-on" | "desk-lamp" | "desk" | "deskphone" | "desktop-classic" | "desktop-mac-dashboard" | "desktop-mac" | "desktop-tower-monitor" | "desktop-tower" | "details" | "dev-to" | "developer-board" | "deviantart" | "devices" | "dharmachakra" | "diabetes" | "dialpad" | "diameter-outline" | "diameter-variant" | "diameter" | "diamond-outline" | "diamond-stone" | "diamond" | "dice-1-outline" | "dice-1" | "dice-2-outline" | "dice-2" | "dice-3-outline" | "dice-3" | "dice-4-outline" | "dice-4" | "dice-5-outline" | "dice-5" | "dice-6-outline" | "dice-6" | "dice-d10-outline" | "dice-d10" | "dice-d12-outline" | "dice-d12" | "dice-d20-outline" | "dice-d20" | "dice-d4-outline" | "dice-d4" | "dice-d6-outline" | "dice-d6" | "dice-d8-outline" | "dice-d8" | "dice-multiple-outline" | "dice-multiple" | "digital-ocean" | "dip-switch" | "directions-fork" | "directions" | "disc-alert" | "disc-player" | "disc" | "discord" | "dishwasher-alert" | "dishwasher-off" | "dishwasher" | "disqus" | "distribute-horizontal-center" | "distribute-horizontal-left" | "distribute-horizontal-right" | "distribute-vertical-bottom" | "distribute-vertical-center" | "distribute-vertical-top" | "diversify" | "diving-flippers" | "diving-helmet" | "diving-scuba-flag" | "diving-scuba-tank-multiple" | "diving-scuba-tank" | "diving-scuba" | "diving-snorkel" | "diving" | "division-box" | "division" | "dlna" | "dna" | "dns-outline" | "dns" | "dock-bottom" | "dock-left" | "dock-right" | "dock-top" | "dock-window" | "docker" | "doctor" | "dog-service" | "dog-side-off" | "dog-side" | "dog" | "dolby" | "dolly" | "dolphin" | "domain-off" | "domain-plus" | "domain-remove" | "domain" | "dome-light" | "domino-mask" | "donkey" | "door-closed-lock" | "door-closed" | "door-open" | "door-sliding-lock" | "door-sliding-open" | "door-sliding" | "door" | "doorbell-video" | "doorbell" | "dot-net" | "dots-circle" | "dots-grid" | "dots-hexagon" | "dots-horizontal-circle-outline" | "dots-horizontal-circle" | "dots-horizontal" | "dots-square" | "dots-triangle" | "dots-vertical-circle-outline" | "dots-vertical-circle" | "dots-vertical" | "download-box-outline" | "download-box" | "download-circle-outline" | "download-circle" | "download-lock-outline" | "download-lock" | "download-multiple" | "download-network-outline" | "download-network" | "download-off-outline" | "download-off" | "download-outline" | "download" | "drag-horizontal-variant" | "drag-horizontal" | "drag-variant" | "drag-vertical-variant" | "drag-vertical" | "drag" | "drama-masks" | "draw-pen" | "draw" | "drawing-box" | "drawing" | "dresser-outline" | "dresser" | "drone" | "dropbox" | "drupal" | "duck" | "dumbbell" | "dump-truck" | "ear-hearing-loop" | "ear-hearing-off" | "ear-hearing" | "earbuds-off-outline" | "earbuds-off" | "earbuds-outline" | "earbuds" | "earth-arrow-right" | "earth-box-minus" | "earth-box-off" | "earth-box-plus" | "earth-box-remove" | "earth-box" | "earth-minus" | "earth-off" | "earth-plus" | "earth-remove" | "earth" | "egg-easter" | "egg-fried" | "egg-off-outline" | "egg-off" | "egg-outline" | "egg" | "eiffel-tower" | "eight-track" | "eject-circle-outline" | "eject-circle" | "eject-outline" | "eject" | "electric-switch-closed" | "electric-switch" | "electron-framework" | "elephant" | "elevation-decline" | "elevation-rise" | "elevator-down" | "elevator-passenger-off-outline" | "elevator-passenger-off" | "elevator-passenger-outline" | "elevator-passenger" | "elevator-up" | "elevator" | "ellipse-outline" | "ellipse" | "email-alert-outline" | "email-alert" | "email-box" | "email-check-outline" | "email-check" | "email-edit-outline" | "email-edit" | "email-fast-outline" | "email-fast" | "email-lock" | "email-mark-as-unread" | "email-minus-outline" | "email-minus" | "email-multiple-outline" | "email-multiple" | "email-newsletter" | "email-off-outline" | "email-off" | "email-open-multiple-outline" | "email-open-multiple" | "email-open-outline" | "email-open" | "email-outline" | "email-plus-outline" | "email-plus" | "email-receive-outline" | "email-receive" | "email-remove-outline" | "email-remove" | "email-seal-outline" | "email-seal" | "email-search-outline" | "email-search" | "email-send-outline" | "email-send" | "email-sync-outline" | "email-sync" | "email-variant" | "email" | "ember" | "emby" | "emoticon-angry-outline" | "emoticon-angry" | "emoticon-confused-outline" | "emoticon-confused" | "emoticon-cool-outline" | "emoticon-cool" | "emoticon-cry-outline" | "emoticon-cry" | "emoticon-dead-outline" | "emoticon-dead" | "emoticon-devil-outline" | "emoticon-devil" | "emoticon-excited-outline" | "emoticon-excited" | "emoticon-frown-outline" | "emoticon-frown" | "emoticon-happy-outline" | "emoticon-happy" | "emoticon-kiss-outline" | "emoticon-kiss" | "emoticon-lol-outline" | "emoticon-lol" | "emoticon-neutral-outline" | "emoticon-neutral" | "emoticon-outline" | "emoticon-poop-outline" | "emoticon-poop" | "emoticon-sad-outline" | "emoticon-sad" | "emoticon-sick-outline" | "emoticon-sick" | "emoticon-tongue-outline" | "emoticon-tongue" | "emoticon-wink-outline" | "emoticon-wink" | "emoticon" | "engine-off-outline" | "engine-off" | "engine-outline" | "engine" | "epsilon" | "equal-box" | "equal" | "equalizer-outline" | "equalizer" | "eraser-variant" | "eraser" | "escalator-box" | "escalator-down" | "escalator-up" | "escalator" | "eslint" | "et" | "ethereum" | "ethernet-cable-off" | "ethernet-cable" | "ethernet" | "ev-plug-ccs1" | "ev-plug-ccs2" | "ev-plug-chademo" | "ev-plug-tesla" | "ev-plug-type1" | "ev-plug-type2" | "ev-station" | "evernote" | "excavator" | "exclamation-thick" | "exclamation" | "exit-run" | "exit-to-app" | "expand-all-outline" | "expand-all" | "expansion-card-variant" | "expansion-card" | "exponent-box" | "exponent" | "export-variant" | "export" | "eye-arrow-left-outline" | "eye-arrow-left" | "eye-arrow-right-outline" | "eye-arrow-right" | "eye-check-outline" | "eye-check" | "eye-circle-outline" | "eye-circle" | "eye-minus-outline" | "eye-minus" | "eye-off-outline" | "eye-off" | "eye-outline" | "eye-plus-outline" | "eye-plus" | "eye-refresh-outline" | "eye-refresh" | "eye-remove-outline" | "eye-remove" | "eye-settings-outline" | "eye-settings" | "eye" | "eyedropper-minus" | "eyedropper-off" | "eyedropper-plus" | "eyedropper-remove" | "eyedropper-variant" | "eyedropper" | "face-agent" | "face-man-outline" | "face-man-profile" | "face-man-shimmer-outline" | "face-man-shimmer" | "face-man" | "face-mask-outline" | "face-mask" | "face-recognition" | "face-woman-outline" | "face-woman-profile" | "face-woman-shimmer-outline" | "face-woman-shimmer" | "face-woman" | "facebook-gaming" | "facebook-messenger" | "facebook-workplace" | "facebook" | "factory" | "family-tree" | "fan-alert" | "fan-auto" | "fan-chevron-down" | "fan-chevron-up" | "fan-clock" | "fan-minus" | "fan-off" | "fan-plus" | "fan-remove" | "fan-speed-1" | "fan-speed-2" | "fan-speed-3" | "fan" | "fast-forward-10" | "fast-forward-15" | "fast-forward-30" | "fast-forward-45" | "fast-forward-5" | "fast-forward-60" | "fast-forward-outline" | "fast-forward" | "faucet-variant" | "faucet" | "fax" | "feather" | "feature-search-outline" | "feature-search" | "fedora" | "fence-electric" | "fence" | "fencing" | "ferris-wheel" | "ferry" | "file-account-outline" | "file-account" | "file-alert-outline" | "file-alert" | "file-arrow-left-right-outline" | "file-arrow-left-right" | "file-arrow-up-down-outline" | "file-arrow-up-down" | "file-cabinet" | "file-cad-box" | "file-cad" | "file-cancel-outline" | "file-cancel" | "file-certificate-outline" | "file-certificate" | "file-chart-check-outline" | "file-chart-check" | "file-chart-outline" | "file-chart" | "file-check-outline" | "file-check" | "file-clock-outline" | "file-clock" | "file-cloud-outline" | "file-cloud" | "file-code-outline" | "file-code" | "file-cog-outline" | "file-cog" | "file-compare" | "file-delimited-outline" | "file-delimited" | "file-document-alert-outline" | "file-document-alert" | "file-document-check-outline" | "file-document-check" | "file-document-edit-outline" | "file-document-edit" | "file-document-minus-outline" | "file-document-minus" | "file-document-multiple-outline" | "file-document-multiple" | "file-document-outline" | "file-document-plus-outline" | "file-document-plus" | "file-document-remove-outline" | "file-document-remove" | "file-document" | "file-download-outline" | "file-download" | "file-edit-outline" | "file-edit" | "file-excel-box-outline" | "file-excel-box" | "file-excel-outline" | "file-excel" | "file-export-outline" | "file-export" | "file-eye-outline" | "file-eye" | "file-find-outline" | "file-find" | "file-gif-box" | "file-hidden" | "file-image-marker-outline" | "file-image-marker" | "file-image-minus-outline" | "file-image-minus" | "file-image-outline" | "file-image-plus-outline" | "file-image-plus" | "file-image-remove-outline" | "file-image-remove" | "file-image" | "file-import-outline" | "file-import" | "file-jpg-box" | "file-key-outline" | "file-key" | "file-link-outline" | "file-link" | "file-lock-open-outline" | "file-lock-open" | "file-lock-outline" | "file-lock" | "file-marker-outline" | "file-marker" | "file-minus-outline" | "file-minus" | "file-move-outline" | "file-move" | "file-multiple-outline" | "file-multiple" | "file-music-outline" | "file-music" | "file-outline" | "file-pdf-box" | "file-percent-outline" | "file-percent" | "file-phone-outline" | "file-phone" | "file-plus-outline" | "file-plus" | "file-png-box" | "file-powerpoint-box-outline" | "file-powerpoint-box" | "file-powerpoint-outline" | "file-powerpoint" | "file-presentation-box" | "file-question-outline" | "file-question" | "file-refresh-outline" | "file-refresh" | "file-remove-outline" | "file-remove" | "file-replace-outline" | "file-replace" | "file-restore-outline" | "file-restore" | "file-rotate-left-outline" | "file-rotate-left" | "file-rotate-right-outline" | "file-rotate-right" | "file-search-outline" | "file-search" | "file-send-outline" | "file-send" | "file-settings-outline" | "file-settings" | "file-sign" | "file-star-outline" | "file-star" | "file-swap-outline" | "file-swap" | "file-sync-outline" | "file-sync" | "file-table-box-multiple-outline" | "file-table-box-multiple" | "file-table-box-outline" | "file-table-box" | "file-table-outline" | "file-table" | "file-tree-outline" | "file-tree" | "file-undo-outline" | "file-undo" | "file-upload-outline" | "file-upload" | "file-video-outline" | "file-video" | "file-word-box-outline" | "file-word-box" | "file-word-outline" | "file-word" | "file-xml-box" | "file" | "film" | "filmstrip-box-multiple" | "filmstrip-box" | "filmstrip-off" | "filmstrip" | "filter-check-outline" | "filter-check" | "filter-cog-outline" | "filter-cog" | "filter-menu-outline" | "filter-menu" | "filter-minus-outline" | "filter-minus" | "filter-multiple-outline" | "filter-multiple" | "filter-off-outline" | "filter-off" | "filter-outline" | "filter-plus-outline" | "filter-plus" | "filter-remove-outline" | "filter-remove" | "filter-settings-outline" | "filter-settings" | "filter-variant-minus" | "filter-variant-plus" | "filter-variant-remove" | "filter-variant" | "filter" | "finance" | "find-replace" | "fingerprint-off" | "fingerprint" | "fire-alert" | "fire-circle" | "fire-extinguisher" | "fire-hydrant-alert" | "fire-hydrant-off" | "fire-hydrant" | "fire-off" | "fire-truck" | "fire" | "firebase" | "firefox" | "fireplace-off" | "fireplace" | "firewire" | "firework-off" | "firework" | "fish-off" | "fish" | "fishbowl-outline" | "fishbowl" | "fit-to-page-outline" | "fit-to-page" | "fit-to-screen-outline" | "fit-to-screen" | "flag-checkered" | "flag-minus-outline" | "flag-minus" | "flag-off-outline" | "flag-off" | "flag-outline" | "flag-plus-outline" | "flag-plus" | "flag-remove-outline" | "flag-remove" | "flag-triangle" | "flag-variant-outline" | "flag-variant" | "flag" | "flare" | "flash-alert-outline" | "flash-alert" | "flash-auto" | "flash-off-outline" | "flash-off" | "flash-outline" | "flash-red-eye" | "flash-triangle-outline" | "flash-triangle" | "flash" | "flashlight-off" | "flashlight" | "flask-empty-minus-outline" | "flask-empty-minus" | "flask-empty-off-outline" | "flask-empty-off" | "flask-empty-outline" | "flask-empty-plus-outline" | "flask-empty-plus" | "flask-empty-remove-outline" | "flask-empty-remove" | "flask-empty" | "flask-minus-outline" | "flask-minus" | "flask-off-outline" | "flask-off" | "flask-outline" | "flask-plus-outline" | "flask-plus" | "flask-remove-outline" | "flask-remove" | "flask-round-bottom-empty-outline" | "flask-round-bottom-empty" | "flask-round-bottom-outline" | "flask-round-bottom" | "flask" | "fleur-de-lis" | "flip-horizontal" | "flip-to-back" | "flip-to-front" | "flip-vertical" | "floor-lamp-dual-outline" | "floor-lamp-dual" | "floor-lamp-outline" | "floor-lamp-torchiere-outline" | "floor-lamp-torchiere-variant-outline" | "floor-lamp-torchiere-variant" | "floor-lamp-torchiere" | "floor-lamp" | "floor-plan" | "floppy-variant" | "floppy" | "flower-outline" | "flower-pollen-outline" | "flower-pollen" | "flower-poppy" | "flower-tulip-outline" | "flower-tulip" | "flower" | "focus-auto" | "focus-field-horizontal" | "focus-field-vertical" | "focus-field" | "folder-account-outline" | "folder-account" | "folder-alert-outline" | "folder-alert" | "folder-arrow-down-outline" | "folder-arrow-down" | "folder-arrow-left-outline" | "folder-arrow-left-right-outline" | "folder-arrow-left-right" | "folder-arrow-left" | "folder-arrow-right-outline" | "folder-arrow-right" | "folder-arrow-up-down-outline" | "folder-arrow-up-down" | "folder-arrow-up-outline" | "folder-arrow-up" | "folder-cancel-outline" | "folder-cancel" | "folder-check-outline" | "folder-check" | "folder-clock-outline" | "folder-clock" | "folder-cog-outline" | "folder-cog" | "folder-download-outline" | "folder-download" | "folder-edit-outline" | "folder-edit" | "folder-eye-outline" | "folder-eye" | "folder-file-outline" | "folder-file" | "folder-google-drive" | "folder-heart-outline" | "folder-heart" | "folder-hidden" | "folder-home-outline" | "folder-home" | "folder-image" | "folder-information-outline" | "folder-information" | "folder-key-network-outline" | "folder-key-network" | "folder-key-outline" | "folder-key" | "folder-lock-open-outline" | "folder-lock-open" | "folder-lock-outline" | "folder-lock" | "folder-marker-outline" | "folder-marker" | "folder-minus-outline" | "folder-minus" | "folder-move-outline" | "folder-move" | "folder-multiple-image" | "folder-multiple-outline" | "folder-multiple-plus-outline" | "folder-multiple-plus" | "folder-multiple" | "folder-music-outline" | "folder-music" | "folder-network-outline" | "folder-network" | "folder-off-outline" | "folder-off" | "folder-open-outline" | "folder-open" | "folder-outline" | "folder-play-outline" | "folder-play" | "folder-plus-outline" | "folder-plus" | "folder-pound-outline" | "folder-pound" | "folder-question-outline" | "folder-question" | "folder-refresh-outline" | "folder-refresh" | "folder-remove-outline" | "folder-remove" | "folder-search-outline" | "folder-search" | "folder-settings-outline" | "folder-settings" | "folder-star-multiple-outline" | "folder-star-multiple" | "folder-star-outline" | "folder-star" | "folder-swap-outline" | "folder-swap" | "folder-sync-outline" | "folder-sync" | "folder-table-outline" | "folder-table" | "folder-text-outline" | "folder-text" | "folder-upload-outline" | "folder-upload" | "folder-wrench-outline" | "folder-wrench" | "folder-zip-outline" | "folder-zip" | "folder" | "font-awesome" | "food-apple-outline" | "food-apple" | "food-croissant" | "food-drumstick-off-outline" | "food-drumstick-off" | "food-drumstick-outline" | "food-drumstick" | "food-fork-drink" | "food-halal" | "food-hot-dog" | "food-kosher" | "food-off-outline" | "food-off" | "food-outline" | "food-steak-off" | "food-steak" | "food-takeout-box-outline" | "food-takeout-box" | "food-turkey" | "food-variant-off" | "food-variant" | "food" | "foot-print" | "football-australian" | "football-helmet" | "football" | "forest" | "forklift" | "form-dropdown" | "form-select" | "form-textarea" | "form-textbox-lock" | "form-textbox-password" | "form-textbox" | "format-align-bottom" | "format-align-center" | "format-align-justify" | "format-align-left" | "format-align-middle" | "format-align-right" | "format-align-top" | "format-annotation-minus" | "format-annotation-plus" | "format-bold" | "format-clear" | "format-color-fill" | "format-color-highlight" | "format-color-marker-cancel" | "format-color-text" | "format-columns" | "format-float-center" | "format-float-left" | "format-float-none" | "format-float-right" | "format-font-size-decrease" | "format-font-size-increase" | "format-font" | "format-header-1" | "format-header-2" | "format-header-3" | "format-header-4" | "format-header-5" | "format-header-6" | "format-header-decrease" | "format-header-equal" | "format-header-increase" | "format-header-pound" | "format-horizontal-align-center" | "format-horizontal-align-left" | "format-horizontal-align-right" | "format-indent-decrease" | "format-indent-increase" | "format-italic" | "format-letter-case-lower" | "format-letter-case-upper" | "format-letter-case" | "format-letter-ends-with" | "format-letter-matches" | "format-letter-spacing-variant" | "format-letter-spacing" | "format-letter-starts-with" | "format-line-height" | "format-line-spacing" | "format-line-style" | "format-line-weight" | "format-list-bulleted-square" | "format-list-bulleted-triangle" | "format-list-bulleted-type" | "format-list-bulleted" | "format-list-checkbox" | "format-list-checks" | "format-list-group" | "format-list-numbered-rtl" | "format-list-numbered" | "format-list-text" | "format-overline" | "format-page-break" | "format-page-split" | "format-paint" | "format-paragraph-spacing" | "format-paragraph" | "format-pilcrow" | "format-quote-close-outline" | "format-quote-close" | "format-quote-open-outline" | "format-quote-open" | "format-rotate-90" | "format-section" | "format-size" | "format-strikethrough-variant" | "format-strikethrough" | "format-subscript" | "format-superscript" | "format-text-rotation-angle-down" | "format-text-rotation-angle-up" | "format-text-rotation-down-vertical" | "format-text-rotation-down" | "format-text-rotation-none" | "format-text-rotation-up" | "format-text-rotation-vertical" | "format-text-variant-outline" | "format-text-variant" | "format-text-wrapping-clip" | "format-text-wrapping-overflow" | "format-text-wrapping-wrap" | "format-text" | "format-textbox" | "format-textdirection-l-to-r" | "format-textdirection-r-to-l" | "format-title" | "format-underline-wavy" | "format-underline" | "format-vertical-align-bottom" | "format-vertical-align-center" | "format-vertical-align-top" | "format-wrap-inline" | "format-wrap-square" | "format-wrap-tight" | "format-wrap-top-bottom" | "forum-minus-outline" | "forum-minus" | "forum-outline" | "forum-plus-outline" | "forum-plus" | "forum-remove-outline" | "forum-remove" | "forum" | "forward" | "forwardburger" | "fountain-pen-tip" | "fountain-pen" | "fountain" | "fraction-one-half" | "freebsd" | "french-fries" | "frequently-asked-questions" | "fridge-alert-outline" | "fridge-alert" | "fridge-bottom" | "fridge-industrial-alert-outline" | "fridge-industrial-alert" | "fridge-industrial-off-outline" | "fridge-industrial-off" | "fridge-industrial-outline" | "fridge-industrial" | "fridge-off-outline" | "fridge-off" | "fridge-outline" | "fridge-top" | "fridge-variant-alert-outline" | "fridge-variant-alert" | "fridge-variant-off-outline" | "fridge-variant-off" | "fridge-variant-outline" | "fridge-variant" | "fridge" | "fruit-cherries-off" | "fruit-cherries" | "fruit-citrus-off" | "fruit-citrus" | "fruit-grapes-outline" | "fruit-grapes" | "fruit-pear" | "fruit-pineapple" | "fruit-watermelon" | "fuel-cell" | "fuel" | "fullscreen-exit" | "fullscreen" | "function-variant" | "function" | "furigana-horizontal" | "furigana-vertical" | "fuse-alert" | "fuse-blade" | "fuse-off" | "fuse" | "gamepad-circle-down" | "gamepad-circle-left" | "gamepad-circle-outline" | "gamepad-circle-right" | "gamepad-circle-up" | "gamepad-circle" | "gamepad-down" | "gamepad-left" | "gamepad-outline" | "gamepad-right" | "gamepad-round-down" | "gamepad-round-left" | "gamepad-round-outline" | "gamepad-round-right" | "gamepad-round-up" | "gamepad-round" | "gamepad-square-outline" | "gamepad-square" | "gamepad-up" | "gamepad-variant-outline" | "gamepad-variant" | "gamepad" | "gamma" | "gantry-crane" | "garage-alert-variant" | "garage-alert" | "garage-lock" | "garage-open-variant" | "garage-open" | "garage-variant-lock" | "garage-variant" | "garage" | "gas-burner" | "gas-cylinder" | "gas-station-off-outline" | "gas-station-off" | "gas-station-outline" | "gas-station" | "gate-alert" | "gate-and" | "gate-arrow-left" | "gate-arrow-right" | "gate-buffer" | "gate-nand" | "gate-nor" | "gate-not" | "gate-open" | "gate-or" | "gate-xnor" | "gate-xor" | "gate" | "gatsby" | "gauge-empty" | "gauge-full" | "gauge-low" | "gauge" | "gavel" | "gender-female" | "gender-male-female-variant" | "gender-male-female" | "gender-male" | "gender-non-binary" | "gender-transgender" | "gentoo" | "gesture-double-tap" | "gesture-pinch" | "gesture-spread" | "gesture-swipe-down" | "gesture-swipe-horizontal" | "gesture-swipe-left" | "gesture-swipe-right" | "gesture-swipe-up" | "gesture-swipe-vertical" | "gesture-swipe" | "gesture-tap-box" | "gesture-tap-button" | "gesture-tap-hold" | "gesture-tap" | "gesture-two-double-tap" | "gesture-two-tap" | "gesture" | "ghost-off-outline" | "ghost-off" | "ghost-outline" | "ghost" | "gift-off-outline" | "gift-off" | "gift-open-outline" | "gift-open" | "gift-outline" | "gift" | "git" | "github" | "gitlab" | "glass-cocktail-off" | "glass-cocktail" | "glass-flute" | "glass-fragile" | "glass-mug-off" | "glass-mug-variant-off" | "glass-mug-variant" | "glass-mug" | "glass-pint-outline" | "glass-stange" | "glass-tulip" | "glass-wine" | "glasses" | "globe-light" | "globe-model" | "gmail" | "gnome" | "go-kart-track" | "go-kart" | "gog" | "gold" | "golf-cart" | "golf-tee" | "golf" | "gondola" | "goodreads" | "google-ads" | "google-analytics" | "google-assistant" | "google-cardboard" | "google-chrome" | "google-circles-communities" | "google-circles-extended" | "google-circles-group" | "google-circles" | "google-classroom" | "google-cloud" | "google-controller-off" | "google-controller" | "google-downasaur" | "google-drive" | "google-earth" | "google-fit" | "google-glass" | "google-hangouts" | "google-home" | "google-keep" | "google-lens" | "google-maps" | "google-my-business" | "google-nearby" | "google-play" | "google-plus" | "google-podcast" | "google-spreadsheet" | "google-street-view" | "google-translate" | "google" | "gradient-horizontal" | "gradient-vertical" | "grain" | "graph-outline" | "graph" | "graphql" | "grass" | "grave-stone" | "grease-pencil" | "greater-than-or-equal" | "greater-than" | "greenhouse" | "grid-large" | "grid-off" | "grid" | "grill-outline" | "grill" | "group" | "guitar-acoustic" | "guitar-electric" | "guitar-pick-outline" | "guitar-pick" | "guy-fawkes-mask" | "gymnastics" | "hail" | "hair-dryer-outline" | "hair-dryer" | "halloween" | "hamburger-check" | "hamburger-minus" | "hamburger-off" | "hamburger-plus" | "hamburger-remove" | "hamburger" | "hammer-screwdriver" | "hammer-sickle" | "hammer-wrench" | "hammer" | "hand-back-left-off-outline" | "hand-back-left-off" | "hand-back-left-outline" | "hand-back-left" | "hand-back-right-off-outline" | "hand-back-right-off" | "hand-back-right-outline" | "hand-back-right" | "hand-clap-off" | "hand-clap" | "hand-coin-outline" | "hand-coin" | "hand-extended-outline" | "hand-extended" | "hand-front-left-outline" | "hand-front-left" | "hand-front-right-outline" | "hand-front-right" | "hand-heart-outline" | "hand-heart" | "hand-okay" | "hand-peace-variant" | "hand-peace" | "hand-pointing-down" | "hand-pointing-left" | "hand-pointing-right" | "hand-pointing-up" | "hand-saw" | "hand-wash-outline" | "hand-wash" | "hand-water" | "hand-wave-outline" | "hand-wave" | "handball" | "handcuffs" | "hands-pray" | "handshake-outline" | "handshake" | "hanger" | "hard-hat" | "harddisk-plus" | "harddisk-remove" | "harddisk" | "hat-fedora" | "hazard-lights" | "hdr-off" | "hdr" | "head-alert-outline" | "head-alert" | "head-check-outline" | "head-check" | "head-cog-outline" | "head-cog" | "head-dots-horizontal-outline" | "head-dots-horizontal" | "head-flash-outline" | "head-flash" | "head-heart-outline" | "head-heart" | "head-lightbulb-outline" | "head-lightbulb" | "head-minus-outline" | "head-minus" | "head-outline" | "head-plus-outline" | "head-plus" | "head-question-outline" | "head-question" | "head-remove-outline" | "head-remove" | "head-snowflake-outline" | "head-snowflake" | "head-sync-outline" | "head-sync" | "head" | "headphones-bluetooth" | "headphones-box" | "headphones-off" | "headphones-settings" | "headphones" | "headset-dock" | "headset-off" | "headset" | "heart-box-outline" | "heart-box" | "heart-broken-outline" | "heart-broken" | "heart-circle-outline" | "heart-circle" | "heart-cog-outline" | "heart-cog" | "heart-flash" | "heart-half-full" | "heart-half-outline" | "heart-half" | "heart-minus-outline" | "heart-minus" | "heart-multiple-outline" | "heart-multiple" | "heart-off-outline" | "heart-off" | "heart-outline" | "heart-plus-outline" | "heart-plus" | "heart-pulse" | "heart-remove-outline" | "heart-remove" | "heart-settings-outline" | "heart-settings" | "heart" | "heat-pump-outline" | "heat-pump" | "heat-wave" | "heating-coil" | "helicopter" | "help-box" | "help-circle-outline" | "help-circle" | "help-network-outline" | "help-network" | "help-rhombus-outline" | "help-rhombus" | "help" | "hexadecimal" | "hexagon-multiple-outline" | "hexagon-multiple" | "hexagon-outline" | "hexagon-slice-1" | "hexagon-slice-2" | "hexagon-slice-3" | "hexagon-slice-4" | "hexagon-slice-5" | "hexagon-slice-6" | "hexagon" | "hexagram-outline" | "hexagram" | "high-definition-box" | "high-definition" | "highway" | "hiking" | "history" | "hockey-puck" | "hockey-sticks" | "hololens" | "home-account" | "home-alert-outline" | "home-alert" | "home-analytics" | "home-assistant" | "home-automation" | "home-battery-outline" | "home-battery" | "home-circle-outline" | "home-circle" | "home-city-outline" | "home-city" | "home-clock-outline" | "home-clock" | "home-edit-outline" | "home-edit" | "home-export-outline" | "home-flood" | "home-floor-0" | "home-floor-1" | "home-floor-2" | "home-floor-3" | "home-floor-a" | "home-floor-b" | "home-floor-g" | "home-floor-l" | "home-floor-negative-1" | "home-group-minus" | "home-group-plus" | "home-group-remove" | "home-group" | "home-heart" | "home-import-outline" | "home-lightbulb-outline" | "home-lightbulb" | "home-lightning-bolt-outline" | "home-lightning-bolt" | "home-lock-open" | "home-lock" | "home-map-marker" | "home-minus-outline" | "home-minus" | "home-modern" | "home-off-outline" | "home-off" | "home-outline" | "home-plus-outline" | "home-plus" | "home-remove-outline" | "home-remove" | "home-roof" | "home-search-outline" | "home-search" | "home-switch-outline" | "home-switch" | "home-thermometer-outline" | "home-thermometer" | "home-variant-outline" | "home-variant" | "home" | "hook-off" | "hook" | "hoop-house" | "hops" | "horizontal-rotate-clockwise" | "horizontal-rotate-counterclockwise" | "horse-human" | "horse-variant-fast" | "horse-variant" | "horse" | "horseshoe" | "hospital-box-outline" | "hospital-box" | "hospital-building" | "hospital-marker" | "hospital" | "hot-tub" | "hours-24" | "hubspot" | "hulu" | "human-baby-changing-table" | "human-cane" | "human-capacity-decrease" | "human-capacity-increase" | "human-child" | "human-dolly" | "human-edit" | "human-female-boy" | "human-female-dance" | "human-female-female" | "human-female-girl" | "human-female" | "human-greeting-proximity" | "human-greeting-variant" | "human-greeting" | "human-handsdown" | "human-handsup" | "human-male-board-poll" | "human-male-board" | "human-male-boy" | "human-male-child" | "human-male-female-child" | "human-male-female" | "human-male-girl" | "human-male-height-variant" | "human-male-height" | "human-male-male" | "human-male" | "human-non-binary" | "human-pregnant" | "human-queue" | "human-scooter" | "human-wheelchair" | "human-white-cane" | "human" | "humble-bundle" | "hvac-off" | "hvac" | "hydraulic-oil-level" | "hydraulic-oil-temperature" | "hydro-power" | "hydrogen-station" | "ice-cream-off" | "ice-cream" | "ice-pop" | "id-card" | "identifier" | "ideogram-cjk-variant" | "ideogram-cjk" | "image-album" | "image-area-close" | "image-area" | "image-auto-adjust" | "image-broken-variant" | "image-broken" | "image-check-outline" | "image-check" | "image-edit-outline" | "image-edit" | "image-filter-black-white" | "image-filter-center-focus-strong-outline" | "image-filter-center-focus-strong" | "image-filter-center-focus-weak" | "image-filter-center-focus" | "image-filter-drama" | "image-filter-frames" | "image-filter-hdr" | "image-filter-none" | "image-filter-tilt-shift" | "image-filter-vintage" | "image-frame" | "image-lock-outline" | "image-lock" | "image-marker-outline" | "image-marker" | "image-minus-outline" | "image-minus" | "image-move" | "image-multiple-outline" | "image-multiple" | "image-off-outline" | "image-off" | "image-outline" | "image-plus-outline" | "image-plus" | "image-refresh-outline" | "image-refresh" | "image-remove-outline" | "image-remove" | "image-search-outline" | "image-search" | "image-size-select-actual" | "image-size-select-large" | "image-size-select-small" | "image-sync-outline" | "image-sync" | "image-text" | "image" | "import" | "inbox-arrow-down-outline" | "inbox-arrow-down" | "inbox-arrow-up-outline" | "inbox-arrow-up" | "inbox-full-outline" | "inbox-full" | "inbox-multiple-outline" | "inbox-multiple" | "inbox-outline" | "inbox-remove-outline" | "inbox-remove" | "inbox" | "incognito-circle-off" | "incognito-circle" | "incognito-off" | "incognito" | "induction" | "infinity" | "information-off-outline" | "information-off" | "information-outline" | "information-variant" | "information" | "instagram" | "instrument-triangle" | "integrated-circuit-chip" | "invert-colors-off" | "invert-colors" | "iobroker" | "ip-network-outline" | "ip-network" | "ip-outline" | "ip" | "ipod" | "iron-board" | "iron-outline" | "iron" | "island" | "iv-bag" | "jabber" | "jeepney" | "jellyfish-outline" | "jellyfish" | "jira" | "jquery" | "jsfiddle" | "jump-rope" | "kabaddi" | "kangaroo" | "karate" | "kayaking" | "keg" | "kettle-alert-outline" | "kettle-alert" | "kettle-off-outline" | "kettle-off" | "kettle-outline" | "kettle-pour-over" | "kettle-steam-outline" | "kettle-steam" | "kettle" | "kettlebell" | "key-alert-outline" | "key-alert" | "key-arrow-right" | "key-chain-variant" | "key-chain" | "key-change" | "key-link" | "key-minus" | "key-outline" | "key-plus" | "key-remove" | "key-star" | "key-variant" | "key-wireless" | "key" | "keyboard-backspace" | "keyboard-caps" | "keyboard-close" | "keyboard-esc" | "keyboard-f1" | "keyboard-f10" | "keyboard-f11" | "keyboard-f12" | "keyboard-f2" | "keyboard-f3" | "keyboard-f4" | "keyboard-f5" | "keyboard-f6" | "keyboard-f7" | "keyboard-f8" | "keyboard-f9" | "keyboard-off-outline" | "keyboard-off" | "keyboard-outline" | "keyboard-return" | "keyboard-settings-outline" | "keyboard-settings" | "keyboard-space" | "keyboard-tab-reverse" | "keyboard-tab" | "keyboard-variant" | "keyboard" | "khanda" | "kickstarter" | "kite-outline" | "kite" | "kitesurfing" | "klingon" | "knife-military" | "knife" | "koala" | "kodi" | "kubernetes" | "label-multiple-outline" | "label-multiple" | "label-off-outline" | "label-off" | "label-outline" | "label-percent-outline" | "label-percent" | "label-variant-outline" | "label-variant" | "label" | "ladder" | "ladybug" | "lambda" | "lamp-outline" | "lamp" | "lamps-outline" | "lamps" | "lan-check" | "lan-connect" | "lan-disconnect" | "lan-pending" | "lan" | "land-fields" | "land-plots-circle-variant" | "land-plots-circle" | "land-plots" | "land-rows-horizontal" | "land-rows-vertical" | "landslide-outline" | "landslide" | "language-c" | "language-cpp" | "language-csharp" | "language-css3" | "language-fortran" | "language-go" | "language-haskell" | "language-html5" | "language-java" | "language-javascript" | "language-kotlin" | "language-lua" | "language-markdown-outline" | "language-markdown" | "language-php" | "language-python" | "language-r" | "language-ruby-on-rails" | "language-ruby" | "language-rust" | "language-swift" | "language-typescript" | "language-xaml" | "laptop-account" | "laptop-off" | "laptop" | "laravel" | "laser-pointer" | "lasso" | "lastpass" | "latitude" | "launch" | "lava-lamp" | "layers-edit" | "layers-minus" | "layers-off-outline" | "layers-off" | "layers-outline" | "layers-plus" | "layers-remove" | "layers-search-outline" | "layers-search" | "layers-triple-outline" | "layers-triple" | "layers" | "lead-pencil" | "leaf-circle-outline" | "leaf-circle" | "leaf-maple-off" | "leaf-maple" | "leaf-off" | "leaf" | "leak-off" | "leak" | "lecturn" | "led-off" | "led-on" | "led-outline" | "led-strip-variant-off" | "led-strip-variant" | "led-strip" | "led-variant-off" | "led-variant-on" | "led-variant-outline" | "leek" | "less-than-or-equal" | "less-than" | "library-outline" | "library-shelves" | "library" | "license" | "lifebuoy" | "light-flood-down" | "light-flood-up" | "light-recessed" | "light-switch-off" | "light-switch" | "lightbulb-alert-outline" | "lightbulb-alert" | "lightbulb-auto-outline" | "lightbulb-auto" | "lightbulb-cfl-off" | "lightbulb-cfl-spiral-off" | "lightbulb-cfl-spiral" | "lightbulb-cfl" | "lightbulb-fluorescent-tube-outline" | "lightbulb-fluorescent-tube" | "lightbulb-group-off-outline" | "lightbulb-group-off" | "lightbulb-group-outline" | "lightbulb-group" | "lightbulb-multiple-off-outline" | "lightbulb-multiple-off" | "lightbulb-multiple-outline" | "lightbulb-multiple" | "lightbulb-night-outline" | "lightbulb-night" | "lightbulb-off-outline" | "lightbulb-off" | "lightbulb-on-10" | "lightbulb-on-20" | "lightbulb-on-30" | "lightbulb-on-40" | "lightbulb-on-50" | "lightbulb-on-60" | "lightbulb-on-70" | "lightbulb-on-80" | "lightbulb-on-90" | "lightbulb-on-outline" | "lightbulb-on" | "lightbulb-outline" | "lightbulb-question-outline" | "lightbulb-question" | "lightbulb-spot-off" | "lightbulb-spot" | "lightbulb-variant-outline" | "lightbulb-variant" | "lightbulb" | "lighthouse-on" | "lighthouse" | "lightning-bolt-circle" | "lightning-bolt-outline" | "lightning-bolt" | "line-scan" | "lingerie" | "link-box-outline" | "link-box-variant-outline" | "link-box-variant" | "link-box" | "link-lock" | "link-off" | "link-plus" | "link-variant-minus" | "link-variant-off" | "link-variant-plus" | "link-variant-remove" | "link-variant" | "link" | "linkedin" | "linux-mint" | "linux" | "lipstick" | "liquid-spot" | "liquor" | "list-status" | "litecoin" | "loading" | "location-enter" | "location-exit" | "lock-alert-outline" | "lock-alert" | "lock-check-outline" | "lock-check" | "lock-clock" | "lock-minus-outline" | "lock-minus" | "lock-off-outline" | "lock-off" | "lock-open-alert-outline" | "lock-open-alert" | "lock-open-check-outline" | "lock-open-check" | "lock-open-minus-outline" | "lock-open-minus" | "lock-open-outline" | "lock-open-plus-outline" | "lock-open-plus" | "lock-open-remove-outline" | "lock-open-remove" | "lock-open-variant-outline" | "lock-open-variant" | "lock-open" | "lock-outline" | "lock-pattern" | "lock-plus-outline" | "lock-plus" | "lock-question" | "lock-remove-outline" | "lock-remove" | "lock-reset" | "lock-smart" | "lock" | "locker-multiple" | "locker" | "login-variant" | "login" | "logout-variant" | "logout" | "longitude" | "looks" | "lotion-outline" | "lotion-plus-outline" | "lotion-plus" | "lotion" | "loupe" | "lumx" | "lungs" | "mace" | "magazine-pistol" | "magazine-rifle" | "magic-staff" | "magnet-on" | "magnet" | "magnify-close" | "magnify-expand" | "magnify-minus-cursor" | "magnify-minus-outline" | "magnify-minus" | "magnify-plus-cursor" | "magnify-plus-outline" | "magnify-plus" | "magnify-remove-cursor" | "magnify-remove-outline" | "magnify-scan" | "magnify" | "mail" | "mailbox-open-outline" | "mailbox-open-up-outline" | "mailbox-open-up" | "mailbox-open" | "mailbox-outline" | "mailbox-up-outline" | "mailbox-up" | "mailbox" | "manjaro" | "map-check-outline" | "map-check" | "map-clock-outline" | "map-clock" | "map-legend" | "map-marker-account-outline" | "map-marker-account" | "map-marker-alert-outline" | "map-marker-alert" | "map-marker-check-outline" | "map-marker-check" | "map-marker-circle" | "map-marker-distance" | "map-marker-down" | "map-marker-left-outline" | "map-marker-left" | "map-marker-minus-outline" | "map-marker-minus" | "map-marker-multiple-outline" | "map-marker-multiple" | "map-marker-off-outline" | "map-marker-off" | "map-marker-outline" | "map-marker-path" | "map-marker-plus-outline" | "map-marker-plus" | "map-marker-question-outline" | "map-marker-question" | "map-marker-radius-outline" | "map-marker-radius" | "map-marker-remove-outline" | "map-marker-remove-variant" | "map-marker-remove" | "map-marker-right-outline" | "map-marker-right" | "map-marker-star-outline" | "map-marker-star" | "map-marker-up" | "map-marker" | "map-minus" | "map-outline" | "map-plus" | "map-search-outline" | "map-search" | "map" | "mapbox" | "margin" | "marker-cancel" | "marker-check" | "marker" | "mastodon" | "material-design" | "material-ui" | "math-compass" | "math-cos" | "math-integral-box" | "math-integral" | "math-log" | "math-norm-box" | "math-norm" | "math-sin" | "math-tan" | "matrix" | "medal-outline" | "medal" | "medical-bag" | "medical-cotton-swab" | "medication-outline" | "medication" | "meditation" | "memory" | "menorah-fire" | "menorah" | "menu-down-outline" | "menu-down" | "menu-left-outline" | "menu-left" | "menu-open" | "menu-right-outline" | "menu-right" | "menu-swap-outline" | "menu-swap" | "menu-up-outline" | "menu-up" | "menu" | "merge" | "message-alert-outline" | "message-alert" | "message-arrow-left-outline" | "message-arrow-left" | "message-arrow-right-outline" | "message-arrow-right" | "message-badge-outline" | "message-badge" | "message-bookmark-outline" | "message-bookmark" | "message-bulleted-off" | "message-bulleted" | "message-cog-outline" | "message-cog" | "message-draw" | "message-fast-outline" | "message-fast" | "message-flash-outline" | "message-flash" | "message-image-outline" | "message-image" | "message-lock-outline" | "message-lock" | "message-minus-outline" | "message-minus" | "message-off-outline" | "message-off" | "message-outline" | "message-plus-outline" | "message-plus" | "message-processing-outline" | "message-processing" | "message-question-outline" | "message-question" | "message-reply-outline" | "message-reply-text-outline" | "message-reply-text" | "message-reply" | "message-settings-outline" | "message-settings" | "message-star-outline" | "message-star" | "message-text-clock-outline" | "message-text-clock" | "message-text-fast-outline" | "message-text-fast" | "message-text-lock-outline" | "message-text-lock" | "message-text-outline" | "message-text" | "message-video" | "message" | "meteor" | "meter-electric-outline" | "meter-electric" | "meter-gas-outline" | "meter-gas" | "metronome-tick" | "metronome" | "micro-sd" | "microphone-minus" | "microphone-off" | "microphone-outline" | "microphone-plus" | "microphone-question-outline" | "microphone-question" | "microphone-settings" | "microphone-variant-off" | "microphone-variant" | "microphone" | "microscope" | "microsoft-access" | "microsoft-azure-devops" | "microsoft-azure" | "microsoft-bing" | "microsoft-dynamics-365" | "microsoft-edge" | "microsoft-excel" | "microsoft-internet-explorer" | "microsoft-office" | "microsoft-onedrive" | "microsoft-onenote" | "microsoft-outlook" | "microsoft-powerpoint" | "microsoft-sharepoint" | "microsoft-teams" | "microsoft-visual-studio-code" | "microsoft-visual-studio" | "microsoft-windows-classic" | "microsoft-windows" | "microsoft-word" | "microsoft-xbox-controller-battery-alert" | "microsoft-xbox-controller-battery-charging" | "microsoft-xbox-controller-battery-empty" | "microsoft-xbox-controller-battery-full" | "microsoft-xbox-controller-battery-low" | "microsoft-xbox-controller-battery-medium" | "microsoft-xbox-controller-battery-unknown" | "microsoft-xbox-controller-menu" | "microsoft-xbox-controller-off" | "microsoft-xbox-controller-view" | "microsoft-xbox-controller" | "microsoft-xbox" | "microsoft" | "microwave-off" | "microwave" | "middleware-outline" | "middleware" | "midi-port" | "midi" | "mine" | "minecraft" | "mini-sd" | "minidisc" | "minus-box-multiple-outline" | "minus-box-multiple" | "minus-box-outline" | "minus-box" | "minus-circle-multiple-outline" | "minus-circle-multiple" | "minus-circle-off-outline" | "minus-circle-off" | "minus-circle-outline" | "minus-circle" | "minus-network-outline" | "minus-network" | "minus-thick" | "minus" | "mirror-rectangle" | "mirror-variant" | "mirror" | "mixed-martial-arts" | "mixed-reality" | "molecule-co" | "molecule-co2" | "molecule" | "monitor-account" | "monitor-arrow-down-variant" | "monitor-arrow-down" | "monitor-cellphone-star" | "monitor-cellphone" | "monitor-dashboard" | "monitor-edit" | "monitor-eye" | "monitor-lock" | "monitor-multiple" | "monitor-off" | "monitor-screenshot" | "monitor-share" | "monitor-shimmer" | "monitor-small" | "monitor-speaker-off" | "monitor-speaker" | "monitor-star" | "monitor" | "moon-first-quarter" | "moon-full" | "moon-last-quarter" | "moon-new" | "moon-waning-crescent" | "moon-waning-gibbous" | "moon-waxing-crescent" | "moon-waxing-gibbous" | "moped-electric-outline" | "moped-electric" | "moped-outline" | "moped" | "more" | "mortar-pestle-plus" | "mortar-pestle" | "mosque" | "mother-heart" | "mother-nurse" | "motion-outline" | "motion-pause-outline" | "motion-pause" | "motion-play-outline" | "motion-play" | "motion-sensor-off" | "motion-sensor" | "motion" | "motorbike-electric" | "motorbike-off" | "motorbike" | "mouse-bluetooth" | "mouse-move-down" | "mouse-move-up" | "mouse-move-vertical" | "mouse-off" | "mouse-variant-off" | "mouse-variant" | "mouse" | "move-resize-variant" | "move-resize" | "movie-check-outline" | "movie-check" | "movie-cog-outline" | "movie-cog" | "movie-edit-outline" | "movie-edit" | "movie-filter-outline" | "movie-filter" | "movie-minus-outline" | "movie-minus" | "movie-off-outline" | "movie-off" | "movie-open-check-outline" | "movie-open-check" | "movie-open-cog-outline" | "movie-open-cog" | "movie-open-edit-outline" | "movie-open-edit" | "movie-open-minus-outline" | "movie-open-minus" | "movie-open-off-outline" | "movie-open-off" | "movie-open-outline" | "movie-open-play-outline" | "movie-open-play" | "movie-open-plus-outline" | "movie-open-plus" | "movie-open-remove-outline" | "movie-open-remove" | "movie-open-settings-outline" | "movie-open-settings" | "movie-open-star-outline" | "movie-open-star" | "movie-open" | "movie-outline" | "movie-play-outline" | "movie-play" | "movie-plus-outline" | "movie-plus" | "movie-remove-outline" | "movie-remove" | "movie-roll" | "movie-search-outline" | "movie-search" | "movie-settings-outline" | "movie-settings" | "movie-star-outline" | "movie-star" | "movie" | "mower-bag" | "mower" | "muffin" | "multicast" | "multiplication-box" | "multiplication" | "mushroom-off-outline" | "mushroom-off" | "mushroom-outline" | "mushroom" | "music-accidental-double-flat" | "music-accidental-double-sharp" | "music-accidental-flat" | "music-accidental-natural" | "music-accidental-sharp" | "music-box-multiple-outline" | "music-box-multiple" | "music-box-outline" | "music-box" | "music-circle-outline" | "music-circle" | "music-clef-alto" | "music-clef-bass" | "music-clef-treble" | "music-note-bluetooth-off" | "music-note-bluetooth" | "music-note-eighth-dotted" | "music-note-eighth" | "music-note-half-dotted" | "music-note-half" | "music-note-off-outline" | "music-note-off" | "music-note-outline" | "music-note-plus" | "music-note-quarter-dotted" | "music-note-quarter" | "music-note-sixteenth-dotted" | "music-note-sixteenth" | "music-note-whole-dotted" | "music-note-whole" | "music-note" | "music-off" | "music-rest-eighth" | "music-rest-half" | "music-rest-quarter" | "music-rest-sixteenth" | "music-rest-whole" | "music" | "mustache" | "nail" | "nas" | "nativescript" | "nature-people" | "nature" | "navigation-outline" | "navigation-variant-outline" | "navigation-variant" | "navigation" | "near-me" | "necklace" | "needle-off" | "needle" | "netflix" | "network-off-outline" | "network-off" | "network-outline" | "network-pos" | "network-strength-1-alert" | "network-strength-1" | "network-strength-2-alert" | "network-strength-2" | "network-strength-3-alert" | "network-strength-3" | "network-strength-4-alert" | "network-strength-4-cog" | "network-strength-4" | "network-strength-off-outline" | "network-strength-off" | "network-strength-outline" | "network" | "new-box" | "newspaper-check" | "newspaper-minus" | "newspaper-plus" | "newspaper-remove" | "newspaper-variant-multiple-outline" | "newspaper-variant-multiple" | "newspaper-variant-outline" | "newspaper-variant" | "newspaper" | "nfc-search-variant" | "nfc-tap" | "nfc-variant-off" | "nfc-variant" | "nfc" | "ninja" | "nintendo-game-boy" | "nintendo-switch" | "nintendo-wii" | "nintendo-wiiu" | "nix" | "nodejs" | "noodles" | "not-equal-variant" | "not-equal" | "note-alert-outline" | "note-alert" | "note-check-outline" | "note-check" | "note-edit-outline" | "note-edit" | "note-minus-outline" | "note-minus" | "note-multiple-outline" | "note-multiple" | "note-off-outline" | "note-off" | "note-outline" | "note-plus-outline" | "note-plus" | "note-remove-outline" | "note-remove" | "note-search-outline" | "note-search" | "note-text-outline" | "note-text" | "note" | "notebook-check-outline" | "notebook-check" | "notebook-edit-outline" | "notebook-edit" | "notebook-heart-outline" | "notebook-heart" | "notebook-minus-outline" | "notebook-minus" | "notebook-multiple" | "notebook-outline" | "notebook-plus-outline" | "notebook-plus" | "notebook-remove-outline" | "notebook-remove" | "notebook" | "notification-clear-all" | "npm" | "nuke" | "null" | "numeric-0-box-multiple-outline" | "numeric-0-box-multiple" | "numeric-0-box-outline" | "numeric-0-box" | "numeric-0-circle-outline" | "numeric-0-circle" | "numeric-0" | "numeric-1-box-multiple-outline" | "numeric-1-box-multiple" | "numeric-1-box-outline" | "numeric-1-box" | "numeric-1-circle-outline" | "numeric-1-circle" | "numeric-1" | "numeric-10-box-multiple-outline" | "numeric-10-box-multiple" | "numeric-10-box-outline" | "numeric-10-box" | "numeric-10-circle-outline" | "numeric-10-circle" | "numeric-10" | "numeric-2-box-multiple-outline" | "numeric-2-box-multiple" | "numeric-2-box-outline" | "numeric-2-box" | "numeric-2-circle-outline" | "numeric-2-circle" | "numeric-2" | "numeric-3-box-multiple-outline" | "numeric-3-box-multiple" | "numeric-3-box-outline" | "numeric-3-box" | "numeric-3-circle-outline" | "numeric-3-circle" | "numeric-3" | "numeric-4-box-multiple-outline" | "numeric-4-box-multiple" | "numeric-4-box-outline" | "numeric-4-box" | "numeric-4-circle-outline" | "numeric-4-circle" | "numeric-4" | "numeric-5-box-multiple-outline" | "numeric-5-box-multiple" | "numeric-5-box-outline" | "numeric-5-box" | "numeric-5-circle-outline" | "numeric-5-circle" | "numeric-5" | "numeric-6-box-multiple-outline" | "numeric-6-box-multiple" | "numeric-6-box-outline" | "numeric-6-box" | "numeric-6-circle-outline" | "numeric-6-circle" | "numeric-6" | "numeric-7-box-multiple-outline" | "numeric-7-box-multiple" | "numeric-7-box-outline" | "numeric-7-box" | "numeric-7-circle-outline" | "numeric-7-circle" | "numeric-7" | "numeric-8-box-multiple-outline" | "numeric-8-box-multiple" | "numeric-8-box-outline" | "numeric-8-box" | "numeric-8-circle-outline" | "numeric-8-circle" | "numeric-8" | "numeric-9-box-multiple-outline" | "numeric-9-box-multiple" | "numeric-9-box-outline" | "numeric-9-box" | "numeric-9-circle-outline" | "numeric-9-circle" | "numeric-9-plus-box-multiple-outline" | "numeric-9-plus-box-multiple" | "numeric-9-plus-box-outline" | "numeric-9-plus-box" | "numeric-9-plus-circle-outline" | "numeric-9-plus-circle" | "numeric-9-plus" | "numeric-9" | "numeric-negative-1" | "numeric-off" | "numeric-positive-1" | "numeric" | "nut" | "nutrition" | "nuxt" | "oar" | "ocarina" | "oci" | "ocr" | "octagon-outline" | "octagon" | "octagram-outline" | "octagram" | "octahedron-off" | "octahedron" | "odnoklassniki" | "offer" | "office-building-cog-outline" | "office-building-cog" | "office-building-marker-outline" | "office-building-marker" | "office-building-outline" | "office-building" | "oil-lamp" | "oil-level" | "oil-temperature" | "oil" | "om" | "omega" | "one-up" | "onepassword" | "opacity" | "open-in-app" | "open-in-new" | "open-source-initiative" | "openid" | "opera" | "orbit-variant" | "orbit" | "order-alphabetical-ascending" | "order-alphabetical-descending" | "order-bool-ascending-variant" | "order-bool-ascending" | "order-bool-descending-variant" | "order-bool-descending" | "order-numeric-ascending" | "order-numeric-descending" | "origin" | "ornament-variant" | "ornament" | "outdoor-lamp" | "overscan" | "owl" | "pac-man" | "package-check" | "package-down" | "package-up" | "package-variant-closed-check" | "package-variant-closed-minus" | "package-variant-closed-plus" | "package-variant-closed-remove" | "package-variant-closed" | "package-variant-minus" | "package-variant-plus" | "package-variant-remove" | "package-variant" | "package" | "page-first" | "page-last" | "page-layout-body" | "page-layout-footer" | "page-layout-header-footer" | "page-layout-header" | "page-layout-sidebar-left" | "page-layout-sidebar-right" | "page-next-outline" | "page-next" | "page-previous-outline" | "page-previous" | "pail-minus-outline" | "pail-minus" | "pail-off-outline" | "pail-off" | "pail-outline" | "pail-plus-outline" | "pail-plus" | "pail-remove-outline" | "pail-remove" | "pail" | "palette-advanced" | "palette-outline" | "palette-swatch-outline" | "palette-swatch-variant" | "palette-swatch" | "palette" | "palm-tree" | "pan-bottom-left" | "pan-bottom-right" | "pan-down" | "pan-horizontal" | "pan-left" | "pan-right" | "pan-top-left" | "pan-top-right" | "pan-up" | "pan-vertical" | "pan" | "panda" | "pandora" | "panorama-fisheye" | "panorama-horizontal-outline" | "panorama-horizontal" | "panorama-outline" | "panorama-sphere-outline" | "panorama-sphere" | "panorama-variant-outline" | "panorama-variant" | "panorama-vertical-outline" | "panorama-vertical" | "panorama-wide-angle-outline" | "panorama-wide-angle" | "panorama" | "paper-cut-vertical" | "paper-roll-outline" | "paper-roll" | "paperclip-check" | "paperclip-lock" | "paperclip-minus" | "paperclip-off" | "paperclip-plus" | "paperclip-remove" | "paperclip" | "parachute-outline" | "parachute" | "paragliding" | "parking" | "party-popper" | "passport-biometric" | "passport" | "pasta" | "patio-heater" | "patreon" | "pause-circle-outline" | "pause-circle" | "pause-octagon-outline" | "pause-octagon" | "pause" | "paw-off-outline" | "paw-off" | "paw-outline" | "paw" | "peace" | "peanut-off-outline" | "peanut-off" | "peanut-outline" | "peanut" | "pen-lock" | "pen-minus" | "pen-off" | "pen-plus" | "pen-remove" | "pen" | "pencil-box-multiple-outline" | "pencil-box-multiple" | "pencil-box-outline" | "pencil-box" | "pencil-circle-outline" | "pencil-circle" | "pencil-lock-outline" | "pencil-lock" | "pencil-minus-outline" | "pencil-minus" | "pencil-off-outline" | "pencil-off" | "pencil-outline" | "pencil-plus-outline" | "pencil-plus" | "pencil-remove-outline" | "pencil-remove" | "pencil-ruler" | "pencil" | "penguin" | "pentagon-outline" | "pentagon" | "pentagram" | "percent-box-outline" | "percent-box" | "percent-circle-outline" | "percent-circle" | "percent-outline" | "percent" | "periodic-table" | "perspective-less" | "perspective-more" | "ph" | "phone-alert-outline" | "phone-alert" | "phone-bluetooth-outline" | "phone-bluetooth" | "phone-cancel-outline" | "phone-cancel" | "phone-check-outline" | "phone-check" | "phone-classic-off" | "phone-classic" | "phone-clock" | "phone-dial-outline" | "phone-dial" | "phone-forward-outline" | "phone-forward" | "phone-hangup-outline" | "phone-hangup" | "phone-in-talk-outline" | "phone-in-talk" | "phone-incoming-outgoing-outline" | "phone-incoming-outgoing" | "phone-incoming-outline" | "phone-incoming" | "phone-lock-outline" | "phone-lock" | "phone-log-outline" | "phone-log" | "phone-message-outline" | "phone-message" | "phone-minus-outline" | "phone-minus" | "phone-missed-outline" | "phone-missed" | "phone-off-outline" | "phone-off" | "phone-outgoing-outline" | "phone-outgoing" | "phone-outline" | "phone-paused-outline" | "phone-paused" | "phone-plus-outline" | "phone-plus" | "phone-refresh-outline" | "phone-refresh" | "phone-remove-outline" | "phone-remove" | "phone-return-outline" | "phone-return" | "phone-ring-outline" | "phone-ring" | "phone-rotate-landscape" | "phone-rotate-portrait" | "phone-settings-outline" | "phone-settings" | "phone-sync-outline" | "phone-sync" | "phone-voip" | "phone" | "pi-box" | "pi-hole" | "pi" | "piano-off" | "piano" | "pickaxe" | "picture-in-picture-bottom-right-outline" | "picture-in-picture-bottom-right" | "picture-in-picture-top-right-outline" | "picture-in-picture-top-right" | "pier-crane" | "pier" | "pig-variant-outline" | "pig-variant" | "pig" | "piggy-bank-outline" | "piggy-bank" | "pill-multiple" | "pill-off" | "pill" | "pillar" | "pin-off-outline" | "pin-off" | "pin-outline" | "pin" | "pine-tree-box" | "pine-tree-fire" | "pine-tree" | "pinterest" | "pinwheel-outline" | "pinwheel" | "pipe-disconnected" | "pipe-leak" | "pipe-valve" | "pipe-wrench" | "pipe" | "pirate" | "pistol" | "piston" | "pitchfork" | "pizza" | "plane-car" | "plane-train" | "play-box-lock-open-outline" | "play-box-lock-open" | "play-box-lock-outline" | "play-box-lock" | "play-box-multiple-outline" | "play-box-multiple" | "play-box-outline" | "play-box" | "play-circle-outline" | "play-circle" | "play-network-outline" | "play-network" | "play-outline" | "play-pause" | "play-protected-content" | "play-speed" | "play" | "playlist-check" | "playlist-edit" | "playlist-minus" | "playlist-music-outline" | "playlist-music" | "playlist-play" | "playlist-plus" | "playlist-remove" | "playlist-star" | "plex" | "pliers" | "plus-box-multiple-outline" | "plus-box-multiple" | "plus-box-outline" | "plus-box" | "plus-circle-multiple-outline" | "plus-circle-multiple" | "plus-circle-outline" | "plus-circle" | "plus-lock-open" | "plus-lock" | "plus-minus-box" | "plus-minus-variant" | "plus-minus" | "plus-network-outline" | "plus-network" | "plus-outline" | "plus-thick" | "plus" | "podcast" | "podium-bronze" | "podium-gold" | "podium-silver" | "podium" | "point-of-sale" | "pokeball" | "pokemon-go" | "poker-chip" | "polaroid" | "police-badge-outline" | "police-badge" | "police-station" | "poll" | "polo" | "polymer" | "pool-thermometer" | "pool" | "popcorn" | "post-lamp" | "post-outline" | "post" | "postage-stamp" | "pot-mix-outline" | "pot-mix" | "pot-outline" | "pot-steam-outline" | "pot-steam" | "pot" | "pound-box-outline" | "pound-box" | "pound" | "power-cycle" | "power-off" | "power-on" | "power-plug-off-outline" | "power-plug-off" | "power-plug-outline" | "power-plug" | "power-settings" | "power-sleep" | "power-socket-au" | "power-socket-ch" | "power-socket-de" | "power-socket-eu" | "power-socket-fr" | "power-socket-it" | "power-socket-jp" | "power-socket-uk" | "power-socket-us" | "power-socket" | "power-standby" | "power" | "powershell" | "prescription" | "presentation-play" | "presentation" | "pretzel" | "printer-3d-nozzle-alert-outline" | "printer-3d-nozzle-alert" | "printer-3d-nozzle-heat-outline" | "printer-3d-nozzle-heat" | "printer-3d-nozzle-off-outline" | "printer-3d-nozzle-off" | "printer-3d-nozzle-outline" | "printer-3d-nozzle" | "printer-3d-off" | "printer-3d" | "printer-alert" | "printer-check" | "printer-eye" | "printer-off-outline" | "printer-off" | "printer-outline" | "printer-pos" | "printer-search" | "printer-settings" | "printer-wireless" | "printer" | "priority-high" | "priority-low" | "professional-hexagon" | "progress-alert" | "progress-check" | "progress-clock" | "progress-close" | "progress-download" | "progress-pencil" | "progress-question" | "progress-star" | "progress-upload" | "progress-wrench" | "projector-off" | "projector-screen-off-outline" | "projector-screen-off" | "projector-screen-outline" | "projector-screen-variant-off-outline" | "projector-screen-variant-off" | "projector-screen-variant-outline" | "projector-screen-variant" | "projector-screen" | "projector" | "propane-tank-outline" | "propane-tank" | "protocol" | "publish-off" | "publish" | "pulse" | "pump-off" | "pump" | "pumpkin" | "purse-outline" | "purse" | "puzzle-check-outline" | "puzzle-check" | "puzzle-edit-outline" | "puzzle-edit" | "puzzle-heart-outline" | "puzzle-heart" | "puzzle-minus-outline" | "puzzle-minus" | "puzzle-outline" | "puzzle-plus-outline" | "puzzle-plus" | "puzzle-remove-outline" | "puzzle-remove" | "puzzle-star-outline" | "puzzle-star" | "puzzle" | "pyramid-off" | "pyramid" | "qi" | "qqchat" | "qrcode-edit" | "qrcode-minus" | "qrcode-plus" | "qrcode-remove" | "qrcode-scan" | "qrcode" | "quadcopter" | "quality-high" | "quality-low" | "quality-medium" | "quora" | "rabbit-variant-outline" | "rabbit-variant" | "rabbit" | "racing-helmet" | "racquetball" | "radar" | "radiator-disabled" | "radiator-off" | "radiator" | "radio-am" | "radio-fm" | "radio-handheld" | "radio-off" | "radio-tower" | "radio" | "radioactive-circle-outline" | "radioactive-circle" | "radioactive-off" | "radioactive" | "radiobox-blank" | "radiobox-marked" | "radiology-box-outline" | "radiology-box" | "radius-outline" | "radius" | "railroad-light" | "rake" | "raspberry-pi" | "raw-off" | "raw" | "ray-end-arrow" | "ray-end" | "ray-start-arrow" | "ray-start-end" | "ray-start-vertex-end" | "ray-start" | "ray-vertex" | "razor-double-edge" | "razor-single-edge" | "react" | "read" | "receipt-outline" | "receipt-text-check-outline" | "receipt-text-check" | "receipt-text-minus-outline" | "receipt-text-minus" | "receipt-text-plus-outline" | "receipt-text-plus" | "receipt-text-remove-outline" | "receipt-text-remove" | "receipt" | "record-circle-outline" | "record-circle" | "record-player" | "record-rec" | "record" | "rectangle-outline" | "rectangle" | "recycle-variant" | "recycle" | "reddit" | "redhat" | "redo-variant" | "redo" | "reflect-horizontal" | "reflect-vertical" | "refresh-auto" | "refresh-circle" | "refresh" | "regex" | "registered-trademark" | "reiterate" | "relation-many-to-many" | "relation-many-to-one-or-many" | "relation-many-to-one" | "relation-many-to-only-one" | "relation-many-to-zero-or-many" | "relation-many-to-zero-or-one" | "relation-one-or-many-to-many" | "relation-one-or-many-to-one-or-many" | "relation-one-or-many-to-one" | "relation-one-or-many-to-only-one" | "relation-one-or-many-to-zero-or-many" | "relation-one-or-many-to-zero-or-one" | "relation-one-to-many" | "relation-one-to-one-or-many" | "relation-one-to-one" | "relation-one-to-only-one" | "relation-one-to-zero-or-many" | "relation-one-to-zero-or-one" | "relation-only-one-to-many" | "relation-only-one-to-one-or-many" | "relation-only-one-to-one" | "relation-only-one-to-only-one" | "relation-only-one-to-zero-or-many" | "relation-only-one-to-zero-or-one" | "relation-zero-or-many-to-many" | "relation-zero-or-many-to-one-or-many" | "relation-zero-or-many-to-one" | "relation-zero-or-many-to-only-one" | "relation-zero-or-many-to-zero-or-many" | "relation-zero-or-many-to-zero-or-one" | "relation-zero-or-one-to-many" | "relation-zero-or-one-to-one-or-many" | "relation-zero-or-one-to-one" | "relation-zero-or-one-to-only-one" | "relation-zero-or-one-to-zero-or-many" | "relation-zero-or-one-to-zero-or-one" | "relative-scale" | "reload-alert" | "reload" | "reminder" | "remote-desktop" | "remote-off" | "remote-tv-off" | "remote-tv" | "remote" | "rename-box" | "reorder-horizontal" | "reorder-vertical" | "repeat-off" | "repeat-once" | "repeat-variant" | "repeat" | "replay" | "reply-all-outline" | "reply-all" | "reply-circle" | "reply-outline" | "reply" | "reproduction" | "resistor-nodes" | "resistor" | "resize-bottom-right" | "resize" | "responsive" | "restart-alert" | "restart-off" | "restart" | "restore-alert" | "restore" | "rewind-10" | "rewind-15" | "rewind-30" | "rewind-45" | "rewind-5" | "rewind-60" | "rewind-outline" | "rewind" | "rhombus-medium-outline" | "rhombus-medium" | "rhombus-outline" | "rhombus-split-outline" | "rhombus-split" | "rhombus" | "ribbon" | "rice" | "rickshaw-electric" | "rickshaw" | "ring" | "rivet" | "road-variant" | "road" | "robber" | "robot-angry-outline" | "robot-angry" | "robot-confused-outline" | "robot-confused" | "robot-dead-outline" | "robot-dead" | "robot-excited-outline" | "robot-excited" | "robot-happy-outline" | "robot-happy" | "robot-industrial-outline" | "robot-industrial" | "robot-love-outline" | "robot-love" | "robot-mower-outline" | "robot-mower" | "robot-off-outline" | "robot-off" | "robot-outline" | "robot-vacuum-variant" | "robot-vacuum" | "robot" | "rocket-launch-outline" | "rocket-launch" | "rocket-outline" | "rocket" | "rodent" | "roller-shade-closed" | "roller-shade" | "roller-skate-off" | "roller-skate" | "rollerblade-off" | "rollerblade" | "rollupjs" | "rolodex-outline" | "rolodex" | "roman-numeral-1" | "roman-numeral-10" | "roman-numeral-2" | "roman-numeral-3" | "roman-numeral-4" | "roman-numeral-5" | "roman-numeral-6" | "roman-numeral-7" | "roman-numeral-8" | "roman-numeral-9" | "room-service-outline" | "room-service" | "rotate-360" | "rotate-3d-variant" | "rotate-3d" | "rotate-left-variant" | "rotate-left" | "rotate-orbit" | "rotate-right-variant" | "rotate-right" | "rounded-corner" | "router-network" | "router-wireless-off" | "router-wireless-settings" | "router-wireless" | "router" | "routes-clock" | "routes" | "rowing" | "rss-box" | "rss-off" | "rss" | "rug" | "rugby" | "ruler-square-compass" | "ruler-square" | "ruler" | "run-fast" | "run" | "rv-truck" | "sack-percent" | "sack" | "safe-square-outline" | "safe-square" | "safe" | "safety-goggles" | "sail-boat-sink" | "sail-boat" | "sale-outline" | "sale" | "salesforce" | "sass" | "satellite-uplink" | "satellite-variant" | "satellite" | "sausage-off" | "sausage" | "saw-blade" | "sawtooth-wave" | "saxophone" | "scale-balance" | "scale-bathroom" | "scale-off" | "scale-unbalanced" | "scale" | "scan-helper" | "scanner-off" | "scanner" | "scatter-plot-outline" | "scatter-plot" | "scent-off" | "scent" | "school-outline" | "school" | "scissors-cutting" | "scooter-electric" | "scooter" | "scoreboard-outline" | "scoreboard" | "screen-rotation-lock" | "screen-rotation" | "screw-flat-top" | "screw-lag" | "screw-machine-flat-top" | "screw-machine-round-top" | "screw-round-top" | "screwdriver" | "script-outline" | "script-text-key-outline" | "script-text-key" | "script-text-outline" | "script-text-play-outline" | "script-text-play" | "script-text" | "script" | "sd" | "seal-variant" | "seal" | "search-web" | "seat-flat-angled" | "seat-flat" | "seat-individual-suite" | "seat-legroom-extra" | "seat-legroom-normal" | "seat-legroom-reduced" | "seat-outline" | "seat-passenger" | "seat-recline-extra" | "seat-recline-normal" | "seat" | "seatbelt" | "security-network" | "security" | "seed-off-outline" | "seed-off" | "seed-outline" | "seed-plus-outline" | "seed-plus" | "seed" | "seesaw" | "segment" | "select-all" | "select-color" | "select-compare" | "select-drag" | "select-group" | "select-inverse" | "select-marker" | "select-multiple-marker" | "select-multiple" | "select-off" | "select-place" | "select-remove" | "select-search" | "select" | "selection-drag" | "selection-ellipse-arrow-inside" | "selection-ellipse-remove" | "selection-ellipse" | "selection-marker" | "selection-multiple-marker" | "selection-multiple" | "selection-off" | "selection-remove" | "selection-search" | "selection" | "semantic-web" | "send-check-outline" | "send-check" | "send-circle-outline" | "send-circle" | "send-clock-outline" | "send-clock" | "send-lock-outline" | "send-lock" | "send-outline" | "send" | "serial-port" | "server-minus" | "server-network-off" | "server-network" | "server-off" | "server-plus" | "server-remove" | "server-security" | "server" | "set-all" | "set-center-right" | "set-center" | "set-left-center" | "set-left-right" | "set-left" | "set-merge" | "set-none" | "set-right" | "set-split" | "set-square" | "set-top-box" | "settings-helper" | "shaker-outline" | "shaker" | "shape-circle-plus" | "shape-outline" | "shape-oval-plus" | "shape-plus" | "shape-polygon-plus" | "shape-rectangle-plus" | "shape-square-plus" | "shape-square-rounded-plus" | "shape" | "share-all-outline" | "share-all" | "share-circle" | "share-off-outline" | "share-off" | "share-outline" | "share-variant-outline" | "share-variant" | "share" | "shark-fin-outline" | "shark-fin" | "shark-off" | "shark" | "sheep" | "shield-account-outline" | "shield-account-variant-outline" | "shield-account-variant" | "shield-account" | "shield-airplane-outline" | "shield-airplane" | "shield-alert-outline" | "shield-alert" | "shield-bug-outline" | "shield-bug" | "shield-car" | "shield-check-outline" | "shield-check" | "shield-cross-outline" | "shield-cross" | "shield-crown-outline" | "shield-crown" | "shield-edit-outline" | "shield-edit" | "shield-half-full" | "shield-half" | "shield-home-outline" | "shield-home" | "shield-key-outline" | "shield-key" | "shield-link-variant-outline" | "shield-link-variant" | "shield-lock-open-outline" | "shield-lock-open" | "shield-lock-outline" | "shield-lock" | "shield-moon-outline" | "shield-moon" | "shield-off-outline" | "shield-off" | "shield-outline" | "shield-plus-outline" | "shield-plus" | "shield-refresh-outline" | "shield-refresh" | "shield-remove-outline" | "shield-remove" | "shield-search" | "shield-star-outline" | "shield-star" | "shield-sun-outline" | "shield-sun" | "shield-sword-outline" | "shield-sword" | "shield-sync-outline" | "shield-sync" | "shield" | "shimmer" | "ship-wheel" | "shipping-pallet" | "shoe-ballet" | "shoe-cleat" | "shoe-formal" | "shoe-heel" | "shoe-print" | "shoe-sneaker" | "shopping-music" | "shopping-outline" | "shopping-search-outline" | "shopping-search" | "shopping" | "shore" | "shovel-off" | "shovel" | "shower-head" | "shower" | "shredder" | "shuffle-disabled" | "shuffle-variant" | "shuffle" | "shuriken" | "sickle" | "sigma-lower" | "sigma" | "sign-caution" | "sign-direction-minus" | "sign-direction-plus" | "sign-direction-remove" | "sign-direction" | "sign-language-outline" | "sign-language" | "sign-pole" | "sign-real-estate" | "sign-text" | "signal-2g" | "signal-3g" | "signal-4g" | "signal-5g" | "signal-cellular-1" | "signal-cellular-2" | "signal-cellular-3" | "signal-cellular-outline" | "signal-distance-variant" | "signal-hspa-plus" | "signal-hspa" | "signal-off" | "signal-variant" | "signal" | "signature-freehand" | "signature-image" | "signature-text" | "signature" | "silo" | "silverware-clean" | "silverware-fork-knife" | "silverware-fork" | "silverware-spoon" | "silverware-variant" | "silverware" | "sim-alert-outline" | "sim-alert" | "sim-off-outline" | "sim-off" | "sim-outline" | "sim" | "simple-icons" | "sina-weibo" | "sine-wave" | "sitemap-outline" | "sitemap" | "size-l" | "size-m" | "size-s" | "size-xl" | "size-xs" | "size-xxl" | "size-xxs" | "size-xxxl" | "skate-off" | "skate" | "skateboard" | "skateboarding" | "skew-less" | "skew-more" | "ski-cross-country" | "ski-water" | "ski" | "skip-backward-outline" | "skip-backward" | "skip-forward-outline" | "skip-forward" | "skip-next-circle-outline" | "skip-next-circle" | "skip-next-outline" | "skip-next" | "skip-previous-circle-outline" | "skip-previous-circle" | "skip-previous-outline" | "skip-previous" | "skull-crossbones-outline" | "skull-crossbones" | "skull-outline" | "skull-scan-outline" | "skull-scan" | "skull" | "skype-business" | "skype" | "slack" | "slash-forward-box" | "slash-forward" | "sledding" | "sleep-off" | "sleep" | "slide" | "slope-downhill" | "slope-uphill" | "slot-machine-outline" | "slot-machine" | "smart-card-off-outline" | "smart-card-off" | "smart-card-outline" | "smart-card-reader-outline" | "smart-card-reader" | "smart-card" | "smog" | "smoke-detector-alert-outline" | "smoke-detector-alert" | "smoke-detector-off-outline" | "smoke-detector-off" | "smoke-detector-outline" | "smoke-detector-variant-alert" | "smoke-detector-variant-off" | "smoke-detector-variant" | "smoke-detector" | "smoke" | "smoking-off" | "smoking-pipe-off" | "smoking-pipe" | "smoking" | "snail" | "snake" | "snapchat" | "snowboard" | "snowflake-alert" | "snowflake-check" | "snowflake-melt" | "snowflake-off" | "snowflake-thermometer" | "snowflake-variant" | "snowflake" | "snowman" | "snowmobile" | "snowshoeing" | "soccer-field" | "soccer" | "social-distance-2-meters" | "social-distance-6-feet" | "sofa-outline" | "sofa-single-outline" | "sofa-single" | "sofa" | "solar-panel-large" | "solar-panel" | "solar-power-variant-outline" | "solar-power-variant" | "solar-power" | "soldering-iron" | "solid" | "sony-playstation" | "sort-alphabetical-ascending-variant" | "sort-alphabetical-ascending" | "sort-alphabetical-descending-variant" | "sort-alphabetical-descending" | "sort-alphabetical-variant" | "sort-ascending" | "sort-bool-ascending-variant" | "sort-bool-ascending" | "sort-bool-descending-variant" | "sort-bool-descending" | "sort-calendar-ascending" | "sort-calendar-descending" | "sort-clock-ascending-outline" | "sort-clock-ascending" | "sort-clock-descending-outline" | "sort-clock-descending" | "sort-descending" | "sort-numeric-ascending-variant" | "sort-numeric-ascending" | "sort-numeric-descending-variant" | "sort-numeric-descending" | "sort-numeric-variant" | "sort-reverse-variant" | "sort-variant-lock-open" | "sort-variant-lock" | "sort-variant-off" | "sort-variant-remove" | "sort-variant" | "sort" | "soundbar" | "soundcloud" | "source-branch-check" | "source-branch-minus" | "source-branch-plus" | "source-branch-refresh" | "source-branch-remove" | "source-branch-sync" | "source-branch" | "source-commit-end-local" | "source-commit-end" | "source-commit-local" | "source-commit-next-local" | "source-commit-start-next-local" | "source-commit-start" | "source-commit" | "source-fork" | "source-merge" | "source-pull" | "source-repository-multiple" | "source-repository" | "soy-sauce-off" | "soy-sauce" | "spa-outline" | "spa" | "space-invaders" | "space-station" | "spade" | "speaker-bluetooth" | "speaker-message" | "speaker-multiple" | "speaker-off" | "speaker-wireless" | "speaker" | "spear" | "speedometer-medium" | "speedometer-slow" | "speedometer" | "spellcheck" | "sphere-off" | "sphere" | "spider-thread" | "spider-web" | "spider" | "spirit-level" | "spoon-sugar" | "spotify" | "spotlight-beam" | "spotlight" | "spray-bottle" | "spray" | "sprinkler-fire" | "sprinkler-variant" | "sprinkler" | "sprout-outline" | "sprout" | "square-circle" | "square-edit-outline" | "square-medium-outline" | "square-medium" | "square-off-outline" | "square-off" | "square-opacity" | "square-outline" | "square-root-box" | "square-root" | "square-rounded-badge-outline" | "square-rounded-badge" | "square-rounded-outline" | "square-rounded" | "square-small" | "square-wave" | "square" | "squeegee" | "ssh" | "stack-exchange" | "stack-overflow" | "stackpath" | "stadium-outline" | "stadium-variant" | "stadium" | "stairs-box" | "stairs-down" | "stairs-up" | "stairs" | "stamper" | "standard-definition" | "star-box-multiple-outline" | "star-box-multiple" | "star-box-outline" | "star-box" | "star-check-outline" | "star-check" | "star-circle-outline" | "star-circle" | "star-cog-outline" | "star-cog" | "star-crescent" | "star-david" | "star-face" | "star-four-points-outline" | "star-four-points" | "star-half-full" | "star-half" | "star-minus-outline" | "star-minus" | "star-off-outline" | "star-off" | "star-outline" | "star-plus-outline" | "star-plus" | "star-remove-outline" | "star-remove" | "star-settings-outline" | "star-settings" | "star-shooting-outline" | "star-shooting" | "star-three-points-outline" | "star-three-points" | "star" | "state-machine" | "steam" | "steering-off" | "steering" | "step-backward-2" | "step-backward" | "step-forward-2" | "step-forward" | "stethoscope" | "sticker-alert-outline" | "sticker-alert" | "sticker-check-outline" | "sticker-check" | "sticker-circle-outline" | "sticker-emoji" | "sticker-minus-outline" | "sticker-minus" | "sticker-outline" | "sticker-plus-outline" | "sticker-plus" | "sticker-remove-outline" | "sticker-remove" | "sticker-text-outline" | "sticker-text" | "sticker" | "stocking" | "stomach" | "stool-outline" | "stool" | "stop-circle-outline" | "stop-circle" | "stop" | "storage-tank-outline" | "storage-tank" | "store-24-hour" | "store-alert-outline" | "store-alert" | "store-check-outline" | "store-check" | "store-clock-outline" | "store-clock" | "store-cog-outline" | "store-cog" | "store-edit-outline" | "store-edit" | "store-marker-outline" | "store-marker" | "store-minus-outline" | "store-minus" | "store-off-outline" | "store-off" | "store-outline" | "store-plus-outline" | "store-plus" | "store-remove-outline" | "store-remove" | "store-search-outline" | "store-search" | "store-settings-outline" | "store-settings" | "store" | "storefront-outline" | "storefront" | "stove" | "strategy" | "stretch-to-page-outline" | "stretch-to-page" | "string-lights-off" | "string-lights" | "subdirectory-arrow-left" | "subdirectory-arrow-right" | "submarine" | "subtitles-outline" | "subtitles" | "subway-alert-variant" | "subway-variant" | "subway" | "summit" | "sun-angle-outline" | "sun-angle" | "sun-clock-outline" | "sun-clock" | "sun-compass" | "sun-snowflake-variant" | "sun-snowflake" | "sun-thermometer-outline" | "sun-thermometer" | "sun-wireless-outline" | "sun-wireless" | "sunglasses" | "surfing" | "surround-sound-2-0" | "surround-sound-2-1" | "surround-sound-3-1" | "surround-sound-5-1-2" | "surround-sound-5-1" | "surround-sound-7-1" | "surround-sound" | "svg" | "swap-horizontal-bold" | "swap-horizontal-circle-outline" | "swap-horizontal-circle" | "swap-horizontal-variant" | "swap-horizontal" | "swap-vertical-bold" | "swap-vertical-circle-outline" | "swap-vertical-circle" | "swap-vertical-variant" | "swap-vertical" | "swim" | "switch" | "sword-cross" | "sword" | "syllabary-hangul" | "syllabary-hiragana" | "syllabary-katakana-halfwidth" | "syllabary-katakana" | "symbol" | "symfony" | "synagogue-outline" | "synagogue" | "sync-alert" | "sync-circle" | "sync-off" | "sync" | "tab-minus" | "tab-plus" | "tab-remove" | "tab-search" | "tab-unselected" | "tab" | "table-account" | "table-alert" | "table-arrow-down" | "table-arrow-left" | "table-arrow-right" | "table-arrow-up" | "table-border" | "table-cancel" | "table-chair" | "table-check" | "table-clock" | "table-cog" | "table-column-plus-after" | "table-column-plus-before" | "table-column-remove" | "table-column-width" | "table-column" | "table-edit" | "table-eye-off" | "table-eye" | "table-furniture" | "table-headers-eye-off" | "table-headers-eye" | "table-heart" | "table-key" | "table-large-plus" | "table-large-remove" | "table-large" | "table-lock" | "table-merge-cells" | "table-minus" | "table-multiple" | "table-network" | "table-of-contents" | "table-off" | "table-picnic" | "table-pivot" | "table-plus" | "table-question" | "table-refresh" | "table-remove" | "table-row-height" | "table-row-plus-after" | "table-row-plus-before" | "table-row-remove" | "table-row" | "table-search" | "table-settings" | "table-split-cell" | "table-star" | "table-sync" | "table-tennis" | "table" | "tablet-android" | "tablet-cellphone" | "tablet-dashboard" | "tablet" | "taco" | "tag-arrow-down-outline" | "tag-arrow-down" | "tag-arrow-left-outline" | "tag-arrow-left" | "tag-arrow-right-outline" | "tag-arrow-right" | "tag-arrow-up-outline" | "tag-arrow-up" | "tag-check-outline" | "tag-check" | "tag-faces" | "tag-heart-outline" | "tag-heart" | "tag-minus-outline" | "tag-minus" | "tag-multiple-outline" | "tag-multiple" | "tag-off-outline" | "tag-off" | "tag-outline" | "tag-plus-outline" | "tag-plus" | "tag-remove-outline" | "tag-remove" | "tag-search-outline" | "tag-search" | "tag-text-outline" | "tag-text" | "tag" | "tailwind" | "tally-mark-1" | "tally-mark-2" | "tally-mark-3" | "tally-mark-4" | "tally-mark-5" | "tangram" | "tank" | "tanker-truck" | "tape-drive" | "tape-measure" | "target-account" | "target-variant" | "target" | "taxi" | "tea-outline" | "tea" | "teamviewer" | "teddy-bear" | "telescope" | "television-ambient-light" | "television-box" | "television-classic-off" | "television-classic" | "television-guide" | "television-off" | "television-pause" | "television-play" | "television-shimmer" | "television-speaker-off" | "television-speaker" | "television-stop" | "television" | "temperature-celsius" | "temperature-fahrenheit" | "temperature-kelvin" | "temple-buddhist-outline" | "temple-buddhist" | "temple-hindu-outline" | "temple-hindu" | "tennis-ball" | "tennis" | "tent" | "terraform" | "terrain" | "test-tube-empty" | "test-tube-off" | "test-tube" | "text-account" | "text-box-check-outline" | "text-box-check" | "text-box-edit-outline" | "text-box-edit" | "text-box-minus-outline" | "text-box-minus" | "text-box-multiple-outline" | "text-box-multiple" | "text-box-outline" | "text-box-plus-outline" | "text-box-plus" | "text-box-remove-outline" | "text-box-remove" | "text-box-search-outline" | "text-box-search" | "text-box" | "text-long" | "text-recognition" | "text-search-variant" | "text-search" | "text-shadow" | "text-short" | "text-to-speech-off" | "text-to-speech" | "text" | "texture-box" | "texture" | "theater" | "theme-light-dark" | "thermometer-alert" | "thermometer-auto" | "thermometer-bluetooth" | "thermometer-check" | "thermometer-chevron-down" | "thermometer-chevron-up" | "thermometer-high" | "thermometer-lines" | "thermometer-low" | "thermometer-minus" | "thermometer-off" | "thermometer-plus" | "thermometer-probe-off" | "thermometer-probe" | "thermometer-water" | "thermometer" | "thermostat-auto" | "thermostat-box-auto" | "thermostat-box" | "thermostat" | "thought-bubble-outline" | "thought-bubble" | "thumb-down-outline" | "thumb-down" | "thumb-up-outline" | "thumb-up" | "thumbs-up-down-outline" | "thumbs-up-down" | "ticket-account" | "ticket-confirmation-outline" | "ticket-confirmation" | "ticket-outline" | "ticket-percent-outline" | "ticket-percent" | "ticket" | "tie" | "tilde-off" | "tilde" | "timelapse" | "timeline-alert-outline" | "timeline-alert" | "timeline-check-outline" | "timeline-check" | "timeline-clock-outline" | "timeline-clock" | "timeline-help-outline" | "timeline-help" | "timeline-minus-outline" | "timeline-minus" | "timeline-outline" | "timeline-plus-outline" | "timeline-plus" | "timeline-remove-outline" | "timeline-remove" | "timeline-text-outline" | "timeline-text" | "timeline" | "timer-10" | "timer-3" | "timer-alert-outline" | "timer-alert" | "timer-cancel-outline" | "timer-cancel" | "timer-check-outline" | "timer-check" | "timer-cog-outline" | "timer-cog" | "timer-edit-outline" | "timer-edit" | "timer-lock-open-outline" | "timer-lock-open" | "timer-lock-outline" | "timer-lock" | "timer-marker-outline" | "timer-marker" | "timer-minus-outline" | "timer-minus" | "timer-music-outline" | "timer-music" | "timer-off-outline" | "timer-off" | "timer-outline" | "timer-pause-outline" | "timer-pause" | "timer-play-outline" | "timer-play" | "timer-plus-outline" | "timer-plus" | "timer-refresh-outline" | "timer-refresh" | "timer-remove-outline" | "timer-remove" | "timer-sand-complete" | "timer-sand-empty" | "timer-sand-full" | "timer-sand-paused" | "timer-sand" | "timer-settings-outline" | "timer-settings" | "timer-star-outline" | "timer-star" | "timer-stop-outline" | "timer-stop" | "timer-sync-outline" | "timer-sync" | "timer" | "timetable" | "tire" | "toaster-off" | "toaster-oven" | "toaster" | "toggle-switch-off-outline" | "toggle-switch-off" | "toggle-switch-outline" | "toggle-switch-variant-off" | "toggle-switch-variant" | "toggle-switch" | "toilet" | "toolbox-outline" | "toolbox" | "tools" | "tooltip-account" | "tooltip-cellphone" | "tooltip-check-outline" | "tooltip-check" | "tooltip-edit-outline" | "tooltip-edit" | "tooltip-image-outline" | "tooltip-image" | "tooltip-minus-outline" | "tooltip-minus" | "tooltip-outline" | "tooltip-plus-outline" | "tooltip-plus" | "tooltip-remove-outline" | "tooltip-remove" | "tooltip-text-outline" | "tooltip-text" | "tooltip" | "tooth-outline" | "tooth" | "toothbrush-electric" | "toothbrush-paste" | "toothbrush" | "torch" | "tortoise" | "toslink" | "tournament" | "tow-truck" | "tower-beach" | "tower-fire" | "town-hall" | "toy-brick-marker-outline" | "toy-brick-marker" | "toy-brick-minus-outline" | "toy-brick-minus" | "toy-brick-outline" | "toy-brick-plus-outline" | "toy-brick-plus" | "toy-brick-remove-outline" | "toy-brick-remove" | "toy-brick-search-outline" | "toy-brick-search" | "toy-brick" | "track-light-off" | "track-light" | "trackpad-lock" | "trackpad" | "tractor-variant" | "tractor" | "trademark" | "traffic-cone" | "traffic-light-outline" | "traffic-light" | "train-car-autorack" | "train-car-box-full" | "train-car-box-open" | "train-car-box" | "train-car-caboose" | "train-car-centerbeam-full" | "train-car-centerbeam" | "train-car-container" | "train-car-flatbed-car" | "train-car-flatbed-tank" | "train-car-flatbed" | "train-car-gondola-full" | "train-car-gondola" | "train-car-hopper-covered" | "train-car-hopper-full" | "train-car-hopper" | "train-car-intermodal" | "train-car-passenger-door-open" | "train-car-passenger-door" | "train-car-passenger-variant" | "train-car-passenger" | "train-car-tank" | "train-car" | "train-variant" | "train" | "tram-side" | "tram" | "transcribe-close" | "transcribe" | "transfer-down" | "transfer-left" | "transfer-right" | "transfer-up" | "transfer" | "transit-connection-horizontal" | "transit-connection-variant" | "transit-connection" | "transit-detour" | "transit-skip" | "transit-transfer" | "transition-masked" | "transition" | "translate-off" | "translate" | "transmission-tower-export" | "transmission-tower-import" | "transmission-tower-off" | "transmission-tower" | "trash-can-outline" | "trash-can" | "tray-alert" | "tray-arrow-down" | "tray-arrow-up" | "tray-full" | "tray-minus" | "tray-plus" | "tray-remove" | "tray" | "treasure-chest" | "tree-outline" | "tree" | "trello" | "trending-down" | "trending-neutral" | "trending-up" | "triangle-outline" | "triangle-small-down" | "triangle-small-up" | "triangle-wave" | "triangle" | "triforce" | "trophy-award" | "trophy-broken" | "trophy-outline" | "trophy-variant-outline" | "trophy-variant" | "trophy" | "truck-alert-outline" | "truck-alert" | "truck-cargo-container" | "truck-check-outline" | "truck-check" | "truck-delivery-outline" | "truck-delivery" | "truck-fast-outline" | "truck-fast" | "truck-flatbed" | "truck-minus-outline" | "truck-minus" | "truck-outline" | "truck-plus-outline" | "truck-plus" | "truck-remove-outline" | "truck-remove" | "truck-snowflake" | "truck-trailer" | "truck" | "trumpet" | "tshirt-crew-outline" | "tshirt-crew" | "tshirt-v-outline" | "tshirt-v" | "tsunami" | "tumble-dryer-alert" | "tumble-dryer-off" | "tumble-dryer" | "tune-variant" | "tune-vertical-variant" | "tune-vertical" | "tune" | "tunnel-outline" | "tunnel" | "turbine" | "turkey" | "turnstile-outline" | "turnstile" | "turtle" | "twitch" | "twitter" | "two-factor-authentication" | "typewriter" | "ubisoft" | "ubuntu" | "ufo-outline" | "ufo" | "ultra-high-definition" | "umbraco" | "umbrella-beach-outline" | "umbrella-beach" | "umbrella-closed-outline" | "umbrella-closed-variant" | "umbrella-closed" | "umbrella-outline" | "umbrella" | "undo-variant" | "undo" | "unfold-less-horizontal" | "unfold-less-vertical" | "unfold-more-horizontal" | "unfold-more-vertical" | "ungroup" | "unicode" | "unicorn-variant" | "unicorn" | "unicycle" | "unity" | "unreal" | "update" | "upload-lock-outline" | "upload-lock" | "upload-multiple" | "upload-network-outline" | "upload-network" | "upload-off-outline" | "upload-off" | "upload-outline" | "upload" | "usb-flash-drive-outline" | "usb-flash-drive" | "usb-port" | "usb" | "vacuum-outline" | "vacuum" | "valve-closed" | "valve-open" | "valve" | "van-passenger" | "van-utility" | "vanish-quarter" | "vanish" | "vanity-light" | "variable-box" | "variable" | "vector-arrange-above" | "vector-arrange-below" | "vector-bezier" | "vector-circle-variant" | "vector-circle" | "vector-combine" | "vector-curve" | "vector-difference-ab" | "vector-difference-ba" | "vector-difference" | "vector-ellipse" | "vector-intersection" | "vector-line" | "vector-link" | "vector-point" | "vector-polygon-variant" | "vector-polygon" | "vector-polyline-edit" | "vector-polyline-minus" | "vector-polyline-plus" | "vector-polyline-remove" | "vector-polyline" | "vector-radius" | "vector-rectangle" | "vector-selection" | "vector-square-close" | "vector-square-edit" | "vector-square-minus" | "vector-square-open" | "vector-square-plus" | "vector-square-remove" | "vector-square" | "vector-triangle" | "vector-union" | "vhs" | "vibrate-off" | "vibrate" | "video-2d" | "video-3d-off" | "video-3d-variant" | "video-3d" | "video-4k-box" | "video-account" | "video-box-off" | "video-box" | "video-check-outline" | "video-check" | "video-high-definition" | "video-image" | "video-input-antenna" | "video-input-component" | "video-input-hdmi" | "video-input-scart" | "video-input-svideo" | "video-marker-outline" | "video-marker" | "video-minus-outline" | "video-minus" | "video-off-outline" | "video-off" | "video-outline" | "video-plus-outline" | "video-plus" | "video-stabilization" | "video-switch-outline" | "video-switch" | "video-vintage" | "video-wireless-outline" | "video-wireless" | "video" | "view-agenda-outline" | "view-agenda" | "view-array-outline" | "view-array" | "view-carousel-outline" | "view-carousel" | "view-column-outline" | "view-column" | "view-comfy-outline" | "view-comfy" | "view-compact-outline" | "view-compact" | "view-dashboard-edit-outline" | "view-dashboard-edit" | "view-dashboard-outline" | "view-dashboard-variant-outline" | "view-dashboard-variant" | "view-dashboard" | "view-day-outline" | "view-day" | "view-gallery-outline" | "view-gallery" | "view-grid-outline" | "view-grid-plus-outline" | "view-grid-plus" | "view-grid" | "view-headline" | "view-list-outline" | "view-list" | "view-module-outline" | "view-module" | "view-parallel-outline" | "view-parallel" | "view-quilt-outline" | "view-quilt" | "view-sequential-outline" | "view-sequential" | "view-split-horizontal" | "view-split-vertical" | "view-stream-outline" | "view-stream" | "view-week-outline" | "view-week" | "vimeo" | "violin" | "virtual-reality" | "virus-off-outline" | "virus-off" | "virus-outline" | "virus" | "vlc" | "voicemail" | "volcano-outline" | "volcano" | "volleyball" | "volume-equal" | "volume-high" | "volume-low" | "volume-medium" | "volume-minus" | "volume-mute" | "volume-off" | "volume-plus" | "volume-source" | "volume-variant-off" | "volume-vibrate" | "vote-outline" | "vote" | "vpn" | "vuejs" | "vuetify" | "walk" | "wall-fire" | "wall-sconce-flat-outline" | "wall-sconce-flat-variant-outline" | "wall-sconce-flat-variant" | "wall-sconce-flat" | "wall-sconce-outline" | "wall-sconce-round-outline" | "wall-sconce-round-variant-outline" | "wall-sconce-round-variant" | "wall-sconce-round" | "wall-sconce" | "wall" | "wallet-giftcard" | "wallet-membership" | "wallet-outline" | "wallet-plus-outline" | "wallet-plus" | "wallet-travel" | "wallet" | "wallpaper" | "wan" | "wardrobe-outline" | "wardrobe" | "warehouse" | "washing-machine-alert" | "washing-machine-off" | "washing-machine" | "watch-export-variant" | "watch-export" | "watch-import-variant" | "watch-import" | "watch-variant" | "watch-vibrate-off" | "watch-vibrate" | "watch" | "water-alert-outline" | "water-alert" | "water-boiler-alert" | "water-boiler-off" | "water-boiler" | "water-check-outline" | "water-check" | "water-circle" | "water-minus-outline" | "water-minus" | "water-off-outline" | "water-off" | "water-opacity" | "water-outline" | "water-percent-alert" | "water-percent" | "water-plus-outline" | "water-plus" | "water-polo" | "water-pump-off" | "water-pump" | "water-remove-outline" | "water-remove" | "water-sync" | "water-thermometer-outline" | "water-thermometer" | "water-well-outline" | "water-well" | "water" | "waterfall" | "watering-can-outline" | "watering-can" | "watermark" | "wave" | "waveform" | "waves-arrow-left" | "waves-arrow-right" | "waves-arrow-up" | "waves" | "waze" | "weather-cloudy-alert" | "weather-cloudy-arrow-right" | "weather-cloudy-clock" | "weather-cloudy" | "weather-fog" | "weather-hail" | "weather-hazy" | "weather-hurricane" | "weather-lightning-rainy" | "weather-lightning" | "weather-night-partly-cloudy" | "weather-night" | "weather-partly-cloudy" | "weather-partly-lightning" | "weather-partly-rainy" | "weather-partly-snowy-rainy" | "weather-partly-snowy" | "weather-pouring" | "weather-rainy" | "weather-snowy-heavy" | "weather-snowy-rainy" | "weather-snowy" | "weather-sunny-alert" | "weather-sunny-off" | "weather-sunny" | "weather-sunset-down" | "weather-sunset-up" | "weather-sunset" | "weather-tornado" | "weather-windy-variant" | "weather-windy" | "web-box" | "web-cancel" | "web-check" | "web-clock" | "web-minus" | "web-off" | "web-plus" | "web-refresh" | "web-remove" | "web-sync" | "web" | "webcam-off" | "webcam" | "webhook" | "webpack" | "webrtc" | "wechat" | "weight-gram" | "weight-kilogram" | "weight-lifter" | "weight-pound" | "weight" | "whatsapp" | "wheel-barrow" | "wheelchair-accessibility" | "wheelchair" | "whistle-outline" | "whistle" | "white-balance-auto" | "white-balance-incandescent" | "white-balance-iridescent" | "white-balance-sunny" | "widgets-outline" | "widgets" | "wifi-alert" | "wifi-arrow-down" | "wifi-arrow-left-right" | "wifi-arrow-left" | "wifi-arrow-right" | "wifi-arrow-up-down" | "wifi-arrow-up" | "wifi-cancel" | "wifi-check" | "wifi-cog" | "wifi-lock-open" | "wifi-lock" | "wifi-marker" | "wifi-minus" | "wifi-off" | "wifi-plus" | "wifi-refresh" | "wifi-remove" | "wifi-settings" | "wifi-star" | "wifi-strength-1-alert" | "wifi-strength-1-lock-open" | "wifi-strength-1-lock" | "wifi-strength-1" | "wifi-strength-2-alert" | "wifi-strength-2-lock-open" | "wifi-strength-2-lock" | "wifi-strength-2" | "wifi-strength-3-alert" | "wifi-strength-3-lock-open" | "wifi-strength-3-lock" | "wifi-strength-3" | "wifi-strength-4-alert" | "wifi-strength-4-lock-open" | "wifi-strength-4-lock" | "wifi-strength-4" | "wifi-strength-alert-outline" | "wifi-strength-lock-open-outline" | "wifi-strength-lock-outline" | "wifi-strength-off-outline" | "wifi-strength-off" | "wifi-strength-outline" | "wifi-sync" | "wifi" | "wikipedia" | "wind-power-outline" | "wind-power" | "wind-turbine-alert" | "wind-turbine-check" | "wind-turbine" | "window-close" | "window-closed-variant" | "window-closed" | "window-maximize" | "window-minimize" | "window-open-variant" | "window-open" | "window-restore" | "window-shutter-alert" | "window-shutter-cog" | "window-shutter-open" | "window-shutter-settings" | "window-shutter" | "windsock" | "wiper-wash-alert" | "wiper-wash" | "wiper" | "wizard-hat" | "wordpress" | "wrap-disabled" | "wrap" | "wrench-clock" | "wrench-outline" | "wrench" | "xamarin" | "xml" | "xmpp" | "yahoo" | "yeast" | "yin-yang" | "yoga" | "youtube-gaming" | "youtube-studio" | "youtube-subscription" | "youtube-tv" | "youtube" | "yurt" | "z-wave" | "zend" | "zigbee" | "zip-box-outline" | "zip-box" | "zip-disk" | "zodiac-aquarius" | "zodiac-aries" | "zodiac-cancer" | "zodiac-capricorn" | "zodiac-gemini" | "zodiac-leo" | "zodiac-libra" | "zodiac-pisces" | "zodiac-sagittarius" | "zodiac-scorpio" | "zodiac-taurus" | "zodiac-virgo";
+export type IconNames = "ab-testing" | "abacus" | "abjad-arabic" | "abjad-hebrew" | "abugida-devanagari" | "abugida-thai" | "access-point-check" | "access-point-minus" | "access-point-network-off" | "access-point-network" | "access-point-off" | "access-point-plus" | "access-point-remove" | "access-point" | "account-alert-outline" | "account-alert" | "account-arrow-down-outline" | "account-arrow-down" | "account-arrow-left-outline" | "account-arrow-left" | "account-arrow-right-outline" | "account-arrow-right" | "account-arrow-up-outline" | "account-arrow-up" | "account-badge-outline" | "account-badge" | "account-box-edit-outline" | "account-box-minus-outline" | "account-box-multiple-outline" | "account-box-multiple" | "account-box-outline" | "account-box-plus-outline" | "account-box" | "account-cancel-outline" | "account-cancel" | "account-card-outline" | "account-card" | "account-cash-outline" | "account-cash" | "account-check-outline" | "account-check" | "account-child-circle" | "account-child-outline" | "account-child" | "account-circle-outline" | "account-circle" | "account-clock-outline" | "account-clock" | "account-cog-outline" | "account-cog" | "account-convert-outline" | "account-convert" | "account-cowboy-hat-outline" | "account-cowboy-hat" | "account-credit-card-outline" | "account-credit-card" | "account-details-outline" | "account-details" | "account-edit-outline" | "account-edit" | "account-eye-outline" | "account-eye" | "account-file-outline" | "account-file-text-outline" | "account-file-text" | "account-file" | "account-filter-outline" | "account-filter" | "account-group-outline" | "account-group" | "account-hard-hat-outline" | "account-hard-hat" | "account-heart-outline" | "account-heart" | "account-injury-outline" | "account-injury" | "account-key-outline" | "account-key" | "account-lock-open-outline" | "account-lock-open" | "account-lock-outline" | "account-lock" | "account-minus-outline" | "account-minus" | "account-multiple-check-outline" | "account-multiple-check" | "account-multiple-minus-outline" | "account-multiple-minus" | "account-multiple-outline" | "account-multiple-plus-outline" | "account-multiple-plus" | "account-multiple-remove-outline" | "account-multiple-remove" | "account-multiple" | "account-music-outline" | "account-music" | "account-network-off-outline" | "account-network-off" | "account-network-outline" | "account-network" | "account-off-outline" | "account-off" | "account-outline" | "account-plus-outline" | "account-plus" | "account-question-outline" | "account-question" | "account-reactivate-outline" | "account-reactivate" | "account-remove-outline" | "account-remove" | "account-school-outline" | "account-school" | "account-search-outline" | "account-search" | "account-settings-outline" | "account-settings" | "account-star-outline" | "account-star" | "account-supervisor-circle-outline" | "account-supervisor-circle" | "account-supervisor-outline" | "account-supervisor" | "account-switch-outline" | "account-switch" | "account-sync-outline" | "account-sync" | "account-tag-outline" | "account-tag" | "account-tie-hat-outline" | "account-tie-hat" | "account-tie-outline" | "account-tie-voice-off-outline" | "account-tie-voice-off" | "account-tie-voice-outline" | "account-tie-voice" | "account-tie-woman" | "account-tie" | "account-voice-off" | "account-voice" | "account-wrench-outline" | "account-wrench" | "account" | "adjust" | "advertisements-off" | "advertisements" | "air-conditioner" | "air-filter" | "air-horn" | "air-humidifier-off" | "air-humidifier" | "air-purifier-off" | "air-purifier" | "airbag" | "airballoon-outline" | "airballoon" | "airplane-alert" | "airplane-check" | "airplane-clock" | "airplane-cog" | "airplane-edit" | "airplane-landing" | "airplane-marker" | "airplane-minus" | "airplane-off" | "airplane-plus" | "airplane-remove" | "airplane-search" | "airplane-settings" | "airplane-takeoff" | "airplane" | "airport" | "alarm-bell" | "alarm-check" | "alarm-light-off-outline" | "alarm-light-off" | "alarm-light-outline" | "alarm-light" | "alarm-multiple" | "alarm-note-off" | "alarm-note" | "alarm-off" | "alarm-panel-outline" | "alarm-panel" | "alarm-plus" | "alarm-snooze" | "alarm" | "album" | "alert-box-outline" | "alert-box" | "alert-circle-check-outline" | "alert-circle-check" | "alert-circle-outline" | "alert-circle" | "alert-decagram-outline" | "alert-decagram" | "alert-minus-outline" | "alert-minus" | "alert-octagon-outline" | "alert-octagon" | "alert-octagram-outline" | "alert-octagram" | "alert-outline" | "alert-plus-outline" | "alert-plus" | "alert-remove-outline" | "alert-remove" | "alert-rhombus-outline" | "alert-rhombus" | "alert" | "alien-outline" | "alien" | "align-horizontal-center" | "align-horizontal-distribute" | "align-horizontal-left" | "align-horizontal-right" | "align-vertical-bottom" | "align-vertical-center" | "align-vertical-distribute" | "align-vertical-top" | "all-inclusive-box-outline" | "all-inclusive-box" | "all-inclusive" | "allergy" | "alpha-a-box-outline" | "alpha-a-box" | "alpha-a-circle-outline" | "alpha-a-circle" | "alpha-a" | "alpha-b-box-outline" | "alpha-b-box" | "alpha-b-circle-outline" | "alpha-b-circle" | "alpha-b" | "alpha-c-box-outline" | "alpha-c-box" | "alpha-c-circle-outline" | "alpha-c-circle" | "alpha-c" | "alpha-d-box-outline" | "alpha-d-box" | "alpha-d-circle-outline" | "alpha-d-circle" | "alpha-d" | "alpha-e-box-outline" | "alpha-e-box" | "alpha-e-circle-outline" | "alpha-e-circle" | "alpha-e" | "alpha-f-box-outline" | "alpha-f-box" | "alpha-f-circle-outline" | "alpha-f-circle" | "alpha-f" | "alpha-g-box-outline" | "alpha-g-box" | "alpha-g-circle-outline" | "alpha-g-circle" | "alpha-g" | "alpha-h-box-outline" | "alpha-h-box" | "alpha-h-circle-outline" | "alpha-h-circle" | "alpha-h" | "alpha-i-box-outline" | "alpha-i-box" | "alpha-i-circle-outline" | "alpha-i-circle" | "alpha-i" | "alpha-j-box-outline" | "alpha-j-box" | "alpha-j-circle-outline" | "alpha-j-circle" | "alpha-j" | "alpha-k-box-outline" | "alpha-k-box" | "alpha-k-circle-outline" | "alpha-k-circle" | "alpha-k" | "alpha-l-box-outline" | "alpha-l-box" | "alpha-l-circle-outline" | "alpha-l-circle" | "alpha-l" | "alpha-m-box-outline" | "alpha-m-box" | "alpha-m-circle-outline" | "alpha-m-circle" | "alpha-m" | "alpha-n-box-outline" | "alpha-n-box" | "alpha-n-circle-outline" | "alpha-n-circle" | "alpha-n" | "alpha-o-box-outline" | "alpha-o-box" | "alpha-o-circle-outline" | "alpha-o-circle" | "alpha-o" | "alpha-p-box-outline" | "alpha-p-box" | "alpha-p-circle-outline" | "alpha-p-circle" | "alpha-p" | "alpha-q-box-outline" | "alpha-q-box" | "alpha-q-circle-outline" | "alpha-q-circle" | "alpha-q" | "alpha-r-box-outline" | "alpha-r-box" | "alpha-r-circle-outline" | "alpha-r-circle" | "alpha-r" | "alpha-s-box-outline" | "alpha-s-box" | "alpha-s-circle-outline" | "alpha-s-circle" | "alpha-s" | "alpha-t-box-outline" | "alpha-t-box" | "alpha-t-circle-outline" | "alpha-t-circle" | "alpha-t" | "alpha-u-box-outline" | "alpha-u-box" | "alpha-u-circle-outline" | "alpha-u-circle" | "alpha-u" | "alpha-v-box-outline" | "alpha-v-box" | "alpha-v-circle-outline" | "alpha-v-circle" | "alpha-v" | "alpha-w-box-outline" | "alpha-w-box" | "alpha-w-circle-outline" | "alpha-w-circle" | "alpha-w" | "alpha-x-box-outline" | "alpha-x-box" | "alpha-x-circle-outline" | "alpha-x-circle" | "alpha-x" | "alpha-y-box-outline" | "alpha-y-box" | "alpha-y-circle-outline" | "alpha-y-circle" | "alpha-y" | "alpha-z-box-outline" | "alpha-z-box" | "alpha-z-circle-outline" | "alpha-z-circle" | "alpha-z" | "alpha" | "alphabet-aurebesh" | "alphabet-cyrillic" | "alphabet-greek" | "alphabet-latin" | "alphabet-piqad" | "alphabet-tengwar" | "alphabetical-off" | "alphabetical-variant-off" | "alphabetical-variant" | "alphabetical" | "altimeter" | "ambulance" | "ammunition" | "ampersand" | "amplifier-off" | "amplifier" | "anchor" | "android-studio" | "android" | "angle-acute" | "angle-obtuse" | "angle-right" | "angular" | "angularjs" | "animation-outline" | "animation-play-outline" | "animation-play" | "animation" | "ansible" | "antenna" | "anvil" | "apache-kafka" | "api-off" | "api" | "apple-finder" | "apple-icloud" | "apple-ios" | "apple-keyboard-caps" | "apple-keyboard-command" | "apple-keyboard-control" | "apple-keyboard-option" | "apple-keyboard-shift" | "apple-safari" | "apple" | "application-array-outline" | "application-array" | "application-braces-outline" | "application-braces" | "application-brackets-outline" | "application-brackets" | "application-cog-outline" | "application-cog" | "application-edit-outline" | "application-edit" | "application-export" | "application-import" | "application-outline" | "application-parentheses-outline" | "application-parentheses" | "application-settings-outline" | "application-settings" | "application-variable-outline" | "application-variable" | "application" | "approximately-equal-box" | "approximately-equal" | "apps-box" | "apps" | "arch" | "archive-alert-outline" | "archive-alert" | "archive-arrow-down-outline" | "archive-arrow-down" | "archive-arrow-up-outline" | "archive-arrow-up" | "archive-cancel-outline" | "archive-cancel" | "archive-check-outline" | "archive-check" | "archive-clock-outline" | "archive-clock" | "archive-cog-outline" | "archive-cog" | "archive-edit-outline" | "archive-edit" | "archive-eye-outline" | "archive-eye" | "archive-lock-open-outline" | "archive-lock-open" | "archive-lock-outline" | "archive-lock" | "archive-marker-outline" | "archive-marker" | "archive-minus-outline" | "archive-minus" | "archive-music-outline" | "archive-music" | "archive-off-outline" | "archive-off" | "archive-outline" | "archive-plus-outline" | "archive-plus" | "archive-refresh-outline" | "archive-refresh" | "archive-remove-outline" | "archive-remove" | "archive-search-outline" | "archive-search" | "archive-settings-outline" | "archive-settings" | "archive-star-outline" | "archive-star" | "archive-sync-outline" | "archive-sync" | "archive" | "arm-flex-outline" | "arm-flex" | "arrange-bring-forward" | "arrange-bring-to-front" | "arrange-send-backward" | "arrange-send-to-back" | "arrow-all" | "arrow-bottom-left-bold-box-outline" | "arrow-bottom-left-bold-box" | "arrow-bottom-left-bold-outline" | "arrow-bottom-left-thick" | "arrow-bottom-left-thin-circle-outline" | "arrow-bottom-left-thin" | "arrow-bottom-left" | "arrow-bottom-right-bold-box-outline" | "arrow-bottom-right-bold-box" | "arrow-bottom-right-bold-outline" | "arrow-bottom-right-thick" | "arrow-bottom-right-thin-circle-outline" | "arrow-bottom-right-thin" | "arrow-bottom-right" | "arrow-collapse-all" | "arrow-collapse-down" | "arrow-collapse-horizontal" | "arrow-collapse-left" | "arrow-collapse-right" | "arrow-collapse-up" | "arrow-collapse-vertical" | "arrow-collapse" | "arrow-decision-auto-outline" | "arrow-decision-auto" | "arrow-decision-outline" | "arrow-decision" | "arrow-down-bold-box-outline" | "arrow-down-bold-box" | "arrow-down-bold-circle-outline" | "arrow-down-bold-circle" | "arrow-down-bold-hexagon-outline" | "arrow-down-bold-outline" | "arrow-down-bold" | "arrow-down-box" | "arrow-down-circle-outline" | "arrow-down-circle" | "arrow-down-drop-circle-outline" | "arrow-down-drop-circle" | "arrow-down-left-bold" | "arrow-down-left" | "arrow-down-right-bold" | "arrow-down-right" | "arrow-down-thick" | "arrow-down-thin-circle-outline" | "arrow-down-thin" | "arrow-down" | "arrow-expand-all" | "arrow-expand-down" | "arrow-expand-horizontal" | "arrow-expand-left" | "arrow-expand-right" | "arrow-expand-up" | "arrow-expand-vertical" | "arrow-expand" | "arrow-horizontal-lock" | "arrow-left-bold-box-outline" | "arrow-left-bold-box" | "arrow-left-bold-circle-outline" | "arrow-left-bold-circle" | "arrow-left-bold-hexagon-outline" | "arrow-left-bold-outline" | "arrow-left-bold" | "arrow-left-bottom-bold" | "arrow-left-bottom" | "arrow-left-box" | "arrow-left-circle-outline" | "arrow-left-circle" | "arrow-left-drop-circle-outline" | "arrow-left-drop-circle" | "arrow-left-right-bold-outline" | "arrow-left-right-bold" | "arrow-left-right" | "arrow-left-thick" | "arrow-left-thin-circle-outline" | "arrow-left-thin" | "arrow-left-top-bold" | "arrow-left-top" | "arrow-left" | "arrow-oscillating-off" | "arrow-oscillating" | "arrow-projectile-multiple" | "arrow-projectile" | "arrow-right-bold-box-outline" | "arrow-right-bold-box" | "arrow-right-bold-circle-outline" | "arrow-right-bold-circle" | "arrow-right-bold-hexagon-outline" | "arrow-right-bold-outline" | "arrow-right-bold" | "arrow-right-bottom-bold" | "arrow-right-bottom" | "arrow-right-box" | "arrow-right-circle-outline" | "arrow-right-circle" | "arrow-right-drop-circle-outline" | "arrow-right-drop-circle" | "arrow-right-thick" | "arrow-right-thin-circle-outline" | "arrow-right-thin" | "arrow-right-top-bold" | "arrow-right-top" | "arrow-right" | "arrow-split-horizontal" | "arrow-split-vertical" | "arrow-top-left-bold-box-outline" | "arrow-top-left-bold-box" | "arrow-top-left-bold-outline" | "arrow-top-left-bottom-right-bold" | "arrow-top-left-bottom-right" | "arrow-top-left-thick" | "arrow-top-left-thin-circle-outline" | "arrow-top-left-thin" | "arrow-top-left" | "arrow-top-right-bold-box-outline" | "arrow-top-right-bold-box" | "arrow-top-right-bold-outline" | "arrow-top-right-bottom-left-bold" | "arrow-top-right-bottom-left" | "arrow-top-right-thick" | "arrow-top-right-thin-circle-outline" | "arrow-top-right-thin" | "arrow-top-right" | "arrow-u-down-left-bold" | "arrow-u-down-left" | "arrow-u-down-right-bold" | "arrow-u-down-right" | "arrow-u-left-bottom-bold" | "arrow-u-left-bottom" | "arrow-u-left-top-bold" | "arrow-u-left-top" | "arrow-u-right-bottom-bold" | "arrow-u-right-bottom" | "arrow-u-right-top-bold" | "arrow-u-right-top" | "arrow-u-up-left-bold" | "arrow-u-up-left" | "arrow-u-up-right-bold" | "arrow-u-up-right" | "arrow-up-bold-box-outline" | "arrow-up-bold-box" | "arrow-up-bold-circle-outline" | "arrow-up-bold-circle" | "arrow-up-bold-hexagon-outline" | "arrow-up-bold-outline" | "arrow-up-bold" | "arrow-up-box" | "arrow-up-circle-outline" | "arrow-up-circle" | "arrow-up-down-bold-outline" | "arrow-up-down-bold" | "arrow-up-down" | "arrow-up-drop-circle-outline" | "arrow-up-drop-circle" | "arrow-up-left-bold" | "arrow-up-left" | "arrow-up-right-bold" | "arrow-up-right" | "arrow-up-thick" | "arrow-up-thin-circle-outline" | "arrow-up-thin" | "arrow-up" | "arrow-vertical-lock" | "artboard" | "artstation" | "aspect-ratio" | "assistant" | "asterisk-circle-outline" | "asterisk" | "at" | "atlassian" | "atm" | "atom-variant" | "atom" | "attachment-check" | "attachment-lock" | "attachment-minus" | "attachment-off" | "attachment-plus" | "attachment-remove" | "attachment" | "atv" | "audio-input-rca" | "audio-input-stereo-minijack" | "audio-input-xlr" | "audio-video-off" | "audio-video" | "augmented-reality" | "aurora" | "auto-download" | "auto-fix" | "auto-mode" | "auto-upload" | "autorenew-off" | "autorenew" | "av-timer" | "awning-outline" | "awning" | "aws" | "axe-battle" | "axe" | "axis-arrow-info" | "axis-arrow-lock" | "axis-arrow" | "axis-lock" | "axis-x-arrow-lock" | "axis-x-arrow" | "axis-x-rotate-clockwise" | "axis-x-rotate-counterclockwise" | "axis-x-y-arrow-lock" | "axis-y-arrow-lock" | "axis-y-arrow" | "axis-y-rotate-clockwise" | "axis-y-rotate-counterclockwise" | "axis-z-arrow-lock" | "axis-z-arrow" | "axis-z-rotate-clockwise" | "axis-z-rotate-counterclockwise" | "axis" | "babel" | "baby-bottle-outline" | "baby-bottle" | "baby-buggy-off" | "baby-buggy" | "baby-carriage-off" | "baby-carriage" | "baby-face-outline" | "baby-face" | "baby" | "backburger" | "backspace-outline" | "backspace-reverse-outline" | "backspace-reverse" | "backspace" | "backup-restore" | "bacteria-outline" | "bacteria" | "badge-account-alert-outline" | "badge-account-alert" | "badge-account-horizontal-outline" | "badge-account-horizontal" | "badge-account-outline" | "badge-account" | "badminton" | "bag-carry-on-check" | "bag-carry-on-off" | "bag-carry-on" | "bag-checked" | "bag-personal-off-outline" | "bag-personal-off" | "bag-personal-outline" | "bag-personal-plus-outline" | "bag-personal-plus" | "bag-personal-tag-outline" | "bag-personal-tag" | "bag-personal" | "bag-suitcase-off-outline" | "bag-suitcase-off" | "bag-suitcase-outline" | "bag-suitcase" | "baguette" | "balcony" | "balloon" | "ballot-outline" | "ballot-recount-outline" | "ballot-recount" | "ballot" | "bandage" | "bank-check" | "bank-circle-outline" | "bank-circle" | "bank-minus" | "bank-off-outline" | "bank-off" | "bank-outline" | "bank-plus" | "bank-remove" | "bank-transfer-in" | "bank-transfer-out" | "bank-transfer" | "bank" | "barcode-off" | "barcode-scan" | "barcode" | "barley-off" | "barley" | "barn" | "barrel-outline" | "barrel" | "baseball-bat" | "baseball-diamond-outline" | "baseball-diamond" | "baseball-outline" | "baseball" | "bash" | "basket-check-outline" | "basket-check" | "basket-fill" | "basket-minus-outline" | "basket-minus" | "basket-off-outline" | "basket-off" | "basket-outline" | "basket-plus-outline" | "basket-plus" | "basket-remove-outline" | "basket-remove" | "basket-unfill" | "basket" | "basketball-hoop-outline" | "basketball-hoop" | "basketball" | "bat" | "bathtub-outline" | "bathtub" | "battery-10-bluetooth" | "battery-10" | "battery-20-bluetooth" | "battery-20" | "battery-30-bluetooth" | "battery-30" | "battery-40-bluetooth" | "battery-40" | "battery-50-bluetooth" | "battery-50" | "battery-60-bluetooth" | "battery-60" | "battery-70-bluetooth" | "battery-70" | "battery-80-bluetooth" | "battery-80" | "battery-90-bluetooth" | "battery-90" | "battery-alert-bluetooth" | "battery-alert-variant-outline" | "battery-alert-variant" | "battery-alert" | "battery-arrow-down-outline" | "battery-arrow-down" | "battery-arrow-up-outline" | "battery-arrow-up" | "battery-bluetooth-variant" | "battery-bluetooth" | "battery-charging-10" | "battery-charging-100" | "battery-charging-20" | "battery-charging-30" | "battery-charging-40" | "battery-charging-50" | "battery-charging-60" | "battery-charging-70" | "battery-charging-80" | "battery-charging-90" | "battery-charging-high" | "battery-charging-low" | "battery-charging-medium" | "battery-charging-outline" | "battery-charging-wireless-10" | "battery-charging-wireless-20" | "battery-charging-wireless-30" | "battery-charging-wireless-40" | "battery-charging-wireless-50" | "battery-charging-wireless-60" | "battery-charging-wireless-70" | "battery-charging-wireless-80" | "battery-charging-wireless-90" | "battery-charging-wireless-alert" | "battery-charging-wireless-outline" | "battery-charging-wireless" | "battery-charging" | "battery-check-outline" | "battery-check" | "battery-clock-outline" | "battery-clock" | "battery-heart-outline" | "battery-heart-variant" | "battery-heart" | "battery-high" | "battery-lock-open" | "battery-lock" | "battery-low" | "battery-medium" | "battery-minus-outline" | "battery-minus-variant" | "battery-minus" | "battery-negative" | "battery-off-outline" | "battery-off" | "battery-outline" | "battery-plus-outline" | "battery-plus-variant" | "battery-plus" | "battery-positive" | "battery-remove-outline" | "battery-remove" | "battery-sync-outline" | "battery-sync" | "battery-unknown-bluetooth" | "battery-unknown" | "battery" | "beach" | "beaker-alert-outline" | "beaker-alert" | "beaker-check-outline" | "beaker-check" | "beaker-minus-outline" | "beaker-minus" | "beaker-outline" | "beaker-plus-outline" | "beaker-plus" | "beaker-question-outline" | "beaker-question" | "beaker-remove-outline" | "beaker-remove" | "beaker" | "bed-clock" | "bed-double-outline" | "bed-double" | "bed-empty" | "bed-king-outline" | "bed-king" | "bed-outline" | "bed-queen-outline" | "bed-queen" | "bed-single-outline" | "bed-single" | "bed" | "bee-flower" | "bee" | "beehive-off-outline" | "beehive-outline" | "beekeeper" | "beer-outline" | "beer" | "bell-alert-outline" | "bell-alert" | "bell-badge-outline" | "bell-badge" | "bell-cancel-outline" | "bell-cancel" | "bell-check-outline" | "bell-check" | "bell-circle-outline" | "bell-circle" | "bell-cog-outline" | "bell-cog" | "bell-minus-outline" | "bell-minus" | "bell-off-outline" | "bell-off" | "bell-outline" | "bell-plus-outline" | "bell-plus" | "bell-remove-outline" | "bell-remove" | "bell-ring-outline" | "bell-ring" | "bell-sleep-outline" | "bell-sleep" | "bell" | "bench-back" | "bench" | "beta" | "betamax" | "biathlon" | "bicycle-basket" | "bicycle-cargo" | "bicycle-electric" | "bicycle-penny-farthing" | "bicycle" | "bike-fast" | "bike-pedal-clipless" | "bike-pedal-mountain" | "bike-pedal" | "bike" | "billboard" | "billiards-rack" | "billiards" | "binoculars" | "bio" | "biohazard" | "bird" | "bitbucket" | "bitcoin" | "black-mesa" | "blender-outline" | "blender-software" | "blender" | "blinds-horizontal-closed" | "blinds-horizontal" | "blinds-open" | "blinds-vertical-closed" | "blinds-vertical" | "blinds" | "block-helper" | "blood-bag" | "bluetooth-audio" | "bluetooth-connect" | "bluetooth-off" | "bluetooth-settings" | "bluetooth-transfer" | "bluetooth" | "blur-linear" | "blur-off" | "blur-radial" | "blur" | "bolt" | "bomb-off" | "bomb" | "bone-off" | "bone" | "book-account-outline" | "book-account" | "book-alert-outline" | "book-alert" | "book-alphabet" | "book-arrow-down-outline" | "book-arrow-down" | "book-arrow-left-outline" | "book-arrow-left" | "book-arrow-right-outline" | "book-arrow-right" | "book-arrow-up-outline" | "book-arrow-up" | "book-cancel-outline" | "book-cancel" | "book-check-outline" | "book-check" | "book-clock-outline" | "book-clock" | "book-cog-outline" | "book-cog" | "book-cross" | "book-edit-outline" | "book-edit" | "book-education-outline" | "book-education" | "book-heart-outline" | "book-heart" | "book-information-variant" | "book-lock-open-outline" | "book-lock-open" | "book-lock-outline" | "book-lock" | "book-marker-outline" | "book-marker" | "book-minus-multiple-outline" | "book-minus-multiple" | "book-minus-outline" | "book-minus" | "book-multiple-outline" | "book-multiple" | "book-music-outline" | "book-music" | "book-off-outline" | "book-off" | "book-open-blank-variant-outline" | "book-open-blank-variant" | "book-open-outline" | "book-open-page-variant-outline" | "book-open-page-variant" | "book-open-variant-outline" | "book-open-variant" | "book-open" | "book-outline" | "book-play-outline" | "book-play" | "book-plus-multiple-outline" | "book-plus-multiple" | "book-plus-outline" | "book-plus" | "book-refresh-outline" | "book-refresh" | "book-remove-multiple-outline" | "book-remove-multiple" | "book-remove-outline" | "book-remove" | "book-search-outline" | "book-search" | "book-settings-outline" | "book-settings" | "book-sync-outline" | "book-sync" | "book-variant" | "book" | "bookmark-box-multiple-outline" | "bookmark-box-multiple" | "bookmark-box-outline" | "bookmark-box" | "bookmark-check-outline" | "bookmark-check" | "bookmark-minus-outline" | "bookmark-minus" | "bookmark-multiple-outline" | "bookmark-multiple" | "bookmark-music-outline" | "bookmark-music" | "bookmark-off-outline" | "bookmark-off" | "bookmark-outline" | "bookmark-plus-outline" | "bookmark-plus" | "bookmark-remove-outline" | "bookmark-remove" | "bookmark" | "bookshelf" | "boom-gate-alert-outline" | "boom-gate-alert" | "boom-gate-arrow-down-outline" | "boom-gate-arrow-down" | "boom-gate-arrow-up-outline" | "boom-gate-arrow-up" | "boom-gate-outline" | "boom-gate-up-outline" | "boom-gate-up" | "boom-gate" | "boombox" | "boomerang" | "bootstrap" | "border-all-variant" | "border-all" | "border-bottom-variant" | "border-bottom" | "border-color" | "border-horizontal" | "border-inside" | "border-left-variant" | "border-left" | "border-none-variant" | "border-none" | "border-outside" | "border-radius" | "border-right-variant" | "border-right" | "border-style" | "border-top-variant" | "border-top" | "border-vertical" | "bottle-soda-classic-outline" | "bottle-soda-classic" | "bottle-soda-outline" | "bottle-soda" | "bottle-tonic-outline" | "bottle-tonic-plus-outline" | "bottle-tonic-plus" | "bottle-tonic-skull-outline" | "bottle-tonic-skull" | "bottle-tonic" | "bottle-wine-outline" | "bottle-wine" | "bow-arrow" | "bow-tie" | "bowl-mix-outline" | "bowl-mix" | "bowl-outline" | "bowl" | "bowling" | "box-cutter-off" | "box-cutter" | "box-shadow" | "box" | "boxing-glove" | "braille" | "brain" | "bread-slice-outline" | "bread-slice" | "bridge" | "briefcase-account-outline" | "briefcase-account" | "briefcase-arrow-left-right-outline" | "briefcase-arrow-left-right" | "briefcase-arrow-up-down-outline" | "briefcase-arrow-up-down" | "briefcase-check-outline" | "briefcase-check" | "briefcase-clock-outline" | "briefcase-clock" | "briefcase-download-outline" | "briefcase-download" | "briefcase-edit-outline" | "briefcase-edit" | "briefcase-eye-outline" | "briefcase-eye" | "briefcase-minus-outline" | "briefcase-minus" | "briefcase-off-outline" | "briefcase-off" | "briefcase-outline" | "briefcase-plus-outline" | "briefcase-plus" | "briefcase-remove-outline" | "briefcase-remove" | "briefcase-search-outline" | "briefcase-search" | "briefcase-upload-outline" | "briefcase-upload" | "briefcase-variant-off-outline" | "briefcase-variant-off" | "briefcase-variant-outline" | "briefcase-variant" | "briefcase" | "brightness-1" | "brightness-2" | "brightness-3" | "brightness-4" | "brightness-5" | "brightness-6" | "brightness-7" | "brightness-auto" | "brightness-percent" | "broadcast-off" | "broadcast" | "broom" | "brush-off" | "brush-outline" | "brush-variant" | "brush" | "bucket-outline" | "bucket" | "buffet" | "bug-check-outline" | "bug-check" | "bug-outline" | "bug-pause-outline" | "bug-pause" | "bug-play-outline" | "bug-play" | "bug-stop-outline" | "bug-stop" | "bug" | "bugle" | "bulkhead-light" | "bulldozer" | "bullet" | "bulletin-board" | "bullhorn-outline" | "bullhorn-variant-outline" | "bullhorn-variant" | "bullhorn" | "bullseye-arrow" | "bullseye" | "bulma" | "bunk-bed-outline" | "bunk-bed" | "bus-alert" | "bus-articulated-end" | "bus-articulated-front" | "bus-clock" | "bus-double-decker" | "bus-electric" | "bus-marker" | "bus-multiple" | "bus-school" | "bus-side" | "bus-sign" | "bus-stop-covered" | "bus-stop-uncovered" | "bus-stop" | "bus-wrench" | "bus" | "butterfly-outline" | "butterfly" | "button-cursor" | "button-pointer" | "cabin-a-frame" | "cable-data" | "cached" | "cactus" | "cake-layered" | "cake-variant-outline" | "cake-variant" | "cake" | "calculator-variant-outline" | "calculator-variant" | "calculator" | "calendar-account-outline" | "calendar-account" | "calendar-alert-outline" | "calendar-alert" | "calendar-arrow-left" | "calendar-arrow-right" | "calendar-badge-outline" | "calendar-badge" | "calendar-blank-multiple" | "calendar-blank-outline" | "calendar-blank" | "calendar-check-outline" | "calendar-check" | "calendar-clock-outline" | "calendar-clock" | "calendar-collapse-horizontal-outline" | "calendar-collapse-horizontal" | "calendar-cursor-outline" | "calendar-cursor" | "calendar-edit-outline" | "calendar-edit" | "calendar-end-outline" | "calendar-end" | "calendar-expand-horizontal-outline" | "calendar-expand-horizontal" | "calendar-export-outline" | "calendar-export" | "calendar-filter-outline" | "calendar-filter" | "calendar-heart-outline" | "calendar-heart" | "calendar-import-outline" | "calendar-import" | "calendar-lock-open-outline" | "calendar-lock-open" | "calendar-lock-outline" | "calendar-lock" | "calendar-minus-outline" | "calendar-minus" | "calendar-month-outline" | "calendar-month" | "calendar-multiple-check" | "calendar-multiple" | "calendar-multiselect-outline" | "calendar-multiselect" | "calendar-outline" | "calendar-plus-outline" | "calendar-plus" | "calendar-question-outline" | "calendar-question" | "calendar-range-outline" | "calendar-range" | "calendar-refresh-outline" | "calendar-refresh" | "calendar-remove-outline" | "calendar-remove" | "calendar-search-outline" | "calendar-search" | "calendar-star-four-points" | "calendar-star-outline" | "calendar-star" | "calendar-start-outline" | "calendar-start" | "calendar-sync-outline" | "calendar-sync" | "calendar-text-outline" | "calendar-text" | "calendar-today-outline" | "calendar-today" | "calendar-week-begin-outline" | "calendar-week-begin" | "calendar-week-outline" | "calendar-week" | "calendar-weekend-outline" | "calendar-weekend" | "calendar" | "call-made" | "call-merge" | "call-missed" | "call-received" | "call-split" | "camcorder-off" | "camcorder" | "camera-account" | "camera-burst" | "camera-control" | "camera-document-off" | "camera-document" | "camera-enhance-outline" | "camera-enhance" | "camera-flip-outline" | "camera-flip" | "camera-front-variant" | "camera-front" | "camera-gopro" | "camera-image" | "camera-iris" | "camera-lock-open-outline" | "camera-lock-open" | "camera-lock-outline" | "camera-lock" | "camera-marker-outline" | "camera-marker" | "camera-metering-center" | "camera-metering-matrix" | "camera-metering-partial" | "camera-metering-spot" | "camera-off-outline" | "camera-off" | "camera-outline" | "camera-party-mode" | "camera-plus-outline" | "camera-plus" | "camera-rear-variant" | "camera-rear" | "camera-retake-outline" | "camera-retake" | "camera-switch-outline" | "camera-switch" | "camera-timer" | "camera-wireless-outline" | "camera-wireless" | "camera" | "campfire" | "cancel" | "candelabra-fire" | "candelabra" | "candle" | "candy-off-outline" | "candy-off" | "candy-outline" | "candy" | "candycane" | "cannabis-off" | "cannabis" | "caps-lock" | "car-2-plus" | "car-3-plus" | "car-arrow-left" | "car-arrow-right" | "car-back" | "car-battery" | "car-brake-abs" | "car-brake-alert" | "car-brake-fluid-level" | "car-brake-hold" | "car-brake-low-pressure" | "car-brake-parking" | "car-brake-retarder" | "car-brake-temperature" | "car-brake-worn-linings" | "car-child-seat" | "car-clock" | "car-clutch" | "car-cog" | "car-connected" | "car-convertible" | "car-coolant-level" | "car-cruise-control" | "car-defrost-front" | "car-defrost-rear" | "car-door-lock-open" | "car-door-lock" | "car-door" | "car-electric-outline" | "car-electric" | "car-emergency" | "car-esp" | "car-estate" | "car-hatchback" | "car-info" | "car-key" | "car-lifted-pickup" | "car-light-alert" | "car-light-dimmed" | "car-light-fog" | "car-light-high" | "car-limousine" | "car-multiple" | "car-off" | "car-outline" | "car-parking-lights" | "car-pickup" | "car-search-outline" | "car-search" | "car-seat-cooler" | "car-seat-heater" | "car-seat" | "car-select" | "car-settings" | "car-shift-pattern" | "car-side" | "car-speed-limiter" | "car-sports" | "car-tire-alert" | "car-traction-control" | "car-turbocharger" | "car-wash" | "car-windshield-outline" | "car-windshield" | "car-wireless" | "car-wrench" | "car" | "carabiner" | "caravan" | "card-account-details-outline" | "card-account-details-star-outline" | "card-account-details-star" | "card-account-details" | "card-account-mail-outline" | "card-account-mail" | "card-account-phone-outline" | "card-account-phone" | "card-bulleted-off-outline" | "card-bulleted-off" | "card-bulleted-outline" | "card-bulleted-settings-outline" | "card-bulleted-settings" | "card-bulleted" | "card-minus-outline" | "card-minus" | "card-multiple-outline" | "card-multiple" | "card-off-outline" | "card-off" | "card-outline" | "card-plus-outline" | "card-plus" | "card-remove-outline" | "card-remove" | "card-search-outline" | "card-search" | "card-text-outline" | "card-text" | "card" | "cards-club-outline" | "cards-club" | "cards-diamond-outline" | "cards-diamond" | "cards-heart-outline" | "cards-heart" | "cards-outline" | "cards-playing-club-multiple-outline" | "cards-playing-club-multiple" | "cards-playing-club-outline" | "cards-playing-club" | "cards-playing-diamond-multiple-outline" | "cards-playing-diamond-multiple" | "cards-playing-diamond-outline" | "cards-playing-diamond" | "cards-playing-heart-multiple-outline" | "cards-playing-heart-multiple" | "cards-playing-heart-outline" | "cards-playing-heart" | "cards-playing-outline" | "cards-playing-spade-multiple-outline" | "cards-playing-spade-multiple" | "cards-playing-spade-outline" | "cards-playing-spade" | "cards-playing" | "cards-spade-outline" | "cards-spade" | "cards-variant" | "cards" | "carrot" | "cart-arrow-down" | "cart-arrow-right" | "cart-arrow-up" | "cart-check" | "cart-heart" | "cart-minus" | "cart-off" | "cart-outline" | "cart-percent" | "cart-plus" | "cart-remove" | "cart-variant" | "cart" | "case-sensitive-alt" | "cash-100" | "cash-check" | "cash-clock" | "cash-edit" | "cash-fast" | "cash-lock-open" | "cash-lock" | "cash-marker" | "cash-minus" | "cash-multiple" | "cash-off" | "cash-plus" | "cash-refund" | "cash-register" | "cash-remove" | "cash-sync" | "cash" | "cassette" | "cast-audio-variant" | "cast-audio" | "cast-connected" | "cast-education" | "cast-off" | "cast-variant" | "cast" | "castle" | "cat" | "cctv-off" | "cctv" | "ceiling-fan-light" | "ceiling-fan" | "ceiling-light-multiple-outline" | "ceiling-light-multiple" | "ceiling-light-outline" | "ceiling-light" | "cellphone-arrow-down-variant" | "cellphone-arrow-down" | "cellphone-basic" | "cellphone-charging" | "cellphone-check" | "cellphone-cog" | "cellphone-dock" | "cellphone-information" | "cellphone-key" | "cellphone-link-off" | "cellphone-link" | "cellphone-lock" | "cellphone-marker" | "cellphone-message-off" | "cellphone-message" | "cellphone-nfc-off" | "cellphone-nfc" | "cellphone-off" | "cellphone-play" | "cellphone-remove" | "cellphone-screenshot" | "cellphone-settings" | "cellphone-sound" | "cellphone-text" | "cellphone-wireless" | "cellphone" | "centos" | "certificate-outline" | "certificate" | "chair-rolling" | "chair-school" | "chandelier" | "charity-search" | "charity" | "chart-arc" | "chart-areaspline-variant" | "chart-areaspline" | "chart-bar-stacked" | "chart-bar" | "chart-bell-curve-cumulative" | "chart-bell-curve" | "chart-box-multiple-outline" | "chart-box-multiple" | "chart-box-outline" | "chart-box-plus-outline" | "chart-box" | "chart-bubble" | "chart-donut-variant" | "chart-donut" | "chart-gantt" | "chart-histogram" | "chart-line-stacked" | "chart-line-variant" | "chart-line" | "chart-multiline" | "chart-multiple" | "chart-pie-outline" | "chart-pie" | "chart-ppf" | "chart-sankey-variant" | "chart-sankey" | "chart-scatter-plot-hexbin" | "chart-scatter-plot" | "chart-timeline-variant-shimmer" | "chart-timeline-variant" | "chart-timeline" | "chart-tree" | "chart-waterfall" | "chat-alert-outline" | "chat-alert" | "chat-minus-outline" | "chat-minus" | "chat-outline" | "chat-plus-outline" | "chat-plus" | "chat-processing-outline" | "chat-processing" | "chat-question-outline" | "chat-question" | "chat-remove-outline" | "chat-remove" | "chat-sleep-outline" | "chat-sleep" | "chat" | "check-all" | "check-bold" | "check-circle-outline" | "check-circle" | "check-decagram-outline" | "check-decagram" | "check-network-outline" | "check-network" | "check-outline" | "check-underline-circle-outline" | "check-underline-circle" | "check-underline" | "check" | "checkbook-arrow-left" | "checkbook-arrow-right" | "checkbook" | "checkbox-blank-badge-outline" | "checkbox-blank-badge" | "checkbox-blank-circle-outline" | "checkbox-blank-circle" | "checkbox-blank-off-outline" | "checkbox-blank-off" | "checkbox-blank-outline" | "checkbox-blank" | "checkbox-intermediate-variant" | "checkbox-intermediate" | "checkbox-marked-circle-auto-outline" | "checkbox-marked-circle-minus-outline" | "checkbox-marked-circle-outline" | "checkbox-marked-circle-plus-outline" | "checkbox-marked-circle" | "checkbox-marked-outline" | "checkbox-marked" | "checkbox-multiple-blank-circle-outline" | "checkbox-multiple-blank-circle" | "checkbox-multiple-blank-outline" | "checkbox-multiple-blank" | "checkbox-multiple-marked-circle-outline" | "checkbox-multiple-marked-circle" | "checkbox-multiple-marked-outline" | "checkbox-multiple-marked" | "checkbox-multiple-outline" | "checkbox-outline" | "checkerboard-minus" | "checkerboard-plus" | "checkerboard-remove" | "checkerboard" | "cheese-off" | "cheese" | "chef-hat" | "chemical-weapon" | "chess-bishop" | "chess-king" | "chess-knight" | "chess-pawn" | "chess-queen" | "chess-rook" | "chevron-double-down" | "chevron-double-left" | "chevron-double-right" | "chevron-double-up" | "chevron-down-box-outline" | "chevron-down-box" | "chevron-down-circle-outline" | "chevron-down-circle" | "chevron-down" | "chevron-left-box-outline" | "chevron-left-box" | "chevron-left-circle-outline" | "chevron-left-circle" | "chevron-left" | "chevron-right-box-outline" | "chevron-right-box" | "chevron-right-circle-outline" | "chevron-right-circle" | "chevron-right" | "chevron-triple-down" | "chevron-triple-left" | "chevron-triple-right" | "chevron-triple-up" | "chevron-up-box-outline" | "chevron-up-box" | "chevron-up-circle-outline" | "chevron-up-circle" | "chevron-up" | "chili-alert-outline" | "chili-alert" | "chili-hot-outline" | "chili-hot" | "chili-medium-outline" | "chili-medium" | "chili-mild-outline" | "chili-mild" | "chili-off-outline" | "chili-off" | "chip" | "church-outline" | "church" | "cigar-off" | "cigar" | "circle-box-outline" | "circle-box" | "circle-double" | "circle-edit-outline" | "circle-expand" | "circle-half-full" | "circle-half" | "circle-medium" | "circle-multiple-outline" | "circle-multiple" | "circle-off-outline" | "circle-opacity" | "circle-outline" | "circle-slice-1" | "circle-slice-2" | "circle-slice-3" | "circle-slice-4" | "circle-slice-5" | "circle-slice-6" | "circle-slice-7" | "circle-slice-8" | "circle-small" | "circle" | "circular-saw" | "city-switch" | "city-variant-outline" | "city-variant" | "city" | "clipboard-account-outline" | "clipboard-account" | "clipboard-alert-outline" | "clipboard-alert" | "clipboard-arrow-down-outline" | "clipboard-arrow-down" | "clipboard-arrow-left-outline" | "clipboard-arrow-left" | "clipboard-arrow-right-outline" | "clipboard-arrow-right" | "clipboard-arrow-up-outline" | "clipboard-arrow-up" | "clipboard-check-multiple-outline" | "clipboard-check-multiple" | "clipboard-check-outline" | "clipboard-check" | "clipboard-clock-outline" | "clipboard-clock" | "clipboard-edit-outline" | "clipboard-edit" | "clipboard-file-outline" | "clipboard-file" | "clipboard-flow-outline" | "clipboard-flow" | "clipboard-list-outline" | "clipboard-list" | "clipboard-minus-outline" | "clipboard-minus" | "clipboard-multiple-outline" | "clipboard-multiple" | "clipboard-off-outline" | "clipboard-off" | "clipboard-outline" | "clipboard-play-multiple-outline" | "clipboard-play-multiple" | "clipboard-play-outline" | "clipboard-play" | "clipboard-plus-outline" | "clipboard-plus" | "clipboard-pulse-outline" | "clipboard-pulse" | "clipboard-remove-outline" | "clipboard-remove" | "clipboard-search-outline" | "clipboard-search" | "clipboard-text-clock-outline" | "clipboard-text-clock" | "clipboard-text-multiple-outline" | "clipboard-text-multiple" | "clipboard-text-off-outline" | "clipboard-text-off" | "clipboard-text-outline" | "clipboard-text-play-outline" | "clipboard-text-play" | "clipboard-text-search-outline" | "clipboard-text-search" | "clipboard-text" | "clipboard" | "clippy" | "clock-alert-outline" | "clock-alert" | "clock-check-outline" | "clock-check" | "clock-digital" | "clock-edit-outline" | "clock-edit" | "clock-end" | "clock-fast" | "clock-in" | "clock-minus-outline" | "clock-minus" | "clock-out" | "clock-outline" | "clock-plus-outline" | "clock-plus" | "clock-remove-outline" | "clock-remove" | "clock-star-four-points-outline" | "clock-star-four-points" | "clock-start" | "clock-time-eight-outline" | "clock-time-eight" | "clock-time-eleven-outline" | "clock-time-eleven" | "clock-time-five-outline" | "clock-time-five" | "clock-time-four-outline" | "clock-time-four" | "clock-time-nine-outline" | "clock-time-nine" | "clock-time-one-outline" | "clock-time-one" | "clock-time-seven-outline" | "clock-time-seven" | "clock-time-six-outline" | "clock-time-six" | "clock-time-ten-outline" | "clock-time-ten" | "clock-time-three-outline" | "clock-time-three" | "clock-time-twelve-outline" | "clock-time-twelve" | "clock-time-two-outline" | "clock-time-two" | "clock" | "close-box-multiple-outline" | "close-box-multiple" | "close-box-outline" | "close-box" | "close-circle-multiple-outline" | "close-circle-multiple" | "close-circle-outline" | "close-circle" | "close-network-outline" | "close-network" | "close-octagon-outline" | "close-octagon" | "close-outline" | "close-thick" | "close" | "closed-caption-outline" | "closed-caption" | "cloud-alert-outline" | "cloud-alert" | "cloud-arrow-down-outline" | "cloud-arrow-down" | "cloud-arrow-left-outline" | "cloud-arrow-left" | "cloud-arrow-right-outline" | "cloud-arrow-right" | "cloud-arrow-up-outline" | "cloud-arrow-up" | "cloud-braces" | "cloud-cancel-outline" | "cloud-cancel" | "cloud-check-outline" | "cloud-check-variant-outline" | "cloud-check-variant" | "cloud-check" | "cloud-circle-outline" | "cloud-circle" | "cloud-clock-outline" | "cloud-clock" | "cloud-cog-outline" | "cloud-cog" | "cloud-download-outline" | "cloud-download" | "cloud-key-outline" | "cloud-key" | "cloud-lock-open-outline" | "cloud-lock-open" | "cloud-lock-outline" | "cloud-lock" | "cloud-minus-outline" | "cloud-minus" | "cloud-off-outline" | "cloud-off" | "cloud-outline" | "cloud-percent-outline" | "cloud-percent" | "cloud-plus-outline" | "cloud-plus" | "cloud-print-outline" | "cloud-print" | "cloud-question-outline" | "cloud-question" | "cloud-refresh-outline" | "cloud-refresh-variant-outline" | "cloud-refresh-variant" | "cloud-refresh" | "cloud-remove-outline" | "cloud-remove" | "cloud-search-outline" | "cloud-search" | "cloud-sync-outline" | "cloud-sync" | "cloud-tags" | "cloud-upload-outline" | "cloud-upload" | "cloud" | "clouds" | "clover-outline" | "clover" | "coach-lamp-variant" | "coach-lamp" | "coat-rack" | "code-array" | "code-block-braces" | "code-block-brackets" | "code-block-parentheses" | "code-block-tags" | "code-braces-box" | "code-braces" | "code-brackets" | "code-equal" | "code-greater-than-or-equal" | "code-greater-than" | "code-json" | "code-less-than-or-equal" | "code-less-than" | "code-not-equal-variant" | "code-not-equal" | "code-parentheses-box" | "code-parentheses" | "code-string" | "code-tags-check" | "code-tags" | "codepen" | "coffee-maker-check-outline" | "coffee-maker-check" | "coffee-maker-outline" | "coffee-maker" | "coffee-off-outline" | "coffee-off" | "coffee-outline" | "coffee-to-go-outline" | "coffee-to-go" | "coffee" | "coffin" | "cog-box" | "cog-clockwise" | "cog-counterclockwise" | "cog-off-outline" | "cog-off" | "cog-outline" | "cog-pause-outline" | "cog-pause" | "cog-play-outline" | "cog-play" | "cog-refresh-outline" | "cog-refresh" | "cog-stop-outline" | "cog-stop" | "cog-sync-outline" | "cog-sync" | "cog-transfer-outline" | "cog-transfer" | "cog" | "cogs" | "collage" | "collapse-all-outline" | "collapse-all" | "color-helper" | "comma-box-outline" | "comma-box" | "comma-circle-outline" | "comma-circle" | "comma" | "comment-account-outline" | "comment-account" | "comment-alert-outline" | "comment-alert" | "comment-arrow-left-outline" | "comment-arrow-left" | "comment-arrow-right-outline" | "comment-arrow-right" | "comment-bookmark-outline" | "comment-bookmark" | "comment-check-outline" | "comment-check" | "comment-edit-outline" | "comment-edit" | "comment-eye-outline" | "comment-eye" | "comment-flash-outline" | "comment-flash" | "comment-minus-outline" | "comment-minus" | "comment-multiple-outline" | "comment-multiple" | "comment-off-outline" | "comment-off" | "comment-outline" | "comment-plus-outline" | "comment-plus" | "comment-processing-outline" | "comment-processing" | "comment-question-outline" | "comment-question" | "comment-quote-outline" | "comment-quote" | "comment-remove-outline" | "comment-remove" | "comment-search-outline" | "comment-search" | "comment-text-multiple-outline" | "comment-text-multiple" | "comment-text-outline" | "comment-text" | "comment" | "compare-horizontal" | "compare-remove" | "compare-vertical" | "compare" | "compass-off-outline" | "compass-off" | "compass-outline" | "compass-rose" | "compass" | "compost" | "cone-off" | "cone" | "connection" | "console-line" | "console-network-outline" | "console-network" | "console" | "consolidate" | "contactless-payment-circle-outline" | "contactless-payment-circle" | "contactless-payment" | "contacts-outline" | "contacts" | "contain-end" | "contain-start" | "contain" | "content-copy" | "content-cut" | "content-duplicate" | "content-paste" | "content-save-alert-outline" | "content-save-alert" | "content-save-all-outline" | "content-save-all" | "content-save-check-outline" | "content-save-check" | "content-save-cog-outline" | "content-save-cog" | "content-save-edit-outline" | "content-save-edit" | "content-save-minus-outline" | "content-save-minus" | "content-save-move-outline" | "content-save-move" | "content-save-off-outline" | "content-save-off" | "content-save-outline" | "content-save-plus-outline" | "content-save-plus" | "content-save-settings-outline" | "content-save-settings" | "content-save" | "contrast-box" | "contrast-circle" | "contrast" | "controller-classic-outline" | "controller-classic" | "controller-off" | "controller" | "cookie-alert-outline" | "cookie-alert" | "cookie-check-outline" | "cookie-check" | "cookie-clock-outline" | "cookie-clock" | "cookie-cog-outline" | "cookie-cog" | "cookie-edit-outline" | "cookie-edit" | "cookie-lock-outline" | "cookie-lock" | "cookie-minus-outline" | "cookie-minus" | "cookie-off-outline" | "cookie-off" | "cookie-outline" | "cookie-plus-outline" | "cookie-plus" | "cookie-refresh-outline" | "cookie-refresh" | "cookie-remove-outline" | "cookie-remove" | "cookie-settings-outline" | "cookie-settings" | "cookie" | "coolant-temperature" | "copyleft" | "copyright" | "cordova" | "corn-off" | "corn" | "cosine-wave" | "counter" | "countertop-outline" | "countertop" | "cow-off" | "cow" | "cpu-32-bit" | "cpu-64-bit" | "cradle-outline" | "cradle" | "crane" | "creation-outline" | "creation" | "creative-commons" | "credit-card-check-outline" | "credit-card-check" | "credit-card-chip-outline" | "credit-card-chip" | "credit-card-clock-outline" | "credit-card-clock" | "credit-card-edit-outline" | "credit-card-edit" | "credit-card-fast-outline" | "credit-card-fast" | "credit-card-lock-outline" | "credit-card-lock" | "credit-card-marker-outline" | "credit-card-marker" | "credit-card-minus-outline" | "credit-card-minus" | "credit-card-multiple-outline" | "credit-card-multiple" | "credit-card-off-outline" | "credit-card-off" | "credit-card-outline" | "credit-card-plus-outline" | "credit-card-plus" | "credit-card-refresh-outline" | "credit-card-refresh" | "credit-card-refund-outline" | "credit-card-refund" | "credit-card-remove-outline" | "credit-card-remove" | "credit-card-scan-outline" | "credit-card-scan" | "credit-card-search-outline" | "credit-card-search" | "credit-card-settings-outline" | "credit-card-settings" | "credit-card-sync-outline" | "credit-card-sync" | "credit-card-wireless-off-outline" | "credit-card-wireless-off" | "credit-card-wireless-outline" | "credit-card-wireless" | "credit-card" | "cricket" | "crop-free" | "crop-landscape" | "crop-portrait" | "crop-rotate" | "crop-square" | "crop" | "cross-bolnisi" | "cross-celtic" | "cross-outline" | "cross" | "crosshairs-gps" | "crosshairs-off" | "crosshairs-question" | "crosshairs" | "crowd" | "crown-circle-outline" | "crown-circle" | "crown-outline" | "crown" | "cryengine" | "crystal-ball" | "cube-off-outline" | "cube-off" | "cube-outline" | "cube-scan" | "cube-send" | "cube-unfolded" | "cube" | "cup-off-outline" | "cup-off" | "cup-outline" | "cup-water" | "cup" | "cupboard-outline" | "cupboard" | "cupcake" | "curling" | "currency-bdt" | "currency-brl" | "currency-btc" | "currency-cny" | "currency-eth" | "currency-eur-off" | "currency-eur" | "currency-fra" | "currency-gbp" | "currency-ils" | "currency-inr" | "currency-jpy" | "currency-krw" | "currency-kzt" | "currency-mnt" | "currency-ngn" | "currency-php" | "currency-rial" | "currency-rub" | "currency-rupee" | "currency-sign" | "currency-thb" | "currency-try" | "currency-twd" | "currency-uah" | "currency-usd-off" | "currency-usd" | "current-ac" | "current-dc" | "cursor-default-click-outline" | "cursor-default-click" | "cursor-default-gesture-outline" | "cursor-default-gesture" | "cursor-default-outline" | "cursor-default" | "cursor-move" | "cursor-pointer" | "cursor-text" | "curtains-closed" | "curtains" | "cylinder-off" | "cylinder" | "dance-ballroom" | "dance-pole" | "data-matrix-edit" | "data-matrix-minus" | "data-matrix-plus" | "data-matrix-remove" | "data-matrix-scan" | "data-matrix" | "database-alert-outline" | "database-alert" | "database-arrow-down-outline" | "database-arrow-down" | "database-arrow-left-outline" | "database-arrow-left" | "database-arrow-right-outline" | "database-arrow-right" | "database-arrow-up-outline" | "database-arrow-up" | "database-check-outline" | "database-check" | "database-clock-outline" | "database-clock" | "database-cog-outline" | "database-cog" | "database-edit-outline" | "database-edit" | "database-export-outline" | "database-export" | "database-eye-off-outline" | "database-eye-off" | "database-eye-outline" | "database-eye" | "database-import-outline" | "database-import" | "database-lock-outline" | "database-lock" | "database-marker-outline" | "database-marker" | "database-minus-outline" | "database-minus" | "database-off-outline" | "database-off" | "database-outline" | "database-plus-outline" | "database-plus" | "database-refresh-outline" | "database-refresh" | "database-remove-outline" | "database-remove" | "database-search-outline" | "database-search" | "database-settings-outline" | "database-settings" | "database-sync-outline" | "database-sync" | "database" | "death-star-variant" | "death-star" | "deathly-hallows" | "debian" | "debug-step-into" | "debug-step-out" | "debug-step-over" | "decagram-outline" | "decagram" | "decimal-comma-decrease" | "decimal-comma-increase" | "decimal-comma" | "decimal-decrease" | "decimal-increase" | "decimal" | "delete-alert-outline" | "delete-alert" | "delete-circle-outline" | "delete-circle" | "delete-clock-outline" | "delete-clock" | "delete-empty-outline" | "delete-empty" | "delete-forever-outline" | "delete-forever" | "delete-off-outline" | "delete-off" | "delete-outline" | "delete-restore" | "delete-sweep-outline" | "delete-sweep" | "delete-variant" | "delete" | "delta" | "desk-lamp-off" | "desk-lamp-on" | "desk-lamp" | "desk" | "deskphone" | "desktop-classic" | "desktop-tower-monitor" | "desktop-tower" | "details" | "dev-to" | "developer-board" | "deviantart" | "devices" | "dharmachakra" | "diabetes" | "dialpad" | "diameter-outline" | "diameter-variant" | "diameter" | "diamond-outline" | "diamond-stone" | "diamond" | "diaper-outline" | "dice-1-outline" | "dice-1" | "dice-2-outline" | "dice-2" | "dice-3-outline" | "dice-3" | "dice-4-outline" | "dice-4" | "dice-5-outline" | "dice-5" | "dice-6-outline" | "dice-6" | "dice-d10-outline" | "dice-d10" | "dice-d12-outline" | "dice-d12" | "dice-d20-outline" | "dice-d20" | "dice-d4-outline" | "dice-d4" | "dice-d6-outline" | "dice-d6" | "dice-d8-outline" | "dice-d8" | "dice-multiple-outline" | "dice-multiple" | "digital-ocean" | "dip-switch" | "directions-fork" | "directions" | "disc-alert" | "disc-player" | "disc" | "dishwasher-alert" | "dishwasher-off" | "dishwasher" | "disqus" | "distribute-horizontal-center" | "distribute-horizontal-left" | "distribute-horizontal-right" | "distribute-vertical-bottom" | "distribute-vertical-center" | "distribute-vertical-top" | "diversify" | "diving-flippers" | "diving-helmet" | "diving-scuba-flag" | "diving-scuba-mask" | "diving-scuba-tank-multiple" | "diving-scuba-tank" | "diving-scuba" | "diving-snorkel" | "diving" | "division-box" | "division" | "dlna" | "dna" | "dns-outline" | "dns" | "dock-bottom" | "dock-left" | "dock-right" | "dock-top" | "dock-window" | "docker" | "doctor" | "dog-service" | "dog-side-off" | "dog-side" | "dog" | "dolby" | "dolly" | "dolphin" | "domain-off" | "domain-plus" | "domain-remove" | "domain-switch" | "domain" | "dome-light" | "domino-mask" | "donkey" | "door-closed-cancel" | "door-closed-lock" | "door-closed" | "door-open" | "door-sliding-lock" | "door-sliding-open" | "door-sliding" | "door" | "doorbell-video" | "doorbell" | "dot-net" | "dots-circle" | "dots-grid" | "dots-hexagon" | "dots-horizontal-circle-outline" | "dots-horizontal-circle" | "dots-horizontal" | "dots-square" | "dots-triangle" | "dots-vertical-circle-outline" | "dots-vertical-circle" | "dots-vertical" | "download-box-outline" | "download-box" | "download-circle-outline" | "download-circle" | "download-lock-outline" | "download-lock" | "download-multiple-outline" | "download-multiple" | "download-network-outline" | "download-network" | "download-off-outline" | "download-off" | "download-outline" | "download" | "drag-horizontal-variant" | "drag-horizontal" | "drag-variant" | "drag-vertical-variant" | "drag-vertical" | "drag" | "drama-masks" | "draw-pen" | "draw" | "drawing-box" | "drawing" | "dresser-outline" | "dresser" | "drone" | "dropbox" | "drupal" | "duck" | "dumbbell" | "dump-truck" | "ear-hearing-loop" | "ear-hearing-off" | "ear-hearing" | "earbuds-off-outline" | "earbuds-off" | "earbuds-outline" | "earbuds" | "earth-arrow-down" | "earth-arrow-left" | "earth-arrow-right" | "earth-arrow-up" | "earth-box-minus" | "earth-box-off" | "earth-box-plus" | "earth-box-remove" | "earth-box" | "earth-minus" | "earth-off" | "earth-plus" | "earth-remove" | "earth" | "egg-easter" | "egg-fried" | "egg-off-outline" | "egg-off" | "egg-outline" | "egg" | "eiffel-tower" | "eight-track" | "eject-circle-outline" | "eject-circle" | "eject-outline" | "eject" | "electric-switch-closed" | "electric-switch" | "electron-framework" | "elephant" | "elevation-decline" | "elevation-rise" | "elevator-down" | "elevator-passenger-off-outline" | "elevator-passenger-off" | "elevator-passenger-outline" | "elevator-passenger" | "elevator-up" | "elevator" | "ellipse-outline" | "ellipse" | "email-alert-outline" | "email-alert" | "email-arrow-left-outline" | "email-arrow-left" | "email-arrow-right-outline" | "email-arrow-right" | "email-box" | "email-check-outline" | "email-check" | "email-edit-outline" | "email-edit" | "email-fast-outline" | "email-fast" | "email-heart-outline" | "email-lock-outline" | "email-lock" | "email-mark-as-unread" | "email-minus-outline" | "email-minus" | "email-multiple-outline" | "email-multiple" | "email-newsletter" | "email-off-outline" | "email-off" | "email-open-heart-outline" | "email-open-multiple-outline" | "email-open-multiple" | "email-open-outline" | "email-open" | "email-outline" | "email-plus-outline" | "email-plus" | "email-remove-outline" | "email-remove" | "email-seal-outline" | "email-seal" | "email-search-outline" | "email-search" | "email-sync-outline" | "email-sync" | "email-variant" | "email" | "ember" | "emby" | "emoticon-angry-outline" | "emoticon-angry" | "emoticon-confused-outline" | "emoticon-confused" | "emoticon-cool-outline" | "emoticon-cool" | "emoticon-cry-outline" | "emoticon-cry" | "emoticon-dead-outline" | "emoticon-dead" | "emoticon-devil-outline" | "emoticon-devil" | "emoticon-excited-outline" | "emoticon-excited" | "emoticon-frown-outline" | "emoticon-frown" | "emoticon-happy-outline" | "emoticon-happy" | "emoticon-kiss-outline" | "emoticon-kiss" | "emoticon-lol-outline" | "emoticon-lol" | "emoticon-minus-outline" | "emoticon-minus" | "emoticon-neutral-outline" | "emoticon-neutral" | "emoticon-outline" | "emoticon-plus-outline" | "emoticon-plus" | "emoticon-poop-outline" | "emoticon-poop" | "emoticon-remove-outline" | "emoticon-remove" | "emoticon-sad-outline" | "emoticon-sad" | "emoticon-sick-outline" | "emoticon-sick" | "emoticon-tongue-outline" | "emoticon-tongue" | "emoticon-wink-outline" | "emoticon-wink" | "emoticon" | "engine-off-outline" | "engine-off" | "engine-outline" | "engine" | "epsilon" | "equal-box" | "equal" | "equalizer-outline" | "equalizer" | "eraser-variant" | "eraser" | "escalator-box" | "escalator-down" | "escalator-up" | "escalator" | "eslint" | "et" | "ethereum" | "ethernet-cable-off" | "ethernet-cable" | "ethernet-off" | "ethernet" | "ev-plug-ccs1" | "ev-plug-ccs2" | "ev-plug-chademo" | "ev-plug-tesla" | "ev-plug-type1" | "ev-plug-type2" | "ev-station" | "evernote" | "excavator" | "exclamation-thick" | "exclamation" | "exit-run" | "exit-to-app" | "expand-all-outline" | "expand-all" | "expansion-card-variant" | "expansion-card" | "exponent-box" | "exponent" | "export-variant" | "export" | "eye-arrow-left-outline" | "eye-arrow-left" | "eye-arrow-right-outline" | "eye-arrow-right" | "eye-check-outline" | "eye-check" | "eye-circle-outline" | "eye-circle" | "eye-closed" | "eye-lock-open-outline" | "eye-lock-open" | "eye-lock-outline" | "eye-lock" | "eye-minus-outline" | "eye-minus" | "eye-off-outline" | "eye-off" | "eye-outline" | "eye-plus-outline" | "eye-plus" | "eye-refresh-outline" | "eye-refresh" | "eye-remove-outline" | "eye-remove" | "eye-settings-outline" | "eye-settings" | "eye" | "eyedropper-minus" | "eyedropper-off" | "eyedropper-plus" | "eyedropper-remove" | "eyedropper-variant" | "eyedropper" | "face-agent" | "face-man-outline" | "face-man-profile" | "face-man-shimmer-outline" | "face-man-shimmer" | "face-man" | "face-mask-outline" | "face-mask" | "face-recognition" | "face-woman-outline" | "face-woman-profile" | "face-woman-shimmer-outline" | "face-woman-shimmer" | "face-woman" | "facebook-gaming" | "facebook-messenger" | "facebook-workplace" | "facebook" | "factory" | "family-tree" | "fan-alert" | "fan-auto" | "fan-chevron-down" | "fan-chevron-up" | "fan-clock" | "fan-minus" | "fan-off" | "fan-plus" | "fan-remove" | "fan-speed-1" | "fan-speed-2" | "fan-speed-3" | "fan" | "fast-forward-10" | "fast-forward-15" | "fast-forward-30" | "fast-forward-45" | "fast-forward-5" | "fast-forward-60" | "fast-forward-outline" | "fast-forward" | "faucet-variant" | "faucet" | "fax" | "feather" | "feature-search-outline" | "feature-search" | "fedora" | "fence-electric" | "fence" | "fencing" | "ferris-wheel" | "ferry" | "file-account-outline" | "file-account" | "file-alert-outline" | "file-alert" | "file-arrow-left-right-outline" | "file-arrow-left-right" | "file-arrow-up-down-outline" | "file-arrow-up-down" | "file-cabinet" | "file-cad-box" | "file-cad" | "file-cancel-outline" | "file-cancel" | "file-certificate-outline" | "file-certificate" | "file-chart-check-outline" | "file-chart-check" | "file-chart-outline" | "file-chart" | "file-check-outline" | "file-check" | "file-clock-outline" | "file-clock" | "file-cloud-outline" | "file-cloud" | "file-code-outline" | "file-code" | "file-cog-outline" | "file-cog" | "file-compare" | "file-delimited-outline" | "file-delimited" | "file-document-alert-outline" | "file-document-alert" | "file-document-arrow-right-outline" | "file-document-arrow-right" | "file-document-check-outline" | "file-document-check" | "file-document-edit-outline" | "file-document-edit" | "file-document-minus-outline" | "file-document-minus" | "file-document-multiple-outline" | "file-document-multiple" | "file-document-outline" | "file-document-plus-outline" | "file-document-plus" | "file-document-refresh-outline" | "file-document-refresh" | "file-document-remove-outline" | "file-document-remove" | "file-document" | "file-download-outline" | "file-download" | "file-edit-outline" | "file-edit" | "file-excel-box-outline" | "file-excel-box" | "file-excel-outline" | "file-excel" | "file-export-outline" | "file-export" | "file-eye-outline" | "file-eye" | "file-find-outline" | "file-find" | "file-gif-box" | "file-hidden" | "file-image-marker-outline" | "file-image-marker" | "file-image-minus-outline" | "file-image-minus" | "file-image-outline" | "file-image-plus-outline" | "file-image-plus" | "file-image-remove-outline" | "file-image-remove" | "file-image" | "file-import-outline" | "file-import" | "file-jpg-box" | "file-key-outline" | "file-key" | "file-link-outline" | "file-link" | "file-lock-open-outline" | "file-lock-open" | "file-lock-outline" | "file-lock" | "file-marker-outline" | "file-marker" | "file-minus-outline" | "file-minus" | "file-move-outline" | "file-move" | "file-multiple-outline" | "file-multiple" | "file-music-outline" | "file-music" | "file-outline" | "file-pdf-box" | "file-percent-outline" | "file-percent" | "file-phone-outline" | "file-phone" | "file-plus-outline" | "file-plus" | "file-png-box" | "file-powerpoint-box-outline" | "file-powerpoint-box" | "file-powerpoint-outline" | "file-powerpoint" | "file-presentation-box" | "file-question-outline" | "file-question" | "file-refresh-outline" | "file-refresh" | "file-remove-outline" | "file-remove" | "file-replace-outline" | "file-replace" | "file-restore-outline" | "file-restore" | "file-rotate-left-outline" | "file-rotate-left" | "file-rotate-right-outline" | "file-rotate-right" | "file-search-outline" | "file-search" | "file-send-outline" | "file-send" | "file-settings-outline" | "file-settings" | "file-sign" | "file-star-four-points-outline" | "file-star-four-points" | "file-star-outline" | "file-star" | "file-swap-outline" | "file-swap" | "file-sync-outline" | "file-sync" | "file-table-box-multiple-outline" | "file-table-box-multiple" | "file-table-box-outline" | "file-table-box" | "file-table-outline" | "file-table" | "file-tree-outline" | "file-tree" | "file-undo-outline" | "file-undo" | "file-upload-outline" | "file-upload" | "file-video-outline" | "file-video" | "file-word-box-outline" | "file-word-box" | "file-word-outline" | "file-word" | "file-xml-box" | "file" | "film" | "filmstrip-box-multiple" | "filmstrip-box" | "filmstrip-off" | "filmstrip" | "filter-check-outline" | "filter-check" | "filter-cog-outline" | "filter-cog" | "filter-menu-outline" | "filter-menu" | "filter-minus-outline" | "filter-minus" | "filter-multiple-outline" | "filter-multiple" | "filter-off-outline" | "filter-off" | "filter-outline" | "filter-plus-outline" | "filter-plus" | "filter-remove-outline" | "filter-remove" | "filter-settings-outline" | "filter-settings" | "filter-variant-minus" | "filter-variant-plus" | "filter-variant-remove" | "filter-variant" | "filter" | "finance" | "find-replace" | "fingerprint-off" | "fingerprint" | "fire-alert" | "fire-circle" | "fire-extinguisher" | "fire-hydrant-alert" | "fire-hydrant-off" | "fire-hydrant" | "fire-off" | "fire-station" | "fire-truck" | "fire" | "firebase" | "firefox" | "fireplace-off" | "fireplace" | "firewire" | "firework-off" | "firework" | "fish-off" | "fish" | "fishbowl-outline" | "fishbowl" | "fit-to-page-outline" | "fit-to-page" | "fit-to-screen-outline" | "fit-to-screen" | "flag-checkered" | "flag-minus-outline" | "flag-minus" | "flag-off-outline" | "flag-off" | "flag-outline" | "flag-plus-outline" | "flag-plus" | "flag-remove-outline" | "flag-remove" | "flag-triangle" | "flag-variant-minus-outline" | "flag-variant-minus" | "flag-variant-off-outline" | "flag-variant-off" | "flag-variant-outline" | "flag-variant-plus-outline" | "flag-variant-plus" | "flag-variant-remove-outline" | "flag-variant-remove" | "flag-variant" | "flag" | "flare" | "flash-alert-outline" | "flash-alert" | "flash-auto" | "flash-off-outline" | "flash-off" | "flash-outline" | "flash-red-eye" | "flash-triangle-outline" | "flash-triangle" | "flash" | "flashlight-off" | "flashlight" | "flask-empty-minus-outline" | "flask-empty-minus" | "flask-empty-off-outline" | "flask-empty-off" | "flask-empty-outline" | "flask-empty-plus-outline" | "flask-empty-plus" | "flask-empty-remove-outline" | "flask-empty-remove" | "flask-empty" | "flask-minus-outline" | "flask-minus" | "flask-off-outline" | "flask-off" | "flask-outline" | "flask-plus-outline" | "flask-plus" | "flask-remove-outline" | "flask-remove" | "flask-round-bottom-empty-outline" | "flask-round-bottom-empty" | "flask-round-bottom-outline" | "flask-round-bottom" | "flask" | "fleur-de-lis" | "flip-horizontal" | "flip-to-back" | "flip-to-front" | "flip-vertical" | "floor-lamp-dual-outline" | "floor-lamp-dual" | "floor-lamp-outline" | "floor-lamp-torchiere-outline" | "floor-lamp-torchiere-variant-outline" | "floor-lamp-torchiere-variant" | "floor-lamp-torchiere" | "floor-lamp" | "floor-plan" | "floppy-variant" | "floppy" | "flower-outline" | "flower-pollen-outline" | "flower-pollen" | "flower-poppy" | "flower-tulip-outline" | "flower-tulip" | "flower" | "focus-auto" | "focus-field-horizontal" | "focus-field-vertical" | "focus-field" | "folder-account-outline" | "folder-account" | "folder-alert-outline" | "folder-alert" | "folder-arrow-down-outline" | "folder-arrow-down" | "folder-arrow-left-outline" | "folder-arrow-left-right-outline" | "folder-arrow-left-right" | "folder-arrow-left" | "folder-arrow-right-outline" | "folder-arrow-right" | "folder-arrow-up-down-outline" | "folder-arrow-up-down" | "folder-arrow-up-outline" | "folder-arrow-up" | "folder-cancel-outline" | "folder-cancel" | "folder-check-outline" | "folder-check" | "folder-clock-outline" | "folder-clock" | "folder-cog-outline" | "folder-cog" | "folder-download-outline" | "folder-download" | "folder-edit-outline" | "folder-edit" | "folder-eye-outline" | "folder-eye" | "folder-file-outline" | "folder-file" | "folder-google-drive" | "folder-heart-outline" | "folder-heart" | "folder-hidden" | "folder-home-outline" | "folder-home" | "folder-image" | "folder-information-outline" | "folder-information" | "folder-key-network-outline" | "folder-key-network" | "folder-key-outline" | "folder-key" | "folder-lock-open-outline" | "folder-lock-open" | "folder-lock-outline" | "folder-lock" | "folder-marker-outline" | "folder-marker" | "folder-minus-outline" | "folder-minus" | "folder-move-outline" | "folder-move" | "folder-multiple-image" | "folder-multiple-outline" | "folder-multiple-plus-outline" | "folder-multiple-plus" | "folder-multiple" | "folder-music-outline" | "folder-music" | "folder-network-outline" | "folder-network" | "folder-off-outline" | "folder-off" | "folder-open-outline" | "folder-open" | "folder-outline" | "folder-play-outline" | "folder-play" | "folder-plus-outline" | "folder-plus" | "folder-pound-outline" | "folder-pound" | "folder-question-outline" | "folder-question" | "folder-refresh-outline" | "folder-refresh" | "folder-remove-outline" | "folder-remove" | "folder-search-outline" | "folder-search" | "folder-settings-outline" | "folder-settings" | "folder-star-multiple-outline" | "folder-star-multiple" | "folder-star-outline" | "folder-star" | "folder-swap-outline" | "folder-swap" | "folder-sync-outline" | "folder-sync" | "folder-table-outline" | "folder-table" | "folder-text-outline" | "folder-text" | "folder-upload-outline" | "folder-upload" | "folder-wrench-outline" | "folder-wrench" | "folder-zip-outline" | "folder-zip" | "folder" | "font-awesome" | "food-apple-outline" | "food-apple" | "food-croissant" | "food-drumstick-off-outline" | "food-drumstick-off" | "food-drumstick-outline" | "food-drumstick" | "food-fork-drink" | "food-halal" | "food-hot-dog" | "food-kosher" | "food-off-outline" | "food-off" | "food-outline" | "food-steak-off" | "food-steak" | "food-takeout-box-outline" | "food-takeout-box" | "food-turkey" | "food-variant-off" | "food-variant" | "food" | "foot-print" | "football-australian" | "football-helmet" | "football" | "forest-outline" | "forest" | "forklift" | "form-dropdown" | "form-select" | "form-textarea" | "form-textbox-lock" | "form-textbox-password" | "form-textbox" | "format-align-bottom" | "format-align-center" | "format-align-justify" | "format-align-left" | "format-align-middle" | "format-align-right" | "format-align-top" | "format-annotation-minus" | "format-annotation-plus" | "format-bold" | "format-clear" | "format-color-fill" | "format-color-highlight" | "format-color-marker-cancel" | "format-color-text" | "format-columns" | "format-float-center" | "format-float-left" | "format-float-none" | "format-float-right" | "format-font-size-decrease" | "format-font-size-increase" | "format-font" | "format-header-1" | "format-header-2" | "format-header-3" | "format-header-4" | "format-header-5" | "format-header-6" | "format-header-decrease" | "format-header-equal" | "format-header-increase" | "format-header-pound" | "format-horizontal-align-center" | "format-horizontal-align-left" | "format-horizontal-align-right" | "format-indent-decrease" | "format-indent-increase" | "format-italic" | "format-letter-case-lower" | "format-letter-case-upper" | "format-letter-case" | "format-letter-ends-with" | "format-letter-matches" | "format-letter-spacing-variant" | "format-letter-spacing" | "format-letter-starts-with" | "format-line-height" | "format-line-spacing" | "format-line-style" | "format-line-weight" | "format-list-bulleted-square" | "format-list-bulleted-triangle" | "format-list-bulleted-type" | "format-list-bulleted" | "format-list-checkbox" | "format-list-checks" | "format-list-group-plus" | "format-list-group" | "format-list-numbered-rtl" | "format-list-numbered" | "format-list-text" | "format-overline" | "format-page-break" | "format-page-split" | "format-paint" | "format-paragraph-spacing" | "format-paragraph" | "format-pilcrow-arrow-left" | "format-pilcrow-arrow-right" | "format-pilcrow" | "format-quote-close-outline" | "format-quote-close" | "format-quote-open-outline" | "format-quote-open" | "format-rotate-90" | "format-section" | "format-size" | "format-strikethrough-variant" | "format-strikethrough" | "format-subscript" | "format-superscript" | "format-text-rotation-angle-down" | "format-text-rotation-angle-up" | "format-text-rotation-down-vertical" | "format-text-rotation-down" | "format-text-rotation-none" | "format-text-rotation-up" | "format-text-rotation-vertical" | "format-text-variant-outline" | "format-text-variant" | "format-text-wrapping-clip" | "format-text-wrapping-overflow" | "format-text-wrapping-wrap" | "format-text" | "format-textbox" | "format-title" | "format-underline-wavy" | "format-underline" | "format-vertical-align-bottom" | "format-vertical-align-center" | "format-vertical-align-top" | "format-wrap-inline" | "format-wrap-square" | "format-wrap-tight" | "format-wrap-top-bottom" | "forum-minus-outline" | "forum-minus" | "forum-outline" | "forum-plus-outline" | "forum-plus" | "forum-remove-outline" | "forum-remove" | "forum" | "forward" | "forwardburger" | "fountain-pen-tip" | "fountain-pen" | "fountain" | "fraction-one-half" | "freebsd" | "french-fries" | "frequently-asked-questions" | "fridge-alert-outline" | "fridge-alert" | "fridge-bottom" | "fridge-industrial-alert-outline" | "fridge-industrial-alert" | "fridge-industrial-off-outline" | "fridge-industrial-off" | "fridge-industrial-outline" | "fridge-industrial" | "fridge-off-outline" | "fridge-off" | "fridge-outline" | "fridge-top" | "fridge-variant-alert-outline" | "fridge-variant-alert" | "fridge-variant-off-outline" | "fridge-variant-off" | "fridge-variant-outline" | "fridge-variant" | "fridge" | "fruit-cherries-off" | "fruit-cherries" | "fruit-citrus-off" | "fruit-citrus" | "fruit-grapes-outline" | "fruit-grapes" | "fruit-pear" | "fruit-pineapple" | "fruit-watermelon" | "fuel-cell" | "fuel" | "fullscreen-exit" | "fullscreen" | "function-variant" | "function" | "furigana-horizontal" | "furigana-vertical" | "fuse-alert" | "fuse-blade" | "fuse-off" | "fuse" | "gamepad-circle-down" | "gamepad-circle-left" | "gamepad-circle-outline" | "gamepad-circle-right" | "gamepad-circle-up" | "gamepad-circle" | "gamepad-down" | "gamepad-left" | "gamepad-outline" | "gamepad-right" | "gamepad-round-down" | "gamepad-round-left" | "gamepad-round-outline" | "gamepad-round-right" | "gamepad-round-up" | "gamepad-round" | "gamepad-square-outline" | "gamepad-square" | "gamepad-up" | "gamepad-variant-outline" | "gamepad-variant" | "gamepad" | "gamma" | "gantry-crane" | "garage-alert-variant" | "garage-alert" | "garage-lock" | "garage-open-variant" | "garage-open" | "garage-variant-lock" | "garage-variant" | "garage" | "gas-burner" | "gas-cylinder" | "gas-station-in-use-outline" | "gas-station-in-use" | "gas-station-off-outline" | "gas-station-off" | "gas-station-outline" | "gas-station" | "gate-alert" | "gate-and" | "gate-arrow-left" | "gate-arrow-right" | "gate-buffer" | "gate-nand" | "gate-nor" | "gate-not" | "gate-open" | "gate-or" | "gate-xnor" | "gate-xor" | "gate" | "gatsby" | "gauge-empty" | "gauge-full" | "gauge-low" | "gauge" | "gavel" | "gender-female" | "gender-male-female-variant" | "gender-male-female" | "gender-male" | "gender-non-binary" | "gender-transgender" | "generator-mobile" | "generator-portable" | "generator-stationary" | "gentoo" | "gesture-double-tap" | "gesture-pinch" | "gesture-spread" | "gesture-swipe-down" | "gesture-swipe-horizontal" | "gesture-swipe-left" | "gesture-swipe-right" | "gesture-swipe-up" | "gesture-swipe-vertical" | "gesture-swipe" | "gesture-tap-box" | "gesture-tap-button" | "gesture-tap-hold" | "gesture-tap" | "gesture-two-double-tap" | "gesture-two-tap" | "gesture" | "ghost-off-outline" | "ghost-off" | "ghost-outline" | "ghost" | "gift-off-outline" | "gift-off" | "gift-open-outline" | "gift-open" | "gift-outline" | "gift" | "git" | "github" | "gitlab" | "glass-cocktail-off" | "glass-cocktail" | "glass-flute" | "glass-fragile" | "glass-mug-off" | "glass-mug-variant-off" | "glass-mug-variant" | "glass-mug" | "glass-pint-outline" | "glass-stange" | "glass-tulip" | "glass-wine" | "glasses" | "globe-light-outline" | "globe-light" | "globe-model" | "gmail" | "gnome" | "go-kart-track" | "go-kart" | "gog" | "gold" | "golf-cart" | "golf-tee" | "golf" | "gondola" | "goodreads" | "google-ads" | "google-analytics" | "google-assistant" | "google-cardboard" | "google-chrome" | "google-circles-communities" | "google-circles-extended" | "google-circles-group" | "google-circles" | "google-classroom" | "google-cloud" | "google-downasaur" | "google-drive" | "google-earth" | "google-fit" | "google-glass" | "google-hangouts" | "google-keep" | "google-lens" | "google-maps" | "google-my-business" | "google-nearby" | "google-play" | "google-plus" | "google-podcast" | "google-spreadsheet" | "google-street-view" | "google-translate" | "google" | "gradient-horizontal" | "gradient-vertical" | "grain" | "graph-outline" | "graph" | "graphql" | "grass" | "grave-stone" | "grease-pencil" | "greater-than-or-equal" | "greater-than" | "greenhouse" | "grid-large" | "grid-off" | "grid" | "grill-outline" | "grill" | "group" | "guitar-acoustic" | "guitar-electric" | "guitar-pick-outline" | "guitar-pick" | "guy-fawkes-mask" | "gymnastics" | "hail" | "hair-dryer-outline" | "hair-dryer" | "halloween" | "hamburger-check" | "hamburger-minus" | "hamburger-off" | "hamburger-plus" | "hamburger-remove" | "hamburger" | "hammer-screwdriver" | "hammer-sickle" | "hammer-wrench" | "hammer" | "hand-back-left-off-outline" | "hand-back-left-off" | "hand-back-left-outline" | "hand-back-left" | "hand-back-right-off-outline" | "hand-back-right-off" | "hand-back-right-outline" | "hand-back-right" | "hand-clap-off" | "hand-clap" | "hand-coin-outline" | "hand-coin" | "hand-cycle" | "hand-extended-outline" | "hand-extended" | "hand-front-left-outline" | "hand-front-left" | "hand-front-right-outline" | "hand-front-right" | "hand-heart-outline" | "hand-heart" | "hand-okay" | "hand-peace-variant" | "hand-peace" | "hand-pointing-down" | "hand-pointing-left" | "hand-pointing-right" | "hand-pointing-up" | "hand-saw" | "hand-wash-outline" | "hand-wash" | "hand-water" | "hand-wave-outline" | "hand-wave" | "handball" | "handcuffs" | "hands-pray" | "handshake-outline" | "handshake" | "hanger" | "hard-hat" | "harddisk-plus" | "harddisk-remove" | "harddisk" | "hat-fedora" | "hazard-lights" | "hdmi-port" | "hdr-off" | "hdr" | "head-alert-outline" | "head-alert" | "head-check-outline" | "head-check" | "head-cog-outline" | "head-cog" | "head-dots-horizontal-outline" | "head-dots-horizontal" | "head-flash-outline" | "head-flash" | "head-heart-outline" | "head-heart" | "head-lightbulb-outline" | "head-lightbulb" | "head-minus-outline" | "head-minus" | "head-outline" | "head-plus-outline" | "head-plus" | "head-question-outline" | "head-question" | "head-remove-outline" | "head-remove" | "head-snowflake-outline" | "head-snowflake" | "head-sync-outline" | "head-sync" | "head" | "headphones-bluetooth" | "headphones-box" | "headphones-off" | "headphones-settings" | "headphones" | "headset-dock" | "headset-off" | "headset" | "heart-box-outline" | "heart-box" | "heart-broken-outline" | "heart-broken" | "heart-circle-outline" | "heart-circle" | "heart-cog-outline" | "heart-cog" | "heart-flash" | "heart-half-full" | "heart-half-outline" | "heart-half" | "heart-minus-outline" | "heart-minus" | "heart-multiple-outline" | "heart-multiple" | "heart-off-outline" | "heart-off" | "heart-outline" | "heart-plus-outline" | "heart-plus" | "heart-pulse" | "heart-remove-outline" | "heart-remove" | "heart-search" | "heart-settings-outline" | "heart-settings" | "heart" | "heat-pump-outline" | "heat-pump" | "heat-wave" | "heating-coil" | "helicopter" | "help-box-multiple-outline" | "help-box-multiple" | "help-box-outline" | "help-box" | "help-circle-outline" | "help-circle" | "help-network-outline" | "help-network" | "help-rhombus-outline" | "help-rhombus" | "help" | "hexadecimal" | "hexagon-multiple-outline" | "hexagon-multiple" | "hexagon-outline" | "hexagon-slice-1" | "hexagon-slice-2" | "hexagon-slice-3" | "hexagon-slice-4" | "hexagon-slice-5" | "hexagon-slice-6" | "hexagon" | "hexagram-outline" | "hexagram" | "high-definition-box" | "high-definition" | "highway" | "hiking" | "history" | "hockey-puck" | "hockey-sticks" | "hololens" | "home-account" | "home-alert-outline" | "home-alert" | "home-analytics" | "home-assistant" | "home-automation" | "home-battery-outline" | "home-battery" | "home-circle-outline" | "home-circle" | "home-city-outline" | "home-city" | "home-clock-outline" | "home-clock" | "home-edit-outline" | "home-edit" | "home-export-outline" | "home-flood" | "home-floor-0" | "home-floor-1" | "home-floor-2" | "home-floor-3" | "home-floor-a" | "home-floor-b" | "home-floor-g" | "home-floor-l" | "home-floor-negative-1" | "home-group-minus" | "home-group-plus" | "home-group-remove" | "home-group" | "home-heart" | "home-import-outline" | "home-lightbulb-outline" | "home-lightbulb" | "home-lightning-bolt-outline" | "home-lightning-bolt" | "home-lock-open" | "home-lock" | "home-map-marker" | "home-minus-outline" | "home-minus" | "home-modern" | "home-off-outline" | "home-off" | "home-outline" | "home-percent-outline" | "home-percent" | "home-plus-outline" | "home-plus" | "home-remove-outline" | "home-remove" | "home-roof" | "home-search-outline" | "home-search" | "home-silo-outline" | "home-silo" | "home-sound-in-outline" | "home-sound-in" | "home-sound-out-outline" | "home-sound-out" | "home-switch-outline" | "home-switch" | "home-thermometer-outline" | "home-thermometer" | "home-variant-outline" | "home-variant" | "home" | "hook-off" | "hook" | "hoop-house" | "hops" | "horizontal-rotate-clockwise" | "horizontal-rotate-counterclockwise" | "horse-human" | "horse-variant-fast" | "horse-variant" | "horse" | "horseshoe" | "hospital-box-outline" | "hospital-box" | "hospital-building" | "hospital-marker" | "hospital" | "hot-tub" | "hours-12" | "hours-24" | "hub-outline" | "hub" | "hubspot" | "hulu" | "human-baby-changing-table" | "human-cane" | "human-capacity-decrease" | "human-capacity-increase" | "human-child" | "human-dolly" | "human-edit" | "human-female-boy" | "human-female-dance" | "human-female-female-child" | "human-female-female" | "human-female-girl" | "human-female" | "human-greeting-proximity" | "human-greeting-variant" | "human-greeting" | "human-handsdown" | "human-handsup" | "human-male-board-poll" | "human-male-board" | "human-male-boy" | "human-male-child" | "human-male-female-child" | "human-male-female" | "human-male-girl" | "human-male-height-variant" | "human-male-height" | "human-male-male-child" | "human-male-male" | "human-male" | "human-non-binary" | "human-pregnant" | "human-queue" | "human-scooter" | "human-walker" | "human-wheelchair" | "human-white-cane" | "human" | "humble-bundle" | "hvac-off" | "hvac" | "hydraulic-oil-level" | "hydraulic-oil-temperature" | "hydro-power" | "hydrogen-station" | "ice-cream-off" | "ice-cream" | "ice-pop" | "id-card" | "identifier" | "ideogram-cjk-variant" | "ideogram-cjk" | "image-album" | "image-area-close" | "image-area" | "image-auto-adjust" | "image-broken-variant" | "image-broken" | "image-check-outline" | "image-check" | "image-edit-outline" | "image-edit" | "image-filter-black-white" | "image-filter-center-focus-strong-outline" | "image-filter-center-focus-strong" | "image-filter-center-focus-weak" | "image-filter-center-focus" | "image-filter-drama-outline" | "image-filter-drama" | "image-filter-frames" | "image-filter-hdr-outline" | "image-filter-hdr" | "image-filter-none" | "image-filter-tilt-shift" | "image-filter-vintage" | "image-frame" | "image-lock-outline" | "image-lock" | "image-marker-outline" | "image-marker" | "image-minus-outline" | "image-minus" | "image-move" | "image-multiple-outline" | "image-multiple" | "image-off-outline" | "image-off" | "image-outline" | "image-plus-outline" | "image-plus" | "image-refresh-outline" | "image-refresh" | "image-remove-outline" | "image-remove" | "image-search-outline" | "image-search" | "image-size-select-actual" | "image-size-select-large" | "image-size-select-small" | "image-sync-outline" | "image-sync" | "image-text" | "image" | "import" | "inbox-arrow-down-outline" | "inbox-arrow-down" | "inbox-arrow-up-outline" | "inbox-arrow-up" | "inbox-full-outline" | "inbox-full" | "inbox-multiple-outline" | "inbox-multiple" | "inbox-outline" | "inbox-remove-outline" | "inbox-remove" | "inbox" | "incognito-circle-off" | "incognito-circle" | "incognito-off" | "incognito" | "induction" | "infinity" | "information-box-outline" | "information-box" | "information-off-outline" | "information-off" | "information-outline" | "information-slab-box-outline" | "information-slab-box" | "information-slab-circle-outline" | "information-slab-circle" | "information-slab-symbol" | "information-symbol" | "information-variant-box-outline" | "information-variant-box" | "information-variant-circle-outline" | "information-variant-circle" | "information-variant" | "information" | "instagram" | "instrument-triangle" | "integrated-circuit-chip" | "invert-colors-off" | "invert-colors" | "invoice-arrow-left-outline" | "invoice-arrow-left" | "invoice-arrow-right-outline" | "invoice-arrow-right" | "invoice-check-outline" | "invoice-check" | "invoice-clock-outline" | "invoice-clock" | "invoice-edit-outline" | "invoice-edit" | "invoice-export-outline" | "invoice-fast-outline" | "invoice-fast" | "invoice-import-outline" | "invoice-import" | "invoice-list-outline" | "invoice-list" | "invoice-minus-outline" | "invoice-minus" | "invoice-multiple-outline" | "invoice-multiple" | "invoice-outline" | "invoice-plus-outline" | "invoice-plus" | "invoice-remove-outline" | "invoice-remove" | "invoice-send-outline" | "invoice-send" | "invoice-text-arrow-left-outline" | "invoice-text-arrow-left" | "invoice-text-arrow-right-outline" | "invoice-text-arrow-right" | "invoice-text-check-outline" | "invoice-text-check" | "invoice-text-clock-outline" | "invoice-text-clock" | "invoice-text-edit-outline" | "invoice-text-edit" | "invoice-text-fast-outline" | "invoice-text-fast" | "invoice-text-minus-outline" | "invoice-text-minus" | "invoice-text-multiple-outline" | "invoice-text-multiple" | "invoice-text-outline" | "invoice-text-plus-outline" | "invoice-text-plus" | "invoice-text-remove-outline" | "invoice-text-remove" | "invoice-text-send-outline" | "invoice-text-send" | "invoice-text" | "invoice" | "iobroker" | "ip-network-outline" | "ip-network" | "ip-outline" | "ip" | "ipod" | "iron-board" | "iron-outline" | "iron" | "island-variant" | "island" | "iv-bag" | "jabber" | "jeepney" | "jellyfish-outline" | "jellyfish" | "jira" | "jquery" | "jsfiddle" | "jump-rope" | "kabaddi" | "kangaroo" | "karate" | "kayaking" | "keg" | "kettle-alert-outline" | "kettle-alert" | "kettle-off-outline" | "kettle-off" | "kettle-outline" | "kettle-pour-over" | "kettle-steam-outline" | "kettle-steam" | "kettle" | "kettlebell" | "key-alert-outline" | "key-alert" | "key-arrow-right" | "key-chain-variant" | "key-chain" | "key-change" | "key-link" | "key-minus" | "key-outline" | "key-plus" | "key-remove" | "key-star" | "key-variant" | "key-wireless" | "key" | "keyboard-backspace" | "keyboard-caps" | "keyboard-close-outline" | "keyboard-close" | "keyboard-esc" | "keyboard-f1" | "keyboard-f10" | "keyboard-f11" | "keyboard-f12" | "keyboard-f2" | "keyboard-f3" | "keyboard-f4" | "keyboard-f5" | "keyboard-f6" | "keyboard-f7" | "keyboard-f8" | "keyboard-f9" | "keyboard-off-outline" | "keyboard-off" | "keyboard-outline" | "keyboard-return" | "keyboard-settings-outline" | "keyboard-settings" | "keyboard-space" | "keyboard-tab-reverse" | "keyboard-tab" | "keyboard-variant" | "keyboard" | "khanda" | "kickstarter" | "kite-outline" | "kite" | "kitesurfing" | "klingon" | "knife-military" | "knife" | "knob" | "koala" | "kodi" | "kubernetes" | "label-multiple-outline" | "label-multiple" | "label-off-outline" | "label-off" | "label-outline" | "label-percent-outline" | "label-percent" | "label-variant-outline" | "label-variant" | "label" | "ladder" | "ladybug" | "lambda" | "lamp-outline" | "lamp" | "lamps-outline" | "lamps" | "lan-check" | "lan-connect" | "lan-disconnect" | "lan-pending" | "lan" | "land-fields" | "land-plots-circle-variant" | "land-plots-circle" | "land-plots-marker" | "land-plots" | "land-rows-horizontal" | "land-rows-vertical" | "landslide-outline" | "landslide" | "language-c" | "language-cpp" | "language-csharp" | "language-css3" | "language-fortran" | "language-go" | "language-haskell" | "language-html5" | "language-java" | "language-javascript" | "language-kotlin" | "language-lua" | "language-markdown-outline" | "language-markdown" | "language-php" | "language-python" | "language-r" | "language-ruby-on-rails" | "language-ruby" | "language-rust" | "language-swift" | "language-typescript" | "language-xaml" | "laptop-account" | "laptop-off" | "laptop" | "laravel" | "laser-pointer" | "lasso" | "lastpass" | "latitude" | "launch" | "lava-lamp" | "layers-edit" | "layers-minus" | "layers-off-outline" | "layers-off" | "layers-outline" | "layers-plus" | "layers-remove" | "layers-search-outline" | "layers-search" | "layers-triple-outline" | "layers-triple" | "layers" | "lead-pencil" | "leaf-circle-outline" | "leaf-circle" | "leaf-maple-off" | "leaf-maple" | "leaf-off" | "leaf" | "leak-off" | "leak" | "lectern" | "led-off" | "led-on" | "led-outline" | "led-strip-variant-off" | "led-strip-variant" | "led-strip" | "led-variant-off" | "led-variant-on" | "led-variant-outline" | "leek" | "less-than-or-equal" | "less-than" | "library-outline" | "library-shelves" | "library" | "license" | "lifebuoy" | "light-flood-down" | "light-flood-up" | "light-recessed" | "light-switch-off" | "light-switch" | "lightbulb-alert-outline" | "lightbulb-alert" | "lightbulb-auto-outline" | "lightbulb-auto" | "lightbulb-cfl-off" | "lightbulb-cfl-spiral-off" | "lightbulb-cfl-spiral" | "lightbulb-cfl" | "lightbulb-fluorescent-tube-outline" | "lightbulb-fluorescent-tube" | "lightbulb-group-off-outline" | "lightbulb-group-off" | "lightbulb-group-outline" | "lightbulb-group" | "lightbulb-multiple-off-outline" | "lightbulb-multiple-off" | "lightbulb-multiple-outline" | "lightbulb-multiple" | "lightbulb-night-outline" | "lightbulb-night" | "lightbulb-off-outline" | "lightbulb-off" | "lightbulb-on-10" | "lightbulb-on-20" | "lightbulb-on-30" | "lightbulb-on-40" | "lightbulb-on-50" | "lightbulb-on-60" | "lightbulb-on-70" | "lightbulb-on-80" | "lightbulb-on-90" | "lightbulb-on-outline" | "lightbulb-on" | "lightbulb-outline" | "lightbulb-question-outline" | "lightbulb-question" | "lightbulb-spot-off" | "lightbulb-spot" | "lightbulb-variant-outline" | "lightbulb-variant" | "lightbulb" | "lighthouse-on" | "lighthouse" | "lightning-bolt-circle" | "lightning-bolt-outline" | "lightning-bolt" | "line-scan" | "lingerie" | "link-box-outline" | "link-box-variant-outline" | "link-box-variant" | "link-box" | "link-circle-outline" | "link-circle" | "link-edit" | "link-lock" | "link-off" | "link-plus" | "link-variant-minus" | "link-variant-off" | "link-variant-plus" | "link-variant-remove" | "link-variant" | "link" | "linkedin" | "linux-mint" | "linux" | "lipstick" | "liquid-spot" | "liquor" | "list-box-outline" | "list-box" | "list-status" | "litecoin" | "loading" | "location-enter" | "location-exit" | "lock-alert-outline" | "lock-alert" | "lock-check-outline" | "lock-check" | "lock-clock" | "lock-minus-outline" | "lock-minus" | "lock-off-outline" | "lock-off" | "lock-open-alert-outline" | "lock-open-alert" | "lock-open-check-outline" | "lock-open-check" | "lock-open-minus-outline" | "lock-open-minus" | "lock-open-outline" | "lock-open-plus-outline" | "lock-open-plus" | "lock-open-remove-outline" | "lock-open-remove" | "lock-open-variant-outline" | "lock-open-variant" | "lock-open" | "lock-outline" | "lock-pattern" | "lock-percent-open-outline" | "lock-percent-open-variant-outline" | "lock-percent-open-variant" | "lock-percent-open" | "lock-percent-outline" | "lock-percent" | "lock-plus-outline" | "lock-plus" | "lock-question" | "lock-remove-outline" | "lock-remove" | "lock-reset" | "lock-smart" | "lock" | "locker-multiple" | "locker" | "login-variant" | "login" | "logout-variant" | "logout" | "longitude" | "looks" | "lotion-outline" | "lotion-plus-outline" | "lotion-plus" | "lotion" | "loupe" | "lumx" | "lungs" | "mace" | "magazine-pistol" | "magazine-rifle" | "magic-staff" | "magnet-on" | "magnet" | "magnify-close" | "magnify-expand" | "magnify-minus-cursor" | "magnify-minus-outline" | "magnify-minus" | "magnify-plus-cursor" | "magnify-plus-outline" | "magnify-plus" | "magnify-remove-cursor" | "magnify-remove-outline" | "magnify-scan" | "magnify" | "mail" | "mailbox-open-outline" | "mailbox-open-up-outline" | "mailbox-open-up" | "mailbox-open" | "mailbox-outline" | "mailbox-up-outline" | "mailbox-up" | "mailbox" | "manjaro" | "map-check-outline" | "map-check" | "map-clock-outline" | "map-clock" | "map-legend" | "map-marker-account-outline" | "map-marker-account" | "map-marker-alert-outline" | "map-marker-alert" | "map-marker-check-outline" | "map-marker-check" | "map-marker-circle" | "map-marker-distance" | "map-marker-down" | "map-marker-left-outline" | "map-marker-left" | "map-marker-minus-outline" | "map-marker-minus" | "map-marker-multiple-outline" | "map-marker-multiple" | "map-marker-off-outline" | "map-marker-off" | "map-marker-outline" | "map-marker-path" | "map-marker-plus-outline" | "map-marker-plus" | "map-marker-question-outline" | "map-marker-question" | "map-marker-radius-outline" | "map-marker-radius" | "map-marker-remove-outline" | "map-marker-remove-variant" | "map-marker-remove" | "map-marker-right-outline" | "map-marker-right" | "map-marker-star-outline" | "map-marker-star" | "map-marker-up" | "map-marker" | "map-minus" | "map-outline" | "map-plus" | "map-search-outline" | "map-search" | "map" | "mapbox" | "margin" | "marker-cancel" | "marker-check" | "marker" | "mastodon" | "material-design" | "material-ui" | "math-compass" | "math-cos" | "math-integral-box" | "math-integral" | "math-log" | "math-norm-box" | "math-norm" | "math-sin" | "math-tan" | "matrix" | "medal-outline" | "medal" | "medical-bag" | "medical-cotton-swab" | "medication-outline" | "medication" | "meditation" | "memory-arrow-down" | "memory" | "menorah-fire" | "menorah" | "menu-close" | "menu-down-outline" | "menu-down" | "menu-left-outline" | "menu-left" | "menu-open" | "menu-right-outline" | "menu-right" | "menu-swap-outline" | "menu-swap" | "menu-up-outline" | "menu-up" | "menu" | "merge" | "message-alert-outline" | "message-alert" | "message-arrow-left-outline" | "message-arrow-left" | "message-arrow-right-outline" | "message-arrow-right" | "message-badge-outline" | "message-badge" | "message-bookmark-outline" | "message-bookmark" | "message-bulleted-off" | "message-bulleted" | "message-check-outline" | "message-check" | "message-cog-outline" | "message-cog" | "message-draw" | "message-fast-outline" | "message-fast" | "message-flash-outline" | "message-flash" | "message-image-outline" | "message-image" | "message-lock-outline" | "message-lock" | "message-minus-outline" | "message-minus" | "message-off-outline" | "message-off" | "message-outline" | "message-plus-outline" | "message-plus" | "message-processing-outline" | "message-processing" | "message-question-outline" | "message-question" | "message-reply-outline" | "message-reply-text-outline" | "message-reply-text" | "message-reply" | "message-settings-outline" | "message-settings" | "message-star-outline" | "message-star" | "message-text-clock-outline" | "message-text-clock" | "message-text-fast-outline" | "message-text-fast" | "message-text-lock-outline" | "message-text-lock" | "message-text-outline" | "message-text" | "message-video" | "message" | "meteor" | "meter-electric-outline" | "meter-electric" | "meter-gas-outline" | "meter-gas" | "metronome-tick" | "metronome" | "micro-sd" | "microphone-message-off" | "microphone-message" | "microphone-minus" | "microphone-off" | "microphone-outline" | "microphone-plus" | "microphone-question-outline" | "microphone-question" | "microphone-settings" | "microphone-variant-off" | "microphone-variant" | "microphone" | "microscope" | "microsoft-access" | "microsoft-azure-devops" | "microsoft-azure" | "microsoft-bing" | "microsoft-dynamics-365" | "microsoft-edge" | "microsoft-excel" | "microsoft-internet-explorer" | "microsoft-office" | "microsoft-onedrive" | "microsoft-onenote" | "microsoft-outlook" | "microsoft-powerpoint" | "microsoft-sharepoint" | "microsoft-teams" | "microsoft-visual-studio-code" | "microsoft-visual-studio" | "microsoft-windows-classic" | "microsoft-windows" | "microsoft-word" | "microsoft-xbox-controller-battery-alert" | "microsoft-xbox-controller-battery-charging" | "microsoft-xbox-controller-battery-empty" | "microsoft-xbox-controller-battery-full" | "microsoft-xbox-controller-battery-low" | "microsoft-xbox-controller-battery-medium" | "microsoft-xbox-controller-battery-unknown" | "microsoft-xbox-controller-menu" | "microsoft-xbox-controller-off" | "microsoft-xbox-controller-view" | "microsoft-xbox-controller" | "microsoft-xbox" | "microsoft" | "microwave-off" | "microwave" | "middleware-outline" | "middleware" | "midi-port" | "midi" | "mine" | "minecraft" | "mini-sd" | "minidisc" | "minus-box-multiple-outline" | "minus-box-multiple" | "minus-box-outline" | "minus-box" | "minus-circle-multiple-outline" | "minus-circle-multiple" | "minus-circle-off-outline" | "minus-circle-off" | "minus-circle-outline" | "minus-circle" | "minus-network-outline" | "minus-network" | "minus-thick" | "minus" | "mirror-rectangle" | "mirror-variant" | "mirror" | "mixed-martial-arts" | "mixed-reality" | "molecule-co" | "molecule-co2" | "molecule" | "monitor-account" | "monitor-arrow-down-variant" | "monitor-arrow-down" | "monitor-cellphone-star" | "monitor-cellphone" | "monitor-dashboard" | "monitor-edit" | "monitor-eye" | "monitor-lock" | "monitor-multiple" | "monitor-off" | "monitor-screenshot" | "monitor-share" | "monitor-shimmer" | "monitor-small" | "monitor-speaker-off" | "monitor-speaker" | "monitor-star" | "monitor-vertical" | "monitor" | "moon-first-quarter" | "moon-full" | "moon-last-quarter" | "moon-new" | "moon-waning-crescent" | "moon-waning-gibbous" | "moon-waxing-crescent" | "moon-waxing-gibbous" | "moped-electric-outline" | "moped-electric" | "moped-outline" | "moped" | "more" | "mortar-pestle-plus" | "mortar-pestle" | "mosque-outline" | "mosque" | "mother-heart" | "mother-nurse" | "motion-outline" | "motion-pause-outline" | "motion-pause" | "motion-play-outline" | "motion-play" | "motion-sensor-off" | "motion-sensor" | "motion" | "motorbike-electric" | "motorbike-off" | "motorbike" | "mouse-bluetooth" | "mouse-left-click-outline" | "mouse-left-click" | "mouse-move-down" | "mouse-move-up" | "mouse-move-vertical" | "mouse-off" | "mouse-outline" | "mouse-right-click-outline" | "mouse-right-click" | "mouse-scroll-wheel" | "mouse-variant-off" | "mouse-variant" | "mouse" | "move-resize-variant" | "move-resize" | "movie-check-outline" | "movie-check" | "movie-cog-outline" | "movie-cog" | "movie-edit-outline" | "movie-edit" | "movie-filter-outline" | "movie-filter" | "movie-minus-outline" | "movie-minus" | "movie-off-outline" | "movie-off" | "movie-open-check-outline" | "movie-open-check" | "movie-open-cog-outline" | "movie-open-cog" | "movie-open-edit-outline" | "movie-open-edit" | "movie-open-minus-outline" | "movie-open-minus" | "movie-open-off-outline" | "movie-open-off" | "movie-open-outline" | "movie-open-play-outline" | "movie-open-play" | "movie-open-plus-outline" | "movie-open-plus" | "movie-open-remove-outline" | "movie-open-remove" | "movie-open-settings-outline" | "movie-open-settings" | "movie-open-star-outline" | "movie-open-star" | "movie-open" | "movie-outline" | "movie-play-outline" | "movie-play" | "movie-plus-outline" | "movie-plus" | "movie-remove-outline" | "movie-remove" | "movie-roll" | "movie-search-outline" | "movie-search" | "movie-settings-outline" | "movie-settings" | "movie-star-outline" | "movie-star" | "movie" | "mower-bag-on" | "mower-bag" | "mower-on" | "mower" | "muffin" | "multicast" | "multimedia" | "multiplication-box" | "multiplication" | "mushroom-off-outline" | "mushroom-off" | "mushroom-outline" | "mushroom" | "music-accidental-double-flat" | "music-accidental-double-sharp" | "music-accidental-flat" | "music-accidental-natural" | "music-accidental-sharp" | "music-box-multiple-outline" | "music-box-multiple" | "music-box-outline" | "music-box" | "music-circle-outline" | "music-circle" | "music-clef-alto" | "music-clef-bass" | "music-clef-treble" | "music-note-bluetooth-off" | "music-note-bluetooth" | "music-note-eighth-dotted" | "music-note-eighth" | "music-note-half-dotted" | "music-note-half" | "music-note-minus" | "music-note-off-outline" | "music-note-off" | "music-note-outline" | "music-note-plus" | "music-note-quarter-dotted" | "music-note-quarter" | "music-note-sixteenth-dotted" | "music-note-sixteenth" | "music-note-whole-dotted" | "music-note-whole" | "music-note" | "music-off" | "music-rest-eighth" | "music-rest-half" | "music-rest-quarter" | "music-rest-sixteenth" | "music-rest-whole" | "music" | "mustache" | "nail" | "nas" | "nativescript" | "nature-outline" | "nature-people-outline" | "nature-people" | "nature" | "navigation-outline" | "navigation-variant-outline" | "navigation-variant" | "navigation" | "near-me" | "necklace" | "needle-off" | "needle" | "netflix" | "network-off-outline" | "network-off" | "network-outline" | "network-pos" | "network-strength-1-alert" | "network-strength-1" | "network-strength-2-alert" | "network-strength-2" | "network-strength-3-alert" | "network-strength-3" | "network-strength-4-alert" | "network-strength-4-cog" | "network-strength-4" | "network-strength-off-outline" | "network-strength-off" | "network-strength-outline" | "network" | "new-box" | "newspaper-check" | "newspaper-minus" | "newspaper-plus" | "newspaper-remove" | "newspaper-variant-multiple-outline" | "newspaper-variant-multiple" | "newspaper-variant-outline" | "newspaper-variant" | "newspaper" | "nfc-search-variant" | "nfc-tap" | "nfc-variant-off" | "nfc-variant" | "nfc" | "ninja" | "nintendo-game-boy" | "nintendo-switch" | "nintendo-wii" | "nintendo-wiiu" | "nix" | "nodejs" | "noodles" | "not-equal-variant" | "not-equal" | "note-alert-outline" | "note-alert" | "note-check-outline" | "note-check" | "note-edit-outline" | "note-edit" | "note-minus-outline" | "note-minus" | "note-multiple-outline" | "note-multiple" | "note-off-outline" | "note-off" | "note-outline" | "note-plus-outline" | "note-plus" | "note-remove-outline" | "note-remove" | "note-search-outline" | "note-search" | "note-text-outline" | "note-text" | "note" | "notebook-check-outline" | "notebook-check" | "notebook-edit-outline" | "notebook-edit" | "notebook-heart-outline" | "notebook-heart" | "notebook-minus-outline" | "notebook-minus" | "notebook-multiple" | "notebook-outline" | "notebook-plus-outline" | "notebook-plus" | "notebook-remove-outline" | "notebook-remove" | "notebook" | "notification-clear-all" | "npm" | "nuke" | "null" | "numeric-0-box-multiple-outline" | "numeric-0-box-multiple" | "numeric-0-box-outline" | "numeric-0-box" | "numeric-0-circle-outline" | "numeric-0-circle" | "numeric-0" | "numeric-1-box-multiple-outline" | "numeric-1-box-multiple" | "numeric-1-box-outline" | "numeric-1-box" | "numeric-1-circle-outline" | "numeric-1-circle" | "numeric-1" | "numeric-10-box-multiple-outline" | "numeric-10-box-multiple" | "numeric-10-box-outline" | "numeric-10-box" | "numeric-10-circle-outline" | "numeric-10-circle" | "numeric-10" | "numeric-2-box-multiple-outline" | "numeric-2-box-multiple" | "numeric-2-box-outline" | "numeric-2-box" | "numeric-2-circle-outline" | "numeric-2-circle" | "numeric-2" | "numeric-3-box-multiple-outline" | "numeric-3-box-multiple" | "numeric-3-box-outline" | "numeric-3-box" | "numeric-3-circle-outline" | "numeric-3-circle" | "numeric-3" | "numeric-4-box-multiple-outline" | "numeric-4-box-multiple" | "numeric-4-box-outline" | "numeric-4-box" | "numeric-4-circle-outline" | "numeric-4-circle" | "numeric-4" | "numeric-5-box-multiple-outline" | "numeric-5-box-multiple" | "numeric-5-box-outline" | "numeric-5-box" | "numeric-5-circle-outline" | "numeric-5-circle" | "numeric-5" | "numeric-6-box-multiple-outline" | "numeric-6-box-multiple" | "numeric-6-box-outline" | "numeric-6-box" | "numeric-6-circle-outline" | "numeric-6-circle" | "numeric-6" | "numeric-7-box-multiple-outline" | "numeric-7-box-multiple" | "numeric-7-box-outline" | "numeric-7-box" | "numeric-7-circle-outline" | "numeric-7-circle" | "numeric-7" | "numeric-8-box-multiple-outline" | "numeric-8-box-multiple" | "numeric-8-box-outline" | "numeric-8-box" | "numeric-8-circle-outline" | "numeric-8-circle" | "numeric-8" | "numeric-9-box-multiple-outline" | "numeric-9-box-multiple" | "numeric-9-box-outline" | "numeric-9-box" | "numeric-9-circle-outline" | "numeric-9-circle" | "numeric-9-plus-box-multiple-outline" | "numeric-9-plus-box-multiple" | "numeric-9-plus-box-outline" | "numeric-9-plus-box" | "numeric-9-plus-circle-outline" | "numeric-9-plus-circle" | "numeric-9-plus" | "numeric-9" | "numeric-negative-1" | "numeric-off" | "numeric-positive-1" | "numeric" | "nut" | "nutrition" | "nuxt" | "oar" | "ocarina" | "oci" | "ocr" | "octagon-outline" | "octagon" | "octagram-edit-outline" | "octagram-edit" | "octagram-minus-outline" | "octagram-minus" | "octagram-outline" | "octagram-plus-outline" | "octagram-plus" | "octagram" | "octahedron-off" | "octahedron" | "odnoklassniki" | "offer" | "office-building-cog-outline" | "office-building-cog" | "office-building-marker-outline" | "office-building-marker" | "office-building-minus-outline" | "office-building-minus" | "office-building-outline" | "office-building-plus-outline" | "office-building-plus" | "office-building-remove-outline" | "office-building-remove" | "office-building" | "oil-lamp" | "oil-level" | "oil-temperature" | "oil" | "om" | "omega" | "one-up" | "onepassword" | "opacity" | "open-in-app" | "open-in-new" | "open-source-initiative" | "openid" | "opera" | "orbit-variant" | "orbit" | "order-alphabetical-ascending" | "order-alphabetical-descending" | "order-bool-ascending-variant" | "order-bool-ascending" | "order-bool-descending-variant" | "order-bool-descending" | "order-numeric-ascending" | "order-numeric-descending" | "origin" | "ornament-variant" | "ornament" | "outdoor-lamp" | "overscan" | "owl" | "pac-man" | "package-check" | "package-down" | "package-up" | "package-variant-closed-check" | "package-variant-closed-minus" | "package-variant-closed-plus" | "package-variant-closed-remove" | "package-variant-closed" | "package-variant-minus" | "package-variant-plus" | "package-variant-remove" | "package-variant" | "package" | "page-first" | "page-last" | "page-layout-body" | "page-layout-footer" | "page-layout-header-footer" | "page-layout-header" | "page-layout-sidebar-left" | "page-layout-sidebar-right" | "page-next-outline" | "page-next" | "page-previous-outline" | "page-previous" | "pail-minus-outline" | "pail-minus" | "pail-off-outline" | "pail-off" | "pail-outline" | "pail-plus-outline" | "pail-plus" | "pail-remove-outline" | "pail-remove" | "pail" | "palette-advanced" | "palette-outline" | "palette-swatch-outline" | "palette-swatch-variant" | "palette-swatch" | "palette" | "palm-tree" | "pan-bottom-left" | "pan-bottom-right" | "pan-down" | "pan-horizontal" | "pan-left" | "pan-right" | "pan-top-left" | "pan-top-right" | "pan-up" | "pan-vertical" | "pan" | "panda" | "pandora" | "panorama-fisheye" | "panorama-horizontal-outline" | "panorama-horizontal" | "panorama-outline" | "panorama-sphere-outline" | "panorama-sphere" | "panorama-variant-outline" | "panorama-variant" | "panorama-vertical-outline" | "panorama-vertical" | "panorama-wide-angle-outline" | "panorama-wide-angle" | "panorama" | "paper-cut-vertical" | "paper-roll-outline" | "paper-roll" | "paperclip-check" | "paperclip-lock" | "paperclip-minus" | "paperclip-off" | "paperclip-plus" | "paperclip-remove" | "paperclip" | "parachute-outline" | "parachute" | "paragliding" | "parking" | "party-popper" | "passport-alert" | "passport-biometric" | "passport-cancel" | "passport-check" | "passport-minus" | "passport-plus" | "passport-remove" | "passport" | "pasta" | "patio-heater" | "patreon" | "pause-box-outline" | "pause-box" | "pause-circle-outline" | "pause-circle" | "pause-octagon-outline" | "pause-octagon" | "pause" | "paw-off-outline" | "paw-off" | "paw-outline" | "paw" | "peace" | "peanut-off-outline" | "peanut-off" | "peanut-outline" | "peanut" | "pen-lock" | "pen-minus" | "pen-off" | "pen-plus" | "pen-remove" | "pen" | "pencil-box-multiple-outline" | "pencil-box-multiple" | "pencil-box-outline" | "pencil-box" | "pencil-circle-outline" | "pencil-circle" | "pencil-lock-outline" | "pencil-lock" | "pencil-minus-outline" | "pencil-minus" | "pencil-off-outline" | "pencil-off" | "pencil-outline" | "pencil-plus-outline" | "pencil-plus" | "pencil-remove-outline" | "pencil-remove" | "pencil-ruler-outline" | "pencil-ruler" | "pencil" | "penguin" | "pentagon-outline" | "pentagon" | "pentagram" | "percent-box-outline" | "percent-box" | "percent-circle-outline" | "percent-circle" | "percent-outline" | "percent" | "periodic-table" | "perspective-less" | "perspective-more" | "ph" | "phone-alert-outline" | "phone-alert" | "phone-bluetooth-outline" | "phone-bluetooth" | "phone-cancel-outline" | "phone-cancel" | "phone-check-outline" | "phone-check" | "phone-classic-off" | "phone-classic" | "phone-clock" | "phone-dial-outline" | "phone-dial" | "phone-forward-outline" | "phone-forward" | "phone-hangup-outline" | "phone-hangup" | "phone-in-talk-outline" | "phone-in-talk" | "phone-incoming-outgoing-outline" | "phone-incoming-outgoing" | "phone-incoming-outline" | "phone-incoming" | "phone-lock-outline" | "phone-lock" | "phone-log-outline" | "phone-log" | "phone-message-outline" | "phone-message" | "phone-minus-outline" | "phone-minus" | "phone-missed-outline" | "phone-missed" | "phone-off-outline" | "phone-off" | "phone-outgoing-outline" | "phone-outgoing" | "phone-outline" | "phone-paused-outline" | "phone-paused" | "phone-plus-outline" | "phone-plus" | "phone-refresh-outline" | "phone-refresh" | "phone-remove-outline" | "phone-remove" | "phone-return-outline" | "phone-return" | "phone-ring-outline" | "phone-ring" | "phone-rotate-landscape" | "phone-rotate-portrait" | "phone-settings-outline" | "phone-settings" | "phone-sync-outline" | "phone-sync" | "phone-voip" | "phone" | "pi-box" | "pi-hole" | "pi" | "piano-off" | "piano" | "pickaxe" | "picture-in-picture-bottom-right-outline" | "picture-in-picture-bottom-right" | "picture-in-picture-top-right-outline" | "picture-in-picture-top-right" | "pier-crane" | "pier" | "pig-variant-outline" | "pig-variant" | "pig" | "piggy-bank-outline" | "piggy-bank" | "pill-multiple" | "pill-off" | "pill" | "pillar" | "pin-off-outline" | "pin-off" | "pin-outline" | "pin" | "pine-tree-box" | "pine-tree-fire" | "pine-tree-variant-outline" | "pine-tree-variant" | "pine-tree" | "pinterest" | "pinwheel-outline" | "pinwheel" | "pipe-disconnected" | "pipe-leak" | "pipe-valve" | "pipe-wrench" | "pipe" | "pirate" | "pistol" | "piston" | "pitchfork" | "pizza" | "plane-car" | "plane-train" | "play-box-edit-outline" | "play-box-lock-open-outline" | "play-box-lock-open" | "play-box-lock-outline" | "play-box-lock" | "play-box-multiple-outline" | "play-box-multiple" | "play-box-outline" | "play-box" | "play-circle-outline" | "play-circle" | "play-network-outline" | "play-network" | "play-outline" | "play-pause" | "play-protected-content" | "play-speed" | "play" | "playlist-check" | "playlist-edit" | "playlist-minus" | "playlist-music-outline" | "playlist-music" | "playlist-play" | "playlist-plus" | "playlist-remove" | "playlist-star" | "plex" | "pliers" | "plus-box-multiple-outline" | "plus-box-multiple" | "plus-box-outline" | "plus-box" | "plus-circle-multiple-outline" | "plus-circle-multiple" | "plus-circle-outline" | "plus-circle" | "plus-lock-open" | "plus-lock" | "plus-minus-box" | "plus-minus-variant" | "plus-minus" | "plus-network-outline" | "plus-network" | "plus-outline" | "plus-thick" | "plus" | "pocket" | "podcast" | "podium-bronze" | "podium-gold" | "podium-silver" | "podium" | "point-of-sale" | "pokeball" | "pokemon-go" | "poker-chip" | "polaroid" | "police-badge-outline" | "police-badge" | "police-station" | "poll" | "polo" | "polymer" | "pool-thermometer" | "pool" | "popcorn" | "post-lamp" | "post-outline" | "post" | "postage-stamp" | "pot-mix-outline" | "pot-mix" | "pot-outline" | "pot-steam-outline" | "pot-steam" | "pot" | "pound-box-outline" | "pound-box" | "pound" | "power-cycle" | "power-off" | "power-on" | "power-plug-battery-outline" | "power-plug-battery" | "power-plug-off-outline" | "power-plug-off" | "power-plug-outline" | "power-plug" | "power-settings" | "power-sleep" | "power-socket-au" | "power-socket-ch" | "power-socket-de" | "power-socket-eu" | "power-socket-fr" | "power-socket-it" | "power-socket-jp" | "power-socket-uk" | "power-socket-us" | "power-socket" | "power-standby" | "power" | "powershell" | "prescription" | "presentation-play" | "presentation" | "pretzel" | "printer-3d-nozzle-alert-outline" | "printer-3d-nozzle-alert" | "printer-3d-nozzle-heat-outline" | "printer-3d-nozzle-heat" | "printer-3d-nozzle-off-outline" | "printer-3d-nozzle-off" | "printer-3d-nozzle-outline" | "printer-3d-nozzle" | "printer-3d-off" | "printer-3d" | "printer-alert" | "printer-check" | "printer-eye" | "printer-off-outline" | "printer-off" | "printer-outline" | "printer-pos-alert-outline" | "printer-pos-alert" | "printer-pos-cancel-outline" | "printer-pos-cancel" | "printer-pos-check-outline" | "printer-pos-check" | "printer-pos-cog-outline" | "printer-pos-cog" | "printer-pos-edit-outline" | "printer-pos-edit" | "printer-pos-minus-outline" | "printer-pos-minus" | "printer-pos-network-outline" | "printer-pos-network" | "printer-pos-off-outline" | "printer-pos-off" | "printer-pos-outline" | "printer-pos-pause-outline" | "printer-pos-pause" | "printer-pos-play-outline" | "printer-pos-play" | "printer-pos-plus-outline" | "printer-pos-plus" | "printer-pos-refresh-outline" | "printer-pos-refresh" | "printer-pos-remove-outline" | "printer-pos-remove" | "printer-pos-star-outline" | "printer-pos-star" | "printer-pos-stop-outline" | "printer-pos-stop" | "printer-pos-sync-outline" | "printer-pos-sync" | "printer-pos-wrench-outline" | "printer-pos-wrench" | "printer-pos" | "printer-search" | "printer-settings" | "printer-wireless" | "printer" | "priority-high" | "priority-low" | "professional-hexagon" | "progress-alert" | "progress-check" | "progress-clock" | "progress-close" | "progress-download" | "progress-helper" | "progress-pencil" | "progress-question" | "progress-star-four-points" | "progress-star" | "progress-tag" | "progress-upload" | "progress-wrench" | "projector-off" | "projector-screen-off-outline" | "projector-screen-off" | "projector-screen-outline" | "projector-screen-variant-off-outline" | "projector-screen-variant-off" | "projector-screen-variant-outline" | "projector-screen-variant" | "projector-screen" | "projector" | "propane-tank-outline" | "propane-tank" | "protocol" | "publish-off" | "publish" | "pulse" | "pump-off" | "pump" | "pumpkin" | "purse-outline" | "purse" | "puzzle-check-outline" | "puzzle-check" | "puzzle-edit-outline" | "puzzle-edit" | "puzzle-heart-outline" | "puzzle-heart" | "puzzle-minus-outline" | "puzzle-minus" | "puzzle-outline" | "puzzle-plus-outline" | "puzzle-plus" | "puzzle-remove-outline" | "puzzle-remove" | "puzzle-star-outline" | "puzzle-star" | "puzzle" | "pyramid-off" | "pyramid" | "qi" | "qqchat" | "qrcode-edit" | "qrcode-minus" | "qrcode-plus" | "qrcode-remove" | "qrcode-scan" | "qrcode" | "quadcopter" | "quality-high" | "quality-low" | "quality-medium" | "queue-first-in-last-out" | "quora" | "rabbit-variant-outline" | "rabbit-variant" | "rabbit" | "racing-helmet" | "racquetball" | "radar" | "radiator-disabled" | "radiator-off" | "radiator" | "radio-am" | "radio-fm" | "radio-handheld" | "radio-off" | "radio-tower" | "radio" | "radioactive-circle-outline" | "radioactive-circle" | "radioactive-off" | "radioactive" | "radiobox-blank" | "radiobox-indeterminate-variant" | "radiobox-marked" | "radiology-box-outline" | "radiology-box" | "radius-outline" | "radius" | "railroad-light" | "rake" | "raspberry-pi" | "raw-off" | "raw" | "ray-end-arrow" | "ray-end" | "ray-start-arrow" | "ray-start-end" | "ray-start-vertex-end" | "ray-start" | "ray-vertex" | "razor-double-edge" | "razor-single-edge" | "react" | "read" | "receipt-clock-outline" | "receipt-clock" | "receipt-outline" | "receipt-send-outline" | "receipt-send" | "receipt-text-arrow-left-outline" | "receipt-text-arrow-left" | "receipt-text-arrow-right-outline" | "receipt-text-arrow-right" | "receipt-text-check-outline" | "receipt-text-check" | "receipt-text-clock-outline" | "receipt-text-clock" | "receipt-text-edit-outline" | "receipt-text-edit" | "receipt-text-minus-outline" | "receipt-text-minus" | "receipt-text-outline" | "receipt-text-plus-outline" | "receipt-text-plus" | "receipt-text-remove-outline" | "receipt-text-remove" | "receipt-text-send-outline" | "receipt-text-send" | "receipt-text" | "receipt" | "record-circle-outline" | "record-circle" | "record-player" | "record-rec" | "record" | "rectangle-outline" | "rectangle" | "recycle-variant" | "recycle" | "reddit" | "redhat" | "redo-variant" | "redo" | "reflect-horizontal" | "reflect-vertical" | "refresh-auto" | "refresh-circle" | "refresh" | "regex" | "registered-trademark" | "reiterate" | "relation-many-to-many" | "relation-many-to-one-or-many" | "relation-many-to-one" | "relation-many-to-only-one" | "relation-many-to-zero-or-many" | "relation-many-to-zero-or-one" | "relation-one-or-many-to-many" | "relation-one-or-many-to-one-or-many" | "relation-one-or-many-to-one" | "relation-one-or-many-to-only-one" | "relation-one-or-many-to-zero-or-many" | "relation-one-or-many-to-zero-or-one" | "relation-one-to-many" | "relation-one-to-one-or-many" | "relation-one-to-one" | "relation-one-to-only-one" | "relation-one-to-zero-or-many" | "relation-one-to-zero-or-one" | "relation-only-one-to-many" | "relation-only-one-to-one-or-many" | "relation-only-one-to-one" | "relation-only-one-to-only-one" | "relation-only-one-to-zero-or-many" | "relation-only-one-to-zero-or-one" | "relation-zero-or-many-to-many" | "relation-zero-or-many-to-one-or-many" | "relation-zero-or-many-to-one" | "relation-zero-or-many-to-only-one" | "relation-zero-or-many-to-zero-or-many" | "relation-zero-or-many-to-zero-or-one" | "relation-zero-or-one-to-many" | "relation-zero-or-one-to-one-or-many" | "relation-zero-or-one-to-one" | "relation-zero-or-one-to-only-one" | "relation-zero-or-one-to-zero-or-many" | "relation-zero-or-one-to-zero-or-one" | "relative-scale" | "reload-alert" | "reload" | "reminder" | "remote-desktop" | "remote-off" | "remote-tv-off" | "remote-tv" | "remote" | "rename-box-outline" | "rename-box" | "rename-outline" | "rename" | "reorder-horizontal" | "reorder-vertical" | "repeat-off" | "repeat-once" | "repeat-variant" | "repeat" | "replay" | "reply-all-outline" | "reply-all" | "reply-circle" | "reply-outline" | "reply" | "reproduction" | "resistor-nodes" | "resistor" | "resize-bottom-right" | "resize" | "responsive" | "restart-alert" | "restart-off" | "restart" | "restore-alert" | "restore" | "rewind-10" | "rewind-15" | "rewind-30" | "rewind-45" | "rewind-5" | "rewind-60" | "rewind-outline" | "rewind" | "rhombus-medium-outline" | "rhombus-medium" | "rhombus-outline" | "rhombus-split-outline" | "rhombus-split" | "rhombus" | "ribbon" | "rice" | "rickshaw-electric" | "rickshaw" | "ring" | "rivet" | "road-variant" | "road" | "robber" | "robot-angry-outline" | "robot-angry" | "robot-confused-outline" | "robot-confused" | "robot-dead-outline" | "robot-dead" | "robot-excited-outline" | "robot-excited" | "robot-happy-outline" | "robot-happy" | "robot-industrial-outline" | "robot-industrial" | "robot-love-outline" | "robot-love" | "robot-mower-outline" | "robot-mower" | "robot-off-outline" | "robot-off" | "robot-outline" | "robot-vacuum-alert" | "robot-vacuum-off" | "robot-vacuum-variant-alert" | "robot-vacuum-variant-off" | "robot-vacuum-variant" | "robot-vacuum" | "robot" | "rocket-launch-outline" | "rocket-launch" | "rocket-outline" | "rocket" | "rodent" | "roller-shade-closed" | "roller-shade" | "roller-skate-off" | "roller-skate" | "rollerblade-off" | "rollerblade" | "rollupjs" | "rolodex-outline" | "rolodex" | "roman-numeral-1" | "roman-numeral-10" | "roman-numeral-2" | "roman-numeral-3" | "roman-numeral-4" | "roman-numeral-5" | "roman-numeral-6" | "roman-numeral-7" | "roman-numeral-8" | "roman-numeral-9" | "room-service-outline" | "room-service" | "rotate-360" | "rotate-3d-variant" | "rotate-3d" | "rotate-left-variant" | "rotate-left" | "rotate-orbit" | "rotate-right-variant" | "rotate-right" | "rounded-corner" | "router-network-wireless" | "router-network" | "router-wireless-off" | "router-wireless-settings" | "router-wireless" | "router" | "routes-clock" | "routes" | "rowing" | "rss-box" | "rss-off" | "rss" | "rug" | "rugby" | "ruler-square-compass" | "ruler-square" | "ruler" | "run-fast" | "run" | "rv-truck" | "sack-outline" | "sack-percent" | "sack" | "safe-square-outline" | "safe-square" | "safe" | "safety-goggles" | "sail-boat-sink" | "sail-boat" | "sale-outline" | "sale" | "salesforce" | "sass" | "satellite-uplink" | "satellite-variant" | "satellite" | "sausage-off" | "sausage" | "saw-blade" | "sawtooth-wave" | "saxophone" | "scale-balance" | "scale-bathroom" | "scale-off" | "scale-unbalanced" | "scale" | "scan-helper" | "scanner-off" | "scanner" | "scatter-plot-outline" | "scatter-plot" | "scent-off" | "scent" | "school-outline" | "school" | "scissors-cutting" | "scooter-electric" | "scooter" | "scoreboard-outline" | "scoreboard" | "screen-rotation-lock" | "screen-rotation" | "screw-flat-top" | "screw-lag" | "screw-machine-flat-top" | "screw-machine-round-top" | "screw-round-top" | "screwdriver" | "script-outline" | "script-text-key-outline" | "script-text-key" | "script-text-outline" | "script-text-play-outline" | "script-text-play" | "script-text" | "script" | "sd" | "seal-variant" | "seal" | "search-web" | "seat-flat-angled" | "seat-flat" | "seat-individual-suite" | "seat-legroom-extra" | "seat-legroom-normal" | "seat-legroom-reduced" | "seat-outline" | "seat-passenger" | "seat-recline-extra" | "seat-recline-normal" | "seat" | "seatbelt" | "security-network" | "security" | "seed-off-outline" | "seed-off" | "seed-outline" | "seed-plus-outline" | "seed-plus" | "seed" | "seesaw" | "segment" | "select-all" | "select-arrow-down" | "select-arrow-up" | "select-color" | "select-compare" | "select-drag" | "select-group" | "select-inverse" | "select-marker" | "select-multiple-marker" | "select-multiple" | "select-off" | "select-place" | "select-remove" | "select-search" | "select" | "selection-drag" | "selection-ellipse-arrow-inside" | "selection-ellipse-remove" | "selection-ellipse" | "selection-marker" | "selection-multiple-marker" | "selection-multiple" | "selection-off" | "selection-remove" | "selection-search" | "selection" | "semantic-web" | "send-check-outline" | "send-check" | "send-circle-outline" | "send-circle" | "send-clock-outline" | "send-clock" | "send-lock-outline" | "send-lock" | "send-outline" | "send-variant-clock-outline" | "send-variant-clock" | "send-variant-outline" | "send-variant" | "send" | "serial-port" | "server-minus-outline" | "server-minus" | "server-network-off" | "server-network-outline" | "server-network" | "server-off" | "server-outline" | "server-plus-outline" | "server-plus" | "server-remove" | "server-security" | "server" | "set-all" | "set-center-right" | "set-center" | "set-left-center" | "set-left-right" | "set-left" | "set-merge" | "set-none" | "set-right" | "set-split" | "set-square" | "set-top-box" | "settings-helper" | "shaker-outline" | "shaker" | "shape-circle-plus" | "shape-outline" | "shape-oval-plus" | "shape-plus-outline" | "shape-plus" | "shape-polygon-plus" | "shape-rectangle-plus" | "shape-square-plus" | "shape-square-rounded-plus" | "shape" | "share-all-outline" | "share-all" | "share-circle" | "share-off-outline" | "share-off" | "share-outline" | "share-variant-outline" | "share-variant" | "share" | "shark-fin-outline" | "shark-fin" | "shark-off" | "shark" | "sheep" | "shield-account-outline" | "shield-account-variant-outline" | "shield-account-variant" | "shield-account" | "shield-airplane-outline" | "shield-airplane" | "shield-alert-outline" | "shield-alert" | "shield-bug-outline" | "shield-bug" | "shield-car" | "shield-check-outline" | "shield-check" | "shield-cross-outline" | "shield-cross" | "shield-crown-outline" | "shield-crown" | "shield-edit-outline" | "shield-edit" | "shield-half-full" | "shield-half" | "shield-home-outline" | "shield-home" | "shield-key-outline" | "shield-key" | "shield-link-variant-outline" | "shield-link-variant" | "shield-lock-open-outline" | "shield-lock-open" | "shield-lock-outline" | "shield-lock" | "shield-moon-outline" | "shield-moon" | "shield-off-outline" | "shield-off" | "shield-outline" | "shield-plus-outline" | "shield-plus" | "shield-refresh-outline" | "shield-refresh" | "shield-remove-outline" | "shield-remove" | "shield-search" | "shield-star-outline" | "shield-star" | "shield-sun-outline" | "shield-sun" | "shield-sword-outline" | "shield-sword" | "shield-sync-outline" | "shield-sync" | "shield" | "shimmer" | "ship-wheel" | "shipping-pallet" | "shoe-ballet" | "shoe-cleat" | "shoe-formal" | "shoe-heel" | "shoe-print" | "shoe-sneaker" | "shopping-music" | "shopping-outline" | "shopping-search-outline" | "shopping-search" | "shopping" | "shore" | "shovel-off" | "shovel" | "shower-head" | "shower" | "shredder" | "shuffle-disabled" | "shuffle-variant" | "shuffle" | "shuriken" | "sickle" | "sigma-lower" | "sigma" | "sign-caution" | "sign-direction-minus" | "sign-direction-plus" | "sign-direction-remove" | "sign-direction" | "sign-language-outline" | "sign-language" | "sign-pole" | "sign-real-estate" | "sign-text" | "sign-yield" | "signal-2g" | "signal-3g" | "signal-4g" | "signal-5g" | "signal-cellular-1" | "signal-cellular-2" | "signal-cellular-3" | "signal-cellular-outline" | "signal-distance-variant" | "signal-hspa-plus" | "signal-hspa" | "signal-off" | "signal-variant" | "signal" | "signature-freehand" | "signature-image" | "signature-text" | "signature" | "silo-outline" | "silo" | "silverware-clean" | "silverware-fork-knife" | "silverware-fork" | "silverware-spoon" | "silverware-variant" | "silverware" | "sim-alert-outline" | "sim-alert" | "sim-off-outline" | "sim-off" | "sim-outline" | "sim" | "simple-icons" | "sina-weibo" | "sine-wave" | "sitemap-outline" | "sitemap" | "size-l" | "size-m" | "size-s" | "size-xl" | "size-xs" | "size-xxl" | "size-xxs" | "size-xxxl" | "skate-off" | "skate" | "skateboard" | "skateboarding" | "skew-less" | "skew-more" | "ski-cross-country" | "ski-water" | "ski" | "skip-backward-outline" | "skip-backward" | "skip-forward-outline" | "skip-forward" | "skip-next-circle-outline" | "skip-next-circle" | "skip-next-outline" | "skip-next" | "skip-previous-circle-outline" | "skip-previous-circle" | "skip-previous-outline" | "skip-previous" | "skull-crossbones-outline" | "skull-crossbones" | "skull-outline" | "skull-scan-outline" | "skull-scan" | "skull" | "skype-business" | "skype" | "slack" | "slash-forward-box" | "slash-forward" | "sledding" | "sleep-off" | "sleep" | "slide" | "slope-downhill" | "slope-uphill" | "slot-machine-outline" | "slot-machine" | "smart-card-off-outline" | "smart-card-off" | "smart-card-outline" | "smart-card-reader-outline" | "smart-card-reader" | "smart-card" | "smog" | "smoke-detector-alert-outline" | "smoke-detector-alert" | "smoke-detector-off-outline" | "smoke-detector-off" | "smoke-detector-outline" | "smoke-detector-variant-alert" | "smoke-detector-variant-off" | "smoke-detector-variant" | "smoke-detector" | "smoke" | "smoking-off" | "smoking-pipe-off" | "smoking-pipe" | "smoking" | "snail" | "snake" | "snapchat" | "snowboard" | "snowflake-alert" | "snowflake-check" | "snowflake-melt" | "snowflake-off" | "snowflake-thermometer" | "snowflake-variant" | "snowflake" | "snowman" | "snowmobile" | "snowshoeing" | "soccer-field" | "soccer" | "social-distance-2-meters" | "social-distance-6-feet" | "sofa-outline" | "sofa-single-outline" | "sofa-single" | "sofa" | "solar-panel-large" | "solar-panel" | "solar-power-variant-outline" | "solar-power-variant" | "solar-power" | "soldering-iron" | "solid" | "sony-playstation" | "sort-alphabetical-ascending-variant" | "sort-alphabetical-ascending" | "sort-alphabetical-descending-variant" | "sort-alphabetical-descending" | "sort-alphabetical-variant" | "sort-ascending" | "sort-bool-ascending-variant" | "sort-bool-ascending" | "sort-bool-descending-variant" | "sort-bool-descending" | "sort-calendar-ascending" | "sort-calendar-descending" | "sort-clock-ascending-outline" | "sort-clock-ascending" | "sort-clock-descending-outline" | "sort-clock-descending" | "sort-descending" | "sort-numeric-ascending-variant" | "sort-numeric-ascending" | "sort-numeric-descending-variant" | "sort-numeric-descending" | "sort-numeric-variant" | "sort-reverse-variant" | "sort-variant-lock-open" | "sort-variant-lock" | "sort-variant-off" | "sort-variant-remove" | "sort-variant" | "sort" | "soundbar" | "soundcloud" | "source-branch-check" | "source-branch-minus" | "source-branch-plus" | "source-branch-refresh" | "source-branch-remove" | "source-branch-sync" | "source-branch" | "source-commit-end-local" | "source-commit-end" | "source-commit-local" | "source-commit-next-local" | "source-commit-start-next-local" | "source-commit-start" | "source-commit" | "source-fork" | "source-merge" | "source-pull" | "source-repository-multiple" | "source-repository" | "soy-sauce-off" | "soy-sauce" | "spa-outline" | "spa" | "space-invaders" | "space-station" | "spade" | "speaker-bluetooth" | "speaker-message" | "speaker-multiple" | "speaker-off" | "speaker-pause" | "speaker-play" | "speaker-stop" | "speaker-wireless" | "speaker" | "spear" | "speedometer-medium" | "speedometer-slow" | "speedometer" | "spellcheck" | "sphere-off" | "sphere" | "spider-outline" | "spider-thread" | "spider-web" | "spider" | "spirit-level" | "spoon-sugar" | "spotify" | "spotlight-beam" | "spotlight" | "spray-bottle" | "spray" | "sprinkler-fire" | "sprinkler-variant" | "sprinkler" | "sprout-outline" | "sprout" | "square-circle-outline" | "square-circle" | "square-edit-outline" | "square-medium-outline" | "square-medium" | "square-off-outline" | "square-off" | "square-opacity" | "square-outline" | "square-root-box" | "square-root" | "square-rounded-badge-outline" | "square-rounded-badge" | "square-rounded-outline" | "square-rounded" | "square-small" | "square-wave" | "square" | "squeegee" | "ssh" | "stack-exchange" | "stack-overflow" | "stackpath" | "stadium-outline" | "stadium-variant" | "stadium" | "stairs-box" | "stairs-down" | "stairs-up" | "stairs" | "stamper" | "standard-definition" | "star-box-multiple-outline" | "star-box-multiple" | "star-box-outline" | "star-box" | "star-check-outline" | "star-check" | "star-circle-outline" | "star-circle" | "star-cog-outline" | "star-cog" | "star-crescent" | "star-david" | "star-face" | "star-four-points-box-outline" | "star-four-points-box" | "star-four-points-circle-outline" | "star-four-points-circle" | "star-four-points-outline" | "star-four-points-small" | "star-four-points" | "star-half-full" | "star-half" | "star-minus-outline" | "star-minus" | "star-off-outline" | "star-off" | "star-outline" | "star-plus-outline" | "star-plus" | "star-remove-outline" | "star-remove" | "star-settings-outline" | "star-settings" | "star-shooting-outline" | "star-shooting" | "star-three-points-outline" | "star-three-points" | "star" | "state-machine" | "steam" | "steering-off" | "steering" | "step-backward-2" | "step-backward" | "step-forward-2" | "step-forward" | "stethoscope" | "sticker-alert-outline" | "sticker-alert" | "sticker-check-outline" | "sticker-check" | "sticker-circle-outline" | "sticker-emoji" | "sticker-minus-outline" | "sticker-minus" | "sticker-outline" | "sticker-plus-outline" | "sticker-plus" | "sticker-remove-outline" | "sticker-remove" | "sticker-text-outline" | "sticker-text" | "sticker" | "stocking" | "stomach" | "stool-outline" | "stool" | "stop-circle-outline" | "stop-circle" | "stop" | "storage-tank-outline" | "storage-tank" | "store-24-hour" | "store-alert-outline" | "store-alert" | "store-check-outline" | "store-check" | "store-clock-outline" | "store-clock" | "store-cog-outline" | "store-cog" | "store-edit-outline" | "store-edit" | "store-marker-outline" | "store-marker" | "store-minus-outline" | "store-minus" | "store-off-outline" | "store-off" | "store-outline" | "store-plus-outline" | "store-plus" | "store-remove-outline" | "store-remove" | "store-search-outline" | "store-search" | "store-settings-outline" | "store-settings" | "store" | "storefront-check-outline" | "storefront-check" | "storefront-edit-outline" | "storefront-edit" | "storefront-minus-outline" | "storefront-minus" | "storefront-outline" | "storefront-plus-outline" | "storefront-plus" | "storefront-remove-outline" | "storefront-remove" | "storefront" | "stove" | "strategy" | "stretch-to-page-outline" | "stretch-to-page" | "string-lights-off" | "string-lights" | "subdirectory-arrow-left" | "subdirectory-arrow-right" | "submarine" | "subtitles-outline" | "subtitles" | "subway-alert-variant" | "subway-variant" | "subway" | "summit" | "sun-angle-outline" | "sun-angle" | "sun-clock-outline" | "sun-clock" | "sun-compass" | "sun-snowflake-variant" | "sun-snowflake" | "sun-thermometer-outline" | "sun-thermometer" | "sun-wireless-outline" | "sun-wireless" | "sunglasses" | "surfing" | "surround-sound-2-0" | "surround-sound-2-1" | "surround-sound-3-1" | "surround-sound-5-1-2" | "surround-sound-5-1" | "surround-sound-7-1" | "surround-sound" | "svg" | "swap-horizontal-bold" | "swap-horizontal-circle-outline" | "swap-horizontal-circle" | "swap-horizontal-hidden" | "swap-horizontal-variant" | "swap-horizontal" | "swap-vertical-bold" | "swap-vertical-circle-outline" | "swap-vertical-circle" | "swap-vertical-variant" | "swap-vertical" | "swim" | "switch" | "sword-cross" | "sword" | "syllabary-hangul" | "syllabary-hiragana" | "syllabary-katakana-halfwidth" | "syllabary-katakana" | "symbol" | "symfony" | "synagogue-outline" | "synagogue" | "sync-alert" | "sync-circle" | "sync-off" | "sync" | "tab-minus" | "tab-plus" | "tab-remove" | "tab-search" | "tab-unselected" | "tab" | "table-account" | "table-alert" | "table-arrow-down" | "table-arrow-left" | "table-arrow-right" | "table-arrow-up" | "table-border" | "table-cancel" | "table-chair" | "table-check" | "table-clock" | "table-cog" | "table-column-plus-after" | "table-column-plus-before" | "table-column-remove" | "table-column-width" | "table-column" | "table-edit" | "table-eye-off" | "table-eye" | "table-filter" | "table-furniture" | "table-headers-eye-off" | "table-headers-eye" | "table-heart" | "table-key" | "table-large-plus" | "table-large-remove" | "table-large" | "table-lock" | "table-merge-cells" | "table-minus" | "table-multiple" | "table-network" | "table-of-contents" | "table-off" | "table-picnic" | "table-pivot" | "table-plus" | "table-question" | "table-refresh" | "table-remove" | "table-row-height" | "table-row-plus-after" | "table-row-plus-before" | "table-row-remove" | "table-row" | "table-search" | "table-settings" | "table-split-cell" | "table-star" | "table-sync" | "table-tennis" | "table" | "tablet-cellphone" | "tablet-dashboard" | "tablet" | "taco" | "tag-arrow-down-outline" | "tag-arrow-down" | "tag-arrow-left-outline" | "tag-arrow-left" | "tag-arrow-right-outline" | "tag-arrow-right" | "tag-arrow-up-outline" | "tag-arrow-up" | "tag-check-outline" | "tag-check" | "tag-edit-outline" | "tag-edit" | "tag-faces" | "tag-heart-outline" | "tag-heart" | "tag-hidden" | "tag-minus-outline" | "tag-minus" | "tag-multiple-outline" | "tag-multiple" | "tag-off-outline" | "tag-off" | "tag-outline" | "tag-plus-outline" | "tag-plus" | "tag-remove-outline" | "tag-remove" | "tag-search-outline" | "tag-search" | "tag-text-outline" | "tag-text" | "tag" | "tailwind" | "tally-mark-1" | "tally-mark-2" | "tally-mark-3" | "tally-mark-4" | "tally-mark-5" | "tangram" | "tank" | "tanker-truck" | "tape-drive" | "tape-measure" | "target-account" | "target-variant" | "target" | "taxi" | "tea-outline" | "tea" | "teamviewer" | "teddy-bear" | "telescope" | "television-ambient-light" | "television-box" | "television-classic-off" | "television-classic" | "television-guide" | "television-off" | "television-pause" | "television-play" | "television-shimmer" | "television-speaker-off" | "television-speaker" | "television-stop" | "television" | "temperature-celsius" | "temperature-fahrenheit" | "temperature-kelvin" | "temple-buddhist-outline" | "temple-buddhist" | "temple-hindu-outline" | "temple-hindu" | "tennis-ball-outline" | "tennis-ball" | "tennis" | "tent" | "terraform" | "terrain" | "test-tube-empty" | "test-tube-off" | "test-tube" | "text-account" | "text-box-check-outline" | "text-box-check" | "text-box-edit-outline" | "text-box-edit" | "text-box-minus-outline" | "text-box-minus" | "text-box-multiple-outline" | "text-box-multiple" | "text-box-outline" | "text-box-plus-outline" | "text-box-plus" | "text-box-remove-outline" | "text-box-remove" | "text-box-search-outline" | "text-box-search" | "text-box" | "text-long" | "text-recognition" | "text-search-variant" | "text-search" | "text-shadow" | "text-short" | "text" | "texture-box" | "texture" | "theater" | "theme-light-dark" | "thermometer-alert" | "thermometer-auto" | "thermometer-bluetooth" | "thermometer-check" | "thermometer-chevron-down" | "thermometer-chevron-up" | "thermometer-high" | "thermometer-lines" | "thermometer-low" | "thermometer-minus" | "thermometer-off" | "thermometer-plus" | "thermometer-probe-off" | "thermometer-probe" | "thermometer-water" | "thermometer" | "thermostat-auto" | "thermostat-box-auto" | "thermostat-box" | "thermostat-cog" | "thermostat" | "thought-bubble-outline" | "thought-bubble" | "thumb-down-outline" | "thumb-down" | "thumb-up-outline" | "thumb-up" | "thumbs-up-down-outline" | "thumbs-up-down" | "ticket-account" | "ticket-confirmation-outline" | "ticket-confirmation" | "ticket-outline" | "ticket-percent-outline" | "ticket-percent" | "ticket" | "tie" | "tilde-off" | "tilde" | "timelapse" | "timeline-alert-outline" | "timeline-alert" | "timeline-check-outline" | "timeline-check" | "timeline-clock-outline" | "timeline-clock" | "timeline-minus-outline" | "timeline-minus" | "timeline-outline" | "timeline-plus-outline" | "timeline-plus" | "timeline-question-outline" | "timeline-question" | "timeline-remove-outline" | "timeline-remove" | "timeline-text-outline" | "timeline-text" | "timeline" | "timer-10" | "timer-3" | "timer-alert-outline" | "timer-alert" | "timer-cancel-outline" | "timer-cancel" | "timer-check-outline" | "timer-check" | "timer-cog-outline" | "timer-cog" | "timer-edit-outline" | "timer-edit" | "timer-lock-open-outline" | "timer-lock-open" | "timer-lock-outline" | "timer-lock" | "timer-marker-outline" | "timer-marker" | "timer-minus-outline" | "timer-minus" | "timer-music-outline" | "timer-music" | "timer-off-outline" | "timer-off" | "timer-outline" | "timer-pause-outline" | "timer-pause" | "timer-play-outline" | "timer-play" | "timer-plus-outline" | "timer-plus" | "timer-refresh-outline" | "timer-refresh" | "timer-remove-outline" | "timer-remove" | "timer-sand-complete" | "timer-sand-empty" | "timer-sand-full" | "timer-sand-paused" | "timer-sand" | "timer-settings-outline" | "timer-settings" | "timer-star-outline" | "timer-star" | "timer-stop-outline" | "timer-stop" | "timer-sync-outline" | "timer-sync" | "timer" | "timetable" | "tire" | "toaster-off" | "toaster-oven" | "toaster" | "toggle-switch-off-outline" | "toggle-switch-off" | "toggle-switch-outline" | "toggle-switch-variant-off" | "toggle-switch-variant" | "toggle-switch" | "toilet" | "toolbox-outline" | "toolbox" | "tools" | "tooltip-account" | "tooltip-cellphone" | "tooltip-check-outline" | "tooltip-check" | "tooltip-edit-outline" | "tooltip-edit" | "tooltip-image-outline" | "tooltip-image" | "tooltip-minus-outline" | "tooltip-minus" | "tooltip-outline" | "tooltip-plus-outline" | "tooltip-plus" | "tooltip-question-outline" | "tooltip-question" | "tooltip-remove-outline" | "tooltip-remove" | "tooltip-text-outline" | "tooltip-text" | "tooltip" | "tooth-outline" | "tooth" | "toothbrush-electric" | "toothbrush-paste" | "toothbrush" | "torch" | "tortoise" | "toslink" | "touch-text-outline" | "tournament" | "tow-truck" | "tower-beach" | "tower-fire" | "town-hall" | "toy-brick-marker-outline" | "toy-brick-marker" | "toy-brick-minus-outline" | "toy-brick-minus" | "toy-brick-outline" | "toy-brick-plus-outline" | "toy-brick-plus" | "toy-brick-remove-outline" | "toy-brick-remove" | "toy-brick-search-outline" | "toy-brick-search" | "toy-brick" | "track-light-off" | "track-light" | "trackpad-lock" | "trackpad" | "tractor-variant" | "tractor" | "trademark" | "traffic-cone" | "traffic-light-outline" | "traffic-light" | "train-bus" | "train-car-autorack" | "train-car-box-full" | "train-car-box-open" | "train-car-box" | "train-car-caboose" | "train-car-centerbeam-full" | "train-car-centerbeam" | "train-car-container" | "train-car-flatbed-car" | "train-car-flatbed-tank" | "train-car-flatbed" | "train-car-gondola-full" | "train-car-gondola" | "train-car-hopper-covered" | "train-car-hopper-full" | "train-car-hopper" | "train-car-intermodal" | "train-car-passenger-door-open" | "train-car-passenger-door" | "train-car-passenger-variant" | "train-car-passenger" | "train-car-tank" | "train-car" | "train-variant" | "train" | "tram-side" | "tram" | "transcribe-close" | "transcribe" | "transfer-down" | "transfer-left" | "transfer-right" | "transfer-up" | "transfer" | "transit-connection-horizontal" | "transit-connection-variant" | "transit-connection" | "transit-detour" | "transit-skip" | "transit-transfer" | "transition-masked" | "transition" | "translate-off" | "translate-variant" | "translate" | "transmission-tower-export" | "transmission-tower-import" | "transmission-tower-off" | "transmission-tower" | "trash-can-outline" | "trash-can" | "tray-alert" | "tray-arrow-down" | "tray-arrow-up" | "tray-full" | "tray-minus" | "tray-plus" | "tray-remove" | "tray" | "treasure-chest-outline" | "treasure-chest" | "tree-outline" | "tree" | "trello" | "trending-down" | "trending-neutral" | "trending-up" | "triangle-down-outline" | "triangle-down" | "triangle-outline" | "triangle-small-down" | "triangle-small-up" | "triangle-wave" | "triangle" | "triforce" | "trophy-award" | "trophy-broken" | "trophy-outline" | "trophy-variant-outline" | "trophy-variant" | "trophy" | "truck-alert-outline" | "truck-alert" | "truck-cargo-container" | "truck-check-outline" | "truck-check" | "truck-delivery-outline" | "truck-delivery" | "truck-fast-outline" | "truck-fast" | "truck-flatbed" | "truck-minus-outline" | "truck-minus" | "truck-off-road-off" | "truck-off-road" | "truck-outline" | "truck-plus-outline" | "truck-plus" | "truck-remove-outline" | "truck-remove" | "truck-snowflake" | "truck-trailer" | "truck" | "trumpet" | "tshirt-crew-outline" | "tshirt-crew" | "tshirt-v-outline" | "tshirt-v" | "tsunami" | "tumble-dryer-alert" | "tumble-dryer-off" | "tumble-dryer" | "tune-variant" | "tune-vertical-variant" | "tune-vertical" | "tune" | "tunnel-outline" | "tunnel" | "turbine" | "turkey" | "turnstile-outline" | "turnstile" | "turtle" | "twitch" | "twitter" | "two-factor-authentication" | "typewriter" | "ubisoft" | "ubuntu" | "ufo-outline" | "ufo" | "ultra-high-definition" | "umbraco" | "umbrella-beach-outline" | "umbrella-beach" | "umbrella-closed-outline" | "umbrella-closed-variant" | "umbrella-closed" | "umbrella-outline" | "umbrella" | "underwear-outline" | "undo-variant" | "undo" | "unfold-less-horizontal" | "unfold-less-vertical" | "unfold-more-horizontal" | "unfold-more-vertical" | "ungroup" | "unicode" | "unicorn-variant" | "unicorn" | "unicycle" | "unity" | "unreal" | "update" | "upload-box-outline" | "upload-box" | "upload-circle-outline" | "upload-circle" | "upload-lock-outline" | "upload-lock" | "upload-multiple-outline" | "upload-multiple" | "upload-network-outline" | "upload-network" | "upload-off-outline" | "upload-off" | "upload-outline" | "upload" | "usb-c-port" | "usb-flash-drive-outline" | "usb-flash-drive" | "usb-port" | "usb" | "vacuum-outline" | "vacuum" | "valve-closed" | "valve-open" | "valve" | "van-passenger" | "van-utility" | "vanish-quarter" | "vanish" | "vanity-light" | "variable-box" | "variable" | "vector-arrange-above" | "vector-arrange-below" | "vector-bezier" | "vector-circle-variant" | "vector-circle" | "vector-combine" | "vector-curve" | "vector-difference-ab" | "vector-difference-ba" | "vector-difference" | "vector-ellipse" | "vector-intersection" | "vector-line" | "vector-link" | "vector-point-edit" | "vector-point-minus" | "vector-point-plus" | "vector-point-select" | "vector-point" | "vector-polygon-variant" | "vector-polygon" | "vector-polyline-edit" | "vector-polyline-minus" | "vector-polyline-plus" | "vector-polyline-remove" | "vector-polyline" | "vector-radius" | "vector-rectangle" | "vector-selection" | "vector-square-close" | "vector-square-edit" | "vector-square-minus" | "vector-square-open" | "vector-square-plus" | "vector-square-remove" | "vector-square" | "vector-triangle" | "vector-union" | "vhs" | "vibrate-off" | "vibrate" | "video-2d" | "video-3d-off" | "video-3d-variant" | "video-3d" | "video-4k-box" | "video-account" | "video-box-off" | "video-box" | "video-check-outline" | "video-check" | "video-high-definition" | "video-image" | "video-input-antenna" | "video-input-component" | "video-input-hdmi" | "video-input-scart" | "video-input-svideo" | "video-marker-outline" | "video-marker" | "video-minus-outline" | "video-minus" | "video-off-outline" | "video-off" | "video-outline" | "video-plus-outline" | "video-plus" | "video-stabilization" | "video-standard-definition" | "video-switch-outline" | "video-switch" | "video-vintage" | "video-wireless-outline" | "video-wireless" | "video" | "view-agenda-outline" | "view-agenda" | "view-array-outline" | "view-array" | "view-carousel-outline" | "view-carousel" | "view-column-outline" | "view-column" | "view-comfy-outline" | "view-comfy" | "view-compact-outline" | "view-compact" | "view-dashboard-edit-outline" | "view-dashboard-edit" | "view-dashboard-outline" | "view-dashboard-variant-outline" | "view-dashboard-variant" | "view-dashboard" | "view-day-outline" | "view-day" | "view-gallery-outline" | "view-gallery" | "view-grid-compact" | "view-grid-outline" | "view-grid-plus-outline" | "view-grid-plus" | "view-grid" | "view-headline" | "view-list-outline" | "view-list" | "view-module-outline" | "view-module" | "view-parallel-outline" | "view-parallel" | "view-quilt-outline" | "view-quilt" | "view-sequential-outline" | "view-sequential" | "view-split-horizontal" | "view-split-vertical" | "view-stream-outline" | "view-stream" | "view-week-outline" | "view-week" | "vimeo" | "violin" | "virtual-reality" | "virus-off-outline" | "virus-off" | "virus-outline" | "virus" | "vlc" | "voicemail" | "volcano-outline" | "volcano" | "volleyball" | "volume-equal" | "volume-high" | "volume-low" | "volume-medium" | "volume-minus" | "volume-mute" | "volume-off" | "volume-plus" | "volume-source" | "volume-variant-off" | "volume-vibrate" | "vote-outline" | "vote" | "vpn" | "vuejs" | "vuetify" | "walk" | "wall-fire" | "wall-sconce-flat-outline" | "wall-sconce-flat-variant-outline" | "wall-sconce-flat-variant" | "wall-sconce-flat" | "wall-sconce-outline" | "wall-sconce-round-outline" | "wall-sconce-round-variant-outline" | "wall-sconce-round-variant" | "wall-sconce-round" | "wall-sconce" | "wall" | "wallet-bifold-outline" | "wallet-bifold" | "wallet-giftcard" | "wallet-membership" | "wallet-outline" | "wallet-plus-outline" | "wallet-plus" | "wallet-travel" | "wallet" | "wallpaper" | "wan" | "wardrobe-outline" | "wardrobe" | "warehouse" | "washing-machine-alert" | "washing-machine-off" | "washing-machine" | "watch-export-variant" | "watch-export" | "watch-import-variant" | "watch-import" | "watch-variant" | "watch-vibrate-off" | "watch-vibrate" | "watch" | "water-alert-outline" | "water-alert" | "water-boiler-alert" | "water-boiler-auto" | "water-boiler-off" | "water-boiler" | "water-check-outline" | "water-check" | "water-circle" | "water-minus-outline" | "water-minus" | "water-off-outline" | "water-off" | "water-opacity" | "water-outline" | "water-percent-alert" | "water-percent" | "water-plus-outline" | "water-plus" | "water-polo" | "water-pump-off" | "water-pump" | "water-remove-outline" | "water-remove" | "water-sync" | "water-thermometer-outline" | "water-thermometer" | "water-well-outline" | "water-well" | "water" | "waterfall" | "watering-can-outline" | "watering-can" | "watermark" | "wave-arrow-down" | "wave-arrow-up" | "wave-undercurrent" | "wave" | "waveform" | "waves-arrow-left" | "waves-arrow-right" | "waves-arrow-up" | "waves" | "waze" | "weather-cloudy-alert" | "weather-cloudy-arrow-right" | "weather-cloudy-clock" | "weather-cloudy" | "weather-dust" | "weather-fog" | "weather-hail" | "weather-hazy" | "weather-hurricane-outline" | "weather-hurricane" | "weather-lightning-rainy" | "weather-lightning" | "weather-moonset-down" | "weather-moonset-up" | "weather-moonset" | "weather-night-partly-cloudy" | "weather-night" | "weather-partly-cloudy" | "weather-partly-lightning" | "weather-partly-rainy" | "weather-partly-snowy-rainy" | "weather-partly-snowy" | "weather-pouring" | "weather-rainy" | "weather-snowy-heavy" | "weather-snowy-rainy" | "weather-snowy" | "weather-sunny-alert" | "weather-sunny-off" | "weather-sunny" | "weather-sunset-down" | "weather-sunset-up" | "weather-sunset" | "weather-tornado" | "weather-windy-variant" | "weather-windy" | "web-box" | "web-cancel" | "web-check" | "web-clock" | "web-minus" | "web-off" | "web-plus" | "web-refresh" | "web-remove" | "web-sync" | "web" | "webcam-off" | "webcam" | "webhook" | "webpack" | "webrtc" | "wechat" | "weight-gram" | "weight-kilogram" | "weight-lifter" | "weight-pound" | "weight" | "whatsapp" | "wheel-barrow" | "wheelchair-accessibility" | "wheelchair" | "whistle-outline" | "whistle" | "white-balance-auto" | "white-balance-incandescent" | "white-balance-iridescent" | "white-balance-sunny" | "widgets-outline" | "widgets" | "wifi-alert" | "wifi-arrow-down" | "wifi-arrow-left-right" | "wifi-arrow-left" | "wifi-arrow-right" | "wifi-arrow-up-down" | "wifi-arrow-up" | "wifi-cancel" | "wifi-check" | "wifi-cog" | "wifi-lock-open" | "wifi-lock" | "wifi-marker" | "wifi-minus" | "wifi-off" | "wifi-plus" | "wifi-refresh" | "wifi-remove" | "wifi-settings" | "wifi-star" | "wifi-strength-1-alert" | "wifi-strength-1-lock-open" | "wifi-strength-1-lock" | "wifi-strength-1" | "wifi-strength-2-alert" | "wifi-strength-2-lock-open" | "wifi-strength-2-lock" | "wifi-strength-2" | "wifi-strength-3-alert" | "wifi-strength-3-lock-open" | "wifi-strength-3-lock" | "wifi-strength-3" | "wifi-strength-4-alert" | "wifi-strength-4-lock-open" | "wifi-strength-4-lock" | "wifi-strength-4" | "wifi-strength-alert-outline" | "wifi-strength-lock-open-outline" | "wifi-strength-lock-outline" | "wifi-strength-off-outline" | "wifi-strength-off" | "wifi-strength-outline" | "wifi-sync" | "wifi" | "wikipedia" | "wind-power-outline" | "wind-power" | "wind-turbine-alert" | "wind-turbine-check" | "wind-turbine" | "window-close" | "window-closed-variant" | "window-closed" | "window-maximize" | "window-minimize" | "window-open-variant" | "window-open" | "window-restore" | "window-shutter-alert" | "window-shutter-auto" | "window-shutter-cog" | "window-shutter-open" | "window-shutter-settings" | "window-shutter" | "windsock" | "wiper-wash-alert" | "wiper-wash" | "wiper" | "wizard-hat" | "wordpress" | "wrap-disabled" | "wrap" | "wrench-check-outline" | "wrench-check" | "wrench-clock-outline" | "wrench-clock" | "wrench-cog-outline" | "wrench-cog" | "wrench-outline" | "wrench" | "xamarin" | "xml" | "xmpp" | "yahoo" | "yeast" | "yin-yang" | "yoga" | "youtube-gaming" | "youtube-studio" | "youtube-subscription" | "youtube-tv" | "youtube" | "yurt" | "z-wave" | "zend" | "zigbee" | "zip-box-outline" | "zip-box" | "zip-disk" | "zodiac-aquarius" | "zodiac-aries" | "zodiac-cancer" | "zodiac-capricorn" | "zodiac-gemini" | "zodiac-leo" | "zodiac-libra" | "zodiac-pisces" | "zodiac-sagittarius" | "zodiac-scorpio" | "zodiac-taurus" | "zodiac-virgo";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -7030,12 +7481,17 @@ export const map: IconsMapType<IconNames> = {
 "account-arrow-up": SVG_accountArrowUp,
 "account-badge-outline": SVG_accountBadgeOutline,
 "account-badge": SVG_accountBadge,
+"account-box-edit-outline": SVG_accountBoxEditOutline,
+"account-box-minus-outline": SVG_accountBoxMinusOutline,
 "account-box-multiple-outline": SVG_accountBoxMultipleOutline,
 "account-box-multiple": SVG_accountBoxMultiple,
 "account-box-outline": SVG_accountBoxOutline,
+"account-box-plus-outline": SVG_accountBoxPlusOutline,
 "account-box": SVG_accountBox,
 "account-cancel-outline": SVG_accountCancelOutline,
 "account-cancel": SVG_accountCancel,
+"account-card-outline": SVG_accountCardOutline,
+"account-card": SVG_accountCard,
 "account-cash-outline": SVG_accountCashOutline,
 "account-cash": SVG_accountCash,
 "account-check-outline": SVG_accountCheckOutline,
@@ -7053,12 +7509,18 @@ export const map: IconsMapType<IconNames> = {
 "account-convert": SVG_accountConvert,
 "account-cowboy-hat-outline": SVG_accountCowboyHatOutline,
 "account-cowboy-hat": SVG_accountCowboyHat,
+"account-credit-card-outline": SVG_accountCreditCardOutline,
+"account-credit-card": SVG_accountCreditCard,
 "account-details-outline": SVG_accountDetailsOutline,
 "account-details": SVG_accountDetails,
 "account-edit-outline": SVG_accountEditOutline,
 "account-edit": SVG_accountEdit,
 "account-eye-outline": SVG_accountEyeOutline,
 "account-eye": SVG_accountEye,
+"account-file-outline": SVG_accountFileOutline,
+"account-file-text-outline": SVG_accountFileTextOutline,
+"account-file-text": SVG_accountFileText,
+"account-file": SVG_accountFile,
 "account-filter-outline": SVG_accountFilterOutline,
 "account-filter": SVG_accountFilter,
 "account-group-outline": SVG_accountGroupOutline,
@@ -7120,6 +7582,8 @@ export const map: IconsMapType<IconNames> = {
 "account-switch": SVG_accountSwitch,
 "account-sync-outline": SVG_accountSyncOutline,
 "account-sync": SVG_accountSync,
+"account-tag-outline": SVG_accountTagOutline,
+"account-tag": SVG_accountTag,
 "account-tie-hat-outline": SVG_accountTieHatOutline,
 "account-tie-hat": SVG_accountTieHat,
 "account-tie-outline": SVG_accountTieOutline,
@@ -7142,6 +7606,7 @@ export const map: IconsMapType<IconNames> = {
 "air-horn": SVG_airHorn,
 "air-humidifier-off": SVG_airHumidifierOff,
 "air-humidifier": SVG_airHumidifier,
+"air-purifier-off": SVG_airPurifierOff,
 "air-purifier": SVG_airPurifier,
 "airbag": SVG_airbag,
 "airballoon-outline": SVG_airballoonOutline,
@@ -7362,7 +7827,6 @@ export const map: IconsMapType<IconNames> = {
 "amplifier-off": SVG_amplifierOff,
 "amplifier": SVG_amplifier,
 "anchor": SVG_anchor,
-"android-messages": SVG_androidMessages,
 "android-studio": SVG_androidStudio,
 "android": SVG_android,
 "angle-acute": SVG_angleAcute,
@@ -7546,6 +8010,8 @@ export const map: IconsMapType<IconNames> = {
 "arrow-left-top-bold": SVG_arrowLeftTopBold,
 "arrow-left-top": SVG_arrowLeftTop,
 "arrow-left": SVG_arrowLeft,
+"arrow-oscillating-off": SVG_arrowOscillatingOff,
+"arrow-oscillating": SVG_arrowOscillating,
 "arrow-projectile-multiple": SVG_arrowProjectileMultiple,
 "arrow-projectile": SVG_arrowProjectile,
 "arrow-right-bold-box-outline": SVG_arrowRightBoldBoxOutline,
@@ -7628,6 +8094,7 @@ export const map: IconsMapType<IconNames> = {
 "arrow-up-thin": SVG_arrowUpThin,
 "arrow-up": SVG_arrowUp,
 "arrow-vertical-lock": SVG_arrowVerticalLock,
+"artboard": SVG_artboard,
 "artstation": SVG_artstation,
 "aspect-ratio": SVG_aspectRatio,
 "assistant": SVG_assistant,
@@ -7645,18 +8112,23 @@ export const map: IconsMapType<IconNames> = {
 "attachment-plus": SVG_attachmentPlus,
 "attachment-remove": SVG_attachmentRemove,
 "attachment": SVG_attachment,
+"atv": SVG_atv,
 "audio-input-rca": SVG_audioInputRca,
 "audio-input-stereo-minijack": SVG_audioInputStereoMinijack,
 "audio-input-xlr": SVG_audioInputXlr,
 "audio-video-off": SVG_audioVideoOff,
 "audio-video": SVG_audioVideo,
 "augmented-reality": SVG_augmentedReality,
+"aurora": SVG_aurora,
 "auto-download": SVG_autoDownload,
 "auto-fix": SVG_autoFix,
+"auto-mode": SVG_autoMode,
 "auto-upload": SVG_autoUpload,
 "autorenew-off": SVG_autorenewOff,
 "autorenew": SVG_autorenew,
 "av-timer": SVG_avTimer,
+"awning-outline": SVG_awningOutline,
+"awning": SVG_awning,
 "aws": SVG_aws,
 "axe-battle": SVG_axeBattle,
 "axe": SVG_axe,
@@ -7710,6 +8182,8 @@ export const map: IconsMapType<IconNames> = {
 "bag-personal-off-outline": SVG_bagPersonalOffOutline,
 "bag-personal-off": SVG_bagPersonalOff,
 "bag-personal-outline": SVG_bagPersonalOutline,
+"bag-personal-plus-outline": SVG_bagPersonalPlusOutline,
+"bag-personal-plus": SVG_bagPersonalPlus,
 "bag-personal-tag-outline": SVG_bagPersonalTagOutline,
 "bag-personal-tag": SVG_bagPersonalTag,
 "bag-personal": SVG_bagPersonal,
@@ -7726,6 +8200,8 @@ export const map: IconsMapType<IconNames> = {
 "ballot": SVG_ballot,
 "bandage": SVG_bandage,
 "bank-check": SVG_bankCheck,
+"bank-circle-outline": SVG_bankCircleOutline,
+"bank-circle": SVG_bankCircle,
 "bank-minus": SVG_bankMinus,
 "bank-off-outline": SVG_bankOffOutline,
 "bank-off": SVG_bankOff,
@@ -7747,6 +8223,7 @@ export const map: IconsMapType<IconNames> = {
 "baseball-bat": SVG_baseballBat,
 "baseball-diamond-outline": SVG_baseballDiamondOutline,
 "baseball-diamond": SVG_baseballDiamond,
+"baseball-outline": SVG_baseballOutline,
 "baseball": SVG_baseball,
 "bash": SVG_bash,
 "basket-check-outline": SVG_basketCheckOutline,
@@ -7769,24 +8246,24 @@ export const map: IconsMapType<IconNames> = {
 "bat": SVG_bat,
 "bathtub-outline": SVG_bathtubOutline,
 "bathtub": SVG_bathtub,
-"battery-10-bluetooth": SVG_battery_10Bluetooth,
-"battery-10": SVG_battery_10,
-"battery-20-bluetooth": SVG_battery_20Bluetooth,
-"battery-20": SVG_battery_20,
-"battery-30-bluetooth": SVG_battery_30Bluetooth,
-"battery-30": SVG_battery_30,
-"battery-40-bluetooth": SVG_battery_40Bluetooth,
-"battery-40": SVG_battery_40,
-"battery-50-bluetooth": SVG_battery_50Bluetooth,
-"battery-50": SVG_battery_50,
-"battery-60-bluetooth": SVG_battery_60Bluetooth,
-"battery-60": SVG_battery_60,
-"battery-70-bluetooth": SVG_battery_70Bluetooth,
-"battery-70": SVG_battery_70,
-"battery-80-bluetooth": SVG_battery_80Bluetooth,
-"battery-80": SVG_battery_80,
-"battery-90-bluetooth": SVG_battery_90Bluetooth,
-"battery-90": SVG_battery_90,
+"battery-10-bluetooth": SVG_battery10Bluetooth,
+"battery-10": SVG_battery10,
+"battery-20-bluetooth": SVG_battery20Bluetooth,
+"battery-20": SVG_battery20,
+"battery-30-bluetooth": SVG_battery30Bluetooth,
+"battery-30": SVG_battery30,
+"battery-40-bluetooth": SVG_battery40Bluetooth,
+"battery-40": SVG_battery40,
+"battery-50-bluetooth": SVG_battery50Bluetooth,
+"battery-50": SVG_battery50,
+"battery-60-bluetooth": SVG_battery60Bluetooth,
+"battery-60": SVG_battery60,
+"battery-70-bluetooth": SVG_battery70Bluetooth,
+"battery-70": SVG_battery70,
+"battery-80-bluetooth": SVG_battery80Bluetooth,
+"battery-80": SVG_battery80,
+"battery-90-bluetooth": SVG_battery90Bluetooth,
+"battery-90": SVG_battery90,
 "battery-alert-bluetooth": SVG_batteryAlertBluetooth,
 "battery-alert-variant-outline": SVG_batteryAlertVariantOutline,
 "battery-alert-variant": SVG_batteryAlertVariant,
@@ -7797,29 +8274,29 @@ export const map: IconsMapType<IconNames> = {
 "battery-arrow-up": SVG_batteryArrowUp,
 "battery-bluetooth-variant": SVG_batteryBluetoothVariant,
 "battery-bluetooth": SVG_batteryBluetooth,
-"battery-charging-10": SVG_batteryCharging_10,
-"battery-charging-100": SVG_batteryCharging_100,
-"battery-charging-20": SVG_batteryCharging_20,
-"battery-charging-30": SVG_batteryCharging_30,
-"battery-charging-40": SVG_batteryCharging_40,
-"battery-charging-50": SVG_batteryCharging_50,
-"battery-charging-60": SVG_batteryCharging_60,
-"battery-charging-70": SVG_batteryCharging_70,
-"battery-charging-80": SVG_batteryCharging_80,
-"battery-charging-90": SVG_batteryCharging_90,
+"battery-charging-10": SVG_batteryCharging10,
+"battery-charging-100": SVG_batteryCharging100,
+"battery-charging-20": SVG_batteryCharging20,
+"battery-charging-30": SVG_batteryCharging30,
+"battery-charging-40": SVG_batteryCharging40,
+"battery-charging-50": SVG_batteryCharging50,
+"battery-charging-60": SVG_batteryCharging60,
+"battery-charging-70": SVG_batteryCharging70,
+"battery-charging-80": SVG_batteryCharging80,
+"battery-charging-90": SVG_batteryCharging90,
 "battery-charging-high": SVG_batteryChargingHigh,
 "battery-charging-low": SVG_batteryChargingLow,
 "battery-charging-medium": SVG_batteryChargingMedium,
 "battery-charging-outline": SVG_batteryChargingOutline,
-"battery-charging-wireless-10": SVG_batteryChargingWireless_10,
-"battery-charging-wireless-20": SVG_batteryChargingWireless_20,
-"battery-charging-wireless-30": SVG_batteryChargingWireless_30,
-"battery-charging-wireless-40": SVG_batteryChargingWireless_40,
-"battery-charging-wireless-50": SVG_batteryChargingWireless_50,
-"battery-charging-wireless-60": SVG_batteryChargingWireless_60,
-"battery-charging-wireless-70": SVG_batteryChargingWireless_70,
-"battery-charging-wireless-80": SVG_batteryChargingWireless_80,
-"battery-charging-wireless-90": SVG_batteryChargingWireless_90,
+"battery-charging-wireless-10": SVG_batteryChargingWireless10,
+"battery-charging-wireless-20": SVG_batteryChargingWireless20,
+"battery-charging-wireless-30": SVG_batteryChargingWireless30,
+"battery-charging-wireless-40": SVG_batteryChargingWireless40,
+"battery-charging-wireless-50": SVG_batteryChargingWireless50,
+"battery-charging-wireless-60": SVG_batteryChargingWireless60,
+"battery-charging-wireless-70": SVG_batteryChargingWireless70,
+"battery-charging-wireless-80": SVG_batteryChargingWireless80,
+"battery-charging-wireless-90": SVG_batteryChargingWireless90,
 "battery-charging-wireless-alert": SVG_batteryChargingWirelessAlert,
 "battery-charging-wireless-outline": SVG_batteryChargingWirelessOutline,
 "battery-charging-wireless": SVG_batteryChargingWireless,
@@ -7869,6 +8346,7 @@ export const map: IconsMapType<IconNames> = {
 "beaker-remove-outline": SVG_beakerRemoveOutline,
 "beaker-remove": SVG_beakerRemove,
 "beaker": SVG_beaker,
+"bed-clock": SVG_bedClock,
 "bed-double-outline": SVG_bedDoubleOutline,
 "bed-double": SVG_bedDouble,
 "bed-empty": SVG_bedEmpty,
@@ -7913,6 +8391,8 @@ export const map: IconsMapType<IconNames> = {
 "bell-sleep-outline": SVG_bellSleepOutline,
 "bell-sleep": SVG_bellSleep,
 "bell": SVG_bell,
+"bench-back": SVG_benchBack,
+"bench": SVG_bench,
 "beta": SVG_beta,
 "betamax": SVG_betamax,
 "biathlon": SVG_biathlon,
@@ -7922,6 +8402,9 @@ export const map: IconsMapType<IconNames> = {
 "bicycle-penny-farthing": SVG_bicyclePennyFarthing,
 "bicycle": SVG_bicycle,
 "bike-fast": SVG_bikeFast,
+"bike-pedal-clipless": SVG_bikePedalClipless,
+"bike-pedal-mountain": SVG_bikePedalMountain,
+"bike-pedal": SVG_bikePedal,
 "bike": SVG_bike,
 "billboard": SVG_billboard,
 "billiards-rack": SVG_billiardsRack,
@@ -8004,10 +8487,12 @@ export const map: IconsMapType<IconNames> = {
 "book-music": SVG_bookMusic,
 "book-off-outline": SVG_bookOffOutline,
 "book-off": SVG_bookOff,
+"book-open-blank-variant-outline": SVG_bookOpenBlankVariantOutline,
 "book-open-blank-variant": SVG_bookOpenBlankVariant,
 "book-open-outline": SVG_bookOpenOutline,
 "book-open-page-variant-outline": SVG_bookOpenPageVariantOutline,
 "book-open-page-variant": SVG_bookOpenPageVariant,
+"book-open-variant-outline": SVG_bookOpenVariantOutline,
 "book-open-variant": SVG_bookOpenVariant,
 "book-open": SVG_bookOpen,
 "book-outline": SVG_bookOutline,
@@ -8029,11 +8514,12 @@ export const map: IconsMapType<IconNames> = {
 "book-settings": SVG_bookSettings,
 "book-sync-outline": SVG_bookSyncOutline,
 "book-sync": SVG_bookSync,
-"book-variant-multiple": SVG_bookVariantMultiple,
 "book-variant": SVG_bookVariant,
 "book": SVG_book,
 "bookmark-box-multiple-outline": SVG_bookmarkBoxMultipleOutline,
 "bookmark-box-multiple": SVG_bookmarkBoxMultiple,
+"bookmark-box-outline": SVG_bookmarkBoxOutline,
+"bookmark-box": SVG_bookmarkBox,
 "bookmark-check-outline": SVG_bookmarkCheckOutline,
 "bookmark-check": SVG_bookmarkCheck,
 "bookmark-minus-outline": SVG_bookmarkMinusOutline,
@@ -8146,13 +8632,13 @@ export const map: IconsMapType<IconNames> = {
 "briefcase-variant-outline": SVG_briefcaseVariantOutline,
 "briefcase-variant": SVG_briefcaseVariant,
 "briefcase": SVG_briefcase,
-"brightness-1": SVG_brightness_1,
-"brightness-2": SVG_brightness_2,
-"brightness-3": SVG_brightness_3,
-"brightness-4": SVG_brightness_4,
-"brightness-5": SVG_brightness_5,
-"brightness-6": SVG_brightness_6,
-"brightness-7": SVG_brightness_7,
+"brightness-1": SVG_brightness1,
+"brightness-2": SVG_brightness2,
+"brightness-3": SVG_brightness3,
+"brightness-4": SVG_brightness4,
+"brightness-5": SVG_brightness5,
+"brightness-6": SVG_brightness6,
+"brightness-7": SVG_brightness7,
 "brightness-auto": SVG_brightnessAuto,
 "brightness-percent": SVG_brightnessPercent,
 "broadcast-off": SVG_broadcastOff,
@@ -8199,9 +8685,11 @@ export const map: IconsMapType<IconNames> = {
 "bus-multiple": SVG_busMultiple,
 "bus-school": SVG_busSchool,
 "bus-side": SVG_busSide,
+"bus-sign": SVG_busSign,
 "bus-stop-covered": SVG_busStopCovered,
 "bus-stop-uncovered": SVG_busStopUncovered,
 "bus-stop": SVG_busStop,
+"bus-wrench": SVG_busWrench,
 "bus": SVG_bus,
 "butterfly-outline": SVG_butterflyOutline,
 "butterfly": SVG_butterfly,
@@ -8220,9 +8708,12 @@ export const map: IconsMapType<IconNames> = {
 "calculator": SVG_calculator,
 "calendar-account-outline": SVG_calendarAccountOutline,
 "calendar-account": SVG_calendarAccount,
+"calendar-alert-outline": SVG_calendarAlertOutline,
 "calendar-alert": SVG_calendarAlert,
 "calendar-arrow-left": SVG_calendarArrowLeft,
 "calendar-arrow-right": SVG_calendarArrowRight,
+"calendar-badge-outline": SVG_calendarBadgeOutline,
+"calendar-badge": SVG_calendarBadge,
 "calendar-blank-multiple": SVG_calendarBlankMultiple,
 "calendar-blank-outline": SVG_calendarBlankOutline,
 "calendar-blank": SVG_calendarBlank,
@@ -8230,26 +8721,40 @@ export const map: IconsMapType<IconNames> = {
 "calendar-check": SVG_calendarCheck,
 "calendar-clock-outline": SVG_calendarClockOutline,
 "calendar-clock": SVG_calendarClock,
+"calendar-collapse-horizontal-outline": SVG_calendarCollapseHorizontalOutline,
 "calendar-collapse-horizontal": SVG_calendarCollapseHorizontal,
+"calendar-cursor-outline": SVG_calendarCursorOutline,
 "calendar-cursor": SVG_calendarCursor,
+"calendar-edit-outline": SVG_calendarEditOutline,
 "calendar-edit": SVG_calendarEdit,
+"calendar-end-outline": SVG_calendarEndOutline,
 "calendar-end": SVG_calendarEnd,
+"calendar-expand-horizontal-outline": SVG_calendarExpandHorizontalOutline,
 "calendar-expand-horizontal": SVG_calendarExpandHorizontal,
+"calendar-export-outline": SVG_calendarExportOutline,
 "calendar-export": SVG_calendarExport,
 "calendar-filter-outline": SVG_calendarFilterOutline,
 "calendar-filter": SVG_calendarFilter,
+"calendar-heart-outline": SVG_calendarHeartOutline,
 "calendar-heart": SVG_calendarHeart,
+"calendar-import-outline": SVG_calendarImportOutline,
 "calendar-import": SVG_calendarImport,
+"calendar-lock-open-outline": SVG_calendarLockOpenOutline,
+"calendar-lock-open": SVG_calendarLockOpen,
 "calendar-lock-outline": SVG_calendarLockOutline,
 "calendar-lock": SVG_calendarLock,
+"calendar-minus-outline": SVG_calendarMinusOutline,
 "calendar-minus": SVG_calendarMinus,
 "calendar-month-outline": SVG_calendarMonthOutline,
 "calendar-month": SVG_calendarMonth,
 "calendar-multiple-check": SVG_calendarMultipleCheck,
 "calendar-multiple": SVG_calendarMultiple,
+"calendar-multiselect-outline": SVG_calendarMultiselectOutline,
 "calendar-multiselect": SVG_calendarMultiselect,
 "calendar-outline": SVG_calendarOutline,
+"calendar-plus-outline": SVG_calendarPlusOutline,
 "calendar-plus": SVG_calendarPlus,
+"calendar-question-outline": SVG_calendarQuestionOutline,
 "calendar-question": SVG_calendarQuestion,
 "calendar-range-outline": SVG_calendarRangeOutline,
 "calendar-range": SVG_calendarRange,
@@ -8257,9 +8762,12 @@ export const map: IconsMapType<IconNames> = {
 "calendar-refresh": SVG_calendarRefresh,
 "calendar-remove-outline": SVG_calendarRemoveOutline,
 "calendar-remove": SVG_calendarRemove,
+"calendar-search-outline": SVG_calendarSearchOutline,
 "calendar-search": SVG_calendarSearch,
+"calendar-star-four-points": SVG_calendarStarFourPoints,
 "calendar-star-outline": SVG_calendarStarOutline,
 "calendar-star": SVG_calendarStar,
+"calendar-start-outline": SVG_calendarStartOutline,
 "calendar-start": SVG_calendarStart,
 "calendar-sync-outline": SVG_calendarSyncOutline,
 "calendar-sync": SVG_calendarSync,
@@ -8295,6 +8803,8 @@ export const map: IconsMapType<IconNames> = {
 "camera-gopro": SVG_cameraGopro,
 "camera-image": SVG_cameraImage,
 "camera-iris": SVG_cameraIris,
+"camera-lock-open-outline": SVG_cameraLockOpenOutline,
+"camera-lock-open": SVG_cameraLockOpen,
 "camera-lock-outline": SVG_cameraLockOutline,
 "camera-lock": SVG_cameraLock,
 "camera-marker-outline": SVG_cameraMarkerOutline,
@@ -8332,8 +8842,8 @@ export const map: IconsMapType<IconNames> = {
 "cannabis-off": SVG_cannabisOff,
 "cannabis": SVG_cannabis,
 "caps-lock": SVG_capsLock,
-"car-2-plus": SVG_car_2Plus,
-"car-3-plus": SVG_car_3Plus,
+"car-2-plus": SVG_car2Plus,
+"car-3-plus": SVG_car3Plus,
 "car-arrow-left": SVG_carArrowLeft,
 "car-arrow-right": SVG_carArrowRight,
 "car-back": SVG_carBack,
@@ -8357,6 +8867,7 @@ export const map: IconsMapType<IconNames> = {
 "car-cruise-control": SVG_carCruiseControl,
 "car-defrost-front": SVG_carDefrostFront,
 "car-defrost-rear": SVG_carDefrostRear,
+"car-door-lock-open": SVG_carDoorLockOpen,
 "car-door-lock": SVG_carDoorLock,
 "car-door": SVG_carDoor,
 "car-electric-outline": SVG_carElectricOutline,
@@ -8378,6 +8889,8 @@ export const map: IconsMapType<IconNames> = {
 "car-outline": SVG_carOutline,
 "car-parking-lights": SVG_carParkingLights,
 "car-pickup": SVG_carPickup,
+"car-search-outline": SVG_carSearchOutline,
+"car-search": SVG_carSearch,
 "car-seat-cooler": SVG_carSeatCooler,
 "car-seat-heater": SVG_carSeatHeater,
 "car-seat": SVG_carSeat,
@@ -8466,20 +8979,23 @@ export const map: IconsMapType<IconNames> = {
 "cart-minus": SVG_cartMinus,
 "cart-off": SVG_cartOff,
 "cart-outline": SVG_cartOutline,
+"cart-percent": SVG_cartPercent,
 "cart-plus": SVG_cartPlus,
 "cart-remove": SVG_cartRemove,
 "cart-variant": SVG_cartVariant,
 "cart": SVG_cart,
 "case-sensitive-alt": SVG_caseSensitiveAlt,
-"cash-100": SVG_cash_100,
+"cash-100": SVG_cash100,
 "cash-check": SVG_cashCheck,
 "cash-clock": SVG_cashClock,
+"cash-edit": SVG_cashEdit,
 "cash-fast": SVG_cashFast,
 "cash-lock-open": SVG_cashLockOpen,
 "cash-lock": SVG_cashLock,
 "cash-marker": SVG_cashMarker,
 "cash-minus": SVG_cashMinus,
 "cash-multiple": SVG_cashMultiple,
+"cash-off": SVG_cashOff,
 "cash-plus": SVG_cashPlus,
 "cash-refund": SVG_cashRefund,
 "cash-register": SVG_cashRegister,
@@ -8536,6 +9052,7 @@ export const map: IconsMapType<IconNames> = {
 "chair-rolling": SVG_chairRolling,
 "chair-school": SVG_chairSchool,
 "chandelier": SVG_chandelier,
+"charity-search": SVG_charitySearch,
 "charity": SVG_charity,
 "chart-arc": SVG_chartArc,
 "chart-areaspline-variant": SVG_chartAreasplineVariant,
@@ -8544,6 +9061,8 @@ export const map: IconsMapType<IconNames> = {
 "chart-bar": SVG_chartBar,
 "chart-bell-curve-cumulative": SVG_chartBellCurveCumulative,
 "chart-bell-curve": SVG_chartBellCurve,
+"chart-box-multiple-outline": SVG_chartBoxMultipleOutline,
+"chart-box-multiple": SVG_chartBoxMultiple,
 "chart-box-outline": SVG_chartBoxOutline,
 "chart-box-plus-outline": SVG_chartBoxPlusOutline,
 "chart-box": SVG_chartBox,
@@ -8557,6 +9076,7 @@ export const map: IconsMapType<IconNames> = {
 "chart-line": SVG_chartLine,
 "chart-multiline": SVG_chartMultiline,
 "chart-multiple": SVG_chartMultiple,
+"chart-pie-outline": SVG_chartPieOutline,
 "chart-pie": SVG_chartPie,
 "chart-ppf": SVG_chartPpf,
 "chart-sankey-variant": SVG_chartSankeyVariant,
@@ -8597,6 +9117,8 @@ export const map: IconsMapType<IconNames> = {
 "check-underline-circle": SVG_checkUnderlineCircle,
 "check-underline": SVG_checkUnderline,
 "check": SVG_check,
+"checkbook-arrow-left": SVG_checkbookArrowLeft,
+"checkbook-arrow-right": SVG_checkbookArrowRight,
 "checkbook": SVG_checkbook,
 "checkbox-blank-badge-outline": SVG_checkboxBlankBadgeOutline,
 "checkbox-blank-badge": SVG_checkboxBlankBadge,
@@ -8608,6 +9130,8 @@ export const map: IconsMapType<IconNames> = {
 "checkbox-blank": SVG_checkboxBlank,
 "checkbox-intermediate-variant": SVG_checkboxIntermediateVariant,
 "checkbox-intermediate": SVG_checkboxIntermediate,
+"checkbox-marked-circle-auto-outline": SVG_checkboxMarkedCircleAutoOutline,
+"checkbox-marked-circle-minus-outline": SVG_checkboxMarkedCircleMinusOutline,
 "checkbox-marked-circle-outline": SVG_checkboxMarkedCircleOutline,
 "checkbox-marked-circle-plus-outline": SVG_checkboxMarkedCirclePlusOutline,
 "checkbox-marked-circle": SVG_checkboxMarkedCircle,
@@ -8693,17 +9217,18 @@ export const map: IconsMapType<IconNames> = {
 "circle-off-outline": SVG_circleOffOutline,
 "circle-opacity": SVG_circleOpacity,
 "circle-outline": SVG_circleOutline,
-"circle-slice-1": SVG_circleSlice_1,
-"circle-slice-2": SVG_circleSlice_2,
-"circle-slice-3": SVG_circleSlice_3,
-"circle-slice-4": SVG_circleSlice_4,
-"circle-slice-5": SVG_circleSlice_5,
-"circle-slice-6": SVG_circleSlice_6,
-"circle-slice-7": SVG_circleSlice_7,
-"circle-slice-8": SVG_circleSlice_8,
+"circle-slice-1": SVG_circleSlice1,
+"circle-slice-2": SVG_circleSlice2,
+"circle-slice-3": SVG_circleSlice3,
+"circle-slice-4": SVG_circleSlice4,
+"circle-slice-5": SVG_circleSlice5,
+"circle-slice-6": SVG_circleSlice6,
+"circle-slice-7": SVG_circleSlice7,
+"circle-slice-8": SVG_circleSlice8,
 "circle-small": SVG_circleSmall,
 "circle": SVG_circle,
 "circular-saw": SVG_circularSaw,
+"city-switch": SVG_citySwitch,
 "city-variant-outline": SVG_cityVariantOutline,
 "city-variant": SVG_cityVariant,
 "city": SVG_city,
@@ -8784,6 +9309,8 @@ export const map: IconsMapType<IconNames> = {
 "clock-plus": SVG_clockPlus,
 "clock-remove-outline": SVG_clockRemoveOutline,
 "clock-remove": SVG_clockRemove,
+"clock-star-four-points-outline": SVG_clockStarFourPointsOutline,
+"clock-star-four-points": SVG_clockStarFourPoints,
 "clock-start": SVG_clockStart,
 "clock-time-eight-outline": SVG_clockTimeEightOutline,
 "clock-time-eight": SVG_clockTimeEight,
@@ -8827,23 +9354,56 @@ export const map: IconsMapType<IconNames> = {
 "close": SVG_close,
 "closed-caption-outline": SVG_closedCaptionOutline,
 "closed-caption": SVG_closedCaption,
+"cloud-alert-outline": SVG_cloudAlertOutline,
 "cloud-alert": SVG_cloudAlert,
+"cloud-arrow-down-outline": SVG_cloudArrowDownOutline,
+"cloud-arrow-down": SVG_cloudArrowDown,
+"cloud-arrow-left-outline": SVG_cloudArrowLeftOutline,
+"cloud-arrow-left": SVG_cloudArrowLeft,
+"cloud-arrow-right-outline": SVG_cloudArrowRightOutline,
+"cloud-arrow-right": SVG_cloudArrowRight,
+"cloud-arrow-up-outline": SVG_cloudArrowUpOutline,
+"cloud-arrow-up": SVG_cloudArrowUp,
 "cloud-braces": SVG_cloudBraces,
+"cloud-cancel-outline": SVG_cloudCancelOutline,
+"cloud-cancel": SVG_cloudCancel,
 "cloud-check-outline": SVG_cloudCheckOutline,
+"cloud-check-variant-outline": SVG_cloudCheckVariantOutline,
+"cloud-check-variant": SVG_cloudCheckVariant,
 "cloud-check": SVG_cloudCheck,
+"cloud-circle-outline": SVG_cloudCircleOutline,
 "cloud-circle": SVG_cloudCircle,
+"cloud-clock-outline": SVG_cloudClockOutline,
+"cloud-clock": SVG_cloudClock,
+"cloud-cog-outline": SVG_cloudCogOutline,
+"cloud-cog": SVG_cloudCog,
 "cloud-download-outline": SVG_cloudDownloadOutline,
 "cloud-download": SVG_cloudDownload,
+"cloud-key-outline": SVG_cloudKeyOutline,
+"cloud-key": SVG_cloudKey,
+"cloud-lock-open-outline": SVG_cloudLockOpenOutline,
+"cloud-lock-open": SVG_cloudLockOpen,
 "cloud-lock-outline": SVG_cloudLockOutline,
 "cloud-lock": SVG_cloudLock,
+"cloud-minus-outline": SVG_cloudMinusOutline,
+"cloud-minus": SVG_cloudMinus,
 "cloud-off-outline": SVG_cloudOffOutline,
+"cloud-off": SVG_cloudOff,
 "cloud-outline": SVG_cloudOutline,
 "cloud-percent-outline": SVG_cloudPercentOutline,
 "cloud-percent": SVG_cloudPercent,
+"cloud-plus-outline": SVG_cloudPlusOutline,
+"cloud-plus": SVG_cloudPlus,
 "cloud-print-outline": SVG_cloudPrintOutline,
 "cloud-print": SVG_cloudPrint,
+"cloud-question-outline": SVG_cloudQuestionOutline,
 "cloud-question": SVG_cloudQuestion,
+"cloud-refresh-outline": SVG_cloudRefreshOutline,
+"cloud-refresh-variant-outline": SVG_cloudRefreshVariantOutline,
+"cloud-refresh-variant": SVG_cloudRefreshVariant,
 "cloud-refresh": SVG_cloudRefresh,
+"cloud-remove-outline": SVG_cloudRemoveOutline,
+"cloud-remove": SVG_cloudRemove,
 "cloud-search-outline": SVG_cloudSearchOutline,
 "cloud-search": SVG_cloudSearch,
 "cloud-sync-outline": SVG_cloudSyncOutline,
@@ -8852,11 +9412,17 @@ export const map: IconsMapType<IconNames> = {
 "cloud-upload-outline": SVG_cloudUploadOutline,
 "cloud-upload": SVG_cloudUpload,
 "cloud": SVG_cloud,
+"clouds": SVG_clouds,
+"clover-outline": SVG_cloverOutline,
 "clover": SVG_clover,
 "coach-lamp-variant": SVG_coachLampVariant,
 "coach-lamp": SVG_coachLamp,
 "coat-rack": SVG_coatRack,
 "code-array": SVG_codeArray,
+"code-block-braces": SVG_codeBlockBraces,
+"code-block-brackets": SVG_codeBlockBrackets,
+"code-block-parentheses": SVG_codeBlockParentheses,
+"code-block-tags": SVG_codeBlockTags,
 "code-braces-box": SVG_codeBracesBox,
 "code-braces": SVG_codeBraces,
 "code-brackets": SVG_codeBrackets,
@@ -9013,6 +9579,8 @@ export const map: IconsMapType<IconNames> = {
 "contrast": SVG_contrast,
 "controller-classic-outline": SVG_controllerClassicOutline,
 "controller-classic": SVG_controllerClassic,
+"controller-off": SVG_controllerOff,
+"controller": SVG_controller,
 "cookie-alert-outline": SVG_cookieAlertOutline,
 "cookie-alert": SVG_cookieAlert,
 "cookie-check-outline": SVG_cookieCheckOutline,
@@ -9051,11 +9619,12 @@ export const map: IconsMapType<IconNames> = {
 "countertop": SVG_countertop,
 "cow-off": SVG_cowOff,
 "cow": SVG_cow,
-"cpu-32-bit": SVG_cpu_32Bit,
-"cpu-64-bit": SVG_cpu_64Bit,
+"cpu-32-bit": SVG_cpu32Bit,
+"cpu-64-bit": SVG_cpu64Bit,
 "cradle-outline": SVG_cradleOutline,
 "cradle": SVG_cradle,
 "crane": SVG_crane,
+"creation-outline": SVG_creationOutline,
 "creation": SVG_creation,
 "creative-commons": SVG_creativeCommons,
 "credit-card-check-outline": SVG_creditCardCheckOutline,
@@ -9159,8 +9728,10 @@ export const map: IconsMapType<IconNames> = {
 "currency-rub": SVG_currencyRub,
 "currency-rupee": SVG_currencyRupee,
 "currency-sign": SVG_currencySign,
+"currency-thb": SVG_currencyThb,
 "currency-try": SVG_currencyTry,
 "currency-twd": SVG_currencyTwd,
+"currency-uah": SVG_currencyUah,
 "currency-usd-off": SVG_currencyUsdOff,
 "currency-usd": SVG_currencyUsd,
 "current-ac": SVG_currentAc,
@@ -9274,8 +9845,6 @@ export const map: IconsMapType<IconNames> = {
 "desk": SVG_desk,
 "deskphone": SVG_deskphone,
 "desktop-classic": SVG_desktopClassic,
-"desktop-mac-dashboard": SVG_desktopMacDashboard,
-"desktop-mac": SVG_desktopMac,
 "desktop-tower-monitor": SVG_desktopTowerMonitor,
 "desktop-tower": SVG_desktopTower,
 "details": SVG_details,
@@ -9292,18 +9861,19 @@ export const map: IconsMapType<IconNames> = {
 "diamond-outline": SVG_diamondOutline,
 "diamond-stone": SVG_diamondStone,
 "diamond": SVG_diamond,
-"dice-1-outline": SVG_dice_1Outline,
-"dice-1": SVG_dice_1,
-"dice-2-outline": SVG_dice_2Outline,
-"dice-2": SVG_dice_2,
-"dice-3-outline": SVG_dice_3Outline,
-"dice-3": SVG_dice_3,
-"dice-4-outline": SVG_dice_4Outline,
-"dice-4": SVG_dice_4,
-"dice-5-outline": SVG_dice_5Outline,
-"dice-5": SVG_dice_5,
-"dice-6-outline": SVG_dice_6Outline,
-"dice-6": SVG_dice_6,
+"diaper-outline": SVG_diaperOutline,
+"dice-1-outline": SVG_dice1Outline,
+"dice-1": SVG_dice1,
+"dice-2-outline": SVG_dice2Outline,
+"dice-2": SVG_dice2,
+"dice-3-outline": SVG_dice3Outline,
+"dice-3": SVG_dice3,
+"dice-4-outline": SVG_dice4Outline,
+"dice-4": SVG_dice4,
+"dice-5-outline": SVG_dice5Outline,
+"dice-5": SVG_dice5,
+"dice-6-outline": SVG_dice6Outline,
+"dice-6": SVG_dice6,
 "dice-d10-outline": SVG_diceD10Outline,
 "dice-d10": SVG_diceD10,
 "dice-d12-outline": SVG_diceD12Outline,
@@ -9325,7 +9895,6 @@ export const map: IconsMapType<IconNames> = {
 "disc-alert": SVG_discAlert,
 "disc-player": SVG_discPlayer,
 "disc": SVG_disc,
-"discord": SVG_discord,
 "dishwasher-alert": SVG_dishwasherAlert,
 "dishwasher-off": SVG_dishwasherOff,
 "dishwasher": SVG_dishwasher,
@@ -9340,6 +9909,7 @@ export const map: IconsMapType<IconNames> = {
 "diving-flippers": SVG_divingFlippers,
 "diving-helmet": SVG_divingHelmet,
 "diving-scuba-flag": SVG_divingScubaFlag,
+"diving-scuba-mask": SVG_divingScubaMask,
 "diving-scuba-tank-multiple": SVG_divingScubaTankMultiple,
 "diving-scuba-tank": SVG_divingScubaTank,
 "diving-scuba": SVG_divingScuba,
@@ -9368,10 +9938,12 @@ export const map: IconsMapType<IconNames> = {
 "domain-off": SVG_domainOff,
 "domain-plus": SVG_domainPlus,
 "domain-remove": SVG_domainRemove,
+"domain-switch": SVG_domainSwitch,
 "domain": SVG_domain,
 "dome-light": SVG_domeLight,
 "domino-mask": SVG_dominoMask,
 "donkey": SVG_donkey,
+"door-closed-cancel": SVG_doorClosedCancel,
 "door-closed-lock": SVG_doorClosedLock,
 "door-closed": SVG_doorClosed,
 "door-open": SVG_doorOpen,
@@ -9399,6 +9971,7 @@ export const map: IconsMapType<IconNames> = {
 "download-circle": SVG_downloadCircle,
 "download-lock-outline": SVG_downloadLockOutline,
 "download-lock": SVG_downloadLock,
+"download-multiple-outline": SVG_downloadMultipleOutline,
 "download-multiple": SVG_downloadMultiple,
 "download-network-outline": SVG_downloadNetworkOutline,
 "download-network": SVG_downloadNetwork,
@@ -9432,7 +10005,10 @@ export const map: IconsMapType<IconNames> = {
 "earbuds-off": SVG_earbudsOff,
 "earbuds-outline": SVG_earbudsOutline,
 "earbuds": SVG_earbuds,
+"earth-arrow-down": SVG_earthArrowDown,
+"earth-arrow-left": SVG_earthArrowLeft,
 "earth-arrow-right": SVG_earthArrowRight,
+"earth-arrow-up": SVG_earthArrowUp,
 "earth-box-minus": SVG_earthBoxMinus,
 "earth-box-off": SVG_earthBoxOff,
 "earth-box-plus": SVG_earthBoxPlus,
@@ -9472,6 +10048,10 @@ export const map: IconsMapType<IconNames> = {
 "ellipse": SVG_ellipse,
 "email-alert-outline": SVG_emailAlertOutline,
 "email-alert": SVG_emailAlert,
+"email-arrow-left-outline": SVG_emailArrowLeftOutline,
+"email-arrow-left": SVG_emailArrowLeft,
+"email-arrow-right-outline": SVG_emailArrowRightOutline,
+"email-arrow-right": SVG_emailArrowRight,
 "email-box": SVG_emailBox,
 "email-check-outline": SVG_emailCheckOutline,
 "email-check": SVG_emailCheck,
@@ -9479,6 +10059,8 @@ export const map: IconsMapType<IconNames> = {
 "email-edit": SVG_emailEdit,
 "email-fast-outline": SVG_emailFastOutline,
 "email-fast": SVG_emailFast,
+"email-heart-outline": SVG_emailHeartOutline,
+"email-lock-outline": SVG_emailLockOutline,
 "email-lock": SVG_emailLock,
 "email-mark-as-unread": SVG_emailMarkAsUnread,
 "email-minus-outline": SVG_emailMinusOutline,
@@ -9488,6 +10070,7 @@ export const map: IconsMapType<IconNames> = {
 "email-newsletter": SVG_emailNewsletter,
 "email-off-outline": SVG_emailOffOutline,
 "email-off": SVG_emailOff,
+"email-open-heart-outline": SVG_emailOpenHeartOutline,
 "email-open-multiple-outline": SVG_emailOpenMultipleOutline,
 "email-open-multiple": SVG_emailOpenMultiple,
 "email-open-outline": SVG_emailOpenOutline,
@@ -9495,16 +10078,12 @@ export const map: IconsMapType<IconNames> = {
 "email-outline": SVG_emailOutline,
 "email-plus-outline": SVG_emailPlusOutline,
 "email-plus": SVG_emailPlus,
-"email-receive-outline": SVG_emailReceiveOutline,
-"email-receive": SVG_emailReceive,
 "email-remove-outline": SVG_emailRemoveOutline,
 "email-remove": SVG_emailRemove,
 "email-seal-outline": SVG_emailSealOutline,
 "email-seal": SVG_emailSeal,
 "email-search-outline": SVG_emailSearchOutline,
 "email-search": SVG_emailSearch,
-"email-send-outline": SVG_emailSendOutline,
-"email-send": SVG_emailSend,
 "email-sync-outline": SVG_emailSyncOutline,
 "email-sync": SVG_emailSync,
 "email-variant": SVG_emailVariant,
@@ -9533,11 +10112,17 @@ export const map: IconsMapType<IconNames> = {
 "emoticon-kiss": SVG_emoticonKiss,
 "emoticon-lol-outline": SVG_emoticonLolOutline,
 "emoticon-lol": SVG_emoticonLol,
+"emoticon-minus-outline": SVG_emoticonMinusOutline,
+"emoticon-minus": SVG_emoticonMinus,
 "emoticon-neutral-outline": SVG_emoticonNeutralOutline,
 "emoticon-neutral": SVG_emoticonNeutral,
 "emoticon-outline": SVG_emoticonOutline,
+"emoticon-plus-outline": SVG_emoticonPlusOutline,
+"emoticon-plus": SVG_emoticonPlus,
 "emoticon-poop-outline": SVG_emoticonPoopOutline,
 "emoticon-poop": SVG_emoticonPoop,
+"emoticon-remove-outline": SVG_emoticonRemoveOutline,
+"emoticon-remove": SVG_emoticonRemove,
 "emoticon-sad-outline": SVG_emoticonSadOutline,
 "emoticon-sad": SVG_emoticonSad,
 "emoticon-sick-outline": SVG_emoticonSickOutline,
@@ -9567,6 +10152,7 @@ export const map: IconsMapType<IconNames> = {
 "ethereum": SVG_ethereum,
 "ethernet-cable-off": SVG_ethernetCableOff,
 "ethernet-cable": SVG_ethernetCable,
+"ethernet-off": SVG_ethernetOff,
 "ethernet": SVG_ethernet,
 "ev-plug-ccs1": SVG_evPlugCcs1,
 "ev-plug-ccs2": SVG_evPlugCcs2,
@@ -9597,6 +10183,11 @@ export const map: IconsMapType<IconNames> = {
 "eye-check": SVG_eyeCheck,
 "eye-circle-outline": SVG_eyeCircleOutline,
 "eye-circle": SVG_eyeCircle,
+"eye-closed": SVG_eyeClosed,
+"eye-lock-open-outline": SVG_eyeLockOpenOutline,
+"eye-lock-open": SVG_eyeLockOpen,
+"eye-lock-outline": SVG_eyeLockOutline,
+"eye-lock": SVG_eyeLock,
 "eye-minus-outline": SVG_eyeMinusOutline,
 "eye-minus": SVG_eyeMinus,
 "eye-off-outline": SVG_eyeOffOutline,
@@ -9646,16 +10237,16 @@ export const map: IconsMapType<IconNames> = {
 "fan-off": SVG_fanOff,
 "fan-plus": SVG_fanPlus,
 "fan-remove": SVG_fanRemove,
-"fan-speed-1": SVG_fanSpeed_1,
-"fan-speed-2": SVG_fanSpeed_2,
-"fan-speed-3": SVG_fanSpeed_3,
+"fan-speed-1": SVG_fanSpeed1,
+"fan-speed-2": SVG_fanSpeed2,
+"fan-speed-3": SVG_fanSpeed3,
 "fan": SVG_fan,
-"fast-forward-10": SVG_fastForward_10,
-"fast-forward-15": SVG_fastForward_15,
-"fast-forward-30": SVG_fastForward_30,
-"fast-forward-45": SVG_fastForward_45,
-"fast-forward-5": SVG_fastForward_5,
-"fast-forward-60": SVG_fastForward_60,
+"fast-forward-10": SVG_fastForward10,
+"fast-forward-15": SVG_fastForward15,
+"fast-forward-30": SVG_fastForward30,
+"fast-forward-45": SVG_fastForward45,
+"fast-forward-5": SVG_fastForward5,
+"fast-forward-60": SVG_fastForward60,
 "fast-forward-outline": SVG_fastForwardOutline,
 "fast-forward": SVG_fastForward,
 "faucet-variant": SVG_faucetVariant,
@@ -9704,6 +10295,8 @@ export const map: IconsMapType<IconNames> = {
 "file-delimited": SVG_fileDelimited,
 "file-document-alert-outline": SVG_fileDocumentAlertOutline,
 "file-document-alert": SVG_fileDocumentAlert,
+"file-document-arrow-right-outline": SVG_fileDocumentArrowRightOutline,
+"file-document-arrow-right": SVG_fileDocumentArrowRight,
 "file-document-check-outline": SVG_fileDocumentCheckOutline,
 "file-document-check": SVG_fileDocumentCheck,
 "file-document-edit-outline": SVG_fileDocumentEditOutline,
@@ -9715,6 +10308,8 @@ export const map: IconsMapType<IconNames> = {
 "file-document-outline": SVG_fileDocumentOutline,
 "file-document-plus-outline": SVG_fileDocumentPlusOutline,
 "file-document-plus": SVG_fileDocumentPlus,
+"file-document-refresh-outline": SVG_fileDocumentRefreshOutline,
+"file-document-refresh": SVG_fileDocumentRefresh,
 "file-document-remove-outline": SVG_fileDocumentRemoveOutline,
 "file-document-remove": SVG_fileDocumentRemove,
 "file-document": SVG_fileDocument,
@@ -9800,6 +10395,8 @@ export const map: IconsMapType<IconNames> = {
 "file-settings-outline": SVG_fileSettingsOutline,
 "file-settings": SVG_fileSettings,
 "file-sign": SVG_fileSign,
+"file-star-four-points-outline": SVG_fileStarFourPointsOutline,
+"file-star-four-points": SVG_fileStarFourPoints,
 "file-star-outline": SVG_fileStarOutline,
 "file-star": SVG_fileStar,
 "file-swap-outline": SVG_fileSwapOutline,
@@ -9866,6 +10463,7 @@ export const map: IconsMapType<IconNames> = {
 "fire-hydrant-off": SVG_fireHydrantOff,
 "fire-hydrant": SVG_fireHydrant,
 "fire-off": SVG_fireOff,
+"fire-station": SVG_fireStation,
 "fire-truck": SVG_fireTruck,
 "fire": SVG_fire,
 "firebase": SVG_firebase,
@@ -9894,7 +10492,15 @@ export const map: IconsMapType<IconNames> = {
 "flag-remove-outline": SVG_flagRemoveOutline,
 "flag-remove": SVG_flagRemove,
 "flag-triangle": SVG_flagTriangle,
+"flag-variant-minus-outline": SVG_flagVariantMinusOutline,
+"flag-variant-minus": SVG_flagVariantMinus,
+"flag-variant-off-outline": SVG_flagVariantOffOutline,
+"flag-variant-off": SVG_flagVariantOff,
 "flag-variant-outline": SVG_flagVariantOutline,
+"flag-variant-plus-outline": SVG_flagVariantPlusOutline,
+"flag-variant-plus": SVG_flagVariantPlus,
+"flag-variant-remove-outline": SVG_flagVariantRemoveOutline,
+"flag-variant-remove": SVG_flagVariantRemove,
 "flag-variant": SVG_flagVariant,
 "flag": SVG_flag,
 "flare": SVG_flare,
@@ -10092,6 +10698,7 @@ export const map: IconsMapType<IconNames> = {
 "football-australian": SVG_footballAustralian,
 "football-helmet": SVG_footballHelmet,
 "football": SVG_football,
+"forest-outline": SVG_forestOutline,
 "forest": SVG_forest,
 "forklift": SVG_forklift,
 "form-dropdown": SVG_formDropdown,
@@ -10123,12 +10730,12 @@ export const map: IconsMapType<IconNames> = {
 "format-font-size-decrease": SVG_formatFontSizeDecrease,
 "format-font-size-increase": SVG_formatFontSizeIncrease,
 "format-font": SVG_formatFont,
-"format-header-1": SVG_formatHeader_1,
-"format-header-2": SVG_formatHeader_2,
-"format-header-3": SVG_formatHeader_3,
-"format-header-4": SVG_formatHeader_4,
-"format-header-5": SVG_formatHeader_5,
-"format-header-6": SVG_formatHeader_6,
+"format-header-1": SVG_formatHeader1,
+"format-header-2": SVG_formatHeader2,
+"format-header-3": SVG_formatHeader3,
+"format-header-4": SVG_formatHeader4,
+"format-header-5": SVG_formatHeader5,
+"format-header-6": SVG_formatHeader6,
 "format-header-decrease": SVG_formatHeaderDecrease,
 "format-header-equal": SVG_formatHeaderEqual,
 "format-header-increase": SVG_formatHeaderIncrease,
@@ -10157,6 +10764,7 @@ export const map: IconsMapType<IconNames> = {
 "format-list-bulleted": SVG_formatListBulleted,
 "format-list-checkbox": SVG_formatListCheckbox,
 "format-list-checks": SVG_formatListChecks,
+"format-list-group-plus": SVG_formatListGroupPlus,
 "format-list-group": SVG_formatListGroup,
 "format-list-numbered-rtl": SVG_formatListNumberedRtl,
 "format-list-numbered": SVG_formatListNumbered,
@@ -10167,12 +10775,14 @@ export const map: IconsMapType<IconNames> = {
 "format-paint": SVG_formatPaint,
 "format-paragraph-spacing": SVG_formatParagraphSpacing,
 "format-paragraph": SVG_formatParagraph,
+"format-pilcrow-arrow-left": SVG_formatPilcrowArrowLeft,
+"format-pilcrow-arrow-right": SVG_formatPilcrowArrowRight,
 "format-pilcrow": SVG_formatPilcrow,
 "format-quote-close-outline": SVG_formatQuoteCloseOutline,
 "format-quote-close": SVG_formatQuoteClose,
 "format-quote-open-outline": SVG_formatQuoteOpenOutline,
 "format-quote-open": SVG_formatQuoteOpen,
-"format-rotate-90": SVG_formatRotate_90,
+"format-rotate-90": SVG_formatRotate90,
 "format-section": SVG_formatSection,
 "format-size": SVG_formatSize,
 "format-strikethrough-variant": SVG_formatStrikethroughVariant,
@@ -10193,8 +10803,6 @@ export const map: IconsMapType<IconNames> = {
 "format-text-wrapping-wrap": SVG_formatTextWrappingWrap,
 "format-text": SVG_formatText,
 "format-textbox": SVG_formatTextbox,
-"format-textdirection-l-to-r": SVG_formatTextdirectionLToR,
-"format-textdirection-r-to-l": SVG_formatTextdirectionRToL,
 "format-title": SVG_formatTitle,
 "format-underline-wavy": SVG_formatUnderlineWavy,
 "format-underline": SVG_formatUnderline,
@@ -10297,6 +10905,8 @@ export const map: IconsMapType<IconNames> = {
 "garage": SVG_garage,
 "gas-burner": SVG_gasBurner,
 "gas-cylinder": SVG_gasCylinder,
+"gas-station-in-use-outline": SVG_gasStationInUseOutline,
+"gas-station-in-use": SVG_gasStationInUse,
 "gas-station-off-outline": SVG_gasStationOffOutline,
 "gas-station-off": SVG_gasStationOff,
 "gas-station-outline": SVG_gasStationOutline,
@@ -10326,6 +10936,9 @@ export const map: IconsMapType<IconNames> = {
 "gender-male": SVG_genderMale,
 "gender-non-binary": SVG_genderNonBinary,
 "gender-transgender": SVG_genderTransgender,
+"generator-mobile": SVG_generatorMobile,
+"generator-portable": SVG_generatorPortable,
+"generator-stationary": SVG_generatorStationary,
 "gentoo": SVG_gentoo,
 "gesture-double-tap": SVG_gestureDoubleTap,
 "gesture-pinch": SVG_gesturePinch,
@@ -10370,6 +10983,7 @@ export const map: IconsMapType<IconNames> = {
 "glass-tulip": SVG_glassTulip,
 "glass-wine": SVG_glassWine,
 "glasses": SVG_glasses,
+"globe-light-outline": SVG_globeLightOutline,
 "globe-light": SVG_globeLight,
 "globe-model": SVG_globeModel,
 "gmail": SVG_gmail,
@@ -10394,15 +11008,12 @@ export const map: IconsMapType<IconNames> = {
 "google-circles": SVG_googleCircles,
 "google-classroom": SVG_googleClassroom,
 "google-cloud": SVG_googleCloud,
-"google-controller-off": SVG_googleControllerOff,
-"google-controller": SVG_googleController,
 "google-downasaur": SVG_googleDownasaur,
 "google-drive": SVG_googleDrive,
 "google-earth": SVG_googleEarth,
 "google-fit": SVG_googleFit,
 "google-glass": SVG_googleGlass,
 "google-hangouts": SVG_googleHangouts,
-"google-home": SVG_googleHome,
 "google-keep": SVG_googleKeep,
 "google-lens": SVG_googleLens,
 "google-maps": SVG_googleMaps,
@@ -10465,6 +11076,7 @@ export const map: IconsMapType<IconNames> = {
 "hand-clap": SVG_handClap,
 "hand-coin-outline": SVG_handCoinOutline,
 "hand-coin": SVG_handCoin,
+"hand-cycle": SVG_handCycle,
 "hand-extended-outline": SVG_handExtendedOutline,
 "hand-extended": SVG_handExtended,
 "hand-front-left-outline": SVG_handFrontLeftOutline,
@@ -10498,6 +11110,7 @@ export const map: IconsMapType<IconNames> = {
 "harddisk": SVG_harddisk,
 "hat-fedora": SVG_hatFedora,
 "hazard-lights": SVG_hazardLights,
+"hdmi-port": SVG_hdmiPort,
 "hdr-off": SVG_hdrOff,
 "hdr": SVG_hdr,
 "head-alert-outline": SVG_headAlertOutline,
@@ -10560,6 +11173,7 @@ export const map: IconsMapType<IconNames> = {
 "heart-pulse": SVG_heartPulse,
 "heart-remove-outline": SVG_heartRemoveOutline,
 "heart-remove": SVG_heartRemove,
+"heart-search": SVG_heartSearch,
 "heart-settings-outline": SVG_heartSettingsOutline,
 "heart-settings": SVG_heartSettings,
 "heart": SVG_heart,
@@ -10568,6 +11182,9 @@ export const map: IconsMapType<IconNames> = {
 "heat-wave": SVG_heatWave,
 "heating-coil": SVG_heatingCoil,
 "helicopter": SVG_helicopter,
+"help-box-multiple-outline": SVG_helpBoxMultipleOutline,
+"help-box-multiple": SVG_helpBoxMultiple,
+"help-box-outline": SVG_helpBoxOutline,
 "help-box": SVG_helpBox,
 "help-circle-outline": SVG_helpCircleOutline,
 "help-circle": SVG_helpCircle,
@@ -10580,12 +11197,12 @@ export const map: IconsMapType<IconNames> = {
 "hexagon-multiple-outline": SVG_hexagonMultipleOutline,
 "hexagon-multiple": SVG_hexagonMultiple,
 "hexagon-outline": SVG_hexagonOutline,
-"hexagon-slice-1": SVG_hexagonSlice_1,
-"hexagon-slice-2": SVG_hexagonSlice_2,
-"hexagon-slice-3": SVG_hexagonSlice_3,
-"hexagon-slice-4": SVG_hexagonSlice_4,
-"hexagon-slice-5": SVG_hexagonSlice_5,
-"hexagon-slice-6": SVG_hexagonSlice_6,
+"hexagon-slice-1": SVG_hexagonSlice1,
+"hexagon-slice-2": SVG_hexagonSlice2,
+"hexagon-slice-3": SVG_hexagonSlice3,
+"hexagon-slice-4": SVG_hexagonSlice4,
+"hexagon-slice-5": SVG_hexagonSlice5,
+"hexagon-slice-6": SVG_hexagonSlice6,
 "hexagon": SVG_hexagon,
 "hexagram-outline": SVG_hexagramOutline,
 "hexagram": SVG_hexagram,
@@ -10615,15 +11232,15 @@ export const map: IconsMapType<IconNames> = {
 "home-edit": SVG_homeEdit,
 "home-export-outline": SVG_homeExportOutline,
 "home-flood": SVG_homeFlood,
-"home-floor-0": SVG_homeFloor_0,
-"home-floor-1": SVG_homeFloor_1,
-"home-floor-2": SVG_homeFloor_2,
-"home-floor-3": SVG_homeFloor_3,
+"home-floor-0": SVG_homeFloor0,
+"home-floor-1": SVG_homeFloor1,
+"home-floor-2": SVG_homeFloor2,
+"home-floor-3": SVG_homeFloor3,
 "home-floor-a": SVG_homeFloorA,
 "home-floor-b": SVG_homeFloorB,
 "home-floor-g": SVG_homeFloorG,
 "home-floor-l": SVG_homeFloorL,
-"home-floor-negative-1": SVG_homeFloorNegative_1,
+"home-floor-negative-1": SVG_homeFloorNegative1,
 "home-group-minus": SVG_homeGroupMinus,
 "home-group-plus": SVG_homeGroupPlus,
 "home-group-remove": SVG_homeGroupRemove,
@@ -10643,6 +11260,8 @@ export const map: IconsMapType<IconNames> = {
 "home-off-outline": SVG_homeOffOutline,
 "home-off": SVG_homeOff,
 "home-outline": SVG_homeOutline,
+"home-percent-outline": SVG_homePercentOutline,
+"home-percent": SVG_homePercent,
 "home-plus-outline": SVG_homePlusOutline,
 "home-plus": SVG_homePlus,
 "home-remove-outline": SVG_homeRemoveOutline,
@@ -10650,6 +11269,12 @@ export const map: IconsMapType<IconNames> = {
 "home-roof": SVG_homeRoof,
 "home-search-outline": SVG_homeSearchOutline,
 "home-search": SVG_homeSearch,
+"home-silo-outline": SVG_homeSiloOutline,
+"home-silo": SVG_homeSilo,
+"home-sound-in-outline": SVG_homeSoundInOutline,
+"home-sound-in": SVG_homeSoundIn,
+"home-sound-out-outline": SVG_homeSoundOutOutline,
+"home-sound-out": SVG_homeSoundOut,
 "home-switch-outline": SVG_homeSwitchOutline,
 "home-switch": SVG_homeSwitch,
 "home-thermometer-outline": SVG_homeThermometerOutline,
@@ -10674,7 +11299,10 @@ export const map: IconsMapType<IconNames> = {
 "hospital-marker": SVG_hospitalMarker,
 "hospital": SVG_hospital,
 "hot-tub": SVG_hotTub,
-"hours-24": SVG_hours_24,
+"hours-12": SVG_hours12,
+"hours-24": SVG_hours24,
+"hub-outline": SVG_hubOutline,
+"hub": SVG_hub,
 "hubspot": SVG_hubspot,
 "hulu": SVG_hulu,
 "human-baby-changing-table": SVG_humanBabyChangingTable,
@@ -10686,6 +11314,7 @@ export const map: IconsMapType<IconNames> = {
 "human-edit": SVG_humanEdit,
 "human-female-boy": SVG_humanFemaleBoy,
 "human-female-dance": SVG_humanFemaleDance,
+"human-female-female-child": SVG_humanFemaleFemaleChild,
 "human-female-female": SVG_humanFemaleFemale,
 "human-female-girl": SVG_humanFemaleGirl,
 "human-female": SVG_humanFemale,
@@ -10703,12 +11332,14 @@ export const map: IconsMapType<IconNames> = {
 "human-male-girl": SVG_humanMaleGirl,
 "human-male-height-variant": SVG_humanMaleHeightVariant,
 "human-male-height": SVG_humanMaleHeight,
+"human-male-male-child": SVG_humanMaleMaleChild,
 "human-male-male": SVG_humanMaleMale,
 "human-male": SVG_humanMale,
 "human-non-binary": SVG_humanNonBinary,
 "human-pregnant": SVG_humanPregnant,
 "human-queue": SVG_humanQueue,
 "human-scooter": SVG_humanScooter,
+"human-walker": SVG_humanWalker,
 "human-wheelchair": SVG_humanWheelchair,
 "human-white-cane": SVG_humanWhiteCane,
 "human": SVG_human,
@@ -10741,8 +11372,10 @@ export const map: IconsMapType<IconNames> = {
 "image-filter-center-focus-strong": SVG_imageFilterCenterFocusStrong,
 "image-filter-center-focus-weak": SVG_imageFilterCenterFocusWeak,
 "image-filter-center-focus": SVG_imageFilterCenterFocus,
+"image-filter-drama-outline": SVG_imageFilterDramaOutline,
 "image-filter-drama": SVG_imageFilterDrama,
 "image-filter-frames": SVG_imageFilterFrames,
+"image-filter-hdr-outline": SVG_imageFilterHdrOutline,
 "image-filter-hdr": SVG_imageFilterHdr,
 "image-filter-none": SVG_imageFilterNone,
 "image-filter-tilt-shift": SVG_imageFilterTiltShift,
@@ -10794,9 +11427,21 @@ export const map: IconsMapType<IconNames> = {
 "incognito": SVG_incognito,
 "induction": SVG_induction,
 "infinity": SVG_infinity,
+"information-box-outline": SVG_informationBoxOutline,
+"information-box": SVG_informationBox,
 "information-off-outline": SVG_informationOffOutline,
 "information-off": SVG_informationOff,
 "information-outline": SVG_informationOutline,
+"information-slab-box-outline": SVG_informationSlabBoxOutline,
+"information-slab-box": SVG_informationSlabBox,
+"information-slab-circle-outline": SVG_informationSlabCircleOutline,
+"information-slab-circle": SVG_informationSlabCircle,
+"information-slab-symbol": SVG_informationSlabSymbol,
+"information-symbol": SVG_informationSymbol,
+"information-variant-box-outline": SVG_informationVariantBoxOutline,
+"information-variant-box": SVG_informationVariantBox,
+"information-variant-circle-outline": SVG_informationVariantCircleOutline,
+"information-variant-circle": SVG_informationVariantCircle,
 "information-variant": SVG_informationVariant,
 "information": SVG_information,
 "instagram": SVG_instagram,
@@ -10804,6 +11449,59 @@ export const map: IconsMapType<IconNames> = {
 "integrated-circuit-chip": SVG_integratedCircuitChip,
 "invert-colors-off": SVG_invertColorsOff,
 "invert-colors": SVG_invertColors,
+"invoice-arrow-left-outline": SVG_invoiceArrowLeftOutline,
+"invoice-arrow-left": SVG_invoiceArrowLeft,
+"invoice-arrow-right-outline": SVG_invoiceArrowRightOutline,
+"invoice-arrow-right": SVG_invoiceArrowRight,
+"invoice-check-outline": SVG_invoiceCheckOutline,
+"invoice-check": SVG_invoiceCheck,
+"invoice-clock-outline": SVG_invoiceClockOutline,
+"invoice-clock": SVG_invoiceClock,
+"invoice-edit-outline": SVG_invoiceEditOutline,
+"invoice-edit": SVG_invoiceEdit,
+"invoice-export-outline": SVG_invoiceExportOutline,
+"invoice-fast-outline": SVG_invoiceFastOutline,
+"invoice-fast": SVG_invoiceFast,
+"invoice-import-outline": SVG_invoiceImportOutline,
+"invoice-import": SVG_invoiceImport,
+"invoice-list-outline": SVG_invoiceListOutline,
+"invoice-list": SVG_invoiceList,
+"invoice-minus-outline": SVG_invoiceMinusOutline,
+"invoice-minus": SVG_invoiceMinus,
+"invoice-multiple-outline": SVG_invoiceMultipleOutline,
+"invoice-multiple": SVG_invoiceMultiple,
+"invoice-outline": SVG_invoiceOutline,
+"invoice-plus-outline": SVG_invoicePlusOutline,
+"invoice-plus": SVG_invoicePlus,
+"invoice-remove-outline": SVG_invoiceRemoveOutline,
+"invoice-remove": SVG_invoiceRemove,
+"invoice-send-outline": SVG_invoiceSendOutline,
+"invoice-send": SVG_invoiceSend,
+"invoice-text-arrow-left-outline": SVG_invoiceTextArrowLeftOutline,
+"invoice-text-arrow-left": SVG_invoiceTextArrowLeft,
+"invoice-text-arrow-right-outline": SVG_invoiceTextArrowRightOutline,
+"invoice-text-arrow-right": SVG_invoiceTextArrowRight,
+"invoice-text-check-outline": SVG_invoiceTextCheckOutline,
+"invoice-text-check": SVG_invoiceTextCheck,
+"invoice-text-clock-outline": SVG_invoiceTextClockOutline,
+"invoice-text-clock": SVG_invoiceTextClock,
+"invoice-text-edit-outline": SVG_invoiceTextEditOutline,
+"invoice-text-edit": SVG_invoiceTextEdit,
+"invoice-text-fast-outline": SVG_invoiceTextFastOutline,
+"invoice-text-fast": SVG_invoiceTextFast,
+"invoice-text-minus-outline": SVG_invoiceTextMinusOutline,
+"invoice-text-minus": SVG_invoiceTextMinus,
+"invoice-text-multiple-outline": SVG_invoiceTextMultipleOutline,
+"invoice-text-multiple": SVG_invoiceTextMultiple,
+"invoice-text-outline": SVG_invoiceTextOutline,
+"invoice-text-plus-outline": SVG_invoiceTextPlusOutline,
+"invoice-text-plus": SVG_invoiceTextPlus,
+"invoice-text-remove-outline": SVG_invoiceTextRemoveOutline,
+"invoice-text-remove": SVG_invoiceTextRemove,
+"invoice-text-send-outline": SVG_invoiceTextSendOutline,
+"invoice-text-send": SVG_invoiceTextSend,
+"invoice-text": SVG_invoiceText,
+"invoice": SVG_invoice,
 "iobroker": SVG_iobroker,
 "ip-network-outline": SVG_ipNetworkOutline,
 "ip-network": SVG_ipNetwork,
@@ -10813,6 +11511,7 @@ export const map: IconsMapType<IconNames> = {
 "iron-board": SVG_ironBoard,
 "iron-outline": SVG_ironOutline,
 "iron": SVG_iron,
+"island-variant": SVG_islandVariant,
 "island": SVG_island,
 "iv-bag": SVG_ivBag,
 "jabber": SVG_jabber,
@@ -10855,6 +11554,7 @@ export const map: IconsMapType<IconNames> = {
 "key": SVG_key,
 "keyboard-backspace": SVG_keyboardBackspace,
 "keyboard-caps": SVG_keyboardCaps,
+"keyboard-close-outline": SVG_keyboardCloseOutline,
 "keyboard-close": SVG_keyboardClose,
 "keyboard-esc": SVG_keyboardEsc,
 "keyboard-f1": SVG_keyboardF1,
@@ -10888,6 +11588,7 @@ export const map: IconsMapType<IconNames> = {
 "klingon": SVG_klingon,
 "knife-military": SVG_knifeMilitary,
 "knife": SVG_knife,
+"knob": SVG_knob,
 "koala": SVG_koala,
 "kodi": SVG_kodi,
 "kubernetes": SVG_kubernetes,
@@ -10916,6 +11617,7 @@ export const map: IconsMapType<IconNames> = {
 "land-fields": SVG_landFields,
 "land-plots-circle-variant": SVG_landPlotsCircleVariant,
 "land-plots-circle": SVG_landPlotsCircle,
+"land-plots-marker": SVG_landPlotsMarker,
 "land-plots": SVG_landPlots,
 "land-rows-horizontal": SVG_landRowsHorizontal,
 "land-rows-vertical": SVG_landRowsVertical,
@@ -10975,7 +11677,7 @@ export const map: IconsMapType<IconNames> = {
 "leaf": SVG_leaf,
 "leak-off": SVG_leakOff,
 "leak": SVG_leak,
-"lecturn": SVG_lecturn,
+"lectern": SVG_lectern,
 "led-off": SVG_ledOff,
 "led-on": SVG_ledOn,
 "led-outline": SVG_ledOutline,
@@ -11020,15 +11722,15 @@ export const map: IconsMapType<IconNames> = {
 "lightbulb-night": SVG_lightbulbNight,
 "lightbulb-off-outline": SVG_lightbulbOffOutline,
 "lightbulb-off": SVG_lightbulbOff,
-"lightbulb-on-10": SVG_lightbulbOn_10,
-"lightbulb-on-20": SVG_lightbulbOn_20,
-"lightbulb-on-30": SVG_lightbulbOn_30,
-"lightbulb-on-40": SVG_lightbulbOn_40,
-"lightbulb-on-50": SVG_lightbulbOn_50,
-"lightbulb-on-60": SVG_lightbulbOn_60,
-"lightbulb-on-70": SVG_lightbulbOn_70,
-"lightbulb-on-80": SVG_lightbulbOn_80,
-"lightbulb-on-90": SVG_lightbulbOn_90,
+"lightbulb-on-10": SVG_lightbulbOn10,
+"lightbulb-on-20": SVG_lightbulbOn20,
+"lightbulb-on-30": SVG_lightbulbOn30,
+"lightbulb-on-40": SVG_lightbulbOn40,
+"lightbulb-on-50": SVG_lightbulbOn50,
+"lightbulb-on-60": SVG_lightbulbOn60,
+"lightbulb-on-70": SVG_lightbulbOn70,
+"lightbulb-on-80": SVG_lightbulbOn80,
+"lightbulb-on-90": SVG_lightbulbOn90,
 "lightbulb-on-outline": SVG_lightbulbOnOutline,
 "lightbulb-on": SVG_lightbulbOn,
 "lightbulb-outline": SVG_lightbulbOutline,
@@ -11050,6 +11752,9 @@ export const map: IconsMapType<IconNames> = {
 "link-box-variant-outline": SVG_linkBoxVariantOutline,
 "link-box-variant": SVG_linkBoxVariant,
 "link-box": SVG_linkBox,
+"link-circle-outline": SVG_linkCircleOutline,
+"link-circle": SVG_linkCircle,
+"link-edit": SVG_linkEdit,
 "link-lock": SVG_linkLock,
 "link-off": SVG_linkOff,
 "link-plus": SVG_linkPlus,
@@ -11065,6 +11770,8 @@ export const map: IconsMapType<IconNames> = {
 "lipstick": SVG_lipstick,
 "liquid-spot": SVG_liquidSpot,
 "liquor": SVG_liquor,
+"list-box-outline": SVG_listBoxOutline,
+"list-box": SVG_listBox,
 "list-status": SVG_listStatus,
 "litecoin": SVG_litecoin,
 "loading": SVG_loading,
@@ -11095,6 +11802,12 @@ export const map: IconsMapType<IconNames> = {
 "lock-open": SVG_lockOpen,
 "lock-outline": SVG_lockOutline,
 "lock-pattern": SVG_lockPattern,
+"lock-percent-open-outline": SVG_lockPercentOpenOutline,
+"lock-percent-open-variant-outline": SVG_lockPercentOpenVariantOutline,
+"lock-percent-open-variant": SVG_lockPercentOpenVariant,
+"lock-percent-open": SVG_lockPercentOpen,
+"lock-percent-outline": SVG_lockPercentOutline,
+"lock-percent": SVG_lockPercent,
 "lock-plus-outline": SVG_lockPlusOutline,
 "lock-plus": SVG_lockPlus,
 "lock-question": SVG_lockQuestion,
@@ -11216,9 +11929,11 @@ export const map: IconsMapType<IconNames> = {
 "medication-outline": SVG_medicationOutline,
 "medication": SVG_medication,
 "meditation": SVG_meditation,
+"memory-arrow-down": SVG_memoryArrowDown,
 "memory": SVG_memory,
 "menorah-fire": SVG_menorahFire,
 "menorah": SVG_menorah,
+"menu-close": SVG_menuClose,
 "menu-down-outline": SVG_menuDownOutline,
 "menu-down": SVG_menuDown,
 "menu-left-outline": SVG_menuLeftOutline,
@@ -11244,6 +11959,8 @@ export const map: IconsMapType<IconNames> = {
 "message-bookmark": SVG_messageBookmark,
 "message-bulleted-off": SVG_messageBulletedOff,
 "message-bulleted": SVG_messageBulleted,
+"message-check-outline": SVG_messageCheckOutline,
+"message-check": SVG_messageCheck,
 "message-cog-outline": SVG_messageCogOutline,
 "message-cog": SVG_messageCog,
 "message-draw": SVG_messageDraw,
@@ -11292,6 +12009,8 @@ export const map: IconsMapType<IconNames> = {
 "metronome-tick": SVG_metronomeTick,
 "metronome": SVG_metronome,
 "micro-sd": SVG_microSd,
+"microphone-message-off": SVG_microphoneMessageOff,
+"microphone-message": SVG_microphoneMessage,
 "microphone-minus": SVG_microphoneMinus,
 "microphone-off": SVG_microphoneOff,
 "microphone-outline": SVG_microphoneOutline,
@@ -11307,7 +12026,7 @@ export const map: IconsMapType<IconNames> = {
 "microsoft-azure-devops": SVG_microsoftAzureDevops,
 "microsoft-azure": SVG_microsoftAzure,
 "microsoft-bing": SVG_microsoftBing,
-"microsoft-dynamics-365": SVG_microsoftDynamics_365,
+"microsoft-dynamics-365": SVG_microsoftDynamics365,
 "microsoft-edge": SVG_microsoftEdge,
 "microsoft-excel": SVG_microsoftExcel,
 "microsoft-internet-explorer": SVG_microsoftInternetExplorer,
@@ -11386,6 +12105,7 @@ export const map: IconsMapType<IconNames> = {
 "monitor-speaker-off": SVG_monitorSpeakerOff,
 "monitor-speaker": SVG_monitorSpeaker,
 "monitor-star": SVG_monitorStar,
+"monitor-vertical": SVG_monitorVertical,
 "monitor": SVG_monitor,
 "moon-first-quarter": SVG_moonFirstQuarter,
 "moon-full": SVG_moonFull,
@@ -11402,6 +12122,7 @@ export const map: IconsMapType<IconNames> = {
 "more": SVG_more,
 "mortar-pestle-plus": SVG_mortarPestlePlus,
 "mortar-pestle": SVG_mortarPestle,
+"mosque-outline": SVG_mosqueOutline,
 "mosque": SVG_mosque,
 "mother-heart": SVG_motherHeart,
 "mother-nurse": SVG_motherNurse,
@@ -11417,10 +12138,16 @@ export const map: IconsMapType<IconNames> = {
 "motorbike-off": SVG_motorbikeOff,
 "motorbike": SVG_motorbike,
 "mouse-bluetooth": SVG_mouseBluetooth,
+"mouse-left-click-outline": SVG_mouseLeftClickOutline,
+"mouse-left-click": SVG_mouseLeftClick,
 "mouse-move-down": SVG_mouseMoveDown,
 "mouse-move-up": SVG_mouseMoveUp,
 "mouse-move-vertical": SVG_mouseMoveVertical,
 "mouse-off": SVG_mouseOff,
+"mouse-outline": SVG_mouseOutline,
+"mouse-right-click-outline": SVG_mouseRightClickOutline,
+"mouse-right-click": SVG_mouseRightClick,
+"mouse-scroll-wheel": SVG_mouseScrollWheel,
 "mouse-variant-off": SVG_mouseVariantOff,
 "mouse-variant": SVG_mouseVariant,
 "mouse": SVG_mouse,
@@ -11475,10 +12202,13 @@ export const map: IconsMapType<IconNames> = {
 "movie-star-outline": SVG_movieStarOutline,
 "movie-star": SVG_movieStar,
 "movie": SVG_movie,
+"mower-bag-on": SVG_mowerBagOn,
 "mower-bag": SVG_mowerBag,
+"mower-on": SVG_mowerOn,
 "mower": SVG_mower,
 "muffin": SVG_muffin,
 "multicast": SVG_multicast,
+"multimedia": SVG_multimedia,
 "multiplication-box": SVG_multiplicationBox,
 "multiplication": SVG_multiplication,
 "mushroom-off-outline": SVG_mushroomOffOutline,
@@ -11505,6 +12235,7 @@ export const map: IconsMapType<IconNames> = {
 "music-note-eighth": SVG_musicNoteEighth,
 "music-note-half-dotted": SVG_musicNoteHalfDotted,
 "music-note-half": SVG_musicNoteHalf,
+"music-note-minus": SVG_musicNoteMinus,
 "music-note-off-outline": SVG_musicNoteOffOutline,
 "music-note-off": SVG_musicNoteOff,
 "music-note-outline": SVG_musicNoteOutline,
@@ -11527,6 +12258,8 @@ export const map: IconsMapType<IconNames> = {
 "nail": SVG_nail,
 "nas": SVG_nas,
 "nativescript": SVG_nativescript,
+"nature-outline": SVG_natureOutline,
+"nature-people-outline": SVG_naturePeopleOutline,
 "nature-people": SVG_naturePeople,
 "nature": SVG_nature,
 "navigation-outline": SVG_navigationOutline,
@@ -11542,15 +12275,15 @@ export const map: IconsMapType<IconNames> = {
 "network-off": SVG_networkOff,
 "network-outline": SVG_networkOutline,
 "network-pos": SVG_networkPos,
-"network-strength-1-alert": SVG_networkStrength_1Alert,
-"network-strength-1": SVG_networkStrength_1,
-"network-strength-2-alert": SVG_networkStrength_2Alert,
-"network-strength-2": SVG_networkStrength_2,
-"network-strength-3-alert": SVG_networkStrength_3Alert,
-"network-strength-3": SVG_networkStrength_3,
-"network-strength-4-alert": SVG_networkStrength_4Alert,
-"network-strength-4-cog": SVG_networkStrength_4Cog,
-"network-strength-4": SVG_networkStrength_4,
+"network-strength-1-alert": SVG_networkStrength1Alert,
+"network-strength-1": SVG_networkStrength1,
+"network-strength-2-alert": SVG_networkStrength2Alert,
+"network-strength-2": SVG_networkStrength2,
+"network-strength-3-alert": SVG_networkStrength3Alert,
+"network-strength-3": SVG_networkStrength3,
+"network-strength-4-alert": SVG_networkStrength4Alert,
+"network-strength-4-cog": SVG_networkStrength4Cog,
+"network-strength-4": SVG_networkStrength4,
 "network-strength-off-outline": SVG_networkStrengthOffOutline,
 "network-strength-off": SVG_networkStrengthOff,
 "network-strength-outline": SVG_networkStrengthOutline,
@@ -11621,93 +12354,93 @@ export const map: IconsMapType<IconNames> = {
 "npm": SVG_npm,
 "nuke": SVG_nuke,
 "null": SVG_null,
-"numeric-0-box-multiple-outline": SVG_numeric_0BoxMultipleOutline,
-"numeric-0-box-multiple": SVG_numeric_0BoxMultiple,
-"numeric-0-box-outline": SVG_numeric_0BoxOutline,
-"numeric-0-box": SVG_numeric_0Box,
-"numeric-0-circle-outline": SVG_numeric_0CircleOutline,
-"numeric-0-circle": SVG_numeric_0Circle,
-"numeric-0": SVG_numeric_0,
-"numeric-1-box-multiple-outline": SVG_numeric_1BoxMultipleOutline,
-"numeric-1-box-multiple": SVG_numeric_1BoxMultiple,
-"numeric-1-box-outline": SVG_numeric_1BoxOutline,
-"numeric-1-box": SVG_numeric_1Box,
-"numeric-1-circle-outline": SVG_numeric_1CircleOutline,
-"numeric-1-circle": SVG_numeric_1Circle,
-"numeric-1": SVG_numeric_1,
-"numeric-10-box-multiple-outline": SVG_numeric_10BoxMultipleOutline,
-"numeric-10-box-multiple": SVG_numeric_10BoxMultiple,
-"numeric-10-box-outline": SVG_numeric_10BoxOutline,
-"numeric-10-box": SVG_numeric_10Box,
-"numeric-10-circle-outline": SVG_numeric_10CircleOutline,
-"numeric-10-circle": SVG_numeric_10Circle,
-"numeric-10": SVG_numeric_10,
-"numeric-2-box-multiple-outline": SVG_numeric_2BoxMultipleOutline,
-"numeric-2-box-multiple": SVG_numeric_2BoxMultiple,
-"numeric-2-box-outline": SVG_numeric_2BoxOutline,
-"numeric-2-box": SVG_numeric_2Box,
-"numeric-2-circle-outline": SVG_numeric_2CircleOutline,
-"numeric-2-circle": SVG_numeric_2Circle,
-"numeric-2": SVG_numeric_2,
-"numeric-3-box-multiple-outline": SVG_numeric_3BoxMultipleOutline,
-"numeric-3-box-multiple": SVG_numeric_3BoxMultiple,
-"numeric-3-box-outline": SVG_numeric_3BoxOutline,
-"numeric-3-box": SVG_numeric_3Box,
-"numeric-3-circle-outline": SVG_numeric_3CircleOutline,
-"numeric-3-circle": SVG_numeric_3Circle,
-"numeric-3": SVG_numeric_3,
-"numeric-4-box-multiple-outline": SVG_numeric_4BoxMultipleOutline,
-"numeric-4-box-multiple": SVG_numeric_4BoxMultiple,
-"numeric-4-box-outline": SVG_numeric_4BoxOutline,
-"numeric-4-box": SVG_numeric_4Box,
-"numeric-4-circle-outline": SVG_numeric_4CircleOutline,
-"numeric-4-circle": SVG_numeric_4Circle,
-"numeric-4": SVG_numeric_4,
-"numeric-5-box-multiple-outline": SVG_numeric_5BoxMultipleOutline,
-"numeric-5-box-multiple": SVG_numeric_5BoxMultiple,
-"numeric-5-box-outline": SVG_numeric_5BoxOutline,
-"numeric-5-box": SVG_numeric_5Box,
-"numeric-5-circle-outline": SVG_numeric_5CircleOutline,
-"numeric-5-circle": SVG_numeric_5Circle,
-"numeric-5": SVG_numeric_5,
-"numeric-6-box-multiple-outline": SVG_numeric_6BoxMultipleOutline,
-"numeric-6-box-multiple": SVG_numeric_6BoxMultiple,
-"numeric-6-box-outline": SVG_numeric_6BoxOutline,
-"numeric-6-box": SVG_numeric_6Box,
-"numeric-6-circle-outline": SVG_numeric_6CircleOutline,
-"numeric-6-circle": SVG_numeric_6Circle,
-"numeric-6": SVG_numeric_6,
-"numeric-7-box-multiple-outline": SVG_numeric_7BoxMultipleOutline,
-"numeric-7-box-multiple": SVG_numeric_7BoxMultiple,
-"numeric-7-box-outline": SVG_numeric_7BoxOutline,
-"numeric-7-box": SVG_numeric_7Box,
-"numeric-7-circle-outline": SVG_numeric_7CircleOutline,
-"numeric-7-circle": SVG_numeric_7Circle,
-"numeric-7": SVG_numeric_7,
-"numeric-8-box-multiple-outline": SVG_numeric_8BoxMultipleOutline,
-"numeric-8-box-multiple": SVG_numeric_8BoxMultiple,
-"numeric-8-box-outline": SVG_numeric_8BoxOutline,
-"numeric-8-box": SVG_numeric_8Box,
-"numeric-8-circle-outline": SVG_numeric_8CircleOutline,
-"numeric-8-circle": SVG_numeric_8Circle,
-"numeric-8": SVG_numeric_8,
-"numeric-9-box-multiple-outline": SVG_numeric_9BoxMultipleOutline,
-"numeric-9-box-multiple": SVG_numeric_9BoxMultiple,
-"numeric-9-box-outline": SVG_numeric_9BoxOutline,
-"numeric-9-box": SVG_numeric_9Box,
-"numeric-9-circle-outline": SVG_numeric_9CircleOutline,
-"numeric-9-circle": SVG_numeric_9Circle,
-"numeric-9-plus-box-multiple-outline": SVG_numeric_9PlusBoxMultipleOutline,
-"numeric-9-plus-box-multiple": SVG_numeric_9PlusBoxMultiple,
-"numeric-9-plus-box-outline": SVG_numeric_9PlusBoxOutline,
-"numeric-9-plus-box": SVG_numeric_9PlusBox,
-"numeric-9-plus-circle-outline": SVG_numeric_9PlusCircleOutline,
-"numeric-9-plus-circle": SVG_numeric_9PlusCircle,
-"numeric-9-plus": SVG_numeric_9Plus,
-"numeric-9": SVG_numeric_9,
-"numeric-negative-1": SVG_numericNegative_1,
+"numeric-0-box-multiple-outline": SVG_numeric0BoxMultipleOutline,
+"numeric-0-box-multiple": SVG_numeric0BoxMultiple,
+"numeric-0-box-outline": SVG_numeric0BoxOutline,
+"numeric-0-box": SVG_numeric0Box,
+"numeric-0-circle-outline": SVG_numeric0CircleOutline,
+"numeric-0-circle": SVG_numeric0Circle,
+"numeric-0": SVG_numeric0,
+"numeric-1-box-multiple-outline": SVG_numeric1BoxMultipleOutline,
+"numeric-1-box-multiple": SVG_numeric1BoxMultiple,
+"numeric-1-box-outline": SVG_numeric1BoxOutline,
+"numeric-1-box": SVG_numeric1Box,
+"numeric-1-circle-outline": SVG_numeric1CircleOutline,
+"numeric-1-circle": SVG_numeric1Circle,
+"numeric-1": SVG_numeric1,
+"numeric-10-box-multiple-outline": SVG_numeric10BoxMultipleOutline,
+"numeric-10-box-multiple": SVG_numeric10BoxMultiple,
+"numeric-10-box-outline": SVG_numeric10BoxOutline,
+"numeric-10-box": SVG_numeric10Box,
+"numeric-10-circle-outline": SVG_numeric10CircleOutline,
+"numeric-10-circle": SVG_numeric10Circle,
+"numeric-10": SVG_numeric10,
+"numeric-2-box-multiple-outline": SVG_numeric2BoxMultipleOutline,
+"numeric-2-box-multiple": SVG_numeric2BoxMultiple,
+"numeric-2-box-outline": SVG_numeric2BoxOutline,
+"numeric-2-box": SVG_numeric2Box,
+"numeric-2-circle-outline": SVG_numeric2CircleOutline,
+"numeric-2-circle": SVG_numeric2Circle,
+"numeric-2": SVG_numeric2,
+"numeric-3-box-multiple-outline": SVG_numeric3BoxMultipleOutline,
+"numeric-3-box-multiple": SVG_numeric3BoxMultiple,
+"numeric-3-box-outline": SVG_numeric3BoxOutline,
+"numeric-3-box": SVG_numeric3Box,
+"numeric-3-circle-outline": SVG_numeric3CircleOutline,
+"numeric-3-circle": SVG_numeric3Circle,
+"numeric-3": SVG_numeric3,
+"numeric-4-box-multiple-outline": SVG_numeric4BoxMultipleOutline,
+"numeric-4-box-multiple": SVG_numeric4BoxMultiple,
+"numeric-4-box-outline": SVG_numeric4BoxOutline,
+"numeric-4-box": SVG_numeric4Box,
+"numeric-4-circle-outline": SVG_numeric4CircleOutline,
+"numeric-4-circle": SVG_numeric4Circle,
+"numeric-4": SVG_numeric4,
+"numeric-5-box-multiple-outline": SVG_numeric5BoxMultipleOutline,
+"numeric-5-box-multiple": SVG_numeric5BoxMultiple,
+"numeric-5-box-outline": SVG_numeric5BoxOutline,
+"numeric-5-box": SVG_numeric5Box,
+"numeric-5-circle-outline": SVG_numeric5CircleOutline,
+"numeric-5-circle": SVG_numeric5Circle,
+"numeric-5": SVG_numeric5,
+"numeric-6-box-multiple-outline": SVG_numeric6BoxMultipleOutline,
+"numeric-6-box-multiple": SVG_numeric6BoxMultiple,
+"numeric-6-box-outline": SVG_numeric6BoxOutline,
+"numeric-6-box": SVG_numeric6Box,
+"numeric-6-circle-outline": SVG_numeric6CircleOutline,
+"numeric-6-circle": SVG_numeric6Circle,
+"numeric-6": SVG_numeric6,
+"numeric-7-box-multiple-outline": SVG_numeric7BoxMultipleOutline,
+"numeric-7-box-multiple": SVG_numeric7BoxMultiple,
+"numeric-7-box-outline": SVG_numeric7BoxOutline,
+"numeric-7-box": SVG_numeric7Box,
+"numeric-7-circle-outline": SVG_numeric7CircleOutline,
+"numeric-7-circle": SVG_numeric7Circle,
+"numeric-7": SVG_numeric7,
+"numeric-8-box-multiple-outline": SVG_numeric8BoxMultipleOutline,
+"numeric-8-box-multiple": SVG_numeric8BoxMultiple,
+"numeric-8-box-outline": SVG_numeric8BoxOutline,
+"numeric-8-box": SVG_numeric8Box,
+"numeric-8-circle-outline": SVG_numeric8CircleOutline,
+"numeric-8-circle": SVG_numeric8Circle,
+"numeric-8": SVG_numeric8,
+"numeric-9-box-multiple-outline": SVG_numeric9BoxMultipleOutline,
+"numeric-9-box-multiple": SVG_numeric9BoxMultiple,
+"numeric-9-box-outline": SVG_numeric9BoxOutline,
+"numeric-9-box": SVG_numeric9Box,
+"numeric-9-circle-outline": SVG_numeric9CircleOutline,
+"numeric-9-circle": SVG_numeric9Circle,
+"numeric-9-plus-box-multiple-outline": SVG_numeric9PlusBoxMultipleOutline,
+"numeric-9-plus-box-multiple": SVG_numeric9PlusBoxMultiple,
+"numeric-9-plus-box-outline": SVG_numeric9PlusBoxOutline,
+"numeric-9-plus-box": SVG_numeric9PlusBox,
+"numeric-9-plus-circle-outline": SVG_numeric9PlusCircleOutline,
+"numeric-9-plus-circle": SVG_numeric9PlusCircle,
+"numeric-9-plus": SVG_numeric9Plus,
+"numeric-9": SVG_numeric9,
+"numeric-negative-1": SVG_numericNegative1,
 "numeric-off": SVG_numericOff,
-"numeric-positive-1": SVG_numericPositive_1,
+"numeric-positive-1": SVG_numericPositive1,
 "numeric": SVG_numeric,
 "nut": SVG_nut,
 "nutrition": SVG_nutrition,
@@ -11718,7 +12451,13 @@ export const map: IconsMapType<IconNames> = {
 "ocr": SVG_ocr,
 "octagon-outline": SVG_octagonOutline,
 "octagon": SVG_octagon,
+"octagram-edit-outline": SVG_octagramEditOutline,
+"octagram-edit": SVG_octagramEdit,
+"octagram-minus-outline": SVG_octagramMinusOutline,
+"octagram-minus": SVG_octagramMinus,
 "octagram-outline": SVG_octagramOutline,
+"octagram-plus-outline": SVG_octagramPlusOutline,
+"octagram-plus": SVG_octagramPlus,
 "octagram": SVG_octagram,
 "octahedron-off": SVG_octahedronOff,
 "octahedron": SVG_octahedron,
@@ -11728,7 +12467,13 @@ export const map: IconsMapType<IconNames> = {
 "office-building-cog": SVG_officeBuildingCog,
 "office-building-marker-outline": SVG_officeBuildingMarkerOutline,
 "office-building-marker": SVG_officeBuildingMarker,
+"office-building-minus-outline": SVG_officeBuildingMinusOutline,
+"office-building-minus": SVG_officeBuildingMinus,
 "office-building-outline": SVG_officeBuildingOutline,
+"office-building-plus-outline": SVG_officeBuildingPlusOutline,
+"office-building-plus": SVG_officeBuildingPlus,
+"office-building-remove-outline": SVG_officeBuildingRemoveOutline,
+"office-building-remove": SVG_officeBuildingRemove,
 "office-building": SVG_officeBuilding,
 "oil-lamp": SVG_oilLamp,
 "oil-level": SVG_oilLevel,
@@ -11844,11 +12589,19 @@ export const map: IconsMapType<IconNames> = {
 "paragliding": SVG_paragliding,
 "parking": SVG_parking,
 "party-popper": SVG_partyPopper,
+"passport-alert": SVG_passportAlert,
 "passport-biometric": SVG_passportBiometric,
+"passport-cancel": SVG_passportCancel,
+"passport-check": SVG_passportCheck,
+"passport-minus": SVG_passportMinus,
+"passport-plus": SVG_passportPlus,
+"passport-remove": SVG_passportRemove,
 "passport": SVG_passport,
 "pasta": SVG_pasta,
 "patio-heater": SVG_patioHeater,
 "patreon": SVG_patreon,
+"pause-box-outline": SVG_pauseBoxOutline,
+"pause-box": SVG_pauseBox,
 "pause-circle-outline": SVG_pauseCircleOutline,
 "pause-circle": SVG_pauseCircle,
 "pause-octagon-outline": SVG_pauseOctagonOutline,
@@ -11886,6 +12639,7 @@ export const map: IconsMapType<IconNames> = {
 "pencil-plus": SVG_pencilPlus,
 "pencil-remove-outline": SVG_pencilRemoveOutline,
 "pencil-remove": SVG_pencilRemove,
+"pencil-ruler-outline": SVG_pencilRulerOutline,
 "pencil-ruler": SVG_pencilRuler,
 "pencil": SVG_pencil,
 "penguin": SVG_penguin,
@@ -11987,6 +12741,8 @@ export const map: IconsMapType<IconNames> = {
 "pin": SVG_pin,
 "pine-tree-box": SVG_pineTreeBox,
 "pine-tree-fire": SVG_pineTreeFire,
+"pine-tree-variant-outline": SVG_pineTreeVariantOutline,
+"pine-tree-variant": SVG_pineTreeVariant,
 "pine-tree": SVG_pineTree,
 "pinterest": SVG_pinterest,
 "pinwheel-outline": SVG_pinwheelOutline,
@@ -12003,6 +12759,7 @@ export const map: IconsMapType<IconNames> = {
 "pizza": SVG_pizza,
 "plane-car": SVG_planeCar,
 "plane-train": SVG_planeTrain,
+"play-box-edit-outline": SVG_playBoxEditOutline,
 "play-box-lock-open-outline": SVG_playBoxLockOpenOutline,
 "play-box-lock-open": SVG_playBoxLockOpen,
 "play-box-lock-outline": SVG_playBoxLockOutline,
@@ -12049,6 +12806,7 @@ export const map: IconsMapType<IconNames> = {
 "plus-outline": SVG_plusOutline,
 "plus-thick": SVG_plusThick,
 "plus": SVG_plus,
+"pocket": SVG_pocket,
 "podcast": SVG_podcast,
 "podium-bronze": SVG_podiumBronze,
 "podium-gold": SVG_podiumGold,
@@ -12084,6 +12842,8 @@ export const map: IconsMapType<IconNames> = {
 "power-cycle": SVG_powerCycle,
 "power-off": SVG_powerOff,
 "power-on": SVG_powerOn,
+"power-plug-battery-outline": SVG_powerPlugBatteryOutline,
+"power-plug-battery": SVG_powerPlugBattery,
 "power-plug-off-outline": SVG_powerPlugOffOutline,
 "power-plug-off": SVG_powerPlugOff,
 "power-plug-outline": SVG_powerPlugOutline,
@@ -12107,22 +12867,57 @@ export const map: IconsMapType<IconNames> = {
 "presentation-play": SVG_presentationPlay,
 "presentation": SVG_presentation,
 "pretzel": SVG_pretzel,
-"printer-3d-nozzle-alert-outline": SVG_printer_3dNozzleAlertOutline,
-"printer-3d-nozzle-alert": SVG_printer_3dNozzleAlert,
-"printer-3d-nozzle-heat-outline": SVG_printer_3dNozzleHeatOutline,
-"printer-3d-nozzle-heat": SVG_printer_3dNozzleHeat,
-"printer-3d-nozzle-off-outline": SVG_printer_3dNozzleOffOutline,
-"printer-3d-nozzle-off": SVG_printer_3dNozzleOff,
-"printer-3d-nozzle-outline": SVG_printer_3dNozzleOutline,
-"printer-3d-nozzle": SVG_printer_3dNozzle,
-"printer-3d-off": SVG_printer_3dOff,
-"printer-3d": SVG_printer_3d,
+"printer-3d-nozzle-alert-outline": SVG_printer3dNozzleAlertOutline,
+"printer-3d-nozzle-alert": SVG_printer3dNozzleAlert,
+"printer-3d-nozzle-heat-outline": SVG_printer3dNozzleHeatOutline,
+"printer-3d-nozzle-heat": SVG_printer3dNozzleHeat,
+"printer-3d-nozzle-off-outline": SVG_printer3dNozzleOffOutline,
+"printer-3d-nozzle-off": SVG_printer3dNozzleOff,
+"printer-3d-nozzle-outline": SVG_printer3dNozzleOutline,
+"printer-3d-nozzle": SVG_printer3dNozzle,
+"printer-3d-off": SVG_printer3dOff,
+"printer-3d": SVG_printer3d,
 "printer-alert": SVG_printerAlert,
 "printer-check": SVG_printerCheck,
 "printer-eye": SVG_printerEye,
 "printer-off-outline": SVG_printerOffOutline,
 "printer-off": SVG_printerOff,
 "printer-outline": SVG_printerOutline,
+"printer-pos-alert-outline": SVG_printerPosAlertOutline,
+"printer-pos-alert": SVG_printerPosAlert,
+"printer-pos-cancel-outline": SVG_printerPosCancelOutline,
+"printer-pos-cancel": SVG_printerPosCancel,
+"printer-pos-check-outline": SVG_printerPosCheckOutline,
+"printer-pos-check": SVG_printerPosCheck,
+"printer-pos-cog-outline": SVG_printerPosCogOutline,
+"printer-pos-cog": SVG_printerPosCog,
+"printer-pos-edit-outline": SVG_printerPosEditOutline,
+"printer-pos-edit": SVG_printerPosEdit,
+"printer-pos-minus-outline": SVG_printerPosMinusOutline,
+"printer-pos-minus": SVG_printerPosMinus,
+"printer-pos-network-outline": SVG_printerPosNetworkOutline,
+"printer-pos-network": SVG_printerPosNetwork,
+"printer-pos-off-outline": SVG_printerPosOffOutline,
+"printer-pos-off": SVG_printerPosOff,
+"printer-pos-outline": SVG_printerPosOutline,
+"printer-pos-pause-outline": SVG_printerPosPauseOutline,
+"printer-pos-pause": SVG_printerPosPause,
+"printer-pos-play-outline": SVG_printerPosPlayOutline,
+"printer-pos-play": SVG_printerPosPlay,
+"printer-pos-plus-outline": SVG_printerPosPlusOutline,
+"printer-pos-plus": SVG_printerPosPlus,
+"printer-pos-refresh-outline": SVG_printerPosRefreshOutline,
+"printer-pos-refresh": SVG_printerPosRefresh,
+"printer-pos-remove-outline": SVG_printerPosRemoveOutline,
+"printer-pos-remove": SVG_printerPosRemove,
+"printer-pos-star-outline": SVG_printerPosStarOutline,
+"printer-pos-star": SVG_printerPosStar,
+"printer-pos-stop-outline": SVG_printerPosStopOutline,
+"printer-pos-stop": SVG_printerPosStop,
+"printer-pos-sync-outline": SVG_printerPosSyncOutline,
+"printer-pos-sync": SVG_printerPosSync,
+"printer-pos-wrench-outline": SVG_printerPosWrenchOutline,
+"printer-pos-wrench": SVG_printerPosWrench,
 "printer-pos": SVG_printerPos,
 "printer-search": SVG_printerSearch,
 "printer-settings": SVG_printerSettings,
@@ -12136,9 +12931,12 @@ export const map: IconsMapType<IconNames> = {
 "progress-clock": SVG_progressClock,
 "progress-close": SVG_progressClose,
 "progress-download": SVG_progressDownload,
+"progress-helper": SVG_progressHelper,
 "progress-pencil": SVG_progressPencil,
 "progress-question": SVG_progressQuestion,
+"progress-star-four-points": SVG_progressStarFourPoints,
 "progress-star": SVG_progressStar,
+"progress-tag": SVG_progressTag,
 "progress-upload": SVG_progressUpload,
 "progress-wrench": SVG_progressWrench,
 "projector-off": SVG_projectorOff,
@@ -12192,6 +12990,7 @@ export const map: IconsMapType<IconNames> = {
 "quality-high": SVG_qualityHigh,
 "quality-low": SVG_qualityLow,
 "quality-medium": SVG_qualityMedium,
+"queue-first-in-last-out": SVG_queueFirstInLastOut,
 "quora": SVG_quora,
 "rabbit-variant-outline": SVG_rabbitVariantOutline,
 "rabbit-variant": SVG_rabbitVariant,
@@ -12213,6 +13012,7 @@ export const map: IconsMapType<IconNames> = {
 "radioactive-off": SVG_radioactiveOff,
 "radioactive": SVG_radioactive,
 "radiobox-blank": SVG_radioboxBlank,
+"radiobox-indeterminate-variant": SVG_radioboxIndeterminateVariant,
 "radiobox-marked": SVG_radioboxMarked,
 "radiology-box-outline": SVG_radiologyBoxOutline,
 "radiology-box": SVG_radiologyBox,
@@ -12234,15 +13034,31 @@ export const map: IconsMapType<IconNames> = {
 "razor-single-edge": SVG_razorSingleEdge,
 "react": SVG_react,
 "read": SVG_read,
+"receipt-clock-outline": SVG_receiptClockOutline,
+"receipt-clock": SVG_receiptClock,
 "receipt-outline": SVG_receiptOutline,
+"receipt-send-outline": SVG_receiptSendOutline,
+"receipt-send": SVG_receiptSend,
+"receipt-text-arrow-left-outline": SVG_receiptTextArrowLeftOutline,
+"receipt-text-arrow-left": SVG_receiptTextArrowLeft,
+"receipt-text-arrow-right-outline": SVG_receiptTextArrowRightOutline,
+"receipt-text-arrow-right": SVG_receiptTextArrowRight,
 "receipt-text-check-outline": SVG_receiptTextCheckOutline,
 "receipt-text-check": SVG_receiptTextCheck,
+"receipt-text-clock-outline": SVG_receiptTextClockOutline,
+"receipt-text-clock": SVG_receiptTextClock,
+"receipt-text-edit-outline": SVG_receiptTextEditOutline,
+"receipt-text-edit": SVG_receiptTextEdit,
 "receipt-text-minus-outline": SVG_receiptTextMinusOutline,
 "receipt-text-minus": SVG_receiptTextMinus,
+"receipt-text-outline": SVG_receiptTextOutline,
 "receipt-text-plus-outline": SVG_receiptTextPlusOutline,
 "receipt-text-plus": SVG_receiptTextPlus,
 "receipt-text-remove-outline": SVG_receiptTextRemoveOutline,
 "receipt-text-remove": SVG_receiptTextRemove,
+"receipt-text-send-outline": SVG_receiptTextSendOutline,
+"receipt-text-send": SVG_receiptTextSend,
+"receipt-text": SVG_receiptText,
 "receipt": SVG_receipt,
 "record-circle-outline": SVG_recordCircleOutline,
 "record-circle": SVG_recordCircle,
@@ -12310,7 +13126,10 @@ export const map: IconsMapType<IconNames> = {
 "remote-tv-off": SVG_remoteTvOff,
 "remote-tv": SVG_remoteTv,
 "remote": SVG_remote,
+"rename-box-outline": SVG_renameBoxOutline,
 "rename-box": SVG_renameBox,
+"rename-outline": SVG_renameOutline,
+"rename": SVG_rename,
 "reorder-horizontal": SVG_reorderHorizontal,
 "reorder-vertical": SVG_reorderVertical,
 "repeat-off": SVG_repeatOff,
@@ -12334,12 +13153,12 @@ export const map: IconsMapType<IconNames> = {
 "restart": SVG_restart,
 "restore-alert": SVG_restoreAlert,
 "restore": SVG_restore,
-"rewind-10": SVG_rewind_10,
-"rewind-15": SVG_rewind_15,
-"rewind-30": SVG_rewind_30,
-"rewind-45": SVG_rewind_45,
-"rewind-5": SVG_rewind_5,
-"rewind-60": SVG_rewind_60,
+"rewind-10": SVG_rewind10,
+"rewind-15": SVG_rewind15,
+"rewind-30": SVG_rewind30,
+"rewind-45": SVG_rewind45,
+"rewind-5": SVG_rewind5,
+"rewind-60": SVG_rewind60,
 "rewind-outline": SVG_rewindOutline,
 "rewind": SVG_rewind,
 "rhombus-medium-outline": SVG_rhombusMediumOutline,
@@ -12376,6 +13195,10 @@ export const map: IconsMapType<IconNames> = {
 "robot-off-outline": SVG_robotOffOutline,
 "robot-off": SVG_robotOff,
 "robot-outline": SVG_robotOutline,
+"robot-vacuum-alert": SVG_robotVacuumAlert,
+"robot-vacuum-off": SVG_robotVacuumOff,
+"robot-vacuum-variant-alert": SVG_robotVacuumVariantAlert,
+"robot-vacuum-variant-off": SVG_robotVacuumVariantOff,
 "robot-vacuum-variant": SVG_robotVacuumVariant,
 "robot-vacuum": SVG_robotVacuum,
 "robot": SVG_robot,
@@ -12393,27 +13216,28 @@ export const map: IconsMapType<IconNames> = {
 "rollupjs": SVG_rollupjs,
 "rolodex-outline": SVG_rolodexOutline,
 "rolodex": SVG_rolodex,
-"roman-numeral-1": SVG_romanNumeral_1,
-"roman-numeral-10": SVG_romanNumeral_10,
-"roman-numeral-2": SVG_romanNumeral_2,
-"roman-numeral-3": SVG_romanNumeral_3,
-"roman-numeral-4": SVG_romanNumeral_4,
-"roman-numeral-5": SVG_romanNumeral_5,
-"roman-numeral-6": SVG_romanNumeral_6,
-"roman-numeral-7": SVG_romanNumeral_7,
-"roman-numeral-8": SVG_romanNumeral_8,
-"roman-numeral-9": SVG_romanNumeral_9,
+"roman-numeral-1": SVG_romanNumeral1,
+"roman-numeral-10": SVG_romanNumeral10,
+"roman-numeral-2": SVG_romanNumeral2,
+"roman-numeral-3": SVG_romanNumeral3,
+"roman-numeral-4": SVG_romanNumeral4,
+"roman-numeral-5": SVG_romanNumeral5,
+"roman-numeral-6": SVG_romanNumeral6,
+"roman-numeral-7": SVG_romanNumeral7,
+"roman-numeral-8": SVG_romanNumeral8,
+"roman-numeral-9": SVG_romanNumeral9,
 "room-service-outline": SVG_roomServiceOutline,
 "room-service": SVG_roomService,
-"rotate-360": SVG_rotate_360,
-"rotate-3d-variant": SVG_rotate_3dVariant,
-"rotate-3d": SVG_rotate_3d,
+"rotate-360": SVG_rotate360,
+"rotate-3d-variant": SVG_rotate3dVariant,
+"rotate-3d": SVG_rotate3d,
 "rotate-left-variant": SVG_rotateLeftVariant,
 "rotate-left": SVG_rotateLeft,
 "rotate-orbit": SVG_rotateOrbit,
 "rotate-right-variant": SVG_rotateRightVariant,
 "rotate-right": SVG_rotateRight,
 "rounded-corner": SVG_roundedCorner,
+"router-network-wireless": SVG_routerNetworkWireless,
 "router-network": SVG_routerNetwork,
 "router-wireless-off": SVG_routerWirelessOff,
 "router-wireless-settings": SVG_routerWirelessSettings,
@@ -12433,6 +13257,7 @@ export const map: IconsMapType<IconNames> = {
 "run-fast": SVG_runFast,
 "run": SVG_run,
 "rv-truck": SVG_rvTruck,
+"sack-outline": SVG_sackOutline,
 "sack-percent": SVG_sackPercent,
 "sack": SVG_sack,
 "safe-square-outline": SVG_safeSquareOutline,
@@ -12515,6 +13340,8 @@ export const map: IconsMapType<IconNames> = {
 "seesaw": SVG_seesaw,
 "segment": SVG_segment,
 "select-all": SVG_selectAll,
+"select-arrow-down": SVG_selectArrowDown,
+"select-arrow-up": SVG_selectArrowUp,
 "select-color": SVG_selectColor,
 "select-compare": SVG_selectCompare,
 "select-drag": SVG_selectDrag,
@@ -12549,12 +13376,20 @@ export const map: IconsMapType<IconNames> = {
 "send-lock-outline": SVG_sendLockOutline,
 "send-lock": SVG_sendLock,
 "send-outline": SVG_sendOutline,
+"send-variant-clock-outline": SVG_sendVariantClockOutline,
+"send-variant-clock": SVG_sendVariantClock,
+"send-variant-outline": SVG_sendVariantOutline,
+"send-variant": SVG_sendVariant,
 "send": SVG_send,
 "serial-port": SVG_serialPort,
+"server-minus-outline": SVG_serverMinusOutline,
 "server-minus": SVG_serverMinus,
 "server-network-off": SVG_serverNetworkOff,
+"server-network-outline": SVG_serverNetworkOutline,
 "server-network": SVG_serverNetwork,
 "server-off": SVG_serverOff,
+"server-outline": SVG_serverOutline,
+"server-plus-outline": SVG_serverPlusOutline,
 "server-plus": SVG_serverPlus,
 "server-remove": SVG_serverRemove,
 "server-security": SVG_serverSecurity,
@@ -12577,6 +13412,7 @@ export const map: IconsMapType<IconNames> = {
 "shape-circle-plus": SVG_shapeCirclePlus,
 "shape-outline": SVG_shapeOutline,
 "shape-oval-plus": SVG_shapeOvalPlus,
+"shape-plus-outline": SVG_shapePlusOutline,
 "shape-plus": SVG_shapePlus,
 "shape-polygon-plus": SVG_shapePolygonPlus,
 "shape-rectangle-plus": SVG_shapeRectanglePlus,
@@ -12686,13 +13522,14 @@ export const map: IconsMapType<IconNames> = {
 "sign-pole": SVG_signPole,
 "sign-real-estate": SVG_signRealEstate,
 "sign-text": SVG_signText,
-"signal-2g": SVG_signal_2g,
-"signal-3g": SVG_signal_3g,
-"signal-4g": SVG_signal_4g,
-"signal-5g": SVG_signal_5g,
-"signal-cellular-1": SVG_signalCellular_1,
-"signal-cellular-2": SVG_signalCellular_2,
-"signal-cellular-3": SVG_signalCellular_3,
+"sign-yield": SVG_signYield,
+"signal-2g": SVG_signal2g,
+"signal-3g": SVG_signal3g,
+"signal-4g": SVG_signal4g,
+"signal-5g": SVG_signal5g,
+"signal-cellular-1": SVG_signalCellular1,
+"signal-cellular-2": SVG_signalCellular2,
+"signal-cellular-3": SVG_signalCellular3,
 "signal-cellular-outline": SVG_signalCellularOutline,
 "signal-distance-variant": SVG_signalDistanceVariant,
 "signal-hspa-plus": SVG_signalHspaPlus,
@@ -12704,6 +13541,7 @@ export const map: IconsMapType<IconNames> = {
 "signature-image": SVG_signatureImage,
 "signature-text": SVG_signatureText,
 "signature": SVG_signature,
+"silo-outline": SVG_siloOutline,
 "silo": SVG_silo,
 "silverware-clean": SVG_silverwareClean,
 "silverware-fork-knife": SVG_silverwareForkKnife,
@@ -12807,8 +13645,8 @@ export const map: IconsMapType<IconNames> = {
 "snowshoeing": SVG_snowshoeing,
 "soccer-field": SVG_soccerField,
 "soccer": SVG_soccer,
-"social-distance-2-meters": SVG_socialDistance_2Meters,
-"social-distance-6-feet": SVG_socialDistance_6Feet,
+"social-distance-2-meters": SVG_socialDistance2Meters,
+"social-distance-6-feet": SVG_socialDistance6Feet,
 "sofa-outline": SVG_sofaOutline,
 "sofa-single-outline": SVG_sofaSingleOutline,
 "sofa-single": SVG_sofaSingle,
@@ -12882,6 +13720,9 @@ export const map: IconsMapType<IconNames> = {
 "speaker-message": SVG_speakerMessage,
 "speaker-multiple": SVG_speakerMultiple,
 "speaker-off": SVG_speakerOff,
+"speaker-pause": SVG_speakerPause,
+"speaker-play": SVG_speakerPlay,
+"speaker-stop": SVG_speakerStop,
 "speaker-wireless": SVG_speakerWireless,
 "speaker": SVG_speaker,
 "spear": SVG_spear,
@@ -12891,6 +13732,7 @@ export const map: IconsMapType<IconNames> = {
 "spellcheck": SVG_spellcheck,
 "sphere-off": SVG_sphereOff,
 "sphere": SVG_sphere,
+"spider-outline": SVG_spiderOutline,
 "spider-thread": SVG_spiderThread,
 "spider-web": SVG_spiderWeb,
 "spider": SVG_spider,
@@ -12906,6 +13748,7 @@ export const map: IconsMapType<IconNames> = {
 "sprinkler": SVG_sprinkler,
 "sprout-outline": SVG_sproutOutline,
 "sprout": SVG_sprout,
+"square-circle-outline": SVG_squareCircleOutline,
 "square-circle": SVG_squareCircle,
 "square-edit-outline": SVG_squareEditOutline,
 "square-medium-outline": SVG_squareMediumOutline,
@@ -12950,7 +13793,12 @@ export const map: IconsMapType<IconNames> = {
 "star-crescent": SVG_starCrescent,
 "star-david": SVG_starDavid,
 "star-face": SVG_starFace,
+"star-four-points-box-outline": SVG_starFourPointsBoxOutline,
+"star-four-points-box": SVG_starFourPointsBox,
+"star-four-points-circle-outline": SVG_starFourPointsCircleOutline,
+"star-four-points-circle": SVG_starFourPointsCircle,
 "star-four-points-outline": SVG_starFourPointsOutline,
+"star-four-points-small": SVG_starFourPointsSmall,
 "star-four-points": SVG_starFourPoints,
 "star-half-full": SVG_starHalfFull,
 "star-half": SVG_starHalf,
@@ -12974,9 +13822,9 @@ export const map: IconsMapType<IconNames> = {
 "steam": SVG_steam,
 "steering-off": SVG_steeringOff,
 "steering": SVG_steering,
-"step-backward-2": SVG_stepBackward_2,
+"step-backward-2": SVG_stepBackward2,
 "step-backward": SVG_stepBackward,
-"step-forward-2": SVG_stepForward_2,
+"step-forward-2": SVG_stepForward2,
 "step-forward": SVG_stepForward,
 "stethoscope": SVG_stethoscope,
 "sticker-alert-outline": SVG_stickerAlertOutline,
@@ -13004,7 +13852,7 @@ export const map: IconsMapType<IconNames> = {
 "stop": SVG_stop,
 "storage-tank-outline": SVG_storageTankOutline,
 "storage-tank": SVG_storageTank,
-"store-24-hour": SVG_store_24Hour,
+"store-24-hour": SVG_store24Hour,
 "store-alert-outline": SVG_storeAlertOutline,
 "store-alert": SVG_storeAlert,
 "store-check-outline": SVG_storeCheckOutline,
@@ -13031,7 +13879,17 @@ export const map: IconsMapType<IconNames> = {
 "store-settings-outline": SVG_storeSettingsOutline,
 "store-settings": SVG_storeSettings,
 "store": SVG_store,
+"storefront-check-outline": SVG_storefrontCheckOutline,
+"storefront-check": SVG_storefrontCheck,
+"storefront-edit-outline": SVG_storefrontEditOutline,
+"storefront-edit": SVG_storefrontEdit,
+"storefront-minus-outline": SVG_storefrontMinusOutline,
+"storefront-minus": SVG_storefrontMinus,
 "storefront-outline": SVG_storefrontOutline,
+"storefront-plus-outline": SVG_storefrontPlusOutline,
+"storefront-plus": SVG_storefrontPlus,
+"storefront-remove-outline": SVG_storefrontRemoveOutline,
+"storefront-remove": SVG_storefrontRemove,
 "storefront": SVG_storefront,
 "stove": SVG_stove,
 "strategy": SVG_strategy,
@@ -13061,17 +13919,18 @@ export const map: IconsMapType<IconNames> = {
 "sun-wireless": SVG_sunWireless,
 "sunglasses": SVG_sunglasses,
 "surfing": SVG_surfing,
-"surround-sound-2-0": SVG_surroundSound_2_0,
-"surround-sound-2-1": SVG_surroundSound_2_1,
-"surround-sound-3-1": SVG_surroundSound_3_1,
-"surround-sound-5-1-2": SVG_surroundSound_5_1_2,
-"surround-sound-5-1": SVG_surroundSound_5_1,
-"surround-sound-7-1": SVG_surroundSound_7_1,
+"surround-sound-2-0": SVG_surroundSound20,
+"surround-sound-2-1": SVG_surroundSound21,
+"surround-sound-3-1": SVG_surroundSound31,
+"surround-sound-5-1-2": SVG_surroundSound512,
+"surround-sound-5-1": SVG_surroundSound51,
+"surround-sound-7-1": SVG_surroundSound71,
 "surround-sound": SVG_surroundSound,
 "svg": SVG_svg,
 "swap-horizontal-bold": SVG_swapHorizontalBold,
 "swap-horizontal-circle-outline": SVG_swapHorizontalCircleOutline,
 "swap-horizontal-circle": SVG_swapHorizontalCircle,
+"swap-horizontal-hidden": SVG_swapHorizontalHidden,
 "swap-horizontal-variant": SVG_swapHorizontalVariant,
 "swap-horizontal": SVG_swapHorizontal,
 "swap-vertical-bold": SVG_swapVerticalBold,
@@ -13121,6 +13980,7 @@ export const map: IconsMapType<IconNames> = {
 "table-edit": SVG_tableEdit,
 "table-eye-off": SVG_tableEyeOff,
 "table-eye": SVG_tableEye,
+"table-filter": SVG_tableFilter,
 "table-furniture": SVG_tableFurniture,
 "table-headers-eye-off": SVG_tableHeadersEyeOff,
 "table-headers-eye": SVG_tableHeadersEye,
@@ -13154,7 +14014,6 @@ export const map: IconsMapType<IconNames> = {
 "table-sync": SVG_tableSync,
 "table-tennis": SVG_tableTennis,
 "table": SVG_table,
-"tablet-android": SVG_tabletAndroid,
 "tablet-cellphone": SVG_tabletCellphone,
 "tablet-dashboard": SVG_tabletDashboard,
 "tablet": SVG_tablet,
@@ -13169,9 +14028,12 @@ export const map: IconsMapType<IconNames> = {
 "tag-arrow-up": SVG_tagArrowUp,
 "tag-check-outline": SVG_tagCheckOutline,
 "tag-check": SVG_tagCheck,
+"tag-edit-outline": SVG_tagEditOutline,
+"tag-edit": SVG_tagEdit,
 "tag-faces": SVG_tagFaces,
 "tag-heart-outline": SVG_tagHeartOutline,
 "tag-heart": SVG_tagHeart,
+"tag-hidden": SVG_tagHidden,
 "tag-minus-outline": SVG_tagMinusOutline,
 "tag-minus": SVG_tagMinus,
 "tag-multiple-outline": SVG_tagMultipleOutline,
@@ -13189,11 +14051,11 @@ export const map: IconsMapType<IconNames> = {
 "tag-text": SVG_tagText,
 "tag": SVG_tag,
 "tailwind": SVG_tailwind,
-"tally-mark-1": SVG_tallyMark_1,
-"tally-mark-2": SVG_tallyMark_2,
-"tally-mark-3": SVG_tallyMark_3,
-"tally-mark-4": SVG_tallyMark_4,
-"tally-mark-5": SVG_tallyMark_5,
+"tally-mark-1": SVG_tallyMark1,
+"tally-mark-2": SVG_tallyMark2,
+"tally-mark-3": SVG_tallyMark3,
+"tally-mark-4": SVG_tallyMark4,
+"tally-mark-5": SVG_tallyMark5,
 "tangram": SVG_tangram,
 "tank": SVG_tank,
 "tanker-truck": SVG_tankerTruck,
@@ -13228,6 +14090,7 @@ export const map: IconsMapType<IconNames> = {
 "temple-buddhist": SVG_templeBuddhist,
 "temple-hindu-outline": SVG_templeHinduOutline,
 "temple-hindu": SVG_templeHindu,
+"tennis-ball-outline": SVG_tennisBallOutline,
 "tennis-ball": SVG_tennisBall,
 "tennis": SVG_tennis,
 "tent": SVG_tent,
@@ -13259,8 +14122,6 @@ export const map: IconsMapType<IconNames> = {
 "text-search": SVG_textSearch,
 "text-shadow": SVG_textShadow,
 "text-short": SVG_textShort,
-"text-to-speech-off": SVG_textToSpeechOff,
-"text-to-speech": SVG_textToSpeech,
 "text": SVG_text,
 "texture-box": SVG_textureBox,
 "texture": SVG_texture,
@@ -13285,6 +14146,7 @@ export const map: IconsMapType<IconNames> = {
 "thermostat-auto": SVG_thermostatAuto,
 "thermostat-box-auto": SVG_thermostatBoxAuto,
 "thermostat-box": SVG_thermostatBox,
+"thermostat-cog": SVG_thermostatCog,
 "thermostat": SVG_thermostat,
 "thought-bubble-outline": SVG_thoughtBubbleOutline,
 "thought-bubble": SVG_thoughtBubble,
@@ -13311,20 +14173,20 @@ export const map: IconsMapType<IconNames> = {
 "timeline-check": SVG_timelineCheck,
 "timeline-clock-outline": SVG_timelineClockOutline,
 "timeline-clock": SVG_timelineClock,
-"timeline-help-outline": SVG_timelineHelpOutline,
-"timeline-help": SVG_timelineHelp,
 "timeline-minus-outline": SVG_timelineMinusOutline,
 "timeline-minus": SVG_timelineMinus,
 "timeline-outline": SVG_timelineOutline,
 "timeline-plus-outline": SVG_timelinePlusOutline,
 "timeline-plus": SVG_timelinePlus,
+"timeline-question-outline": SVG_timelineQuestionOutline,
+"timeline-question": SVG_timelineQuestion,
 "timeline-remove-outline": SVG_timelineRemoveOutline,
 "timeline-remove": SVG_timelineRemove,
 "timeline-text-outline": SVG_timelineTextOutline,
 "timeline-text": SVG_timelineText,
 "timeline": SVG_timeline,
-"timer-10": SVG_timer_10,
-"timer-3": SVG_timer_3,
+"timer-10": SVG_timer10,
+"timer-3": SVG_timer3,
 "timer-alert-outline": SVG_timerAlertOutline,
 "timer-alert": SVG_timerAlert,
 "timer-cancel-outline": SVG_timerCancelOutline,
@@ -13400,6 +14262,8 @@ export const map: IconsMapType<IconNames> = {
 "tooltip-outline": SVG_tooltipOutline,
 "tooltip-plus-outline": SVG_tooltipPlusOutline,
 "tooltip-plus": SVG_tooltipPlus,
+"tooltip-question-outline": SVG_tooltipQuestionOutline,
+"tooltip-question": SVG_tooltipQuestion,
 "tooltip-remove-outline": SVG_tooltipRemoveOutline,
 "tooltip-remove": SVG_tooltipRemove,
 "tooltip-text-outline": SVG_tooltipTextOutline,
@@ -13413,6 +14277,7 @@ export const map: IconsMapType<IconNames> = {
 "torch": SVG_torch,
 "tortoise": SVG_tortoise,
 "toslink": SVG_toslink,
+"touch-text-outline": SVG_touchTextOutline,
 "tournament": SVG_tournament,
 "tow-truck": SVG_towTruck,
 "tower-beach": SVG_towerBeach,
@@ -13440,6 +14305,7 @@ export const map: IconsMapType<IconNames> = {
 "traffic-cone": SVG_trafficCone,
 "traffic-light-outline": SVG_trafficLightOutline,
 "traffic-light": SVG_trafficLight,
+"train-bus": SVG_trainBus,
 "train-car-autorack": SVG_trainCarAutorack,
 "train-car-box-full": SVG_trainCarBoxFull,
 "train-car-box-open": SVG_trainCarBoxOpen,
@@ -13483,6 +14349,7 @@ export const map: IconsMapType<IconNames> = {
 "transition-masked": SVG_transitionMasked,
 "transition": SVG_transition,
 "translate-off": SVG_translateOff,
+"translate-variant": SVG_translateVariant,
 "translate": SVG_translate,
 "transmission-tower-export": SVG_transmissionTowerExport,
 "transmission-tower-import": SVG_transmissionTowerImport,
@@ -13498,6 +14365,7 @@ export const map: IconsMapType<IconNames> = {
 "tray-plus": SVG_trayPlus,
 "tray-remove": SVG_trayRemove,
 "tray": SVG_tray,
+"treasure-chest-outline": SVG_treasureChestOutline,
 "treasure-chest": SVG_treasureChest,
 "tree-outline": SVG_treeOutline,
 "tree": SVG_tree,
@@ -13505,6 +14373,8 @@ export const map: IconsMapType<IconNames> = {
 "trending-down": SVG_trendingDown,
 "trending-neutral": SVG_trendingNeutral,
 "trending-up": SVG_trendingUp,
+"triangle-down-outline": SVG_triangleDownOutline,
+"triangle-down": SVG_triangleDown,
 "triangle-outline": SVG_triangleOutline,
 "triangle-small-down": SVG_triangleSmallDown,
 "triangle-small-up": SVG_triangleSmallUp,
@@ -13529,6 +14399,8 @@ export const map: IconsMapType<IconNames> = {
 "truck-flatbed": SVG_truckFlatbed,
 "truck-minus-outline": SVG_truckMinusOutline,
 "truck-minus": SVG_truckMinus,
+"truck-off-road-off": SVG_truckOffRoadOff,
+"truck-off-road": SVG_truckOffRoad,
 "truck-outline": SVG_truckOutline,
 "truck-plus-outline": SVG_truckPlusOutline,
 "truck-plus": SVG_truckPlus,
@@ -13574,6 +14446,7 @@ export const map: IconsMapType<IconNames> = {
 "umbrella-closed": SVG_umbrellaClosed,
 "umbrella-outline": SVG_umbrellaOutline,
 "umbrella": SVG_umbrella,
+"underwear-outline": SVG_underwearOutline,
 "undo-variant": SVG_undoVariant,
 "undo": SVG_undo,
 "unfold-less-horizontal": SVG_unfoldLessHorizontal,
@@ -13588,8 +14461,13 @@ export const map: IconsMapType<IconNames> = {
 "unity": SVG_unity,
 "unreal": SVG_unreal,
 "update": SVG_update,
+"upload-box-outline": SVG_uploadBoxOutline,
+"upload-box": SVG_uploadBox,
+"upload-circle-outline": SVG_uploadCircleOutline,
+"upload-circle": SVG_uploadCircle,
 "upload-lock-outline": SVG_uploadLockOutline,
 "upload-lock": SVG_uploadLock,
+"upload-multiple-outline": SVG_uploadMultipleOutline,
 "upload-multiple": SVG_uploadMultiple,
 "upload-network-outline": SVG_uploadNetworkOutline,
 "upload-network": SVG_uploadNetwork,
@@ -13597,6 +14475,7 @@ export const map: IconsMapType<IconNames> = {
 "upload-off": SVG_uploadOff,
 "upload-outline": SVG_uploadOutline,
 "upload": SVG_upload,
+"usb-c-port": SVG_usbCPort,
 "usb-flash-drive-outline": SVG_usbFlashDriveOutline,
 "usb-flash-drive": SVG_usbFlashDrive,
 "usb-port": SVG_usbPort,
@@ -13627,6 +14506,10 @@ export const map: IconsMapType<IconNames> = {
 "vector-intersection": SVG_vectorIntersection,
 "vector-line": SVG_vectorLine,
 "vector-link": SVG_vectorLink,
+"vector-point-edit": SVG_vectorPointEdit,
+"vector-point-minus": SVG_vectorPointMinus,
+"vector-point-plus": SVG_vectorPointPlus,
+"vector-point-select": SVG_vectorPointSelect,
 "vector-point": SVG_vectorPoint,
 "vector-polygon-variant": SVG_vectorPolygonVariant,
 "vector-polygon": SVG_vectorPolygon,
@@ -13650,11 +14533,11 @@ export const map: IconsMapType<IconNames> = {
 "vhs": SVG_vhs,
 "vibrate-off": SVG_vibrateOff,
 "vibrate": SVG_vibrate,
-"video-2d": SVG_video_2d,
-"video-3d-off": SVG_video_3dOff,
-"video-3d-variant": SVG_video_3dVariant,
-"video-3d": SVG_video_3d,
-"video-4k-box": SVG_video_4kBox,
+"video-2d": SVG_video2d,
+"video-3d-off": SVG_video3dOff,
+"video-3d-variant": SVG_video3dVariant,
+"video-3d": SVG_video3d,
+"video-4k-box": SVG_video4kBox,
 "video-account": SVG_videoAccount,
 "video-box-off": SVG_videoBoxOff,
 "video-box": SVG_videoBox,
@@ -13677,6 +14560,7 @@ export const map: IconsMapType<IconNames> = {
 "video-plus-outline": SVG_videoPlusOutline,
 "video-plus": SVG_videoPlus,
 "video-stabilization": SVG_videoStabilization,
+"video-standard-definition": SVG_videoStandardDefinition,
 "video-switch-outline": SVG_videoSwitchOutline,
 "video-switch": SVG_videoSwitch,
 "video-vintage": SVG_videoVintage,
@@ -13705,6 +14589,7 @@ export const map: IconsMapType<IconNames> = {
 "view-day": SVG_viewDay,
 "view-gallery-outline": SVG_viewGalleryOutline,
 "view-gallery": SVG_viewGallery,
+"view-grid-compact": SVG_viewGridCompact,
 "view-grid-outline": SVG_viewGridOutline,
 "view-grid-plus-outline": SVG_viewGridPlusOutline,
 "view-grid-plus": SVG_viewGridPlus,
@@ -13767,6 +14652,8 @@ export const map: IconsMapType<IconNames> = {
 "wall-sconce-round": SVG_wallSconceRound,
 "wall-sconce": SVG_wallSconce,
 "wall": SVG_wall,
+"wallet-bifold-outline": SVG_walletBifoldOutline,
+"wallet-bifold": SVG_walletBifold,
 "wallet-giftcard": SVG_walletGiftcard,
 "wallet-membership": SVG_walletMembership,
 "wallet-outline": SVG_walletOutline,
@@ -13793,6 +14680,7 @@ export const map: IconsMapType<IconNames> = {
 "water-alert-outline": SVG_waterAlertOutline,
 "water-alert": SVG_waterAlert,
 "water-boiler-alert": SVG_waterBoilerAlert,
+"water-boiler-auto": SVG_waterBoilerAuto,
 "water-boiler-off": SVG_waterBoilerOff,
 "water-boiler": SVG_waterBoiler,
 "water-check-outline": SVG_waterCheckOutline,
@@ -13823,6 +14711,9 @@ export const map: IconsMapType<IconNames> = {
 "watering-can-outline": SVG_wateringCanOutline,
 "watering-can": SVG_wateringCan,
 "watermark": SVG_watermark,
+"wave-arrow-down": SVG_waveArrowDown,
+"wave-arrow-up": SVG_waveArrowUp,
+"wave-undercurrent": SVG_waveUndercurrent,
 "wave": SVG_wave,
 "waveform": SVG_waveform,
 "waves-arrow-left": SVG_wavesArrowLeft,
@@ -13834,12 +14725,17 @@ export const map: IconsMapType<IconNames> = {
 "weather-cloudy-arrow-right": SVG_weatherCloudyArrowRight,
 "weather-cloudy-clock": SVG_weatherCloudyClock,
 "weather-cloudy": SVG_weatherCloudy,
+"weather-dust": SVG_weatherDust,
 "weather-fog": SVG_weatherFog,
 "weather-hail": SVG_weatherHail,
 "weather-hazy": SVG_weatherHazy,
+"weather-hurricane-outline": SVG_weatherHurricaneOutline,
 "weather-hurricane": SVG_weatherHurricane,
 "weather-lightning-rainy": SVG_weatherLightningRainy,
 "weather-lightning": SVG_weatherLightning,
+"weather-moonset-down": SVG_weatherMoonsetDown,
+"weather-moonset-up": SVG_weatherMoonsetUp,
+"weather-moonset": SVG_weatherMoonset,
 "weather-night-partly-cloudy": SVG_weatherNightPartlyCloudy,
 "weather-night": SVG_weatherNight,
 "weather-partly-cloudy": SVG_weatherPartlyCloudy,
@@ -13915,22 +14811,22 @@ export const map: IconsMapType<IconNames> = {
 "wifi-remove": SVG_wifiRemove,
 "wifi-settings": SVG_wifiSettings,
 "wifi-star": SVG_wifiStar,
-"wifi-strength-1-alert": SVG_wifiStrength_1Alert,
-"wifi-strength-1-lock-open": SVG_wifiStrength_1LockOpen,
-"wifi-strength-1-lock": SVG_wifiStrength_1Lock,
-"wifi-strength-1": SVG_wifiStrength_1,
-"wifi-strength-2-alert": SVG_wifiStrength_2Alert,
-"wifi-strength-2-lock-open": SVG_wifiStrength_2LockOpen,
-"wifi-strength-2-lock": SVG_wifiStrength_2Lock,
-"wifi-strength-2": SVG_wifiStrength_2,
-"wifi-strength-3-alert": SVG_wifiStrength_3Alert,
-"wifi-strength-3-lock-open": SVG_wifiStrength_3LockOpen,
-"wifi-strength-3-lock": SVG_wifiStrength_3Lock,
-"wifi-strength-3": SVG_wifiStrength_3,
-"wifi-strength-4-alert": SVG_wifiStrength_4Alert,
-"wifi-strength-4-lock-open": SVG_wifiStrength_4LockOpen,
-"wifi-strength-4-lock": SVG_wifiStrength_4Lock,
-"wifi-strength-4": SVG_wifiStrength_4,
+"wifi-strength-1-alert": SVG_wifiStrength1Alert,
+"wifi-strength-1-lock-open": SVG_wifiStrength1LockOpen,
+"wifi-strength-1-lock": SVG_wifiStrength1Lock,
+"wifi-strength-1": SVG_wifiStrength1,
+"wifi-strength-2-alert": SVG_wifiStrength2Alert,
+"wifi-strength-2-lock-open": SVG_wifiStrength2LockOpen,
+"wifi-strength-2-lock": SVG_wifiStrength2Lock,
+"wifi-strength-2": SVG_wifiStrength2,
+"wifi-strength-3-alert": SVG_wifiStrength3Alert,
+"wifi-strength-3-lock-open": SVG_wifiStrength3LockOpen,
+"wifi-strength-3-lock": SVG_wifiStrength3Lock,
+"wifi-strength-3": SVG_wifiStrength3,
+"wifi-strength-4-alert": SVG_wifiStrength4Alert,
+"wifi-strength-4-lock-open": SVG_wifiStrength4LockOpen,
+"wifi-strength-4-lock": SVG_wifiStrength4Lock,
+"wifi-strength-4": SVG_wifiStrength4,
 "wifi-strength-alert-outline": SVG_wifiStrengthAlertOutline,
 "wifi-strength-lock-open-outline": SVG_wifiStrengthLockOpenOutline,
 "wifi-strength-lock-outline": SVG_wifiStrengthLockOutline,
@@ -13954,6 +14850,7 @@ export const map: IconsMapType<IconNames> = {
 "window-open": SVG_windowOpen,
 "window-restore": SVG_windowRestore,
 "window-shutter-alert": SVG_windowShutterAlert,
+"window-shutter-auto": SVG_windowShutterAuto,
 "window-shutter-cog": SVG_windowShutterCog,
 "window-shutter-open": SVG_windowShutterOpen,
 "window-shutter-settings": SVG_windowShutterSettings,
@@ -13966,7 +14863,12 @@ export const map: IconsMapType<IconNames> = {
 "wordpress": SVG_wordpress,
 "wrap-disabled": SVG_wrapDisabled,
 "wrap": SVG_wrap,
+"wrench-check-outline": SVG_wrenchCheckOutline,
+"wrench-check": SVG_wrenchCheck,
+"wrench-clock-outline": SVG_wrenchClockOutline,
 "wrench-clock": SVG_wrenchClock,
+"wrench-cog-outline": SVG_wrenchCogOutline,
+"wrench-cog": SVG_wrenchCog,
 "wrench-outline": SVG_wrenchOutline,
 "wrench": SVG_wrench,
 "xamarin": SVG_xamarin,

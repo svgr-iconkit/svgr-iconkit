@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"device-imac-off","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M7 3h13a1 1 0 0 1 1 1v12c0 .28 -.115 .532 -.3 .713m-3.7 .287h-13a1 1 0 0 1 -1 -1v-12c0 -.276 .112 -.526 .293 -.707"}},{"tagName":"path","attrs":{"d":"M3 13h10m4 0h4"}},{"tagName":"path","attrs":{"d":"M8 21h8"}},{"tagName":"path","attrs":{"d":"M10 17l-.5 4"}},{"tagName":"path","attrs":{"d":"M14 17l.5 4"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

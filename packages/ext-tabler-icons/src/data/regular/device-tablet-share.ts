@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"device-tablet-share","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M12 21h-6a1 1 0 0 1 -1 -1v-16a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v9"}},{"tagName":"path","attrs":{"d":"M12.57 16.178a1 1 0 1 0 .016 1.633"}},{"tagName":"path","attrs":{"d":"M16 22l5 -5"}},{"tagName":"path","attrs":{"d":"M21 21.5v-4.5h-4.5"}}]};
+export default content;

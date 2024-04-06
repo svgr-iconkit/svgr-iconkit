@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"math-off","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M14 19l2.5 -2.5"}},{"tagName":"path","attrs":{"d":"M18.5 14.5l1.5 -1.5"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}},{"tagName":"path","attrs":{"d":"M19 5h-7l-.646 2.262"}},{"tagName":"path","attrs":{"d":"M10.448 10.431l-2.448 8.569l-3 -6h-2"}}]};
+export default content;

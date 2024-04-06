@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shovel-pitchforks","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M5 3h4"}},{"tagName":"path","attrs":{"d":"M7 3v12"}},{"tagName":"path","attrs":{"d":"M4 15h6v3a3 3 0 0 1 -6 0v-3z"}},{"tagName":"path","attrs":{"d":"M14 21v-3a3 3 0 0 1 6 0v3"}},{"tagName":"path","attrs":{"d":"M17 21v-18"}}]};
+export default content;

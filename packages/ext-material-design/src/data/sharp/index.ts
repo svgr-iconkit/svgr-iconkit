@@ -162,13 +162,13 @@ import SVG_borderStyle from "./border-style";
 import SVG_borderTop from "./border-top";
 import SVG_borderVertical from "./border-vertical";
 import SVG_brandingWatermark from "./branding-watermark";
-import SVG_brightness_1 from "./brightness-1";
-import SVG_brightness_2 from "./brightness-2";
-import SVG_brightness_3 from "./brightness-3";
-import SVG_brightness_4 from "./brightness-4";
-import SVG_brightness_5 from "./brightness-5";
-import SVG_brightness_6 from "./brightness-6";
-import SVG_brightness_7 from "./brightness-7";
+import SVG_brightness1 from "./brightness-1";
+import SVG_brightness2 from "./brightness-2";
+import SVG_brightness3 from "./brightness-3";
+import SVG_brightness4 from "./brightness-4";
+import SVG_brightness5 from "./brightness-5";
+import SVG_brightness6 from "./brightness-6";
+import SVG_brightness7 from "./brightness-7";
 import SVG_brightnessAuto from "./brightness-auto";
 import SVG_brightnessHigh from "./brightness-high";
 import SVG_brightnessLow from "./brightness-low";
@@ -285,10 +285,10 @@ import SVG_create from "./create";
 import SVG_createNewFolder from "./create-new-folder";
 import SVG_creditCard from "./credit-card";
 import SVG_crop from "./crop";
-import SVG_crop_16_9 from "./crop-16-9";
-import SVG_crop_3_2 from "./crop-3-2";
-import SVG_crop_5_4 from "./crop-5-4";
-import SVG_crop_7_5 from "./crop-7-5";
+import SVG_crop169 from "./crop-16-9";
+import SVG_crop32 from "./crop-3-2";
+import SVG_crop54 from "./crop-5-4";
+import SVG_crop75 from "./crop-7-5";
 import SVG_cropDin from "./crop-din";
 import SVG_cropFree from "./crop-free";
 import SVG_cropLandscape from "./crop-landscape";
@@ -408,10 +408,10 @@ import SVG_explicit from "./explicit";
 import SVG_explore from "./explore";
 import SVG_exploreOff from "./explore-off";
 import SVG_exposure from "./exposure";
-import SVG_exposureNeg_1 from "./exposure-neg-1";
-import SVG_exposureNeg_2 from "./exposure-neg-2";
-import SVG_exposurePlus_1 from "./exposure-plus-1";
-import SVG_exposurePlus_2 from "./exposure-plus-2";
+import SVG_exposureNeg1 from "./exposure-neg-1";
+import SVG_exposureNeg2 from "./exposure-neg-2";
+import SVG_exposurePlus1 from "./exposure-plus-1";
+import SVG_exposurePlus2 from "./exposure-plus-2";
 import SVG_exposureZero from "./exposure-zero";
 import SVG_extension from "./extension";
 import SVG_face from "./face";
@@ -435,16 +435,16 @@ import SVG_fiberPin from "./fiber-pin";
 import SVG_fiberSmartRecord from "./fiber-smart-record";
 import SVG_fileCopy from "./file-copy";
 import SVG_filter from "./filter";
-import SVG_filter_1 from "./filter-1";
-import SVG_filter_2 from "./filter-2";
-import SVG_filter_3 from "./filter-3";
-import SVG_filter_4 from "./filter-4";
-import SVG_filter_5 from "./filter-5";
-import SVG_filter_6 from "./filter-6";
-import SVG_filter_7 from "./filter-7";
-import SVG_filter_8 from "./filter-8";
-import SVG_filter_9 from "./filter-9";
-import SVG_filter_9Plus from "./filter-9-plus";
+import SVG_filter1 from "./filter-1";
+import SVG_filter2 from "./filter-2";
+import SVG_filter3 from "./filter-3";
+import SVG_filter4 from "./filter-4";
+import SVG_filter5 from "./filter-5";
+import SVG_filter6 from "./filter-6";
+import SVG_filter7 from "./filter-7";
+import SVG_filter8 from "./filter-8";
+import SVG_filter9 from "./filter-9";
+import SVG_filter9Plus from "./filter-9-plus";
 import SVG_filterAlt from "./filter-alt";
 import SVG_filterBAndW from "./filter-b-and-w";
 import SVG_filterCenterFocus from "./filter-center-focus";
@@ -507,9 +507,9 @@ import SVG_formatTextdirectionRToL from "./format-textdirection-r-to-l";
 import SVG_formatUnderlined from "./format-underlined";
 import SVG_forum from "./forum";
 import SVG_forward from "./forward";
-import SVG_forward_10 from "./forward-10";
-import SVG_forward_30 from "./forward-30";
-import SVG_forward_5 from "./forward-5";
+import SVG_forward10 from "./forward-10";
+import SVG_forward30 from "./forward-30";
+import SVG_forward5 from "./forward-5";
 import SVG_forwardToInbox from "./forward-to-inbox";
 import SVG_foundation from "./foundation";
 import SVG_freeBreakfast from "./free-breakfast";
@@ -694,10 +694,10 @@ import SVG_lockOpen from "./lock-open";
 import SVG_lockOutline from "./lock-outline";
 import SVG_login from "./login";
 import SVG_looks from "./looks";
-import SVG_looks_3 from "./looks-3";
-import SVG_looks_4 from "./looks-4";
-import SVG_looks_5 from "./looks-5";
-import SVG_looks_6 from "./looks-6";
+import SVG_looks3 from "./looks-3";
+import SVG_looks4 from "./looks-4";
+import SVG_looks5 from "./looks-5";
+import SVG_looks6 from "./looks-6";
 import SVG_looksOne from "./looks-one";
 import SVG_looksTwo from "./looks-two";
 import SVG_loop from "./loop";
@@ -859,13 +859,13 @@ import SVG_permPhoneMsg from "./perm-phone-msg";
 import SVG_permScanWifi from "./perm-scan-wifi";
 import SVG_person from "./person";
 import SVG_personAdd from "./person-add";
-import SVG_personAddAlt_1 from "./person-add-alt-1";
+import SVG_personAddAlt1 from "./person-add-alt-1";
 import SVG_personAddDisabled from "./person-add-disabled";
 import SVG_personOutline from "./person-outline";
 import SVG_personPin from "./person-pin";
 import SVG_personPinCircle from "./person-pin-circle";
 import SVG_personRemove from "./person-remove";
-import SVG_personRemoveAlt_1 from "./person-remove-alt-1";
+import SVG_personRemoveAlt1 from "./person-remove-alt-1";
 import SVG_personSearch from "./person-search";
 import SVG_personalVideo from "./personal-video";
 import SVG_pestControl from "./pest-control";
@@ -971,9 +971,9 @@ import SVG_reorder from "./reorder";
 import SVG_repeat from "./repeat";
 import SVG_repeatOne from "./repeat-one";
 import SVG_replay from "./replay";
-import SVG_replay_10 from "./replay-10";
-import SVG_replay_30 from "./replay-30";
-import SVG_replay_5 from "./replay-5";
+import SVG_replay10 from "./replay-10";
+import SVG_replay30 from "./replay-30";
+import SVG_replay5 from "./replay-5";
 import SVG_reply from "./reply";
 import SVG_replyAll from "./reply-all";
 import SVG_report from "./report";
@@ -993,7 +993,7 @@ import SVG_roofing from "./roofing";
 import SVG_room from "./room";
 import SVG_roomPreferences from "./room-preferences";
 import SVG_roomService from "./room-service";
-import SVG_rotate_90DegreesCcw from "./rotate-90-degrees-ccw";
+import SVG_rotate90DegreesCcw from "./rotate-90-degrees-ccw";
 import SVG_rotateLeft from "./rotate-left";
 import SVG_rotateRight from "./rotate-right";
 import SVG_roundedCorner from "./rounded-corner";
@@ -1065,14 +1065,14 @@ import SVG_showChart from "./show-chart";
 import SVG_shuffle from "./shuffle";
 import SVG_shutterSpeed from "./shutter-speed";
 import SVG_sick from "./sick";
-import SVG_signalCellular_4Bar from "./signal-cellular-4-bar";
+import SVG_signalCellular4Bar from "./signal-cellular-4-bar";
 import SVG_signalCellularAlt from "./signal-cellular-alt";
-import SVG_signalCellularConnectedNoInternet_4Bar from "./signal-cellular-connected-no-internet-4-bar";
+import SVG_signalCellularConnectedNoInternet4Bar from "./signal-cellular-connected-no-internet-4-bar";
 import SVG_signalCellularNoSim from "./signal-cellular-no-sim";
 import SVG_signalCellularNull from "./signal-cellular-null";
 import SVG_signalCellularOff from "./signal-cellular-off";
-import SVG_signalWifi_4Bar from "./signal-wifi-4-bar";
-import SVG_signalWifi_4BarLock from "./signal-wifi-4-bar-lock";
+import SVG_signalWifi4Bar from "./signal-wifi-4-bar";
+import SVG_signalWifi4BarLock from "./signal-wifi-4-bar-lock";
 import SVG_signalWifiOff from "./signal-wifi-off";
 import SVG_simCard from "./sim-card";
 import SVG_singleBed from "./single-bed";
@@ -1136,7 +1136,7 @@ import SVG_stayCurrentLandscape from "./stay-current-landscape";
 import SVG_stayCurrentPortrait from "./stay-current-portrait";
 import SVG_stayPrimaryLandscape from "./stay-primary-landscape";
 import SVG_stayPrimaryPortrait from "./stay-primary-portrait";
-import SVG_stickyNote_2 from "./sticky-note-2";
+import SVG_stickyNote2 from "./sticky-note-2";
 import SVG_stop from "./stop";
 import SVG_stopCircle from "./stop-circle";
 import SVG_stopScreenShare from "./stop-screen-share";
@@ -1212,8 +1212,8 @@ import SVG_timeToLeave from "./time-to-leave";
 import SVG_timelapse from "./timelapse";
 import SVG_timeline from "./timeline";
 import SVG_timer from "./timer";
-import SVG_timer_10 from "./timer-10";
-import SVG_timer_3 from "./timer-3";
+import SVG_timer10 from "./timer-10";
+import SVG_timer3 from "./timer-3";
 import SVG_timerOff from "./timer-off";
 import SVG_title from "./title";
 import SVG_toc from "./toc";
@@ -1501,13 +1501,13 @@ export const map: IconsMapType<IconNames> = {
 "border-top": SVG_borderTop,
 "border-vertical": SVG_borderVertical,
 "branding-watermark": SVG_brandingWatermark,
-"brightness-1": SVG_brightness_1,
-"brightness-2": SVG_brightness_2,
-"brightness-3": SVG_brightness_3,
-"brightness-4": SVG_brightness_4,
-"brightness-5": SVG_brightness_5,
-"brightness-6": SVG_brightness_6,
-"brightness-7": SVG_brightness_7,
+"brightness-1": SVG_brightness1,
+"brightness-2": SVG_brightness2,
+"brightness-3": SVG_brightness3,
+"brightness-4": SVG_brightness4,
+"brightness-5": SVG_brightness5,
+"brightness-6": SVG_brightness6,
+"brightness-7": SVG_brightness7,
 "brightness-auto": SVG_brightnessAuto,
 "brightness-high": SVG_brightnessHigh,
 "brightness-low": SVG_brightnessLow,
@@ -1624,10 +1624,10 @@ export const map: IconsMapType<IconNames> = {
 "create-new-folder": SVG_createNewFolder,
 "credit-card": SVG_creditCard,
 "crop": SVG_crop,
-"crop-16-9": SVG_crop_16_9,
-"crop-3-2": SVG_crop_3_2,
-"crop-5-4": SVG_crop_5_4,
-"crop-7-5": SVG_crop_7_5,
+"crop-16-9": SVG_crop169,
+"crop-3-2": SVG_crop32,
+"crop-5-4": SVG_crop54,
+"crop-7-5": SVG_crop75,
 "crop-din": SVG_cropDin,
 "crop-free": SVG_cropFree,
 "crop-landscape": SVG_cropLandscape,
@@ -1747,10 +1747,10 @@ export const map: IconsMapType<IconNames> = {
 "explore": SVG_explore,
 "explore-off": SVG_exploreOff,
 "exposure": SVG_exposure,
-"exposure-neg-1": SVG_exposureNeg_1,
-"exposure-neg-2": SVG_exposureNeg_2,
-"exposure-plus-1": SVG_exposurePlus_1,
-"exposure-plus-2": SVG_exposurePlus_2,
+"exposure-neg-1": SVG_exposureNeg1,
+"exposure-neg-2": SVG_exposureNeg2,
+"exposure-plus-1": SVG_exposurePlus1,
+"exposure-plus-2": SVG_exposurePlus2,
 "exposure-zero": SVG_exposureZero,
 "extension": SVG_extension,
 "face": SVG_face,
@@ -1774,16 +1774,16 @@ export const map: IconsMapType<IconNames> = {
 "fiber-smart-record": SVG_fiberSmartRecord,
 "file-copy": SVG_fileCopy,
 "filter": SVG_filter,
-"filter-1": SVG_filter_1,
-"filter-2": SVG_filter_2,
-"filter-3": SVG_filter_3,
-"filter-4": SVG_filter_4,
-"filter-5": SVG_filter_5,
-"filter-6": SVG_filter_6,
-"filter-7": SVG_filter_7,
-"filter-8": SVG_filter_8,
-"filter-9": SVG_filter_9,
-"filter-9-plus": SVG_filter_9Plus,
+"filter-1": SVG_filter1,
+"filter-2": SVG_filter2,
+"filter-3": SVG_filter3,
+"filter-4": SVG_filter4,
+"filter-5": SVG_filter5,
+"filter-6": SVG_filter6,
+"filter-7": SVG_filter7,
+"filter-8": SVG_filter8,
+"filter-9": SVG_filter9,
+"filter-9-plus": SVG_filter9Plus,
 "filter-alt": SVG_filterAlt,
 "filter-b-and-w": SVG_filterBAndW,
 "filter-center-focus": SVG_filterCenterFocus,
@@ -1846,9 +1846,9 @@ export const map: IconsMapType<IconNames> = {
 "format-underlined": SVG_formatUnderlined,
 "forum": SVG_forum,
 "forward": SVG_forward,
-"forward-10": SVG_forward_10,
-"forward-30": SVG_forward_30,
-"forward-5": SVG_forward_5,
+"forward-10": SVG_forward10,
+"forward-30": SVG_forward30,
+"forward-5": SVG_forward5,
 "forward-to-inbox": SVG_forwardToInbox,
 "foundation": SVG_foundation,
 "free-breakfast": SVG_freeBreakfast,
@@ -2033,10 +2033,10 @@ export const map: IconsMapType<IconNames> = {
 "lock-outline": SVG_lockOutline,
 "login": SVG_login,
 "looks": SVG_looks,
-"looks-3": SVG_looks_3,
-"looks-4": SVG_looks_4,
-"looks-5": SVG_looks_5,
-"looks-6": SVG_looks_6,
+"looks-3": SVG_looks3,
+"looks-4": SVG_looks4,
+"looks-5": SVG_looks5,
+"looks-6": SVG_looks6,
 "looks-one": SVG_looksOne,
 "looks-two": SVG_looksTwo,
 "loop": SVG_loop,
@@ -2198,13 +2198,13 @@ export const map: IconsMapType<IconNames> = {
 "perm-scan-wifi": SVG_permScanWifi,
 "person": SVG_person,
 "person-add": SVG_personAdd,
-"person-add-alt-1": SVG_personAddAlt_1,
+"person-add-alt-1": SVG_personAddAlt1,
 "person-add-disabled": SVG_personAddDisabled,
 "person-outline": SVG_personOutline,
 "person-pin": SVG_personPin,
 "person-pin-circle": SVG_personPinCircle,
 "person-remove": SVG_personRemove,
-"person-remove-alt-1": SVG_personRemoveAlt_1,
+"person-remove-alt-1": SVG_personRemoveAlt1,
 "person-search": SVG_personSearch,
 "personal-video": SVG_personalVideo,
 "pest-control": SVG_pestControl,
@@ -2310,9 +2310,9 @@ export const map: IconsMapType<IconNames> = {
 "repeat": SVG_repeat,
 "repeat-one": SVG_repeatOne,
 "replay": SVG_replay,
-"replay-10": SVG_replay_10,
-"replay-30": SVG_replay_30,
-"replay-5": SVG_replay_5,
+"replay-10": SVG_replay10,
+"replay-30": SVG_replay30,
+"replay-5": SVG_replay5,
 "reply": SVG_reply,
 "reply-all": SVG_replyAll,
 "report": SVG_report,
@@ -2332,7 +2332,7 @@ export const map: IconsMapType<IconNames> = {
 "room": SVG_room,
 "room-preferences": SVG_roomPreferences,
 "room-service": SVG_roomService,
-"rotate-90-degrees-ccw": SVG_rotate_90DegreesCcw,
+"rotate-90-degrees-ccw": SVG_rotate90DegreesCcw,
 "rotate-left": SVG_rotateLeft,
 "rotate-right": SVG_rotateRight,
 "rounded-corner": SVG_roundedCorner,
@@ -2404,14 +2404,14 @@ export const map: IconsMapType<IconNames> = {
 "shuffle": SVG_shuffle,
 "shutter-speed": SVG_shutterSpeed,
 "sick": SVG_sick,
-"signal-cellular-4-bar": SVG_signalCellular_4Bar,
+"signal-cellular-4-bar": SVG_signalCellular4Bar,
 "signal-cellular-alt": SVG_signalCellularAlt,
-"signal-cellular-connected-no-internet-4-bar": SVG_signalCellularConnectedNoInternet_4Bar,
+"signal-cellular-connected-no-internet-4-bar": SVG_signalCellularConnectedNoInternet4Bar,
 "signal-cellular-no-sim": SVG_signalCellularNoSim,
 "signal-cellular-null": SVG_signalCellularNull,
 "signal-cellular-off": SVG_signalCellularOff,
-"signal-wifi-4-bar": SVG_signalWifi_4Bar,
-"signal-wifi-4-bar-lock": SVG_signalWifi_4BarLock,
+"signal-wifi-4-bar": SVG_signalWifi4Bar,
+"signal-wifi-4-bar-lock": SVG_signalWifi4BarLock,
 "signal-wifi-off": SVG_signalWifiOff,
 "sim-card": SVG_simCard,
 "single-bed": SVG_singleBed,
@@ -2475,7 +2475,7 @@ export const map: IconsMapType<IconNames> = {
 "stay-current-portrait": SVG_stayCurrentPortrait,
 "stay-primary-landscape": SVG_stayPrimaryLandscape,
 "stay-primary-portrait": SVG_stayPrimaryPortrait,
-"sticky-note-2": SVG_stickyNote_2,
+"sticky-note-2": SVG_stickyNote2,
 "stop": SVG_stop,
 "stop-circle": SVG_stopCircle,
 "stop-screen-share": SVG_stopScreenShare,
@@ -2551,8 +2551,8 @@ export const map: IconsMapType<IconNames> = {
 "timelapse": SVG_timelapse,
 "timeline": SVG_timeline,
 "timer": SVG_timer,
-"timer-10": SVG_timer_10,
-"timer-3": SVG_timer_3,
+"timer-10": SVG_timer10,
+"timer-3": SVG_timer3,
 "timer-off": SVG_timerOff,
 "title": SVG_title,
 "toc": SVG_toc,

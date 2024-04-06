@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"octagon-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M796.7505 895.0005L1075.0004999999999 616.752V223.2495L796.7505 -55.0005H403.2480000000001L124.9995 223.2495V616.752L403.2480000000001 895.0005H796.7505z"}}]};
+export default content;

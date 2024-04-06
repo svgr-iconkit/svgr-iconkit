@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"checkbox-circle-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M600 100C323.85 100 100 323.85 100 600S323.85 1100 600 1100S1100 876.15 1100 600S876.15 100 600 100zM550.15 400L903.65 753.55L832.9499999999999 824.25L550.15 541.4L408.7 682.85L338 612.15L550.15 400z"}}]};
+export const content: IconSVG = {"name":"checkbox-circle-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M600 -80C323.8575 -80 100 143.86 100 420C100 696.1424999999999 323.8575 920 600 920C876.14 920 1100 696.1424999999999 1100 420C1100 143.86 876.14 -80 600 -80zM550.13 220L903.685 573.5535L832.975 644.264L550.13 361.42L408.7105 502.845L337.9995 432.13L550.13 220z"}}]};
 export default content;

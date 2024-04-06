@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"glass-gin","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8 21h8"}},{"tagName":"path","attrs":{"d":"M12 15v6"}},{"tagName":"path","attrs":{"d":"M12 5m-6.5 0a6.5 2 0 1 0 13 0a6.5 2 0 1 0 -13 0"}},{"tagName":"path","attrs":{"d":"M5.75 4.5c-.612 .75 -.75 2 -.75 3.5a7 7 0 0 0 14 0c0 -1.5 -.094 -2.75 -.75 -3.5"}}]};
+export default content;

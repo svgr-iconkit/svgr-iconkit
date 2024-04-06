@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-hbo","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M2 16v-8"}},{"tagName":"path","attrs":{"d":"M6 8v8"}},{"tagName":"path","attrs":{"d":"M2 12h4"}},{"tagName":"path","attrs":{"d":"M9 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8z"}},{"tagName":"path","attrs":{"d":"M19 8a4 4 0 1 1 0 8a4 4 0 0 1 0 -8z"}},{"tagName":"path","attrs":{"d":"M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}}]};
+export default content;

@@ -68,19 +68,19 @@
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
     "simple-line-icons": "^2.5.5",
-    "typescript": "^4.3.4"
+    "typescript": "^5.4.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "iconsmap:upgrade": "yarn add -D simple-line-icons",
-    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:prepare": "rimraf ./src/gen ./src/data",
     "iconsmap:create:regular": "svgr-iconkit convert-svgfont -i dist/fonts -o src/data/regular -p simple-line-icons",
     "iconsmap:create": "npm-run-all iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
-    "compile": "rollup -c",
+    "compile": "rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"
   }

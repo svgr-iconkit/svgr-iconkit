@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sun-moon","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M9.173 14.83a4 4 0 1 1 5.657 -5.657"}},{"tagName":"path","attrs":{"d":"M11.294 12.707l.174 .247a7.5 7.5 0 0 0 8.845 2.492a9 9 0 0 1 -14.671 2.914"}},{"tagName":"path","attrs":{"d":"M3 12h1"}},{"tagName":"path","attrs":{"d":"M12 3v1"}},{"tagName":"path","attrs":{"d":"M5.6 5.6l.7 .7"}},{"tagName":"path","attrs":{"d":"M3 21l18 -18"}}]};
+export default content;

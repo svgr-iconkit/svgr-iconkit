@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"tenge-sign","attrs":{"viewBox":"0 0 384 512"},"data":[{"tagName":"path","attrs":{"d":"M0 64C0 46.33 14.33 32 32 32H352C369.7 32 384 46.33 384 64C384 81.67 369.7 96 352 96H32C14.33 96 0 81.67 0 64zM0 192C0 174.3 14.33 160 32 160H352C369.7 160 384 174.3 384 192C384 209.7 369.7 224 352 224H224V448C224 465.7 209.7 480 192 480C174.3 480 160 465.7 160 448V224H32C14.33 224 0 209.7 0 192z"}}]};
+export const content: IconSVG = {"name":"tenge-sign","attrs":{"viewBox":"0 0 384 512"},"data":[{"tagName":"path","attrs":{"d":"M0 64C0 46.3 14.3 32 32 32H352c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64zM0 192c0-17.7 14.3-32 32-32H192 352c17.7 0 32 14.3 32 32s-14.3 32-32 32H224V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V224H32c-17.7 0-32-14.3-32-32z"}}]};
 export default content;

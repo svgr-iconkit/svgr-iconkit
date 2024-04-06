@@ -19,6 +19,7 @@ import SVG_bank from "./bank";
 import SVG_behanceCircle from "./behance-circle";
 import SVG_behanceSquare from "./behance-square";
 import SVG_bell from "./bell";
+import SVG_bilibili from "./bilibili";
 import SVG_book from "./book";
 import SVG_boxPlot from "./box-plot";
 import SVG_bug from "./bug";
@@ -61,6 +62,7 @@ import SVG_delete from "./delete";
 import SVG_diff from "./diff";
 import SVG_dingtalkCircle from "./dingtalk-circle";
 import SVG_dingtalkSquare from "./dingtalk-square";
+import SVG_discord from "./discord";
 import SVG_dislike from "./dislike";
 import SVG_dollarCircle from "./dollar-circle";
 import SVG_downCircle from "./down-circle";
@@ -136,23 +138,29 @@ import SVG_medicineBox from "./medicine-box";
 import SVG_mediumCircle from "./medium-circle";
 import SVG_mediumSquare from "./medium-square";
 import SVG_meh from "./meh";
+import SVG_merge from "./merge";
 import SVG_message from "./message";
 import SVG_minusCircle from "./minus-circle";
 import SVG_minusSquare from "./minus-square";
 import SVG_mobile from "./mobile";
 import SVG_moneyCollect from "./money-collect";
+import SVG_moon from "./moon";
+import SVG_muted from "./muted";
 import SVG_notification from "./notification";
+import SVG_openAI from "./open-a-i";
 import SVG_pauseCircle from "./pause-circle";
 import SVG_payCircle from "./pay-circle";
 import SVG_phone from "./phone";
 import SVG_picture from "./picture";
 import SVG_pieChart from "./pie-chart";
+import SVG_pinterest from "./pinterest";
 import SVG_playCircle from "./play-circle";
 import SVG_playSquare from "./play-square";
 import SVG_plusCircle from "./plus-circle";
 import SVG_plusSquare from "./plus-square";
 import SVG_poundCircle from "./pound-circle";
 import SVG_printer from "./printer";
+import SVG_product from "./product";
 import SVG_profile from "./profile";
 import SVG_project from "./project";
 import SVG_propertySafety from "./property-safety";
@@ -178,6 +186,7 @@ import SVG_setting from "./setting";
 import SVG_shop from "./shop";
 import SVG_shopping from "./shopping";
 import SVG_signal from "./signal";
+import SVG_signature from "./signature";
 import SVG_sketchCircle from "./sketch-circle";
 import SVG_sketchSquare from "./sketch-square";
 import SVG_skin from "./skin";
@@ -188,10 +197,12 @@ import SVG_sliders from "./sliders";
 import SVG_smile from "./smile";
 import SVG_snippets from "./snippets";
 import SVG_sound from "./sound";
+import SVG_spotify from "./spotify";
 import SVG_star from "./star";
 import SVG_stepBackward from "./step-backward";
 import SVG_stepForward from "./step-forward";
 import SVG_stop from "./stop";
+import SVG_sun from "./sun";
 import SVG_switcher from "./switcher";
 import SVG_tablet from "./tablet";
 import SVG_tag from "./tag";
@@ -199,9 +210,12 @@ import SVG_tags from "./tags";
 import SVG_taobaoCircle from "./taobao-circle";
 import SVG_taobaoSquare from "./taobao-square";
 import SVG_thunderbolt from "./thunderbolt";
+import SVG_tikTok from "./tik-tok";
 import SVG_tool from "./tool";
 import SVG_trademarkCircle from "./trademark-circle";
 import SVG_trophy from "./trophy";
+import SVG_truck from "./truck";
+import SVG_twitch from "./twitch";
 import SVG_twitterCircle from "./twitter-circle";
 import SVG_twitterSquare from "./twitter-square";
 import SVG_unlock from "./unlock";
@@ -211,10 +225,12 @@ import SVG_usb from "./usb";
 import SVG_videoCamera from "./video-camera";
 import SVG_wallet from "./wallet";
 import SVG_warning from "./warning";
+import SVG_wechatWork from "./wechat-work";
 import SVG_wechat from "./wechat";
 import SVG_weiboCircle from "./weibo-circle";
 import SVG_weiboSquare from "./weibo-square";
 import SVG_windows from "./windows";
+import SVG_x from "./x";
 import SVG_yahoo from "./yahoo";
 import SVG_youtube from "./youtube";
 import SVG_yuque from "./yuque";
@@ -222,7 +238,7 @@ import SVG_zhihuCircle from "./zhihu-circle";
 import SVG_zhihuSquare from "./zhihu-square"
 
 // types
-export type IconNames = "account-book" | "alert" | "alipay-circle" | "alipay-square" | "aliwangwang" | "amazon-circle" | "amazon-square" | "android" | "api" | "apple" | "appstore" | "audio" | "backward" | "bank" | "behance-circle" | "behance-square" | "bell" | "book" | "box-plot" | "bug" | "build" | "bulb" | "calculator" | "calendar" | "camera" | "car" | "caret-down" | "caret-left" | "caret-right" | "caret-up" | "carry-out" | "check-circle" | "check-square" | "chrome" | "ci-circle" | "clock-circle" | "close-circle" | "close-square" | "cloud" | "code-sandbox-circle" | "code-sandbox-square" | "code" | "codepen-circle" | "codepen-square" | "compass" | "contacts" | "container" | "control" | "copy" | "copyright-circle" | "credit-card" | "crown" | "customer-service" | "dashboard" | "database" | "delete" | "diff" | "dingtalk-circle" | "dingtalk-square" | "dislike" | "dollar-circle" | "down-circle" | "down-square" | "dribbble-circle" | "dribbble-square" | "dropbox-circle" | "dropbox-square" | "edit" | "environment" | "euro-circle" | "exclamation-circle" | "experiment" | "eye-invisible" | "eye" | "facebook" | "fast-backward" | "fast-forward" | "file-add" | "file-excel" | "file-exclamation" | "file-image" | "file-markdown" | "file-pdf" | "file-ppt" | "file-text" | "file-unknown" | "file-word" | "file-zip" | "file" | "filter" | "fire" | "flag" | "folder-add" | "folder-open" | "folder" | "format-painter" | "forward" | "frown" | "fund" | "funnel-plot" | "gift" | "github" | "gitlab" | "gold" | "golden" | "google-circle" | "google-plus-circle" | "google-plus-square" | "google-square" | "hdd" | "heart" | "highlight" | "home" | "hourglass" | "html5" | "idcard" | "ie-circle" | "ie-square" | "info-circle" | "instagram" | "insurance" | "interaction" | "layout" | "left-circle" | "left-square" | "like" | "linkedin" | "lock" | "mac-command" | "mail" | "medicine-box" | "medium-circle" | "medium-square" | "meh" | "message" | "minus-circle" | "minus-square" | "mobile" | "money-collect" | "notification" | "pause-circle" | "pay-circle" | "phone" | "picture" | "pie-chart" | "play-circle" | "play-square" | "plus-circle" | "plus-square" | "pound-circle" | "printer" | "profile" | "project" | "property-safety" | "pushpin" | "qq-circle" | "qq-square" | "question-circle" | "read" | "reconciliation" | "red-envelope" | "reddit-circle" | "reddit-square" | "rest" | "right-circle" | "right-square" | "robot" | "rocket" | "safety-certificate" | "save" | "schedule" | "security-scan" | "setting" | "shop" | "shopping" | "signal" | "sketch-circle" | "sketch-square" | "skin" | "skype" | "slack-circle" | "slack-square" | "sliders" | "smile" | "snippets" | "sound" | "star" | "step-backward" | "step-forward" | "stop" | "switcher" | "tablet" | "tag" | "tags" | "taobao-circle" | "taobao-square" | "thunderbolt" | "tool" | "trademark-circle" | "trophy" | "twitter-circle" | "twitter-square" | "unlock" | "up-circle" | "up-square" | "usb" | "video-camera" | "wallet" | "warning" | "wechat" | "weibo-circle" | "weibo-square" | "windows" | "yahoo" | "youtube" | "yuque" | "zhihu-circle" | "zhihu-square";
+export type IconNames = "account-book" | "alert" | "alipay-circle" | "alipay-square" | "aliwangwang" | "amazon-circle" | "amazon-square" | "android" | "api" | "apple" | "appstore" | "audio" | "backward" | "bank" | "behance-circle" | "behance-square" | "bell" | "bilibili" | "book" | "box-plot" | "bug" | "build" | "bulb" | "calculator" | "calendar" | "camera" | "car" | "caret-down" | "caret-left" | "caret-right" | "caret-up" | "carry-out" | "check-circle" | "check-square" | "chrome" | "ci-circle" | "clock-circle" | "close-circle" | "close-square" | "cloud" | "code-sandbox-circle" | "code-sandbox-square" | "code" | "codepen-circle" | "codepen-square" | "compass" | "contacts" | "container" | "control" | "copy" | "copyright-circle" | "credit-card" | "crown" | "customer-service" | "dashboard" | "database" | "delete" | "diff" | "dingtalk-circle" | "dingtalk-square" | "discord" | "dislike" | "dollar-circle" | "down-circle" | "down-square" | "dribbble-circle" | "dribbble-square" | "dropbox-circle" | "dropbox-square" | "edit" | "environment" | "euro-circle" | "exclamation-circle" | "experiment" | "eye-invisible" | "eye" | "facebook" | "fast-backward" | "fast-forward" | "file-add" | "file-excel" | "file-exclamation" | "file-image" | "file-markdown" | "file-pdf" | "file-ppt" | "file-text" | "file-unknown" | "file-word" | "file-zip" | "file" | "filter" | "fire" | "flag" | "folder-add" | "folder-open" | "folder" | "format-painter" | "forward" | "frown" | "fund" | "funnel-plot" | "gift" | "github" | "gitlab" | "gold" | "golden" | "google-circle" | "google-plus-circle" | "google-plus-square" | "google-square" | "hdd" | "heart" | "highlight" | "home" | "hourglass" | "html5" | "idcard" | "ie-circle" | "ie-square" | "info-circle" | "instagram" | "insurance" | "interaction" | "layout" | "left-circle" | "left-square" | "like" | "linkedin" | "lock" | "mac-command" | "mail" | "medicine-box" | "medium-circle" | "medium-square" | "meh" | "merge" | "message" | "minus-circle" | "minus-square" | "mobile" | "money-collect" | "moon" | "muted" | "notification" | "open-a-i" | "pause-circle" | "pay-circle" | "phone" | "picture" | "pie-chart" | "pinterest" | "play-circle" | "play-square" | "plus-circle" | "plus-square" | "pound-circle" | "printer" | "product" | "profile" | "project" | "property-safety" | "pushpin" | "qq-circle" | "qq-square" | "question-circle" | "read" | "reconciliation" | "red-envelope" | "reddit-circle" | "reddit-square" | "rest" | "right-circle" | "right-square" | "robot" | "rocket" | "safety-certificate" | "save" | "schedule" | "security-scan" | "setting" | "shop" | "shopping" | "signal" | "signature" | "sketch-circle" | "sketch-square" | "skin" | "skype" | "slack-circle" | "slack-square" | "sliders" | "smile" | "snippets" | "sound" | "spotify" | "star" | "step-backward" | "step-forward" | "stop" | "sun" | "switcher" | "tablet" | "tag" | "tags" | "taobao-circle" | "taobao-square" | "thunderbolt" | "tik-tok" | "tool" | "trademark-circle" | "trophy" | "truck" | "twitch" | "twitter-circle" | "twitter-square" | "unlock" | "up-circle" | "up-square" | "usb" | "video-camera" | "wallet" | "warning" | "wechat-work" | "wechat" | "weibo-circle" | "weibo-square" | "windows" | "x" | "yahoo" | "youtube" | "yuque" | "zhihu-circle" | "zhihu-square";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -243,6 +259,7 @@ export const map: IconsMapType<IconNames> = {
 "behance-circle": SVG_behanceCircle,
 "behance-square": SVG_behanceSquare,
 "bell": SVG_bell,
+"bilibili": SVG_bilibili,
 "book": SVG_book,
 "box-plot": SVG_boxPlot,
 "bug": SVG_bug,
@@ -285,6 +302,7 @@ export const map: IconsMapType<IconNames> = {
 "diff": SVG_diff,
 "dingtalk-circle": SVG_dingtalkCircle,
 "dingtalk-square": SVG_dingtalkSquare,
+"discord": SVG_discord,
 "dislike": SVG_dislike,
 "dollar-circle": SVG_dollarCircle,
 "down-circle": SVG_downCircle,
@@ -360,23 +378,29 @@ export const map: IconsMapType<IconNames> = {
 "medium-circle": SVG_mediumCircle,
 "medium-square": SVG_mediumSquare,
 "meh": SVG_meh,
+"merge": SVG_merge,
 "message": SVG_message,
 "minus-circle": SVG_minusCircle,
 "minus-square": SVG_minusSquare,
 "mobile": SVG_mobile,
 "money-collect": SVG_moneyCollect,
+"moon": SVG_moon,
+"muted": SVG_muted,
 "notification": SVG_notification,
+"open-a-i": SVG_openAI,
 "pause-circle": SVG_pauseCircle,
 "pay-circle": SVG_payCircle,
 "phone": SVG_phone,
 "picture": SVG_picture,
 "pie-chart": SVG_pieChart,
+"pinterest": SVG_pinterest,
 "play-circle": SVG_playCircle,
 "play-square": SVG_playSquare,
 "plus-circle": SVG_plusCircle,
 "plus-square": SVG_plusSquare,
 "pound-circle": SVG_poundCircle,
 "printer": SVG_printer,
+"product": SVG_product,
 "profile": SVG_profile,
 "project": SVG_project,
 "property-safety": SVG_propertySafety,
@@ -402,6 +426,7 @@ export const map: IconsMapType<IconNames> = {
 "shop": SVG_shop,
 "shopping": SVG_shopping,
 "signal": SVG_signal,
+"signature": SVG_signature,
 "sketch-circle": SVG_sketchCircle,
 "sketch-square": SVG_sketchSquare,
 "skin": SVG_skin,
@@ -412,10 +437,12 @@ export const map: IconsMapType<IconNames> = {
 "smile": SVG_smile,
 "snippets": SVG_snippets,
 "sound": SVG_sound,
+"spotify": SVG_spotify,
 "star": SVG_star,
 "step-backward": SVG_stepBackward,
 "step-forward": SVG_stepForward,
 "stop": SVG_stop,
+"sun": SVG_sun,
 "switcher": SVG_switcher,
 "tablet": SVG_tablet,
 "tag": SVG_tag,
@@ -423,9 +450,12 @@ export const map: IconsMapType<IconNames> = {
 "taobao-circle": SVG_taobaoCircle,
 "taobao-square": SVG_taobaoSquare,
 "thunderbolt": SVG_thunderbolt,
+"tik-tok": SVG_tikTok,
 "tool": SVG_tool,
 "trademark-circle": SVG_trademarkCircle,
 "trophy": SVG_trophy,
+"truck": SVG_truck,
+"twitch": SVG_twitch,
 "twitter-circle": SVG_twitterCircle,
 "twitter-square": SVG_twitterSquare,
 "unlock": SVG_unlock,
@@ -435,10 +465,12 @@ export const map: IconsMapType<IconNames> = {
 "video-camera": SVG_videoCamera,
 "wallet": SVG_wallet,
 "warning": SVG_warning,
+"wechat-work": SVG_wechatWork,
 "wechat": SVG_wechat,
 "weibo-circle": SVG_weiboCircle,
 "weibo-square": SVG_weiboSquare,
 "windows": SVG_windows,
+"x": SVG_x,
 "yahoo": SVG_yahoo,
 "youtube": SVG_youtube,
 "yuque": SVG_yuque,

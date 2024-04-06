@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"transaction-rupee","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M21 12h-6h1a3 3 0 0 1 0 6h-1l3 3"}},{"tagName":"path","attrs":{"d":"M15 15h6"}},{"tagName":"path","attrs":{"d":"M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{"tagName":"path","attrs":{"d":"M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}},{"tagName":"path","attrs":{"d":"M7 5h8"}},{"tagName":"path","attrs":{"d":"M7 5v8a3 3 0 0 0 3 3h1"}}]};
+export default content;

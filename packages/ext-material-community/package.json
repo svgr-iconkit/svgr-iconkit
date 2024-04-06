@@ -61,21 +61,21 @@
     "@svgr-iconkit/core": "^0.3.1"
   },
   "devDependencies": {
-    "@mdi/svg": "^6.9.96",
-    "@svgr-iconkit/build-config": "^0.3.1",
+    "@mdi/svg": "^7.4.47",
+    "@svgr-iconkit/build-config": "^0.3.2",
     "@svgr-iconkit/cli": "^0.3.1",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
-    "typescript": "^4.3.4"
+    "typescript": "^5.4.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "iconsmap:upgrade": "yarn add -D @mdi/svg",
-    "iconsmap:prepare": "rimraf ./src/gen; mkdir -p ./src/gen/svgs; mkdir -p ./src/gen/assets/outline; mkdir -p ./src/gen/assets/regular",
+    "iconsmap:prepare": "rimraf ./src/gen ./src/data; mkdir -p ./src/gen/svgs; mkdir -p ./src/gen/assets/outline; mkdir -p ./src/gen/assets/regular",
     "iconsmap:copy:outline": "svgr-iconkit deep-copy -i svg -p @mdi/svg -o src/gen/assets/outline -E '-outline.svg' --remove-name-suffix '-outline'",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -i svg -p @mdi/svg -o src/gen/assets/regular --not-ends-with '-outline.svg'",
     "iconsmap:copy": "npm-run-all iconsmap:copy:regular iconsmap:copy:outline",

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"clock-bill","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M1 11a10 10 0 1 1 19.95 1h-3.7A3.25 3.25 0 0 0 14 15.25v5.3A10 10 0 0 1 1 11Zm9.25 1.5h4a.75.75 0 0 0 0-1.5H11V5.75a.75.75 0 0 0-1.5 0v6c0 .41.34.75.75.75Zm11.5.5h-4.5C16.01 13 15 14 15 15.25v6.5c0 1.24 1 2.25 2.25 2.25h4.5c1.24 0 2.25-1 2.25-2.25v-6.5c0-1.24-1-2.25-2.25-2.25Zm-.25 9h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1Zm0-3h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1Zm0-3h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1Z"}}]};
+export default content;

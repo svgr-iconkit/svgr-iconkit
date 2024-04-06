@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"voice-recognition-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 1050V150H150V1050H1050zM650 900H550V300H650V900zM450 750H350V450H450V750zM850 750H750V450H850V750z"}}]};
+export const content: IconSVG = {"name":"voice-recognition-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1049.99875 870V-30H150.00125V870H1049.99875zM649.99875 720H549.99875V120H649.99875V720zM450.0012499999999 570H350.0012500000001V270H450.0012499999999V570zM849.9987500000001 570H749.99875V270H849.9987500000001V570z"}}]};
 export default content;

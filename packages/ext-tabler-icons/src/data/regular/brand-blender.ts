@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-blender","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M15 14m-6 0a6 5 0 1 0 12 0a6 5 0 1 0 -12 0"}},{"tagName":"path","attrs":{"d":"M15 14m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{"tagName":"path","attrs":{"d":"M3 16l9 -6.5"}},{"tagName":"path","attrs":{"d":"M6 9h9"}},{"tagName":"path","attrs":{"d":"M13 5l5.65 5"}}]};
+export default content;

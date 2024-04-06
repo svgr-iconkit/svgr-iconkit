@@ -162,8 +162,8 @@ import SVG_star from "./star";
 import SVG_symbleFemale from "./symble-female";
 import SVG_symbolMale from "./symbol-male";
 import SVG_target from "./target";
-import SVG_volume_1 from "./volume-1";
-import SVG_volume_2 from "./volume-2";
+import SVG_volume1 from "./volume-1";
+import SVG_volume2 from "./volume-2";
 import SVG_volumeOff from "./volume-off";
 import SVG_phone from "./phone";
 import SVG_menu from "./menu";
@@ -358,8 +358,8 @@ export const map: IconsMapType<IconNames> = {
 "symble-female": SVG_symbleFemale,
 "symbol-male": SVG_symbolMale,
 "target": SVG_target,
-"volume-1": SVG_volume_1,
-"volume-2": SVG_volume_2,
+"volume-1": SVG_volume1,
+"volume-2": SVG_volume2,
 "volume-off": SVG_volumeOff,
 "phone": SVG_phone,
 "menu": SVG_menu,

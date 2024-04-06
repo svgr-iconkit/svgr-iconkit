@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"layout-cell-four-focus-top-left","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.25 3A3.25 3.25 0 0 0 3 6.25v11.5C3 19.55 4.46 21 6.25 21h11.5c1.8 0 3.25-1.46 3.25-3.25V6.25C21 4.45 19.54 3 17.75 3H6.25ZM4.5 12.75h6.75v6.75h-5c-.97 0-1.75-.78-1.75-1.75v-5Zm15 0v5c0 .97-.78 1.75-1.75 1.75h-5v-6.75h6.75Zm-6.75-1.5V4.5h5c.97 0 1.75.78 1.75 1.75v5h-6.75Z"}}]};
+export default content;

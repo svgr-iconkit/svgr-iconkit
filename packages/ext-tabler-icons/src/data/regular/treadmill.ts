@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"treadmill","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M10 3a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"}},{"tagName":"path","attrs":{"d":"M3 14l4 1l.5 -.5"}},{"tagName":"path","attrs":{"d":"M12 18v-3l-3 -2.923l.75 -5.077"}},{"tagName":"path","attrs":{"d":"M6 10v-2l4 -1l2.5 2.5l2.5 .5"}},{"tagName":"path","attrs":{"d":"M21 22a1 1 0 0 0 -1 -1h-16a1 1 0 0 0 -1 1"}},{"tagName":"path","attrs":{"d":"M18 21l1 -11l2 -1"}}]};
+export default content;

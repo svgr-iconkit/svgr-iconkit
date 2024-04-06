@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hand-point","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M11.5 2A2.5 2.5 0 0 0 9 4.5v6.41l-1.5-.57a4.34 4.34 0 0 0-5.38 2c-.3.55-.03 1.22.51 1.46 5.67 2.45 7.46 4.67 8.2 6.28.52 1.16 1.72 2.1 3.17 1.89l3.45-.54a2.75 2.75 0 0 0 2.25-2.05l1.15-4.63a4.75 4.75 0 0 0-3.87-5.84L14 8.44V4.5A2.5 2.5 0 0 0 11.5 2Z"}}]};
+export default content;

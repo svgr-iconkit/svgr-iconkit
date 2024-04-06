@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"corner-right-up-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M690.895 19.99625L240.9015 19.99125L240.9 119.99125L590.895 119.99625L590.9 628.5862500000001L393.4135 431.1012500000001L322.703 501.81075L640.9 820.00875L959.1 501.81075L888.39 431.1012500000001L690.9 628.5887500000001L690.895 19.99625z"}}]};
+export default content;

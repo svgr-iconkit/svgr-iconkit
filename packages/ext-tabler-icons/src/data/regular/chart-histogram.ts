@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chart-histogram","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 3v18h18"}},{"tagName":"path","attrs":{"d":"M20 18v3"}},{"tagName":"path","attrs":{"d":"M16 16v5"}},{"tagName":"path","attrs":{"d":"M12 13v8"}},{"tagName":"path","attrs":{"d":"M8 16v5"}},{"tagName":"path","attrs":{"d":"M3 11c6 0 5 -5 9 -5s3 5 9 5"}}]};
+export default content;

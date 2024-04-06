@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"zodiac-taurus","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M6 3a6 6 0 0 0 12 0"}},{"tagName":"circle","attrs":{"cx":12,"cy":15,"r":6}}]};
+export const content: IconSVG = {"name":"zodiac-taurus","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M6 3a6 6 0 0 0 12 0"}},{"tagName":"path","attrs":{"d":"M12 15m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0"}}]};
 export default content;

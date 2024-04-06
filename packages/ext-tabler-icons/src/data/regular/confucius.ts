@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"confucius","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M9 19l3 2v-18"}},{"tagName":"path","attrs":{"d":"M4 10l8 -2"}},{"tagName":"path","attrs":{"d":"M4 18l8 -10"}},{"tagName":"path","attrs":{"d":"M20 18l-8 -8l8 -4"}}]};
+export default content;

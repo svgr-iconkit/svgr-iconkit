@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"collapse-diagonal-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M749.99825 819.99775H649.99825V469.99675H999.99825V569.99775H820.70825L1035.3532500000001 784.64275L964.64325 855.35325L749.99825 640.70875V819.99775zM200.00225 270.00175H379.29125L164.64675 55.35675L235.35725 -15.35325L450.00225 199.29175V20.00175H550.00325V370.00175H200.00225V270.00175z"}}]};
+export default content;

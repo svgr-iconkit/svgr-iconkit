@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"emoji-meme","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 22a10 10 0 0 1-9.95-11H4v2h1v1h7v-1h2v1h7v-1h.95A10 10 0 0 1 12 22Zm8-16H4a9.99 9.99 0 0 1 16 0ZM7.41 15.66a.75.75 0 0 0-.12 1.05 6 6 0 0 0 9.42 0 .75.75 0 1 0-1.17-.92 4.5 4.5 0 0 1-7.08 0 .75.75 0 0 0-1.05-.13ZM3 7h19v3h-1v2h-1v1h-5v-1h-1v-2h-2v2h-1v1H6v-1H5v-2H4V9H2V8h1V7Zm-2 3V9h1v1H1Zm0 0H0v2h1v-2Zm6-1H6v1h1v1h1v-1H7V9Zm9 0h-1v1h1v1h1v-1h-1V9Z"}}]};
+export default content;

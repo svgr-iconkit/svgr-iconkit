@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"ellipsis-horizontal-circle","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"circle","attrs":{"cx":256,"cy":256,"r":26}},{"tagName":"circle","attrs":{"cx":346,"cy":256,"r":26}},{"tagName":"circle","attrs":{"cx":166,"cy":256,"r":26}},{"tagName":"path","attrs":{"d":"M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z","fill":"none","stroke":"currentColor","stroke-miterlimit":10,"stroke-width":32}}]};
+export const content: IconSVG = {"name":"ellipsis-horizontal-circle","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"path","attrs":{"d":"M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm-90 234a26 26 0 1126-26 26 26 0 01-26 26zm90 0a26 26 0 1126-26 26 26 0 01-26 26zm90 0a26 26 0 1126-26 26 26 0 01-26 26z"}}]};
 export default content;

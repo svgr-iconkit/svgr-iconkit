@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"location-arrow","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M19.96 2.1a1.5 1.5 0 0 1 1.94 1.94l-6.54 17a1.5 1.5 0 0 1-2.85-.16l-1.85-7a.75.75 0 0 0-.53-.54l-7.01-1.85a1.5 1.5 0 0 1-.16-2.85l17-6.54Zm.54 1.4-17 6.54 7.01 1.85c.79.2 1.4.81 1.6 1.6l1.85 7.01 6.54-17Z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"nextjs-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M600 -80C323.8575 -80 100 143.86 100 420C100 696.1424999999999 323.8575 920 600 920C876.14 920 1100 696.1424999999999 1100 420C1100 143.86 876.14 -80 600 -80zM799.995 620H732.495V420H799.995V620zM467.3045 534.5315L770.25 143.105L822.9549999999999 183.5350000000001L484.1405 620H400V220.155H467.3045V534.5315z"}}]};
+export default content;

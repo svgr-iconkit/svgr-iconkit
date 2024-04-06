@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mobiledata-off","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M16 12v-8"}},{"tagName":"path","attrs":{"d":"M8 20v-8"}},{"tagName":"path","attrs":{"d":"M13 7l3 -3l3 3"}},{"tagName":"path","attrs":{"d":"M5 17l3 3l3 -3"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

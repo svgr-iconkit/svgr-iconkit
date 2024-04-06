@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"text-direction-r","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 950V450H450V650A200 200 0 1 0 450 1050H850V950H750V450H650V950H550zM450 950A100 100 0 1 1 450 750V950zM350 350H950V250H350V125L150 300L350 475V350z"}}]};
+export const content: IconSVG = {"name":"text-direction-r","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M600 782.5V282.5H500V482.5C389.543 482.5 300 572.043 300 682.5C300 792.957 389.543 882.5 500 882.5H900V782.5H800V282.5H700V782.5H600zM500 782.5C444.7715 782.5 400 737.7284999999999 400 682.5C400 627.2715 444.7715 582.5 500 582.5V782.5zM400 182.5H1000V82.5H400V-42.5L200 132.5L400 307.5V182.5z"}}]};
 export default content;

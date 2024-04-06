@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"circle-plus","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"circle","attrs":{"cx":12,"cy":12,"r":9}},{"tagName":"line","attrs":{"x1":9,"y1":12,"x2":15,"y2":12}},{"tagName":"line","attrs":{"x1":12,"y1":9,"x2":12,"y2":15}}]};
+export const content: IconSVG = {"name":"circle-plus","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"}},{"tagName":"path","attrs":{"d":"M9 12h6"}},{"tagName":"path","attrs":{"d":"M12 9v6"}}]};
 export default content;

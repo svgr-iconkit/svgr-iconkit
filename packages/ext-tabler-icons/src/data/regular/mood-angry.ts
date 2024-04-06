@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mood-angry","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z"}},{"tagName":"path","attrs":{"d":"M8 9l2 1"}},{"tagName":"path","attrs":{"d":"M16 9l-2 1"}},{"tagName":"path","attrs":{"d":"M14.5 16.05a3.5 3.5 0 0 0 -5 0"}}]};
+export default content;

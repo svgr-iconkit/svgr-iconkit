@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"goblet-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M550 250V505.5500000000001L150 950V1050H1050V950L650 505.5500000000001V250H900V150H300V250H550zM374.5 850H825.4999999999999L915.4999999999998 950H284.5L374.5 850z"}}]};
+export const content: IconSVG = {"name":"goblet-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M550 70V325.5550000000001L150 770V870H1050V770L650 325.5550000000001V70H900V-30H300V70H550zM374.5365 670H825.465L915.465 770H284.536L374.5365 670z"}}]};
 export default content;

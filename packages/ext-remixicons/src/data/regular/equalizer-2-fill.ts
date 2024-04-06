@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"equalizer-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M150 670C150 766.65 228.35 845 325 845C421.65 845 500 766.65 500 670C500 573.35 421.65 495 325 495C228.35 495 150 573.35 150 670zM1000 620H600V720H1000V620zM700 170C700 266.65 778.35 345 875 345C971.65 345 1050 266.65 1050 170C1050 73.35 971.65 -5 875 -5C778.35 -5 700 73.35 700 170zM600 220V120H200V220H600z"}}]};
+export default content;

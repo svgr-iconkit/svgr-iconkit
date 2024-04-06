@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mail-ai","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M10 19h-5a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4"}},{"tagName":"path","attrs":{"d":"M3 7l8 5.345m4 -1.345l6 -4"}},{"tagName":"path","attrs":{"d":"M14 21v-4a2 2 0 1 1 4 0v4"}},{"tagName":"path","attrs":{"d":"M14 19h4"}},{"tagName":"path","attrs":{"d":"M21 15v6"}}]};
+export default content;

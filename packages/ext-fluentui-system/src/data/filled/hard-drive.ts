@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hard-drive","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7.44 4c-.86 0-1.65.5-2.02 1.27l-2.7 5.55c.47-.2.99-.32 1.53-.32h15.5c.54 0 1.06.11 1.52.32l-2.69-5.55A2.25 2.25 0 0 0 16.56 4H7.44Zm12.31 8c1.24 0 2.25 1 2.25 2.25v2.5c0 1.24-1 2.25-2.25 2.25H4.25C3.01 19 2 18 2 16.75v-2.5C2 13.01 3 12 4.25 12h15.5Zm-1.25 4.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mood-wink-2","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z"}},{"tagName":"path","attrs":{"d":"M9 10h-.01"}},{"tagName":"path","attrs":{"d":"M14.5 15a3.5 3.5 0 0 1 -5 0"}},{"tagName":"path","attrs":{"d":"M15.5 8.5l-1.5 1.5l1.5 1.5"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"snowboarding","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M15 3a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"}},{"tagName":"path","attrs":{"d":"M7 19l4 -2.5l-.5 -1.5"}},{"tagName":"path","attrs":{"d":"M16 21l-1 -6l-4.5 -3l3.5 -6"}},{"tagName":"path","attrs":{"d":"M7 9l1.5 -3h5.5l2 4l3 1"}},{"tagName":"path","attrs":{"d":"M3 17c.399 1.154 .899 1.805 1.5 1.951c6 1.464 10.772 2.262 13.5 2.927c1.333 .325 2.333 0 3 -.976"}}]};
+export default content;

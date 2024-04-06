@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"text-direction-horizontal-ltr","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7.75 3a1 1 0 0 1 .92.62l3.75 9a1 1 0 1 1-1.84.76l-1-2.38H5.92l-1 2.38a1 1 0 0 1-1.84-.76l3.75-9A1 1 0 0 1 7.75 3Zm0 3.6-1 2.4h2l-1-2.4Zm9.54-1.3a1 1 0 0 1 1.42 0l1.92 1.93a1 1 0 0 1 0 1.55l-1.92 1.93a1 1 0 0 1-1.42-1.42l.3-.29H13a1 1 0 0 1 0-2h4.59l-.3-.3a1 1 0 0 1 0-1.4Zm1.42 9a1 1 0 0 0-1.42 1.4l.3.3H4a1 1 0 1 0 0 2h13.59l-.3.3a1 1 0 0 0 1.42 1.4l2-2a1 1 0 0 0 0-1.4l-2-2Z"}}]};
+export default content;

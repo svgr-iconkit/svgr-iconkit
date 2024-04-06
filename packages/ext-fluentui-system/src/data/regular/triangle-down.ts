@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"triangle-down","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M2.3 6.37A2.25 2.25 0 0 1 4.25 3h15.5a2.25 2.25 0 0 1 1.94 3.37l-7.74 13.5a2.25 2.25 0 0 1-3.9 0L2.3 6.37ZM4.25 4.5a.75.75 0 0 0-.65 1.12l7.75 13.5c.29.5 1.01.5 1.3 0l7.74-13.5a.75.75 0 0 0-.65-1.12H4.25Z"}}]};
+export default content;

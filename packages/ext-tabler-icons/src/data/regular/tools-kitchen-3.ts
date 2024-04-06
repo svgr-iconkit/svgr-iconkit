@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tools-kitchen-3","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M7 4v17m-3 -17v3a3 3 0 1 0 6 0v-3"}},{"tagName":"path","attrs":{"d":"M17 8m-3 0a3 4 0 1 0 6 0a3 4 0 1 0 -6 0"}},{"tagName":"path","attrs":{"d":"M17 12v9"}}]};
+export default content;

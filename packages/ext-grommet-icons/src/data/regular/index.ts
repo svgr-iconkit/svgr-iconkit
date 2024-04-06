@@ -9,6 +9,7 @@ import SVG_actions from "./actions";
 import SVG_ad from "./ad";
 import SVG_addCircle from "./add-circle";
 import SVG_add from "./add";
+import SVG_adobeCreativeCloud from "./adobe-creative-cloud";
 import SVG_aed from "./aed";
 import SVG_aggregate from "./aggregate";
 import SVG_aidOption from "./aid-option";
@@ -22,6 +23,8 @@ import SVG_anchor from "./anchor";
 import SVG_android from "./android";
 import SVG_announce from "./announce";
 import SVG_appleAppStore from "./apple-app-store";
+import SVG_appleMusic from "./apple-music";
+import SVG_applePodcasts from "./apple-podcasts";
 import SVG_apple from "./apple";
 import SVG_appsRounded from "./apps-rounded";
 import SVG_apps from "./apps";
@@ -55,6 +58,7 @@ import SVG_bottomCorner from "./bottom-corner";
 import SVG_braille from "./braille";
 import SVG_briefcase from "./briefcase";
 import SVG_brush from "./brush";
+import SVG_bucket from "./bucket";
 import SVG_bug from "./bug";
 import SVG_bundle from "./bundle";
 import SVG_bus from "./bus";
@@ -149,6 +153,7 @@ import SVG_diamond from "./diamond";
 import SVG_directions from "./directions";
 import SVG_disabledOutline from "./disabled-outline";
 import SVG_disc from "./disc";
+import SVG_dislikeFill from "./dislike-fill";
 import SVG_dislike from "./dislike";
 import SVG_docker from "./docker";
 import SVG_documentCloud from "./document-cloud";
@@ -240,6 +245,7 @@ import SVG_formLocation from "./form-location";
 import SVG_formLock from "./form-lock";
 import SVG_formNextLink from "./form-next-link";
 import SVG_formNext from "./form-next";
+import SVG_formPin from "./form-pin";
 import SVG_formPreviousLink from "./form-previous-link";
 import SVG_formPrevious from "./form-previous";
 import SVG_formRefresh from "./form-refresh";
@@ -262,6 +268,7 @@ import SVG_gift from "./gift";
 import SVG_github from "./github";
 import SVG_globe from "./globe";
 import SVG_golang from "./golang";
+import SVG_googlePay from "./google-pay";
 import SVG_googlePlay from "./google-play";
 import SVG_googlePlus from "./google-plus";
 import SVG_googleWallet from "./google-wallet";
@@ -274,6 +281,7 @@ import SVG_group from "./group";
 import SVG_grow from "./grow";
 import SVG_hadoop from "./hadoop";
 import SVG_halt from "./halt";
+import SVG_helpBook from "./help-book";
 import SVG_helpOption from "./help-option";
 import SVG_help from "./help";
 import SVG_heroku from "./heroku";
@@ -311,11 +319,13 @@ import SVG_java from "./java";
 import SVG_js from "./js";
 import SVG_key from "./key";
 import SVG_keyboard from "./keyboard";
+import SVG_kubernetes from "./kubernetes";
 import SVG_language from "./language";
 import SVG_lastfm from "./lastfm";
 import SVG_launch from "./launch";
 import SVG_layer from "./layer";
 import SVG_license from "./license";
+import SVG_likeFill from "./like-fill";
 import SVG_like from "./like";
 import SVG_lineChart from "./line-chart";
 import SVG_linkBottom from "./link-bottom";
@@ -346,6 +356,7 @@ import SVG_mastercard from "./mastercard";
 import SVG_medium from "./medium";
 import SVG_memory from "./memory";
 import SVG_menu from "./menu";
+import SVG_meta from "./meta";
 import SVG_microfocus from "./microfocus";
 import SVG_microphone from "./microphone";
 import SVG_money from "./money";
@@ -437,6 +448,7 @@ import SVG_rotateRight from "./rotate-right";
 import SVG_rss from "./rss";
 import SVG_run from "./run";
 import SVG_safariOption from "./safari-option";
+import SVG_samsungPay from "./samsung-pay";
 import SVG_sans from "./sans";
 import SVG_satellite from "./satellite";
 import SVG_save from "./save";
@@ -486,6 +498,7 @@ import SVG_square from "./square";
 import SVG_stackOverflow from "./stack-overflow";
 import SVG_stakeholder from "./stakeholder";
 import SVG_starHalf from "./star-half";
+import SVG_starOutline from "./star-outline";
 import SVG_star from "./star";
 import SVG_statusCriticalSmall from "./status-critical-small";
 import SVG_statusCritical from "./status-critical";
@@ -539,11 +552,12 @@ import SVG_textAlignFull from "./text-align-full";
 import SVG_textAlignLeft from "./text-align-left";
 import SVG_textAlignRight from "./text-align-right";
 import SVG_textWrap from "./text-wrap";
+import SVG_threads from "./threads";
 import SVG_threats from "./threats";
 import SVG_threeDEffects from "./three-d-effects";
 import SVG_threeD from "./three-d";
 import SVG_ticket from "./ticket";
-import SVG_tictok from "./tictok";
+import SVG_tiktok from "./tiktok";
 import SVG_time from "./time";
 import SVG_tip from "./tip";
 import SVG_toast from "./toast";
@@ -561,6 +575,7 @@ import SVG_troubleshoot from "./troubleshoot";
 import SVG_tty from "./tty";
 import SVG_tumblr from "./tumblr";
 import SVG_turbolinux from "./turbolinux";
+import SVG_twitch from "./twitch";
 import SVG_twitter from "./twitter";
 import SVG_ubuntu from "./ubuntu";
 import SVG_underline from "./underline";
@@ -587,6 +602,7 @@ import SVG_userWorker from "./user-worker";
 import SVG_user from "./user";
 import SVG_validate from "./validate";
 import SVG_vend from "./vend";
+import SVG_venmo from "./venmo";
 import SVG_video from "./video";
 import SVG_view from "./view";
 import SVG_vimeo from "./vimeo";
@@ -602,6 +618,8 @@ import SVG_volume from "./volume";
 import SVG_vulnerability from "./vulnerability";
 import SVG_waypoint from "./waypoint";
 import SVG_webcam from "./webcam";
+import SVG_wechat from "./wechat";
+import SVG_whatsapp from "./whatsapp";
 import SVG_wheelchairActive from "./wheelchair-active";
 import SVG_wheelchair from "./wheelchair";
 import SVG_wifiLow from "./wifi-low";
@@ -612,6 +630,8 @@ import SVG_windowsLegacy from "./windows-legacy";
 import SVG_windows from "./windows";
 import SVG_wordpress from "./wordpress";
 import SVG_workshop from "./workshop";
+import SVG_x from "./x";
+import SVG_xing from "./xing";
 import SVG_yoga from "./yoga";
 import SVG_youtube from "./youtube";
 import SVG_zoomIn from "./zoom-in";
@@ -619,7 +639,7 @@ import SVG_zoomOut from "./zoom-out";
 import SVG_zoom from "./zoom"
 
 // types
-export type IconNames = "accessibility" | "achievement" | "action" | "actions" | "ad" | "add-circle" | "add" | "aed" | "aggregate" | "aid-option" | "aid" | "alarm" | "alert" | "amazon" | "amex" | "analytics" | "anchor" | "android" | "announce" | "apple-app-store" | "apple" | "apps-rounded" | "apps" | "archive" | "archlinux" | "article" | "aruba" | "ascend" | "ascending" | "assist-listening" | "atm" | "attachment" | "attraction" | "baby" | "back-ten" | "bar-chart" | "bar" | "basket" | "beacon" | "bike" | "bitcoin" | "blades-horizontal" | "blades-vertical" | "block-quote" | "blog" | "bluetooth" | "bold" | "book" | "bookmark" | "bottom-corner" | "braille" | "briefcase" | "brush" | "bug" | "bundle" | "bus" | "business-service" | "cafeteria" | "calculator" | "calendar" | "camera" | "capacity" | "car" | "caret-down-fill" | "caret-down" | "caret-left-fill" | "caret-next" | "caret-previous" | "caret-right-fill" | "caret-up-fill" | "caret-up" | "cart" | "catalog-option" | "catalog" | "centos" | "certificate" | "channel" | "chapter-add" | "chapter-next" | "chapter-previous" | "chat-option" | "chat" | "checkbox-selected" | "checkbox" | "checkmark" | "chrome" | "circle-alert" | "circle-information" | "circle-play" | "circle-question" | "clear-option" | "clear" | "cli" | "clipboard" | "clock" | "clone" | "close" | "closed-caption" | "cloud-computer" | "cloud-download" | "cloud-software" | "cloud-upload" | "cloud" | "cloudlinux" | "cluster" | "coat-check" | "code-sandbox" | "code" | "codepen" | "coffee" | "columns" | "command" | "compare" | "compass" | "compliance" | "configure" | "connect" | "connectivity" | "console" | "contact-info" | "contact" | "contract" | "copy" | "cpu" | "creative-commons" | "credit-card" | "css3" | "cube" | "cubes" | "currency" | "cursor" | "cut" | "cycle" | "dashboard" | "database" | "debian" | "deliver" | "deploy" | "descend" | "descending" | "desktop" | "detach" | "device" | "diamond" | "directions" | "disabled-outline" | "disc" | "dislike" | "docker" | "document-cloud" | "document-config" | "document-csv" | "document-download" | "document-excel" | "document-image" | "document-locked" | "document-missing" | "document-notes" | "document-outlook" | "document-pdf" | "document-performance" | "document-ppt" | "document-rtf" | "document-sound" | "document-store" | "document-test" | "document-text" | "document-threat" | "document-time" | "document-transfer" | "document-txt" | "document-update" | "document-upload" | "document-user" | "document-verified" | "document-video" | "document-windows" | "document-word" | "document-zip" | "document" | "domain" | "dos" | "down" | "download-option" | "download" | "drag" | "drawer" | "dribbble" | "drive-cage" | "dropbox" | "duplicate" | "dxc" | "ebay" | "edge" | "edit" | "eject" | "elevator" | "emergency" | "emoji" | "empty-circle" | "erase" | "escalator" | "expand" | "ezmeral" | "facebook-option" | "facebook" | "fan-option" | "fan" | "fast-forward" | "favorite" | "fedora" | "figma" | "filter" | "finger-print" | "fireball" | "firefox" | "firewall" | "flag-fill" | "flag" | "flows" | "folder-cycle" | "folder-open" | "folder" | "form-add" | "form-attachment" | "form-calendar" | "form-checkmark" | "form-clock" | "form-close" | "form-cut" | "form-down" | "form-edit" | "form-filter" | "form-folder" | "form-location" | "form-lock" | "form-next-link" | "form-next" | "form-previous-link" | "form-previous" | "form-refresh" | "form-schedule" | "form-search" | "form-subtract" | "form-trash" | "form-up" | "form-upload" | "form-view-hide" | "form-view" | "forward-ten" | "freebsd" | "gallery" | "gamepad" | "gateway" | "gatsbyjs" | "gem" | "gift" | "github" | "globe" | "golang" | "google-play" | "google-plus" | "google-wallet" | "google" | "graph-ql" | "gremlin" | "grid" | "grommet" | "group" | "grow" | "hadoop" | "halt" | "help-option" | "help" | "heroku" | "hide" | "history" | "home-option" | "home-rounded" | "home" | "horton" | "host-maintenance" | "host" | "hp" | "hpe-labs" | "hpe" | "hpi" | "html5" | "ice-cream" | "image" | "impact" | "in-progress" | "inbox" | "indicator" | "info" | "inherit" | "insecure" | "inspect" | "instagram" | "install-option" | "install" | "integration" | "internet-explorer" | "italic" | "iteration" | "java" | "js" | "key" | "keyboard" | "language" | "lastfm" | "launch" | "layer" | "license" | "like" | "line-chart" | "link-bottom" | "link-down" | "link-next" | "link-previous" | "link-top" | "link-up" | "link" | "linkedin-option" | "linkedin" | "list" | "local" | "location-pin" | "location" | "lock" | "login" | "logout" | "lounge" | "magic" | "mail-option" | "mail" | "mandriva" | "manual" | "map-location" | "map" | "mastercard" | "medium" | "memory" | "menu" | "microfocus" | "microphone" | "money" | "monitor" | "monospace" | "moon" | "more-vertical" | "more" | "mouse" | "multimedia" | "multiple" | "music" | "mysql" | "navigate" | "network-drive" | "network" | "new-window" | "new" | "next" | "node" | "nodes" | "norton" | "note" | "notes" | "notification" | "npm" | "object-group" | "object-ungroup" | "offline-storage" | "onedrive" | "opera" | "optimize" | "oracle" | "ordered-list" | "organization" | "overview" | "package" | "paint" | "pan" | "pause-fill" | "pause" | "paypal" | "performance" | "personal-computer" | "phone-flip" | "phone-horizontal" | "phone-vertical" | "phone" | "pie-chart" | "pied-piper" | "pin" | "pinterest" | "plan" | "play-fill" | "play" | "plug" | "pocket" | "power-cycle" | "power-force-shutdown" | "power-reset" | "power-shutdown" | "power" | "previous" | "print" | "product-hunt" | "projects" | "qr" | "radial-selected" | "radial" | "raspberry" | "reactjs" | "reddit" | "redhat" | "redo" | "refresh" | "resources" | "restaurant" | "restroom-men" | "restroom-women" | "restroom" | "resume" | "return" | "revert" | "rewind" | "risk" | "robot" | "rotate-left" | "rotate-right" | "rss" | "run" | "safari-option" | "sans" | "satellite" | "save" | "scan" | "schedule-new" | "schedule-play" | "schedule" | "schedules" | "sco" | "scorecard" | "script" | "sd" | "search-advanced" | "search" | "secure" | "select" | "selection" | "semantics" | "send" | "server-cluster" | "server" | "servers" | "service-play" | "services" | "settings-option" | "share-option" | "share-rounded" | "share" | "shield-security" | "shield" | "shift" | "shop" | "sidebar" | "sign" | "skype" | "slack" | "snapchat" | "solaris" | "sort" | "soundcloud" | "spa" | "spectrum" | "split" | "splits" | "spotify" | "square" | "stack-overflow" | "stakeholder" | "star-half" | "star" | "status-critical-small" | "status-critical" | "status-disabled-small" | "status-disabled" | "status-good-small" | "status-good" | "status-info-small" | "status-info" | "status-placeholder-small" | "status-placeholder" | "status-unknown-small" | "status-unknown" | "status-warning-small" | "status-warning" | "steps-option" | "steps" | "stop-fill" | "stop" | "storage" | "street-view" | "strike-through" | "stripe" | "subscript" | "subtract-circle" | "subtract" | "sun" | "superscript" | "support" | "suse" | "swift" | "swim" | "switch" | "sync" | "system" | "table-add" | "table" | "tag" | "tape-option" | "tape" | "target" | "task" | "tasks" | "technology" | "template" | "terminal" | "test-desktop" | "test" | "text-align-center" | "text-align-full" | "text-align-left" | "text-align-right" | "text-wrap" | "threats" | "three-d-effects" | "three-d" | "ticket" | "tictok" | "time" | "tip" | "toast" | "tools" | "tooltip" | "top-corner" | "train" | "transaction" | "trash" | "tree-option" | "tree" | "trigger" | "trophy" | "troubleshoot" | "tty" | "tumblr" | "turbolinux" | "twitter" | "ubuntu" | "underline" | "undo" | "unlink" | "unlock" | "unordered-list" | "unsorted" | "up" | "update" | "upgrade" | "upload-option" | "upload" | "usb-key" | "user-add" | "user-admin" | "user-expert" | "user-female" | "user-manager" | "user-new" | "user-police" | "user-settings" | "user-worker" | "user" | "validate" | "vend" | "video" | "view" | "vimeo" | "virtual-machine" | "virtual-storage" | "visa" | "vm-maintenance" | "vmware" | "volume-control" | "volume-low" | "volume-mute" | "volume" | "vulnerability" | "waypoint" | "webcam" | "wheelchair-active" | "wheelchair" | "wifi-low" | "wifi-medium" | "wifi-none" | "wifi" | "windows-legacy" | "windows" | "wordpress" | "workshop" | "yoga" | "youtube" | "zoom-in" | "zoom-out" | "zoom";
+export type IconNames = "accessibility" | "achievement" | "action" | "actions" | "ad" | "add-circle" | "add" | "adobe-creative-cloud" | "aed" | "aggregate" | "aid-option" | "aid" | "alarm" | "alert" | "amazon" | "amex" | "analytics" | "anchor" | "android" | "announce" | "apple-app-store" | "apple-music" | "apple-podcasts" | "apple" | "apps-rounded" | "apps" | "archive" | "archlinux" | "article" | "aruba" | "ascend" | "ascending" | "assist-listening" | "atm" | "attachment" | "attraction" | "baby" | "back-ten" | "bar-chart" | "bar" | "basket" | "beacon" | "bike" | "bitcoin" | "blades-horizontal" | "blades-vertical" | "block-quote" | "blog" | "bluetooth" | "bold" | "book" | "bookmark" | "bottom-corner" | "braille" | "briefcase" | "brush" | "bucket" | "bug" | "bundle" | "bus" | "business-service" | "cafeteria" | "calculator" | "calendar" | "camera" | "capacity" | "car" | "caret-down-fill" | "caret-down" | "caret-left-fill" | "caret-next" | "caret-previous" | "caret-right-fill" | "caret-up-fill" | "caret-up" | "cart" | "catalog-option" | "catalog" | "centos" | "certificate" | "channel" | "chapter-add" | "chapter-next" | "chapter-previous" | "chat-option" | "chat" | "checkbox-selected" | "checkbox" | "checkmark" | "chrome" | "circle-alert" | "circle-information" | "circle-play" | "circle-question" | "clear-option" | "clear" | "cli" | "clipboard" | "clock" | "clone" | "close" | "closed-caption" | "cloud-computer" | "cloud-download" | "cloud-software" | "cloud-upload" | "cloud" | "cloudlinux" | "cluster" | "coat-check" | "code-sandbox" | "code" | "codepen" | "coffee" | "columns" | "command" | "compare" | "compass" | "compliance" | "configure" | "connect" | "connectivity" | "console" | "contact-info" | "contact" | "contract" | "copy" | "cpu" | "creative-commons" | "credit-card" | "css3" | "cube" | "cubes" | "currency" | "cursor" | "cut" | "cycle" | "dashboard" | "database" | "debian" | "deliver" | "deploy" | "descend" | "descending" | "desktop" | "detach" | "device" | "diamond" | "directions" | "disabled-outline" | "disc" | "dislike-fill" | "dislike" | "docker" | "document-cloud" | "document-config" | "document-csv" | "document-download" | "document-excel" | "document-image" | "document-locked" | "document-missing" | "document-notes" | "document-outlook" | "document-pdf" | "document-performance" | "document-ppt" | "document-rtf" | "document-sound" | "document-store" | "document-test" | "document-text" | "document-threat" | "document-time" | "document-transfer" | "document-txt" | "document-update" | "document-upload" | "document-user" | "document-verified" | "document-video" | "document-windows" | "document-word" | "document-zip" | "document" | "domain" | "dos" | "down" | "download-option" | "download" | "drag" | "drawer" | "dribbble" | "drive-cage" | "dropbox" | "duplicate" | "dxc" | "ebay" | "edge" | "edit" | "eject" | "elevator" | "emergency" | "emoji" | "empty-circle" | "erase" | "escalator" | "expand" | "ezmeral" | "facebook-option" | "facebook" | "fan-option" | "fan" | "fast-forward" | "favorite" | "fedora" | "figma" | "filter" | "finger-print" | "fireball" | "firefox" | "firewall" | "flag-fill" | "flag" | "flows" | "folder-cycle" | "folder-open" | "folder" | "form-add" | "form-attachment" | "form-calendar" | "form-checkmark" | "form-clock" | "form-close" | "form-cut" | "form-down" | "form-edit" | "form-filter" | "form-folder" | "form-location" | "form-lock" | "form-next-link" | "form-next" | "form-pin" | "form-previous-link" | "form-previous" | "form-refresh" | "form-schedule" | "form-search" | "form-subtract" | "form-trash" | "form-up" | "form-upload" | "form-view-hide" | "form-view" | "forward-ten" | "freebsd" | "gallery" | "gamepad" | "gateway" | "gatsbyjs" | "gem" | "gift" | "github" | "globe" | "golang" | "google-pay" | "google-play" | "google-plus" | "google-wallet" | "google" | "graph-ql" | "gremlin" | "grid" | "grommet" | "group" | "grow" | "hadoop" | "halt" | "help-book" | "help-option" | "help" | "heroku" | "hide" | "history" | "home-option" | "home-rounded" | "home" | "horton" | "host-maintenance" | "host" | "hp" | "hpe-labs" | "hpe" | "hpi" | "html5" | "ice-cream" | "image" | "impact" | "in-progress" | "inbox" | "indicator" | "info" | "inherit" | "insecure" | "inspect" | "instagram" | "install-option" | "install" | "integration" | "internet-explorer" | "italic" | "iteration" | "java" | "js" | "key" | "keyboard" | "kubernetes" | "language" | "lastfm" | "launch" | "layer" | "license" | "like-fill" | "like" | "line-chart" | "link-bottom" | "link-down" | "link-next" | "link-previous" | "link-top" | "link-up" | "link" | "linkedin-option" | "linkedin" | "list" | "local" | "location-pin" | "location" | "lock" | "login" | "logout" | "lounge" | "magic" | "mail-option" | "mail" | "mandriva" | "manual" | "map-location" | "map" | "mastercard" | "medium" | "memory" | "menu" | "meta" | "microfocus" | "microphone" | "money" | "monitor" | "monospace" | "moon" | "more-vertical" | "more" | "mouse" | "multimedia" | "multiple" | "music" | "mysql" | "navigate" | "network-drive" | "network" | "new-window" | "new" | "next" | "node" | "nodes" | "norton" | "note" | "notes" | "notification" | "npm" | "object-group" | "object-ungroup" | "offline-storage" | "onedrive" | "opera" | "optimize" | "oracle" | "ordered-list" | "organization" | "overview" | "package" | "paint" | "pan" | "pause-fill" | "pause" | "paypal" | "performance" | "personal-computer" | "phone-flip" | "phone-horizontal" | "phone-vertical" | "phone" | "pie-chart" | "pied-piper" | "pin" | "pinterest" | "plan" | "play-fill" | "play" | "plug" | "pocket" | "power-cycle" | "power-force-shutdown" | "power-reset" | "power-shutdown" | "power" | "previous" | "print" | "product-hunt" | "projects" | "qr" | "radial-selected" | "radial" | "raspberry" | "reactjs" | "reddit" | "redhat" | "redo" | "refresh" | "resources" | "restaurant" | "restroom-men" | "restroom-women" | "restroom" | "resume" | "return" | "revert" | "rewind" | "risk" | "robot" | "rotate-left" | "rotate-right" | "rss" | "run" | "safari-option" | "samsung-pay" | "sans" | "satellite" | "save" | "scan" | "schedule-new" | "schedule-play" | "schedule" | "schedules" | "sco" | "scorecard" | "script" | "sd" | "search-advanced" | "search" | "secure" | "select" | "selection" | "semantics" | "send" | "server-cluster" | "server" | "servers" | "service-play" | "services" | "settings-option" | "share-option" | "share-rounded" | "share" | "shield-security" | "shield" | "shift" | "shop" | "sidebar" | "sign" | "skype" | "slack" | "snapchat" | "solaris" | "sort" | "soundcloud" | "spa" | "spectrum" | "split" | "splits" | "spotify" | "square" | "stack-overflow" | "stakeholder" | "star-half" | "star-outline" | "star" | "status-critical-small" | "status-critical" | "status-disabled-small" | "status-disabled" | "status-good-small" | "status-good" | "status-info-small" | "status-info" | "status-placeholder-small" | "status-placeholder" | "status-unknown-small" | "status-unknown" | "status-warning-small" | "status-warning" | "steps-option" | "steps" | "stop-fill" | "stop" | "storage" | "street-view" | "strike-through" | "stripe" | "subscript" | "subtract-circle" | "subtract" | "sun" | "superscript" | "support" | "suse" | "swift" | "swim" | "switch" | "sync" | "system" | "table-add" | "table" | "tag" | "tape-option" | "tape" | "target" | "task" | "tasks" | "technology" | "template" | "terminal" | "test-desktop" | "test" | "text-align-center" | "text-align-full" | "text-align-left" | "text-align-right" | "text-wrap" | "threads" | "threats" | "three-d-effects" | "three-d" | "ticket" | "tiktok" | "time" | "tip" | "toast" | "tools" | "tooltip" | "top-corner" | "train" | "transaction" | "trash" | "tree-option" | "tree" | "trigger" | "trophy" | "troubleshoot" | "tty" | "tumblr" | "turbolinux" | "twitch" | "twitter" | "ubuntu" | "underline" | "undo" | "unlink" | "unlock" | "unordered-list" | "unsorted" | "up" | "update" | "upgrade" | "upload-option" | "upload" | "usb-key" | "user-add" | "user-admin" | "user-expert" | "user-female" | "user-manager" | "user-new" | "user-police" | "user-settings" | "user-worker" | "user" | "validate" | "vend" | "venmo" | "video" | "view" | "vimeo" | "virtual-machine" | "virtual-storage" | "visa" | "vm-maintenance" | "vmware" | "volume-control" | "volume-low" | "volume-mute" | "volume" | "vulnerability" | "waypoint" | "webcam" | "wechat" | "whatsapp" | "wheelchair-active" | "wheelchair" | "wifi-low" | "wifi-medium" | "wifi-none" | "wifi" | "windows-legacy" | "windows" | "wordpress" | "workshop" | "x" | "xing" | "yoga" | "youtube" | "zoom-in" | "zoom-out" | "zoom";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -630,6 +650,7 @@ export const map: IconsMapType<IconNames> = {
 "ad": SVG_ad,
 "add-circle": SVG_addCircle,
 "add": SVG_add,
+"adobe-creative-cloud": SVG_adobeCreativeCloud,
 "aed": SVG_aed,
 "aggregate": SVG_aggregate,
 "aid-option": SVG_aidOption,
@@ -643,6 +664,8 @@ export const map: IconsMapType<IconNames> = {
 "android": SVG_android,
 "announce": SVG_announce,
 "apple-app-store": SVG_appleAppStore,
+"apple-music": SVG_appleMusic,
+"apple-podcasts": SVG_applePodcasts,
 "apple": SVG_apple,
 "apps-rounded": SVG_appsRounded,
 "apps": SVG_apps,
@@ -676,6 +699,7 @@ export const map: IconsMapType<IconNames> = {
 "braille": SVG_braille,
 "briefcase": SVG_briefcase,
 "brush": SVG_brush,
+"bucket": SVG_bucket,
 "bug": SVG_bug,
 "bundle": SVG_bundle,
 "bus": SVG_bus,
@@ -770,6 +794,7 @@ export const map: IconsMapType<IconNames> = {
 "directions": SVG_directions,
 "disabled-outline": SVG_disabledOutline,
 "disc": SVG_disc,
+"dislike-fill": SVG_dislikeFill,
 "dislike": SVG_dislike,
 "docker": SVG_docker,
 "document-cloud": SVG_documentCloud,
@@ -861,6 +886,7 @@ export const map: IconsMapType<IconNames> = {
 "form-lock": SVG_formLock,
 "form-next-link": SVG_formNextLink,
 "form-next": SVG_formNext,
+"form-pin": SVG_formPin,
 "form-previous-link": SVG_formPreviousLink,
 "form-previous": SVG_formPrevious,
 "form-refresh": SVG_formRefresh,
@@ -883,6 +909,7 @@ export const map: IconsMapType<IconNames> = {
 "github": SVG_github,
 "globe": SVG_globe,
 "golang": SVG_golang,
+"google-pay": SVG_googlePay,
 "google-play": SVG_googlePlay,
 "google-plus": SVG_googlePlus,
 "google-wallet": SVG_googleWallet,
@@ -895,6 +922,7 @@ export const map: IconsMapType<IconNames> = {
 "grow": SVG_grow,
 "hadoop": SVG_hadoop,
 "halt": SVG_halt,
+"help-book": SVG_helpBook,
 "help-option": SVG_helpOption,
 "help": SVG_help,
 "heroku": SVG_heroku,
@@ -932,11 +960,13 @@ export const map: IconsMapType<IconNames> = {
 "js": SVG_js,
 "key": SVG_key,
 "keyboard": SVG_keyboard,
+"kubernetes": SVG_kubernetes,
 "language": SVG_language,
 "lastfm": SVG_lastfm,
 "launch": SVG_launch,
 "layer": SVG_layer,
 "license": SVG_license,
+"like-fill": SVG_likeFill,
 "like": SVG_like,
 "line-chart": SVG_lineChart,
 "link-bottom": SVG_linkBottom,
@@ -967,6 +997,7 @@ export const map: IconsMapType<IconNames> = {
 "medium": SVG_medium,
 "memory": SVG_memory,
 "menu": SVG_menu,
+"meta": SVG_meta,
 "microfocus": SVG_microfocus,
 "microphone": SVG_microphone,
 "money": SVG_money,
@@ -1058,6 +1089,7 @@ export const map: IconsMapType<IconNames> = {
 "rss": SVG_rss,
 "run": SVG_run,
 "safari-option": SVG_safariOption,
+"samsung-pay": SVG_samsungPay,
 "sans": SVG_sans,
 "satellite": SVG_satellite,
 "save": SVG_save,
@@ -1107,6 +1139,7 @@ export const map: IconsMapType<IconNames> = {
 "stack-overflow": SVG_stackOverflow,
 "stakeholder": SVG_stakeholder,
 "star-half": SVG_starHalf,
+"star-outline": SVG_starOutline,
 "star": SVG_star,
 "status-critical-small": SVG_statusCriticalSmall,
 "status-critical": SVG_statusCritical,
@@ -1160,11 +1193,12 @@ export const map: IconsMapType<IconNames> = {
 "text-align-left": SVG_textAlignLeft,
 "text-align-right": SVG_textAlignRight,
 "text-wrap": SVG_textWrap,
+"threads": SVG_threads,
 "threats": SVG_threats,
 "three-d-effects": SVG_threeDEffects,
 "three-d": SVG_threeD,
 "ticket": SVG_ticket,
-"tictok": SVG_tictok,
+"tiktok": SVG_tiktok,
 "time": SVG_time,
 "tip": SVG_tip,
 "toast": SVG_toast,
@@ -1182,6 +1216,7 @@ export const map: IconsMapType<IconNames> = {
 "tty": SVG_tty,
 "tumblr": SVG_tumblr,
 "turbolinux": SVG_turbolinux,
+"twitch": SVG_twitch,
 "twitter": SVG_twitter,
 "ubuntu": SVG_ubuntu,
 "underline": SVG_underline,
@@ -1208,6 +1243,7 @@ export const map: IconsMapType<IconNames> = {
 "user": SVG_user,
 "validate": SVG_validate,
 "vend": SVG_vend,
+"venmo": SVG_venmo,
 "video": SVG_video,
 "view": SVG_view,
 "vimeo": SVG_vimeo,
@@ -1223,6 +1259,8 @@ export const map: IconsMapType<IconNames> = {
 "vulnerability": SVG_vulnerability,
 "waypoint": SVG_waypoint,
 "webcam": SVG_webcam,
+"wechat": SVG_wechat,
+"whatsapp": SVG_whatsapp,
 "wheelchair-active": SVG_wheelchairActive,
 "wheelchair": SVG_wheelchair,
 "wifi-low": SVG_wifiLow,
@@ -1233,6 +1271,8 @@ export const map: IconsMapType<IconNames> = {
 "windows": SVG_windows,
 "wordpress": SVG_wordpress,
 "workshop": SVG_workshop,
+"x": SVG_x,
+"xing": SVG_xing,
 "yoga": SVG_yoga,
 "youtube": SVG_youtube,
 "zoom-in": SVG_zoomIn,

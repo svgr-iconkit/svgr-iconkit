@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"beaker-add","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M9 4.5v6.24c0 .37-.1.74-.27 1.07L7.53 14h4.5a6.52 6.52 0 0 1 3.09-2.55 2.25 2.25 0 0 1-.12-.71V4.5h1A.75.75 0 0 0 16 3H8a.75.75 0 0 0 0 1.5h1Zm-2.28 11h4.6a6.5 6.5 0 0 0 .7 5.5H6.68a1.75 1.75 0 0 1-1.54-2.59l1.58-2.91ZM17.5 12a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm.5 8.5V18h2.5a.5.5 0 1 0 0-1H18v-2.5a.5.5 0 1 0-1 0V17h-2.5a.5.5 0 0 0 0 1H17v2.5a.5.5 0 1 0 1 0Z"}}]};
+export default content;

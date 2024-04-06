@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"plant-ragweed","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 2a3 3 0 0 0-2.95 3.54A2.5 2.5 0 0 0 7.7 9.75 2.5 2.5 0 0 0 9.5 14h1.75v4.69l-3.47-3.47a.75.75 0 0 0-1.06 1.06l4.53 4.53v1.44a.75.75 0 0 0 1.5 0v-1.44l4.53-4.53a.75.75 0 1 0-1.06-1.06l-3.47 3.47V14h1.75a2.5 2.5 0 0 0 1.79-4.25 2.5 2.5 0 0 0-1.34-4.2A3.01 3.01 0 0 0 12 2Z"}}]};
+export default content;

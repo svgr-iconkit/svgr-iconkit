@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"air-conditioning","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8 16a3 3 0 0 1 -3 3"}},{"tagName":"path","attrs":{"d":"M16 16a3 3 0 0 0 3 3"}},{"tagName":"path","attrs":{"d":"M12 16v4"}},{"tagName":"path","attrs":{"d":"M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"}},{"tagName":"path","attrs":{"d":"M7 13v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3"}}]};
+export default content;

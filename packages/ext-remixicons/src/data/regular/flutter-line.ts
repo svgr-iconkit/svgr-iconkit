@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"flutter-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M729.85 665.8000000000001H871.25L588.4000000000001 382.9000000000001L871.25 100.1000000000001H729.85L447 383L729.85 665.85zM720.15 1099.8H861.5999999999999L295.9000000000001 534.1L225.2 604.8L720.2 1099.8z"}}]};
+export const content: IconSVG = {"name":"flutter-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M781.6129999999999 485.84475H923.038L640.158 202.9647500000002L923.038 -79.84025H781.6129999999999L498.7719999999999 202.99975L781.6129999999999 485.84475zM771.938 919.84025H913.358L347.673 354.1547500000001L276.962 424.86475L771.938 919.84025z"}}]};
 export default content;

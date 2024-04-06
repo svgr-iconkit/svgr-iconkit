@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"microsoft-loop-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1100 420C1100 143.86 876.14 -80 600 -80H333.236C434.2290000000001 -7.395 500 111.1199999999999 500 245H600C696.65 245 775 323.35 775 420C775 516.65 696.65 595 600 595C503.35 595 425 516.65 425 420V245C425 65.505 279.4925 -80 100 -80V420C100 696.1424999999999 323.8575 920 600 920C876.14 920 1100 696.1424999999999 1100 420z"}}]};
+export default content;

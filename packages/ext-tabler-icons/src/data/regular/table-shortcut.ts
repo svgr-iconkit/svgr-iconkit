@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"table-shortcut","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 13v-8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8"}},{"tagName":"path","attrs":{"d":"M3 10h18"}},{"tagName":"path","attrs":{"d":"M10 3v11"}},{"tagName":"path","attrs":{"d":"M2 22l5 -5"}},{"tagName":"path","attrs":{"d":"M7 21.5v-4.5h-4.5"}}]};
+export default content;

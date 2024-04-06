@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-download-off","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M11 12.06v3.03l-3.3-3.3a1 1 0 0 0-1.4 1.42l5 5a1 1 0 0 0 1.4 0l2.23-2.22 4 4.01H5a1 1 0 1 0 0 2h14a1 1 0 0 0 1-.94l.72.72a.75.75 0 0 0 1.06-1.06L3.28 2.22a.75.75 0 1 0-1.06 1.06L11 12.06Zm2.51 2.51-.51.52v-1.03l.51.51Zm3.54-.7-1.42-1.42.66-.66a1 1 0 0 1 1.42 1.42l-.66.66ZM11 7.82l2 2V3a1 1 0 1 0-2 0v4.82Z"}}]};
+export default content;

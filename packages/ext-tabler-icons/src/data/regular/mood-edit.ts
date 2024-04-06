@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mood-edit","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M20.955 11.104a9 9 0 1 0 -9.895 9.847"}},{"tagName":"path","attrs":{"d":"M9 10h.01"}},{"tagName":"path","attrs":{"d":"M15 10h.01"}},{"tagName":"path","attrs":{"d":"M9.5 15c.658 .672 1.56 1 2.5 1c.126 0 .251 -.006 .376 -.018"}},{"tagName":"path","attrs":{"d":"M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z"}}]};
+export default content;

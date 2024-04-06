@@ -32,6 +32,7 @@ import SVG_audioMuted from "./audio-muted";
 import SVG_audio from "./audio";
 import SVG_audit from "./audit";
 import SVG_backward from "./backward";
+import SVG_baidu from "./baidu";
 import SVG_bank from "./bank";
 import SVG_barChart from "./bar-chart";
 import SVG_barcode from "./barcode";
@@ -40,6 +41,7 @@ import SVG_behanceSquare from "./behance-square";
 import SVG_behance from "./behance";
 import SVG_bell from "./bell";
 import SVG_bgColors from "./bg-colors";
+import SVG_bilibili from "./bilibili";
 import SVG_block from "./block";
 import SVG_bold from "./bold";
 import SVG_book from "./book";
@@ -117,10 +119,13 @@ import SVG_diff from "./diff";
 import SVG_dingding from "./dingding";
 import SVG_dingtalk from "./dingtalk";
 import SVG_disconnect from "./disconnect";
+import SVG_discord from "./discord";
 import SVG_dislike from "./dislike";
+import SVG_docker from "./docker";
 import SVG_dollarCircle from "./dollar-circle";
 import SVG_dollar from "./dollar";
 import SVG_dotChart from "./dot-chart";
+import SVG_dotNet from "./dot-net";
 import SVG_doubleLeft from "./double-left";
 import SVG_doubleRight from "./double-right";
 import SVG_downCircle from "./down-circle";
@@ -203,6 +208,7 @@ import SVG_gold from "./gold";
 import SVG_googlePlus from "./google-plus";
 import SVG_google from "./google";
 import SVG_group from "./group";
+import SVG_harmonyOS from "./harmony-o-s";
 import SVG_hdd from "./hdd";
 import SVG_heart from "./heart";
 import SVG_heatMap from "./heat-map";
@@ -227,7 +233,10 @@ import SVG_insurance from "./insurance";
 import SVG_interaction from "./interaction";
 import SVG_issuesClose from "./issues-close";
 import SVG_italic from "./italic";
+import SVG_javaScript from "./java-script";
+import SVG_java from "./java";
 import SVG_key from "./key";
+import SVG_kubernetes from "./kubernetes";
 import SVG_laptop from "./laptop";
 import SVG_layout from "./layout";
 import SVG_leftCircle from "./left-circle";
@@ -239,7 +248,8 @@ import SVG_lineHeight from "./line-height";
 import SVG_line from "./line";
 import SVG_link from "./link";
 import SVG_linkedin from "./linkedin";
-import SVG_loading_3Quarters from "./loading-3-quarters";
+import SVG_linux from "./linux";
+import SVG_loading3Quarters from "./loading-3-quarters";
 import SVG_loading from "./loading";
 import SVG_lock from "./lock";
 import SVG_login from "./login";
@@ -255,6 +265,7 @@ import SVG_menuFold from "./menu-fold";
 import SVG_menuUnfold from "./menu-unfold";
 import SVG_menu from "./menu";
 import SVG_mergeCells from "./merge-cells";
+import SVG_merge from "./merge";
 import SVG_message from "./message";
 import SVG_minusCircle from "./minus-circle";
 import SVG_minusSquare from "./minus-square";
@@ -262,13 +273,16 @@ import SVG_minus from "./minus";
 import SVG_mobile from "./mobile";
 import SVG_moneyCollect from "./money-collect";
 import SVG_monitor from "./monitor";
+import SVG_moon from "./moon";
 import SVG_more from "./more";
+import SVG_muted from "./muted";
 import SVG_nodeCollapse from "./node-collapse";
 import SVG_nodeExpand from "./node-expand";
 import SVG_nodeIndex from "./node-index";
 import SVG_notification from "./notification";
 import SVG_number from "./number";
 import SVG_oneToOne from "./one-to-one";
+import SVG_openAI from "./open-a-i";
 import SVG_orderedList from "./ordered-list";
 import SVG_paperClip from "./paper-clip";
 import SVG_partition from "./partition";
@@ -282,6 +296,7 @@ import SVG_picLeft from "./pic-left";
 import SVG_picRight from "./pic-right";
 import SVG_picture from "./picture";
 import SVG_pieChart from "./pie-chart";
+import SVG_pinterest from "./pinterest";
 import SVG_playCircle from "./play-circle";
 import SVG_playSquare from "./play-square";
 import SVG_plusCircle from "./plus-circle";
@@ -291,11 +306,13 @@ import SVG_poundCircle from "./pound-circle";
 import SVG_pound from "./pound";
 import SVG_poweroff from "./poweroff";
 import SVG_printer from "./printer";
+import SVG_product from "./product";
 import SVG_profile from "./profile";
 import SVG_project from "./project";
 import SVG_propertySafety from "./property-safety";
 import SVG_pullRequest from "./pull-request";
 import SVG_pushpin from "./pushpin";
+import SVG_python from "./python";
 import SVG_qq from "./qq";
 import SVG_qrcode from "./qrcode";
 import SVG_questionCircle from "./question-circle";
@@ -323,6 +340,7 @@ import SVG_rocket from "./rocket";
 import SVG_rollback from "./rollback";
 import SVG_rotateLeft from "./rotate-left";
 import SVG_rotateRight from "./rotate-right";
+import SVG_ruby from "./ruby";
 import SVG_safetyCertificate from "./safety-certificate";
 import SVG_safety from "./safety";
 import SVG_save from "./save";
@@ -340,6 +358,7 @@ import SVG_shop from "./shop";
 import SVG_shoppingCart from "./shopping-cart";
 import SVG_shopping from "./shopping";
 import SVG_shrink from "./shrink";
+import SVG_signature from "./signature";
 import SVG_sisternode from "./sisternode";
 import SVG_sketch from "./sketch";
 import SVG_skin from "./skin";
@@ -355,6 +374,7 @@ import SVG_sortAscending from "./sort-ascending";
 import SVG_sortDescending from "./sort-descending";
 import SVG_sound from "./sound";
 import SVG_splitCells from "./split-cells";
+import SVG_spotify from "./spotify";
 import SVG_star from "./star";
 import SVG_stepBackward from "./step-backward";
 import SVG_stepForward from "./step-forward";
@@ -362,6 +382,7 @@ import SVG_stock from "./stock";
 import SVG_stop from "./stop";
 import SVG_strikethrough from "./strikethrough";
 import SVG_subnode from "./subnode";
+import SVG_sun from "./sun";
 import SVG_swapLeft from "./swap-left";
 import SVG_swapRight from "./swap-right";
 import SVG_swap from "./swap";
@@ -375,6 +396,7 @@ import SVG_taobaoCircle from "./taobao-circle";
 import SVG_taobao from "./taobao";
 import SVG_team from "./team";
 import SVG_thunderbolt from "./thunderbolt";
+import SVG_tikTok from "./tik-tok";
 import SVG_toTop from "./to-top";
 import SVG_tool from "./tool";
 import SVG_trademarkCircle from "./trademark-circle";
@@ -382,6 +404,8 @@ import SVG_trademark from "./trademark";
 import SVG_transaction from "./transaction";
 import SVG_translation from "./translation";
 import SVG_trophy from "./trophy";
+import SVG_truck from "./truck";
+import SVG_twitch from "./twitch";
 import SVG_twitter from "./twitter";
 import SVG_underline from "./underline";
 import SVG_undo from "./undo";
@@ -409,6 +433,7 @@ import SVG_videoCameraAdd from "./video-camera-add";
 import SVG_videoCamera from "./video-camera";
 import SVG_wallet from "./wallet";
 import SVG_warning from "./warning";
+import SVG_wechatWork from "./wechat-work";
 import SVG_wechat from "./wechat";
 import SVG_weiboCircle from "./weibo-circle";
 import SVG_weiboSquare from "./weibo-square";
@@ -417,6 +442,7 @@ import SVG_whatsApp from "./whats-app";
 import SVG_wifi from "./wifi";
 import SVG_windows from "./windows";
 import SVG_woman from "./woman";
+import SVG_x from "./x";
 import SVG_yahoo from "./yahoo";
 import SVG_youtube from "./youtube";
 import SVG_yuque from "./yuque";
@@ -425,7 +451,7 @@ import SVG_zoomIn from "./zoom-in";
 import SVG_zoomOut from "./zoom-out"
 
 // types
-export type IconNames = "account-book" | "aim" | "alert" | "alibaba" | "align-center" | "align-left" | "align-right" | "alipay-circle" | "alipay" | "aliwangwang" | "aliyun" | "amazon" | "android" | "ant-cloud" | "ant-design" | "apartment" | "api" | "apple" | "appstore-add" | "appstore" | "area-chart" | "arrow-down" | "arrow-left" | "arrow-right" | "arrow-up" | "arrows-alt" | "audio-muted" | "audio" | "audit" | "backward" | "bank" | "bar-chart" | "barcode" | "bars" | "behance-square" | "behance" | "bell" | "bg-colors" | "block" | "bold" | "book" | "border-bottom" | "border-horizontal" | "border-inner" | "border-left" | "border-outer" | "border-right" | "border-top" | "border-verticle" | "border" | "borderless-table" | "box-plot" | "branches" | "bug" | "build" | "bulb" | "calculator" | "calendar" | "camera" | "car" | "caret-down" | "caret-left" | "caret-right" | "caret-up" | "carry-out" | "check-circle" | "check-square" | "check" | "chrome" | "ci-circle" | "ci" | "clear" | "clock-circle" | "close-circle" | "close-square" | "close" | "cloud-download" | "cloud-server" | "cloud-sync" | "cloud-upload" | "cloud" | "cluster" | "code-sandbox" | "code" | "codepen-circle" | "codepen" | "coffee" | "column-height" | "column-width" | "comment" | "compass" | "compress" | "console-sql" | "contacts" | "container" | "control" | "copy" | "copyright-circle" | "copyright" | "credit-card" | "crown" | "customer-service" | "dash" | "dashboard" | "database" | "delete-column" | "delete-row" | "delete" | "delivered-procedure" | "deployment-unit" | "desktop" | "diff" | "dingding" | "dingtalk" | "disconnect" | "dislike" | "dollar-circle" | "dollar" | "dot-chart" | "double-left" | "double-right" | "down-circle" | "down-square" | "down" | "download" | "drag" | "dribbble-square" | "dribbble" | "dropbox" | "edit" | "ellipsis" | "enter" | "environment" | "euro-circle" | "euro" | "exception" | "exclamation-circle" | "exclamation" | "expand-alt" | "expand" | "experiment" | "export" | "eye-invisible" | "eye" | "facebook" | "fall" | "fast-backward" | "fast-forward" | "field-binary" | "field-number" | "field-string" | "field-time" | "file-add" | "file-done" | "file-excel" | "file-exclamation" | "file-gif" | "file-image" | "file-jpg" | "file-markdown" | "file-pdf" | "file-ppt" | "file-protect" | "file-search" | "file-sync" | "file-text" | "file-unknown" | "file-word" | "file-zip" | "file" | "filter" | "fire" | "flag" | "folder-add" | "folder-open" | "folder-view" | "folder" | "font-colors" | "font-size" | "fork" | "form" | "format-painter" | "forward" | "frown" | "fullscreen-exit" | "fullscreen" | "function" | "fund-projection-screen" | "fund-view" | "fund" | "funnel-plot" | "gateway" | "gif" | "gift" | "github" | "gitlab" | "global" | "gold" | "google-plus" | "google" | "group" | "hdd" | "heart" | "heat-map" | "highlight" | "history" | "holder" | "home" | "hourglass" | "html5" | "idcard" | "ie" | "import" | "inbox" | "info-circle" | "info" | "insert-row-above" | "insert-row-below" | "insert-row-left" | "insert-row-right" | "instagram" | "insurance" | "interaction" | "issues-close" | "italic" | "key" | "laptop" | "layout" | "left-circle" | "left-square" | "left" | "like" | "line-chart" | "line-height" | "line" | "link" | "linkedin" | "loading-3-quarters" | "loading" | "lock" | "login" | "logout" | "mac-command" | "mail" | "man" | "medicine-box" | "medium-workmark" | "medium" | "meh" | "menu-fold" | "menu-unfold" | "menu" | "merge-cells" | "message" | "minus-circle" | "minus-square" | "minus" | "mobile" | "money-collect" | "monitor" | "more" | "node-collapse" | "node-expand" | "node-index" | "notification" | "number" | "one-to-one" | "ordered-list" | "paper-clip" | "partition" | "pause-circle" | "pause" | "pay-circle" | "percentage" | "phone" | "pic-center" | "pic-left" | "pic-right" | "picture" | "pie-chart" | "play-circle" | "play-square" | "plus-circle" | "plus-square" | "plus" | "pound-circle" | "pound" | "poweroff" | "printer" | "profile" | "project" | "property-safety" | "pull-request" | "pushpin" | "qq" | "qrcode" | "question-circle" | "question" | "radar-chart" | "radius-bottomleft" | "radius-bottomright" | "radius-setting" | "radius-upleft" | "radius-upright" | "read" | "reconciliation" | "red-envelope" | "reddit" | "redo" | "reload" | "rest" | "retweet" | "right-circle" | "right-square" | "right" | "rise" | "robot" | "rocket" | "rollback" | "rotate-left" | "rotate-right" | "safety-certificate" | "safety" | "save" | "scan" | "schedule" | "scissor" | "search" | "security-scan" | "select" | "send" | "setting" | "shake" | "share-alt" | "shop" | "shopping-cart" | "shopping" | "shrink" | "sisternode" | "sketch" | "skin" | "skype" | "slack-square" | "slack" | "sliders" | "small-dash" | "smile" | "snippets" | "solution" | "sort-ascending" | "sort-descending" | "sound" | "split-cells" | "star" | "step-backward" | "step-forward" | "stock" | "stop" | "strikethrough" | "subnode" | "swap-left" | "swap-right" | "swap" | "switcher" | "sync" | "table" | "tablet" | "tag" | "tags" | "taobao-circle" | "taobao" | "team" | "thunderbolt" | "to-top" | "tool" | "trademark-circle" | "trademark" | "transaction" | "translation" | "trophy" | "twitter" | "underline" | "undo" | "ungroup" | "unlock" | "unordered-list" | "up-circle" | "up-square" | "up" | "upload" | "usb" | "user-add" | "user-delete" | "user-switch" | "user" | "usergroup-add" | "usergroup-delete" | "verified" | "vertical-align-bottom" | "vertical-align-middle" | "vertical-align-top" | "vertical-left" | "vertical-right" | "video-camera-add" | "video-camera" | "wallet" | "warning" | "wechat" | "weibo-circle" | "weibo-square" | "weibo" | "whats-app" | "wifi" | "windows" | "woman" | "yahoo" | "youtube" | "yuque" | "zhihu" | "zoom-in" | "zoom-out";
+export type IconNames = "account-book" | "aim" | "alert" | "alibaba" | "align-center" | "align-left" | "align-right" | "alipay-circle" | "alipay" | "aliwangwang" | "aliyun" | "amazon" | "android" | "ant-cloud" | "ant-design" | "apartment" | "api" | "apple" | "appstore-add" | "appstore" | "area-chart" | "arrow-down" | "arrow-left" | "arrow-right" | "arrow-up" | "arrows-alt" | "audio-muted" | "audio" | "audit" | "backward" | "baidu" | "bank" | "bar-chart" | "barcode" | "bars" | "behance-square" | "behance" | "bell" | "bg-colors" | "bilibili" | "block" | "bold" | "book" | "border-bottom" | "border-horizontal" | "border-inner" | "border-left" | "border-outer" | "border-right" | "border-top" | "border-verticle" | "border" | "borderless-table" | "box-plot" | "branches" | "bug" | "build" | "bulb" | "calculator" | "calendar" | "camera" | "car" | "caret-down" | "caret-left" | "caret-right" | "caret-up" | "carry-out" | "check-circle" | "check-square" | "check" | "chrome" | "ci-circle" | "ci" | "clear" | "clock-circle" | "close-circle" | "close-square" | "close" | "cloud-download" | "cloud-server" | "cloud-sync" | "cloud-upload" | "cloud" | "cluster" | "code-sandbox" | "code" | "codepen-circle" | "codepen" | "coffee" | "column-height" | "column-width" | "comment" | "compass" | "compress" | "console-sql" | "contacts" | "container" | "control" | "copy" | "copyright-circle" | "copyright" | "credit-card" | "crown" | "customer-service" | "dash" | "dashboard" | "database" | "delete-column" | "delete-row" | "delete" | "delivered-procedure" | "deployment-unit" | "desktop" | "diff" | "dingding" | "dingtalk" | "disconnect" | "discord" | "dislike" | "docker" | "dollar-circle" | "dollar" | "dot-chart" | "dot-net" | "double-left" | "double-right" | "down-circle" | "down-square" | "down" | "download" | "drag" | "dribbble-square" | "dribbble" | "dropbox" | "edit" | "ellipsis" | "enter" | "environment" | "euro-circle" | "euro" | "exception" | "exclamation-circle" | "exclamation" | "expand-alt" | "expand" | "experiment" | "export" | "eye-invisible" | "eye" | "facebook" | "fall" | "fast-backward" | "fast-forward" | "field-binary" | "field-number" | "field-string" | "field-time" | "file-add" | "file-done" | "file-excel" | "file-exclamation" | "file-gif" | "file-image" | "file-jpg" | "file-markdown" | "file-pdf" | "file-ppt" | "file-protect" | "file-search" | "file-sync" | "file-text" | "file-unknown" | "file-word" | "file-zip" | "file" | "filter" | "fire" | "flag" | "folder-add" | "folder-open" | "folder-view" | "folder" | "font-colors" | "font-size" | "fork" | "form" | "format-painter" | "forward" | "frown" | "fullscreen-exit" | "fullscreen" | "function" | "fund-projection-screen" | "fund-view" | "fund" | "funnel-plot" | "gateway" | "gif" | "gift" | "github" | "gitlab" | "global" | "gold" | "google-plus" | "google" | "group" | "harmony-o-s" | "hdd" | "heart" | "heat-map" | "highlight" | "history" | "holder" | "home" | "hourglass" | "html5" | "idcard" | "ie" | "import" | "inbox" | "info-circle" | "info" | "insert-row-above" | "insert-row-below" | "insert-row-left" | "insert-row-right" | "instagram" | "insurance" | "interaction" | "issues-close" | "italic" | "java-script" | "java" | "key" | "kubernetes" | "laptop" | "layout" | "left-circle" | "left-square" | "left" | "like" | "line-chart" | "line-height" | "line" | "link" | "linkedin" | "linux" | "loading-3-quarters" | "loading" | "lock" | "login" | "logout" | "mac-command" | "mail" | "man" | "medicine-box" | "medium-workmark" | "medium" | "meh" | "menu-fold" | "menu-unfold" | "menu" | "merge-cells" | "merge" | "message" | "minus-circle" | "minus-square" | "minus" | "mobile" | "money-collect" | "monitor" | "moon" | "more" | "muted" | "node-collapse" | "node-expand" | "node-index" | "notification" | "number" | "one-to-one" | "open-a-i" | "ordered-list" | "paper-clip" | "partition" | "pause-circle" | "pause" | "pay-circle" | "percentage" | "phone" | "pic-center" | "pic-left" | "pic-right" | "picture" | "pie-chart" | "pinterest" | "play-circle" | "play-square" | "plus-circle" | "plus-square" | "plus" | "pound-circle" | "pound" | "poweroff" | "printer" | "product" | "profile" | "project" | "property-safety" | "pull-request" | "pushpin" | "python" | "qq" | "qrcode" | "question-circle" | "question" | "radar-chart" | "radius-bottomleft" | "radius-bottomright" | "radius-setting" | "radius-upleft" | "radius-upright" | "read" | "reconciliation" | "red-envelope" | "reddit" | "redo" | "reload" | "rest" | "retweet" | "right-circle" | "right-square" | "right" | "rise" | "robot" | "rocket" | "rollback" | "rotate-left" | "rotate-right" | "ruby" | "safety-certificate" | "safety" | "save" | "scan" | "schedule" | "scissor" | "search" | "security-scan" | "select" | "send" | "setting" | "shake" | "share-alt" | "shop" | "shopping-cart" | "shopping" | "shrink" | "signature" | "sisternode" | "sketch" | "skin" | "skype" | "slack-square" | "slack" | "sliders" | "small-dash" | "smile" | "snippets" | "solution" | "sort-ascending" | "sort-descending" | "sound" | "split-cells" | "spotify" | "star" | "step-backward" | "step-forward" | "stock" | "stop" | "strikethrough" | "subnode" | "sun" | "swap-left" | "swap-right" | "swap" | "switcher" | "sync" | "table" | "tablet" | "tag" | "tags" | "taobao-circle" | "taobao" | "team" | "thunderbolt" | "tik-tok" | "to-top" | "tool" | "trademark-circle" | "trademark" | "transaction" | "translation" | "trophy" | "truck" | "twitch" | "twitter" | "underline" | "undo" | "ungroup" | "unlock" | "unordered-list" | "up-circle" | "up-square" | "up" | "upload" | "usb" | "user-add" | "user-delete" | "user-switch" | "user" | "usergroup-add" | "usergroup-delete" | "verified" | "vertical-align-bottom" | "vertical-align-middle" | "vertical-align-top" | "vertical-left" | "vertical-right" | "video-camera-add" | "video-camera" | "wallet" | "warning" | "wechat-work" | "wechat" | "weibo-circle" | "weibo-square" | "weibo" | "whats-app" | "wifi" | "windows" | "woman" | "x" | "yahoo" | "youtube" | "yuque" | "zhihu" | "zoom-in" | "zoom-out";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -459,6 +485,7 @@ export const map: IconsMapType<IconNames> = {
 "audio": SVG_audio,
 "audit": SVG_audit,
 "backward": SVG_backward,
+"baidu": SVG_baidu,
 "bank": SVG_bank,
 "bar-chart": SVG_barChart,
 "barcode": SVG_barcode,
@@ -467,6 +494,7 @@ export const map: IconsMapType<IconNames> = {
 "behance": SVG_behance,
 "bell": SVG_bell,
 "bg-colors": SVG_bgColors,
+"bilibili": SVG_bilibili,
 "block": SVG_block,
 "bold": SVG_bold,
 "book": SVG_book,
@@ -544,10 +572,13 @@ export const map: IconsMapType<IconNames> = {
 "dingding": SVG_dingding,
 "dingtalk": SVG_dingtalk,
 "disconnect": SVG_disconnect,
+"discord": SVG_discord,
 "dislike": SVG_dislike,
+"docker": SVG_docker,
 "dollar-circle": SVG_dollarCircle,
 "dollar": SVG_dollar,
 "dot-chart": SVG_dotChart,
+"dot-net": SVG_dotNet,
 "double-left": SVG_doubleLeft,
 "double-right": SVG_doubleRight,
 "down-circle": SVG_downCircle,
@@ -630,6 +661,7 @@ export const map: IconsMapType<IconNames> = {
 "google-plus": SVG_googlePlus,
 "google": SVG_google,
 "group": SVG_group,
+"harmony-o-s": SVG_harmonyOS,
 "hdd": SVG_hdd,
 "heart": SVG_heart,
 "heat-map": SVG_heatMap,
@@ -654,7 +686,10 @@ export const map: IconsMapType<IconNames> = {
 "interaction": SVG_interaction,
 "issues-close": SVG_issuesClose,
 "italic": SVG_italic,
+"java-script": SVG_javaScript,
+"java": SVG_java,
 "key": SVG_key,
+"kubernetes": SVG_kubernetes,
 "laptop": SVG_laptop,
 "layout": SVG_layout,
 "left-circle": SVG_leftCircle,
@@ -666,7 +701,8 @@ export const map: IconsMapType<IconNames> = {
 "line": SVG_line,
 "link": SVG_link,
 "linkedin": SVG_linkedin,
-"loading-3-quarters": SVG_loading_3Quarters,
+"linux": SVG_linux,
+"loading-3-quarters": SVG_loading3Quarters,
 "loading": SVG_loading,
 "lock": SVG_lock,
 "login": SVG_login,
@@ -682,6 +718,7 @@ export const map: IconsMapType<IconNames> = {
 "menu-unfold": SVG_menuUnfold,
 "menu": SVG_menu,
 "merge-cells": SVG_mergeCells,
+"merge": SVG_merge,
 "message": SVG_message,
 "minus-circle": SVG_minusCircle,
 "minus-square": SVG_minusSquare,
@@ -689,13 +726,16 @@ export const map: IconsMapType<IconNames> = {
 "mobile": SVG_mobile,
 "money-collect": SVG_moneyCollect,
 "monitor": SVG_monitor,
+"moon": SVG_moon,
 "more": SVG_more,
+"muted": SVG_muted,
 "node-collapse": SVG_nodeCollapse,
 "node-expand": SVG_nodeExpand,
 "node-index": SVG_nodeIndex,
 "notification": SVG_notification,
 "number": SVG_number,
 "one-to-one": SVG_oneToOne,
+"open-a-i": SVG_openAI,
 "ordered-list": SVG_orderedList,
 "paper-clip": SVG_paperClip,
 "partition": SVG_partition,
@@ -709,6 +749,7 @@ export const map: IconsMapType<IconNames> = {
 "pic-right": SVG_picRight,
 "picture": SVG_picture,
 "pie-chart": SVG_pieChart,
+"pinterest": SVG_pinterest,
 "play-circle": SVG_playCircle,
 "play-square": SVG_playSquare,
 "plus-circle": SVG_plusCircle,
@@ -718,11 +759,13 @@ export const map: IconsMapType<IconNames> = {
 "pound": SVG_pound,
 "poweroff": SVG_poweroff,
 "printer": SVG_printer,
+"product": SVG_product,
 "profile": SVG_profile,
 "project": SVG_project,
 "property-safety": SVG_propertySafety,
 "pull-request": SVG_pullRequest,
 "pushpin": SVG_pushpin,
+"python": SVG_python,
 "qq": SVG_qq,
 "qrcode": SVG_qrcode,
 "question-circle": SVG_questionCircle,
@@ -750,6 +793,7 @@ export const map: IconsMapType<IconNames> = {
 "rollback": SVG_rollback,
 "rotate-left": SVG_rotateLeft,
 "rotate-right": SVG_rotateRight,
+"ruby": SVG_ruby,
 "safety-certificate": SVG_safetyCertificate,
 "safety": SVG_safety,
 "save": SVG_save,
@@ -767,6 +811,7 @@ export const map: IconsMapType<IconNames> = {
 "shopping-cart": SVG_shoppingCart,
 "shopping": SVG_shopping,
 "shrink": SVG_shrink,
+"signature": SVG_signature,
 "sisternode": SVG_sisternode,
 "sketch": SVG_sketch,
 "skin": SVG_skin,
@@ -782,6 +827,7 @@ export const map: IconsMapType<IconNames> = {
 "sort-descending": SVG_sortDescending,
 "sound": SVG_sound,
 "split-cells": SVG_splitCells,
+"spotify": SVG_spotify,
 "star": SVG_star,
 "step-backward": SVG_stepBackward,
 "step-forward": SVG_stepForward,
@@ -789,6 +835,7 @@ export const map: IconsMapType<IconNames> = {
 "stop": SVG_stop,
 "strikethrough": SVG_strikethrough,
 "subnode": SVG_subnode,
+"sun": SVG_sun,
 "swap-left": SVG_swapLeft,
 "swap-right": SVG_swapRight,
 "swap": SVG_swap,
@@ -802,6 +849,7 @@ export const map: IconsMapType<IconNames> = {
 "taobao": SVG_taobao,
 "team": SVG_team,
 "thunderbolt": SVG_thunderbolt,
+"tik-tok": SVG_tikTok,
 "to-top": SVG_toTop,
 "tool": SVG_tool,
 "trademark-circle": SVG_trademarkCircle,
@@ -809,6 +857,8 @@ export const map: IconsMapType<IconNames> = {
 "transaction": SVG_transaction,
 "translation": SVG_translation,
 "trophy": SVG_trophy,
+"truck": SVG_truck,
+"twitch": SVG_twitch,
 "twitter": SVG_twitter,
 "underline": SVG_underline,
 "undo": SVG_undo,
@@ -836,6 +886,7 @@ export const map: IconsMapType<IconNames> = {
 "video-camera": SVG_videoCamera,
 "wallet": SVG_wallet,
 "warning": SVG_warning,
+"wechat-work": SVG_wechatWork,
 "wechat": SVG_wechat,
 "weibo-circle": SVG_weiboCircle,
 "weibo-square": SVG_weiboSquare,
@@ -844,6 +895,7 @@ export const map: IconsMapType<IconNames> = {
 "wifi": SVG_wifi,
 "windows": SVG_windows,
 "woman": SVG_woman,
+"x": SVG_x,
 "yahoo": SVG_yahoo,
 "youtube": SVG_youtube,
 "yuque": SVG_yuque,

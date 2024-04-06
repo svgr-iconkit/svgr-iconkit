@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"ease-in-out-control-points","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M17 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0z"}},{"tagName":"path","attrs":{"d":"M17 20h-2"}},{"tagName":"path","attrs":{"d":"M7 4a2 2 0 1 1 -4 0a2 2 0 0 1 4 0z"}},{"tagName":"path","attrs":{"d":"M7 4h2"}},{"tagName":"path","attrs":{"d":"M14 4h-2"}},{"tagName":"path","attrs":{"d":"M12 20h-2"}},{"tagName":"path","attrs":{"d":"M3 20c8 0 10 -16 18 -16"}}]};
+export default content;

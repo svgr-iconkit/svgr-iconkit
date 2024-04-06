@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"subtract-parentheses","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.67 6.04a1 1 0 1 0-1.34-1.5 9.98 9.98 0 0 0 .38 15.24 1 1 0 0 0 1.26-1.56 7.98 7.98 0 0 1-.3-12.18Zm12-1.5a1 1 0 1 0-1.34 1.5 7.98 7.98 0 0 1 0 11.92 1 1 0 0 0 1.34 1.5 9.98 9.98 0 0 0 0-14.91ZM7 12a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Z"}}]};
+export default content;

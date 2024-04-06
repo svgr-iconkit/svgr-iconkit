@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-vite","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M10 4.5l6 -1.5l-2 6.5l2 -.5l-4 7v-5l-3 1z"}},{"tagName":"path","attrs":{"d":"M15 6.5l7 -1.5l-10 17l-10 -17l7.741 1.5"}}]};
+export default content;

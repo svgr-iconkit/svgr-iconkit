@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"clock-cancel","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M20.997 12.25a9 9 0 1 0 -8.718 8.745"}},{"tagName":"path","attrs":{"d":"M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}},{"tagName":"path","attrs":{"d":"M17 21l4 -4"}},{"tagName":"path","attrs":{"d":"M12 7v5l2 2"}}]};
+export default content;

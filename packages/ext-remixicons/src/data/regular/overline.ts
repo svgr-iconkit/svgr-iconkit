@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"overline","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M762.2950000000001 145H437.7035L357.7035 -55H250L550 695H650L950 -55H842.2950000000001L762.2950000000001 145zM722.295 245L600 550.742L477.7035 245H722.295zM200 895H1000V795H200V895z"}}]};
+export default content;

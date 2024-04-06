@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"grid-goldenratio","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 10h18"}},{"tagName":"path","attrs":{"d":"M3 14h18"}},{"tagName":"path","attrs":{"d":"M10 3v18"}},{"tagName":"path","attrs":{"d":"M14 3v18"}}]};
+export default content;

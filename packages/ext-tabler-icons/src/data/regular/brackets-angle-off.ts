@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brackets-angle-off","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8 4h.01"}},{"tagName":"path","attrs":{"d":"M6.453 6.474l-3.453 5.526l5 8"}},{"tagName":"path","attrs":{"d":"M16 4l5 8l-1.917 3.067"}},{"tagName":"path","attrs":{"d":"M17.535 17.544l-1.535 2.456"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

@@ -70,20 +70,20 @@
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
-    "typescript": "^4.3.4"
+    "typescript": "^5.4.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "iconsmap:upgrade": "yarn add -D evil-icons",
-    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:prepare": "rimraf ./src/gen ./src/data",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -i assets/icons -o ./src/gen/assets/regular/ -p evil-icons --remove-name-prefix 'ei-'",
     "iconsmap:create:regular": "svgr-iconkit convert-data -i ./src/gen/assets/regular/ -o ./src/data/regular/ --fill-color 'currentColor'",
     "iconsmap:create": "npm-run-all iconsmap:copy:regular iconsmap:create:regular",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
-    "compile": "rollup -c",
+    "compile": "rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"
   }

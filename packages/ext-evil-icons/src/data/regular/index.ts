@@ -62,8 +62,8 @@ import SVG_scYoutube from "./sc-youtube";
 import SVG_search from "./search";
 import SVG_shareApple from "./share-apple";
 import SVG_shareGoogle from "./share-google";
-import SVG_spinner_2 from "./spinner-2";
-import SVG_spinner_3 from "./spinner-3";
+import SVG_spinner2 from "./spinner-2";
+import SVG_spinner3 from "./spinner-3";
 import SVG_spinner from "./spinner";
 import SVG_star from "./star";
 import SVG_tag from "./tag";
@@ -138,8 +138,8 @@ export const map: IconsMapType<IconNames> = {
 "search": SVG_search,
 "share-apple": SVG_shareApple,
 "share-google": SVG_shareGoogle,
-"spinner-2": SVG_spinner_2,
-"spinner-3": SVG_spinner_3,
+"spinner-2": SVG_spinner2,
+"spinner-3": SVG_spinner3,
 "spinner": SVG_spinner,
 "star": SVG_star,
 "tag": SVG_tag,

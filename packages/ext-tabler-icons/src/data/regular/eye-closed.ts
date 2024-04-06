@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"eye-closed","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M21 9c-2.4 2.667 -5.4 4 -9 4c-3.6 0 -6.6 -1.333 -9 -4"}},{"tagName":"path","attrs":{"d":"M3 15l2.5 -3.8"}},{"tagName":"path","attrs":{"d":"M21 14.976l-2.492 -3.776"}},{"tagName":"path","attrs":{"d":"M9 17l.5 -4"}},{"tagName":"path","attrs":{"d":"M15 17l-.5 -4"}}]};
+export default content;

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"credit-card-clock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M2 8.25C2 6.45 3.46 5 5.25 5h13.5C20.55 5 22 6.46 22 8.25V9.5H2V8.25zM11.17 19H5.25A3.25 3.25 0 012 15.75V11h15.5a6.5 6.5 0 00-6.33 8zm6.33-7a5.5 5.5 0 110 11 5.5 5.5 0 010-11zm2 5.5h-2V15a.5.5 0 00-1 0v3c0 .28.22.5.5.5h2.5a.5.5 0 000-1z"}}]};
+export const content: IconSVG = {"name":"credit-card-clock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M5.25 5A3.25 3.25 0 0 0 2 8.25V9.5h20V8.25C22 6.45 20.54 5 18.75 5H5.25Zm0 14h5.92a6.52 6.52 0 0 1 6.33-8H2v4.75C2 17.55 3.46 19 5.25 19ZM23 17.5a5.5 5.5 0 1 0-11 0 5.5 5.5 0 0 0 11 0ZM17.5 14c.28 0 .5.22.5.5V17h2a.5.5 0 0 1 0 1h-2.5a.5.5 0 0 1-.5-.5v-3c0-.28.22-.5.5-.5Z"}}]};
 export default content;

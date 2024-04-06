@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"restaurant-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 1100V100H950V500H800V850A250 250 0 0 0 1050 1100zM450 505V100H350V505A250.09999999999997 250.09999999999997 0 0 0 150 750V1050H250V700H350V1050H450V700H550V1050H650V750A250.09999999999997 250.09999999999997 0 0 0 450 505z"}}]};
+export const content: IconSVG = {"name":"restaurant-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1050 920V-80H950V320H800V670C800 808.071 911.93 920 1050 920zM450 325V-80H350V325C235.888 348.165 150 449.05 150 570V870H250V520H350V870H450V520H550V870H650V570C650 449.05 564.11 348.165 450 325z"}}]};
 export default content;
