@@ -1,12 +1,11 @@
-import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
-import sourceMaps from 'rollup-plugin-sourcemaps'
 import json from '@rollup/plugin-json'
-import external from 'rollup-plugin-peer-deps-external'
-import typescript from 'rollup-plugin-typescript2'
-import { terser } from 'rollup-plugin-terser'
-import { camelCase } from 'lodash'
+import { nodeResolve as resolve } from '@rollup/plugin-node-resolve'
 import { rollupPlugins } from '@svgr-iconkit/build-config'
+import { camelCase } from 'lodash'
+import external from 'rollup-plugin-peer-deps-external'
+import { terser } from 'rollup-plugin-terser'
+import typescript from 'rollup-plugin-typescript2'
 
 const pkg = require('./package.json')
 
@@ -17,15 +16,6 @@ const globals = {
   'react-native': 'ReactNative',
   'react-native-svg': 'ReactNativeSVG',
 }
-const packageBasedSourcemapPathTransform = (packageName, relativeSourcePath) => {
-  const output = String(relativeSourcePath).replace(/\.\.\/(src|node_modules)/g, `${packageName}/$1`)
-  // console.log("package=%s, relative=%s, path=%s", packageName, relativeSourcePath, output);
-  return output
-}
-
-const sourcemapPathTransform = (relativeSourcePath, sourcemapPath) =>
-  packageBasedSourcemapPathTransform(pkg.name, relativeSourcePath, sourcemapPath)
-
 const defaultExport = [
   {
     input: ['src/web/index.ts'],
@@ -34,8 +24,7 @@ const defaultExport = [
         file: './lib/cjs/index.js',
         name: camelCase(pkg.name),
         format: 'commonjs',
-        sourcemap: true,
-        sourcemapPathTransform,
+        sourcemap: false,
         globals,
         exports: 'named',
         plugins: [rollupPlugins.rnAlias({ groupName: 'web' })],
@@ -43,8 +32,7 @@ const defaultExport = [
       {
         file: './lib/esm/index.js',
         format: 'es',
-        sourcemap: true,
-        sourcemapPathTransform,
+        sourcemap: false,
         globals,
         plugins: [rollupPlugins.rnAlias({ groupName: 'web' })],
       },
@@ -55,8 +43,6 @@ const defaultExport = [
       include: 'src/**',
     },
     plugins: [
-      sourceMaps(),
-
       external({}),
       // Compile TypeScript files
       typescript({ useTsconfigDeclarationDir: true }),
@@ -69,7 +55,6 @@ const defaultExport = [
       // https://github.com/rollup/rollup-plugin-node-resolve#usage
       resolve(),
       terser(),
-
     ],
   },
   {
@@ -102,7 +87,6 @@ const defaultExport = [
       // which external modules to include in the bundle
       // https://github.com/rollup/rollup-plugin-node-resolve#usage
       resolve(),
-
     ],
   },
   {
@@ -112,8 +96,7 @@ const defaultExport = [
         dir: './native/lib/cjs',
         name: camelCase(pkg.name),
         format: 'commonjs',
-        sourcemap: true,
-        sourcemapPathTransform,
+        sourcemap: false,
         globals,
         exports: 'named',
         plugins: [rollupPlugins.rnAlias({ path: '../../../', groupName: 'native' })],
@@ -121,8 +104,7 @@ const defaultExport = [
       {
         dir: './native/lib/esm',
         format: 'es',
-        sourcemap: true,
-        sourcemapPathTransform,
+        sourcemap: false,
         globals,
         plugins: [rollupPlugins.rnAlias({ path: '../../../', groupName: 'native' })],
       },
@@ -133,8 +115,6 @@ const defaultExport = [
       include: 'src/**',
     },
     plugins: [
-      sourceMaps(),
-
       external({}),
       // Compile TypeScript files
       typescript({ useTsconfigDeclarationDir: true }),
