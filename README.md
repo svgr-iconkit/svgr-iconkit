@@ -15,6 +15,5 @@ Details can check official site *[svgr-iconkit.dev](https://svgr-iconkit.dev/)*
 Next-step To-do items:
 - [x] Expose individual svg content for import only few icons.
 - [ ] Allowing content to be rendered with other svg documents
-- [ ] Secondary color support.
 - [ ] Create a portal to create svg iconset online instantly.
 

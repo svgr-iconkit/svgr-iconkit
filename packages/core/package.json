@@ -21,15 +21,15 @@
     },
     ".": {
       "react-native": "./native/lib/esm/index.js",
-      "require": "./index.cjs",
-      "browser": "./index.cjs",
+      "require": "./index.cjs.js",
+      "browser": "./index.cjs.js",
       "import": "./lib/esm/index.js",
-      "default": "./index.cjs"
+      "default": "./index.cjs.js"
     }
   },
-  "main": "index.cjs",
+  "main": "index.cjs.js",
   "react-native": "./native/lib/esm/index",
-  "commonjs": "index.cjs",
+  "commonjs": "index.cjs.js",
   "module": "./lib/esm/index.js",
   "files": [
     "icons",
