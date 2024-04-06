@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.3.1...v0.4.0) (2024-04-06)
+
+
+### Bug Fixes
+
+* add missing dependencies ([f58cf6b](https://github.com/svgr-iconkit/svgr-iconkit/commit/f58cf6baf291c4cc11b9d7c261f2d4fb9f5c7726))
+* dependencies issue ([8a68c77](https://github.com/svgr-iconkit/svgr-iconkit/commit/8a68c77d67e71a19df3566f68dbb9af8e90a53b7))
+* invalid exports file path ([86c7f94](https://github.com/svgr-iconkit/svgr-iconkit/commit/86c7f94372ce618c6617c2dd8732fcfd28f38312))
+* update svg data export setting ([eed02de](https://github.com/svgr-iconkit/svgr-iconkit/commit/eed02decdd7c15421b6f5417a38acc176ee124de))
+
+
+### Features
+
+* decouple usage of camel-case and param-case ([ee5069c](https://github.com/svgr-iconkit/svgr-iconkit/commit/ee5069c9ad7f2e627ffd827ee93decb400386192))
+* enable all props for web version ([fd466a2](https://github.com/svgr-iconkit/svgr-iconkit/commit/fd466a25cb8e437460ab3b327bb5f193ea40b8af))
+
+
+
+
+
 # 0.3.0-beta.15 (2022-07-04)
 
 **Note:** Version bump only for package @svgr-iconkit/core

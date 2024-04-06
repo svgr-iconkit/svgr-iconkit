@@ -8,5 +8,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* enable primeicons ([6fab603](https://github.com/svgr-iconkit/svgr-iconkit/commit/6fab603cdf317897abae832b97d2487bb8492257))
-* update all icons ([a95030f](https://github.com/svgr-iconkit/svgr-iconkit/commit/a95030f9ac2a5a2c308b6cc7644865d089118bc1))
+* decouple usage of camel-case and param-case ([ee5069c](https://github.com/svgr-iconkit/svgr-iconkit/commit/ee5069c9ad7f2e627ffd827ee93decb400386192))

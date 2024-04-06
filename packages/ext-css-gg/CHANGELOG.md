@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.3.1...v0.4.0) (2024-04-06)
+
+
+### Features
+
+* update all icons ([a95030f](https://github.com/svgr-iconkit/svgr-iconkit/commit/a95030f9ac2a5a2c308b6cc7644865d089118bc1))
+
+
+
+
+
 # 0.3.0-beta.15 (2022-07-04)
 
 **Note:** Version bump only for package @svgr-iconkit/css-gg

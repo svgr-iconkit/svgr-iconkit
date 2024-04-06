@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/common-utils",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "Common utils for svgr-iconkit",
   "license": "MIT",
   "main": "index",
@@ -27,7 +27,7 @@
       "types": "./lib/param-case.d.ts",
       "default": "./lib/param-case.js"
     },
-    "." : {
+    ".": {
       "types": "./lib/index.d.ts",
       "default": "./lib/index.js"
     }

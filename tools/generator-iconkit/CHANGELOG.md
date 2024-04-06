@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.3.1...v0.4.0) (2024-04-06)
+
+
+### Features
+
+* update package dependencies version for tools ([8ca0483](https://github.com/svgr-iconkit/svgr-iconkit/commit/8ca04830eb72a993325dd0de3ceca9cbf2cc089b))
+
+
+
+
+
 # 0.3.0-beta.15 (2022-07-04)
 
 **Note:** Version bump only for package @svgr-iconkit/generator-svgr-iconkit
