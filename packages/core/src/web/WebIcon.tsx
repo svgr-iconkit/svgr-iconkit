@@ -66,7 +66,8 @@ const InternalWebIcon = function <IconNames extends string, IconVariant extends 
   const { fill, stroke, width: svgWidth, height: svgHeight, ...restAttrs } = svgAttrs || {}
   const viewBox = getViewboxValue(svgContent)
 
-  const iconProps = convertRunner(restProps, {}, { allowNonWhitelistProp: true })
+  // Allowing all additional props from external for html.
+  const iconProps = {...restProps}
   const attrProps = convertRunner(restAttrs, {}, { allowNonWhitelistProp: false })
   const internalProps = {
     fill,
