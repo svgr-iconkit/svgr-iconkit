@@ -58,6 +58,7 @@ on:
         - "packages/ext-typicons"
         - "packages/ext-weather-icons"
         - "packages/ext-xnix"
+        - "tools/common-utils"
         - "tools/build-config"
         - "tools/build-utils"
         - "tools/cli"

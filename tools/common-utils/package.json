@@ -4,6 +4,7 @@
   "description": "Common utils for svgr-iconkit",
   "license": "MIT",
   "main": "index",
+  "private": false,
   "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
   "homepage": "https://svgr-iconkit.dev",
   "scripts": {

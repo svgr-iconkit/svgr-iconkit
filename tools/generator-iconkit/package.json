@@ -3,6 +3,7 @@
   "version": "0.4.1",
   "description": "Yeomen generator for svgr-iconkit template",
   "author": "LemanK <leman@lmswork.com>",
+  "private": false,
   "homepage": "https://github.com/svgr-iconkit/svgr-iconkit",
   "files": [
     "generators"
