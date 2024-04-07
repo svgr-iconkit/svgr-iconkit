@@ -62,6 +62,7 @@ on:
         - "tools/build-config"
         - "tools/build-utils"
         - "tools/cli"
+        - "tools/generator-iconkit"
       cGithubPackagesPublish:
         type: choice 
         required: true
