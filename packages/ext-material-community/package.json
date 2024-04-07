@@ -84,7 +84,7 @@
     "iconsmap:create": "npm-run-all iconsmap:create:regular iconsmap:create:outline",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
-    "compile": "NODE_OPTIONS=--max-old-space-size=8192 rollup -c",
+    "compile": "NODE_OPTIONS=--max-old-space-size=8192 rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all prebuild iconsmap compile"
   },
