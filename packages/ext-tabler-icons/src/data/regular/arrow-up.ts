@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"arrow-up","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"line","attrs":{"x1":12,"y1":5,"x2":12,"y2":19}},{"tagName":"line","attrs":{"x1":18,"y1":11,"x2":12,"y2":5}},{"tagName":"line","attrs":{"x1":6,"y1":11,"x2":12,"y2":5}}]};
+export const content: IconSVG = {"name":"arrow-up","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M12 5l0 14"}},{"tagName":"path","attrs":{"d":"M18 11l-6 -6"}},{"tagName":"path","attrs":{"d":"M6 11l6 -6"}}]};
 export default content;

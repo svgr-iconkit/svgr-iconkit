@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"archive-stack-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M200 770H1000V870H200V770zM1000 570H200V670H1000V570zM150 470H500V370H700V470H1050V20C1050 -7.615 1027.615 -30 1000 -30H200C172.386 -30 150 -7.615 150 20V470zM800 370V270H400V370H250V70H950V370H800z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"world-pause","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M20.945 12.997a9 9 0 1 0 -7.928 7.945"}},{"tagName":"path","attrs":{"d":"M3.6 9h16.8"}},{"tagName":"path","attrs":{"d":"M3.6 15h9.9"}},{"tagName":"path","attrs":{"d":"M11.5 3a17 17 0 0 0 0 18"}},{"tagName":"path","attrs":{"d":"M12.5 3a16.992 16.992 0 0 1 2.51 10.526"}},{"tagName":"path","attrs":{"d":"M17 17v5"}},{"tagName":"path","attrs":{"d":"M21 17v5"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mail-rewind","attrs":{"viewBox":"0 0 25 24"},"data":[{"tagName":"path","attrs":{"d":"M19 9V6.83l3.34 2.92A1 1 0 0 0 24 9V2a1 1 0 0 0-1.66-.75L19 4.17V2a1 1 0 0 0-1.66-.75l-4 3.5a1 1 0 0 0 0 1.5l4 3.5A1 1 0 0 0 19 9Zm-6.32-2a2 2 0 0 1 0-3H5.06a3.25 3.25 0 0 0-3.04 2.92L12 12.15 16.1 10l-3.42-3Zm9 3.5-1.23-1.08-.58.3a2.02 2.02 0 0 1-2.34 1.23l-5.18 2.71a.75.75 0 0 1-.7 0L2 8.61v8.32A3.25 3.25 0 0 0 5.26 20h13.68A3.25 3.25 0 0 0 22 16.74v-6.02l-.31-.22Z"}}]};
+export default content;

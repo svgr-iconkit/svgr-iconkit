@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"map-pin-5-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M882.85 417.15L600 134.3L317.15 417.15A400 400 0 1 0 882.85 417.15zM250 100H950V0H250V100z"}}]};
+export const content: IconSVG = {"name":"map-pin-5-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M882.845625 287.155L600.000625 4.3150000000001L317.158125 287.155C160.948125 443.365 160.948125 696.633 317.158125 852.8425C473.367625 1009.0525 726.635625 1009.0525 882.845625 852.8425C1039.0506249999999 696.633 1039.0506249999999 443.365 882.845625 287.155zM250.000625 -30H950.000625V-130H250.000625V-30z"}}]};
 export default content;

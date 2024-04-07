@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"rewind-backward-10","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M7 9l-3 -3l3 -3"}},{"tagName":"path","attrs":{"d":"M15.997 17.918a6.002 6.002 0 0 0 -.997 -11.918h-11"}},{"tagName":"path","attrs":{"d":"M6 14v6"}},{"tagName":"path","attrs":{"d":"M9 15.5v3a1.5 1.5 0 0 0 3 0v-3a1.5 1.5 0 0 0 -3 0z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"book-marked-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1000 -80H325C228.35 -80 150 -1.65 150 95V770C150 852.8425 217.1575 920 300 920H1000C1027.615 920 1050 897.614 1050 870V-30C1050 -57.615 1027.615 -80 1000 -80zM950 20V170H325C283.5785 170 250 136.42 250 95C250 53.58 283.5785 20 325 20H950zM500 820V420L675 520L850 420V820H500z"}}]};
+export default content;

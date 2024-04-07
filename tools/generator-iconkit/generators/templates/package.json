@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@svgr-iconkit/cli": "^0.3.0",
-    "@svgr-iconkit/build-config": "^0.3.0",
+    "@svgr-iconkit/build-config": "^0.3.2",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
@@ -69,12 +69,12 @@
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:prepare": "rimraf ./src/gen ./src/data",
     "iconsmap:create:<%= variantName %>": "svgr-iconkit convert-data -i assets/<%= variantName %> -o src/data/<%= variantName %>",
     "iconsmap:create": "npm-run-all iconsmap:create:<%= variantName %>",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
-    "compile": "rollup -c",
+    "compile": "rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   }

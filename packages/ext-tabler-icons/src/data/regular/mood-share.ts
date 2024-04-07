@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mood-share","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M20.942 13.018a9 9 0 1 0 -8.942 7.982"}},{"tagName":"path","attrs":{"d":"M9 10h.01"}},{"tagName":"path","attrs":{"d":"M15 10h.01"}},{"tagName":"path","attrs":{"d":"M9.5 15c.658 .672 1.56 1 2.5 1c.213 0 .424 -.017 .63 -.05"}},{"tagName":"path","attrs":{"d":"M16 22l5 -5"}},{"tagName":"path","attrs":{"d":"M21 21.5v-4.5h-4.5"}}]};
+export default content;

@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/themify-icons",
-  "version": "0.3.1",
+  "version": "0.4.1",
   "description": "Themify icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -61,26 +61,27 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.1"
+    "@svgr-iconkit/core": "^0.4.1"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.1",
-    "@svgr-iconkit/cli": "^0.3.1",
+    "@svgr-iconkit/build-config": "^0.4.1",
+    "@svgr-iconkit/cli": "^0.4.1",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
-    "typescript": "^4.3.4"
+    "typescript": "^5.4.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "iconsmap:prepare": "rimraf ./src/gen",
+    "iconsmap:upgrade": "echo 'not available'",
+    "iconsmap:prepare": "rimraf ./src/gen ./src/data",
     "iconsmap:create": "svgr-iconkit convert-data -i ./assets -o ./src/data/regular --fill-color currentColor",
     "iconsmap": "npm-run-all iconsmap:prepare iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
-    "compile": "rollup -c ",
+    "compile": "rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   },

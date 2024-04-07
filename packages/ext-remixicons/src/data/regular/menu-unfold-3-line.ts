@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"menu-unfold-3-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M825 820H125V720H825V820zM625 470H125V370H625V470zM825 120H125V20H825V120zM774.48 579.294L845.19 650.005L1075 420.195L845.19 190.3849999999999L774.48 261.0950000000001L933.58 420.195L774.48 579.294z"}}]};
+export default content;

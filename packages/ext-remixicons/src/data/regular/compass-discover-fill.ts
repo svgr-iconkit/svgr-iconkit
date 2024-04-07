@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"compass-discover-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M650 100C373.85 100 150 323.85 150 600S373.85 1100 650 1100S1150 876.15 1150 600S926.15 100 650 100zM400 625L600 550L675 349.9000000000001L850 800L400 625z"}}]};
+export const content: IconSVG = {"name":"compass-discover-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M600 -80C323.8575 -80 100 143.86 100 420C100 696.1424999999999 323.8575 920 600 920C876.14 920 1100 696.1424999999999 1100 420C1100 143.86 876.14 -80 600 -80zM350 445L550 370L625 169.8950000000001L800 620L350 445z"}}]};
 export default content;

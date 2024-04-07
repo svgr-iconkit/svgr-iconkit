@@ -262,10 +262,63 @@ import SVG_truck from "./truck";
 import SVG_stopwatch from "./stopwatch";
 import SVG_verified from "./verified";
 import SVG_deleteLeft from "./delete-left";
-import SVG_eraser from "./eraser"
+import SVG_eraser from "./eraser";
+import SVG_folderPlus from "./folder-plus";
+import SVG_receipt from "./receipt";
+import SVG_asterisk from "./asterisk";
+import SVG_faceSmile from "./face-smile";
+import SVG_pinterest from "./pinterest";
+import SVG_expand from "./expand";
+import SVG_penToSquare from "./pen-to-square";
+import SVG_wavePulse from "./wave-pulse";
+import SVG_turkishLira from "./turkish-lira";
+import SVG_spinnerDotted from "./spinner-dotted";
+import SVG_crown from "./crown";
+import SVG_pauseCircle from "./pause-circle";
+import SVG_warehouse from "./warehouse";
+import SVG_objectsColumn from "./objects-column";
+import SVG_clipboard from "./clipboard";
+import SVG_playCircle from "./play-circle";
+import SVG_venus from "./venus";
+import SVG_cartMinus from "./cart-minus";
+import SVG_filePlus from "./file-plus";
+import SVG_microchip from "./microchip";
+import SVG_twitch from "./twitch";
+import SVG_buildingColumns from "./building-columns";
+import SVG_fileCheck from "./file-check";
+import SVG_microchipAi from "./microchip-ai";
+import SVG_trophy from "./trophy";
+import SVG_barcode from "./barcode";
+import SVG_fileArrowUp from "./file-arrow-up";
+import SVG_mars from "./mars";
+import SVG_tiktok from "./tiktok";
+import SVG_arrowUpRightAndArrowDownLeftFromCenter from "./arrow-up-right-and-arrow-down-left-from-center";
+import SVG_ethereum from "./ethereum";
+import SVG_listCheck from "./list-check";
+import SVG_thumbtack from "./thumbtack";
+import SVG_arrowDownLeftAndArrowUpRightToCenter from "./arrow-down-left-and-arrow-up-right-to-center";
+import SVG_equals from "./equals";
+import SVG_lightbulb from "./lightbulb";
+import SVG_starHalf from "./star-half";
+import SVG_addressBook from "./address-book";
+import SVG_chartScatter from "./chart-scatter";
+import SVG_indianRupee from "./indian-rupee";
+import SVG_starHalfFill from "./star-half-fill";
+import SVG_cartArrowDown from "./cart-arrow-down";
+import SVG_calendarClock from "./calendar-clock";
+import SVG_sortUpFill from "./sort-up-fill";
+import SVG_sparkles from "./sparkles";
+import SVG_bullseye from "./bullseye";
+import SVG_sortDownFill from "./sort-down-fill";
+import SVG_graduationCap from "./graduation-cap";
+import SVG_hammer from "./hammer";
+import SVG_bellSlash from "./bell-slash";
+import SVG_gauge from "./gauge";
+import SVG_shop from "./shop";
+import SVG_headphones from "./headphones"
 
 // types
-export type IconNames = "chevron-left" | "chevron-right" | "chevron-down" | "chevron-up" | "caret-left" | "caret-right" | "caret-down" | "caret-up" | "search" | "check" | "check-circle" | "times" | "times-circle" | "plus" | "plus-circle" | "minus" | "minus-circle" | "circle-on" | "circle-off" | "sort-down" | "sort-up" | "sort" | "step-backward" | "step-forward" | "th-large" | "arrow-down" | "arrow-left" | "arrow-right" | "arrow-up" | "bars" | "arrow-circle-down" | "arrow-circle-left" | "arrow-circle-right" | "arrow-circle-up" | "exclamation-triangle" | "info" | "info-circle" | "home" | "spinner" | "calendar" | "chevron-circle-left" | "chevron-circle-down" | "chevron-circle-right" | "chevron-circle-up" | "angle-double-down" | "angle-double-left" | "angle-double-right" | "angle-double-up" | "angle-down" | "angle-left" | "angle-right" | "angle-up" | "upload" | "ban" | "star-fill" | "star" | "refresh" | "user" | "window-minimize" | "window-maximize" | "external-link" | "trash" | "user-minus" | "user-plus" | "clock" | "users" | "pencil" | "cloud-download" | "cloud-upload" | "cloud" | "align-right" | "align-left" | "align-center" | "align-justify" | "cog" | "print" | "filter" | "replay" | "bookmark" | "globe" | "ellipsis-v" | "ellipsis-h" | "calendar-times" | "calendar-minus" | "calendar-plus" | "clone" | "download" | "copy" | "file" | "question-circle" | "question" | "save" | "power-off" | "tags" | "tag" | "lock" | "unlock" | "inbox" | "video" | "folder" | "folder-open" | "eye-slash" | "eye" | "list" | "map-marker" | "table" | "lock-open" | "dollar" | "camera" | "chart-bar" | "sitemap" | "wifi" | "sign-in" | "sign-out" | "image" | "images" | "money-bill" | "eject" | "volume-down" | "volume-up" | "volume-off" | "envelope" | "share-alt" | "paperclip" | "bell" | "briefcase" | "comments" | "comment" | "shopping-cart" | "key" | "mobile" | "tablet" | "heart" | "android" | "google" | "apple" | "microsoft" | "exclamation-circle" | "user-edit" | "chart-line" | "check-square" | "file-pdf" | "file-excel" | "search-plus" | "search-minus" | "sliders-v" | "sliders-h" | "desktop" | "undo" | "palette" | "sort-numeric-down-alt" | "sort-numeric-up-alt" | "sort-alpha-down-alt" | "sort-alpha-up-alt" | "sort-numeric-down" | "sort-numeric-up" | "sort-alpha-down" | "sort-alpha-up" | "sort-alt" | "sort-amount-up" | "sort-amount-down" | "sort-amount-down-alt" | "sort-amount-up-alt" | "thumbs-up" | "thumbs-down" | "directions-alt" | "directions" | "reply" | "file-o" | "ticket" | "id-card" | "compass" | "step-backward-alt" | "step-forward-alt" | "forward" | "backward" | "fast-backward" | "fast-forward" | "pause" | "play" | "facebook" | "github" | "twitter" | "filter-slash" | "phone" | "shield" | "book" | "paypal" | "amazon" | "euro" | "percentage" | "credit-card" | "discord" | "link" | "map" | "wallet" | "flag" | "youtube" | "vimeo" | "moon" | "sun" | "slack" | "send" | "linkedin" | "instagram" | "car" | "qrcode" | "building" | "whatsapp" | "stop" | "stop-circle" | "telegram" | "arrow-up-right" | "arrow-up-left" | "arrow-down-left" | "arrow-down-right" | "at" | "box" | "history" | "bolt" | "circle" | "circle-fill" | "flag-fill" | "bookmark-fill" | "filter-fill" | "heart-fill" | "hashtag" | "database" | "server" | "shopping-bag" | "sync" | "code" | "reddit" | "chart-pie" | "prime" | "pound" | "arrows-h" | "arrows-v" | "sort-alt-slash" | "calculator" | "arrows-alt" | "file-word" | "gift" | "cart-plus" | "thumbs-down-fill" | "thumbs-up-fill" | "file-edit" | "language" | "file-export" | "file-import" | "microphone" | "megaphone" | "arrow-right-arrow-left" | "bitcoin" | "hourglass" | "wrench" | "truck" | "stopwatch" | "verified" | "delete-left" | "eraser";
+export type IconNames = "chevron-left" | "chevron-right" | "chevron-down" | "chevron-up" | "caret-left" | "caret-right" | "caret-down" | "caret-up" | "search" | "check" | "check-circle" | "times" | "times-circle" | "plus" | "plus-circle" | "minus" | "minus-circle" | "circle-on" | "circle-off" | "sort-down" | "sort-up" | "sort" | "step-backward" | "step-forward" | "th-large" | "arrow-down" | "arrow-left" | "arrow-right" | "arrow-up" | "bars" | "arrow-circle-down" | "arrow-circle-left" | "arrow-circle-right" | "arrow-circle-up" | "exclamation-triangle" | "info" | "info-circle" | "home" | "spinner" | "calendar" | "chevron-circle-left" | "chevron-circle-down" | "chevron-circle-right" | "chevron-circle-up" | "angle-double-down" | "angle-double-left" | "angle-double-right" | "angle-double-up" | "angle-down" | "angle-left" | "angle-right" | "angle-up" | "upload" | "ban" | "star-fill" | "star" | "refresh" | "user" | "window-minimize" | "window-maximize" | "external-link" | "trash" | "user-minus" | "user-plus" | "clock" | "users" | "pencil" | "cloud-download" | "cloud-upload" | "cloud" | "align-right" | "align-left" | "align-center" | "align-justify" | "cog" | "print" | "filter" | "replay" | "bookmark" | "globe" | "ellipsis-v" | "ellipsis-h" | "calendar-times" | "calendar-minus" | "calendar-plus" | "clone" | "download" | "copy" | "file" | "question-circle" | "question" | "save" | "power-off" | "tags" | "tag" | "lock" | "unlock" | "inbox" | "video" | "folder" | "folder-open" | "eye-slash" | "eye" | "list" | "map-marker" | "table" | "lock-open" | "dollar" | "camera" | "chart-bar" | "sitemap" | "wifi" | "sign-in" | "sign-out" | "image" | "images" | "money-bill" | "eject" | "volume-down" | "volume-up" | "volume-off" | "envelope" | "share-alt" | "paperclip" | "bell" | "briefcase" | "comments" | "comment" | "shopping-cart" | "key" | "mobile" | "tablet" | "heart" | "android" | "google" | "apple" | "microsoft" | "exclamation-circle" | "user-edit" | "chart-line" | "check-square" | "file-pdf" | "file-excel" | "search-plus" | "search-minus" | "sliders-v" | "sliders-h" | "desktop" | "undo" | "palette" | "sort-numeric-down-alt" | "sort-numeric-up-alt" | "sort-alpha-down-alt" | "sort-alpha-up-alt" | "sort-numeric-down" | "sort-numeric-up" | "sort-alpha-down" | "sort-alpha-up" | "sort-alt" | "sort-amount-up" | "sort-amount-down" | "sort-amount-down-alt" | "sort-amount-up-alt" | "thumbs-up" | "thumbs-down" | "directions-alt" | "directions" | "reply" | "file-o" | "ticket" | "id-card" | "compass" | "step-backward-alt" | "step-forward-alt" | "forward" | "backward" | "fast-backward" | "fast-forward" | "pause" | "play" | "facebook" | "github" | "twitter" | "filter-slash" | "phone" | "shield" | "book" | "paypal" | "amazon" | "euro" | "percentage" | "credit-card" | "discord" | "link" | "map" | "wallet" | "flag" | "youtube" | "vimeo" | "moon" | "sun" | "slack" | "send" | "linkedin" | "instagram" | "car" | "qrcode" | "building" | "whatsapp" | "stop" | "stop-circle" | "telegram" | "arrow-up-right" | "arrow-up-left" | "arrow-down-left" | "arrow-down-right" | "at" | "box" | "history" | "bolt" | "circle" | "circle-fill" | "flag-fill" | "bookmark-fill" | "filter-fill" | "heart-fill" | "hashtag" | "database" | "server" | "shopping-bag" | "sync" | "code" | "reddit" | "chart-pie" | "prime" | "pound" | "arrows-h" | "arrows-v" | "sort-alt-slash" | "calculator" | "arrows-alt" | "file-word" | "gift" | "cart-plus" | "thumbs-down-fill" | "thumbs-up-fill" | "file-edit" | "language" | "file-export" | "file-import" | "microphone" | "megaphone" | "arrow-right-arrow-left" | "bitcoin" | "hourglass" | "wrench" | "truck" | "stopwatch" | "verified" | "delete-left" | "eraser" | "folder-plus" | "receipt" | "asterisk" | "face-smile" | "pinterest" | "expand" | "pen-to-square" | "wave-pulse" | "turkish-lira" | "spinner-dotted" | "crown" | "pause-circle" | "warehouse" | "objects-column" | "clipboard" | "play-circle" | "venus" | "cart-minus" | "file-plus" | "microchip" | "twitch" | "building-columns" | "file-check" | "microchip-ai" | "trophy" | "barcode" | "file-arrow-up" | "mars" | "tiktok" | "arrow-up-right-and-arrow-down-left-from-center" | "ethereum" | "list-check" | "thumbtack" | "arrow-down-left-and-arrow-up-right-to-center" | "equals" | "lightbulb" | "star-half" | "address-book" | "chart-scatter" | "indian-rupee" | "star-half-fill" | "cart-arrow-down" | "calendar-clock" | "sort-up-fill" | "sparkles" | "bullseye" | "sort-down-fill" | "graduation-cap" | "hammer" | "bell-slash" | "gauge" | "shop" | "headphones";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -529,6 +582,59 @@ export const map: IconsMapType<IconNames> = {
 "stopwatch": SVG_stopwatch,
 "verified": SVG_verified,
 "delete-left": SVG_deleteLeft,
-"eraser": SVG_eraser
+"eraser": SVG_eraser,
+"folder-plus": SVG_folderPlus,
+"receipt": SVG_receipt,
+"asterisk": SVG_asterisk,
+"face-smile": SVG_faceSmile,
+"pinterest": SVG_pinterest,
+"expand": SVG_expand,
+"pen-to-square": SVG_penToSquare,
+"wave-pulse": SVG_wavePulse,
+"turkish-lira": SVG_turkishLira,
+"spinner-dotted": SVG_spinnerDotted,
+"crown": SVG_crown,
+"pause-circle": SVG_pauseCircle,
+"warehouse": SVG_warehouse,
+"objects-column": SVG_objectsColumn,
+"clipboard": SVG_clipboard,
+"play-circle": SVG_playCircle,
+"venus": SVG_venus,
+"cart-minus": SVG_cartMinus,
+"file-plus": SVG_filePlus,
+"microchip": SVG_microchip,
+"twitch": SVG_twitch,
+"building-columns": SVG_buildingColumns,
+"file-check": SVG_fileCheck,
+"microchip-ai": SVG_microchipAi,
+"trophy": SVG_trophy,
+"barcode": SVG_barcode,
+"file-arrow-up": SVG_fileArrowUp,
+"mars": SVG_mars,
+"tiktok": SVG_tiktok,
+"arrow-up-right-and-arrow-down-left-from-center": SVG_arrowUpRightAndArrowDownLeftFromCenter,
+"ethereum": SVG_ethereum,
+"list-check": SVG_listCheck,
+"thumbtack": SVG_thumbtack,
+"arrow-down-left-and-arrow-up-right-to-center": SVG_arrowDownLeftAndArrowUpRightToCenter,
+"equals": SVG_equals,
+"lightbulb": SVG_lightbulb,
+"star-half": SVG_starHalf,
+"address-book": SVG_addressBook,
+"chart-scatter": SVG_chartScatter,
+"indian-rupee": SVG_indianRupee,
+"star-half-fill": SVG_starHalfFill,
+"cart-arrow-down": SVG_cartArrowDown,
+"calendar-clock": SVG_calendarClock,
+"sort-up-fill": SVG_sortUpFill,
+"sparkles": SVG_sparkles,
+"bullseye": SVG_bullseye,
+"sort-down-fill": SVG_sortDownFill,
+"graduation-cap": SVG_graduationCap,
+"hammer": SVG_hammer,
+"bell-slash": SVG_bellSlash,
+"gauge": SVG_gauge,
+"shop": SVG_shop,
+"headphones": SVG_headphones
 };
 

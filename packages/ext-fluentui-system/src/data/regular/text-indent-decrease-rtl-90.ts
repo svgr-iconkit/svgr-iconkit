@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"text-indent-decrease-rtl-90","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7.25 5.5c.41 0 .75.34.75.75v9a.75.75 0 0 1-1.5 0v-9c0-.41.34-.75.75-.75Zm5-3c.41 0 .75.34.75.75v12a.75.75 0 0 1-1.5 0v-12c0-.41.34-.75.75-.75Zm5 3c.41 0 .75.34.75.75v9a.75.75 0 0 1-1.5 0v-9c0-.41.34-.75.75-.75Zm-2.4 13.7a.75.75 0 0 0-1.13-.98l-1.47 1.47-1.47-1.47-.08-.07a.75.75 0 0 0-.98 1.13l2 2 .08.07c.3.22.71.2.98-.07l2-2 .07-.08Z"}}]};
+export default content;

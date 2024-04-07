@@ -4,12 +4,11 @@ import Path from "path";
 import ChildProcess from "child_process";
 import cliProgress from "cli-progress";
 import { convertSvgData } from "@svgr-iconkit/build-utils";
+import { camelCase, paramCase } from '@svgr-iconkit/common-utils'
 import {
   fileOptions,
   readFile,
   writeFile,
-  paramCase,
-  camelCase,
   resolvePackagePath,
 } from "../utils";
 import { createIconsImportMapTs, createIconsMapTs } from "../templates";
@@ -52,6 +51,9 @@ module.exports = {
       description: "Searching file name end with given string",
     },
     {
+      flag: "--not-end-with <name>",
+    },
+    {
       flag: "-tp, --target-file-prefix <prefixName>",
       description: "Target file prefix",
     },
@@ -78,6 +80,7 @@ module.exports = {
       removeNameSuffix,
       startWith = "",
       endWith = "",
+      notEndWith,
       packageName,
       targetFilePrefix = "",
       targetFileSuffix = "",
@@ -111,9 +114,11 @@ module.exports = {
 
     const startWithPattern = startWith ? startWith : null;
     const endWithPattern = endWith ? `${endWith}.svg` : ".svg";
+    const notEndWithPattern = notEndWith ? `${notEndWith}.svg` : null;
     const iconFiles = FS.readdirSync(resolvedSourceDir).filter((file) => {
       if (startWithPattern && !file.startsWith(startWithPattern)) return false;
       if (endWithPattern && !file.endsWith(endWithPattern)) return false;
+      if (notEndWithPattern && file.endsWith(notEndWithPattern)) return false;
       return true;
     });
     const iconsetMap = {};

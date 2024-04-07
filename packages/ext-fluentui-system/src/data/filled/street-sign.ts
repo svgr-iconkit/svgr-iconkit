@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"street-sign","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M8 4.5a2.5 2.5 0 0 1 5 0V6h3.38c.6 0 1.17.24 1.59.66l2.81 2.81c.3.3.3.77 0 1.06l-2.81 2.81c-.42.42-1 .66-1.6.66H13v6.75c0 .69-.56 1.25-1.25 1.25h-2.5C8.56 22 8 21.44 8 20.75V14H5.25C4.01 14 3 13 3 11.75v-3.5C3 7.01 4 6 5.25 6H8V4.5Zm3.5 0a1 1 0 1 0-2 0V6h2V4.5Zm-2 16h2V14h-2v6.5Z"}}]};
+export default content;

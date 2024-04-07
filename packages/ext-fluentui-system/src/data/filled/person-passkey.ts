@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"person-passkey","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M18 16.66a3.5 3.5 0 1 1 2.5.2V17l1.15 1.15c.2.2.2.5 0 .7L20.5 20l1.16 1.16c.2.2.2.5.02.7l-1.83 1.98a.5.5 0 0 1-.72.01l-.98-.98a.5.5 0 0 1-.15-.36v-5.85ZM20.5 13a1 1 0 1 0-2 0 1 1 0 0 0 2 0ZM17 17.24v3.7A10.67 10.67 0 0 1 12 22c-3.42 0-5.94-1.07-7.49-3.24a2.75 2.75 0 0 1-.5-1.6v-.91C4 15 5 14 6.24 14h8.78A4.5 4.5 0 0 0 17 17.24ZM12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"}}]};
+export default content;

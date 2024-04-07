@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cloud-beaker","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 5.5a4.5 4.5 0 0 0-4.5 4.29.75.75 0 0 1-.74.71H6.5a3 3 0 1 0 0 6h8.4l-.85 1.5H6.5a4.5 4.5 0 0 1-.42-8.98A6 6 0 0 1 18 10h-1.46a.75.75 0 0 1-.04-.21A4.5 4.5 0 0 0 12 5.5Zm4.5 7h-.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 0 1.5h-.75v2.7c0 .34.1.69.26.99l.47.81h-5.46l.47-.81a2 2 0 0 0 .26-1V12.5Zm-2.3 7.26 1-1.76h6.6l1 1.76A1.5 1.5 0 0 1 21.5 22h-6a1.5 1.5 0 0 1-1.3-2.24Z"}}]};
+export default content;

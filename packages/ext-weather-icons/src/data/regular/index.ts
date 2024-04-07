@@ -66,58 +66,58 @@ import SVG_moonAltFirstQuarter from "./moon-alt-first-quarter";
 import SVG_moonAltFull from "./moon-alt-full";
 import SVG_moonAltNew from "./moon-alt-new";
 import SVG_moonAltThirdQuarter from "./moon-alt-third-quarter";
-import SVG_moonAltWaningCrescent_1 from "./moon-alt-waning-crescent-1";
-import SVG_moonAltWaningCrescent_2 from "./moon-alt-waning-crescent-2";
-import SVG_moonAltWaningCrescent_3 from "./moon-alt-waning-crescent-3";
-import SVG_moonAltWaningCrescent_4 from "./moon-alt-waning-crescent-4";
-import SVG_moonAltWaningCrescent_5 from "./moon-alt-waning-crescent-5";
-import SVG_moonAltWaningCrescent_6 from "./moon-alt-waning-crescent-6";
-import SVG_moonAltWaningGibbous_1 from "./moon-alt-waning-gibbous-1";
-import SVG_moonAltWaningGibbous_2 from "./moon-alt-waning-gibbous-2";
-import SVG_moonAltWaningGibbous_3 from "./moon-alt-waning-gibbous-3";
-import SVG_moonAltWaningGibbous_4 from "./moon-alt-waning-gibbous-4";
-import SVG_moonAltWaningGibbous_5 from "./moon-alt-waning-gibbous-5";
-import SVG_moonAltWaningGibbous_6 from "./moon-alt-waning-gibbous-6";
-import SVG_moonAltWaxingCrescent_1 from "./moon-alt-waxing-crescent-1";
-import SVG_moonAltWaxingCrescent_2 from "./moon-alt-waxing-crescent-2";
-import SVG_moonAltWaxingCrescent_3 from "./moon-alt-waxing-crescent-3";
-import SVG_moonAltWaxingCrescent_4 from "./moon-alt-waxing-crescent-4";
-import SVG_moonAltWaxingCrescent_5 from "./moon-alt-waxing-crescent-5";
-import SVG_moonAltWaxingCrescent_6 from "./moon-alt-waxing-crescent-6";
-import SVG_moonAltWaxingGibbous_1 from "./moon-alt-waxing-gibbous-1";
-import SVG_moonAltWaxingGibbous_2 from "./moon-alt-waxing-gibbous-2";
-import SVG_moonAltWaxingGibbous_3 from "./moon-alt-waxing-gibbous-3";
-import SVG_moonAltWaxingGibbous_4 from "./moon-alt-waxing-gibbous-4";
-import SVG_moonAltWaxingGibbous_5 from "./moon-alt-waxing-gibbous-5";
-import SVG_moonAltWaxingGibbous_6 from "./moon-alt-waxing-gibbous-6";
+import SVG_moonAltWaningCrescent1 from "./moon-alt-waning-crescent-1";
+import SVG_moonAltWaningCrescent2 from "./moon-alt-waning-crescent-2";
+import SVG_moonAltWaningCrescent3 from "./moon-alt-waning-crescent-3";
+import SVG_moonAltWaningCrescent4 from "./moon-alt-waning-crescent-4";
+import SVG_moonAltWaningCrescent5 from "./moon-alt-waning-crescent-5";
+import SVG_moonAltWaningCrescent6 from "./moon-alt-waning-crescent-6";
+import SVG_moonAltWaningGibbous1 from "./moon-alt-waning-gibbous-1";
+import SVG_moonAltWaningGibbous2 from "./moon-alt-waning-gibbous-2";
+import SVG_moonAltWaningGibbous3 from "./moon-alt-waning-gibbous-3";
+import SVG_moonAltWaningGibbous4 from "./moon-alt-waning-gibbous-4";
+import SVG_moonAltWaningGibbous5 from "./moon-alt-waning-gibbous-5";
+import SVG_moonAltWaningGibbous6 from "./moon-alt-waning-gibbous-6";
+import SVG_moonAltWaxingCrescent1 from "./moon-alt-waxing-crescent-1";
+import SVG_moonAltWaxingCrescent2 from "./moon-alt-waxing-crescent-2";
+import SVG_moonAltWaxingCrescent3 from "./moon-alt-waxing-crescent-3";
+import SVG_moonAltWaxingCrescent4 from "./moon-alt-waxing-crescent-4";
+import SVG_moonAltWaxingCrescent5 from "./moon-alt-waxing-crescent-5";
+import SVG_moonAltWaxingCrescent6 from "./moon-alt-waxing-crescent-6";
+import SVG_moonAltWaxingGibbous1 from "./moon-alt-waxing-gibbous-1";
+import SVG_moonAltWaxingGibbous2 from "./moon-alt-waxing-gibbous-2";
+import SVG_moonAltWaxingGibbous3 from "./moon-alt-waxing-gibbous-3";
+import SVG_moonAltWaxingGibbous4 from "./moon-alt-waxing-gibbous-4";
+import SVG_moonAltWaxingGibbous5 from "./moon-alt-waxing-gibbous-5";
+import SVG_moonAltWaxingGibbous6 from "./moon-alt-waxing-gibbous-6";
 import SVG_moonFirstQuarter from "./moon-first-quarter";
 import SVG_moonFull from "./moon-full";
 import SVG_moonNew from "./moon-new";
 import SVG_moonThirdQuarter from "./moon-third-quarter";
-import SVG_moonWaningCrescent_1 from "./moon-waning-crescent-1";
-import SVG_moonWaningCrescent_2 from "./moon-waning-crescent-2";
-import SVG_moonWaningCrescent_3 from "./moon-waning-crescent-3";
-import SVG_moonWaningCrescent_4 from "./moon-waning-crescent-4";
-import SVG_moonWaningCrescent_5 from "./moon-waning-crescent-5";
-import SVG_moonWaningCrescent_6 from "./moon-waning-crescent-6";
-import SVG_moonWaningGibbous_1 from "./moon-waning-gibbous-1";
-import SVG_moonWaningGibbous_2 from "./moon-waning-gibbous-2";
-import SVG_moonWaningGibbous_3 from "./moon-waning-gibbous-3";
-import SVG_moonWaningGibbous_4 from "./moon-waning-gibbous-4";
-import SVG_moonWaningGibbous_5 from "./moon-waning-gibbous-5";
-import SVG_moonWaningGibbous_6 from "./moon-waning-gibbous-6";
-import SVG_moonWaxing_6 from "./moon-waxing-6";
-import SVG_moonWaxingCrescent_1 from "./moon-waxing-crescent-1";
-import SVG_moonWaxingCrescent_2 from "./moon-waxing-crescent-2";
-import SVG_moonWaxingCrescent_3 from "./moon-waxing-crescent-3";
-import SVG_moonWaxingCrescent_4 from "./moon-waxing-crescent-4";
-import SVG_moonWaxingCrescent_5 from "./moon-waxing-crescent-5";
-import SVG_moonWaxingGibbous_1 from "./moon-waxing-gibbous-1";
-import SVG_moonWaxingGibbous_2 from "./moon-waxing-gibbous-2";
-import SVG_moonWaxingGibbous_3 from "./moon-waxing-gibbous-3";
-import SVG_moonWaxingGibbous_4 from "./moon-waxing-gibbous-4";
-import SVG_moonWaxingGibbous_5 from "./moon-waxing-gibbous-5";
-import SVG_moonWaxingGibbous_6 from "./moon-waxing-gibbous-6";
+import SVG_moonWaningCrescent1 from "./moon-waning-crescent-1";
+import SVG_moonWaningCrescent2 from "./moon-waning-crescent-2";
+import SVG_moonWaningCrescent3 from "./moon-waning-crescent-3";
+import SVG_moonWaningCrescent4 from "./moon-waning-crescent-4";
+import SVG_moonWaningCrescent5 from "./moon-waning-crescent-5";
+import SVG_moonWaningCrescent6 from "./moon-waning-crescent-6";
+import SVG_moonWaningGibbous1 from "./moon-waning-gibbous-1";
+import SVG_moonWaningGibbous2 from "./moon-waning-gibbous-2";
+import SVG_moonWaningGibbous3 from "./moon-waning-gibbous-3";
+import SVG_moonWaningGibbous4 from "./moon-waning-gibbous-4";
+import SVG_moonWaningGibbous5 from "./moon-waning-gibbous-5";
+import SVG_moonWaningGibbous6 from "./moon-waning-gibbous-6";
+import SVG_moonWaxing6 from "./moon-waxing-6";
+import SVG_moonWaxingCrescent1 from "./moon-waxing-crescent-1";
+import SVG_moonWaxingCrescent2 from "./moon-waxing-crescent-2";
+import SVG_moonWaxingCrescent3 from "./moon-waxing-crescent-3";
+import SVG_moonWaxingCrescent4 from "./moon-waxing-crescent-4";
+import SVG_moonWaxingCrescent5 from "./moon-waxing-crescent-5";
+import SVG_moonWaxingGibbous1 from "./moon-waxing-gibbous-1";
+import SVG_moonWaxingGibbous2 from "./moon-waxing-gibbous-2";
+import SVG_moonWaxingGibbous3 from "./moon-waxing-gibbous-3";
+import SVG_moonWaxingGibbous4 from "./moon-waxing-gibbous-4";
+import SVG_moonWaxingGibbous5 from "./moon-waxing-gibbous-5";
+import SVG_moonWaxingGibbous6 from "./moon-waxing-gibbous-6";
 import SVG_moonrise from "./moonrise";
 import SVG_moonset from "./moonset";
 import SVG_na from "./na";
@@ -189,36 +189,36 @@ import SVG_thermometerExterior from "./thermometer-exterior";
 import SVG_thermometerInternal from "./thermometer-internal";
 import SVG_thermometer from "./thermometer";
 import SVG_thunderstorm from "./thunderstorm";
-import SVG_time_1 from "./time-1";
-import SVG_time_10 from "./time-10";
-import SVG_time_11 from "./time-11";
-import SVG_time_12 from "./time-12";
-import SVG_time_2 from "./time-2";
-import SVG_time_3 from "./time-3";
-import SVG_time_4 from "./time-4";
-import SVG_time_5 from "./time-5";
-import SVG_time_6 from "./time-6";
-import SVG_time_7 from "./time-7";
-import SVG_time_8 from "./time-8";
-import SVG_time_9 from "./time-9";
+import SVG_time1 from "./time-1";
+import SVG_time10 from "./time-10";
+import SVG_time11 from "./time-11";
+import SVG_time12 from "./time-12";
+import SVG_time2 from "./time-2";
+import SVG_time3 from "./time-3";
+import SVG_time4 from "./time-4";
+import SVG_time5 from "./time-5";
+import SVG_time6 from "./time-6";
+import SVG_time7 from "./time-7";
+import SVG_time8 from "./time-8";
+import SVG_time9 from "./time-9";
 import SVG_tornado from "./tornado";
 import SVG_train from "./train";
 import SVG_tsunami from "./tsunami";
 import SVG_umbrella from "./umbrella";
 import SVG_volcano from "./volcano";
-import SVG_windBeaufort_0 from "./wind-beaufort-0";
-import SVG_windBeaufort_1 from "./wind-beaufort-1";
-import SVG_windBeaufort_10 from "./wind-beaufort-10";
-import SVG_windBeaufort_11 from "./wind-beaufort-11";
-import SVG_windBeaufort_12 from "./wind-beaufort-12";
-import SVG_windBeaufort_2 from "./wind-beaufort-2";
-import SVG_windBeaufort_3 from "./wind-beaufort-3";
-import SVG_windBeaufort_4 from "./wind-beaufort-4";
-import SVG_windBeaufort_5 from "./wind-beaufort-5";
-import SVG_windBeaufort_6 from "./wind-beaufort-6";
-import SVG_windBeaufort_7 from "./wind-beaufort-7";
-import SVG_windBeaufort_8 from "./wind-beaufort-8";
-import SVG_windBeaufort_9 from "./wind-beaufort-9";
+import SVG_windBeaufort0 from "./wind-beaufort-0";
+import SVG_windBeaufort1 from "./wind-beaufort-1";
+import SVG_windBeaufort10 from "./wind-beaufort-10";
+import SVG_windBeaufort11 from "./wind-beaufort-11";
+import SVG_windBeaufort12 from "./wind-beaufort-12";
+import SVG_windBeaufort2 from "./wind-beaufort-2";
+import SVG_windBeaufort3 from "./wind-beaufort-3";
+import SVG_windBeaufort4 from "./wind-beaufort-4";
+import SVG_windBeaufort5 from "./wind-beaufort-5";
+import SVG_windBeaufort6 from "./wind-beaufort-6";
+import SVG_windBeaufort7 from "./wind-beaufort-7";
+import SVG_windBeaufort8 from "./wind-beaufort-8";
+import SVG_windBeaufort9 from "./wind-beaufort-9";
 import SVG_windDeg from "./wind-deg";
 import SVG_windy from "./windy"
 
@@ -291,58 +291,58 @@ export const map: IconsMapType<IconNames> = {
 "moon-alt-full": SVG_moonAltFull,
 "moon-alt-new": SVG_moonAltNew,
 "moon-alt-third-quarter": SVG_moonAltThirdQuarter,
-"moon-alt-waning-crescent-1": SVG_moonAltWaningCrescent_1,
-"moon-alt-waning-crescent-2": SVG_moonAltWaningCrescent_2,
-"moon-alt-waning-crescent-3": SVG_moonAltWaningCrescent_3,
-"moon-alt-waning-crescent-4": SVG_moonAltWaningCrescent_4,
-"moon-alt-waning-crescent-5": SVG_moonAltWaningCrescent_5,
-"moon-alt-waning-crescent-6": SVG_moonAltWaningCrescent_6,
-"moon-alt-waning-gibbous-1": SVG_moonAltWaningGibbous_1,
-"moon-alt-waning-gibbous-2": SVG_moonAltWaningGibbous_2,
-"moon-alt-waning-gibbous-3": SVG_moonAltWaningGibbous_3,
-"moon-alt-waning-gibbous-4": SVG_moonAltWaningGibbous_4,
-"moon-alt-waning-gibbous-5": SVG_moonAltWaningGibbous_5,
-"moon-alt-waning-gibbous-6": SVG_moonAltWaningGibbous_6,
-"moon-alt-waxing-crescent-1": SVG_moonAltWaxingCrescent_1,
-"moon-alt-waxing-crescent-2": SVG_moonAltWaxingCrescent_2,
-"moon-alt-waxing-crescent-3": SVG_moonAltWaxingCrescent_3,
-"moon-alt-waxing-crescent-4": SVG_moonAltWaxingCrescent_4,
-"moon-alt-waxing-crescent-5": SVG_moonAltWaxingCrescent_5,
-"moon-alt-waxing-crescent-6": SVG_moonAltWaxingCrescent_6,
-"moon-alt-waxing-gibbous-1": SVG_moonAltWaxingGibbous_1,
-"moon-alt-waxing-gibbous-2": SVG_moonAltWaxingGibbous_2,
-"moon-alt-waxing-gibbous-3": SVG_moonAltWaxingGibbous_3,
-"moon-alt-waxing-gibbous-4": SVG_moonAltWaxingGibbous_4,
-"moon-alt-waxing-gibbous-5": SVG_moonAltWaxingGibbous_5,
-"moon-alt-waxing-gibbous-6": SVG_moonAltWaxingGibbous_6,
+"moon-alt-waning-crescent-1": SVG_moonAltWaningCrescent1,
+"moon-alt-waning-crescent-2": SVG_moonAltWaningCrescent2,
+"moon-alt-waning-crescent-3": SVG_moonAltWaningCrescent3,
+"moon-alt-waning-crescent-4": SVG_moonAltWaningCrescent4,
+"moon-alt-waning-crescent-5": SVG_moonAltWaningCrescent5,
+"moon-alt-waning-crescent-6": SVG_moonAltWaningCrescent6,
+"moon-alt-waning-gibbous-1": SVG_moonAltWaningGibbous1,
+"moon-alt-waning-gibbous-2": SVG_moonAltWaningGibbous2,
+"moon-alt-waning-gibbous-3": SVG_moonAltWaningGibbous3,
+"moon-alt-waning-gibbous-4": SVG_moonAltWaningGibbous4,
+"moon-alt-waning-gibbous-5": SVG_moonAltWaningGibbous5,
+"moon-alt-waning-gibbous-6": SVG_moonAltWaningGibbous6,
+"moon-alt-waxing-crescent-1": SVG_moonAltWaxingCrescent1,
+"moon-alt-waxing-crescent-2": SVG_moonAltWaxingCrescent2,
+"moon-alt-waxing-crescent-3": SVG_moonAltWaxingCrescent3,
+"moon-alt-waxing-crescent-4": SVG_moonAltWaxingCrescent4,
+"moon-alt-waxing-crescent-5": SVG_moonAltWaxingCrescent5,
+"moon-alt-waxing-crescent-6": SVG_moonAltWaxingCrescent6,
+"moon-alt-waxing-gibbous-1": SVG_moonAltWaxingGibbous1,
+"moon-alt-waxing-gibbous-2": SVG_moonAltWaxingGibbous2,
+"moon-alt-waxing-gibbous-3": SVG_moonAltWaxingGibbous3,
+"moon-alt-waxing-gibbous-4": SVG_moonAltWaxingGibbous4,
+"moon-alt-waxing-gibbous-5": SVG_moonAltWaxingGibbous5,
+"moon-alt-waxing-gibbous-6": SVG_moonAltWaxingGibbous6,
 "moon-first-quarter": SVG_moonFirstQuarter,
 "moon-full": SVG_moonFull,
 "moon-new": SVG_moonNew,
 "moon-third-quarter": SVG_moonThirdQuarter,
-"moon-waning-crescent-1": SVG_moonWaningCrescent_1,
-"moon-waning-crescent-2": SVG_moonWaningCrescent_2,
-"moon-waning-crescent-3": SVG_moonWaningCrescent_3,
-"moon-waning-crescent-4": SVG_moonWaningCrescent_4,
-"moon-waning-crescent-5": SVG_moonWaningCrescent_5,
-"moon-waning-crescent-6": SVG_moonWaningCrescent_6,
-"moon-waning-gibbous-1": SVG_moonWaningGibbous_1,
-"moon-waning-gibbous-2": SVG_moonWaningGibbous_2,
-"moon-waning-gibbous-3": SVG_moonWaningGibbous_3,
-"moon-waning-gibbous-4": SVG_moonWaningGibbous_4,
-"moon-waning-gibbous-5": SVG_moonWaningGibbous_5,
-"moon-waning-gibbous-6": SVG_moonWaningGibbous_6,
-"moon-waxing-6": SVG_moonWaxing_6,
-"moon-waxing-crescent-1": SVG_moonWaxingCrescent_1,
-"moon-waxing-crescent-2": SVG_moonWaxingCrescent_2,
-"moon-waxing-crescent-3": SVG_moonWaxingCrescent_3,
-"moon-waxing-crescent-4": SVG_moonWaxingCrescent_4,
-"moon-waxing-crescent-5": SVG_moonWaxingCrescent_5,
-"moon-waxing-gibbous-1": SVG_moonWaxingGibbous_1,
-"moon-waxing-gibbous-2": SVG_moonWaxingGibbous_2,
-"moon-waxing-gibbous-3": SVG_moonWaxingGibbous_3,
-"moon-waxing-gibbous-4": SVG_moonWaxingGibbous_4,
-"moon-waxing-gibbous-5": SVG_moonWaxingGibbous_5,
-"moon-waxing-gibbous-6": SVG_moonWaxingGibbous_6,
+"moon-waning-crescent-1": SVG_moonWaningCrescent1,
+"moon-waning-crescent-2": SVG_moonWaningCrescent2,
+"moon-waning-crescent-3": SVG_moonWaningCrescent3,
+"moon-waning-crescent-4": SVG_moonWaningCrescent4,
+"moon-waning-crescent-5": SVG_moonWaningCrescent5,
+"moon-waning-crescent-6": SVG_moonWaningCrescent6,
+"moon-waning-gibbous-1": SVG_moonWaningGibbous1,
+"moon-waning-gibbous-2": SVG_moonWaningGibbous2,
+"moon-waning-gibbous-3": SVG_moonWaningGibbous3,
+"moon-waning-gibbous-4": SVG_moonWaningGibbous4,
+"moon-waning-gibbous-5": SVG_moonWaningGibbous5,
+"moon-waning-gibbous-6": SVG_moonWaningGibbous6,
+"moon-waxing-6": SVG_moonWaxing6,
+"moon-waxing-crescent-1": SVG_moonWaxingCrescent1,
+"moon-waxing-crescent-2": SVG_moonWaxingCrescent2,
+"moon-waxing-crescent-3": SVG_moonWaxingCrescent3,
+"moon-waxing-crescent-4": SVG_moonWaxingCrescent4,
+"moon-waxing-crescent-5": SVG_moonWaxingCrescent5,
+"moon-waxing-gibbous-1": SVG_moonWaxingGibbous1,
+"moon-waxing-gibbous-2": SVG_moonWaxingGibbous2,
+"moon-waxing-gibbous-3": SVG_moonWaxingGibbous3,
+"moon-waxing-gibbous-4": SVG_moonWaxingGibbous4,
+"moon-waxing-gibbous-5": SVG_moonWaxingGibbous5,
+"moon-waxing-gibbous-6": SVG_moonWaxingGibbous6,
 "moonrise": SVG_moonrise,
 "moonset": SVG_moonset,
 "na": SVG_na,
@@ -414,36 +414,36 @@ export const map: IconsMapType<IconNames> = {
 "thermometer-internal": SVG_thermometerInternal,
 "thermometer": SVG_thermometer,
 "thunderstorm": SVG_thunderstorm,
-"time-1": SVG_time_1,
-"time-10": SVG_time_10,
-"time-11": SVG_time_11,
-"time-12": SVG_time_12,
-"time-2": SVG_time_2,
-"time-3": SVG_time_3,
-"time-4": SVG_time_4,
-"time-5": SVG_time_5,
-"time-6": SVG_time_6,
-"time-7": SVG_time_7,
-"time-8": SVG_time_8,
-"time-9": SVG_time_9,
+"time-1": SVG_time1,
+"time-10": SVG_time10,
+"time-11": SVG_time11,
+"time-12": SVG_time12,
+"time-2": SVG_time2,
+"time-3": SVG_time3,
+"time-4": SVG_time4,
+"time-5": SVG_time5,
+"time-6": SVG_time6,
+"time-7": SVG_time7,
+"time-8": SVG_time8,
+"time-9": SVG_time9,
 "tornado": SVG_tornado,
 "train": SVG_train,
 "tsunami": SVG_tsunami,
 "umbrella": SVG_umbrella,
 "volcano": SVG_volcano,
-"wind-beaufort-0": SVG_windBeaufort_0,
-"wind-beaufort-1": SVG_windBeaufort_1,
-"wind-beaufort-10": SVG_windBeaufort_10,
-"wind-beaufort-11": SVG_windBeaufort_11,
-"wind-beaufort-12": SVG_windBeaufort_12,
-"wind-beaufort-2": SVG_windBeaufort_2,
-"wind-beaufort-3": SVG_windBeaufort_3,
-"wind-beaufort-4": SVG_windBeaufort_4,
-"wind-beaufort-5": SVG_windBeaufort_5,
-"wind-beaufort-6": SVG_windBeaufort_6,
-"wind-beaufort-7": SVG_windBeaufort_7,
-"wind-beaufort-8": SVG_windBeaufort_8,
-"wind-beaufort-9": SVG_windBeaufort_9,
+"wind-beaufort-0": SVG_windBeaufort0,
+"wind-beaufort-1": SVG_windBeaufort1,
+"wind-beaufort-10": SVG_windBeaufort10,
+"wind-beaufort-11": SVG_windBeaufort11,
+"wind-beaufort-12": SVG_windBeaufort12,
+"wind-beaufort-2": SVG_windBeaufort2,
+"wind-beaufort-3": SVG_windBeaufort3,
+"wind-beaufort-4": SVG_windBeaufort4,
+"wind-beaufort-5": SVG_windBeaufort5,
+"wind-beaufort-6": SVG_windBeaufort6,
+"wind-beaufort-7": SVG_windBeaufort7,
+"wind-beaufort-8": SVG_windBeaufort8,
+"wind-beaufort-9": SVG_windBeaufort9,
 "wind-deg": SVG_windDeg,
 "windy": SVG_windy
 };

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"mail-arrow-clockwise","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M23 .75a.75.75 0 0 0-1.5 0v.63A6 6 0 1 0 24 6.25a.75.75 0 0 0-1.5 0 4.5 4.5 0 1 1-1.69-3.51h.01v.01H19.5a.75.75 0 0 0 0 1.5h2.75c.41 0 .75-.34.75-.75V.75Zm-12 5.5c0 2.07.9 3.93 2.32 5.21l-1.32.7-9.98-5.24a3.25 3.25 0 0 1 3.04-2.91L5.25 4h6.12c-.24.7-.37 1.46-.37 2.25Zm11 10.5V12a6.97 6.97 0 0 1-7.3.43l-2.35 1.23a.75.75 0 0 1-.7 0L2 8.61v8.32A3.25 3.25 0 0 0 5.26 20h13.68A3.25 3.25 0 0 0 22 16.74Z"}}]};
+export default content;

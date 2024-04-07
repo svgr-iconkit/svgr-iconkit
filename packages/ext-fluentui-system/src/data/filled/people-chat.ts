@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"people-chat","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm8 1a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM2 15.25C2 14.01 3 13 4.25 13h7.5c.32 0 .62.07.89.18a6.48 6.48 0 0 0-1.36 6.2A7.9 7.9 0 0 1 8 20c-6 0-6-4.5-6-4.5v-.25ZM17.5 23a5.5 5.5 0 1 0-4.81-2.83l-.67 2.19a.5.5 0 0 0 .63.62l2.18-.67c.8.44 1.7.7 2.67.7Zm-2-6a.5.5 0 1 1 0-1h4a.5.5 0 1 1 0 1h-4Zm2 2h-2a.5.5 0 1 1 0-1h2a.5.5 0 1 1 0 1Z"}}]};
+export default content;

@@ -826,7 +826,7 @@ import SVG_stethoscope from "./stethoscope";
 import SVG_stickyNote from "./sticky-note";
 import SVG_stopCircle from "./stop-circle";
 import SVG_stop from "./stop";
-import SVG_stopwatch_20 from "./stopwatch-20";
+import SVG_stopwatch20 from "./stopwatch-20";
 import SVG_stopwatch from "./stopwatch";
 import SVG_storeAltSlash from "./store-alt-slash";
 import SVG_storeAlt from "./store-alt";
@@ -1834,7 +1834,7 @@ export const map: IconsMapType<IconNames> = {
 "sticky-note": SVG_stickyNote,
 "stop-circle": SVG_stopCircle,
 "stop": SVG_stop,
-"stopwatch-20": SVG_stopwatch_20,
+"stopwatch-20": SVG_stopwatch20,
 "stopwatch": SVG_stopwatch,
 "store-alt-slash": SVG_storeAltSlash,
 "store-alt": SVG_storeAlt,

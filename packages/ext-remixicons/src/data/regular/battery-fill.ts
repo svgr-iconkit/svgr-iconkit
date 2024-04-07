@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"battery-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M150 950H950A50 50 0 0 0 1000 900V300A50 50 0 0 0 950 250H150A50 50 0 0 0 100 300V900A50 50 0 0 0 150 950zM1050 750H1150V450H1050V750z"}}]};
+export const content: IconSVG = {"name":"battery-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M125 770H925C952.6149999999998 770 975 747.614 975 720V120C975 92.3850000000001 952.6149999999998 70 925 70H125C97.386 70 75 92.3850000000001 75 120V720C75 747.614 97.386 770 125 770zM1025 570H1125V270H1025V570z"}}]};
 export default content;

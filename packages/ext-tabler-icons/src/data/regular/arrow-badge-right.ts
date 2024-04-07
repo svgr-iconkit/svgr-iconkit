@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"arrow-badge-right","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M13 7h-6l4 5l-4 5h6l4 -5z"}}]};
+export const content: IconSVG = {"name":"arrow-badge-right","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M13 7h-6l4 5l-4 5h6l4 -5z"}}]};
 export default content;

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"douban-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M763.65 450H250V850H950V450H868.8000000000001L803.8000000000001 250H1050V150H150V250H380.6L340 375L435.1 405.9L485.75 250H698.7L763.7 450zM175 1050H1025V950H175V1050zM350 750V550H850V750H350z"}}]};
+export const content: IconSVG = {"name":"douban-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M763.6750000000001 270H250V670H950V270H868.82L803.8349999999999 70H1050V-30H150V70H380.615L340 195L435.1055 225.9L485.761 70H698.69L763.6750000000001 270zM175 870H1025V770H175V870zM350 570V370H850V570H350z"}}]};
 export default content;

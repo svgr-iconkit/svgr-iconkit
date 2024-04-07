@@ -94,8 +94,8 @@ import SVG_deleteDatabase from "./delete-database";
 import SVG_deleteRow from "./delete-row";
 import SVG_department from "./department";
 import SVG_deployment from "./deployment";
-import SVG_diploma_1 from "./diploma-1";
-import SVG_diploma_2 from "./diploma-2";
+import SVG_diploma1 from "./diploma-1";
+import SVG_diploma2 from "./diploma-2";
 import SVG_disapprove from "./disapprove";
 import SVG_disclaimer from "./disclaimer";
 import SVG_dislike from "./dislike";
@@ -221,8 +221,8 @@ import SVG_nightPortrait from "./night-portrait";
 import SVG_noIdea from "./no-idea";
 import SVG_noVideo from "./no-video";
 import SVG_nook from "./nook";
-import SVG_numericalSorting_12 from "./numerical-sorting-12";
-import SVG_numericalSorting_21 from "./numerical-sorting-21";
+import SVG_numericalSorting12 from "./numerical-sorting-12";
+import SVG_numericalSorting21 from "./numerical-sorting-21";
 import SVG_ok from "./ok";
 import SVG_oldTimeCamera from "./old-time-camera";
 import SVG_onlineSupport from "./online-support";
@@ -429,8 +429,8 @@ export const map: IconsMapType<IconNames> = {
 "delete-row": SVG_deleteRow,
 "department": SVG_department,
 "deployment": SVG_deployment,
-"diploma-1": SVG_diploma_1,
-"diploma-2": SVG_diploma_2,
+"diploma-1": SVG_diploma1,
+"diploma-2": SVG_diploma2,
 "disapprove": SVG_disapprove,
 "disclaimer": SVG_disclaimer,
 "dislike": SVG_dislike,
@@ -556,8 +556,8 @@ export const map: IconsMapType<IconNames> = {
 "no-idea": SVG_noIdea,
 "no-video": SVG_noVideo,
 "nook": SVG_nook,
-"numerical-sorting-12": SVG_numericalSorting_12,
-"numerical-sorting-21": SVG_numericalSorting_21,
+"numerical-sorting-12": SVG_numericalSorting12,
+"numerical-sorting-21": SVG_numericalSorting21,
 "ok": SVG_ok,
 "old-time-camera": SVG_oldTimeCamera,
 "online-support": SVG_onlineSupport,

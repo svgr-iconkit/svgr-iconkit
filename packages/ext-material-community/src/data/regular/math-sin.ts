@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"math-sin","attrs":{"version":1.1,"id":"mdi-math-sin","viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M4,7A2,2 0 0,0 2,9V11A2,2 0 0,0 4,13H6V15H2V17H6A2,2 0 0,0 8,15V13A2,2 0 0,0 6,11H4V9H8V7H4M14,7V9H13V15H14V17H10V15H11V9H10V7H14M16,7V17H18V12L20,17H22V7H20V12L18,7H16Z"}}]};
+export const content: IconSVG = {"name":"math-sin","attrs":{"id":"mdi-math-sin","viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M4,7A2,2 0 0,0 2,9V11A2,2 0 0,0 4,13H6V15H2V17H6A2,2 0 0,0 8,15V13A2,2 0 0,0 6,11H4V9H8V7H4M14,7V9H13V15H14V17H10V15H11V9H10V7H14M16,7V17H18V12L20,17H22V7H20V12L18,7H16Z"}}]};
 export default content;

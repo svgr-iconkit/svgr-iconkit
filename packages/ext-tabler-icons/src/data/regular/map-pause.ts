@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"map-pause","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M13 19l-4 -2l-6 3v-13l6 -3l6 3l6 -3v9"}},{"tagName":"path","attrs":{"d":"M9 4v13"}},{"tagName":"path","attrs":{"d":"M15 7v6.5"}},{"tagName":"path","attrs":{"d":"M17 17v5"}},{"tagName":"path","attrs":{"d":"M21 17v5"}}]};
+export default content;

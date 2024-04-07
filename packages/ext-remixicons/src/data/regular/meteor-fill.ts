@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"meteor-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 1150V550A450 450 0 1 0 368.75 936.1L700 1127.35V988.85L1050 1150zM600 800A250 250 0 1 1 600 300A250 250 0 0 1 600 800z"}}]};
+export const content: IconSVG = {"name":"meteor-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1050 945V345C1050 96.4699999999999 848.5300000000001 -105 600 -105C351.472 -105 150 96.4699999999999 150 345C150 508.9680000000001 237.6965 652.4535000000001 368.7440000000001 731.1115L700 922.35V783.85L1050 945zM600 595C461.929 595 350 483.07 350 345C350 206.93 461.929 95 600 95C738.07 95 850 206.93 850 345C850 483.07 738.07 595 600 595z"}}]};
 export default content;

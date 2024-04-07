@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/material-design",
-  "version": "0.3.1",
+  "version": "0.4.1",
   "keywords": [
     "SVG",
     "Icons",
@@ -57,22 +57,23 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.3.1"
+    "@svgr-iconkit/core": "^0.4.1"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.3.1",
-    "@svgr-iconkit/cli": "^0.3.1",
+    "@svgr-iconkit/build-config": "^0.4.1",
+    "@svgr-iconkit/cli": "^0.4.1",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "rimraf": "^3.0.2",
-    "typescript": "^4.3.4"
+    "typescript": "^5.4.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "iconsmap:clean": "rimraf ./src/gen ./tmp && mkdir -p ./tmp",
+    "iconsmap:upgrade": "echo 'not available'",
+    "iconsmap:clean": "rimraf ./src/gen ./tmp ./src/data && mkdir -p ./tmp",
     "iconsmap:prepare": "curl 'https://codeload.github.com/google/material-design-icons/zip/refs/tags/4.0.0' -o tmp/icons.zip && unzip -q -o tmp/icons.zip 'material-design-icons-4.0.0/src/*' -d ./tmp/icons",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -rs '24px.svg' -E 'materialicons/24px.svg' -i ./tmp/icons/material-design-icons-4.0.0/src/ -lf -o src/gen/assets/regular ",
     "iconsmap:copy:outlined": "svgr-iconkit deep-copy -rs '24px.svg' -E 'materialiconsoutlined/24px.svg' -i ./tmp/icons/material-design-icons-4.0.0/src/ -lf -o src/gen/assets/outlined ",
@@ -86,7 +87,7 @@
     "iconsmap:create": "npm-run-all iconsmap:create:regular  iconsmap:create:outlined iconsmap:create:round iconsmap:create:sharp",
     "iconsmap": "npm-run-all iconsmap:clean iconsmap:prepare iconsmap:copy iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
-    "compile": "rollup -c",
+    "compile": "rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",
     "build:full": "npm-run-all iconsmap compile"
   },

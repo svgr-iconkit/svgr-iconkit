@@ -1,15 +1,14 @@
-import { camelCase } from 'camel-case'
 import { ResolveType } from './constants'
 import type { IconCoreProps, IconSVG } from './types'
+import camelCase from "@svgr-iconkit/common-utils/camel-case"
 
 const numberStartedRegExp = /^[0-9]/
 const numberOnlyRegExp = /^[0-9]$/
+const ignoredPropNames = ['title', 'version', 'style', 'content']
 
 export const PRIMARY_CURRENT_COLOR = 'currentColor'
 
-export const createRandomId = (base = 0x100000) => ((1 + Math.random()) * base|0).toString(24)
-
-const ignoredPropNames = ['title', 'version', 'style', 'content']
+export const createRandomId = (base = 0x100000) => (((1 + Math.random()) * base) | 0).toString(24)
 
 export const filterNonNumberStartedString = (str: any) => !String(str).match(numberStartedRegExp)
 export const filterNubmerOnlyString = (str: any) => !!String(str).match(numberOnlyRegExp)
@@ -37,8 +36,8 @@ export const propNameFiltering = (name: string) =>
  * @returns
  */
 export const createConvertReactProps =
-  (namesRemap: Record<string, string | null>, {convertCamelCase = true} = {}) =>
-  (attrs: Record<string, any>, originalContent: any = {}, {  allowNonWhitelistProp = true } = {}) => {
+  (namesRemap: Record<string, string | null>, { convertCamelCase = true } = {}) =>
+  (attrs: Record<string, any>, originalContent: any = {}, { allowNonWhitelistProp = true } = {}) => {
     const exportedProps: any = {
       ...originalContent,
     }
@@ -54,7 +53,7 @@ export const createConvertReactProps =
         }
         return curProps
       }, exportedProps)
-    return newAttrs;
+    return newAttrs
   }
 
 /**

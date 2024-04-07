@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"arrow-narrow-left","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"line","attrs":{"x1":5,"y1":12,"x2":19,"y2":12}},{"tagName":"line","attrs":{"x1":5,"y1":12,"x2":9,"y2":16}},{"tagName":"line","attrs":{"x1":5,"y1":12,"x2":9,"y2":8}}]};
+export const content: IconSVG = {"name":"arrow-narrow-left","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M5 12l14 0"}},{"tagName":"path","attrs":{"d":"M5 12l4 4"}},{"tagName":"path","attrs":{"d":"M5 12l4 -4"}}]};
 export default content;

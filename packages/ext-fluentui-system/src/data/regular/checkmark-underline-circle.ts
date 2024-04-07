@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"checkmark-underline-circle","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"m10.75 11.44 4.47-4.47a.75.75 0 0 1 1.13.98l-.07.08-5 5a.75.75 0 0 1-.98.07l-.08-.07-2.5-2.5A.75.75 0 0 1 8.7 9.4l.08.07 1.97 1.97ZM8.5 15a.75.75 0 0 0 0 1.5h6.75a.75.75 0 0 0 0-1.5H8.5ZM2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm10-8.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17Z"}}]};
+export default content;

@@ -4,12 +4,11 @@ import FS from 'fs'
 import Path from 'path'
 import ChildProcess from 'child_process'
 import cliProgress from 'cli-progress'
+import { camelCase, paramCase } from '@svgr-iconkit/common-utils'
 import {
   readFile,
   writeFile,
   getCamelIconName,
-  paramCase,
-  camelCase,
   createRootIconset,
   resolvePackagePath,
 } from '../utils'

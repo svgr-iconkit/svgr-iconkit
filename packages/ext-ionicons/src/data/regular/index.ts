@@ -18,6 +18,8 @@ import SVG_archive from "./archive";
 import SVG_arrowBackCircle from "./arrow-back-circle";
 import SVG_arrowBack from "./arrow-back";
 import SVG_arrowDownCircle from "./arrow-down-circle";
+import SVG_arrowDownLeftBox from "./arrow-down-left-box";
+import SVG_arrowDownRightBox from "./arrow-down-right-box";
 import SVG_arrowDown from "./arrow-down";
 import SVG_arrowForwardCircle from "./arrow-forward-circle";
 import SVG_arrowForward from "./arrow-forward";
@@ -26,6 +28,8 @@ import SVG_arrowRedo from "./arrow-redo";
 import SVG_arrowUndoCircle from "./arrow-undo-circle";
 import SVG_arrowUndo from "./arrow-undo";
 import SVG_arrowUpCircle from "./arrow-up-circle";
+import SVG_arrowUpLeftBox from "./arrow-up-left-box";
+import SVG_arrowUpRightBox from "./arrow-up-right-box";
 import SVG_arrowUp from "./arrow-up";
 import SVG_atCircle from "./at-circle";
 import SVG_at from "./at";
@@ -53,6 +57,7 @@ import SVG_beaker from "./beaker";
 import SVG_bed from "./bed";
 import SVG_beer from "./beer";
 import SVG_bicycle from "./bicycle";
+import SVG_binoculars from "./binoculars";
 import SVG_bluetooth from "./bluetooth";
 import SVG_boat from "./boat";
 import SVG_body from "./body";
@@ -103,8 +108,10 @@ import SVG_checkmarkDone from "./checkmark-done";
 import SVG_checkmark from "./checkmark";
 import SVG_chevronBackCircle from "./chevron-back-circle";
 import SVG_chevronBack from "./chevron-back";
+import SVG_chevronCollapse from "./chevron-collapse";
 import SVG_chevronDownCircle from "./chevron-down-circle";
 import SVG_chevronDown from "./chevron-down";
+import SVG_chevronExpand from "./chevron-expand";
 import SVG_chevronForwardCircle from "./chevron-forward-circle";
 import SVG_chevronForward from "./chevron-forward";
 import SVG_chevronUpCircle from "./chevron-up-circle";
@@ -246,6 +253,7 @@ import SVG_logoAmazon from "./logo-amazon";
 import SVG_logoAmplify from "./logo-amplify";
 import SVG_logoAndroid from "./logo-android";
 import SVG_logoAngular from "./logo-angular";
+import SVG_logoAppflow from "./logo-appflow";
 import SVG_logoAppleAppstore from "./logo-apple-appstore";
 import SVG_logoAppleAr from "./logo-apple-ar";
 import SVG_logoApple from "./logo-apple";
@@ -311,6 +319,7 @@ import SVG_logoSteam from "./logo-steam";
 import SVG_logoStencil from "./logo-stencil";
 import SVG_logoTableau from "./logo-tableau";
 import SVG_logoTiktok from "./logo-tiktok";
+import SVG_logoTrapeze from "./logo-trapeze";
 import SVG_logoTumblr from "./logo-tumblr";
 import SVG_logoTux from "./logo-tux";
 import SVG_logoTwitch from "./logo-twitch";
@@ -508,7 +517,7 @@ import SVG_wine from "./wine";
 import SVG_woman from "./woman"
 
 // types
-export type IconNames = "accessibility" | "add-circle" | "add" | "airplane" | "alarm" | "albums" | "alert-circle" | "alert" | "american-football" | "analytics" | "aperture" | "apps" | "archive" | "arrow-back-circle" | "arrow-back" | "arrow-down-circle" | "arrow-down" | "arrow-forward-circle" | "arrow-forward" | "arrow-redo-circle" | "arrow-redo" | "arrow-undo-circle" | "arrow-undo" | "arrow-up-circle" | "arrow-up" | "at-circle" | "at" | "attach" | "backspace" | "bag-add" | "bag-check" | "bag-handle" | "bag-remove" | "bag" | "balloon" | "ban" | "bandage" | "bar-chart" | "barbell" | "barcode" | "baseball" | "basket" | "basketball" | "battery-charging" | "battery-dead" | "battery-full" | "battery-half" | "beaker" | "bed" | "beer" | "bicycle" | "bluetooth" | "boat" | "body" | "bonfire" | "book" | "bookmark" | "bookmarks" | "bowling-ball" | "briefcase" | "browsers" | "brush" | "bug" | "build" | "bulb" | "bus" | "business" | "cafe" | "calculator" | "calendar-clear" | "calendar-number" | "calendar" | "call" | "camera-reverse" | "camera" | "car-sport" | "car" | "card" | "caret-back-circle" | "caret-back" | "caret-down-circle" | "caret-down" | "caret-forward-circle" | "caret-forward" | "caret-up-circle" | "caret-up" | "cart" | "cash" | "cellular" | "chatbox-ellipses" | "chatbox" | "chatbubble-ellipses" | "chatbubble" | "chatbubbles" | "checkbox" | "checkmark-circle" | "checkmark-done-circle" | "checkmark-done" | "checkmark" | "chevron-back-circle" | "chevron-back" | "chevron-down-circle" | "chevron-down" | "chevron-forward-circle" | "chevron-forward" | "chevron-up-circle" | "chevron-up" | "clipboard" | "close-circle" | "close" | "cloud-circle" | "cloud-done" | "cloud-download" | "cloud-offline" | "cloud-upload" | "cloud" | "cloudy-night" | "cloudy" | "code-download" | "code-slash" | "code-working" | "code" | "cog" | "color-fill" | "color-filter" | "color-palette" | "color-wand" | "compass" | "construct" | "contract" | "contrast" | "copy" | "create" | "crop" | "cube" | "cut" | "desktop" | "diamond" | "dice" | "disc" | "document-attach" | "document-lock" | "document-text" | "document" | "documents" | "download" | "duplicate" | "ear" | "earth" | "easel" | "egg" | "ellipse" | "ellipsis-horizontal-circle" | "ellipsis-horizontal" | "ellipsis-vertical-circle" | "ellipsis-vertical" | "enter" | "exit" | "expand" | "extension-puzzle" | "eye-off" | "eye" | "eyedrop" | "fast-food" | "female" | "file-tray-full" | "file-tray-stacked" | "file-tray" | "film" | "filter-circle" | "filter" | "finger-print" | "fish" | "fitness" | "flag" | "flame" | "flash-off" | "flash" | "flashlight" | "flask" | "flower" | "folder-open" | "folder" | "football" | "footsteps" | "funnel" | "game-controller" | "gift" | "git-branch" | "git-commit" | "git-compare" | "git-merge" | "git-network" | "git-pull-request" | "glasses" | "globe" | "golf" | "grid" | "hammer" | "hand-left" | "hand-right" | "happy" | "hardware-chip" | "headset" | "heart-circle" | "heart-dislike-circle" | "heart-dislike" | "heart-half" | "heart" | "help-buoy" | "help-circle" | "help" | "home" | "hourglass" | "ice-cream" | "id-card" | "image" | "images" | "infinite" | "information-circle" | "information" | "invert-mode" | "journal" | "key" | "keypad" | "language" | "laptop" | "layers" | "leaf" | "library" | "link" | "list-circle" | "list" | "locate" | "location" | "lock-closed" | "lock-open" | "log-in" | "log-out" | "logo-alipay" | "logo-amazon" | "logo-amplify" | "logo-android" | "logo-angular" | "logo-apple-appstore" | "logo-apple-ar" | "logo-apple" | "logo-behance" | "logo-bitbucket" | "logo-bitcoin" | "logo-buffer" | "logo-capacitor" | "logo-chrome" | "logo-closed-captioning" | "logo-codepen" | "logo-css3" | "logo-designernews" | "logo-deviantart" | "logo-discord" | "logo-docker" | "logo-dribbble" | "logo-dropbox" | "logo-edge" | "logo-electron" | "logo-euro" | "logo-facebook" | "logo-figma" | "logo-firebase" | "logo-firefox" | "logo-flickr" | "logo-foursquare" | "logo-github" | "logo-gitlab" | "logo-google-playstore" | "logo-google" | "logo-hackernews" | "logo-html5" | "logo-instagram" | "logo-ionic" | "logo-ionitron" | "logo-javascript" | "logo-laravel" | "logo-linkedin" | "logo-markdown" | "logo-mastodon" | "logo-medium" | "logo-microsoft" | "logo-no-smoking" | "logo-nodejs" | "logo-npm" | "logo-octocat" | "logo-paypal" | "logo-pinterest" | "logo-playstation" | "logo-pwa" | "logo-python" | "logo-react" | "logo-reddit" | "logo-rss" | "logo-sass" | "logo-skype" | "logo-slack" | "logo-snapchat" | "logo-soundcloud" | "logo-stackoverflow" | "logo-steam" | "logo-stencil" | "logo-tableau" | "logo-tiktok" | "logo-tumblr" | "logo-tux" | "logo-twitch" | "logo-twitter" | "logo-usd" | "logo-venmo" | "logo-vercel" | "logo-vimeo" | "logo-vk" | "logo-vue" | "logo-web-component" | "logo-wechat" | "logo-whatsapp" | "logo-windows" | "logo-wordpress" | "logo-xbox" | "logo-xing" | "logo-yahoo" | "logo-yen" | "logo-youtube" | "magnet" | "mail-open" | "mail-unread" | "mail" | "male-female" | "male" | "man" | "map" | "medal" | "medical" | "medkit" | "megaphone" | "menu" | "mic-circle" | "mic-off-circle" | "mic-off" | "mic" | "moon" | "move" | "musical-note" | "musical-notes" | "navigate-circle" | "navigate" | "newspaper" | "notifications-circle" | "notifications-off-circle" | "notifications-off" | "notifications" | "nuclear" | "nutrition" | "open" | "options" | "paper-plane" | "partly-sunny" | "pause-circle" | "pause" | "paw" | "pencil" | "people-circle" | "people" | "person-add" | "person-circle" | "person-remove" | "person" | "phone-landscape" | "phone-portrait" | "pie-chart" | "pin" | "pint" | "pizza" | "planet" | "play-back-circle" | "play-back" | "play-circle" | "play-forward-circle" | "play-forward" | "play-skip-back-circle" | "play-skip-back" | "play-skip-forward-circle" | "play-skip-forward" | "play" | "podium" | "power" | "pricetag" | "pricetags" | "print" | "prism" | "pulse" | "push" | "qr-code" | "radio-button-off" | "radio-button-on" | "radio" | "rainy" | "reader" | "receipt" | "recording" | "refresh-circle" | "refresh" | "reload-circle" | "reload" | "remove-circle" | "remove" | "reorder-four" | "reorder-three" | "reorder-two" | "repeat" | "resize" | "restaurant" | "return-down-back" | "return-down-forward" | "return-up-back" | "return-up-forward" | "ribbon" | "rocket" | "rose" | "sad" | "save" | "scale" | "scan-circle" | "scan" | "school" | "search-circle" | "search" | "send" | "server" | "settings" | "shapes" | "share-social" | "share" | "shield-checkmark" | "shield-half" | "shield" | "shirt" | "shuffle" | "skull" | "snow" | "sparkles" | "speedometer" | "square" | "star-half" | "star" | "stats-chart" | "stop-circle" | "stop" | "stopwatch" | "storefront" | "subway" | "sunny" | "swap-horizontal" | "swap-vertical" | "sync-circle" | "sync" | "tablet-landscape" | "tablet-portrait" | "telescope" | "tennisball" | "terminal" | "text" | "thermometer" | "thumbs-down" | "thumbs-up" | "thunderstorm" | "ticket" | "time" | "timer" | "today" | "toggle" | "trail-sign" | "train" | "transgender" | "trash-bin" | "trash" | "trending-down" | "trending-up" | "triangle" | "trophy" | "tv" | "umbrella" | "unlink" | "videocam-off" | "videocam" | "volume-high" | "volume-low" | "volume-medium" | "volume-mute" | "volume-off" | "walk" | "wallet" | "warning" | "watch" | "water" | "wifi" | "wine" | "woman";
+export type IconNames = "accessibility" | "add-circle" | "add" | "airplane" | "alarm" | "albums" | "alert-circle" | "alert" | "american-football" | "analytics" | "aperture" | "apps" | "archive" | "arrow-back-circle" | "arrow-back" | "arrow-down-circle" | "arrow-down-left-box" | "arrow-down-right-box" | "arrow-down" | "arrow-forward-circle" | "arrow-forward" | "arrow-redo-circle" | "arrow-redo" | "arrow-undo-circle" | "arrow-undo" | "arrow-up-circle" | "arrow-up-left-box" | "arrow-up-right-box" | "arrow-up" | "at-circle" | "at" | "attach" | "backspace" | "bag-add" | "bag-check" | "bag-handle" | "bag-remove" | "bag" | "balloon" | "ban" | "bandage" | "bar-chart" | "barbell" | "barcode" | "baseball" | "basket" | "basketball" | "battery-charging" | "battery-dead" | "battery-full" | "battery-half" | "beaker" | "bed" | "beer" | "bicycle" | "binoculars" | "bluetooth" | "boat" | "body" | "bonfire" | "book" | "bookmark" | "bookmarks" | "bowling-ball" | "briefcase" | "browsers" | "brush" | "bug" | "build" | "bulb" | "bus" | "business" | "cafe" | "calculator" | "calendar-clear" | "calendar-number" | "calendar" | "call" | "camera-reverse" | "camera" | "car-sport" | "car" | "card" | "caret-back-circle" | "caret-back" | "caret-down-circle" | "caret-down" | "caret-forward-circle" | "caret-forward" | "caret-up-circle" | "caret-up" | "cart" | "cash" | "cellular" | "chatbox-ellipses" | "chatbox" | "chatbubble-ellipses" | "chatbubble" | "chatbubbles" | "checkbox" | "checkmark-circle" | "checkmark-done-circle" | "checkmark-done" | "checkmark" | "chevron-back-circle" | "chevron-back" | "chevron-collapse" | "chevron-down-circle" | "chevron-down" | "chevron-expand" | "chevron-forward-circle" | "chevron-forward" | "chevron-up-circle" | "chevron-up" | "clipboard" | "close-circle" | "close" | "cloud-circle" | "cloud-done" | "cloud-download" | "cloud-offline" | "cloud-upload" | "cloud" | "cloudy-night" | "cloudy" | "code-download" | "code-slash" | "code-working" | "code" | "cog" | "color-fill" | "color-filter" | "color-palette" | "color-wand" | "compass" | "construct" | "contract" | "contrast" | "copy" | "create" | "crop" | "cube" | "cut" | "desktop" | "diamond" | "dice" | "disc" | "document-attach" | "document-lock" | "document-text" | "document" | "documents" | "download" | "duplicate" | "ear" | "earth" | "easel" | "egg" | "ellipse" | "ellipsis-horizontal-circle" | "ellipsis-horizontal" | "ellipsis-vertical-circle" | "ellipsis-vertical" | "enter" | "exit" | "expand" | "extension-puzzle" | "eye-off" | "eye" | "eyedrop" | "fast-food" | "female" | "file-tray-full" | "file-tray-stacked" | "file-tray" | "film" | "filter-circle" | "filter" | "finger-print" | "fish" | "fitness" | "flag" | "flame" | "flash-off" | "flash" | "flashlight" | "flask" | "flower" | "folder-open" | "folder" | "football" | "footsteps" | "funnel" | "game-controller" | "gift" | "git-branch" | "git-commit" | "git-compare" | "git-merge" | "git-network" | "git-pull-request" | "glasses" | "globe" | "golf" | "grid" | "hammer" | "hand-left" | "hand-right" | "happy" | "hardware-chip" | "headset" | "heart-circle" | "heart-dislike-circle" | "heart-dislike" | "heart-half" | "heart" | "help-buoy" | "help-circle" | "help" | "home" | "hourglass" | "ice-cream" | "id-card" | "image" | "images" | "infinite" | "information-circle" | "information" | "invert-mode" | "journal" | "key" | "keypad" | "language" | "laptop" | "layers" | "leaf" | "library" | "link" | "list-circle" | "list" | "locate" | "location" | "lock-closed" | "lock-open" | "log-in" | "log-out" | "logo-alipay" | "logo-amazon" | "logo-amplify" | "logo-android" | "logo-angular" | "logo-appflow" | "logo-apple-appstore" | "logo-apple-ar" | "logo-apple" | "logo-behance" | "logo-bitbucket" | "logo-bitcoin" | "logo-buffer" | "logo-capacitor" | "logo-chrome" | "logo-closed-captioning" | "logo-codepen" | "logo-css3" | "logo-designernews" | "logo-deviantart" | "logo-discord" | "logo-docker" | "logo-dribbble" | "logo-dropbox" | "logo-edge" | "logo-electron" | "logo-euro" | "logo-facebook" | "logo-figma" | "logo-firebase" | "logo-firefox" | "logo-flickr" | "logo-foursquare" | "logo-github" | "logo-gitlab" | "logo-google-playstore" | "logo-google" | "logo-hackernews" | "logo-html5" | "logo-instagram" | "logo-ionic" | "logo-ionitron" | "logo-javascript" | "logo-laravel" | "logo-linkedin" | "logo-markdown" | "logo-mastodon" | "logo-medium" | "logo-microsoft" | "logo-no-smoking" | "logo-nodejs" | "logo-npm" | "logo-octocat" | "logo-paypal" | "logo-pinterest" | "logo-playstation" | "logo-pwa" | "logo-python" | "logo-react" | "logo-reddit" | "logo-rss" | "logo-sass" | "logo-skype" | "logo-slack" | "logo-snapchat" | "logo-soundcloud" | "logo-stackoverflow" | "logo-steam" | "logo-stencil" | "logo-tableau" | "logo-tiktok" | "logo-trapeze" | "logo-tumblr" | "logo-tux" | "logo-twitch" | "logo-twitter" | "logo-usd" | "logo-venmo" | "logo-vercel" | "logo-vimeo" | "logo-vk" | "logo-vue" | "logo-web-component" | "logo-wechat" | "logo-whatsapp" | "logo-windows" | "logo-wordpress" | "logo-xbox" | "logo-xing" | "logo-yahoo" | "logo-yen" | "logo-youtube" | "magnet" | "mail-open" | "mail-unread" | "mail" | "male-female" | "male" | "man" | "map" | "medal" | "medical" | "medkit" | "megaphone" | "menu" | "mic-circle" | "mic-off-circle" | "mic-off" | "mic" | "moon" | "move" | "musical-note" | "musical-notes" | "navigate-circle" | "navigate" | "newspaper" | "notifications-circle" | "notifications-off-circle" | "notifications-off" | "notifications" | "nuclear" | "nutrition" | "open" | "options" | "paper-plane" | "partly-sunny" | "pause-circle" | "pause" | "paw" | "pencil" | "people-circle" | "people" | "person-add" | "person-circle" | "person-remove" | "person" | "phone-landscape" | "phone-portrait" | "pie-chart" | "pin" | "pint" | "pizza" | "planet" | "play-back-circle" | "play-back" | "play-circle" | "play-forward-circle" | "play-forward" | "play-skip-back-circle" | "play-skip-back" | "play-skip-forward-circle" | "play-skip-forward" | "play" | "podium" | "power" | "pricetag" | "pricetags" | "print" | "prism" | "pulse" | "push" | "qr-code" | "radio-button-off" | "radio-button-on" | "radio" | "rainy" | "reader" | "receipt" | "recording" | "refresh-circle" | "refresh" | "reload-circle" | "reload" | "remove-circle" | "remove" | "reorder-four" | "reorder-three" | "reorder-two" | "repeat" | "resize" | "restaurant" | "return-down-back" | "return-down-forward" | "return-up-back" | "return-up-forward" | "ribbon" | "rocket" | "rose" | "sad" | "save" | "scale" | "scan-circle" | "scan" | "school" | "search-circle" | "search" | "send" | "server" | "settings" | "shapes" | "share-social" | "share" | "shield-checkmark" | "shield-half" | "shield" | "shirt" | "shuffle" | "skull" | "snow" | "sparkles" | "speedometer" | "square" | "star-half" | "star" | "stats-chart" | "stop-circle" | "stop" | "stopwatch" | "storefront" | "subway" | "sunny" | "swap-horizontal" | "swap-vertical" | "sync-circle" | "sync" | "tablet-landscape" | "tablet-portrait" | "telescope" | "tennisball" | "terminal" | "text" | "thermometer" | "thumbs-down" | "thumbs-up" | "thunderstorm" | "ticket" | "time" | "timer" | "today" | "toggle" | "trail-sign" | "train" | "transgender" | "trash-bin" | "trash" | "trending-down" | "trending-up" | "triangle" | "trophy" | "tv" | "umbrella" | "unlink" | "videocam-off" | "videocam" | "volume-high" | "volume-low" | "volume-medium" | "volume-mute" | "volume-off" | "walk" | "wallet" | "warning" | "watch" | "water" | "wifi" | "wine" | "woman";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -528,6 +537,8 @@ export const map: IconsMapType<IconNames> = {
 "arrow-back-circle": SVG_arrowBackCircle,
 "arrow-back": SVG_arrowBack,
 "arrow-down-circle": SVG_arrowDownCircle,
+"arrow-down-left-box": SVG_arrowDownLeftBox,
+"arrow-down-right-box": SVG_arrowDownRightBox,
 "arrow-down": SVG_arrowDown,
 "arrow-forward-circle": SVG_arrowForwardCircle,
 "arrow-forward": SVG_arrowForward,
@@ -536,6 +547,8 @@ export const map: IconsMapType<IconNames> = {
 "arrow-undo-circle": SVG_arrowUndoCircle,
 "arrow-undo": SVG_arrowUndo,
 "arrow-up-circle": SVG_arrowUpCircle,
+"arrow-up-left-box": SVG_arrowUpLeftBox,
+"arrow-up-right-box": SVG_arrowUpRightBox,
 "arrow-up": SVG_arrowUp,
 "at-circle": SVG_atCircle,
 "at": SVG_at,
@@ -563,6 +576,7 @@ export const map: IconsMapType<IconNames> = {
 "bed": SVG_bed,
 "beer": SVG_beer,
 "bicycle": SVG_bicycle,
+"binoculars": SVG_binoculars,
 "bluetooth": SVG_bluetooth,
 "boat": SVG_boat,
 "body": SVG_body,
@@ -613,8 +627,10 @@ export const map: IconsMapType<IconNames> = {
 "checkmark": SVG_checkmark,
 "chevron-back-circle": SVG_chevronBackCircle,
 "chevron-back": SVG_chevronBack,
+"chevron-collapse": SVG_chevronCollapse,
 "chevron-down-circle": SVG_chevronDownCircle,
 "chevron-down": SVG_chevronDown,
+"chevron-expand": SVG_chevronExpand,
 "chevron-forward-circle": SVG_chevronForwardCircle,
 "chevron-forward": SVG_chevronForward,
 "chevron-up-circle": SVG_chevronUpCircle,
@@ -756,6 +772,7 @@ export const map: IconsMapType<IconNames> = {
 "logo-amplify": SVG_logoAmplify,
 "logo-android": SVG_logoAndroid,
 "logo-angular": SVG_logoAngular,
+"logo-appflow": SVG_logoAppflow,
 "logo-apple-appstore": SVG_logoAppleAppstore,
 "logo-apple-ar": SVG_logoAppleAr,
 "logo-apple": SVG_logoApple,
@@ -821,6 +838,7 @@ export const map: IconsMapType<IconNames> = {
 "logo-stencil": SVG_logoStencil,
 "logo-tableau": SVG_logoTableau,
 "logo-tiktok": SVG_logoTiktok,
+"logo-trapeze": SVG_logoTrapeze,
 "logo-tumblr": SVG_logoTumblr,
 "logo-tux": SVG_logoTux,
 "logo-twitch": SVG_logoTwitch,

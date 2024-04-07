@@ -308,7 +308,7 @@ import SVG_removeUser from "./remove-user";
 import SVG_renren from "./renren";
 import SVG_replyAll from "./reply-all";
 import SVG_reply from "./reply";
-import SVG_resize_100 from "./resize-100";
+import SVG_resize100 from "./resize-100";
 import SVG_resizeFullScreen from "./resize-full-screen";
 import SVG_retweet from "./retweet";
 import SVG_rocket from "./rocket";
@@ -725,7 +725,7 @@ export const map: IconsMapType<IconNames> = {
 "renren": SVG_renren,
 "reply-all": SVG_replyAll,
 "reply": SVG_reply,
-"resize-100": SVG_resize_100,
+"resize-100": SVG_resize100,
 "resize-full-screen": SVG_resizeFullScreen,
 "retweet": SVG_retweet,
 "rocket": SVG_rocket,

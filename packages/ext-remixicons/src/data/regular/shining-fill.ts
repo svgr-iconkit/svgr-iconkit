@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shining-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M50 470C326.1425 470 550 693.8575000000001 550 970H650C650 693.8575000000001 873.86 470 1150 470V370C873.86 370 650 146.14 650 -130H550C550 146.14 326.1425 370 50 370V470z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-sort-up-lines","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M18 21a1 1 0 1 1-2 0V5.41l-1.8 1.8a1 1 0 1 1-1.4-1.42l3.5-3.5a1 1 0 0 1 1.4 0l3.5 3.5a1 1 0 0 1-1.4 1.42L18 5.4V21ZM3 20a1 1 0 1 1 0-2h10a1 1 0 1 1 0 2H3Zm3-5a1 1 0 0 0 1 1h6a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1Zm5-3a1 1 0 1 1 0-2h2a1 1 0 1 1 0 2h-2Z"}}]};
+export default content;

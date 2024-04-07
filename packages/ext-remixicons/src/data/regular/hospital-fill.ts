@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"hospital-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M1050 200H1150V100H50V200H150V1050A50 50 0 0 0 200 1100H1000A50 50 0 0 0 1050 1050V200zM550 800H450V700H550V600H650V700H750V800H650V900H550V800zM700 200H800V500H400V200H500V400H700V200z"}}]};
+export const content: IconSVG = {"name":"hospital-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1050 20H1150V-80H50V20H150V870C150 897.614 172.386 920 200 920H1000C1027.615 920 1050 897.614 1050 870V20zM550 620H450V520H550V420H650V520H750V620H650V720H550V620zM700 20H800V320H400V20H500V220H700V20z"}}]};
 export default content;

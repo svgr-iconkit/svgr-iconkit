@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"hockey-puck","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"path","attrs":{"d":"M0 160c0-53 114.6-96 256-96s256 43 256 96s-114.6 96-256 96S0 213 0 160zM255.1 303.1C156.4 303.1 56.73 283.4 0 242.2V352c0 53 114.6 96 256 96s256-43 256-96V242.2C455.3 283.4 355.6 303.1 255.1 303.1z"}}]};
+export const content: IconSVG = {"name":"hockey-puck","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"path","attrs":{"d":"M256 256C114.6 256 0 213 0 160s114.6-96 256-96s256 43 256 96s-114.6 96-256 96zm192.3 1.8c24.7-9.3 46.9-21 63.7-35.6V352c0 53-114.6 96-256 96S0 405 0 352V222.3c16.8 14.6 39 26.3 63.7 35.6C114.5 276.9 182.5 288 256 288s141.5-11.1 192.3-30.2z"}}]};
 export default content;

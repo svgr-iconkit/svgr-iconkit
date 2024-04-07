@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tab-desktop-multiple","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M19 6c1.68.14 3 1.54 3 3.25v8A4.75 4.75 0 0 1 17.25 22h-8a3.25 3.25 0 0 1-3.24-3h8.74C17.1 19 19 17.1 19 14.75V6.01ZM5.25 2A3.25 3.25 0 0 0 2 5.25v9.5C2 16.55 3.46 18 5.25 18h9.5c1.8 0 3.25-1.46 3.25-3.25V7.5h-7.25c-1.24 0-2.25-1-2.25-2.25V2H5.25Zm5.5 4H18v-.75C18 3.45 16.54 2 14.75 2H10v3.25c0 .41.34.75.75.75Z"}}]};
+export default content;

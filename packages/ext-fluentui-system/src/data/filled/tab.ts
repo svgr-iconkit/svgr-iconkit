@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"tab","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M3 5.75A2.75 2.75 0 015.75 3h12.5A2.75 2.75 0 0121 5.75v12.5A2.75 2.75 0 0118.25 21H5.75A2.75 2.75 0 013 18.25V5.75zM5.75 5a.75.75 0 00-.75.75v12.5c0 .41.34.75.75.75h12.5c.41 0 .75-.34.75-.75V5.75a.75.75 0 00-.75-.75H5.75z"}}]};
+export const content: IconSVG = {"name":"tab","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M3 5.75A2.75 2.75 0 0 1 5.75 3h12.5A2.75 2.75 0 0 1 21 5.75v12.5A2.75 2.75 0 0 1 18.25 21H5.75A2.75 2.75 0 0 1 3 18.25V5.75ZM5.75 5a.75.75 0 0 0-.75.75v12.5c0 .41.34.75.75.75h12.5c.41 0 .75-.34.75-.75V5.75a.75.75 0 0 0-.75-.75H5.75Z"}}]};
 export default content;

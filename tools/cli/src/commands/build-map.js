@@ -3,7 +3,8 @@ import FS from "fs";
 import Path from "path";
 import ChildProcess from "child_process";
 import cliProgress from "cli-progress";
-import { readFile, writeFile, paramCase, camelCase } from "../utils";
+import { camelCase, paramCase } from '@svgr-iconkit/common-utils'
+import { readFile, writeFile } from "../utils";
 import { createIconsImportMapTs, createIconsMapTs } from "../templates";
 
 const commandName = "build-map";

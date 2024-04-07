@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"calendar-note","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M17.75 3C19.55 3 21 4.46 21 6.25V12h-1.5V8.5h-15v9.25c0 .97.78 1.75 1.75 1.75H11V21H6.25A3.25 3.25 0 0 1 3 17.75V6.25C3 4.45 4.46 3 6.25 3h11.5Zm0 1.5H6.25c-.97 0-1.75.78-1.75 1.75V7h15v-.75c0-.97-.78-1.75-1.75-1.75ZM14 13a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h7a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-7Zm0 3.5c0-.28.22-.5.5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5Zm0 3c0-.28.22-.5.5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5Z"}}]};
+export default content;

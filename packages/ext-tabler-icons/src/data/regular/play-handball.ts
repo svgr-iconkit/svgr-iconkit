@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"play-handball","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M13 21l3.5 -2l-4.5 -4l2 -4.5"}},{"tagName":"path","attrs":{"d":"M7 6l2 4l5 .5l4 2.5l2.5 3"}},{"tagName":"path","attrs":{"d":"M4 20l5 -1l1.5 -2"}},{"tagName":"path","attrs":{"d":"M15 7a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"}},{"tagName":"path","attrs":{"d":"M9.5 5a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z","fill":"currentColor"}}]};
+export default content;

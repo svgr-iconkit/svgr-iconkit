@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"contract-up-right","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M3 6.25C3 4.45 4.46 3 6.25 3h11.5C19.55 3 21 4.46 21 6.25v11.5c0 1.8-1.46 3.25-3.25 3.25h-4a.75.75 0 0 1 0-1.5h4c.97 0 1.75-.78 1.75-1.75V12h-5.25C13.01 12 12 11 12 9.75V4.5H6.25c-.97 0-1.75.78-1.75 1.75v4a.75.75 0 0 1-1.5 0v-4Zm.75 8.25a.75.75 0 0 1 0-1.5h6.5c.41 0 .75.34.75.75v6.5a.75.75 0 0 1-1.5 0v-4.69l-5.22 5.22a.75.75 0 0 1-1.06-1.06l5.22-5.22H3.75Z"}}]};
+export default content;

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"barcode-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M100 1000H200V200H100V1000zM300 1000H350V200H300V1000zM400 1000H500V200H400V1000zM550 1000H650V200H550V1000zM700 1000H800V200H700V1000zM850 1000H900V200H850V1000zM950 1000H1100V200H950V1000z"}}]};
+export const content: IconSVG = {"name":"barcode-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M100 820H200V20H100V820zM300 820H350V20H300V820zM400 820H500V20H400V820zM550 820H650V20H550V820zM700 820H800V20H700V820zM850 820H900V20H850V820zM950 820H1100V20H950V820z"}}]};
 export default content;

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"cylinder","attrs":{"viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","fill":"none","stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"ellipse","attrs":{"cx":12,"cy":6,"rx":5,"ry":3}},{"tagName":"path","attrs":{"d":"M7 6v12c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-12"}}]};
+export const content: IconSVG = {"name":"cylinder","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M12 6m-7 0a7 3 0 1 0 14 0a7 3 0 1 0 -14 0"}},{"tagName":"path","attrs":{"d":"M5 6v12c0 1.657 3.134 3 7 3s7 -1.343 7 -3v-12"}}]};
 export default content;

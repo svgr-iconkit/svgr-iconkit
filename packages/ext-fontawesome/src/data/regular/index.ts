@@ -119,6 +119,7 @@ import SVG_handshake from "./handshake";
 import SVG_hardDrive from "./hard-drive";
 import SVG_heart from "./heart";
 import SVG_hospital from "./hospital";
+import SVG_hourglassHalf from "./hourglass-half";
 import SVG_hourglass from "./hourglass";
 import SVG_idBadge from "./id-badge";
 import SVG_idCard from "./id-card";
@@ -130,7 +131,7 @@ import SVG_lifeRing from "./life-ring";
 import SVG_lightbulb from "./lightbulb";
 import SVG_map from "./map";
 import SVG_message from "./message";
-import SVG_moneyBill_1 from "./money-bill-1";
+import SVG_moneyBill1 from "./money-bill-1";
 import SVG_moon from "./moon";
 import SVG_newspaper from "./newspaper";
 import SVG_noteSticky from "./note-sticky";
@@ -166,7 +167,7 @@ import SVG_windowMinimize from "./window-minimize";
 import SVG_windowRestore from "./window-restore"
 
 // types
-export type IconNames = "address-book" | "address-card" | "bell-slash" | "bell" | "bookmark" | "building" | "calendar-check" | "calendar-days" | "calendar-minus" | "calendar-plus" | "calendar-xmark" | "calendar" | "chart-bar" | "chess-bishop" | "chess-king" | "chess-knight" | "chess-pawn" | "chess-queen" | "chess-rook" | "circle-check" | "circle-dot" | "circle-down" | "circle-left" | "circle-pause" | "circle-play" | "circle-question" | "circle-right" | "circle-stop" | "circle-up" | "circle-user" | "circle-xmark" | "circle" | "clipboard" | "clock" | "clone" | "closed-captioning" | "comment-dots" | "comment" | "comments" | "compass" | "copy" | "copyright" | "credit-card" | "envelope-open" | "envelope" | "eye-slash" | "eye" | "face-angry" | "face-dizzy" | "face-flushed" | "face-frown-open" | "face-frown" | "face-grimace" | "face-grin-beam-sweat" | "face-grin-beam" | "face-grin-hearts" | "face-grin-squint-tears" | "face-grin-squint" | "face-grin-stars" | "face-grin-tears" | "face-grin-tongue-squint" | "face-grin-tongue-wink" | "face-grin-tongue" | "face-grin-wide" | "face-grin-wink" | "face-grin" | "face-kiss-beam" | "face-kiss-wink-heart" | "face-kiss" | "face-laugh-beam" | "face-laugh-squint" | "face-laugh-wink" | "face-laugh" | "face-meh-blank" | "face-meh" | "face-rolling-eyes" | "face-sad-cry" | "face-sad-tear" | "face-smile-beam" | "face-smile-wink" | "face-smile" | "face-surprise" | "face-tired" | "file-audio" | "file-code" | "file-excel" | "file-image" | "file-lines" | "file-pdf" | "file-powerpoint" | "file-video" | "file-word" | "file-zipper" | "file" | "flag" | "floppy-disk" | "folder-closed" | "folder-open" | "folder" | "font-awesome" | "futbol" | "gem" | "hand-back-fist" | "hand-lizard" | "hand-peace" | "hand-point-down" | "hand-point-left" | "hand-point-right" | "hand-point-up" | "hand-pointer" | "hand-scissors" | "hand-spock" | "hand" | "handshake" | "hard-drive" | "heart" | "hospital" | "hourglass" | "id-badge" | "id-card" | "image" | "images" | "keyboard" | "lemon" | "life-ring" | "lightbulb" | "map" | "message" | "money-bill-1" | "moon" | "newspaper" | "note-sticky" | "object-group" | "object-ungroup" | "paper-plane" | "paste" | "pen-to-square" | "rectangle-list" | "rectangle-xmark" | "registered" | "share-from-square" | "snowflake" | "square-caret-down" | "square-caret-left" | "square-caret-right" | "square-caret-up" | "square-check" | "square-full" | "square-minus" | "square-plus" | "square" | "star-half-stroke" | "star-half" | "star" | "sun" | "thumbs-down" | "thumbs-up" | "trash-can" | "user" | "window-maximize" | "window-minimize" | "window-restore";
+export type IconNames = "address-book" | "address-card" | "bell-slash" | "bell" | "bookmark" | "building" | "calendar-check" | "calendar-days" | "calendar-minus" | "calendar-plus" | "calendar-xmark" | "calendar" | "chart-bar" | "chess-bishop" | "chess-king" | "chess-knight" | "chess-pawn" | "chess-queen" | "chess-rook" | "circle-check" | "circle-dot" | "circle-down" | "circle-left" | "circle-pause" | "circle-play" | "circle-question" | "circle-right" | "circle-stop" | "circle-up" | "circle-user" | "circle-xmark" | "circle" | "clipboard" | "clock" | "clone" | "closed-captioning" | "comment-dots" | "comment" | "comments" | "compass" | "copy" | "copyright" | "credit-card" | "envelope-open" | "envelope" | "eye-slash" | "eye" | "face-angry" | "face-dizzy" | "face-flushed" | "face-frown-open" | "face-frown" | "face-grimace" | "face-grin-beam-sweat" | "face-grin-beam" | "face-grin-hearts" | "face-grin-squint-tears" | "face-grin-squint" | "face-grin-stars" | "face-grin-tears" | "face-grin-tongue-squint" | "face-grin-tongue-wink" | "face-grin-tongue" | "face-grin-wide" | "face-grin-wink" | "face-grin" | "face-kiss-beam" | "face-kiss-wink-heart" | "face-kiss" | "face-laugh-beam" | "face-laugh-squint" | "face-laugh-wink" | "face-laugh" | "face-meh-blank" | "face-meh" | "face-rolling-eyes" | "face-sad-cry" | "face-sad-tear" | "face-smile-beam" | "face-smile-wink" | "face-smile" | "face-surprise" | "face-tired" | "file-audio" | "file-code" | "file-excel" | "file-image" | "file-lines" | "file-pdf" | "file-powerpoint" | "file-video" | "file-word" | "file-zipper" | "file" | "flag" | "floppy-disk" | "folder-closed" | "folder-open" | "folder" | "font-awesome" | "futbol" | "gem" | "hand-back-fist" | "hand-lizard" | "hand-peace" | "hand-point-down" | "hand-point-left" | "hand-point-right" | "hand-point-up" | "hand-pointer" | "hand-scissors" | "hand-spock" | "hand" | "handshake" | "hard-drive" | "heart" | "hospital" | "hourglass-half" | "hourglass" | "id-badge" | "id-card" | "image" | "images" | "keyboard" | "lemon" | "life-ring" | "lightbulb" | "map" | "message" | "money-bill-1" | "moon" | "newspaper" | "note-sticky" | "object-group" | "object-ungroup" | "paper-plane" | "paste" | "pen-to-square" | "rectangle-list" | "rectangle-xmark" | "registered" | "share-from-square" | "snowflake" | "square-caret-down" | "square-caret-left" | "square-caret-right" | "square-caret-up" | "square-check" | "square-full" | "square-minus" | "square-plus" | "square" | "star-half-stroke" | "star-half" | "star" | "sun" | "thumbs-down" | "thumbs-up" | "trash-can" | "user" | "window-maximize" | "window-minimize" | "window-restore";
 
 // map
 export const map: IconsMapType<IconNames> = {
@@ -287,6 +288,7 @@ export const map: IconsMapType<IconNames> = {
 "hard-drive": SVG_hardDrive,
 "heart": SVG_heart,
 "hospital": SVG_hospital,
+"hourglass-half": SVG_hourglassHalf,
 "hourglass": SVG_hourglass,
 "id-badge": SVG_idBadge,
 "id-card": SVG_idCard,
@@ -298,7 +300,7 @@ export const map: IconsMapType<IconNames> = {
 "lightbulb": SVG_lightbulb,
 "map": SVG_map,
 "message": SVG_message,
-"money-bill-1": SVG_moneyBill_1,
+"money-bill-1": SVG_moneyBill1,
 "moon": SVG_moon,
 "newspaper": SVG_newspaper,
 "note-sticky": SVG_noteSticky,

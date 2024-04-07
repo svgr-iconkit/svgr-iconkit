@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"menu-fold-2-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M200 832.4875L450 582.51L200 332.4875V832.4875zM1050 7.5125V107.5125H150V7.5125H1050zM1050 357.5125V457.5125H600V357.5125H1050zM1050 707.512V807.512H600V707.512H1050z"}}]};
+export default content;

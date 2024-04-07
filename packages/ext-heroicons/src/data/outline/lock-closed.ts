@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"lock-closed","attrs":{"fill":"none","viewBox":"0 0 24 24","stroke-width":2,"stroke":"currentColor","aria-hidden":"true"},"data":[{"tagName":"path","attrs":{"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"}}]};
+export const content: IconSVG = {"name":"lock-closed","attrs":{"fill":"none","viewBox":"0 0 24 24","stroke-width":1.5,"stroke":"currentColor","aria-hidden":"true","data-slot":"icon"},"data":[{"tagName":"path","attrs":{"stroke-linecap":"round","stroke-linejoin":"round","d":"M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"}}]};
 export default content;

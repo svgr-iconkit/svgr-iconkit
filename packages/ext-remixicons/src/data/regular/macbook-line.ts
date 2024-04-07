@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"macbook-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M200 950V400H1000V950H200zM100 999.65C100 1027.45 122.75 1050 149.6 1050H1050.3999999999999C1077.8 1050 1100 1027.55 1100 999.65V300H100V999.65zM50 250H1150V150H50V250z"}}]};
+export const content: IconSVG = {"name":"macbook-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M200 770V220H1000V770H200zM100 819.626C100 847.4465 122.7655 870 149.59 870H1050.4099999999999C1077.8 870 1100 847.554 1100 819.626V120H100V819.626zM50 70H1150V-30H50V70z"}}]};
 export default content;

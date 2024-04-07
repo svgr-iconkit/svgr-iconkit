@@ -28,7 +28,7 @@ import SVG_arrowUpRight from "./arrow-up-right";
 import SVG_arrowUp from "./arrow-up";
 import SVG_atSign from "./at-sign";
 import SVG_award from "./award";
-import SVG_barChart_2 from "./bar-chart-2";
+import SVG_barChart2 from "./bar-chart-2";
 import SVG_barChart from "./bar-chart";
 import SVG_batteryCharging from "./battery-charging";
 import SVG_battery from "./battery";
@@ -97,8 +97,8 @@ import SVG_downloadCloud from "./download-cloud";
 import SVG_download from "./download";
 import SVG_dribbble from "./dribbble";
 import SVG_droplet from "./droplet";
-import SVG_edit_2 from "./edit-2";
-import SVG_edit_3 from "./edit-3";
+import SVG_edit2 from "./edit-2";
+import SVG_edit3 from "./edit-3";
 import SVG_edit from "./edit";
 import SVG_externalLink from "./external-link";
 import SVG_eyeOff from "./eye-off";
@@ -144,7 +144,7 @@ import SVG_key from "./key";
 import SVG_layers from "./layers";
 import SVG_layout from "./layout";
 import SVG_lifeBuoy from "./life-buoy";
-import SVG_link_2 from "./link-2";
+import SVG_link2 from "./link-2";
 import SVG_link from "./link";
 import SVG_linkedin from "./linkedin";
 import SVG_list from "./list";
@@ -155,7 +155,7 @@ import SVG_logOut from "./log-out";
 import SVG_mail from "./mail";
 import SVG_mapPin from "./map-pin";
 import SVG_map from "./map";
-import SVG_maximize_2 from "./maximize-2";
+import SVG_maximize2 from "./maximize-2";
 import SVG_maximize from "./maximize";
 import SVG_meh from "./meh";
 import SVG_menu from "./menu";
@@ -163,7 +163,7 @@ import SVG_messageCircle from "./message-circle";
 import SVG_messageSquare from "./message-square";
 import SVG_micOff from "./mic-off";
 import SVG_mic from "./mic";
-import SVG_minimize_2 from "./minimize-2";
+import SVG_minimize2 from "./minimize-2";
 import SVG_minimize from "./minimize";
 import SVG_minusCircle from "./minus-circle";
 import SVG_minusSquare from "./minus-square";
@@ -175,7 +175,7 @@ import SVG_moreVertical from "./more-vertical";
 import SVG_mousePointer from "./mouse-pointer";
 import SVG_move from "./move";
 import SVG_music from "./music";
-import SVG_navigation_2 from "./navigation-2";
+import SVG_navigation2 from "./navigation-2";
 import SVG_navigation from "./navigation";
 import SVG_octagon from "./octagon";
 import SVG_package from "./package";
@@ -214,7 +214,7 @@ import SVG_search from "./search";
 import SVG_send from "./send";
 import SVG_server from "./server";
 import SVG_settings from "./settings";
-import SVG_share_2 from "./share-2";
+import SVG_share2 from "./share-2";
 import SVG_share from "./share";
 import SVG_shieldOff from "./shield-off";
 import SVG_shield from "./shield";
@@ -247,7 +247,7 @@ import SVG_thumbsUp from "./thumbs-up";
 import SVG_toggleLeft from "./toggle-left";
 import SVG_toggleRight from "./toggle-right";
 import SVG_tool from "./tool";
-import SVG_trash_2 from "./trash-2";
+import SVG_trash2 from "./trash-2";
 import SVG_trash from "./trash";
 import SVG_trello from "./trello";
 import SVG_trendingDown from "./trending-down";
@@ -272,8 +272,8 @@ import SVG_users from "./users";
 import SVG_videoOff from "./video-off";
 import SVG_video from "./video";
 import SVG_voicemail from "./voicemail";
-import SVG_volume_1 from "./volume-1";
-import SVG_volume_2 from "./volume-2";
+import SVG_volume1 from "./volume-1";
+import SVG_volume2 from "./volume-2";
 import SVG_volumeX from "./volume-x";
 import SVG_volume from "./volume";
 import SVG_watch from "./watch";
@@ -321,7 +321,7 @@ export const map: IconsMapType<IconNames> = {
 "arrow-up": SVG_arrowUp,
 "at-sign": SVG_atSign,
 "award": SVG_award,
-"bar-chart-2": SVG_barChart_2,
+"bar-chart-2": SVG_barChart2,
 "bar-chart": SVG_barChart,
 "battery-charging": SVG_batteryCharging,
 "battery": SVG_battery,
@@ -390,8 +390,8 @@ export const map: IconsMapType<IconNames> = {
 "download": SVG_download,
 "dribbble": SVG_dribbble,
 "droplet": SVG_droplet,
-"edit-2": SVG_edit_2,
-"edit-3": SVG_edit_3,
+"edit-2": SVG_edit2,
+"edit-3": SVG_edit3,
 "edit": SVG_edit,
 "external-link": SVG_externalLink,
 "eye-off": SVG_eyeOff,
@@ -437,7 +437,7 @@ export const map: IconsMapType<IconNames> = {
 "layers": SVG_layers,
 "layout": SVG_layout,
 "life-buoy": SVG_lifeBuoy,
-"link-2": SVG_link_2,
+"link-2": SVG_link2,
 "link": SVG_link,
 "linkedin": SVG_linkedin,
 "list": SVG_list,
@@ -448,7 +448,7 @@ export const map: IconsMapType<IconNames> = {
 "mail": SVG_mail,
 "map-pin": SVG_mapPin,
 "map": SVG_map,
-"maximize-2": SVG_maximize_2,
+"maximize-2": SVG_maximize2,
 "maximize": SVG_maximize,
 "meh": SVG_meh,
 "menu": SVG_menu,
@@ -456,7 +456,7 @@ export const map: IconsMapType<IconNames> = {
 "message-square": SVG_messageSquare,
 "mic-off": SVG_micOff,
 "mic": SVG_mic,
-"minimize-2": SVG_minimize_2,
+"minimize-2": SVG_minimize2,
 "minimize": SVG_minimize,
 "minus-circle": SVG_minusCircle,
 "minus-square": SVG_minusSquare,
@@ -468,7 +468,7 @@ export const map: IconsMapType<IconNames> = {
 "mouse-pointer": SVG_mousePointer,
 "move": SVG_move,
 "music": SVG_music,
-"navigation-2": SVG_navigation_2,
+"navigation-2": SVG_navigation2,
 "navigation": SVG_navigation,
 "octagon": SVG_octagon,
 "package": SVG_package,
@@ -507,7 +507,7 @@ export const map: IconsMapType<IconNames> = {
 "send": SVG_send,
 "server": SVG_server,
 "settings": SVG_settings,
-"share-2": SVG_share_2,
+"share-2": SVG_share2,
 "share": SVG_share,
 "shield-off": SVG_shieldOff,
 "shield": SVG_shield,
@@ -540,7 +540,7 @@ export const map: IconsMapType<IconNames> = {
 "toggle-left": SVG_toggleLeft,
 "toggle-right": SVG_toggleRight,
 "tool": SVG_tool,
-"trash-2": SVG_trash_2,
+"trash-2": SVG_trash2,
 "trash": SVG_trash,
 "trello": SVG_trello,
 "trending-down": SVG_trendingDown,
@@ -565,8 +565,8 @@ export const map: IconsMapType<IconNames> = {
 "video-off": SVG_videoOff,
 "video": SVG_video,
 "voicemail": SVG_voicemail,
-"volume-1": SVG_volume_1,
-"volume-2": SVG_volume_2,
+"volume-1": SVG_volume1,
+"volume-2": SVG_volume2,
 "volume-x": SVG_volumeX,
 "volume": SVG_volume,
 "watch": SVG_watch,

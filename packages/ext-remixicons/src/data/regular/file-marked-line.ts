@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"file-marked-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1000 -80H200C172.386 -80 150 -57.615 150 -30V870C150 897.614 172.386 920 200 920H1000C1027.615 920 1050 897.614 1050 870V-30C1050 -57.615 1027.615 -80 1000 -80zM350 820H250V20H950V820H700V370L525 470L350 370V820z"}}]};
+export default content;

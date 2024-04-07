@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"flickr-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M550 420C550 281.925 438.073 170 299.999 170C161.9245 170 50 281.925 50 420C50 558.0505 161.9245 670 299.999 670C438.073 670 550 558.0505 550 420zM1150 420C1150 281.925 1038.075 170 900 170C761.925 170 650 281.925 650 420C650 558.0505 761.925 670 900 670C1038.075 670 1150 558.0505 1150 420z"}}]};
+export default content;

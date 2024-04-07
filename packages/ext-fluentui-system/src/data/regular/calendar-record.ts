@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"calendar-record","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M17.75 3C19.55 3 21 4.46 21 6.25v5.77c-.46-.3-.97-.53-1.5-.7V8.5h-15v9.25c0 .97.78 1.75 1.75 1.75h5.06c.18.53.42 1.04.71 1.5H6.25A3.25 3.25 0 0 1 3 17.75V6.25C3 4.45 4.46 3 6.25 3h11.5Zm0 1.5H6.25c-.97 0-1.75.78-1.75 1.75V7h15v-.75c0-.97-.78-1.75-1.75-1.75Zm-.25 9a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 9.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Zm2.5-5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"}}]};
+export default content;

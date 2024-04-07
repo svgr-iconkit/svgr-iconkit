@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"twitch","attrs":{"viewBox":"0 0 1024 1024"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 960.00) scale(1, -1)","d":"M493.181 758.784h74.753v-219.136h-74.753zM698.623 758.784h74.753v-219.136h-74.753zM250.623 960l-186.623-182.784v-658.432h223.739v-182.784l187.146 182.784h148.985l336.131 329.216v512zM885.248 484.352l-148.985-145.92h-149.51l-130.688-128v128h-168.327v548.352h597.509v-402.432z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"stack-backward","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M14 12l6 -3l-8 -4l-8 4l6 3"}},{"tagName":"path","attrs":{"d":"M10 12l-6 3l8 4l8 -4l-6 -3l-2 1z","fill":"currentColor"}}]};
+export default content;

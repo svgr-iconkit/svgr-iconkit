@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"poll-off","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M9 10.06v9.19a2.75 2.75 0 0 0 5.5 0v-3.69l1.5 1.5v2.19a2.75 2.75 0 0 0 4.4 2.2l.32.33a.75.75 0 0 0 1.06-1.06L3.28 2.22a.75.75 0 1 0-1.06 1.06L9 10.06Zm7 2.76 5.5 5.5V9.75a2.75 2.75 0 1 0-5.5 0v3.07Zm-7-7 5.5 5.5V4.75a2.75 2.75 0 1 0-5.5 0v1.07ZM4.75 12a2.75 2.75 0 0 1 2.75 2.75v4.5a2.75 2.75 0 0 1-5.5 0v-4.5A2.75 2.75 0 0 1 4.75 12Z"}}]};
+export default content;

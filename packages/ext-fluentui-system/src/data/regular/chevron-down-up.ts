@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chevron-down-up","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.28 2.97a.75.75 0 0 0-1.06 1.06l6.25 6.25c.3.3.77.3 1.06 0l6.25-6.25a.75.75 0 0 0-1.06-1.06L12 8.69 6.28 2.97Zm0 18.06a.75.75 0 0 1-1.06-1.06l6.25-6.25c.3-.3.77-.3 1.06 0l6.25 6.25a.75.75 0 1 1-1.06 1.06L12 15.31l-5.72 5.72Z"}}]};
+export default content;

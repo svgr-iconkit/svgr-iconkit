@@ -1,0 +1,36 @@
+{
+  "name": "@svgr-iconkit/common-utils",
+  "version": "0.4.1",
+  "description": "Common utils for svgr-iconkit",
+  "license": "MIT",
+  "main": "index",
+  "private": false,
+  "repository": "https://github.com/svgr-iconkit/svgr-iconkit",
+  "homepage": "https://svgr-iconkit.dev",
+  "scripts": {
+    "build": "tsc",
+    "build:full": "tsc"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "libs"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  },
+  "exports": {
+    "./camel-case": {
+      "types": "./lib/camel-case.d.ts",
+      "default": "./lib/camel-case.js"
+    },
+    "./param-case": {
+      "types": "./lib/param-case.d.ts",
+      "default": "./lib/param-case.js"
+    },
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  }
+}

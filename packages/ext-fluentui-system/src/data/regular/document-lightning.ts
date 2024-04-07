@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"document-lightning","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6 2a2 2 0 0 0-2 2v7.03c.1-.02.2-.03.32-.03H5.5V4c0-.28.22-.5.5-.5h6V8c0 1.1.9 2 2 2h4.5v10a.5.5 0 0 1-.5.5H8.29L6.97 22H18a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L13.6 2.6A2 2 0 0 0 12.17 2H6Zm11.38 6.5H14a.5.5 0 0 1-.5-.5V4.62l3.88 3.88ZM4.32 12h4.83a.5.5 0 0 1 .43.75L7.75 16h1.5c.64 0 .99.76.56 1.24L5 22.75c-.5.58-1.45.09-1.26-.66L4.5 19h-3a.5.5 0 0 1-.45-.71l2.82-6a.5.5 0 0 1 .45-.29Z"}}]};
+export default content;

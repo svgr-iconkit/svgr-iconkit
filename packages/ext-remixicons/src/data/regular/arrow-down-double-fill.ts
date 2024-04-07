@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-down-double-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M600.00025 88.22025L910.35525 398.57525L839.64525 469.28525L600.00025 229.6402500000001L360.35575 469.28525L289.64475 398.57525L600.00025 88.22025zM600.00025 370.71525L910.35525 681.06925L839.64525 751.77975L600.00025 512.13525L360.35575 751.77975L289.64475 681.06925L600.00025 370.71525z"}}]};
+export default content;

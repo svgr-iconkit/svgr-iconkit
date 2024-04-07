@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"hard-drive-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M250 500H950V1000H250V500zM250 400V200H950V400H250zM200 1100H1000A50 50 0 0 0 1050 1050V150A50 50 0 0 0 1000 100H200A50 50 0 0 0 150 150V1050A50 50 0 0 0 200 1100zM750 350H850V250H750V350z"}}]};
+export const content: IconSVG = {"name":"hard-drive-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M250 320H950V820H250V320zM250 220V20H950V220H250zM200 920H1000C1027.615 920 1050 897.614 1050 870V-30C1050 -57.615 1027.615 -80 1000 -80H200C172.386 -80 150 -57.615 150 -30V870C150 897.614 172.386 920 200 920zM750 170H850V70H750V170z"}}]};
 export default content;

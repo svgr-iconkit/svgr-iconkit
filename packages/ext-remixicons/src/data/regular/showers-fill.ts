@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"showers-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M750 300H450V150H350V312.5999999999999A400 400 0 1 0 822.8999999999999 845.0999999999999A275 275 0 1 0 875 300L850 299.95V149.9500000000001H750V299.95zM550 200H650V50H550V200z"}}]};
+export const content: IconSVG = {"name":"showers-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M750 145H450V-5H350V157.5999999999999C177.4775 202.005 50 358.615 50 545C50 765.914 229.086 945 450 945C619.745 945 764.795 839.267 822.88 690.068C839.7550000000001 693.3050000000001 857.18 695 875 695C1026.88 695 1150 571.8785 1150 420C1150 268.12 1026.88 145 875 145H850V-5H750V145zM550 45H650V-105H550V45z"}}]};
 export default content;

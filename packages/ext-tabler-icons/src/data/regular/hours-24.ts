@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"hours-24","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M4 13c.325 2.532 1.881 4.781 4 6"}},{"tagName":"path","attrs":{"d":"M20 11a8.1 8.1 0 0 0 -15.5 -2"}},{"tagName":"path","attrs":{"d":"M4 5v4h4"}},{"tagName":"path","attrs":{"d":"M12 15h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2"}},{"tagName":"path","attrs":{"d":"M18 15v2a1 1 0 0 0 1 1h1"}},{"tagName":"path","attrs":{"d":"M21 15v6"}}]};
+export default content;

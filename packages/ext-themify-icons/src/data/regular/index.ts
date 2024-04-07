@@ -104,7 +104,7 @@ import SVG_facebook from "./facebook";
 import SVG_file from "./file";
 import SVG_files from "./files";
 import SVG_filter from "./filter";
-import SVG_flagAlt_2 from "./flag-alt-2";
+import SVG_flagAlt2 from "./flag-alt-2";
 import SVG_flagAlt from "./flag-alt";
 import SVG_flag from "./flag";
 import SVG_flickrAlt from "./flickr-alt";
@@ -177,7 +177,7 @@ import SVG_layoutMediaCenterAlt from "./layout-media-center-alt";
 import SVG_layoutMediaCenter from "./layout-media-center";
 import SVG_layoutMediaLeftAlt from "./layout-media-left-alt";
 import SVG_layoutMediaLeft from "./layout-media-left";
-import SVG_layoutMediaOverlayAlt_2 from "./layout-media-overlay-alt-2";
+import SVG_layoutMediaOverlayAlt2 from "./layout-media-overlay-alt-2";
 import SVG_layoutMediaOverlayAlt from "./layout-media-overlay-alt";
 import SVG_layoutMediaOverlay from "./layout-media-overlay";
 import SVG_layoutMediaRightAlt from "./layout-media-right-alt";
@@ -187,7 +187,7 @@ import SVG_layoutMenuSeparated from "./layout-menu-separated";
 import SVG_layoutMenuV from "./layout-menu-v";
 import SVG_layoutMenu from "./layout-menu";
 import SVG_layoutPlaceholder from "./layout-placeholder";
-import SVG_layoutSidebar_2 from "./layout-sidebar-2";
+import SVG_layoutSidebar2 from "./layout-sidebar-2";
 import SVG_layoutSidebarLeft from "./layout-sidebar-left";
 import SVG_layoutSidebarNone from "./layout-sidebar-none";
 import SVG_layoutSidebarRight from "./layout-sidebar-right";
@@ -267,7 +267,7 @@ import SVG_reload from "./reload";
 import SVG_rocket from "./rocket";
 import SVG_rssAlt from "./rss-alt";
 import SVG_rss from "./rss";
-import SVG_rulerAlt_2 from "./ruler-alt-2";
+import SVG_rulerAlt2 from "./ruler-alt-2";
 import SVG_rulerAlt from "./ruler-alt";
 import SVG_rulerPencil from "./ruler-pencil";
 import SVG_ruler from "./ruler";
@@ -462,7 +462,7 @@ export const map: IconsMapType<IconNames> = {
 "file": SVG_file,
 "files": SVG_files,
 "filter": SVG_filter,
-"flag-alt-2": SVG_flagAlt_2,
+"flag-alt-2": SVG_flagAlt2,
 "flag-alt": SVG_flagAlt,
 "flag": SVG_flag,
 "flickr-alt": SVG_flickrAlt,
@@ -535,7 +535,7 @@ export const map: IconsMapType<IconNames> = {
 "layout-media-center": SVG_layoutMediaCenter,
 "layout-media-left-alt": SVG_layoutMediaLeftAlt,
 "layout-media-left": SVG_layoutMediaLeft,
-"layout-media-overlay-alt-2": SVG_layoutMediaOverlayAlt_2,
+"layout-media-overlay-alt-2": SVG_layoutMediaOverlayAlt2,
 "layout-media-overlay-alt": SVG_layoutMediaOverlayAlt,
 "layout-media-overlay": SVG_layoutMediaOverlay,
 "layout-media-right-alt": SVG_layoutMediaRightAlt,
@@ -545,7 +545,7 @@ export const map: IconsMapType<IconNames> = {
 "layout-menu-v": SVG_layoutMenuV,
 "layout-menu": SVG_layoutMenu,
 "layout-placeholder": SVG_layoutPlaceholder,
-"layout-sidebar-2": SVG_layoutSidebar_2,
+"layout-sidebar-2": SVG_layoutSidebar2,
 "layout-sidebar-left": SVG_layoutSidebarLeft,
 "layout-sidebar-none": SVG_layoutSidebarNone,
 "layout-sidebar-right": SVG_layoutSidebarRight,
@@ -625,7 +625,7 @@ export const map: IconsMapType<IconNames> = {
 "rocket": SVG_rocket,
 "rss-alt": SVG_rssAlt,
 "rss": SVG_rss,
-"ruler-alt-2": SVG_rulerAlt_2,
+"ruler-alt-2": SVG_rulerAlt2,
 "ruler-alt": SVG_rulerAlt,
 "ruler-pencil": SVG_rulerPencil,
 "ruler": SVG_ruler,

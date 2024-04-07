@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"document-data-lock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 2v6c0 1.1.9 2 2 2h6v10a2 2 0 0 1-2 2h-6.05c.03-.16.05-.33.05-.5v-5a2.5 2.5 0 0 0-2-2.45V14a3.5 3.5 0 0 0-6-2.45V4c0-1.1.9-2 2-2h6Zm1.5.5V8c0 .28.22.5.5.5h5.5l-6-6Zm1 13.25a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5ZM16.75 13a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 0 0-.75-.75ZM4 15v-1a2.5 2.5 0 0 1 5 0v1h.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-6A1.5 1.5 0 0 1 2 21.5v-5c0-.83.67-1.5 1.5-1.5H4Zm1.5-1v1h2v-1a1 1 0 1 0-2 0Zm2 5a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"}}]};
+export default content;

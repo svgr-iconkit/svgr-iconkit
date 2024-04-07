@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"pushpin-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1200.00) scale(1, -1)","d":"M900 1050V950H850V650L950 500V400H650V50H550V400H250V500L350 650V950H300V1050H900zM450 950V619.7L370.2 500H829.8L750 619.7V950H450z"}}]};
+export const content: IconSVG = {"name":"pushpin-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M900 920V820H850V520L950 370V270H650V-80H550V270H250V370L350 520V820H300V920H900zM450 820V489.7199999999999L370.185 370H829.8149999999999L750 489.7199999999999V820H450z"}}]};
 export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"panel-right-gallery","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M22 7.25C22 5.45 20.54 4 18.75 4H5.25A3.25 3.25 0 0 0 2 7.25v9.5C2 18.55 3.46 20 5.25 20h13.5c1.8 0 3.25-1.46 3.25-3.25v-9.5Zm-1.5 6.25h-5v-3h5v3Zm-5 1.5h5v1.75c0 .97-.78 1.75-1.75 1.75H15.5V15Zm5-7.75V9h-5V5.5h3.25c.97 0 1.75.78 1.75 1.75ZM14 5.5v13H5.25c-.97 0-1.75-.78-1.75-1.75v-9.5c0-.97.78-1.75 1.75-1.75H14Z"}}]};
+export default content;

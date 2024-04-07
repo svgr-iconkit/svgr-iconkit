@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shining-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M800 620L1175 420L800 220L600 -155L400 220L25 420L400 620L600 995L800 620zM962.5 420L726.0849999999999 546.087L600 782.5L473.913 546.087L237.5 420L473.913 293.9150000000001L600 57.5L726.0849999999999 293.9150000000001L962.5 420z"}}]};
+export default content;

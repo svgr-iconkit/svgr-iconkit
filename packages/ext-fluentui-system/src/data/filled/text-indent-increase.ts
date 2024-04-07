@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"text-indent-increase","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M9 16h8.5a1 1 0 0 1 .12 2H9a1 1 0 0 1-.12-2h8.62H9ZM2.3 9.3A1 1 0 0 1 3.6 9.2l.1.08 2 2a1 1 0 0 1 .08 1.32l-.08.1-2 2a1 1 0 0 1-1.5-1.32l.08-.1L3.6 12l-1.3-1.3a1 1 0 0 1 0-1.4ZM9 11h11.5a1 1 0 0 1 .12 2H9a1 1 0 0 1-.12-2H20.5 9Zm0-5h8.5a1 1 0 0 1 .12 2H9a1 1 0 0 1-.12-2h8.62H9Z"}}]};
+export default content;

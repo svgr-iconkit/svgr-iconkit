@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"data-bar-vertical-ascending","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M18.25 3C17.01 3 16 4 16 5.25v13.5a2.25 2.25 0 1 0 4.5 0V5.25C20.5 4 19.5 3 18.25 3Zm-6.5 4C10.51 7 9.5 8 9.5 9.25v9.5a2.25 2.25 0 1 0 4.5 0v-9.5C14 8 13 7 11.75 7Zm-6.5 4C4.01 11 3 12 3 13.25v5.5a2.25 2.25 0 1 0 4.5 0v-5.5C7.5 12 6.5 11 5.25 11Z"}}]};
+export default content;

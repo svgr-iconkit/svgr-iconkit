@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"world-share","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M20.94 13.045a9 9 0 1 0 -8.953 7.955"}},{"tagName":"path","attrs":{"d":"M3.6 9h16.8"}},{"tagName":"path","attrs":{"d":"M3.6 15h9.4"}},{"tagName":"path","attrs":{"d":"M11.5 3a17 17 0 0 0 0 18"}},{"tagName":"path","attrs":{"d":"M12.5 3a16.991 16.991 0 0 1 2.529 10.294"}},{"tagName":"path","attrs":{"d":"M16 22l5 -5"}},{"tagName":"path","attrs":{"d":"M21 21.5v-4.5h-4.5"}}]};
+export default content;

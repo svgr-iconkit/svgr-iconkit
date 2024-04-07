@@ -182,7 +182,7 @@ import SVG_shoppingBag from "./shopping-bag";
 import SVG_shoppingCart from "./shopping-cart";
 import SVG_shuffle from "./shuffle";
 import SVG_skull from "./skull";
-import SVG_social_500px from "./social-500px";
+import SVG_social500px from "./social-500px";
 import SVG_socialAdobe from "./social-adobe";
 import SVG_socialAmazon from "./social-amazon";
 import SVG_socialAndroid from "./social-android";
@@ -471,7 +471,7 @@ export const map: IconsMapType<IconNames> = {
 "shopping-cart": SVG_shoppingCart,
 "shuffle": SVG_shuffle,
 "skull": SVG_skull,
-"social-500px": SVG_social_500px,
+"social-500px": SVG_social500px,
 "social-adobe": SVG_socialAdobe,
 "social-amazon": SVG_socialAmazon,
 "social-android": SVG_socialAndroid,

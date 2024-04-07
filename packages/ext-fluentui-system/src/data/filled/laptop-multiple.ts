@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"laptop-multiple","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.63 5h10.62A2.75 2.75 0 0 1 20 7.75v6.62c.87-.3 1.5-1.14 1.5-2.12v-4.5c0-2.35-1.9-4.25-4.25-4.25h-8.5c-.98 0-1.81.63-2.12 1.5Zm-.38 1C5.01 6 4 7 4 8.25v6.5C4 15.99 5 17 6.25 17h10.5c1.24 0 2.25-1 2.25-2.25v-6.5C19 7.01 18 6 16.75 6H6.25Zm-3.5 12.5a.75.75 0 0 0 0 1.5h17.5a.75.75 0 0 0 0-1.5H2.75Z"}}]};
+export default content;
