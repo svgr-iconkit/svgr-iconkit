@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/flat-color-icons",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "flat-color-icons for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -61,11 +61,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.4.1"
+    "@svgr-iconkit/core": "^0.4.2"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.4.1",
-    "@svgr-iconkit/cli": "^0.4.1",
+    "@svgr-iconkit/build-config": "^0.4.2",
+    "@svgr-iconkit/cli": "^0.4.2",
     "@types/node": "^15.6.1",
     "flat-color-icons": "^1.1.0",
     "npm-run-all": "^4.1.5",
