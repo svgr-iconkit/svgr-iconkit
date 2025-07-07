@@ -46,7 +46,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.1 || ^18.0.0",
+    "react": ">=16.8.0",
     "react-native": "*",
     "react-native-svg": "*"
   },
