@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/build-config",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "license": "MIT",
   "main": "src/index",
   "author": "LemanK <leman@lmswork.com>",
