@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/common-utils",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Common utils for svgr-iconkit",
   "license": "MIT",
   "main": "index",

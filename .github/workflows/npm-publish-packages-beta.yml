@@ -108,10 +108,10 @@ jobs:
     environment:
       name: release
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
       - name: Setup git
         run: |
           git config user.name "$(git log -n 1 --pretty=format:%an)"
@@ -133,7 +133,7 @@ jobs:
           mv ../../package.tmp.json ../../package.json
       - name: 'Upload target package packages'
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release-beta-install
           path: ${{ github.event.inputs.cbPackage }}
@@ -178,7 +178,7 @@ jobs:
           
       - name: 'Upload target package artifact'
         if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release-beta-build
           path: ${{ github.event.inputs.cbPackage }}

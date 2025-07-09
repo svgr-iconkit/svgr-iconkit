@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/fontisto",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "fontisto for @svgr-iconkit",
   "keywords": [
     "SVG",
@@ -53,7 +53,7 @@
   ],
   "peerDependencies": {
     "@svgr-iconkit/core": "^0.3.0",
-    "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
+    "react": ">=16.8.0"
   },
   "peerDependenciesMeta": {
     "react-native-svg": {
@@ -61,11 +61,11 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/core": "^0.4.1"
+    "@svgr-iconkit/core": "^0.4.2"
   },
   "devDependencies": {
-    "@svgr-iconkit/build-config": "^0.4.1",
-    "@svgr-iconkit/cli": "^0.4.1",
+    "@svgr-iconkit/build-config": "^0.4.2",
+    "@svgr-iconkit/cli": "^0.4.2",
     "@types/node": "^15.6.1",
     "fontisto": "git+https://github.com/kenangundogan/fontisto",
     "npm-run-all": "^4.1.5",
