@@ -2,9 +2,9 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 
 name: Packages release (beta)
-run-name: Beta release ${{github.event.inputs.cbPackage}} with ${{github.event.inputs.cbVersionChange}} version change
+run-name: Beta release ${{inputs.cbPackage}} with ${{inputs.cbVersionChange}} version change
 concurrency:
-  group: 'svgr-iconkit-cicd-release-beta-${{github.event.inputs.cbPackage}}-${{github.event.inputs.cbVersionChange}}'
+  group: 'svgr-iconkit-cicd-release-beta-${{inputs.cbPackage}}-${{inputs.cbVersionChange}}'
   cancel-in-progress: false
 
 on:
@@ -117,39 +117,39 @@ jobs:
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
       - name: Install all packages
-        if: github.event.inputs.cbPackage == 'all'
+        if: inputs.cbPackage == 'all'
         run: |
           yarn config set disable-self-update-check true
           yarn config set ignore-engines true
           yarn config list
           yarn install
       - name: Install target package
-        if: github.event.inputs.cbPackage != 'all'
-        working-directory: ${{ github.event.inputs.cbPackage }}
+        if: inputs.cbPackage != 'all'
+        working-directory: ${{ inputs.cbPackage }}
         run: |
           cat ../../package.json
           mv ../../package.json ../../package.tmp.json
           npm install --legacy-peer-deps
           mv ../../package.tmp.json ../../package.json
       - name: 'Upload target package packages'
-        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
+        if: inputs.cbPackage != 'all' && inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v4
         with:
           name: release-beta-install
-          path: ${{ github.event.inputs.cbPackage }}
+          path: ${{ inputs.cbPackage }}
           retention-days: 14
       - name: Bump version to all
-        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
+        if: inputs.cbPackage == 'all' && inputs.cbVersionChange != 'no'
         run: |
-          yarn version:beta --yes --no-push
+          yarn version:beta --${{ inputs.cbVersionChange }} --yes --no-push
           git status
           git add ./
       - name: Bump version to target package
-        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbVersionChange != 'no'
-        working-directory: ${{ github.event.inputs.cbPackage }}
+        if: inputs.cbPackage != 'all' && inputs.cbVersionChange != 'no'
+        working-directory: ${{ inputs.cbPackage }}
         run: |
           OLD_VERSION=$(node -e "console.log(require('./package.json').version)")
-          yarn version --${{ github.event.inputs.cbVersionChange }} --preid beta --yes --no-push
+          yarn version --${{ inputs.cbVersionChange }} --preid beta --yes --no-push
           NEW_VERSION=$(node -e "console.log(require('./package.json').version)")
           echo "Package version changed." >> $GITHUB_STEP_SUMMARY
           echo "Old version: $OLD_VERSION" >> $GITHUB_STEP_SUMMARY
@@ -157,34 +157,33 @@ jobs:
           git status
           git add ./
       - name: Build iconsmap
-        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbIconsmap == 'yes'
-        working-directory: ${{ github.event.inputs.cbPackage }}
+        if: inputs.cbIconsmap == 'yes'
         run: |
           yarn iconsmap
           git status
-          git add ./
-          git commit -m "chore: iconsmap created for ${{ github.event.inputs.cbPackage }}"
+          git add ./packages/
+          git commit -m "chore: iconsmap created for ${{ inputs.cbPackage }}"
       - name: Build all
-        if: github.event.inputs.cbPackage == 'all'
+        if: inputs.cbPackage == 'all'
         run: |
           yarn run build
       
       - name: Build to target package
-        if: github.event.inputs.cbPackage != 'all'
-        working-directory: ${{ github.event.inputs.cbPackage }}
+        if: inputs.cbPackage != 'all'
+        working-directory: ${{ inputs.cbPackage }}
         run: |
           ls -al
           npm run build
           
       - name: 'Upload target package artifact'
-        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cbDebug == 'yes'
+        if: inputs.cbPackage != 'all' && inputs.cbDebug == 'yes'
         uses: actions/upload-artifact@v4
         with:
           name: release-beta-build
-          path: ${{ github.event.inputs.cbPackage }}
+          path: ${{ inputs.cbPackage }}
           retention-days: 14
       - name: publish all to registry(github)
-        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cGithubPackagesPublish == 'yes'
+        if: inputs.cbPackage == 'all' && inputs.cGithubPackagesPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
@@ -192,8 +191,8 @@ jobs:
           echo "always-auth = true" >> .npmrc
           yarn publish:all:github
       - name: publish target package to registry(github)
-        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cGithubPackagesPublish == 'yes'
-        working-directory: ${{ github.event.inputs.cbPackage }}
+        if: inputs.cbPackage != 'all' && inputs.cGithubPackagesPublish == 'yes'
+        working-directory: ${{ inputs.cbPackage }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
@@ -201,7 +200,7 @@ jobs:
           echo "always-auth = true" >> .npmrc
           yarn publish --access public --non-interactive  --no-git-tag-version  --registry=https://npm.pkg.github.com/
       - name: publish all to registry(npmjs.com)
-        if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cNpmPublish == 'yes'
+        if: inputs.cbPackage == 'all' && inputs.cNpmPublish == 'yes'
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
         run: |
@@ -209,8 +208,8 @@ jobs:
           echo "always-auth = true" >> .npmrc
           yarn publish:all --registry=https://registry.npmjs.org/
       - name: publish target package to registry(npmjs.com)
-        if: github.event.inputs.cbPackage != 'all' && github.event.inputs.cNpmPublish == 'yes'
-        working-directory: ${{ github.event.inputs.cbPackage }}
+        if: inputs.cbPackage != 'all' && inputs.cNpmPublish == 'yes'
+        working-directory: ${{ inputs.cbPackage }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_REGISTRY_TOKEN}}
         run: |
