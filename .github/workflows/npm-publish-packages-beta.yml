@@ -159,7 +159,7 @@ jobs:
       - name: Build iconsmap
         if: inputs.cbIconsmap == 'yes'
         run: |
-          yarn iconsmap
+          yarn iconsmap --no-bail --concurrency 5
           git status
           git add ./packages/
           git commit -m "chore: iconsmap created for ${{ inputs.cbPackage }}"
