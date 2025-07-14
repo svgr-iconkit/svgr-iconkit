@@ -141,7 +141,7 @@ jobs:
       - name: Bump version to all
         if: inputs.cbPackage == 'all' && inputs.cbVersionChange != 'no'
         run: |
-          yarn version:beta --${{ inputs.cbVersionChange }} --yes --no-push
+          yarn version:beta ${{ inputs.cbVersionChange }} --yes --no-push
           git status
           git add ./
       - name: Bump version to target package

@@ -129,7 +129,7 @@ jobs:
       - name: Bump version to all
         if: inputs.cbPackage == 'all' && inputs.cbVersionChange != 'no'
         run: |
-          yarn version:graduate --yes --no-push
+          yarn version:graduate ${{ inputs.cbVersionChange }} --yes --no-push
           git status
           git add ./
       - name: Bump version to target package
@@ -137,7 +137,7 @@ jobs:
         working-directory: ${{ inputs.cbPackage }}
         run: |
           OLD_VERSION=$(node -e "console.log(require('./package.json').version)")
-          yarn version --${{ inputs.cbVersionChange }} --yes --no-push
+          yarn version ${{ inputs.cbVersionChange }} --yes --no-push
           NEW_VERSION=$(node -e "console.log(require('./package.json').version)")
           echo "Package version changed." >> $GITHUB_STEP_SUMMARY
           echo "Old version: $OLD_VERSION" >> $GITHUB_STEP_SUMMARY
