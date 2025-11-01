@@ -30,6 +30,7 @@
     ".": {
       "react-native": "./lib/esm/native.js",
       "import": "./lib/esm/index.js",
+      "types": "./lib/types/index.d.ts",
       "default": "./lib/cjs/index.js"
     }
   },
