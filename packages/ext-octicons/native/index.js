@@ -1,1 +1,1 @@
-module.exports = require('../lib/cjs/native');
+module.exports = require('../lib/native.cjs');

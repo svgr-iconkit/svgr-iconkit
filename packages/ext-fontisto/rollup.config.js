@@ -1,6 +1,7 @@
 import {
   createRollupLibraryConfig,
   createRollupDataConfig,
+  globAll,
 } from "@svgr-iconkit/build-config";
 
 const pkg = require("./package.json");
@@ -10,12 +11,8 @@ const plugins = [];
 export default [
   createRollupLibraryConfig({
     libraryName: pkg.name,
-    entry: ["./src/index.ts", "./src/native.ts"],
+    entry: globAll(),
     sourcemap: false,
     plugins,
-  }),
-  createRollupDataConfig({
-    entryPath: "./src/data/regular",
-    outputPath: "./icons/regular",
   }),
 ];

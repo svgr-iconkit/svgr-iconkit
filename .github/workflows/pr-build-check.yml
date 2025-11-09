@@ -1,0 +1,250 @@
+name: PR Build Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  detect-changed-packages:
+    runs-on: ubuntu-latest
+    outputs:
+      packages: ${{ steps.changes.outputs.packages }}
+      has-changes: ${{ steps.changes.outputs.has-changes }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Detect changed packages
+        id: changes
+        run: |
+          # Get the base branch for comparison (defaults to main if not set)
+          BASE_BRANCH="${GITHUB_BASE_REF:-main}"
+          
+          # Get list of changed files in packages/** directory
+          # Using three-dot diff to compare base branch with current HEAD
+          CHANGED_FILES=$(git diff --name-only origin/$BASE_BRANCH...HEAD 2>/dev/null | grep '^packages/' || true)
+          
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No changes detected in packages/**"
+            echo "has-changes=false" >> $GITHUB_OUTPUT
+            echo "packages=[]" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          echo "Changed files in packages:"
+          echo "$CHANGED_FILES"
+          
+          # Extract unique package directories and convert to JSON array
+          PACKAGES=$(echo "$CHANGED_FILES" | sed 's|^packages/\([^/]*\).*|\1|' | sort -u | grep -v '^$' | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          
+          if [ -z "$PACKAGES" ] || [ "$PACKAGES" = "[]" ]; then
+            echo "No valid packages detected"
+            echo "has-changes=false" >> $GITHUB_OUTPUT
+            echo "packages=[]" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          echo "Detected changed packages: $PACKAGES"
+          echo "has-changes=true" >> $GITHUB_OUTPUT
+          echo "packages=$PACKAGES" >> $GITHUB_OUTPUT
+
+  build-tools-and-core:
+    needs: detect-changed-packages
+    if: needs.detect-changed-packages.outputs.has-changes == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'yarn'
+      
+      - name: Configure yarn
+        run: |
+          yarn config set disable-self-update-check true
+          yarn config set ignore-engines true
+      
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      
+      - name: Get cache key for tools and core
+        id: cache-key
+        run: |
+          # Generate cache key based on tools and core package.json files
+          TOOLS_HASH=$(find tools -name "package.json" -type f -exec md5sum {} \; | sort | md5sum | cut -d' ' -f1)
+          CORE_HASH=$(md5sum packages/core/package.json 2>/dev/null | cut -d' ' -f1 || echo "none")
+          CACHE_KEY="tools-core-${{ runner.os }}-$TOOLS_HASH-$CORE_HASH"
+          echo "key=$CACHE_KEY" >> $GITHUB_OUTPUT
+          echo "Cache key: $CACHE_KEY"
+      
+      - name: Restore tools and core cache
+        uses: actions/cache@v4
+        id: cache-tools-core
+        with:
+          path: |
+            tools/*/lib
+            tools/*/dist
+            packages/core/lib
+            packages/core/dist
+            packages/core/native
+          key: ${{ steps.cache-key.outputs.key }}
+          restore-keys: |
+            tools-core-${{ runner.os }}-
+      
+      - name: Build all tools
+        if: steps.cache-tools-core.outputs.cache-hit != 'true'
+        run: |
+          echo "Building all tools..."
+          FAILED_TOOLS=()
+          for tool_dir in tools/*/; do
+            if [ -f "$tool_dir/package.json" ]; then
+              tool_name=$(basename "$tool_dir")
+              echo "Building tool: $tool_name"
+              if grep -q '"build"' "$tool_dir/package.json"; then
+                if ! (cd "$tool_dir" && yarn build 2>/dev/null || npm run build 2>/dev/null); then
+                  echo "ERROR: Build failed for tool: $tool_name"
+                  FAILED_TOOLS+=("$tool_name")
+                else
+                  echo "Successfully built tool: $tool_name"
+                fi
+              else
+                echo "No build script found for $tool_name, skipping"
+              fi
+            fi
+          done
+          if [ ${#FAILED_TOOLS[@]} -gt 0 ]; then
+            echo "ERROR: Failed to build the following tools: ${FAILED_TOOLS[*]}"
+            exit 1
+          fi
+          echo "All tools built successfully"
+      
+      - name: Build core package
+        if: steps.cache-tools-core.outputs.cache-hit != 'true'
+        working-directory: packages/core
+        run: |
+          if [ -f "package.json" ]; then
+            echo "Building core package..."
+            yarn build || npm run build
+          else
+            echo "Core package not found, skipping"
+          fi
+      
+      - name: Save tools and core cache
+        if: steps.cache-tools-core.outputs.cache-hit != 'true'
+        uses: actions/cache@v4
+        with:
+          path: |
+            tools/*/lib
+            tools/*/dist
+            packages/core/lib
+            packages/core/dist
+            packages/core/native
+          key: ${{ steps.cache-key.outputs.key }}
+
+  build-changed-packages:
+    needs: [detect-changed-packages, build-tools-and-core]
+    if: needs.detect-changed-packages.outputs.has-changes == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        package: ${{ fromJson(needs.detect-changed-packages.outputs.packages) }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'yarn'
+      
+      - name: Configure yarn
+        run: |
+          yarn config set disable-self-update-check true
+          yarn config set ignore-engines true
+      
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      
+      - name: Get cache key for tools and core
+        id: cache-key
+        run: |
+          # Generate cache key based on tools and core package.json files
+          TOOLS_HASH=$(find tools -name "package.json" -type f -exec md5sum {} \; | sort | md5sum | cut -d' ' -f1)
+          CORE_HASH=$(md5sum packages/core/package.json 2>/dev/null | cut -d' ' -f1 || echo "none")
+          CACHE_KEY="tools-core-${{ runner.os }}-$TOOLS_HASH-$CORE_HASH"
+          echo "key=$CACHE_KEY" >> $GITHUB_OUTPUT
+      
+      - name: Restore tools and core cache
+        uses: actions/cache@v4
+        id: cache-tools-core
+        with:
+          path: |
+            tools/*/lib
+            tools/*/dist
+            packages/core/lib
+            packages/core/dist
+            packages/core/native
+          key: ${{ steps.cache-key.outputs.key }}
+          restore-keys: |
+            tools-core-${{ runner.os }}-
+      
+      - name: Verify tools and core are available
+        run: |
+          echo "Verifying tools and core build artifacts..."
+          if [ "${{ steps.cache-tools-core.outputs.cache-hit }}" != "true" ]; then
+            echo "ERROR: Cache miss for tools and core. They should have been built in build-tools-and-core job."
+            exit 1
+          fi
+          echo "Tools and core build artifacts restored from cache"
+          
+          # Verify tools are present
+          TOOLS_BUILT=true
+          for tool_dir in tools/*/; do
+            if [ -f "$tool_dir/package.json" ] && grep -q '"build"' "$tool_dir/package.json"; then
+              tool_name=$(basename "$tool_dir")
+              if [ ! -d "$tool_dir/lib" ] && [ ! -d "$tool_dir/dist" ]; then
+                echo "WARNING: Tool $tool_name build artifacts not found"
+                TOOLS_BUILT=false
+              fi
+            fi
+          done
+          
+          # Verify core is present (unless it's the package being built)
+          if [ "${{ matrix.package }}" != "core" ]; then
+            if [ ! -d "packages/core/lib" ] && [ ! -d "packages/core/dist" ]; then
+              echo "ERROR: Core package build artifacts not found"
+              exit 1
+            fi
+            echo "Core package build artifacts verified"
+          fi
+          
+          if [ "$TOOLS_BUILT" = "true" ]; then
+            echo "All tools build artifacts verified"
+          fi
+      
+      - name: Build package ${{ matrix.package }}
+        working-directory: packages/${{ matrix.package }}
+        run: |
+          echo "Building package: ${{ matrix.package }}"
+          if [ -f "package.json" ]; then
+            yarn build || npm run build
+          else
+            echo "No package.json found, skipping build"
+            exit 1
+          fi
+      
+      - name: Check build artifacts
+        working-directory: packages/${{ matrix.package }}
+        run: |
+          # Check if build output exists (common output directories)
+          if [ -d "lib" ] || [ -d "dist" ] || [ -f "index.js" ] || [ -f "index.mjs" ] || [ -f "index.cjs" ]; then
+            echo "Build artifacts found successfully"
+            ls -la
+          else
+            echo "Warning: No common build artifacts found"
+            echo "Listing all files:"
+            ls -la
+          fi
+

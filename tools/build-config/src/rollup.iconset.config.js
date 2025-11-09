@@ -5,7 +5,6 @@ const json = require("@rollup/plugin-json");
 const external = require("rollup-plugin-peer-deps-external");
 const typescript = require("rollup-plugin-typescript2");
 const { terser } = require("rollup-plugin-terser");
-const { camelCase } = require("lodash");
 const fs = require("fs");
 const path = require("path");
 
@@ -14,6 +13,40 @@ const defaultGlobals = {
   react: "React",
   "react-native-svg": "RNSVG",
 };
+// Function to estimate module size (in bytes; approximate via file size or graph analysis)
+function estimateModuleSize(id, getModuleInfo) {
+  const info = getModuleInfo(id);
+  // Simple heuristic: use imported length or fetch file size (extend as needed)
+  return info ? Buffer.byteLength(info.code || '') : 0; // Or use fs.statSync(id).size for file-based
+}
+
+// manualChunks function: Assign to chunks <= 300KB (307200 bytes)
+function createManualChunks(id, { getModuleInfo, getModuleIds }) {
+  const ids = getModuleIds(); // All module IDs
+  const chunkMap = new Map(); // Track current chunks and their sizes
+  let currentChunk = 'chunk-0';
+  let currentSize = 0;
+  let chunkIndex = 0;
+
+  const moduleInfo = Array.from(ids)
+    .map(mid => ({ id: mid, size: estimateModuleSize(mid, getModuleInfo) }))
+
+  // Sort modules by size (descending) for greedy packing
+  const sortedIds = moduleInfo
+    .sort((a, b) => b.size - a.size);
+
+  for (const { id, size } of sortedIds) {
+    if (currentSize + size > 307200 && currentSize > 0) { // 300KB limit; start new chunk if exceeded
+      chunkIndex++;
+      currentChunk = `chunk-${chunkIndex}`;
+      currentSize = 0;
+    }
+    chunkMap.set(id, currentChunk);
+    currentSize += size;
+  }
+
+  return chunkMap.get(id) || 'main'; // Fallback to main chunk
+}
 
 function filterExpectedEntryFileName(name) {
   if (name.startsWith(".")) {
@@ -42,20 +75,24 @@ function createRollupLibraryConfig({
   entryRootPath: rootPath,
   globals = defaultGlobals,
   typescriptConfig = {
-    useTsconfigDeclarationDir: true,
+    useTsconfigDeclarationDir: false,
   },
   sourcemap = true,
   minify = true,
   plugins = [],
   outputs = {
     commonjs: {
-      dir: "lib/cjs/",
+      dir: "lib/",
       exports: "named",
+      entryFileNames: '[name].cjs',
+      chunkFileNames: '[name]-[hash].cjs',
       plugins: [],
     },
     esm: {
-      dir: "lib/esm/",
+      dir: "lib/",
       exports: "named",
+      entryFileNames: '[name].mjs',
+      chunkFileNames: '[name]-[hash].mjs',
       plugins: [],
     },
   },
@@ -102,6 +139,7 @@ function createRollupLibraryConfig({
     input: _entry,
     output: [
       outputs.commonjs && {
+        preserveModules: true,
         ...outputs.commonjs,
         name: libraryName,
         format: "commonjs",
@@ -110,6 +148,7 @@ function createRollupLibraryConfig({
         globals,
       },
       outputs.esm && {
+        preserveModules: true,
         ...outputs.esm,
         format: "esm",
         sourcemap,
@@ -117,6 +156,11 @@ function createRollupLibraryConfig({
         globals,
       },
     ],
+    
+    // Ensure tree-shaking
+    treeshake: {
+      moduleSideEffects: false,
+    },
     // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
     external: [],
     watch: {
@@ -152,8 +196,14 @@ function createRollupDataConfig({
   plugins = [],
   outputs = {
     commonjs: {
-      dir: "data/regular/",
       exports: "named",
+      preserveModules: true,
+      entryFileNames: '[name].cjs',
+    },
+    esm: {
+      exports: "named",
+      preserveModules: true,
+      entryFileNames: '[name].mjs',
     },
   },
 }) {
@@ -199,6 +249,13 @@ function createRollupDataConfig({
         sourcemapPathTransform,
         globals,
         ...outputs.commonjs,
+        dir: outputPath,
+      }, {
+        format: "esm",
+        sourcemap,
+        sourcemapPathTransform,
+        globals,
+        ...outputs.esm,
         dir: outputPath,
       }
     ],
