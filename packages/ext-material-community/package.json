@@ -18,36 +18,32 @@
   },
   "exports": {
     "./icons/*": {
+      "types": "./lib/data/*.d.ts",
       "require": {
-        "types": "./lib/data/*.d.ts",
         "default": "./lib/data/*.cjs"
       },
       "default": {
-        "types": "./lib/data/*.d.ts",
         "default": "./lib/data/*.mjs"
       }
     },
     "./data/*": {
+      "types": "./lib/data/*.d.ts",
       "require": {
-        "types": "./lib/data/*.d.ts",
         "default": "./lib/data/*.cjs"
       },
       "default": {
-        "types": "./lib/data/*.d.ts",
         "default": "./lib/data/*.mjs"
       }
     },
     "./native": {
+      "types": "./lib/native.d.ts",
       "require": {
-        "types": "./lib/native.d.ts",
         "default": "./lib/native.cjs"
       },
       "import": {
-        "types": "./lib/native.d.ts",
         "default": "./lib/native.mjs"
       },
       "default": {
-        "types": "./lib/native.d.ts",
         "default": "./lib/native.cjs"
       }
     },
@@ -56,16 +52,14 @@
         "types": "./lib/native.d.ts",
         "default": "./lib/native.cjs"
       },
+      "types": "./lib/index.d.ts",
       "require": {
-        "types": "./lib/index.d.ts",
         "default": "./lib/index.cjs"
       },
       "import": {
-        "types": "./lib/index.d.ts",
         "default": "./lib/index.mjs"
       },
       "default": {
-        "types": "./lib/index.d.ts",
         "default": "./lib/index.cjs"
       }
     }
