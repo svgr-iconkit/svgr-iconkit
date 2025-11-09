@@ -1,4 +1,4 @@
-import type { ComponentType, ForwardRefExoticComponent, ReactElement, RefAttributes } from 'react'
+import type { ComponentType, RefAttributes } from 'react'
 import { ResolveType } from './constants'
 
 export type IconSVGNode = {
@@ -48,6 +48,14 @@ export type IconCoreProps<IconNames extends string, IconVariant extends string> 
   variantsMap?: IconsetMap<IconNames, IconVariant>
   familyName?: string
   map?: IconsMapType<IconNames>
+  /**
+   * The namespace name for the icon. If not provided, a random namespace will be generated.
+   * If the family name is provided, the namespace will be `sik-${familyName}`.
+   * If the family name is not provided, a random namespace will be generated.
+   * 
+   * Namespace name is required for improvement of server side rendering.
+   */
+  namespaceName?: string
   variant?: IconVariant
   defaultVariant?: IconVariant
   debug?: boolean

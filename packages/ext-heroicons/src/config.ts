@@ -1,7 +1,8 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { map as solidIconsMap } from "./data/solid";
-import { map as outlineIconsMap } from "./data/outline";
-export { IconNames } from "./data/solid";
+import { map as solidIconsMap, IconNames as solidIconNames } from "./data/solid";
+import { map as outlineIconsMap, IconNames as outlineIconNames } from "./data/outline";
+
+export type IconNames = solidIconNames & outlineIconNames;
 
 export type IconVariant = "solid" | "outline";
 
@@ -25,6 +26,6 @@ _iconNames = _iconNames.concat(
   outlinedIconsNames.filter((name) => !_iconNames.includes(name))
 );
 
-export const iconNames = Object.freeze(_iconNames);
+export const iconNames = Object.freeze(_iconNames) as readonly IconNames[];
 
 export const colorize = true;

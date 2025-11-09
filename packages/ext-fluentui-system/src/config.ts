@@ -7,7 +7,8 @@ import {
   IconNames as filledIconNames,
   map as filledIconsMap,
 } from "./data/filled";
-export { IconNames } from "./data/filled";
+
+export type IconNames = regularIconNames & filledIconNames;
 
 export const familyName: string = "FluentUISystem";
 
@@ -30,6 +31,6 @@ _iconNames = _iconNames.concat(
   filledIconsNames.filter((name) => !_iconNames.includes(name))
 );
 
-export const iconNames = Object.freeze(_iconNames);
+export const iconNames = Object.freeze(_iconNames) as readonly IconNames[];
 
 export const colorize = true;

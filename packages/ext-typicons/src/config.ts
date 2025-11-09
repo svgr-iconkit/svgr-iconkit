@@ -1,7 +1,7 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 import { map as outlineIconsMap } from "./data/outline";
 import { IconNames, map as regularIconsMap } from "./data/regular";
-export { IconNames } from "./data/regular";
+export type { IconNames } from "./data/regular";
 
 export type IconVariant = "regular" | "outline";
 

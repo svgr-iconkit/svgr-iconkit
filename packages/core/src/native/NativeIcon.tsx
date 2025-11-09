@@ -3,13 +3,13 @@ import type { TextStyle } from 'react-native'
 import { Svg } from 'react-native-svg'
 import type { IconComponentCoreProps } from '../common/types'
 import {
-  createRandomId,
   filterNonEmptyString,
   getContentFromIconProps,
+  getNamespaceName,
   getViewboxValue,
   PRIMARY_CURRENT_COLOR,
   removeUnit,
-  showDebugWarning,
+  showDebugWarning
 } from '../common/utils'
 import type { NativeIconBaseProps, NativeIconRefType } from './types'
 import { convertProps, renderChildren } from './utils'
@@ -27,6 +27,7 @@ const InternalNativeIcon = function <IconNames extends string, IconVariant exten
     content,
     map,
     familyName,
+    namespaceName,
     size,
     color,
     colorize = true,
@@ -47,7 +48,7 @@ const InternalNativeIcon = function <IconNames extends string, IconVariant exten
     variant,
     familyName,
   })
-  const elmNs = useMemo(() => `sik-${createRandomId()}`, [])
+  const elmNs = useMemo(() => getNamespaceName(props), [namespaceName, content,familyName, defaultVariant, variant,name])
   const { attrs: svgAttrs, data: svgData = [] } = svgContent || {}
   const elements = useMemo(() => renderChildren(svgData, '#', `@${elmNs}:`), [svgData, elmNs])
   if (debug) {

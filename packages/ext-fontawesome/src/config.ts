@@ -17,14 +17,14 @@ export const map: Record<IconVariant, IconsMapType<string>> = {
   solid: solidIconsMap,
 };
 
-const regularIconsNames = Object.keys(regularIconsMap);
+const regularIconsNames = Object.keys(regularIconsMap) as readonly IconNames[];
 const solidIconsNames = Object.keys(solidIconsMap);
 
-let _iconNames = regularIconsNames;
+let _iconNames: string[] = regularIconsNames as unknown as string[];
 _iconNames = _iconNames.concat(
   solidIconsNames.filter((name) => !_iconNames.includes(name))
 );
 
-export const iconNames = Object.freeze(_iconNames);
+export const iconNames = Object.freeze(_iconNames) as readonly IconNames[];
 
 export const colorize = true;

@@ -1,4 +1,5 @@
-import { createFamily, createVariantsMap, IconsetBaseComponentType, IconVariantsMapType } from '@svgr-iconkit/core/native'
+import type { IconsetBaseComponentType, IconVariantsMapType } from '@svgr-iconkit/core/native'
+import { createFamily, createVariantsMap } from '@svgr-iconkit/core/native'
 import { familyName, IconNames, map, variantNames, IconVariant, defaultVariant, colorize } from './config'
 export * from './config'
 export const Iconset: IconsetBaseComponentType<IconNames, IconVariant> = createFamily<IconNames, IconVariant>({
