@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/core",
-  "version": "0.4.2",
+  "version": "0.5.0-alpha.0",
   "description": "SVGR iconset core",
   "keywords": [
     "SVG",
@@ -14,32 +14,47 @@
   "license": "MIT",
   "exports": {
     "./native": {
-      "require": "./native/lib/cjs/index.js",
-      "browser": "./native/lib/cjs/index.js",
-      "import": "./native/lib/esm/index.js",
-      "default": "./native/lib/cjs/index.js"
+      "types": "./lib/native/index.d.ts",
+      "require": {
+        "default": "./lib/native.cjs"
+      },
+      "import": {
+        "default": "./lib/native.mjs"
+      },
+      "default": {
+        "default": "./lib/native.cjs"
+      }
     },
     ".": {
-      "react-native": "./native/lib/esm/index.js",
-      "require": "./index.cjs.js",
-      "browser": "./index.cjs.js",
-      "import": "./lib/esm/index.js",
-      "default": "./index.cjs.js"
+      "react-native": {
+        "types": "./lib/native/index.d.ts",
+        "default": "./lib/native.cjs"
+      },
+      "types": "./lib/web/index.d.ts",
+      "require": {
+        "default": "./lib/web.cjs"
+      },
+      "import": {
+        "default": "./lib/web.mjs"
+      },
+      "default": {
+        "default": "./lib/web.mjs"
+      }
     }
   },
-  "main": "index.cjs.js",
-  "react-native": "./native/lib/esm/index",
-  "commonjs": "index.cjs.js",
-  "module": "./lib/esm/index.js",
   "files": [
     "icons",
     "types",
     "lib",
     "native",
     "index.js",
+    "index.cjs",
+    "index.mjs",
     "index.*.ts",
     "index.*.js",
     "native.js",
+    "native.cjs",
+    "native.mjs",
     "native.*.js",
     "native.d.ts",
     "LICENSE.md",
@@ -59,7 +74,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/common-utils": "^0.4.2"
+    "@svgr-iconkit/common-utils": "^0.5.0-alpha.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -71,18 +86,17 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-terser": "^0.2.0",
-    "@svgr-iconkit/build-config": "^0.4.2",
-    "@svgr-iconkit/cli": "^0.4.2",
+    "@svgr-iconkit/build-config": "^0.5.0-alpha.0",
+    "@svgr-iconkit/cli": "^0.5.0-alpha.0",
     "@types/node": "^16.11.6",
-    "@types/react": "^17.0.1",
+    "@types/react": "^19.1.16",
     "@types/react-native": "^0.61.0",
-    "lodash": "^4.17.21",
     "npm-run-all": "^4.1.5",
-    "react": "^17.0.1",
+    "react": "^19.1.1",
     "react-native": "^0.61.0",
     "react-native-svg": "^12.3.0",
     "rimraf": "^3.0.2",
-    "rollup": "^4.14.0",
+    "rollup": "^4.53.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-terser": "^7.0.2",

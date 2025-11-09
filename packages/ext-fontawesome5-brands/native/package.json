@@ -1,7 +1,0 @@
-{
-  "name": "@svgr-iconkit/fontawesome5-brands/native",
-  "private": true,
-  "main": "../lib/cjs/native.js",
-  "module": "../lib/esm/native.js",
-  "types": "../lib/types/native.d.ts"
-}

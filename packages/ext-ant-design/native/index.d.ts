@@ -1,2 +1,3 @@
-export { default } from "../lib/types/native";
-export * from "../lib/types/native";
+export { default } from "../lib/native";
+export * from "../lib/native";
+

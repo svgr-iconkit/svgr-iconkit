@@ -1,7 +1,6 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "declarationDir": "./lib/types"
   },
   "include": ["src", "gen", "custom.d.ts"],
   "exclude": ["types", "lib"]
