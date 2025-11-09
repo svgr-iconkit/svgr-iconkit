@@ -2855,7 +2855,292 @@ import SVG_videoOnLine from "./video-on-line";
 import SVG_webhookFill from "./webhook-fill";
 import SVG_webhookLine from "./webhook-line";
 import SVG_weightFill from "./weight-fill";
-import SVG_weightLine from "./weight-line"
+import SVG_weightLine from "./weight-line";
+import SVG_bookShelfFill from "./book-shelf-fill";
+import SVG_bookShelfLine from "./book-shelf-line";
+import SVG_brain2Fill from "./brain-2-fill";
+import SVG_brain2Line from "./brain-2-line";
+import SVG_chatSearchFill from "./chat-search-fill";
+import SVG_chatSearchLine from "./chat-search-line";
+import SVG_chatUnreadFill from "./chat-unread-fill";
+import SVG_chatUnreadLine from "./chat-unread-line";
+import SVG_collapseHorizontalFill from "./collapse-horizontal-fill";
+import SVG_collapseHorizontalLine from "./collapse-horizontal-line";
+import SVG_collapseVerticalFill from "./collapse-vertical-fill";
+import SVG_collapseVerticalLine from "./collapse-vertical-line";
+import SVG_dnaFill from "./dna-fill";
+import SVG_dnaLine from "./dna-line";
+import SVG_dropperFill from "./dropper-fill";
+import SVG_dropperLine from "./dropper-line";
+import SVG_expandDiagonalS2Fill from "./expand-diagonal-s-2-fill";
+import SVG_expandDiagonalS2Line from "./expand-diagonal-s-2-line";
+import SVG_expandDiagonalSFill from "./expand-diagonal-s-fill";
+import SVG_expandDiagonalSLine from "./expand-diagonal-s-line";
+import SVG_expandHorizontalFill from "./expand-horizontal-fill";
+import SVG_expandHorizontalLine from "./expand-horizontal-line";
+import SVG_expandHorizontalSFill from "./expand-horizontal-s-fill";
+import SVG_expandHorizontalSLine from "./expand-horizontal-s-line";
+import SVG_expandVerticalFill from "./expand-vertical-fill";
+import SVG_expandVerticalLine from "./expand-vertical-line";
+import SVG_expandVerticalSFill from "./expand-vertical-s-fill";
+import SVG_expandVerticalSLine from "./expand-vertical-s-line";
+import SVG_geminiFill from "./gemini-fill";
+import SVG_geminiLine from "./gemini-line";
+import SVG_resetLeftFill from "./reset-left-fill";
+import SVG_resetLeftLine from "./reset-left-line";
+import SVG_resetRightFill from "./reset-right-fill";
+import SVG_resetRightLine from "./reset-right-line";
+import SVG_stairsFill from "./stairs-fill";
+import SVG_stairsLine from "./stairs-line";
+import SVG_telegram2Fill from "./telegram-2-fill";
+import SVG_telegram2Line from "./telegram-2-line";
+import SVG_triangularFlagFill from "./triangular-flag-fill";
+import SVG_triangularFlagLine from "./triangular-flag-line";
+import SVG_userMinusFill from "./user-minus-fill";
+import SVG_userMinusLine from "./user-minus-line";
+import SVG_accountBox2Fill from "./account-box-2-fill";
+import SVG_accountBox2Line from "./account-box-2-line";
+import SVG_accountCircle2Fill from "./account-circle-2-fill";
+import SVG_accountCircle2Line from "./account-circle-2-line";
+import SVG_alarmSnoozeFill from "./alarm-snooze-fill";
+import SVG_alarmSnoozeLine from "./alarm-snooze-line";
+import SVG_arrowDownBoxFill from "./arrow-down-box-fill";
+import SVG_arrowDownBoxLine from "./arrow-down-box-line";
+import SVG_arrowLeftBoxFill from "./arrow-left-box-fill";
+import SVG_arrowLeftBoxLine from "./arrow-left-box-line";
+import SVG_arrowLeftDownBoxFill from "./arrow-left-down-box-fill";
+import SVG_arrowLeftDownBoxLine from "./arrow-left-down-box-line";
+import SVG_arrowLeftUpBoxFill from "./arrow-left-up-box-fill";
+import SVG_arrowLeftUpBoxLine from "./arrow-left-up-box-line";
+import SVG_arrowRightBoxFill from "./arrow-right-box-fill";
+import SVG_arrowRightBoxLine from "./arrow-right-box-line";
+import SVG_arrowRightDownBoxFill from "./arrow-right-down-box-fill";
+import SVG_arrowRightDownBoxLine from "./arrow-right-down-box-line";
+import SVG_arrowRightUpBoxFill from "./arrow-right-up-box-fill";
+import SVG_arrowRightUpBoxLine from "./arrow-right-up-box-line";
+import SVG_arrowUpBoxFill from "./arrow-up-box-fill";
+import SVG_arrowUpBoxLine from "./arrow-up-box-line";
+import SVG_barChartBoxAiFill from "./bar-chart-box-ai-fill";
+import SVG_barChartBoxAiLine from "./bar-chart-box-ai-line";
+import SVG_brushAiFill from "./brush-ai-fill";
+import SVG_brushAiLine from "./brush-ai-line";
+import SVG_cameraAiFill from "./camera-ai-fill";
+import SVG_cameraAiLine from "./camera-ai-line";
+import SVG_chatAiFill from "./chat-ai-fill";
+import SVG_chatAiLine from "./chat-ai-line";
+import SVG_chatSmileAiFill from "./chat-smile-ai-fill";
+import SVG_chatSmileAiLine from "./chat-smile-ai-line";
+import SVG_chatVoiceAiFill from "./chat-voice-ai-fill";
+import SVG_chatVoiceAiLine from "./chat-voice-ai-line";
+import SVG_codeAiFill from "./code-ai-fill";
+import SVG_codeAiLine from "./code-ai-line";
+import SVG_colorFilterAiFill from "./color-filter-ai-fill";
+import SVG_colorFilterAiLine from "./color-filter-ai-line";
+import SVG_customSize from "./custom-size";
+import SVG_fediverseFill from "./fediverse-fill";
+import SVG_fediverseLine from "./fediverse-line";
+import SVG_flagOffFill from "./flag-off-fill";
+import SVG_flagOffLine from "./flag-off-line";
+import SVG_home9Fill from "./home-9-fill";
+import SVG_home9Line from "./home-9-line";
+import SVG_imageAiFill from "./image-ai-fill";
+import SVG_imageAiLine from "./image-ai-line";
+import SVG_imageCircleAiFill from "./image-circle-ai-fill";
+import SVG_imageCircleAiLine from "./image-circle-ai-line";
+import SVG_infoCardFill from "./info-card-fill";
+import SVG_infoCardLine from "./info-card-line";
+import SVG_landscapeAiFill from "./landscape-ai-fill";
+import SVG_landscapeAiLine from "./landscape-ai-line";
+import SVG_letterSpacing2 from "./letter-spacing-2";
+import SVG_lineHeight2 from "./line-height-2";
+import SVG_mailAiFill from "./mail-ai-fill";
+import SVG_mailAiLine from "./mail-ai-line";
+import SVG_mic2AiFill from "./mic-2-ai-fill";
+import SVG_mic2AiLine from "./mic-2-ai-line";
+import SVG_micAiFill from "./mic-ai-fill";
+import SVG_micAiLine from "./mic-ai-line";
+import SVG_movieAiFill from "./movie-ai-fill";
+import SVG_movieAiLine from "./movie-ai-line";
+import SVG_musicAiFill from "./music-ai-fill";
+import SVG_musicAiLine from "./music-ai-line";
+import SVG_notificationSnoozeFill from "./notification-snooze-fill";
+import SVG_notificationSnoozeLine from "./notification-snooze-line";
+import SVG_phpFill from "./php-fill";
+import SVG_phpLine from "./php-line";
+import SVG_pixFill from "./pix-fill";
+import SVG_pixLine from "./pix-line";
+import SVG_pulseAiFill from "./pulse-ai-fill";
+import SVG_pulseAiLine from "./pulse-ai-line";
+import SVG_quillPenAiFill from "./quill-pen-ai-fill";
+import SVG_quillPenAiLine from "./quill-pen-ai-line";
+import SVG_speakAiFill from "./speak-ai-fill";
+import SVG_speakAiLine from "./speak-ai-line";
+import SVG_starOffFill from "./star-off-fill";
+import SVG_starOffLine from "./star-off-line";
+import SVG_translateAi2 from "./translate-ai-2";
+import SVG_translateAi from "./translate-ai";
+import SVG_userCommunityFill from "./user-community-fill";
+import SVG_userCommunityLine from "./user-community-line";
+import SVG_vercelFill from "./vercel-fill";
+import SVG_vercelLine from "./vercel-line";
+import SVG_videoAiFill from "./video-ai-fill";
+import SVG_videoAiLine from "./video-ai-line";
+import SVG_videoOnAiFill from "./video-on-ai-fill";
+import SVG_videoOnAiLine from "./video-on-ai-line";
+import SVG_voiceAiFill from "./voice-ai-fill";
+import SVG_voiceAiLine from "./voice-ai-line";
+import SVG_aiGenerate2 from "./ai-generate-2";
+import SVG_aiGenerateText from "./ai-generate-text";
+import SVG_anthropicFill from "./anthropic-fill";
+import SVG_anthropicLine from "./anthropic-line";
+import SVG_apps2AiFill from "./apps-2-ai-fill";
+import SVG_apps2AiLine from "./apps-2-ai-line";
+import SVG_cameraLensAiFill from "./camera-lens-ai-fill";
+import SVG_cameraLensAiLine from "./camera-lens-ai-line";
+import SVG_clapperboardAiFill from "./clapperboard-ai-fill";
+import SVG_clapperboardAiLine from "./clapperboard-ai-line";
+import SVG_claudeFill from "./claude-fill";
+import SVG_claudeLine from "./claude-line";
+import SVG_closedCaptioningAiFill from "./closed-captioning-ai-fill";
+import SVG_closedCaptioningAiLine from "./closed-captioning-ai-line";
+import SVG_dvdAiFill from "./dvd-ai-fill";
+import SVG_dvdAiLine from "./dvd-ai-line";
+import SVG_filmAiFill from "./film-ai-fill";
+import SVG_filmAiLine from "./film-ai-line";
+import SVG_fontSizeAi from "./font-size-ai";
+import SVG_mixtralFill from "./mixtral-fill";
+import SVG_mixtralLine from "./mixtral-line";
+import SVG_movie2AiFill from "./movie-2-ai-fill";
+import SVG_movie2AiLine from "./movie-2-ai-line";
+import SVG_mvAiFill from "./mv-ai-fill";
+import SVG_mvAiLine from "./mv-ai-line";
+import SVG_perplexityFill from "./perplexity-fill";
+import SVG_perplexityLine from "./perplexity-line";
+import SVG_pokerClubsFill from "./poker-clubs-fill";
+import SVG_pokerClubsLine from "./poker-clubs-line";
+import SVG_pokerDiamondsFill from "./poker-diamonds-fill";
+import SVG_pokerDiamondsLine from "./poker-diamonds-line";
+import SVG_pokerHeartsFill from "./poker-hearts-fill";
+import SVG_pokerHeartsLine from "./poker-hearts-line";
+import SVG_pokerSpadesFill from "./poker-spades-fill";
+import SVG_pokerSpadesLine from "./poker-spades-line";
+import SVG_safe3Fill from "./safe-3-fill";
+import SVG_safe3Line from "./safe-3-line";
+import SVG_accessibilityFill from "./accessibility-fill";
+import SVG_accessibilityLine from "./accessibility-line";
+import SVG_alarmAddFill from "./alarm-add-fill";
+import SVG_alarmAddLine from "./alarm-add-line";
+import SVG_arrowDownLongFill from "./arrow-down-long-fill";
+import SVG_arrowDownLongLine from "./arrow-down-long-line";
+import SVG_arrowLeftDownLongFill from "./arrow-left-down-long-fill";
+import SVG_arrowLeftDownLongLine from "./arrow-left-down-long-line";
+import SVG_arrowLeftLongFill from "./arrow-left-long-fill";
+import SVG_arrowLeftLongLine from "./arrow-left-long-line";
+import SVG_arrowLeftUpLongFill from "./arrow-left-up-long-fill";
+import SVG_arrowLeftUpLongLine from "./arrow-left-up-long-line";
+import SVG_arrowRightDownLongFill from "./arrow-right-down-long-fill";
+import SVG_arrowRightDownLongLine from "./arrow-right-down-long-line";
+import SVG_arrowRightLongFill from "./arrow-right-long-fill";
+import SVG_arrowRightLongLine from "./arrow-right-long-line";
+import SVG_arrowRightUpLongFill from "./arrow-right-up-long-fill";
+import SVG_arrowRightUpLongLine from "./arrow-right-up-long-line";
+import SVG_arrowUpLongFill from "./arrow-up-long-fill";
+import SVG_arrowUpLongLine from "./arrow-up-long-line";
+import SVG_chessFill from "./chess-fill";
+import SVG_chessLine from "./chess-line";
+import SVG_diamondFill from "./diamond-fill";
+import SVG_diamondLine from "./diamond-line";
+import SVG_diamondRingFill from "./diamond-ring-fill";
+import SVG_diamondRingLine from "./diamond-ring-line";
+import SVG_figmaFill from "./figma-fill";
+import SVG_figmaLine from "./figma-line";
+import SVG_firefoxBrowserFill from "./firefox-browser-fill";
+import SVG_firefoxBrowserLine from "./firefox-browser-line";
+import SVG_jewelryFill from "./jewelry-fill";
+import SVG_jewelryLine from "./jewelry-line";
+import SVG_multiImageFill from "./multi-image-fill";
+import SVG_multiImageLine from "./multi-image-line";
+import SVG_noCreditCardFill from "./no-credit-card-fill";
+import SVG_noCreditCardLine from "./no-credit-card-line";
+import SVG_serviceBellFill from "./service-bell-fill";
+import SVG_serviceBellLine from "./service-bell-line";
+import SVG_aiAgentFill from "./ai-agent-fill";
+import SVG_aiAgentLine from "./ai-agent-line";
+import SVG_aiGenerate2Fill from "./ai-generate-2-fill";
+import SVG_aiGenerate2Line from "./ai-generate-2-line";
+import SVG_aiGenerate3dFill from "./ai-generate-3d-fill";
+import SVG_aiGenerate3dLine from "./ai-generate-3d-line";
+import SVG_ai from "./ai";
+import SVG_appsAiFill from "./apps-ai-fill";
+import SVG_appsAiLine from "./apps-ai-line";
+import SVG_atomFill from "./atom-fill";
+import SVG_atomLine from "./atom-line";
+import SVG_bookAiFill from "./book-ai-fill";
+import SVG_bookAiLine from "./book-ai-line";
+import SVG_brain3Fill from "./brain-3-fill";
+import SVG_brain3Line from "./brain-3-line";
+import SVG_brainAi3Fill from "./brain-ai-3-fill";
+import SVG_brainAi3Line from "./brain-ai-3-line";
+import SVG_brushAi3Fill from "./brush-ai-3-fill";
+import SVG_brushAi3Line from "./brush-ai-3-line";
+import SVG_camera4Fill from "./camera-4-fill";
+import SVG_camera4Line from "./camera-4-line";
+import SVG_cameraAi2Fill from "./camera-ai-2-fill";
+import SVG_cameraAi2Line from "./camera-ai-2-line";
+import SVG_chatAi2Fill from "./chat-ai-2-fill";
+import SVG_chatAi2Line from "./chat-ai-2-line";
+import SVG_chatAi3Fill from "./chat-ai-3-fill";
+import SVG_chatAi3Line from "./chat-ai-3-line";
+import SVG_chatAi4Fill from "./chat-ai-4-fill";
+import SVG_chatAi4Line from "./chat-ai-4-line";
+import SVG_chatSmileAi3Fill from "./chat-smile-ai-3-fill";
+import SVG_chatSmileAi3Line from "./chat-smile-ai-3-line";
+import SVG_deepseekFill from "./deepseek-fill";
+import SVG_deepseekLine from "./deepseek-line";
+import SVG_fileAi2Fill from "./file-ai-2-fill";
+import SVG_fileAi2Line from "./file-ai-2-line";
+import SVG_fileAiFill from "./file-ai-fill";
+import SVG_fileAiLine from "./file-ai-line";
+import SVG_functionAiFill from "./function-ai-fill";
+import SVG_functionAiLine from "./function-ai-line";
+import SVG_game2Fill from "./game-2-fill";
+import SVG_game2Line from "./game-2-line";
+import SVG_gobletBrokenFill from "./goblet-broken-fill";
+import SVG_gobletBrokenLine from "./goblet-broken-line";
+import SVG_lightbulbAiFill from "./lightbulb-ai-fill";
+import SVG_lightbulbAiLine from "./lightbulb-ai-line";
+import SVG_loopLeftAiFill from "./loop-left-ai-fill";
+import SVG_loopLeftAiLine from "./loop-left-ai-line";
+import SVG_loopRightAiFill from "./loop-right-ai-fill";
+import SVG_loopRightAiLine from "./loop-right-ai-line";
+import SVG_messageAi3Fill from "./message-ai-3-fill";
+import SVG_messageAi3Line from "./message-ai-3-line";
+import SVG_paintingAiFill from "./painting-ai-fill";
+import SVG_paintingAiLine from "./painting-ai-line";
+import SVG_paintingFill from "./painting-fill";
+import SVG_paintingLine from "./painting-line";
+import SVG_pencilAi2Fill from "./pencil-ai-2-fill";
+import SVG_pencilAi2Line from "./pencil-ai-2-line";
+import SVG_pencilAiFill from "./pencil-ai-fill";
+import SVG_pencilAiLine from "./pencil-ai-line";
+import SVG_remixFill from "./remix-fill";
+import SVG_remixLine from "./remix-line";
+import SVG_searchAi2Fill from "./search-ai-2-fill";
+import SVG_searchAi2Line from "./search-ai-2-line";
+import SVG_searchAi3Fill from "./search-ai-3-fill";
+import SVG_searchAi3Line from "./search-ai-3-line";
+import SVG_searchAi4Fill from "./search-ai-4-fill";
+import SVG_searchAi4Line from "./search-ai-4-line";
+import SVG_searchAiFill from "./search-ai-fill";
+import SVG_searchAiLine from "./search-ai-line";
+import SVG_speechToTextFill from "./speech-to-text-fill";
+import SVG_speechToTextLine from "./speech-to-text-line";
+import SVG_targetFill from "./target-fill";
+import SVG_targetLine from "./target-line";
+import SVG_textToSpeechFill from "./text-to-speech-fill";
+import SVG_textToSpeechLine from "./text-to-speech-line";
+import SVG_wrenchFill from "./wrench-fill";
+import SVG_wrenchLine from "./wrench-line"
 
 // map
 const contentMap = {
@@ -5708,7 +5993,292 @@ const contentMap = {
 "webhook-fill": SVG_webhookFill,
 "webhook-line": SVG_webhookLine,
 "weight-fill": SVG_weightFill,
-"weight-line": SVG_weightLine
+"weight-line": SVG_weightLine,
+"book-shelf-fill": SVG_bookShelfFill,
+"book-shelf-line": SVG_bookShelfLine,
+"brain-2-fill": SVG_brain2Fill,
+"brain-2-line": SVG_brain2Line,
+"chat-search-fill": SVG_chatSearchFill,
+"chat-search-line": SVG_chatSearchLine,
+"chat-unread-fill": SVG_chatUnreadFill,
+"chat-unread-line": SVG_chatUnreadLine,
+"collapse-horizontal-fill": SVG_collapseHorizontalFill,
+"collapse-horizontal-line": SVG_collapseHorizontalLine,
+"collapse-vertical-fill": SVG_collapseVerticalFill,
+"collapse-vertical-line": SVG_collapseVerticalLine,
+"dna-fill": SVG_dnaFill,
+"dna-line": SVG_dnaLine,
+"dropper-fill": SVG_dropperFill,
+"dropper-line": SVG_dropperLine,
+"expand-diagonal-s-2-fill": SVG_expandDiagonalS2Fill,
+"expand-diagonal-s-2-line": SVG_expandDiagonalS2Line,
+"expand-diagonal-s-fill": SVG_expandDiagonalSFill,
+"expand-diagonal-s-line": SVG_expandDiagonalSLine,
+"expand-horizontal-fill": SVG_expandHorizontalFill,
+"expand-horizontal-line": SVG_expandHorizontalLine,
+"expand-horizontal-s-fill": SVG_expandHorizontalSFill,
+"expand-horizontal-s-line": SVG_expandHorizontalSLine,
+"expand-vertical-fill": SVG_expandVerticalFill,
+"expand-vertical-line": SVG_expandVerticalLine,
+"expand-vertical-s-fill": SVG_expandVerticalSFill,
+"expand-vertical-s-line": SVG_expandVerticalSLine,
+"gemini-fill": SVG_geminiFill,
+"gemini-line": SVG_geminiLine,
+"reset-left-fill": SVG_resetLeftFill,
+"reset-left-line": SVG_resetLeftLine,
+"reset-right-fill": SVG_resetRightFill,
+"reset-right-line": SVG_resetRightLine,
+"stairs-fill": SVG_stairsFill,
+"stairs-line": SVG_stairsLine,
+"telegram-2-fill": SVG_telegram2Fill,
+"telegram-2-line": SVG_telegram2Line,
+"triangular-flag-fill": SVG_triangularFlagFill,
+"triangular-flag-line": SVG_triangularFlagLine,
+"user-minus-fill": SVG_userMinusFill,
+"user-minus-line": SVG_userMinusLine,
+"account-box-2-fill": SVG_accountBox2Fill,
+"account-box-2-line": SVG_accountBox2Line,
+"account-circle-2-fill": SVG_accountCircle2Fill,
+"account-circle-2-line": SVG_accountCircle2Line,
+"alarm-snooze-fill": SVG_alarmSnoozeFill,
+"alarm-snooze-line": SVG_alarmSnoozeLine,
+"arrow-down-box-fill": SVG_arrowDownBoxFill,
+"arrow-down-box-line": SVG_arrowDownBoxLine,
+"arrow-left-box-fill": SVG_arrowLeftBoxFill,
+"arrow-left-box-line": SVG_arrowLeftBoxLine,
+"arrow-left-down-box-fill": SVG_arrowLeftDownBoxFill,
+"arrow-left-down-box-line": SVG_arrowLeftDownBoxLine,
+"arrow-left-up-box-fill": SVG_arrowLeftUpBoxFill,
+"arrow-left-up-box-line": SVG_arrowLeftUpBoxLine,
+"arrow-right-box-fill": SVG_arrowRightBoxFill,
+"arrow-right-box-line": SVG_arrowRightBoxLine,
+"arrow-right-down-box-fill": SVG_arrowRightDownBoxFill,
+"arrow-right-down-box-line": SVG_arrowRightDownBoxLine,
+"arrow-right-up-box-fill": SVG_arrowRightUpBoxFill,
+"arrow-right-up-box-line": SVG_arrowRightUpBoxLine,
+"arrow-up-box-fill": SVG_arrowUpBoxFill,
+"arrow-up-box-line": SVG_arrowUpBoxLine,
+"bar-chart-box-ai-fill": SVG_barChartBoxAiFill,
+"bar-chart-box-ai-line": SVG_barChartBoxAiLine,
+"brush-ai-fill": SVG_brushAiFill,
+"brush-ai-line": SVG_brushAiLine,
+"camera-ai-fill": SVG_cameraAiFill,
+"camera-ai-line": SVG_cameraAiLine,
+"chat-ai-fill": SVG_chatAiFill,
+"chat-ai-line": SVG_chatAiLine,
+"chat-smile-ai-fill": SVG_chatSmileAiFill,
+"chat-smile-ai-line": SVG_chatSmileAiLine,
+"chat-voice-ai-fill": SVG_chatVoiceAiFill,
+"chat-voice-ai-line": SVG_chatVoiceAiLine,
+"code-ai-fill": SVG_codeAiFill,
+"code-ai-line": SVG_codeAiLine,
+"color-filter-ai-fill": SVG_colorFilterAiFill,
+"color-filter-ai-line": SVG_colorFilterAiLine,
+"custom-size": SVG_customSize,
+"fediverse-fill": SVG_fediverseFill,
+"fediverse-line": SVG_fediverseLine,
+"flag-off-fill": SVG_flagOffFill,
+"flag-off-line": SVG_flagOffLine,
+"home-9-fill": SVG_home9Fill,
+"home-9-line": SVG_home9Line,
+"image-ai-fill": SVG_imageAiFill,
+"image-ai-line": SVG_imageAiLine,
+"image-circle-ai-fill": SVG_imageCircleAiFill,
+"image-circle-ai-line": SVG_imageCircleAiLine,
+"info-card-fill": SVG_infoCardFill,
+"info-card-line": SVG_infoCardLine,
+"landscape-ai-fill": SVG_landscapeAiFill,
+"landscape-ai-line": SVG_landscapeAiLine,
+"letter-spacing-2": SVG_letterSpacing2,
+"line-height-2": SVG_lineHeight2,
+"mail-ai-fill": SVG_mailAiFill,
+"mail-ai-line": SVG_mailAiLine,
+"mic-2-ai-fill": SVG_mic2AiFill,
+"mic-2-ai-line": SVG_mic2AiLine,
+"mic-ai-fill": SVG_micAiFill,
+"mic-ai-line": SVG_micAiLine,
+"movie-ai-fill": SVG_movieAiFill,
+"movie-ai-line": SVG_movieAiLine,
+"music-ai-fill": SVG_musicAiFill,
+"music-ai-line": SVG_musicAiLine,
+"notification-snooze-fill": SVG_notificationSnoozeFill,
+"notification-snooze-line": SVG_notificationSnoozeLine,
+"php-fill": SVG_phpFill,
+"php-line": SVG_phpLine,
+"pix-fill": SVG_pixFill,
+"pix-line": SVG_pixLine,
+"pulse-ai-fill": SVG_pulseAiFill,
+"pulse-ai-line": SVG_pulseAiLine,
+"quill-pen-ai-fill": SVG_quillPenAiFill,
+"quill-pen-ai-line": SVG_quillPenAiLine,
+"speak-ai-fill": SVG_speakAiFill,
+"speak-ai-line": SVG_speakAiLine,
+"star-off-fill": SVG_starOffFill,
+"star-off-line": SVG_starOffLine,
+"translate-ai-2": SVG_translateAi2,
+"translate-ai": SVG_translateAi,
+"user-community-fill": SVG_userCommunityFill,
+"user-community-line": SVG_userCommunityLine,
+"vercel-fill": SVG_vercelFill,
+"vercel-line": SVG_vercelLine,
+"video-ai-fill": SVG_videoAiFill,
+"video-ai-line": SVG_videoAiLine,
+"video-on-ai-fill": SVG_videoOnAiFill,
+"video-on-ai-line": SVG_videoOnAiLine,
+"voice-ai-fill": SVG_voiceAiFill,
+"voice-ai-line": SVG_voiceAiLine,
+"ai-generate-2": SVG_aiGenerate2,
+"ai-generate-text": SVG_aiGenerateText,
+"anthropic-fill": SVG_anthropicFill,
+"anthropic-line": SVG_anthropicLine,
+"apps-2-ai-fill": SVG_apps2AiFill,
+"apps-2-ai-line": SVG_apps2AiLine,
+"camera-lens-ai-fill": SVG_cameraLensAiFill,
+"camera-lens-ai-line": SVG_cameraLensAiLine,
+"clapperboard-ai-fill": SVG_clapperboardAiFill,
+"clapperboard-ai-line": SVG_clapperboardAiLine,
+"claude-fill": SVG_claudeFill,
+"claude-line": SVG_claudeLine,
+"closed-captioning-ai-fill": SVG_closedCaptioningAiFill,
+"closed-captioning-ai-line": SVG_closedCaptioningAiLine,
+"dvd-ai-fill": SVG_dvdAiFill,
+"dvd-ai-line": SVG_dvdAiLine,
+"film-ai-fill": SVG_filmAiFill,
+"film-ai-line": SVG_filmAiLine,
+"font-size-ai": SVG_fontSizeAi,
+"mixtral-fill": SVG_mixtralFill,
+"mixtral-line": SVG_mixtralLine,
+"movie-2-ai-fill": SVG_movie2AiFill,
+"movie-2-ai-line": SVG_movie2AiLine,
+"mv-ai-fill": SVG_mvAiFill,
+"mv-ai-line": SVG_mvAiLine,
+"perplexity-fill": SVG_perplexityFill,
+"perplexity-line": SVG_perplexityLine,
+"poker-clubs-fill": SVG_pokerClubsFill,
+"poker-clubs-line": SVG_pokerClubsLine,
+"poker-diamonds-fill": SVG_pokerDiamondsFill,
+"poker-diamonds-line": SVG_pokerDiamondsLine,
+"poker-hearts-fill": SVG_pokerHeartsFill,
+"poker-hearts-line": SVG_pokerHeartsLine,
+"poker-spades-fill": SVG_pokerSpadesFill,
+"poker-spades-line": SVG_pokerSpadesLine,
+"safe-3-fill": SVG_safe3Fill,
+"safe-3-line": SVG_safe3Line,
+"accessibility-fill": SVG_accessibilityFill,
+"accessibility-line": SVG_accessibilityLine,
+"alarm-add-fill": SVG_alarmAddFill,
+"alarm-add-line": SVG_alarmAddLine,
+"arrow-down-long-fill": SVG_arrowDownLongFill,
+"arrow-down-long-line": SVG_arrowDownLongLine,
+"arrow-left-down-long-fill": SVG_arrowLeftDownLongFill,
+"arrow-left-down-long-line": SVG_arrowLeftDownLongLine,
+"arrow-left-long-fill": SVG_arrowLeftLongFill,
+"arrow-left-long-line": SVG_arrowLeftLongLine,
+"arrow-left-up-long-fill": SVG_arrowLeftUpLongFill,
+"arrow-left-up-long-line": SVG_arrowLeftUpLongLine,
+"arrow-right-down-long-fill": SVG_arrowRightDownLongFill,
+"arrow-right-down-long-line": SVG_arrowRightDownLongLine,
+"arrow-right-long-fill": SVG_arrowRightLongFill,
+"arrow-right-long-line": SVG_arrowRightLongLine,
+"arrow-right-up-long-fill": SVG_arrowRightUpLongFill,
+"arrow-right-up-long-line": SVG_arrowRightUpLongLine,
+"arrow-up-long-fill": SVG_arrowUpLongFill,
+"arrow-up-long-line": SVG_arrowUpLongLine,
+"chess-fill": SVG_chessFill,
+"chess-line": SVG_chessLine,
+"diamond-fill": SVG_diamondFill,
+"diamond-line": SVG_diamondLine,
+"diamond-ring-fill": SVG_diamondRingFill,
+"diamond-ring-line": SVG_diamondRingLine,
+"figma-fill": SVG_figmaFill,
+"figma-line": SVG_figmaLine,
+"firefox-browser-fill": SVG_firefoxBrowserFill,
+"firefox-browser-line": SVG_firefoxBrowserLine,
+"jewelry-fill": SVG_jewelryFill,
+"jewelry-line": SVG_jewelryLine,
+"multi-image-fill": SVG_multiImageFill,
+"multi-image-line": SVG_multiImageLine,
+"no-credit-card-fill": SVG_noCreditCardFill,
+"no-credit-card-line": SVG_noCreditCardLine,
+"service-bell-fill": SVG_serviceBellFill,
+"service-bell-line": SVG_serviceBellLine,
+"ai-agent-fill": SVG_aiAgentFill,
+"ai-agent-line": SVG_aiAgentLine,
+"ai-generate-2-fill": SVG_aiGenerate2Fill,
+"ai-generate-2-line": SVG_aiGenerate2Line,
+"ai-generate-3d-fill": SVG_aiGenerate3dFill,
+"ai-generate-3d-line": SVG_aiGenerate3dLine,
+"ai": SVG_ai,
+"apps-ai-fill": SVG_appsAiFill,
+"apps-ai-line": SVG_appsAiLine,
+"atom-fill": SVG_atomFill,
+"atom-line": SVG_atomLine,
+"book-ai-fill": SVG_bookAiFill,
+"book-ai-line": SVG_bookAiLine,
+"brain-3-fill": SVG_brain3Fill,
+"brain-3-line": SVG_brain3Line,
+"brain-ai-3-fill": SVG_brainAi3Fill,
+"brain-ai-3-line": SVG_brainAi3Line,
+"brush-ai-3-fill": SVG_brushAi3Fill,
+"brush-ai-3-line": SVG_brushAi3Line,
+"camera-4-fill": SVG_camera4Fill,
+"camera-4-line": SVG_camera4Line,
+"camera-ai-2-fill": SVG_cameraAi2Fill,
+"camera-ai-2-line": SVG_cameraAi2Line,
+"chat-ai-2-fill": SVG_chatAi2Fill,
+"chat-ai-2-line": SVG_chatAi2Line,
+"chat-ai-3-fill": SVG_chatAi3Fill,
+"chat-ai-3-line": SVG_chatAi3Line,
+"chat-ai-4-fill": SVG_chatAi4Fill,
+"chat-ai-4-line": SVG_chatAi4Line,
+"chat-smile-ai-3-fill": SVG_chatSmileAi3Fill,
+"chat-smile-ai-3-line": SVG_chatSmileAi3Line,
+"deepseek-fill": SVG_deepseekFill,
+"deepseek-line": SVG_deepseekLine,
+"file-ai-2-fill": SVG_fileAi2Fill,
+"file-ai-2-line": SVG_fileAi2Line,
+"file-ai-fill": SVG_fileAiFill,
+"file-ai-line": SVG_fileAiLine,
+"function-ai-fill": SVG_functionAiFill,
+"function-ai-line": SVG_functionAiLine,
+"game-2-fill": SVG_game2Fill,
+"game-2-line": SVG_game2Line,
+"goblet-broken-fill": SVG_gobletBrokenFill,
+"goblet-broken-line": SVG_gobletBrokenLine,
+"lightbulb-ai-fill": SVG_lightbulbAiFill,
+"lightbulb-ai-line": SVG_lightbulbAiLine,
+"loop-left-ai-fill": SVG_loopLeftAiFill,
+"loop-left-ai-line": SVG_loopLeftAiLine,
+"loop-right-ai-fill": SVG_loopRightAiFill,
+"loop-right-ai-line": SVG_loopRightAiLine,
+"message-ai-3-fill": SVG_messageAi3Fill,
+"message-ai-3-line": SVG_messageAi3Line,
+"painting-ai-fill": SVG_paintingAiFill,
+"painting-ai-line": SVG_paintingAiLine,
+"painting-fill": SVG_paintingFill,
+"painting-line": SVG_paintingLine,
+"pencil-ai-2-fill": SVG_pencilAi2Fill,
+"pencil-ai-2-line": SVG_pencilAi2Line,
+"pencil-ai-fill": SVG_pencilAiFill,
+"pencil-ai-line": SVG_pencilAiLine,
+"remix-fill": SVG_remixFill,
+"remix-line": SVG_remixLine,
+"search-ai-2-fill": SVG_searchAi2Fill,
+"search-ai-2-line": SVG_searchAi2Line,
+"search-ai-3-fill": SVG_searchAi3Fill,
+"search-ai-3-line": SVG_searchAi3Line,
+"search-ai-4-fill": SVG_searchAi4Fill,
+"search-ai-4-line": SVG_searchAi4Line,
+"search-ai-fill": SVG_searchAiFill,
+"search-ai-line": SVG_searchAiLine,
+"speech-to-text-fill": SVG_speechToTextFill,
+"speech-to-text-line": SVG_speechToTextLine,
+"target-fill": SVG_targetFill,
+"target-line": SVG_targetLine,
+"text-to-speech-fill": SVG_textToSpeechFill,
+"text-to-speech-line": SVG_textToSpeechLine,
+"wrench-fill": SVG_wrenchFill,
+"wrench-line": SVG_wrenchLine
 };
 
 // types

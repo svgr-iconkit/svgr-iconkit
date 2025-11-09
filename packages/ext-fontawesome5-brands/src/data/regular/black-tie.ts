@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"black-tie","attrs":{"viewBox":"0 0 448 512"},"data":[{"tagName":"path","attrs":{"d":"M0 32v448h448V32H0zm316.5 325.2L224 445.9l-92.5-88.7 64.5-184-64.5-86.6h184.9L252 173.2l64.5 184z"}}]};
+export const content: IconSVG = {"name":"black-tie","attrs":{"viewBox":"0 0 448 512"},"data":[{"tagName":"path","attrs":{"fill":"currentColor","d":"M0 32l0 448 448 0 0-448-448 0zM316.5 357.2l-92.5 88.7-92.5-88.7 64.5-184-64.5-86.6 184.9 0-64.4 86.6 64.5 184z"}}]};
 export default content;

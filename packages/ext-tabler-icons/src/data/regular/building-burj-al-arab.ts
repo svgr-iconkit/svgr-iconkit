@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"building-burj-al-arab","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 21h18"}},{"tagName":"path","attrs":{"d":"M7 21v-18"}},{"tagName":"path","attrs":{"d":"M7 4c5.675 .908 10 5.613 10 11.28a11 11 0 0 1 -1.605 5.72"}},{"tagName":"path","attrs":{"d":"M5 9h12"}},{"tagName":"path","attrs":{"d":"M7 13h4"}},{"tagName":"path","attrs":{"d":"M7 17h4"}}]};
+export default content;

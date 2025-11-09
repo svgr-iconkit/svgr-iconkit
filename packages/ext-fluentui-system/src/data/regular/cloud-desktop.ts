@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cloud-desktop","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M22 13a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-3v1.5h.25a.75.75 0 0 1 .75.82v.05c0 .28-.35.63-.63.63h-3.75c-.27 0-.62-.35-.62-.63V22.25c0-.41.34-.75.75-.75H16V20h-3a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h9ZM12 4a6 6 0 0 1 5.92 5.02A4.5 4.5 0 0 1 21.74 12H20.1a3 3 0 0 0-2.59-1.5h-.26a.75.75 0 0 1-.74-.71 4.5 4.5 0 0 0-9 0 .75.75 0 0 1-.74.71H6.5a3 3 0 1 0 0 6H11V18H6.5a4.5 4.5 0 0 1-.42-8.98A6 6 0 0 1 12 4Z"}}]};
+export default content;

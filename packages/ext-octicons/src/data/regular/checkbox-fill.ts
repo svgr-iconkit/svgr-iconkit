@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"checkbox-fill","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M20.25 2c.966 0 1.75.783 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25V3.75C2 2.783 2.783 2 3.75 2Zm-2.97 6.22a.749.749 0 0 0-1.06 0l-5.97 5.969-2.47-2.469a.749.749 0 1 0-1.06 1.06l3 3a.749.749 0 0 0 1.06 0l6.5-6.5a.749.749 0 0 0 0-1.06Z"}}]};
+export default content;

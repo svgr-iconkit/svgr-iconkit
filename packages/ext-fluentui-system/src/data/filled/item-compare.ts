@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"item-compare","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 2.5c.41 0 .75.34.75.75v17.58a.75.75 0 0 1-1.5 0V3.25c0-.41.34-.75.75-.75ZM6.75 8C7.99 8 9 9 9 10.25v3.5C9 14.99 8 16 6.75 16h-3.5C2.01 16 1 15 1 13.75v-3.5C1 9.01 2 8 3.25 8h3.5Zm14 0C21.99 8 23 9 23 10.25v3.5c0 1.24-1 2.25-2.25 2.25h-3.5C16.01 16 15 15 15 13.75v-3.5C15 9.01 16 8 17.25 8h3.5Z"}}]};
+export default content;

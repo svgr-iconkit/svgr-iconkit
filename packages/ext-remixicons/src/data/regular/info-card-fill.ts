@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"info-card-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M75 770C75 797.614 97.386 820 125 820H1125C1152.615 820 1175 797.614 1175 770V70C1175 42.3850000000001 1152.615 20 1125 20H125C97.386 20 75 42.3850000000001 75 70V770zM475 620H375V520H475V620zM375 370V220H475V470H325V370H375zM675 570V470H975V570H675zM925 370H675V270H925V370z"}}]};
+export default content;

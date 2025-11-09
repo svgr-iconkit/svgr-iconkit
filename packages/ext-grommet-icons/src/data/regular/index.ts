@@ -268,6 +268,8 @@ import SVG_gamepad from "./gamepad";
 import SVG_gateway from "./gateway";
 import SVG_gatsbyjs from "./gatsbyjs";
 import SVG_gem from "./gem";
+import SVG_genai from "./genai";
+import SVG_genaifill from "./genaifill";
 import SVG_gift from "./gift";
 import SVG_github from "./github";
 import SVG_globe from "./globe";
@@ -906,6 +908,8 @@ const contentMap = {
 "gateway": SVG_gateway,
 "gatsbyjs": SVG_gatsbyjs,
 "gem": SVG_gem,
+"genai": SVG_genai,
+"genaifill": SVG_genaifill,
 "gift": SVG_gift,
 "github": SVG_github,
 "globe": SVG_globe,

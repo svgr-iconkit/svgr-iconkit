@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"sim-card-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M250 920H750L985.355 684.6445C994.73 675.268 1000 662.55 1000 649.2895000000001V-30C1000 -57.615 977.6149999999998 -80 950 -80H250C222.386 -80 200 -57.615 200 -30V870C200 897.614 222.386 920 250 920zM400 420V120H800V420H400z"}}]};
+export const content: IconSVG = {"name":"sim-card-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M275 920H775L1010.355 684.6445C1019.73 675.268 1025 662.55 1025 649.2895000000001V-30C1025 -57.615 1002.6149999999998 -80 975 -80H275C247.386 -80 225 -57.615 225 -30V870C225 897.614 247.386 920 275 920zM425 420V120H825V420H425z"}}]};
 export default content;

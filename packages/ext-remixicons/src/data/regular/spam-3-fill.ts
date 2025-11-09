@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"spam-3-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M796.7505 895.0005L1075.0004999999999 616.752V223.2495L796.7505 -55.0005H403.2480000000001L124.9995 223.2495V616.752L403.2480000000001 895.0005H796.7505zM399.9625 470.0395V370.0395H799.9605V470.0395H399.9625z"}}]};
+export const content: IconSVG = {"name":"spam-3-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M821.7505 895.0005L1100.0004999999999 616.752V223.2495L821.7505 -55.0005H428.2480000000001L149.9995 223.2495V616.752L428.2480000000001 895.0005H821.7505zM424.9625 470.0395V370.0395H824.9605V470.0395H424.9625z"}}]};
 export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-turn-down-right","attrs":{"fill":"none","viewBox":"0 0 24 24","stroke-width":1.5,"stroke":"currentColor","aria-hidden":"true","data-slot":"icon"},"data":[{"tagName":"path","attrs":{"stroke-linecap":"round","stroke-linejoin":"round","d":"m16.49 12 3.75 3.75m0 0-3.75 3.75m3.75-3.75H3.74V4.499"}}]};
+export default content;

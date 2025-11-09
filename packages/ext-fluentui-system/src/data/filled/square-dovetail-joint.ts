@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"square-dovetail-joint","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M9 14.25a.75.75 0 0 1 .99-.71l3.51 1.17V9.29L10 10.46A.75.75 0 0 1 9 9.75V3H6.25A3.25 3.25 0 0 0 3 6.25v11.5C3 19.55 4.46 21 6.25 21H9v-6.75ZM17.75 3H10.5v5.7l3.51-1.16a.75.75 0 0 1 1 .71v7.5a.75.75 0 0 1-1 .71L10.5 15.3V21h7.25c1.8 0 3.25-1.45 3.25-3.25V6.25C21 4.45 19.55 3 17.75 3Z"}}]};
+export default content;

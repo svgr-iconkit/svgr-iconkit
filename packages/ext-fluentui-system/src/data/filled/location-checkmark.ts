@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"location-checkmark","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"m16.97 18.05 1.18-1.18a8.7 8.7 0 1 0-12.31 0l1.1 1.1 3.5 3.39c.86.84 2.25.84 3.12 0l3.4-3.31ZM15.22 7.96a.75.75 0 0 1 1.13.98l-.07.08-5 5a.75.75 0 0 1-.98.07l-.08-.07-2.5-2.5a.75.75 0 0 1 .98-1.13l.08.07 1.97 1.97 4.47-4.47Z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"coin-stack","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M19 7c0 2.76-3.13 5-7 5S5 9.76 5 7s3.13-5 7-5 7 2.24 7 5Zm-.38 3.37C17.18 11.96 14.75 13 12 13s-5.18-1.04-6.62-2.63A3.73 3.73 0 0 0 5 12c0 2.76 3.13 5 7 5s7-2.24 7-5c0-.57-.13-1.12-.38-1.63Zm0 5C17.18 16.96 14.75 18 12 18s-5.18-1.04-6.62-2.63A3.73 3.73 0 0 0 5 17c0 2.76 3.13 5 7 5s7-2.24 7-5c0-.57-.13-1.12-.38-1.63Z"}}]};
+export default content;

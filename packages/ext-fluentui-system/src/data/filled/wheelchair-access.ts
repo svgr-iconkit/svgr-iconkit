@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"wheelchair-access","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M8.5 11a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm1.3-6.66a1.5 1.5 0 0 1 1.76-.1l3.61 2.31 1.15.73a1.5 1.5 0 0 1 .33 2.25L14.53 12H19a1.5 1.5 0 0 1 1.48 1.75l-1 6a1.5 1.5 0 0 1-2.96-.5l.71-4.25h-1.9a7 7 0 0 0-4.65-5.15l1.44-1.7-1.18-.74-1.02 1a1.5 1.5 0 0 1-2.1-2.15L9.7 4.43l.1-.09ZM18.5 2a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"}}]};
+export default content;

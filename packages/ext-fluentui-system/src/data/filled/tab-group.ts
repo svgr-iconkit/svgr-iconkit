@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tab-group","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M4.75 5A2.75 2.75 0 0 0 2 7.75v5.5A2.75 2.75 0 0 0 4.75 16h12.5A2.75 2.75 0 0 0 20 13.25v-5.5A2.75 2.75 0 0 0 17.25 5H4.75Zm1.75 5.5c0-.41.34-.75.75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75Zm.75 8c-1.07 0-2-.61-2.45-1.5h12.45A3.75 3.75 0 0 0 21 13.25V7.8c.89.46 1.5 1.38 1.5 2.45v3c0 2.9-2.35 5.25-5.25 5.25h-10Z"}}]};
+export default content;

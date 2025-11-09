@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brain","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M9.5 2c.64 0 1.24.19 1.75.51v18.74a3.74 3.74 0 0 1-5.88-2.05A4 4 0 0 1 2 15.25V15a4 4 0 0 1 2.2-3.57 3.86 3.86 0 0 1 2.08-6.64A3.25 3.25 0 0 1 9.5 2Zm5 0c1.64 0 3 1.22 3.22 2.8a3.88 3.88 0 0 1 2.08 6.63A4 4 0 0 1 22 15v.25a4 4 0 0 1-3.37 3.95 3.77 3.77 0 0 1-5.88 2.05V2.5c.5-.32 1.1-.51 1.75-.51Z"}}]};
+export default content;

@@ -18,6 +18,7 @@ import SVG_aq from "./aq";
 import SVG_ar from "./ar";
 import SVG_arab from "./arab";
 import SVG_as from "./as";
+import SVG_asean from "./asean";
 import SVG_at from "./at";
 import SVG_au from "./au";
 import SVG_aw from "./aw";
@@ -291,6 +292,7 @@ const contentMap = {
 "ar": SVG_ar,
 "arab": SVG_arab,
 "as": SVG_as,
+"asean": SVG_asean,
 "at": SVG_at,
 "au": SVG_au,
 "aw": SVG_aw,

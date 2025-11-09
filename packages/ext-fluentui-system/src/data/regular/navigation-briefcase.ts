@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"navigation-briefcase","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M2.75 18H12v1.5H2.75a.75.75 0 0 1-.1-1.5h.1Zm0-5H14.1c.18-.61.56-1.14 1.06-1.5H2.65a.75.75 0 0 0 .1 1.5Zm0-8h18.5a.75.75 0 0 1 .1 1.5H2.75a.75.75 0 0 1-.1-1.49h.1ZM15 15v-1.25c0-.97.78-1.75 1.75-1.75h3.5c.97 0 1.75.78 1.75 1.75V15h.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5h.5Zm1.5-1.25V15h4v-1.25a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25Z"}}]};
+export default content;

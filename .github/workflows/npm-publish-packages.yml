@@ -100,6 +100,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'yarn'
+      - name: Enable corepack
+        run: corepack enable
       - name: Setup git
         run: |
           git config user.name "$(git log -n 1 --pretty=format:%an)"
@@ -107,10 +110,10 @@ jobs:
       - name: Install all packages
         if: github.event.inputs.cbPackage == 'all'
         run: |
-          yarn config set disable-self-update-check true
-          yarn config set ignore-engines true
+          yarn config set enableGlobalCache false
+          yarn config set nodeLinker node-modules
           yarn config list
-          yarn install
+          yarn install --immutable
       - name: Install target package
         if: github.event.inputs.cbPackage != 'all'
         working-directory: ${{ github.event.inputs.cbPackage }}

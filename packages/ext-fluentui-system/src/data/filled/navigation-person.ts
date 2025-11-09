@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"navigation-person","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M3 17h13.34c.17.37.42.71.71 1h-.28c-.85 0-1.62.39-2.13 1H3a1 1 0 0 1-.12-2H3Zm0-4h14.05a3.49 3.49 0 0 1 4.61-.25A1 1 0 0 0 21 11H2.88A1 1 0 0 0 3 13Zm0-8h18a1 1 0 0 1 .12 2H3a1 1 0 0 1-.12-2H3Zm19 10.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm2 5.38c0 1.55-1.29 3.12-4.5 3.12S15 22.44 15 20.87v-.1c0-.98.8-1.77 1.77-1.77h5.46c.98 0 1.77.8 1.77 1.77v.1Z"}}]};
+export default content;

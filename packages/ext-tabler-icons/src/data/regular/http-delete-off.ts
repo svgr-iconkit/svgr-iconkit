@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"http-delete-off","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z"}},{"tagName":"path","attrs":{"d":"M14 8h-2m-2 2v6h4"}},{"tagName":"path","attrs":{"d":"M10 12h2"}},{"tagName":"path","attrs":{"d":"M17 8v5m3 3h1"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

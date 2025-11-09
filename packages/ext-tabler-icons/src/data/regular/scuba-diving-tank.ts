@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"scuba-diving-tank","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M8 11a4 4 0 1 1 8 0v5h-8z"}},{"tagName":"path","attrs":{"d":"M8 16v3a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-3"}},{"tagName":"path","attrs":{"d":"M9 4h6"}},{"tagName":"path","attrs":{"d":"M12 7v-3"}},{"tagName":"path","attrs":{"d":"M8 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}},{"tagName":"circle","attrs":{"cx":12,"cy":4,"r":0.5,"fill":"currentColor"}}]};
+export default content;

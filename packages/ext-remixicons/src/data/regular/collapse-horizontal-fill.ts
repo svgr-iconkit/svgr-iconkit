@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"collapse-horizontal-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M700 419.9775L947.485 667.463L947.44 469.9775H1175V369.9775H947.415L947.3649999999998 172.6125000000001L700 419.9775zM75 369.9775H302.5065L302.5025 172.5125L550 419.9975000000001L302.5125 667.4875L302.5085 469.9775H75V369.9775z"}}]};
+export default content;

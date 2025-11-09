@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"crop-arrow-rotate","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M5.33 7.56A8.01 8.01 0 0 1 17.3 6H17a1 1 0 1 0 0 2h3a1 1 0 0 0 1-1V4a1 1 0 1 0-2 0v.85a10.01 10.01 0 0 0-15.33 1.6 1 1 0 1 0 1.66 1.1ZM5 19.16V20a1 1 0 1 1-2 0v-3a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-.3a8.01 8.01 0 0 0 11.97-1.56 1 1 0 0 1 1.66 1.12A10.02 10.02 0 0 1 5 19.16ZM10 7a1 1 0 0 0-2 0v1H7a1 1 0 0 0 0 2h1v3a3 3 0 0 0 3 3h3v1a1 1 0 1 0 2 0v-1h1a1 1 0 1 0 0-2h-6a1 1 0 0 1-1-1V7Zm4 3.88V13h2v-2.12C16 9.3 14.71 8 13.12 8H11v2h2.12c.49 0 .88.4.88.88Z"}}]};
+export default content;

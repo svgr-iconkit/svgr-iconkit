@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"pause","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M9 3H7.5A1.5 1.5 0 0 0 6 4.5v15A1.5 1.5 0 0 0 7.5 21H9a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 9 3Zm7.5 0H15a1.5 1.5 0 0 0-1.5 1.5v15A1.5 1.5 0 0 0 15 21h1.5a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 16.5 3Z"}}]};
+export default content;

@@ -6,6 +6,7 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 
 // import assets
+import SVG_11ty from "./11ty";
 import SVG_42Group from "./42-group";
 import SVG_500px from "./500px";
 import SVG_accessibleIcon from "./accessible-icon";
@@ -38,6 +39,7 @@ import SVG_aviato from "./aviato";
 import SVG_aws from "./aws";
 import SVG_bandcamp from "./bandcamp";
 import SVG_battleNet from "./battle-net";
+import SVG_behanceSquare from "./behance-square";
 import SVG_behance from "./behance";
 import SVG_bilibili from "./bilibili";
 import SVG_bimobject from "./bimobject";
@@ -61,6 +63,7 @@ import SVG_buromobelexperte from "./buromobelexperte";
 import SVG_buyNLarge from "./buy-n-large";
 import SVG_buysellads from "./buysellads";
 import SVG_canadianMapleLeaf from "./canadian-maple-leaf";
+import SVG_cashApp from "./cash-app";
 import SVG_ccAmazonPay from "./cc-amazon-pay";
 import SVG_ccAmex from "./cc-amex";
 import SVG_ccApplePay from "./cc-apple-pay";
@@ -102,12 +105,14 @@ import SVG_creativeCommonsShare from "./creative-commons-share";
 import SVG_creativeCommonsZero from "./creative-commons-zero";
 import SVG_creativeCommons from "./creative-commons";
 import SVG_criticalRole from "./critical-role";
+import SVG_css from "./css";
 import SVG_css3Alt from "./css3-alt";
 import SVG_css3 from "./css3";
 import SVG_cuttlefish from "./cuttlefish";
 import SVG_dAndDBeyond from "./d-and-d-beyond";
 import SVG_dAndD from "./d-and-d";
 import SVG_dailymotion from "./dailymotion";
+import SVG_dartLang from "./dart-lang";
 import SVG_dashcube from "./dashcube";
 import SVG_debian from "./debian";
 import SVG_deezer from "./deezer";
@@ -122,18 +127,22 @@ import SVG_digg from "./digg";
 import SVG_digitalOcean from "./digital-ocean";
 import SVG_discord from "./discord";
 import SVG_discourse from "./discourse";
+import SVG_disqus from "./disqus";
 import SVG_dochub from "./dochub";
 import SVG_docker from "./docker";
 import SVG_draft2digital from "./draft2digital";
+import SVG_dribbbleSquare from "./dribbble-square";
 import SVG_dribbble from "./dribbble";
 import SVG_dropbox from "./dropbox";
 import SVG_drupal from "./drupal";
+import SVG_duolingo from "./duolingo";
 import SVG_dyalog from "./dyalog";
 import SVG_earlybirds from "./earlybirds";
 import SVG_ebay from "./ebay";
 import SVG_edgeLegacy from "./edge-legacy";
 import SVG_edge from "./edge";
 import SVG_elementor from "./elementor";
+import SVG_eleventy from "./eleventy";
 import SVG_ello from "./ello";
 import SVG_ember from "./ember";
 import SVG_empire from "./empire";
@@ -145,11 +154,13 @@ import SVG_evernote from "./evernote";
 import SVG_expeditedssl from "./expeditedssl";
 import SVG_facebookF from "./facebook-f";
 import SVG_facebookMessenger from "./facebook-messenger";
+import SVG_facebookSquare from "./facebook-square";
 import SVG_facebook from "./facebook";
 import SVG_fantasyFlightGames from "./fantasy-flight-games";
 import SVG_fedex from "./fedex";
 import SVG_fedora from "./fedora";
 import SVG_figma from "./figma";
+import SVG_filesPinwheel from "./files-pinwheel";
 import SVG_firefoxBrowser from "./firefox-browser";
 import SVG_firefox from "./firefox";
 import SVG_firstOrderAlt from "./first-order-alt";
@@ -157,7 +168,11 @@ import SVG_firstOrder from "./first-order";
 import SVG_firstdraft from "./firstdraft";
 import SVG_flickr from "./flickr";
 import SVG_flipboard from "./flipboard";
+import SVG_flutter from "./flutter";
 import SVG_fly from "./fly";
+import SVG_fontAwesomeAlt from "./font-awesome-alt";
+import SVG_fontAwesomeFlag from "./font-awesome-flag";
+import SVG_fontAwesomeLogoFull from "./font-awesome-logo-full";
 import SVG_fontAwesome from "./font-awesome";
 import SVG_fonticonsFi from "./fonticons-fi";
 import SVG_fonticons from "./fonticons";
@@ -174,10 +189,13 @@ import SVG_getPocket from "./get-pocket";
 import SVG_ggCircle from "./gg-circle";
 import SVG_gg from "./gg";
 import SVG_gitAlt from "./git-alt";
+import SVG_gitSquare from "./git-square";
 import SVG_git from "./git";
 import SVG_githubAlt from "./github-alt";
+import SVG_githubSquare from "./github-square";
 import SVG_github from "./github";
 import SVG_gitkraken from "./gitkraken";
+import SVG_gitlabSquare from "./gitlab-square";
 import SVG_gitlab from "./gitlab";
 import SVG_gitter from "./gitter";
 import SVG_glideG from "./glide-g";
@@ -190,6 +208,7 @@ import SVG_googleDrive from "./google-drive";
 import SVG_googlePay from "./google-pay";
 import SVG_googlePlay from "./google-play";
 import SVG_googlePlusG from "./google-plus-g";
+import SVG_googlePlusSquare from "./google-plus-square";
 import SVG_googlePlus from "./google-plus";
 import SVG_googleScholar from "./google-scholar";
 import SVG_googleWallet from "./google-wallet";
@@ -200,6 +219,7 @@ import SVG_gripfire from "./gripfire";
 import SVG_grunt from "./grunt";
 import SVG_guilded from "./guilded";
 import SVG_gulp from "./gulp";
+import SVG_hackerNewsSquare from "./hacker-news-square";
 import SVG_hackerNews from "./hacker-news";
 import SVG_hackerrank from "./hackerrank";
 import SVG_hashnode from "./hashnode";
@@ -214,6 +234,8 @@ import SVG_html5 from "./html5";
 import SVG_hubspot from "./hubspot";
 import SVG_ideal from "./ideal";
 import SVG_imdb from "./imdb";
+import SVG_innosoft from "./innosoft";
+import SVG_instagramSquare from "./instagram-square";
 import SVG_instagram from "./instagram";
 import SVG_instalod from "./instalod";
 import SVG_intercom from "./intercom";
@@ -229,16 +251,19 @@ import SVG_jenkins from "./jenkins";
 import SVG_jira from "./jira";
 import SVG_joget from "./joget";
 import SVG_joomla from "./joomla";
+import SVG_jsSquare from "./js-square";
 import SVG_js from "./js";
 import SVG_jsfiddle from "./jsfiddle";
 import SVG_jxl from "./jxl";
 import SVG_kaggle from "./kaggle";
+import SVG_kakaoTalk from "./kakao-talk";
 import SVG_keybase from "./keybase";
 import SVG_keycdn from "./keycdn";
 import SVG_kickstarterK from "./kickstarter-k";
 import SVG_kickstarter from "./kickstarter";
 import SVG_korvue from "./korvue";
 import SVG_laravel from "./laravel";
+import SVG_lastfmSquare from "./lastfm-square";
 import SVG_lastfm from "./lastfm";
 import SVG_leanpub from "./leanpub";
 import SVG_less from "./less";
@@ -246,8 +271,11 @@ import SVG_letterboxd from "./letterboxd";
 import SVG_line from "./line";
 import SVG_linkedinIn from "./linkedin-in";
 import SVG_linkedin from "./linkedin";
+import SVG_linktree from "./linktree";
 import SVG_linode from "./linode";
 import SVG_linux from "./linux";
+import SVG_lumonDrop from "./lumon-drop";
+import SVG_lumon from "./lumon";
 import SVG_lyft from "./lyft";
 import SVG_magento from "./magento";
 import SVG_mailchimp from "./mailchimp";
@@ -257,6 +285,7 @@ import SVG_mastodon from "./mastodon";
 import SVG_maxcdn from "./maxcdn";
 import SVG_mdb from "./mdb";
 import SVG_medapps from "./medapps";
+import SVG_mediumM from "./medium-m";
 import SVG_medium from "./medium";
 import SVG_medrt from "./medrt";
 import SVG_meetup from "./meetup";
@@ -279,13 +308,16 @@ import SVG_nfcSymbol from "./nfc-symbol";
 import SVG_nimblr from "./nimblr";
 import SVG_nodeJs from "./node-js";
 import SVG_node from "./node";
+import SVG_notion from "./notion";
 import SVG_npm from "./npm";
 import SVG_ns8 from "./ns8";
 import SVG_nutritionix from "./nutritionix";
 import SVG_octopusDeploy from "./octopus-deploy";
+import SVG_odnoklassnikiSquare from "./odnoklassniki-square";
 import SVG_odnoklassniki from "./odnoklassniki";
 import SVG_odysee from "./odysee";
 import SVG_oldRepublic from "./old-republic";
+import SVG_openai from "./openai";
 import SVG_opencart from "./opencart";
 import SVG_openid from "./openid";
 import SVG_opensuse from "./opensuse";
@@ -297,6 +329,7 @@ import SVG_padlet from "./padlet";
 import SVG_page4 from "./page4";
 import SVG_pagelines from "./pagelines";
 import SVG_palfed from "./palfed";
+import SVG_pandora from "./pandora";
 import SVG_patreon from "./patreon";
 import SVG_paypal from "./paypal";
 import SVG_perbyte from "./perbyte";
@@ -308,10 +341,13 @@ import SVG_php from "./php";
 import SVG_piedPiperAlt from "./pied-piper-alt";
 import SVG_piedPiperHat from "./pied-piper-hat";
 import SVG_piedPiperPp from "./pied-piper-pp";
+import SVG_piedPiperSquare from "./pied-piper-square";
 import SVG_piedPiper from "./pied-piper";
 import SVG_pinterestP from "./pinterest-p";
+import SVG_pinterestSquare from "./pinterest-square";
 import SVG_pinterest from "./pinterest";
 import SVG_pix from "./pix";
+import SVG_pixelfed from "./pixelfed";
 import SVG_pixiv from "./pixiv";
 import SVG_playstation from "./playstation";
 import SVG_productHunt from "./product-hunt";
@@ -329,8 +365,10 @@ import SVG_readme from "./readme";
 import SVG_rebel from "./rebel";
 import SVG_redRiver from "./red-river";
 import SVG_redditAlien from "./reddit-alien";
+import SVG_redditSquare from "./reddit-square";
 import SVG_reddit from "./reddit";
 import SVG_redhat from "./redhat";
+import SVG_rendact from "./rendact";
 import SVG_renren from "./renren";
 import SVG_replyd from "./replyd";
 import SVG_researchgate from "./researchgate";
@@ -361,8 +399,11 @@ import SVG_sitrox from "./sitrox";
 import SVG_sketch from "./sketch";
 import SVG_skyatlas from "./skyatlas";
 import SVG_skype from "./skype";
+import SVG_slackHash from "./slack-hash";
 import SVG_slack from "./slack";
 import SVG_slideshare from "./slideshare";
+import SVG_snapchatGhost from "./snapchat-ghost";
+import SVG_snapchatSquare from "./snapchat-square";
 import SVG_snapchat from "./snapchat";
 import SVG_soundcloud from "./soundcloud";
 import SVG_sourcetree from "./sourcetree";
@@ -371,8 +412,10 @@ import SVG_speakap from "./speakap";
 import SVG_speakerDeck from "./speaker-deck";
 import SVG_spotify from "./spotify";
 import SVG_squareBehance from "./square-behance";
+import SVG_squareBluesky from "./square-bluesky";
 import SVG_squareDribbble from "./square-dribbble";
 import SVG_squareFacebook from "./square-facebook";
+import SVG_squareFigma from "./square-figma";
 import SVG_squareFontAwesomeStroke from "./square-font-awesome-stroke";
 import SVG_squareFontAwesome from "./square-font-awesome";
 import SVG_squareGit from "./square-git";
@@ -382,8 +425,10 @@ import SVG_squareGooglePlus from "./square-google-plus";
 import SVG_squareHackerNews from "./square-hacker-news";
 import SVG_squareInstagram from "./square-instagram";
 import SVG_squareJs from "./square-js";
+import SVG_squareKickstarter from "./square-kickstarter";
 import SVG_squareLastfm from "./square-lastfm";
 import SVG_squareLetterboxd from "./square-letterboxd";
+import SVG_squareLinkedin from "./square-linkedin";
 import SVG_squareOdnoklassniki from "./square-odnoklassniki";
 import SVG_squarePiedPiper from "./square-pied-piper";
 import SVG_squarePinterest from "./square-pinterest";
@@ -407,6 +452,7 @@ import SVG_stackExchange from "./stack-exchange";
 import SVG_stackOverflow from "./stack-overflow";
 import SVG_stackpath from "./stackpath";
 import SVG_staylinked from "./staylinked";
+import SVG_steamSquare from "./steam-square";
 import SVG_steamSymbol from "./steam-symbol";
 import SVG_steam from "./steam";
 import SVG_stickerMule from "./sticker-mule";
@@ -423,18 +469,23 @@ import SVG_suse from "./suse";
 import SVG_swift from "./swift";
 import SVG_symfony from "./symfony";
 import SVG_teamspeak from "./teamspeak";
+import SVG_telegramPlane from "./telegram-plane";
 import SVG_telegram from "./telegram";
 import SVG_tencentWeibo from "./tencent-weibo";
+import SVG_tex from "./tex";
 import SVG_theRedYeti from "./the-red-yeti";
 import SVG_themeco from "./themeco";
 import SVG_themeisle from "./themeisle";
 import SVG_thinkPeaks from "./think-peaks";
 import SVG_threads from "./threads";
+import SVG_tidal from "./tidal";
 import SVG_tiktok from "./tiktok";
 import SVG_tradeFederation from "./trade-federation";
 import SVG_trello from "./trello";
+import SVG_tumblrSquare from "./tumblr-square";
 import SVG_tumblr from "./tumblr";
 import SVG_twitch from "./twitch";
+import SVG_twitterSquare from "./twitter-square";
 import SVG_twitter from "./twitter";
 import SVG_typo3 from "./typo3";
 import SVG_uber from "./uber";
@@ -453,14 +504,18 @@ import SVG_usps from "./usps";
 import SVG_ussunnah from "./ussunnah";
 import SVG_vaadin from "./vaadin";
 import SVG_viacoin from "./viacoin";
+import SVG_viadeoSquare from "./viadeo-square";
 import SVG_viadeo from "./viadeo";
 import SVG_viber from "./viber";
+import SVG_vimeoSquare from "./vimeo-square";
 import SVG_vimeoV from "./vimeo-v";
 import SVG_vimeo from "./vimeo";
 import SVG_vine from "./vine";
 import SVG_vk from "./vk";
 import SVG_vnv from "./vnv";
+import SVG_vsco from "./vsco";
 import SVG_vuejs from "./vuejs";
+import SVG_w3c from "./w3c";
 import SVG_watchmanMonitoring from "./watchman-monitoring";
 import SVG_waze from "./waze";
 import SVG_webAwesome from "./web-awesome";
@@ -468,6 +523,7 @@ import SVG_webflow from "./webflow";
 import SVG_weebly from "./weebly";
 import SVG_weibo from "./weibo";
 import SVG_weixin from "./weixin";
+import SVG_whatsappSquare from "./whatsapp-square";
 import SVG_whatsapp from "./whatsapp";
 import SVG_whmcs from "./whmcs";
 import SVG_wikipediaW from "./wikipedia-w";
@@ -483,8 +539,10 @@ import SVG_wpbeginner from "./wpbeginner";
 import SVG_wpexplorer from "./wpexplorer";
 import SVG_wpforms from "./wpforms";
 import SVG_wpressr from "./wpressr";
+import SVG_wsh from "./wsh";
 import SVG_xTwitter from "./x-twitter";
 import SVG_xbox from "./xbox";
+import SVG_xingSquare from "./xing-square";
 import SVG_xing from "./xing";
 import SVG_yCombinator from "./y-combinator";
 import SVG_yahoo from "./yahoo";
@@ -494,11 +552,13 @@ import SVG_yandex from "./yandex";
 import SVG_yarn from "./yarn";
 import SVG_yelp from "./yelp";
 import SVG_yoast from "./yoast";
+import SVG_youtubeSquare from "./youtube-square";
 import SVG_youtube from "./youtube";
 import SVG_zhihu from "./zhihu"
 
 // map
 const contentMap = {
+"11ty": SVG_11ty,
 "42-group": SVG_42Group,
 "500px": SVG_500px,
 "accessible-icon": SVG_accessibleIcon,
@@ -531,6 +591,7 @@ const contentMap = {
 "aws": SVG_aws,
 "bandcamp": SVG_bandcamp,
 "battle-net": SVG_battleNet,
+"behance-square": SVG_behanceSquare,
 "behance": SVG_behance,
 "bilibili": SVG_bilibili,
 "bimobject": SVG_bimobject,
@@ -554,6 +615,7 @@ const contentMap = {
 "buy-n-large": SVG_buyNLarge,
 "buysellads": SVG_buysellads,
 "canadian-maple-leaf": SVG_canadianMapleLeaf,
+"cash-app": SVG_cashApp,
 "cc-amazon-pay": SVG_ccAmazonPay,
 "cc-amex": SVG_ccAmex,
 "cc-apple-pay": SVG_ccApplePay,
@@ -595,12 +657,14 @@ const contentMap = {
 "creative-commons-zero": SVG_creativeCommonsZero,
 "creative-commons": SVG_creativeCommons,
 "critical-role": SVG_criticalRole,
+"css": SVG_css,
 "css3-alt": SVG_css3Alt,
 "css3": SVG_css3,
 "cuttlefish": SVG_cuttlefish,
 "d-and-d-beyond": SVG_dAndDBeyond,
 "d-and-d": SVG_dAndD,
 "dailymotion": SVG_dailymotion,
+"dart-lang": SVG_dartLang,
 "dashcube": SVG_dashcube,
 "debian": SVG_debian,
 "deezer": SVG_deezer,
@@ -615,18 +679,22 @@ const contentMap = {
 "digital-ocean": SVG_digitalOcean,
 "discord": SVG_discord,
 "discourse": SVG_discourse,
+"disqus": SVG_disqus,
 "dochub": SVG_dochub,
 "docker": SVG_docker,
 "draft2digital": SVG_draft2digital,
+"dribbble-square": SVG_dribbbleSquare,
 "dribbble": SVG_dribbble,
 "dropbox": SVG_dropbox,
 "drupal": SVG_drupal,
+"duolingo": SVG_duolingo,
 "dyalog": SVG_dyalog,
 "earlybirds": SVG_earlybirds,
 "ebay": SVG_ebay,
 "edge-legacy": SVG_edgeLegacy,
 "edge": SVG_edge,
 "elementor": SVG_elementor,
+"eleventy": SVG_eleventy,
 "ello": SVG_ello,
 "ember": SVG_ember,
 "empire": SVG_empire,
@@ -638,11 +706,13 @@ const contentMap = {
 "expeditedssl": SVG_expeditedssl,
 "facebook-f": SVG_facebookF,
 "facebook-messenger": SVG_facebookMessenger,
+"facebook-square": SVG_facebookSquare,
 "facebook": SVG_facebook,
 "fantasy-flight-games": SVG_fantasyFlightGames,
 "fedex": SVG_fedex,
 "fedora": SVG_fedora,
 "figma": SVG_figma,
+"files-pinwheel": SVG_filesPinwheel,
 "firefox-browser": SVG_firefoxBrowser,
 "firefox": SVG_firefox,
 "first-order-alt": SVG_firstOrderAlt,
@@ -650,7 +720,11 @@ const contentMap = {
 "firstdraft": SVG_firstdraft,
 "flickr": SVG_flickr,
 "flipboard": SVG_flipboard,
+"flutter": SVG_flutter,
 "fly": SVG_fly,
+"font-awesome-alt": SVG_fontAwesomeAlt,
+"font-awesome-flag": SVG_fontAwesomeFlag,
+"font-awesome-logo-full": SVG_fontAwesomeLogoFull,
 "font-awesome": SVG_fontAwesome,
 "fonticons-fi": SVG_fonticonsFi,
 "fonticons": SVG_fonticons,
@@ -667,10 +741,13 @@ const contentMap = {
 "gg-circle": SVG_ggCircle,
 "gg": SVG_gg,
 "git-alt": SVG_gitAlt,
+"git-square": SVG_gitSquare,
 "git": SVG_git,
 "github-alt": SVG_githubAlt,
+"github-square": SVG_githubSquare,
 "github": SVG_github,
 "gitkraken": SVG_gitkraken,
+"gitlab-square": SVG_gitlabSquare,
 "gitlab": SVG_gitlab,
 "gitter": SVG_gitter,
 "glide-g": SVG_glideG,
@@ -683,6 +760,7 @@ const contentMap = {
 "google-pay": SVG_googlePay,
 "google-play": SVG_googlePlay,
 "google-plus-g": SVG_googlePlusG,
+"google-plus-square": SVG_googlePlusSquare,
 "google-plus": SVG_googlePlus,
 "google-scholar": SVG_googleScholar,
 "google-wallet": SVG_googleWallet,
@@ -693,6 +771,7 @@ const contentMap = {
 "grunt": SVG_grunt,
 "guilded": SVG_guilded,
 "gulp": SVG_gulp,
+"hacker-news-square": SVG_hackerNewsSquare,
 "hacker-news": SVG_hackerNews,
 "hackerrank": SVG_hackerrank,
 "hashnode": SVG_hashnode,
@@ -707,6 +786,8 @@ const contentMap = {
 "hubspot": SVG_hubspot,
 "ideal": SVG_ideal,
 "imdb": SVG_imdb,
+"innosoft": SVG_innosoft,
+"instagram-square": SVG_instagramSquare,
 "instagram": SVG_instagram,
 "instalod": SVG_instalod,
 "intercom": SVG_intercom,
@@ -722,16 +803,19 @@ const contentMap = {
 "jira": SVG_jira,
 "joget": SVG_joget,
 "joomla": SVG_joomla,
+"js-square": SVG_jsSquare,
 "js": SVG_js,
 "jsfiddle": SVG_jsfiddle,
 "jxl": SVG_jxl,
 "kaggle": SVG_kaggle,
+"kakao-talk": SVG_kakaoTalk,
 "keybase": SVG_keybase,
 "keycdn": SVG_keycdn,
 "kickstarter-k": SVG_kickstarterK,
 "kickstarter": SVG_kickstarter,
 "korvue": SVG_korvue,
 "laravel": SVG_laravel,
+"lastfm-square": SVG_lastfmSquare,
 "lastfm": SVG_lastfm,
 "leanpub": SVG_leanpub,
 "less": SVG_less,
@@ -739,8 +823,11 @@ const contentMap = {
 "line": SVG_line,
 "linkedin-in": SVG_linkedinIn,
 "linkedin": SVG_linkedin,
+"linktree": SVG_linktree,
 "linode": SVG_linode,
 "linux": SVG_linux,
+"lumon-drop": SVG_lumonDrop,
+"lumon": SVG_lumon,
 "lyft": SVG_lyft,
 "magento": SVG_magento,
 "mailchimp": SVG_mailchimp,
@@ -750,6 +837,7 @@ const contentMap = {
 "maxcdn": SVG_maxcdn,
 "mdb": SVG_mdb,
 "medapps": SVG_medapps,
+"medium-m": SVG_mediumM,
 "medium": SVG_medium,
 "medrt": SVG_medrt,
 "meetup": SVG_meetup,
@@ -772,13 +860,16 @@ const contentMap = {
 "nimblr": SVG_nimblr,
 "node-js": SVG_nodeJs,
 "node": SVG_node,
+"notion": SVG_notion,
 "npm": SVG_npm,
 "ns8": SVG_ns8,
 "nutritionix": SVG_nutritionix,
 "octopus-deploy": SVG_octopusDeploy,
+"odnoklassniki-square": SVG_odnoklassnikiSquare,
 "odnoklassniki": SVG_odnoklassniki,
 "odysee": SVG_odysee,
 "old-republic": SVG_oldRepublic,
+"openai": SVG_openai,
 "opencart": SVG_opencart,
 "openid": SVG_openid,
 "opensuse": SVG_opensuse,
@@ -790,6 +881,7 @@ const contentMap = {
 "page4": SVG_page4,
 "pagelines": SVG_pagelines,
 "palfed": SVG_palfed,
+"pandora": SVG_pandora,
 "patreon": SVG_patreon,
 "paypal": SVG_paypal,
 "perbyte": SVG_perbyte,
@@ -801,10 +893,13 @@ const contentMap = {
 "pied-piper-alt": SVG_piedPiperAlt,
 "pied-piper-hat": SVG_piedPiperHat,
 "pied-piper-pp": SVG_piedPiperPp,
+"pied-piper-square": SVG_piedPiperSquare,
 "pied-piper": SVG_piedPiper,
 "pinterest-p": SVG_pinterestP,
+"pinterest-square": SVG_pinterestSquare,
 "pinterest": SVG_pinterest,
 "pix": SVG_pix,
+"pixelfed": SVG_pixelfed,
 "pixiv": SVG_pixiv,
 "playstation": SVG_playstation,
 "product-hunt": SVG_productHunt,
@@ -822,8 +917,10 @@ const contentMap = {
 "rebel": SVG_rebel,
 "red-river": SVG_redRiver,
 "reddit-alien": SVG_redditAlien,
+"reddit-square": SVG_redditSquare,
 "reddit": SVG_reddit,
 "redhat": SVG_redhat,
+"rendact": SVG_rendact,
 "renren": SVG_renren,
 "replyd": SVG_replyd,
 "researchgate": SVG_researchgate,
@@ -854,8 +951,11 @@ const contentMap = {
 "sketch": SVG_sketch,
 "skyatlas": SVG_skyatlas,
 "skype": SVG_skype,
+"slack-hash": SVG_slackHash,
 "slack": SVG_slack,
 "slideshare": SVG_slideshare,
+"snapchat-ghost": SVG_snapchatGhost,
+"snapchat-square": SVG_snapchatSquare,
 "snapchat": SVG_snapchat,
 "soundcloud": SVG_soundcloud,
 "sourcetree": SVG_sourcetree,
@@ -864,8 +964,10 @@ const contentMap = {
 "speaker-deck": SVG_speakerDeck,
 "spotify": SVG_spotify,
 "square-behance": SVG_squareBehance,
+"square-bluesky": SVG_squareBluesky,
 "square-dribbble": SVG_squareDribbble,
 "square-facebook": SVG_squareFacebook,
+"square-figma": SVG_squareFigma,
 "square-font-awesome-stroke": SVG_squareFontAwesomeStroke,
 "square-font-awesome": SVG_squareFontAwesome,
 "square-git": SVG_squareGit,
@@ -875,8 +977,10 @@ const contentMap = {
 "square-hacker-news": SVG_squareHackerNews,
 "square-instagram": SVG_squareInstagram,
 "square-js": SVG_squareJs,
+"square-kickstarter": SVG_squareKickstarter,
 "square-lastfm": SVG_squareLastfm,
 "square-letterboxd": SVG_squareLetterboxd,
+"square-linkedin": SVG_squareLinkedin,
 "square-odnoklassniki": SVG_squareOdnoklassniki,
 "square-pied-piper": SVG_squarePiedPiper,
 "square-pinterest": SVG_squarePinterest,
@@ -900,6 +1004,7 @@ const contentMap = {
 "stack-overflow": SVG_stackOverflow,
 "stackpath": SVG_stackpath,
 "staylinked": SVG_staylinked,
+"steam-square": SVG_steamSquare,
 "steam-symbol": SVG_steamSymbol,
 "steam": SVG_steam,
 "sticker-mule": SVG_stickerMule,
@@ -916,18 +1021,23 @@ const contentMap = {
 "swift": SVG_swift,
 "symfony": SVG_symfony,
 "teamspeak": SVG_teamspeak,
+"telegram-plane": SVG_telegramPlane,
 "telegram": SVG_telegram,
 "tencent-weibo": SVG_tencentWeibo,
+"tex": SVG_tex,
 "the-red-yeti": SVG_theRedYeti,
 "themeco": SVG_themeco,
 "themeisle": SVG_themeisle,
 "think-peaks": SVG_thinkPeaks,
 "threads": SVG_threads,
+"tidal": SVG_tidal,
 "tiktok": SVG_tiktok,
 "trade-federation": SVG_tradeFederation,
 "trello": SVG_trello,
+"tumblr-square": SVG_tumblrSquare,
 "tumblr": SVG_tumblr,
 "twitch": SVG_twitch,
+"twitter-square": SVG_twitterSquare,
 "twitter": SVG_twitter,
 "typo3": SVG_typo3,
 "uber": SVG_uber,
@@ -946,14 +1056,18 @@ const contentMap = {
 "ussunnah": SVG_ussunnah,
 "vaadin": SVG_vaadin,
 "viacoin": SVG_viacoin,
+"viadeo-square": SVG_viadeoSquare,
 "viadeo": SVG_viadeo,
 "viber": SVG_viber,
+"vimeo-square": SVG_vimeoSquare,
 "vimeo-v": SVG_vimeoV,
 "vimeo": SVG_vimeo,
 "vine": SVG_vine,
 "vk": SVG_vk,
 "vnv": SVG_vnv,
+"vsco": SVG_vsco,
 "vuejs": SVG_vuejs,
+"w3c": SVG_w3c,
 "watchman-monitoring": SVG_watchmanMonitoring,
 "waze": SVG_waze,
 "web-awesome": SVG_webAwesome,
@@ -961,6 +1075,7 @@ const contentMap = {
 "weebly": SVG_weebly,
 "weibo": SVG_weibo,
 "weixin": SVG_weixin,
+"whatsapp-square": SVG_whatsappSquare,
 "whatsapp": SVG_whatsapp,
 "whmcs": SVG_whmcs,
 "wikipedia-w": SVG_wikipediaW,
@@ -976,8 +1091,10 @@ const contentMap = {
 "wpexplorer": SVG_wpexplorer,
 "wpforms": SVG_wpforms,
 "wpressr": SVG_wpressr,
+"wsh": SVG_wsh,
 "x-twitter": SVG_xTwitter,
 "xbox": SVG_xbox,
+"xing-square": SVG_xingSquare,
 "xing": SVG_xing,
 "y-combinator": SVG_yCombinator,
 "yahoo": SVG_yahoo,
@@ -987,6 +1104,7 @@ const contentMap = {
 "yarn": SVG_yarn,
 "yelp": SVG_yelp,
 "yoast": SVG_yoast,
+"youtube-square": SVG_youtubeSquare,
 "youtube": SVG_youtube,
 "zhihu": SVG_zhihu
 };

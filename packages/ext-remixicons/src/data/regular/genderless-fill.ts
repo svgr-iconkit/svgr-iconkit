@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"genderless-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M550 641.6955V945H650V641.6955C833.47 617.251 975 460.155 975 270C975 62.895 807.105 -105 600 -105C392.893 -105 225 62.895 225 270C225 460.155 366.532 617.251 550 641.6955z"}}]};
+export const content: IconSVG = {"name":"genderless-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M575 641.6955V945H675V641.6955C858.47 617.251 1000 460.155 1000 270C1000 62.895 832.105 -105 625 -105C417.893 -105 250 62.895 250 270C250 460.155 391.532 617.251 575 641.6955z"}}]};
 export default content;

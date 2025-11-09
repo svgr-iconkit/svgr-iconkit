@@ -42,6 +42,14 @@ import SVG_arrowSmallUp from "./arrow-small-up";
 import SVG_arrowTopRightOnSquare from "./arrow-top-right-on-square";
 import SVG_arrowTrendingDown from "./arrow-trending-down";
 import SVG_arrowTrendingUp from "./arrow-trending-up";
+import SVG_arrowTurnDownLeft from "./arrow-turn-down-left";
+import SVG_arrowTurnDownRight from "./arrow-turn-down-right";
+import SVG_arrowTurnLeftDown from "./arrow-turn-left-down";
+import SVG_arrowTurnLeftUp from "./arrow-turn-left-up";
+import SVG_arrowTurnRightDown from "./arrow-turn-right-down";
+import SVG_arrowTurnRightUp from "./arrow-turn-right-up";
+import SVG_arrowTurnUpLeft from "./arrow-turn-up-left";
+import SVG_arrowTurnUpRight from "./arrow-turn-up-right";
 import SVG_arrowUpCircle from "./arrow-up-circle";
 import SVG_arrowUpLeft from "./arrow-up-left";
 import SVG_arrowUpOnSquareStack from "./arrow-up-on-square-stack";
@@ -77,6 +85,7 @@ import SVG_bellAlert from "./bell-alert";
 import SVG_bellSlash from "./bell-slash";
 import SVG_bellSnooze from "./bell-snooze";
 import SVG_bell from "./bell";
+import SVG_bold from "./bold";
 import SVG_boltSlash from "./bolt-slash";
 import SVG_bolt from "./bolt";
 import SVG_bookOpen from "./book-open";
@@ -91,6 +100,7 @@ import SVG_buildingOffice from "./building-office";
 import SVG_buildingStorefront from "./building-storefront";
 import SVG_cake from "./cake";
 import SVG_calculator from "./calculator";
+import SVG_calendarDateRange from "./calendar-date-range";
 import SVG_calendarDays from "./calendar-days";
 import SVG_calendar from "./calendar";
 import SVG_camera from "./camera";
@@ -146,10 +156,17 @@ import SVG_cursorArrowRays from "./cursor-arrow-rays";
 import SVG_cursorArrowRipple from "./cursor-arrow-ripple";
 import SVG_devicePhoneMobile from "./device-phone-mobile";
 import SVG_deviceTablet from "./device-tablet";
+import SVG_divide from "./divide";
 import SVG_documentArrowDown from "./document-arrow-down";
 import SVG_documentArrowUp from "./document-arrow-up";
 import SVG_documentChartBar from "./document-chart-bar";
 import SVG_documentCheck from "./document-check";
+import SVG_documentCurrencyBangladeshi from "./document-currency-bangladeshi";
+import SVG_documentCurrencyDollar from "./document-currency-dollar";
+import SVG_documentCurrencyEuro from "./document-currency-euro";
+import SVG_documentCurrencyPound from "./document-currency-pound";
+import SVG_documentCurrencyRupee from "./document-currency-rupee";
+import SVG_documentCurrencyYen from "./document-currency-yen";
 import SVG_documentDuplicate from "./document-duplicate";
 import SVG_documentMagnifyingGlass from "./document-magnifying-glass";
 import SVG_documentMinus from "./document-minus";
@@ -161,6 +178,7 @@ import SVG_ellipsisHorizontal from "./ellipsis-horizontal";
 import SVG_ellipsisVertical from "./ellipsis-vertical";
 import SVG_envelopeOpen from "./envelope-open";
 import SVG_envelope from "./envelope";
+import SVG_equals from "./equals";
 import SVG_exclamationCircle from "./exclamation-circle";
 import SVG_exclamationTriangle from "./exclamation-triangle";
 import SVG_eyeDropper from "./eye-dropper";
@@ -186,6 +204,9 @@ import SVG_globeAlt from "./globe-alt";
 import SVG_globeAmericas from "./globe-americas";
 import SVG_globeAsiaAustralia from "./globe-asia-australia";
 import SVG_globeEuropeAfrica from "./globe-europe-africa";
+import SVG_h1 from "./h1";
+import SVG_h2 from "./h2";
+import SVG_h3 from "./h3";
 import SVG_handRaised from "./hand-raised";
 import SVG_handThumbDown from "./hand-thumb-down";
 import SVG_handThumbUp from "./hand-thumb-up";
@@ -198,10 +219,12 @@ import SVG_inboxArrowDown from "./inbox-arrow-down";
 import SVG_inboxStack from "./inbox-stack";
 import SVG_inbox from "./inbox";
 import SVG_informationCircle from "./information-circle";
+import SVG_italic from "./italic";
 import SVG_key from "./key";
 import SVG_language from "./language";
 import SVG_lifebuoy from "./lifebuoy";
 import SVG_lightBulb from "./light-bulb";
+import SVG_linkSlash from "./link-slash";
 import SVG_link from "./link";
 import SVG_listBullet from "./list-bullet";
 import SVG_lockClosed from "./lock-closed";
@@ -221,6 +244,7 @@ import SVG_moon from "./moon";
 import SVG_musicalNote from "./musical-note";
 import SVG_newspaper from "./newspaper";
 import SVG_noSymbol from "./no-symbol";
+import SVG_numberedList from "./numbered-list";
 import SVG_paintBrush from "./paint-brush";
 import SVG_paperAirplane from "./paper-airplane";
 import SVG_paperClip from "./paper-clip";
@@ -228,6 +252,7 @@ import SVG_pauseCircle from "./pause-circle";
 import SVG_pause from "./pause";
 import SVG_pencilSquare from "./pencil-square";
 import SVG_pencil from "./pencil";
+import SVG_percentBadge from "./percent-badge";
 import SVG_phoneArrowDownLeft from "./phone-arrow-down-left";
 import SVG_phoneArrowUpRight from "./phone-arrow-up-right";
 import SVG_phoneXMark from "./phone-x-mark";
@@ -265,6 +290,7 @@ import SVG_shoppingBag from "./shopping-bag";
 import SVG_shoppingCart from "./shopping-cart";
 import SVG_signalSlash from "./signal-slash";
 import SVG_signal from "./signal";
+import SVG_slash from "./slash";
 import SVG_sparkles from "./sparkles";
 import SVG_speakerWave from "./speaker-wave";
 import SVG_speakerXMark from "./speaker-x-mark";
@@ -275,6 +301,7 @@ import SVG_squaresPlus from "./squares-plus";
 import SVG_star from "./star";
 import SVG_stopCircle from "./stop-circle";
 import SVG_stop from "./stop";
+import SVG_strikethrough from "./strikethrough";
 import SVG_sun from "./sun";
 import SVG_swatch from "./swatch";
 import SVG_tableCells from "./table-cells";
@@ -284,6 +311,7 @@ import SVG_trash from "./trash";
 import SVG_trophy from "./trophy";
 import SVG_truck from "./truck";
 import SVG_tv from "./tv";
+import SVG_underline from "./underline";
 import SVG_userCircle from "./user-circle";
 import SVG_userGroup from "./user-group";
 import SVG_userMinus from "./user-minus";
@@ -341,6 +369,14 @@ const contentMap = {
 "arrow-top-right-on-square": SVG_arrowTopRightOnSquare,
 "arrow-trending-down": SVG_arrowTrendingDown,
 "arrow-trending-up": SVG_arrowTrendingUp,
+"arrow-turn-down-left": SVG_arrowTurnDownLeft,
+"arrow-turn-down-right": SVG_arrowTurnDownRight,
+"arrow-turn-left-down": SVG_arrowTurnLeftDown,
+"arrow-turn-left-up": SVG_arrowTurnLeftUp,
+"arrow-turn-right-down": SVG_arrowTurnRightDown,
+"arrow-turn-right-up": SVG_arrowTurnRightUp,
+"arrow-turn-up-left": SVG_arrowTurnUpLeft,
+"arrow-turn-up-right": SVG_arrowTurnUpRight,
 "arrow-up-circle": SVG_arrowUpCircle,
 "arrow-up-left": SVG_arrowUpLeft,
 "arrow-up-on-square-stack": SVG_arrowUpOnSquareStack,
@@ -376,6 +412,7 @@ const contentMap = {
 "bell-slash": SVG_bellSlash,
 "bell-snooze": SVG_bellSnooze,
 "bell": SVG_bell,
+"bold": SVG_bold,
 "bolt-slash": SVG_boltSlash,
 "bolt": SVG_bolt,
 "book-open": SVG_bookOpen,
@@ -390,6 +427,7 @@ const contentMap = {
 "building-storefront": SVG_buildingStorefront,
 "cake": SVG_cake,
 "calculator": SVG_calculator,
+"calendar-date-range": SVG_calendarDateRange,
 "calendar-days": SVG_calendarDays,
 "calendar": SVG_calendar,
 "camera": SVG_camera,
@@ -445,10 +483,17 @@ const contentMap = {
 "cursor-arrow-ripple": SVG_cursorArrowRipple,
 "device-phone-mobile": SVG_devicePhoneMobile,
 "device-tablet": SVG_deviceTablet,
+"divide": SVG_divide,
 "document-arrow-down": SVG_documentArrowDown,
 "document-arrow-up": SVG_documentArrowUp,
 "document-chart-bar": SVG_documentChartBar,
 "document-check": SVG_documentCheck,
+"document-currency-bangladeshi": SVG_documentCurrencyBangladeshi,
+"document-currency-dollar": SVG_documentCurrencyDollar,
+"document-currency-euro": SVG_documentCurrencyEuro,
+"document-currency-pound": SVG_documentCurrencyPound,
+"document-currency-rupee": SVG_documentCurrencyRupee,
+"document-currency-yen": SVG_documentCurrencyYen,
 "document-duplicate": SVG_documentDuplicate,
 "document-magnifying-glass": SVG_documentMagnifyingGlass,
 "document-minus": SVG_documentMinus,
@@ -460,6 +505,7 @@ const contentMap = {
 "ellipsis-vertical": SVG_ellipsisVertical,
 "envelope-open": SVG_envelopeOpen,
 "envelope": SVG_envelope,
+"equals": SVG_equals,
 "exclamation-circle": SVG_exclamationCircle,
 "exclamation-triangle": SVG_exclamationTriangle,
 "eye-dropper": SVG_eyeDropper,
@@ -485,6 +531,9 @@ const contentMap = {
 "globe-americas": SVG_globeAmericas,
 "globe-asia-australia": SVG_globeAsiaAustralia,
 "globe-europe-africa": SVG_globeEuropeAfrica,
+"h1": SVG_h1,
+"h2": SVG_h2,
+"h3": SVG_h3,
 "hand-raised": SVG_handRaised,
 "hand-thumb-down": SVG_handThumbDown,
 "hand-thumb-up": SVG_handThumbUp,
@@ -497,10 +546,12 @@ const contentMap = {
 "inbox-stack": SVG_inboxStack,
 "inbox": SVG_inbox,
 "information-circle": SVG_informationCircle,
+"italic": SVG_italic,
 "key": SVG_key,
 "language": SVG_language,
 "lifebuoy": SVG_lifebuoy,
 "light-bulb": SVG_lightBulb,
+"link-slash": SVG_linkSlash,
 "link": SVG_link,
 "list-bullet": SVG_listBullet,
 "lock-closed": SVG_lockClosed,
@@ -520,6 +571,7 @@ const contentMap = {
 "musical-note": SVG_musicalNote,
 "newspaper": SVG_newspaper,
 "no-symbol": SVG_noSymbol,
+"numbered-list": SVG_numberedList,
 "paint-brush": SVG_paintBrush,
 "paper-airplane": SVG_paperAirplane,
 "paper-clip": SVG_paperClip,
@@ -527,6 +579,7 @@ const contentMap = {
 "pause": SVG_pause,
 "pencil-square": SVG_pencilSquare,
 "pencil": SVG_pencil,
+"percent-badge": SVG_percentBadge,
 "phone-arrow-down-left": SVG_phoneArrowDownLeft,
 "phone-arrow-up-right": SVG_phoneArrowUpRight,
 "phone-x-mark": SVG_phoneXMark,
@@ -564,6 +617,7 @@ const contentMap = {
 "shopping-cart": SVG_shoppingCart,
 "signal-slash": SVG_signalSlash,
 "signal": SVG_signal,
+"slash": SVG_slash,
 "sparkles": SVG_sparkles,
 "speaker-wave": SVG_speakerWave,
 "speaker-x-mark": SVG_speakerXMark,
@@ -574,6 +628,7 @@ const contentMap = {
 "star": SVG_star,
 "stop-circle": SVG_stopCircle,
 "stop": SVG_stop,
+"strikethrough": SVG_strikethrough,
 "sun": SVG_sun,
 "swatch": SVG_swatch,
 "table-cells": SVG_tableCells,
@@ -583,6 +638,7 @@ const contentMap = {
 "trophy": SVG_trophy,
 "truck": SVG_truck,
 "tv": SVG_tv,
+"underline": SVG_underline,
 "user-circle": SVG_userCircle,
 "user-group": SVG_userGroup,
 "user-minus": SVG_userMinus,

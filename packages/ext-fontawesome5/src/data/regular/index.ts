@@ -8,21 +8,27 @@ import { IconsMapType } from "@svgr-iconkit/core";
 // import assets
 import SVG_addressBook from "./address-book";
 import SVG_addressCard from "./address-card";
+import SVG_alarmClock from "./alarm-clock";
 import SVG_angry from "./angry";
 import SVG_arrowAltCircleDown from "./arrow-alt-circle-down";
 import SVG_arrowAltCircleLeft from "./arrow-alt-circle-left";
 import SVG_arrowAltCircleRight from "./arrow-alt-circle-right";
 import SVG_arrowAltCircleUp from "./arrow-alt-circle-up";
+import SVG_barChart from "./bar-chart";
 import SVG_bellSlash from "./bell-slash";
 import SVG_bell from "./bell";
 import SVG_bookmark from "./bookmark";
 import SVG_building from "./building";
 import SVG_calendarAlt from "./calendar-alt";
 import SVG_calendarCheck from "./calendar-check";
+import SVG_calendarDays from "./calendar-days";
 import SVG_calendarMinus from "./calendar-minus";
 import SVG_calendarPlus from "./calendar-plus";
 import SVG_calendarTimes from "./calendar-times";
+import SVG_calendarXmark from "./calendar-xmark";
 import SVG_calendar from "./calendar";
+import SVG_cameraAlt from "./camera-alt";
+import SVG_camera from "./camera";
 import SVG_caretSquareDown from "./caret-square-down";
 import SVG_caretSquareLeft from "./caret-square-left";
 import SVG_caretSquareRight from "./caret-square-right";
@@ -30,44 +36,115 @@ import SVG_caretSquareUp from "./caret-square-up";
 import SVG_chartBar from "./chart-bar";
 import SVG_checkCircle from "./check-circle";
 import SVG_checkSquare from "./check-square";
+import SVG_chessBishop from "./chess-bishop";
+import SVG_chessKing from "./chess-king";
+import SVG_chessKnight from "./chess-knight";
+import SVG_chessPawn from "./chess-pawn";
+import SVG_chessQueen from "./chess-queen";
+import SVG_chessRook from "./chess-rook";
+import SVG_circleCheck from "./circle-check";
+import SVG_circleDot from "./circle-dot";
+import SVG_circleDown from "./circle-down";
+import SVG_circleLeft from "./circle-left";
+import SVG_circlePause from "./circle-pause";
+import SVG_circlePlay from "./circle-play";
+import SVG_circleQuestion from "./circle-question";
+import SVG_circleRight from "./circle-right";
+import SVG_circleStop from "./circle-stop";
+import SVG_circleUp from "./circle-up";
+import SVG_circleUser from "./circle-user";
+import SVG_circleXmark from "./circle-xmark";
 import SVG_circle from "./circle";
 import SVG_clipboard from "./clipboard";
+import SVG_clockFour from "./clock-four";
 import SVG_clock from "./clock";
 import SVG_clone from "./clone";
 import SVG_closedCaptioning from "./closed-captioning";
+import SVG_cloud from "./cloud";
 import SVG_commentAlt from "./comment-alt";
 import SVG_commentDots from "./comment-dots";
 import SVG_comment from "./comment";
+import SVG_commenting from "./commenting";
 import SVG_comments from "./comments";
 import SVG_compass from "./compass";
+import SVG_contactBook from "./contact-book";
+import SVG_contactCard from "./contact-card";
 import SVG_copy from "./copy";
 import SVG_copyright from "./copyright";
+import SVG_creditCardAlt from "./credit-card-alt";
 import SVG_creditCard from "./credit-card";
 import SVG_dizzy from "./dizzy";
 import SVG_dotCircle from "./dot-circle";
+import SVG_driversLicense from "./drivers-license";
 import SVG_edit from "./edit";
 import SVG_envelopeOpen from "./envelope-open";
 import SVG_envelope from "./envelope";
 import SVG_eyeSlash from "./eye-slash";
 import SVG_eye from "./eye";
+import SVG_faceAngry from "./face-angry";
+import SVG_faceDizzy from "./face-dizzy";
+import SVG_faceFlushed from "./face-flushed";
+import SVG_faceFrownOpen from "./face-frown-open";
+import SVG_faceFrown from "./face-frown";
+import SVG_faceGrimace from "./face-grimace";
+import SVG_faceGrinBeamSweat from "./face-grin-beam-sweat";
+import SVG_faceGrinBeam from "./face-grin-beam";
+import SVG_faceGrinHearts from "./face-grin-hearts";
+import SVG_faceGrinSquintTears from "./face-grin-squint-tears";
+import SVG_faceGrinSquint from "./face-grin-squint";
+import SVG_faceGrinStars from "./face-grin-stars";
+import SVG_faceGrinTears from "./face-grin-tears";
+import SVG_faceGrinTongueSquint from "./face-grin-tongue-squint";
+import SVG_faceGrinTongueWink from "./face-grin-tongue-wink";
+import SVG_faceGrinTongue from "./face-grin-tongue";
+import SVG_faceGrinWide from "./face-grin-wide";
+import SVG_faceGrinWink from "./face-grin-wink";
+import SVG_faceGrin from "./face-grin";
+import SVG_faceKissBeam from "./face-kiss-beam";
+import SVG_faceKissWinkHeart from "./face-kiss-wink-heart";
+import SVG_faceKiss from "./face-kiss";
+import SVG_faceLaughBeam from "./face-laugh-beam";
+import SVG_faceLaughSquint from "./face-laugh-squint";
+import SVG_faceLaughWink from "./face-laugh-wink";
+import SVG_faceLaugh from "./face-laugh";
+import SVG_faceMehBlank from "./face-meh-blank";
+import SVG_faceMeh from "./face-meh";
+import SVG_faceRollingEyes from "./face-rolling-eyes";
+import SVG_faceSadCry from "./face-sad-cry";
+import SVG_faceSadTear from "./face-sad-tear";
+import SVG_faceSmileBeam from "./face-smile-beam";
+import SVG_faceSmileWink from "./face-smile-wink";
+import SVG_faceSmile from "./face-smile";
+import SVG_faceSurprise from "./face-surprise";
+import SVG_faceTired from "./face-tired";
 import SVG_fileAlt from "./file-alt";
 import SVG_fileArchive from "./file-archive";
 import SVG_fileAudio from "./file-audio";
+import SVG_fileClipboard from "./file-clipboard";
 import SVG_fileCode from "./file-code";
 import SVG_fileExcel from "./file-excel";
 import SVG_fileImage from "./file-image";
+import SVG_fileLines from "./file-lines";
 import SVG_filePdf from "./file-pdf";
 import SVG_filePowerpoint from "./file-powerpoint";
+import SVG_fileText from "./file-text";
 import SVG_fileVideo from "./file-video";
 import SVG_fileWord from "./file-word";
+import SVG_fileZipper from "./file-zipper";
 import SVG_file from "./file";
 import SVG_flag from "./flag";
+import SVG_floppyDisk from "./floppy-disk";
 import SVG_flushed from "./flushed";
+import SVG_folderBlank from "./folder-blank";
+import SVG_folderClosed from "./folder-closed";
 import SVG_folderOpen from "./folder-open";
 import SVG_folder from "./folder";
+import SVG_fontAwesomeFlag from "./font-awesome-flag";
 import SVG_fontAwesomeLogoFull from "./font-awesome-logo-full";
+import SVG_fontAwesome from "./font-awesome";
 import SVG_frownOpen from "./frown-open";
 import SVG_frown from "./frown";
+import SVG_futbolBall from "./futbol-ball";
 import SVG_futbol from "./futbol";
 import SVG_gem from "./gem";
 import SVG_grimace from "./grimace";
@@ -84,6 +161,7 @@ import SVG_grinTongueWink from "./grin-tongue-wink";
 import SVG_grinTongue from "./grin-tongue";
 import SVG_grinWink from "./grin-wink";
 import SVG_grin from "./grin";
+import SVG_handBackFist from "./hand-back-fist";
 import SVG_handLizard from "./hand-lizard";
 import SVG_handPaper from "./hand-paper";
 import SVG_handPeace from "./hand-peace";
@@ -95,11 +173,27 @@ import SVG_handPointer from "./hand-pointer";
 import SVG_handRock from "./hand-rock";
 import SVG_handScissors from "./hand-scissors";
 import SVG_handSpock from "./hand-spock";
+import SVG_hand from "./hand";
+import SVG_handshakeAlt from "./handshake-alt";
+import SVG_handshakeSimple from "./handshake-simple";
 import SVG_handshake from "./handshake";
+import SVG_hardDrive from "./hard-drive";
 import SVG_hdd from "./hdd";
+import SVG_headphonesAlt from "./headphones-alt";
+import SVG_headphonesSimple from "./headphones-simple";
+import SVG_headphones from "./headphones";
 import SVG_heart from "./heart";
+import SVG_homeAlt from "./home-alt";
+import SVG_homeLgAlt from "./home-lg-alt";
+import SVG_home from "./home";
+import SVG_hospitalAlt from "./hospital-alt";
+import SVG_hospitalWide from "./hospital-wide";
 import SVG_hospital from "./hospital";
+import SVG_hourglass2 from "./hourglass-2";
+import SVG_hourglassEmpty from "./hourglass-empty";
+import SVG_hourglassHalf from "./hourglass-half";
 import SVG_hourglass from "./hourglass";
+import SVG_house from "./house";
 import SVG_idBadge from "./id-badge";
 import SVG_idCard from "./id-card";
 import SVG_image from "./image";
@@ -120,27 +214,47 @@ import SVG_map from "./map";
 import SVG_mehBlank from "./meh-blank";
 import SVG_mehRollingEyes from "./meh-rolling-eyes";
 import SVG_meh from "./meh";
+import SVG_message from "./message";
 import SVG_minusSquare from "./minus-square";
+import SVG_moneyBill1 from "./money-bill-1";
 import SVG_moneyBillAlt from "./money-bill-alt";
 import SVG_moon from "./moon";
 import SVG_newspaper from "./newspaper";
+import SVG_noteSticky from "./note-sticky";
 import SVG_objectGroup from "./object-group";
 import SVG_objectUngroup from "./object-ungroup";
 import SVG_paperPlane from "./paper-plane";
+import SVG_paste from "./paste";
 import SVG_pauseCircle from "./pause-circle";
+import SVG_penToSquare from "./pen-to-square";
 import SVG_playCircle from "./play-circle";
 import SVG_plusSquare from "./plus-square";
 import SVG_questionCircle from "./question-circle";
+import SVG_rectangleList from "./rectangle-list";
+import SVG_rectangleTimes from "./rectangle-times";
+import SVG_rectangleXmark from "./rectangle-xmark";
 import SVG_registered from "./registered";
 import SVG_sadCry from "./sad-cry";
 import SVG_sadTear from "./sad-tear";
 import SVG_save from "./save";
+import SVG_shareFromSquare from "./share-from-square";
 import SVG_shareSquare from "./share-square";
 import SVG_smileBeam from "./smile-beam";
 import SVG_smileWink from "./smile-wink";
 import SVG_smile from "./smile";
 import SVG_snowflake from "./snowflake";
+import SVG_soccerBall from "./soccer-ball";
+import SVG_squareCaretDown from "./square-caret-down";
+import SVG_squareCaretLeft from "./square-caret-left";
+import SVG_squareCaretRight from "./square-caret-right";
+import SVG_squareCaretUp from "./square-caret-up";
+import SVG_squareCheck from "./square-check";
+import SVG_squareFull from "./square-full";
+import SVG_squareMinus from "./square-minus";
+import SVG_squarePlus from "./square-plus";
 import SVG_square from "./square";
+import SVG_starHalfAlt from "./star-half-alt";
+import SVG_starHalfStroke from "./star-half-stroke";
 import SVG_starHalf from "./star-half";
 import SVG_star from "./star";
 import SVG_stickyNote from "./sticky-note";
@@ -150,34 +264,47 @@ import SVG_surprise from "./surprise";
 import SVG_thumbsDown from "./thumbs-down";
 import SVG_thumbsUp from "./thumbs-up";
 import SVG_timesCircle from "./times-circle";
+import SVG_timesRectangle from "./times-rectangle";
 import SVG_tired from "./tired";
 import SVG_trashAlt from "./trash-alt";
+import SVG_trashCan from "./trash-can";
+import SVG_truck from "./truck";
+import SVG_userAlt from "./user-alt";
 import SVG_userCircle from "./user-circle";
+import SVG_userLarge from "./user-large";
 import SVG_user from "./user";
+import SVG_vcard from "./vcard";
 import SVG_windowClose from "./window-close";
 import SVG_windowMaximize from "./window-maximize";
 import SVG_windowMinimize from "./window-minimize";
-import SVG_windowRestore from "./window-restore"
+import SVG_windowRestore from "./window-restore";
+import SVG_xmarkCircle from "./xmark-circle"
 
 // map
 const contentMap = {
 "address-book": SVG_addressBook,
 "address-card": SVG_addressCard,
+"alarm-clock": SVG_alarmClock,
 "angry": SVG_angry,
 "arrow-alt-circle-down": SVG_arrowAltCircleDown,
 "arrow-alt-circle-left": SVG_arrowAltCircleLeft,
 "arrow-alt-circle-right": SVG_arrowAltCircleRight,
 "arrow-alt-circle-up": SVG_arrowAltCircleUp,
+"bar-chart": SVG_barChart,
 "bell-slash": SVG_bellSlash,
 "bell": SVG_bell,
 "bookmark": SVG_bookmark,
 "building": SVG_building,
 "calendar-alt": SVG_calendarAlt,
 "calendar-check": SVG_calendarCheck,
+"calendar-days": SVG_calendarDays,
 "calendar-minus": SVG_calendarMinus,
 "calendar-plus": SVG_calendarPlus,
 "calendar-times": SVG_calendarTimes,
+"calendar-xmark": SVG_calendarXmark,
 "calendar": SVG_calendar,
+"camera-alt": SVG_cameraAlt,
+"camera": SVG_camera,
 "caret-square-down": SVG_caretSquareDown,
 "caret-square-left": SVG_caretSquareLeft,
 "caret-square-right": SVG_caretSquareRight,
@@ -185,44 +312,115 @@ const contentMap = {
 "chart-bar": SVG_chartBar,
 "check-circle": SVG_checkCircle,
 "check-square": SVG_checkSquare,
+"chess-bishop": SVG_chessBishop,
+"chess-king": SVG_chessKing,
+"chess-knight": SVG_chessKnight,
+"chess-pawn": SVG_chessPawn,
+"chess-queen": SVG_chessQueen,
+"chess-rook": SVG_chessRook,
+"circle-check": SVG_circleCheck,
+"circle-dot": SVG_circleDot,
+"circle-down": SVG_circleDown,
+"circle-left": SVG_circleLeft,
+"circle-pause": SVG_circlePause,
+"circle-play": SVG_circlePlay,
+"circle-question": SVG_circleQuestion,
+"circle-right": SVG_circleRight,
+"circle-stop": SVG_circleStop,
+"circle-up": SVG_circleUp,
+"circle-user": SVG_circleUser,
+"circle-xmark": SVG_circleXmark,
 "circle": SVG_circle,
 "clipboard": SVG_clipboard,
+"clock-four": SVG_clockFour,
 "clock": SVG_clock,
 "clone": SVG_clone,
 "closed-captioning": SVG_closedCaptioning,
+"cloud": SVG_cloud,
 "comment-alt": SVG_commentAlt,
 "comment-dots": SVG_commentDots,
 "comment": SVG_comment,
+"commenting": SVG_commenting,
 "comments": SVG_comments,
 "compass": SVG_compass,
+"contact-book": SVG_contactBook,
+"contact-card": SVG_contactCard,
 "copy": SVG_copy,
 "copyright": SVG_copyright,
+"credit-card-alt": SVG_creditCardAlt,
 "credit-card": SVG_creditCard,
 "dizzy": SVG_dizzy,
 "dot-circle": SVG_dotCircle,
+"drivers-license": SVG_driversLicense,
 "edit": SVG_edit,
 "envelope-open": SVG_envelopeOpen,
 "envelope": SVG_envelope,
 "eye-slash": SVG_eyeSlash,
 "eye": SVG_eye,
+"face-angry": SVG_faceAngry,
+"face-dizzy": SVG_faceDizzy,
+"face-flushed": SVG_faceFlushed,
+"face-frown-open": SVG_faceFrownOpen,
+"face-frown": SVG_faceFrown,
+"face-grimace": SVG_faceGrimace,
+"face-grin-beam-sweat": SVG_faceGrinBeamSweat,
+"face-grin-beam": SVG_faceGrinBeam,
+"face-grin-hearts": SVG_faceGrinHearts,
+"face-grin-squint-tears": SVG_faceGrinSquintTears,
+"face-grin-squint": SVG_faceGrinSquint,
+"face-grin-stars": SVG_faceGrinStars,
+"face-grin-tears": SVG_faceGrinTears,
+"face-grin-tongue-squint": SVG_faceGrinTongueSquint,
+"face-grin-tongue-wink": SVG_faceGrinTongueWink,
+"face-grin-tongue": SVG_faceGrinTongue,
+"face-grin-wide": SVG_faceGrinWide,
+"face-grin-wink": SVG_faceGrinWink,
+"face-grin": SVG_faceGrin,
+"face-kiss-beam": SVG_faceKissBeam,
+"face-kiss-wink-heart": SVG_faceKissWinkHeart,
+"face-kiss": SVG_faceKiss,
+"face-laugh-beam": SVG_faceLaughBeam,
+"face-laugh-squint": SVG_faceLaughSquint,
+"face-laugh-wink": SVG_faceLaughWink,
+"face-laugh": SVG_faceLaugh,
+"face-meh-blank": SVG_faceMehBlank,
+"face-meh": SVG_faceMeh,
+"face-rolling-eyes": SVG_faceRollingEyes,
+"face-sad-cry": SVG_faceSadCry,
+"face-sad-tear": SVG_faceSadTear,
+"face-smile-beam": SVG_faceSmileBeam,
+"face-smile-wink": SVG_faceSmileWink,
+"face-smile": SVG_faceSmile,
+"face-surprise": SVG_faceSurprise,
+"face-tired": SVG_faceTired,
 "file-alt": SVG_fileAlt,
 "file-archive": SVG_fileArchive,
 "file-audio": SVG_fileAudio,
+"file-clipboard": SVG_fileClipboard,
 "file-code": SVG_fileCode,
 "file-excel": SVG_fileExcel,
 "file-image": SVG_fileImage,
+"file-lines": SVG_fileLines,
 "file-pdf": SVG_filePdf,
 "file-powerpoint": SVG_filePowerpoint,
+"file-text": SVG_fileText,
 "file-video": SVG_fileVideo,
 "file-word": SVG_fileWord,
+"file-zipper": SVG_fileZipper,
 "file": SVG_file,
 "flag": SVG_flag,
+"floppy-disk": SVG_floppyDisk,
 "flushed": SVG_flushed,
+"folder-blank": SVG_folderBlank,
+"folder-closed": SVG_folderClosed,
 "folder-open": SVG_folderOpen,
 "folder": SVG_folder,
+"font-awesome-flag": SVG_fontAwesomeFlag,
 "font-awesome-logo-full": SVG_fontAwesomeLogoFull,
+"font-awesome": SVG_fontAwesome,
 "frown-open": SVG_frownOpen,
 "frown": SVG_frown,
+"futbol-ball": SVG_futbolBall,
 "futbol": SVG_futbol,
 "gem": SVG_gem,
 "grimace": SVG_grimace,
@@ -239,6 +437,7 @@ const contentMap = {
 "grin-tongue": SVG_grinTongue,
 "grin-wink": SVG_grinWink,
 "grin": SVG_grin,
+"hand-back-fist": SVG_handBackFist,
 "hand-lizard": SVG_handLizard,
 "hand-paper": SVG_handPaper,
 "hand-peace": SVG_handPeace,
@@ -250,11 +449,27 @@ const contentMap = {
 "hand-rock": SVG_handRock,
 "hand-scissors": SVG_handScissors,
 "hand-spock": SVG_handSpock,
+"hand": SVG_hand,
+"handshake-alt": SVG_handshakeAlt,
+"handshake-simple": SVG_handshakeSimple,
 "handshake": SVG_handshake,
+"hard-drive": SVG_hardDrive,
 "hdd": SVG_hdd,
+"headphones-alt": SVG_headphonesAlt,
+"headphones-simple": SVG_headphonesSimple,
+"headphones": SVG_headphones,
 "heart": SVG_heart,
+"home-alt": SVG_homeAlt,
+"home-lg-alt": SVG_homeLgAlt,
+"home": SVG_home,
+"hospital-alt": SVG_hospitalAlt,
+"hospital-wide": SVG_hospitalWide,
 "hospital": SVG_hospital,
+"hourglass-2": SVG_hourglass2,
+"hourglass-empty": SVG_hourglassEmpty,
+"hourglass-half": SVG_hourglassHalf,
 "hourglass": SVG_hourglass,
+"house": SVG_house,
 "id-badge": SVG_idBadge,
 "id-card": SVG_idCard,
 "image": SVG_image,
@@ -275,27 +490,47 @@ const contentMap = {
 "meh-blank": SVG_mehBlank,
 "meh-rolling-eyes": SVG_mehRollingEyes,
 "meh": SVG_meh,
+"message": SVG_message,
 "minus-square": SVG_minusSquare,
+"money-bill-1": SVG_moneyBill1,
 "money-bill-alt": SVG_moneyBillAlt,
 "moon": SVG_moon,
 "newspaper": SVG_newspaper,
+"note-sticky": SVG_noteSticky,
 "object-group": SVG_objectGroup,
 "object-ungroup": SVG_objectUngroup,
 "paper-plane": SVG_paperPlane,
+"paste": SVG_paste,
 "pause-circle": SVG_pauseCircle,
+"pen-to-square": SVG_penToSquare,
 "play-circle": SVG_playCircle,
 "plus-square": SVG_plusSquare,
 "question-circle": SVG_questionCircle,
+"rectangle-list": SVG_rectangleList,
+"rectangle-times": SVG_rectangleTimes,
+"rectangle-xmark": SVG_rectangleXmark,
 "registered": SVG_registered,
 "sad-cry": SVG_sadCry,
 "sad-tear": SVG_sadTear,
 "save": SVG_save,
+"share-from-square": SVG_shareFromSquare,
 "share-square": SVG_shareSquare,
 "smile-beam": SVG_smileBeam,
 "smile-wink": SVG_smileWink,
 "smile": SVG_smile,
 "snowflake": SVG_snowflake,
+"soccer-ball": SVG_soccerBall,
+"square-caret-down": SVG_squareCaretDown,
+"square-caret-left": SVG_squareCaretLeft,
+"square-caret-right": SVG_squareCaretRight,
+"square-caret-up": SVG_squareCaretUp,
+"square-check": SVG_squareCheck,
+"square-full": SVG_squareFull,
+"square-minus": SVG_squareMinus,
+"square-plus": SVG_squarePlus,
 "square": SVG_square,
+"star-half-alt": SVG_starHalfAlt,
+"star-half-stroke": SVG_starHalfStroke,
 "star-half": SVG_starHalf,
 "star": SVG_star,
 "sticky-note": SVG_stickyNote,
@@ -305,14 +540,21 @@ const contentMap = {
 "thumbs-down": SVG_thumbsDown,
 "thumbs-up": SVG_thumbsUp,
 "times-circle": SVG_timesCircle,
+"times-rectangle": SVG_timesRectangle,
 "tired": SVG_tired,
 "trash-alt": SVG_trashAlt,
+"trash-can": SVG_trashCan,
+"truck": SVG_truck,
+"user-alt": SVG_userAlt,
 "user-circle": SVG_userCircle,
+"user-large": SVG_userLarge,
 "user": SVG_user,
+"vcard": SVG_vcard,
 "window-close": SVG_windowClose,
 "window-maximize": SVG_windowMaximize,
 "window-minimize": SVG_windowMinimize,
-"window-restore": SVG_windowRestore
+"window-restore": SVG_windowRestore,
+"xmark-circle": SVG_xmarkCircle
 };
 
 // types

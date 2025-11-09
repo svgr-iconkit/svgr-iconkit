@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"lock-closed-ribbon","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M16 7V6a4 4 0 0 0-8 0v1h-.75A3.25 3.25 0 0 0 4 10.25v7.5C4 19.55 5.46 21 7.25 21H16v-2.67a4.5 4.5 0 0 1 4-7.3v-.78C20 8.45 18.54 7 16.75 7H16ZM9.5 7V6a2.5 2.5 0 0 1 5 0v1h-5Zm4 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm6 5a3.49 3.49 0 0 0 3.5-3.5 3.5 3.5 0 1 0-3.5 3.5ZM17 22.3v-3.06a4.48 4.48 0 0 0 5 0v3.06a.7.7 0 0 1-1.2.5l-1.3-1.31-1.3 1.3a.7.7 0 0 1-1.2-.49Z"}}]};
+export default content;

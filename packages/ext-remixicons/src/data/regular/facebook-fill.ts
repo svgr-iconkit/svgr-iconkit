@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"facebook-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M687.5 345H812.5L862.5 545H687.5V645C687.5 696.469 687.5 745 787.5 745H862.5V912.995C846.2149999999999 915.1575 784.65 920 719.645 920C583.92 920 487.5 837.157 487.5 685.0145V545H337.5V345H487.5V-80H687.5V345z"}}]};
+export const content: IconSVG = {"name":"facebook-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M712.5 345H837.5L887.5 545H712.5V645C712.5 696.469 712.5 745 812.5 745H887.5V912.995C871.2149999999999 915.1575 809.65 920 744.645 920C608.92 920 512.5 837.157 512.5 685.0145V545H362.5V345H512.5V-80H712.5V345z"}}]};
 export default content;

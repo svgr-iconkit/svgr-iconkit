@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"list-bar","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M9.5 21H19a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H9.5v5Zm0-6.5H19a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H9.5v5ZM8 9.5v5H5a2 2 0 0 1-2-2v-1c0-1.1.9-2 2-2h3ZM9.5 8H19a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H9.5v5ZM8 3v5H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3Zm0 13v5H5a2 2 0 0 1-2-2v-1c0-1.1.9-2 2-2h3Z"}}]};
+export default content;

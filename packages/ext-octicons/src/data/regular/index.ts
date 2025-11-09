@@ -6,8 +6,13 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 
 // import assets
+import SVG_accessibility from "./accessibility";
+import SVG_accessibilityInset from "./accessibility-inset";
+import SVG_agent from "./agent";
+import SVG_aiModel from "./ai-model";
 import SVG_alert from "./alert";
 import SVG_alertFill from "./alert-fill";
+import SVG_apps from "./apps";
 import SVG_archive from "./archive";
 import SVG_arrowBoth from "./arrow-both";
 import SVG_arrowDown from "./arrow-down";
@@ -34,11 +39,13 @@ import SVG_briefcase from "./briefcase";
 import SVG_broadcast from "./broadcast";
 import SVG_browser from "./browser";
 import SVG_bug from "./bug";
+import SVG_cache from "./cache";
 import SVG_calendar from "./calendar";
 import SVG_check from "./check";
 import SVG_checkCircle from "./check-circle";
 import SVG_checkCircleFill from "./check-circle-fill";
 import SVG_checkbox from "./checkbox";
+import SVG_checkboxFill from "./checkbox-fill";
 import SVG_checklist from "./checklist";
 import SVG_chevronDown from "./chevron-down";
 import SVG_chevronLeft from "./chevron-left";
@@ -60,8 +67,8 @@ import SVG_codespaces from "./codespaces";
 import SVG_columns from "./columns";
 import SVG_commandPalette from "./command-palette";
 import SVG_comment from "./comment";
+import SVG_commentAi from "./comment-ai";
 import SVG_commentDiscussion from "./comment-discussion";
-import SVG_commit from "./commit";
 import SVG_container from "./container";
 import SVG_copilot from "./copilot";
 import SVG_copy from "./copy";
@@ -72,12 +79,18 @@ import SVG_dash from "./dash";
 import SVG_database from "./database";
 import SVG_dependabot from "./dependabot";
 import SVG_desktopDownload from "./desktop-download";
+import SVG_deviceCamera from "./device-camera";
 import SVG_deviceCameraVideo from "./device-camera-video";
 import SVG_deviceDesktop from "./device-desktop";
 import SVG_deviceMobile from "./device-mobile";
 import SVG_devices from "./devices";
 import SVG_diamond from "./diamond";
 import SVG_diff from "./diff";
+import SVG_diffAdded from "./diff-added";
+import SVG_diffIgnored from "./diff-ignored";
+import SVG_diffModified from "./diff-modified";
+import SVG_diffRemoved from "./diff-removed";
+import SVG_diffRenamed from "./diff-renamed";
 import SVG_discussionClosed from "./discussion-closed";
 import SVG_discussionDuplicate from "./discussion-duplicate";
 import SVG_discussionOutdated from "./discussion-outdated";
@@ -85,21 +98,28 @@ import SVG_dot from "./dot";
 import SVG_dotFill from "./dot-fill";
 import SVG_download from "./download";
 import SVG_duplicate from "./duplicate";
+import SVG_ellipsis from "./ellipsis";
 import SVG_eye from "./eye";
 import SVG_eyeClosed from "./eye-closed";
 import SVG_file from "./file";
+import SVG_fileAdded from "./file-added";
+import SVG_fileBadge from "./file-badge";
 import SVG_fileBinary from "./file-binary";
 import SVG_fileCode from "./file-code";
 import SVG_fileDiff from "./file-diff";
 import SVG_fileDirectory from "./file-directory";
 import SVG_fileDirectoryFill from "./file-directory-fill";
+import SVG_fileDirectoryOpenFill from "./file-directory-open-fill";
 import SVG_fileDirectorySymlink from "./file-directory-symlink";
 import SVG_fileMedia from "./file-media";
+import SVG_fileMoved from "./file-moved";
+import SVG_fileRemoved from "./file-removed";
 import SVG_fileSubmodule from "./file-submodule";
 import SVG_fileSymlinkFile from "./file-symlink-file";
 import SVG_fileZip from "./file-zip";
 import SVG_filter from "./filter";
 import SVG_filterRemove from "./filter-remove";
+import SVG_fiscalHost from "./fiscal-host";
 import SVG_flame from "./flame";
 import SVG_fold from "./fold";
 import SVG_foldDown from "./fold-down";
@@ -128,8 +148,10 @@ import SVG_homeFill from "./home-fill";
 import SVG_horizontalRule from "./horizontal-rule";
 import SVG_hourglass from "./hourglass";
 import SVG_hubot from "./hubot";
+import SVG_idBadge from "./id-badge";
 import SVG_image from "./image";
 import SVG_inbox from "./inbox";
+import SVG_inboxFill from "./inbox-fill";
 import SVG_infinity from "./infinity";
 import SVG_info from "./info";
 import SVG_issueClosed from "./issue-closed";
@@ -142,6 +164,7 @@ import SVG_italic from "./italic";
 import SVG_iterations from "./iterations";
 import SVG_kebabHorizontal from "./kebab-horizontal";
 import SVG_key from "./key";
+import SVG_keyAsterisk from "./key-asterisk";
 import SVG_law from "./law";
 import SVG_lightBulb from "./light-bulb";
 import SVG_link from "./link";
@@ -151,10 +174,19 @@ import SVG_listUnordered from "./list-unordered";
 import SVG_location from "./location";
 import SVG_lock from "./lock";
 import SVG_log from "./log";
+import SVG_logoGist from "./logo-gist";
+import SVG_logoGithub from "./logo-github";
+import SVG_loop from "./loop";
 import SVG_mail from "./mail";
+import SVG_markGithub from "./mark-github";
+import SVG_markdown from "./markdown";
+import SVG_maximize from "./maximize";
+import SVG_mcp from "./mcp";
 import SVG_megaphone from "./megaphone";
 import SVG_mention from "./mention";
+import SVG_meter from "./meter";
 import SVG_milestone from "./milestone";
+import SVG_minimize from "./minimize";
 import SVG_mirror from "./mirror";
 import SVG_moon from "./moon";
 import SVG_mortarBoard from "./mortar-board";
@@ -172,10 +204,12 @@ import SVG_organization from "./organization";
 import SVG_package from "./package";
 import SVG_packageDependencies from "./package-dependencies";
 import SVG_packageDependents from "./package-dependents";
+import SVG_paintbrush from "./paintbrush";
 import SVG_paperAirplane from "./paper-airplane";
 import SVG_paperclip from "./paperclip";
 import SVG_passkeyFill from "./passkey-fill";
 import SVG_paste from "./paste";
+import SVG_pause from "./pause";
 import SVG_pencil from "./pencil";
 import SVG_people from "./people";
 import SVG_person from "./person";
@@ -196,10 +230,12 @@ import SVG_pulse from "./pulse";
 import SVG_question from "./question";
 import SVG_quote from "./quote";
 import SVG_read from "./read";
+import SVG_redo from "./redo";
 import SVG_relFilePath from "./rel-file-path";
 import SVG_reply from "./reply";
 import SVG_repo from "./repo";
 import SVG_repoClone from "./repo-clone";
+import SVG_repoDelete from "./repo-delete";
 import SVG_repoForked from "./repo-forked";
 import SVG_repoLocked from "./repo-locked";
 import SVG_repoPull from "./repo-pull";
@@ -228,11 +264,17 @@ import SVG_signOut from "./sign-out";
 import SVG_singleSelect from "./single-select";
 import SVG_skip from "./skip";
 import SVG_skipFill from "./skip-fill";
+import SVG_sliders from "./sliders";
 import SVG_smiley from "./smiley";
 import SVG_sortAsc from "./sort-asc";
 import SVG_sortDesc from "./sort-desc";
+import SVG_space from "./space";
+import SVG_sparkle from "./sparkle";
+import SVG_sparkleFill from "./sparkle-fill";
+import SVG_sparklesFill from "./sparkles-fill";
 import SVG_sponsorTiers from "./sponsor-tiers";
 import SVG_square from "./square";
+import SVG_squareCircle from "./square-circle";
 import SVG_squareFill from "./square-fill";
 import SVG_squirrel from "./squirrel";
 import SVG_stack from "./stack";
@@ -244,12 +286,14 @@ import SVG_strikethrough from "./strikethrough";
 import SVG_sun from "./sun";
 import SVG_sync from "./sync";
 import SVG_tab from "./tab";
+import SVG_tabExternal from "./tab-external";
 import SVG_table from "./table";
 import SVG_tag from "./tag";
 import SVG_tasklist from "./tasklist";
 import SVG_telescope from "./telescope";
 import SVG_telescopeFill from "./telescope-fill";
 import SVG_terminal from "./terminal";
+import SVG_threeBars from "./three-bars";
 import SVG_thumbsdown from "./thumbsdown";
 import SVG_thumbsup from "./thumbsup";
 import SVG_tools from "./tools";
@@ -262,6 +306,7 @@ import SVG_triangleRight from "./triangle-right";
 import SVG_triangleUp from "./triangle-up";
 import SVG_trophy from "./trophy";
 import SVG_typography from "./typography";
+import SVG_undo from "./undo";
 import SVG_unfold from "./unfold";
 import SVG_unlink from "./unlink";
 import SVG_unlock from "./unlock";
@@ -282,8 +327,13 @@ import SVG_zoomOut from "./zoom-out"
 
 // map
 const contentMap = {
+"accessibility": SVG_accessibility,
+"accessibility-inset": SVG_accessibilityInset,
+"agent": SVG_agent,
+"ai-model": SVG_aiModel,
 "alert": SVG_alert,
 "alert-fill": SVG_alertFill,
+"apps": SVG_apps,
 "archive": SVG_archive,
 "arrow-both": SVG_arrowBoth,
 "arrow-down": SVG_arrowDown,
@@ -310,11 +360,13 @@ const contentMap = {
 "broadcast": SVG_broadcast,
 "browser": SVG_browser,
 "bug": SVG_bug,
+"cache": SVG_cache,
 "calendar": SVG_calendar,
 "check": SVG_check,
 "check-circle": SVG_checkCircle,
 "check-circle-fill": SVG_checkCircleFill,
 "checkbox": SVG_checkbox,
+"checkbox-fill": SVG_checkboxFill,
 "checklist": SVG_checklist,
 "chevron-down": SVG_chevronDown,
 "chevron-left": SVG_chevronLeft,
@@ -336,8 +388,8 @@ const contentMap = {
 "columns": SVG_columns,
 "command-palette": SVG_commandPalette,
 "comment": SVG_comment,
+"comment-ai": SVG_commentAi,
 "comment-discussion": SVG_commentDiscussion,
-"commit": SVG_commit,
 "container": SVG_container,
 "copilot": SVG_copilot,
 "copy": SVG_copy,
@@ -348,12 +400,18 @@ const contentMap = {
 "database": SVG_database,
 "dependabot": SVG_dependabot,
 "desktop-download": SVG_desktopDownload,
+"device-camera": SVG_deviceCamera,
 "device-camera-video": SVG_deviceCameraVideo,
 "device-desktop": SVG_deviceDesktop,
 "device-mobile": SVG_deviceMobile,
 "devices": SVG_devices,
 "diamond": SVG_diamond,
 "diff": SVG_diff,
+"diff-added": SVG_diffAdded,
+"diff-ignored": SVG_diffIgnored,
+"diff-modified": SVG_diffModified,
+"diff-removed": SVG_diffRemoved,
+"diff-renamed": SVG_diffRenamed,
 "discussion-closed": SVG_discussionClosed,
 "discussion-duplicate": SVG_discussionDuplicate,
 "discussion-outdated": SVG_discussionOutdated,
@@ -361,21 +419,28 @@ const contentMap = {
 "dot-fill": SVG_dotFill,
 "download": SVG_download,
 "duplicate": SVG_duplicate,
+"ellipsis": SVG_ellipsis,
 "eye": SVG_eye,
 "eye-closed": SVG_eyeClosed,
 "file": SVG_file,
+"file-added": SVG_fileAdded,
+"file-badge": SVG_fileBadge,
 "file-binary": SVG_fileBinary,
 "file-code": SVG_fileCode,
 "file-diff": SVG_fileDiff,
 "file-directory": SVG_fileDirectory,
 "file-directory-fill": SVG_fileDirectoryFill,
+"file-directory-open-fill": SVG_fileDirectoryOpenFill,
 "file-directory-symlink": SVG_fileDirectorySymlink,
 "file-media": SVG_fileMedia,
+"file-moved": SVG_fileMoved,
+"file-removed": SVG_fileRemoved,
 "file-submodule": SVG_fileSubmodule,
 "file-symlink-file": SVG_fileSymlinkFile,
 "file-zip": SVG_fileZip,
 "filter": SVG_filter,
 "filter-remove": SVG_filterRemove,
+"fiscal-host": SVG_fiscalHost,
 "flame": SVG_flame,
 "fold": SVG_fold,
 "fold-down": SVG_foldDown,
@@ -404,8 +469,10 @@ const contentMap = {
 "horizontal-rule": SVG_horizontalRule,
 "hourglass": SVG_hourglass,
 "hubot": SVG_hubot,
+"id-badge": SVG_idBadge,
 "image": SVG_image,
 "inbox": SVG_inbox,
+"inbox-fill": SVG_inboxFill,
 "infinity": SVG_infinity,
 "info": SVG_info,
 "issue-closed": SVG_issueClosed,
@@ -418,6 +485,7 @@ const contentMap = {
 "iterations": SVG_iterations,
 "kebab-horizontal": SVG_kebabHorizontal,
 "key": SVG_key,
+"key-asterisk": SVG_keyAsterisk,
 "law": SVG_law,
 "light-bulb": SVG_lightBulb,
 "link": SVG_link,
@@ -427,10 +495,19 @@ const contentMap = {
 "location": SVG_location,
 "lock": SVG_lock,
 "log": SVG_log,
+"logo-gist": SVG_logoGist,
+"logo-github": SVG_logoGithub,
+"loop": SVG_loop,
 "mail": SVG_mail,
+"mark-github": SVG_markGithub,
+"markdown": SVG_markdown,
+"maximize": SVG_maximize,
+"mcp": SVG_mcp,
 "megaphone": SVG_megaphone,
 "mention": SVG_mention,
+"meter": SVG_meter,
 "milestone": SVG_milestone,
+"minimize": SVG_minimize,
 "mirror": SVG_mirror,
 "moon": SVG_moon,
 "mortar-board": SVG_mortarBoard,
@@ -448,10 +525,12 @@ const contentMap = {
 "package": SVG_package,
 "package-dependencies": SVG_packageDependencies,
 "package-dependents": SVG_packageDependents,
+"paintbrush": SVG_paintbrush,
 "paper-airplane": SVG_paperAirplane,
 "paperclip": SVG_paperclip,
 "passkey-fill": SVG_passkeyFill,
 "paste": SVG_paste,
+"pause": SVG_pause,
 "pencil": SVG_pencil,
 "people": SVG_people,
 "person": SVG_person,
@@ -472,10 +551,12 @@ const contentMap = {
 "question": SVG_question,
 "quote": SVG_quote,
 "read": SVG_read,
+"redo": SVG_redo,
 "rel-file-path": SVG_relFilePath,
 "reply": SVG_reply,
 "repo": SVG_repo,
 "repo-clone": SVG_repoClone,
+"repo-delete": SVG_repoDelete,
 "repo-forked": SVG_repoForked,
 "repo-locked": SVG_repoLocked,
 "repo-pull": SVG_repoPull,
@@ -504,11 +585,17 @@ const contentMap = {
 "single-select": SVG_singleSelect,
 "skip": SVG_skip,
 "skip-fill": SVG_skipFill,
+"sliders": SVG_sliders,
 "smiley": SVG_smiley,
 "sort-asc": SVG_sortAsc,
 "sort-desc": SVG_sortDesc,
+"space": SVG_space,
+"sparkle": SVG_sparkle,
+"sparkle-fill": SVG_sparkleFill,
+"sparkles-fill": SVG_sparklesFill,
 "sponsor-tiers": SVG_sponsorTiers,
 "square": SVG_square,
+"square-circle": SVG_squareCircle,
 "square-fill": SVG_squareFill,
 "squirrel": SVG_squirrel,
 "stack": SVG_stack,
@@ -520,12 +607,14 @@ const contentMap = {
 "sun": SVG_sun,
 "sync": SVG_sync,
 "tab": SVG_tab,
+"tab-external": SVG_tabExternal,
 "table": SVG_table,
 "tag": SVG_tag,
 "tasklist": SVG_tasklist,
 "telescope": SVG_telescope,
 "telescope-fill": SVG_telescopeFill,
 "terminal": SVG_terminal,
+"three-bars": SVG_threeBars,
 "thumbsdown": SVG_thumbsdown,
 "thumbsup": SVG_thumbsup,
 "tools": SVG_tools,
@@ -538,6 +627,7 @@ const contentMap = {
 "triangle-up": SVG_triangleUp,
 "trophy": SVG_trophy,
 "typography": SVG_typography,
+"undo": SVG_undo,
 "unfold": SVG_unfold,
 "unlink": SVG_unlink,
 "unlock": SVG_unlock,

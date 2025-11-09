@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-up-right-dashes","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M10.75 3a.75.75 0 0 0 0 1.5h7.67L16.92 6h.02l-1.72 1.72a.75.75 0 0 0 1.06 1.06L18 7.06v.02l1.5-1.5v7.67a.75.75 0 0 0 1.5 0v-9.5a.75.75 0 0 0-.75-.75h-9.5ZM3 20.32v-.16.16Zm.75.68a.75.75 0 0 1-.53-1.28l3.25-3.25a.75.75 0 0 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-.53.22Zm0 0h-.08.18-.1Zm9.78-9.47a.75.75 0 1 0-1.06-1.06l-3.25 3.25a.75.75 0 1 0 1.06 1.06l3.25-3.25Z"}}]};
+export default content;

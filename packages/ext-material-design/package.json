@@ -99,15 +99,17 @@
     "npm-run-all": "^4.1.5",
     "react": "^19.1.1",
     "rimraf": "^3.0.2",
+    "rollup": "^4.53.1",
     "typescript": "^5.4.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "iconsmap:upgrade": "echo 'not available'",
-    "iconsmap:clean": "rimraf ./src/gen ./tmp ./src/data && mkdir -p ./tmp",
-    "iconsmap:prepare": "curl 'https://codeload.github.com/google/material-design-icons/zip/refs/tags/4.0.0' -o tmp/icons.zip && unzip -q -o tmp/icons.zip 'material-design-icons-4.0.0/src/*' -d ./tmp/icons",
+    "iconsmap:upgrade:clear": "rimraf ./tmp ./src/gen; mkdir -p ./tmp ./src/gen",
+    "iconsmap:upgrade:download": "curl 'https://codeload.github.com/google/material-design-icons/zip/refs/tags/4.0.0' -o tmp/icons.zip && unzip -q -o tmp/icons.zip 'material-design-icons-4.0.0/src/*' -d ./tmp/icons",
+    "iconsmap:upgrade": "npm-run-all iconsmap:upgrade:clear iconsmap:upgrade:download iconsmap:copy",
+    "iconsmap:clean": "rimraf ./src/data ",
     "iconsmap:copy:regular": "svgr-iconkit deep-copy -rs '24px.svg' -E 'materialicons/24px.svg' -i ./tmp/icons/material-design-icons-4.0.0/src/ -lf -o src/gen/assets/regular ",
     "iconsmap:copy:outlined": "svgr-iconkit deep-copy -rs '24px.svg' -E 'materialiconsoutlined/24px.svg' -i ./tmp/icons/material-design-icons-4.0.0/src/ -lf -o src/gen/assets/outlined ",
     "iconsmap:copy:round": "svgr-iconkit deep-copy -rs '24px.svg' -E 'materialiconsround/24px.svg' -i ./tmp/icons/material-design-icons-4.0.0/src/ -lf -o src/gen/assets/round ",
@@ -118,7 +120,7 @@
     "iconsmap:create:round": "svgr-iconkit convert-data --fill-color 'currentColor' -i ./src/gen/assets/round -o ./src/data/round ",
     "iconsmap:create:sharp": "svgr-iconkit convert-data --fill-color 'currentColor' -i ./src/gen/assets/sharp -o ./src/data/sharp ",
     "iconsmap:create": "npm-run-all iconsmap:create:regular  iconsmap:create:outlined iconsmap:create:round iconsmap:create:sharp",
-    "iconsmap": "npm-run-all iconsmap:clean iconsmap:prepare iconsmap:copy iconsmap:create",
+    "iconsmap": "npm-run-all iconsmap:create",
     "prebuild": "rimraf ./lib ./dist ./gen ./icons",
     "compile": "rollup -c --bundleConfigAsCjs",
     "build": "npm-run-all compile",

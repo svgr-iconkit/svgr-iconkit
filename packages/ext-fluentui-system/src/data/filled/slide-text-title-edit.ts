@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"slide-text-title-edit","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M2 6.75A2.75 2.75 0 0 1 4.75 4h14.5A2.75 2.75 0 0 1 22 6.75v4.51a3.29 3.29 0 0 0-3.6.7l-5.9 5.9c-.48.48-.82 1.07-.98 1.72l-.1.42H4.75A2.75 2.75 0 0 1 2 17.25V6.75ZM16.5 8h-9a1.5 1.5 0 1 0 0 3h9a1.5 1.5 0 0 0 0-3Zm2.6 4.67-5.9 5.9c-.35.35-.6.78-.7 1.25l-.47 1.83c-.2.8.53 1.52 1.32 1.32l1.83-.46c.47-.12.9-.36 1.25-.7l5.9-5.9a2.29 2.29 0 0 0-3.23-3.24Z"}}]};
+export default content;

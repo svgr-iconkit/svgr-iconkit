@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"calendar-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M100 420H1100V-30C1100 -57.615 1077.615 -80 1050 -80H150C122.386 -80 100 -57.615 100 -30V420zM850 820H1050C1077.615 820 1100 797.614 1100 770V520H100V770C100 797.614 122.386 820 150 820H350V920H450V820H750V920H850V820z"}}]};
+export const content: IconSVG = {"name":"calendar-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M125 420H1125V-30C1125 -57.615 1102.615 -80 1075 -80H175C147.386 -80 125 -57.615 125 -30V420zM875 820H1075C1102.615 820 1125 797.614 1125 770V520H125V770C125 797.614 147.386 820 175 820H375V920H475V820H775V920H875V820z"}}]};
 export default content;

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"contacts-book-upload-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M275 920V-80H75V920H275zM875.245 920C930.34 920 975 875.0895 975 820.46V19.54C975 -35.4349999999999 930.3699999999998 -80 875.245 -80H375V920H875.245zM675 620L475 420H625V220H725V420H875L675 620zM1125 420V220H1025V420H1125zM1125 720V520H1025V720H1125z"}}]};
+export const content: IconSVG = {"name":"contacts-book-upload-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M300 920V-80H100V920H300zM900.245 920C955.34 920 1000 875.0895 1000 820.46V19.54C1000 -35.4349999999999 955.3699999999998 -80 900.245 -80H400V920H900.245zM700 620L500 420H650V220H750V420H900L700 620zM1150 420V220H1050V420H1150zM1150 720V520H1050V720H1150z"}}]};
 export default content;

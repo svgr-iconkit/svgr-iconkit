@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"comment-badge","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M20.5 7a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm0 1c.54 0 1.05-.12 1.5-.34v7.09c0 1.8-1.46 3.25-3.25 3.25H13l-5 3.75c-.82.62-2 .03-2-1V18h-.75A3.25 3.25 0 0 1 2 14.75v-8.5C2 4.45 3.46 3 5.25 3h12.09a3.5 3.5 0 0 0 3.16 5Z"}}]};
+export default content;

@@ -6,11 +6,24 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 
 // import assets
+import SVG_0 from "./0";
+import SVG_1 from "./1";
+import SVG_2 from "./2";
+import SVG_3 from "./3";
+import SVG_4 from "./4";
+import SVG_5 from "./5";
+import SVG_6 from "./6";
+import SVG_7 from "./7";
+import SVG_8 from "./8";
+import SVG_9 from "./9";
+import SVG_a from "./a";
 import SVG_ad from "./ad";
+import SVG_add from "./add";
 import SVG_addressBook from "./address-book";
 import SVG_addressCard from "./address-card";
 import SVG_adjust from "./adjust";
 import SVG_airFreshener from "./air-freshener";
+import SVG_alarmClock from "./alarm-clock";
 import SVG_alignCenter from "./align-center";
 import SVG_alignJustify from "./align-justify";
 import SVG_alignLeft from "./align-left";
@@ -18,6 +31,10 @@ import SVG_alignRight from "./align-right";
 import SVG_allergies from "./allergies";
 import SVG_ambulance from "./ambulance";
 import SVG_americanSignLanguageInterpreting from "./american-sign-language-interpreting";
+import SVG_anchorCircleCheck from "./anchor-circle-check";
+import SVG_anchorCircleExclamation from "./anchor-circle-exclamation";
+import SVG_anchorCircleXmark from "./anchor-circle-xmark";
+import SVG_anchorLock from "./anchor-lock";
 import SVG_anchor from "./anchor";
 import SVG_angleDoubleDown from "./angle-double-down";
 import SVG_angleDoubleLeft from "./angle-double-left";
@@ -27,11 +44,17 @@ import SVG_angleDown from "./angle-down";
 import SVG_angleLeft from "./angle-left";
 import SVG_angleRight from "./angle-right";
 import SVG_angleUp from "./angle-up";
+import SVG_anglesDown from "./angles-down";
+import SVG_anglesLeft from "./angles-left";
+import SVG_anglesRight from "./angles-right";
+import SVG_anglesUp from "./angles-up";
 import SVG_angry from "./angry";
 import SVG_ankh from "./ankh";
 import SVG_appleAlt from "./apple-alt";
+import SVG_appleWhole from "./apple-whole";
 import SVG_archive from "./archive";
 import SVG_archway from "./archway";
+import SVG_areaChart from "./area-chart";
 import SVG_arrowAltCircleDown from "./arrow-alt-circle-down";
 import SVG_arrowAltCircleLeft from "./arrow-alt-circle-left";
 import SVG_arrowAltCircleRight from "./arrow-alt-circle-right";
@@ -40,45 +63,134 @@ import SVG_arrowCircleDown from "./arrow-circle-down";
 import SVG_arrowCircleLeft from "./arrow-circle-left";
 import SVG_arrowCircleRight from "./arrow-circle-right";
 import SVG_arrowCircleUp from "./arrow-circle-up";
+import SVG_arrowDown19 from "./arrow-down-1-9";
+import SVG_arrowDown91 from "./arrow-down-9-1";
+import SVG_arrowDownAZ from "./arrow-down-a-z";
+import SVG_arrowDownLong from "./arrow-down-long";
+import SVG_arrowDownShortWide from "./arrow-down-short-wide";
+import SVG_arrowDownUpAcrossLine from "./arrow-down-up-across-line";
+import SVG_arrowDownUpLock from "./arrow-down-up-lock";
+import SVG_arrowDownWideShort from "./arrow-down-wide-short";
+import SVG_arrowDownZA from "./arrow-down-z-a";
 import SVG_arrowDown from "./arrow-down";
+import SVG_arrowLeftLong from "./arrow-left-long";
+import SVG_arrowLeftRotate from "./arrow-left-rotate";
 import SVG_arrowLeft from "./arrow-left";
+import SVG_arrowPointer from "./arrow-pointer";
+import SVG_arrowRightArrowLeft from "./arrow-right-arrow-left";
+import SVG_arrowRightFromBracket from "./arrow-right-from-bracket";
+import SVG_arrowRightFromFile from "./arrow-right-from-file";
+import SVG_arrowRightLong from "./arrow-right-long";
+import SVG_arrowRightRotate from "./arrow-right-rotate";
+import SVG_arrowRightToBracket from "./arrow-right-to-bracket";
+import SVG_arrowRightToCity from "./arrow-right-to-city";
+import SVG_arrowRightToFile from "./arrow-right-to-file";
 import SVG_arrowRight from "./arrow-right";
+import SVG_arrowRotateBack from "./arrow-rotate-back";
+import SVG_arrowRotateBackward from "./arrow-rotate-backward";
+import SVG_arrowRotateForward from "./arrow-rotate-forward";
+import SVG_arrowRotateLeft from "./arrow-rotate-left";
+import SVG_arrowRotateRight from "./arrow-rotate-right";
+import SVG_arrowTrendDown from "./arrow-trend-down";
+import SVG_arrowTrendUp from "./arrow-trend-up";
+import SVG_arrowTurnDown from "./arrow-turn-down";
+import SVG_arrowTurnUp from "./arrow-turn-up";
+import SVG_arrowUp19 from "./arrow-up-1-9";
+import SVG_arrowUp91 from "./arrow-up-9-1";
+import SVG_arrowUpAZ from "./arrow-up-a-z";
+import SVG_arrowUpFromBracket from "./arrow-up-from-bracket";
+import SVG_arrowUpFromGroundWater from "./arrow-up-from-ground-water";
+import SVG_arrowUpFromWaterPump from "./arrow-up-from-water-pump";
+import SVG_arrowUpLong from "./arrow-up-long";
+import SVG_arrowUpRightDots from "./arrow-up-right-dots";
+import SVG_arrowUpRightFromSquare from "./arrow-up-right-from-square";
+import SVG_arrowUpShortWide from "./arrow-up-short-wide";
+import SVG_arrowUpWideShort from "./arrow-up-wide-short";
+import SVG_arrowUpZA from "./arrow-up-z-a";
 import SVG_arrowUp from "./arrow-up";
 import SVG_arrowsAltH from "./arrows-alt-h";
 import SVG_arrowsAltV from "./arrows-alt-v";
 import SVG_arrowsAlt from "./arrows-alt";
+import SVG_arrowsDownToLine from "./arrows-down-to-line";
+import SVG_arrowsDownToPeople from "./arrows-down-to-people";
+import SVG_arrowsH from "./arrows-h";
+import SVG_arrowsLeftRightToLine from "./arrows-left-right-to-line";
+import SVG_arrowsLeftRight from "./arrows-left-right";
+import SVG_arrowsRotate from "./arrows-rotate";
+import SVG_arrowsSpin from "./arrows-spin";
+import SVG_arrowsSplitUpAndLeft from "./arrows-split-up-and-left";
+import SVG_arrowsToCircle from "./arrows-to-circle";
+import SVG_arrowsToDot from "./arrows-to-dot";
+import SVG_arrowsToEye from "./arrows-to-eye";
+import SVG_arrowsTurnRight from "./arrows-turn-right";
+import SVG_arrowsTurnToDots from "./arrows-turn-to-dots";
+import SVG_arrowsUpDownLeftRight from "./arrows-up-down-left-right";
+import SVG_arrowsUpDown from "./arrows-up-down";
+import SVG_arrowsUpToLine from "./arrows-up-to-line";
+import SVG_arrowsV from "./arrows-v";
+import SVG_arrows from "./arrows";
+import SVG_aslInterpreting from "./asl-interpreting";
 import SVG_assistiveListeningSystems from "./assistive-listening-systems";
 import SVG_asterisk from "./asterisk";
 import SVG_at from "./at";
 import SVG_atlas from "./atlas";
 import SVG_atom from "./atom";
 import SVG_audioDescription from "./audio-description";
+import SVG_australSign from "./austral-sign";
+import SVG_automobile from "./automobile";
 import SVG_award from "./award";
+import SVG_b from "./b";
 import SVG_babyCarriage from "./baby-carriage";
 import SVG_baby from "./baby";
 import SVG_backspace from "./backspace";
+import SVG_backwardFast from "./backward-fast";
+import SVG_backwardStep from "./backward-step";
 import SVG_backward from "./backward";
 import SVG_bacon from "./bacon";
 import SVG_bacteria from "./bacteria";
 import SVG_bacterium from "./bacterium";
+import SVG_bagShopping from "./bag-shopping";
 import SVG_bahai from "./bahai";
+import SVG_bahtSign from "./baht-sign";
 import SVG_balanceScaleLeft from "./balance-scale-left";
 import SVG_balanceScaleRight from "./balance-scale-right";
 import SVG_balanceScale from "./balance-scale";
+import SVG_banSmoking from "./ban-smoking";
 import SVG_ban from "./ban";
 import SVG_bandAid from "./band-aid";
+import SVG_bandage from "./bandage";
+import SVG_bangladeshiTakaSign from "./bangladeshi-taka-sign";
+import SVG_bank from "./bank";
+import SVG_barChart from "./bar-chart";
 import SVG_barcode from "./barcode";
+import SVG_barsProgress from "./bars-progress";
+import SVG_barsStaggered from "./bars-staggered";
 import SVG_bars from "./bars";
 import SVG_baseballBall from "./baseball-ball";
+import SVG_baseballBatBall from "./baseball-bat-ball";
+import SVG_baseball from "./baseball";
+import SVG_basketShopping from "./basket-shopping";
 import SVG_basketballBall from "./basketball-ball";
+import SVG_basketball from "./basketball";
 import SVG_bath from "./bath";
+import SVG_bathtub from "./bathtub";
+import SVG_battery0 from "./battery-0";
+import SVG_battery2 from "./battery-2";
+import SVG_battery3 from "./battery-3";
+import SVG_battery4 from "./battery-4";
+import SVG_battery5 from "./battery-5";
+import SVG_batteryCar from "./battery-car";
 import SVG_batteryEmpty from "./battery-empty";
 import SVG_batteryFull from "./battery-full";
 import SVG_batteryHalf from "./battery-half";
 import SVG_batteryQuarter from "./battery-quarter";
 import SVG_batteryThreeQuarters from "./battery-three-quarters";
+import SVG_battery from "./battery";
+import SVG_bedPulse from "./bed-pulse";
 import SVG_bed from "./bed";
+import SVG_beerMugEmpty from "./beer-mug-empty";
 import SVG_beer from "./beer";
+import SVG_bellConcierge from "./bell-concierge";
 import SVG_bellSlash from "./bell-slash";
 import SVG_bell from "./bell";
 import SVG_bezierCurve from "./bezier-curve";
@@ -88,64 +200,127 @@ import SVG_biking from "./biking";
 import SVG_binoculars from "./binoculars";
 import SVG_biohazard from "./biohazard";
 import SVG_birthdayCake from "./birthday-cake";
+import SVG_bitcoinSign from "./bitcoin-sign";
+import SVG_blackboard from "./blackboard";
 import SVG_blenderPhone from "./blender-phone";
 import SVG_blender from "./blender";
 import SVG_blind from "./blind";
 import SVG_blog from "./blog";
 import SVG_bold from "./bold";
+import SVG_boltLightning from "./bolt-lightning";
 import SVG_bolt from "./bolt";
 import SVG_bomb from "./bomb";
 import SVG_bone from "./bone";
 import SVG_bong from "./bong";
+import SVG_bookAtlas from "./book-atlas";
+import SVG_bookBible from "./book-bible";
+import SVG_bookBookmark from "./book-bookmark";
 import SVG_bookDead from "./book-dead";
+import SVG_bookJournalWhills from "./book-journal-whills";
 import SVG_bookMedical from "./book-medical";
+import SVG_bookOpenReader from "./book-open-reader";
 import SVG_bookOpen from "./book-open";
+import SVG_bookQuran from "./book-quran";
 import SVG_bookReader from "./book-reader";
+import SVG_bookSkull from "./book-skull";
+import SVG_bookTanakh from "./book-tanakh";
 import SVG_book from "./book";
 import SVG_bookmark from "./bookmark";
 import SVG_borderAll from "./border-all";
 import SVG_borderNone from "./border-none";
 import SVG_borderStyle from "./border-style";
+import SVG_borderTopLeft from "./border-top-left";
+import SVG_boreHole from "./bore-hole";
+import SVG_bottleDroplet from "./bottle-droplet";
+import SVG_bottleWater from "./bottle-water";
+import SVG_bowlFood from "./bowl-food";
+import SVG_bowlRice from "./bowl-rice";
 import SVG_bowlingBall from "./bowling-ball";
+import SVG_boxArchive from "./box-archive";
 import SVG_boxOpen from "./box-open";
 import SVG_boxTissue from "./box-tissue";
 import SVG_box from "./box";
+import SVG_boxesAlt from "./boxes-alt";
+import SVG_boxesPacking from "./boxes-packing";
+import SVG_boxesStacked from "./boxes-stacked";
 import SVG_boxes from "./boxes";
 import SVG_braille from "./braille";
 import SVG_brain from "./brain";
+import SVG_brazilianRealSign from "./brazilian-real-sign";
 import SVG_breadSlice from "./bread-slice";
+import SVG_bridgeCircleCheck from "./bridge-circle-check";
+import SVG_bridgeCircleExclamation from "./bridge-circle-exclamation";
+import SVG_bridgeCircleXmark from "./bridge-circle-xmark";
+import SVG_bridgeLock from "./bridge-lock";
+import SVG_bridgeWater from "./bridge-water";
+import SVG_bridge from "./bridge";
+import SVG_briefcaseClock from "./briefcase-clock";
 import SVG_briefcaseMedical from "./briefcase-medical";
 import SVG_briefcase from "./briefcase";
 import SVG_broadcastTower from "./broadcast-tower";
+import SVG_broomBall from "./broom-ball";
 import SVG_broom from "./broom";
 import SVG_brush from "./brush";
+import SVG_bucket from "./bucket";
+import SVG_bugSlash from "./bug-slash";
 import SVG_bug from "./bug";
+import SVG_bugs from "./bugs";
+import SVG_buildingCircleArrowRight from "./building-circle-arrow-right";
+import SVG_buildingCircleCheck from "./building-circle-check";
+import SVG_buildingCircleExclamation from "./building-circle-exclamation";
+import SVG_buildingCircleXmark from "./building-circle-xmark";
+import SVG_buildingColumns from "./building-columns";
+import SVG_buildingFlag from "./building-flag";
+import SVG_buildingLock from "./building-lock";
+import SVG_buildingNgo from "./building-ngo";
+import SVG_buildingShield from "./building-shield";
+import SVG_buildingUn from "./building-un";
+import SVG_buildingUser from "./building-user";
+import SVG_buildingWheat from "./building-wheat";
 import SVG_building from "./building";
 import SVG_bullhorn from "./bullhorn";
 import SVG_bullseye from "./bullseye";
+import SVG_burger from "./burger";
 import SVG_burn from "./burn";
+import SVG_burst from "./burst";
 import SVG_busAlt from "./bus-alt";
+import SVG_busSide from "./bus-side";
+import SVG_busSimple from "./bus-simple";
 import SVG_bus from "./bus";
 import SVG_businessTime from "./business-time";
+import SVG_c from "./c";
+import SVG_cab from "./cab";
+import SVG_cableCar from "./cable-car";
+import SVG_cakeCandles from "./cake-candles";
+import SVG_cake from "./cake";
 import SVG_calculator from "./calculator";
 import SVG_calendarAlt from "./calendar-alt";
 import SVG_calendarCheck from "./calendar-check";
 import SVG_calendarDay from "./calendar-day";
+import SVG_calendarDays from "./calendar-days";
 import SVG_calendarMinus from "./calendar-minus";
 import SVG_calendarPlus from "./calendar-plus";
 import SVG_calendarTimes from "./calendar-times";
 import SVG_calendarWeek from "./calendar-week";
+import SVG_calendarXmark from "./calendar-xmark";
 import SVG_calendar from "./calendar";
+import SVG_cameraAlt from "./camera-alt";
 import SVG_cameraRetro from "./camera-retro";
+import SVG_cameraRotate from "./camera-rotate";
 import SVG_camera from "./camera";
 import SVG_campground from "./campground";
+import SVG_cancel from "./cancel";
 import SVG_candyCane from "./candy-cane";
 import SVG_cannabis from "./cannabis";
 import SVG_capsules from "./capsules";
 import SVG_carAlt from "./car-alt";
 import SVG_carBattery from "./car-battery";
+import SVG_carBurst from "./car-burst";
 import SVG_carCrash from "./car-crash";
+import SVG_carOn from "./car-on";
+import SVG_carRear from "./car-rear";
 import SVG_carSide from "./car-side";
+import SVG_carTunnel from "./car-tunnel";
 import SVG_car from "./car";
 import SVG_caravan from "./caravan";
 import SVG_caretDown from "./caret-down";
@@ -156,23 +331,39 @@ import SVG_caretSquareLeft from "./caret-square-left";
 import SVG_caretSquareRight from "./caret-square-right";
 import SVG_caretSquareUp from "./caret-square-up";
 import SVG_caretUp from "./caret-up";
+import SVG_carriageBaby from "./carriage-baby";
 import SVG_carrot from "./carrot";
 import SVG_cartArrowDown from "./cart-arrow-down";
+import SVG_cartFlatbedSuitcase from "./cart-flatbed-suitcase";
+import SVG_cartFlatbed from "./cart-flatbed";
 import SVG_cartPlus from "./cart-plus";
+import SVG_cartShopping from "./cart-shopping";
 import SVG_cashRegister from "./cash-register";
 import SVG_cat from "./cat";
+import SVG_cediSign from "./cedi-sign";
+import SVG_centSign from "./cent-sign";
 import SVG_certificate from "./certificate";
+import SVG_chainBroken from "./chain-broken";
+import SVG_chainSlash from "./chain-slash";
+import SVG_chain from "./chain";
 import SVG_chair from "./chair";
 import SVG_chalkboardTeacher from "./chalkboard-teacher";
+import SVG_chalkboardUser from "./chalkboard-user";
 import SVG_chalkboard from "./chalkboard";
+import SVG_champagneGlasses from "./champagne-glasses";
 import SVG_chargingStation from "./charging-station";
 import SVG_chartArea from "./chart-area";
 import SVG_chartBar from "./chart-bar";
+import SVG_chartColumn from "./chart-column";
+import SVG_chartDiagram from "./chart-diagram";
+import SVG_chartGantt from "./chart-gantt";
 import SVG_chartLine from "./chart-line";
 import SVG_chartPie from "./chart-pie";
+import SVG_chartSimple from "./chart-simple";
 import SVG_checkCircle from "./check-circle";
 import SVG_checkDouble from "./check-double";
 import SVG_checkSquare from "./check-square";
+import SVG_checkToSlot from "./check-to-slot";
 import SVG_check from "./check";
 import SVG_cheese from "./cheese";
 import SVG_chessBishop from "./chess-bishop";
@@ -191,72 +382,152 @@ import SVG_chevronDown from "./chevron-down";
 import SVG_chevronLeft from "./chevron-left";
 import SVG_chevronRight from "./chevron-right";
 import SVG_chevronUp from "./chevron-up";
+import SVG_childCombatant from "./child-combatant";
+import SVG_childDress from "./child-dress";
+import SVG_childReaching from "./child-reaching";
+import SVG_childRifle from "./child-rifle";
 import SVG_child from "./child";
+import SVG_children from "./children";
 import SVG_church from "./church";
+import SVG_circleArrowDown from "./circle-arrow-down";
+import SVG_circleArrowLeft from "./circle-arrow-left";
+import SVG_circleArrowRight from "./circle-arrow-right";
+import SVG_circleArrowUp from "./circle-arrow-up";
+import SVG_circleCheck from "./circle-check";
+import SVG_circleChevronDown from "./circle-chevron-down";
+import SVG_circleChevronLeft from "./circle-chevron-left";
+import SVG_circleChevronRight from "./circle-chevron-right";
+import SVG_circleChevronUp from "./circle-chevron-up";
+import SVG_circleDollarToSlot from "./circle-dollar-to-slot";
+import SVG_circleDot from "./circle-dot";
+import SVG_circleDown from "./circle-down";
+import SVG_circleExclamation from "./circle-exclamation";
+import SVG_circleH from "./circle-h";
+import SVG_circleHalfStroke from "./circle-half-stroke";
+import SVG_circleInfo from "./circle-info";
+import SVG_circleLeft from "./circle-left";
+import SVG_circleMinus from "./circle-minus";
+import SVG_circleNodes from "./circle-nodes";
 import SVG_circleNotch from "./circle-notch";
+import SVG_circlePause from "./circle-pause";
+import SVG_circlePlay from "./circle-play";
+import SVG_circlePlus from "./circle-plus";
+import SVG_circleQuestion from "./circle-question";
+import SVG_circleRadiation from "./circle-radiation";
+import SVG_circleRight from "./circle-right";
+import SVG_circleStop from "./circle-stop";
+import SVG_circleUp from "./circle-up";
+import SVG_circleUser from "./circle-user";
+import SVG_circleXmark from "./circle-xmark";
 import SVG_circle from "./circle";
 import SVG_city from "./city";
+import SVG_clapperboard from "./clapperboard";
 import SVG_clinicMedical from "./clinic-medical";
 import SVG_clipboardCheck from "./clipboard-check";
 import SVG_clipboardList from "./clipboard-list";
+import SVG_clipboardQuestion from "./clipboard-question";
+import SVG_clipboardUser from "./clipboard-user";
 import SVG_clipboard from "./clipboard";
+import SVG_clockFour from "./clock-four";
+import SVG_clockRotateLeft from "./clock-rotate-left";
 import SVG_clock from "./clock";
 import SVG_clone from "./clone";
+import SVG_close from "./close";
 import SVG_closedCaptioning from "./closed-captioning";
+import SVG_cloudArrowDown from "./cloud-arrow-down";
+import SVG_cloudArrowUp from "./cloud-arrow-up";
+import SVG_cloudBolt from "./cloud-bolt";
 import SVG_cloudDownloadAlt from "./cloud-download-alt";
+import SVG_cloudDownload from "./cloud-download";
 import SVG_cloudMeatball from "./cloud-meatball";
 import SVG_cloudMoonRain from "./cloud-moon-rain";
 import SVG_cloudMoon from "./cloud-moon";
 import SVG_cloudRain from "./cloud-rain";
 import SVG_cloudShowersHeavy from "./cloud-showers-heavy";
+import SVG_cloudShowersWater from "./cloud-showers-water";
 import SVG_cloudSunRain from "./cloud-sun-rain";
 import SVG_cloudSun from "./cloud-sun";
 import SVG_cloudUploadAlt from "./cloud-upload-alt";
+import SVG_cloudUpload from "./cloud-upload";
 import SVG_cloud from "./cloud";
+import SVG_clover from "./clover";
+import SVG_cny from "./cny";
 import SVG_cocktail from "./cocktail";
 import SVG_codeBranch from "./code-branch";
+import SVG_codeCommit from "./code-commit";
+import SVG_codeCompare from "./code-compare";
+import SVG_codeFork from "./code-fork";
+import SVG_codeMerge from "./code-merge";
+import SVG_codePullRequest from "./code-pull-request";
 import SVG_code from "./code";
 import SVG_coffee from "./coffee";
 import SVG_cog from "./cog";
 import SVG_cogs from "./cogs";
 import SVG_coins from "./coins";
+import SVG_colonSign from "./colon-sign";
 import SVG_columns from "./columns";
 import SVG_commentAlt from "./comment-alt";
 import SVG_commentDollar from "./comment-dollar";
 import SVG_commentDots from "./comment-dots";
 import SVG_commentMedical from "./comment-medical";
+import SVG_commentNodes from "./comment-nodes";
 import SVG_commentSlash from "./comment-slash";
+import SVG_commentSms from "./comment-sms";
 import SVG_comment from "./comment";
+import SVG_commenting from "./commenting";
 import SVG_commentsDollar from "./comments-dollar";
 import SVG_comments from "./comments";
 import SVG_compactDisc from "./compact-disc";
+import SVG_compassDrafting from "./compass-drafting";
 import SVG_compass from "./compass";
 import SVG_compressAlt from "./compress-alt";
 import SVG_compressArrowsAlt from "./compress-arrows-alt";
 import SVG_compress from "./compress";
+import SVG_computerMouse from "./computer-mouse";
+import SVG_computer from "./computer";
 import SVG_conciergeBell from "./concierge-bell";
+import SVG_contactBook from "./contact-book";
+import SVG_contactCard from "./contact-card";
 import SVG_cookieBite from "./cookie-bite";
 import SVG_cookie from "./cookie";
 import SVG_copy from "./copy";
 import SVG_copyright from "./copyright";
 import SVG_couch from "./couch";
+import SVG_cow from "./cow";
+import SVG_creditCardAlt from "./credit-card-alt";
 import SVG_creditCard from "./credit-card";
 import SVG_cropAlt from "./crop-alt";
+import SVG_cropSimple from "./crop-simple";
 import SVG_crop from "./crop";
 import SVG_cross from "./cross";
 import SVG_crosshairs from "./crosshairs";
 import SVG_crow from "./crow";
 import SVG_crown from "./crown";
 import SVG_crutch from "./crutch";
+import SVG_cruzeiroSign from "./cruzeiro-sign";
 import SVG_cube from "./cube";
+import SVG_cubesStacked from "./cubes-stacked";
 import SVG_cubes from "./cubes";
 import SVG_cut from "./cut";
+import SVG_cutlery from "./cutlery";
+import SVG_d from "./d";
+import SVG_dashboard from "./dashboard";
 import SVG_database from "./database";
 import SVG_deaf from "./deaf";
+import SVG_deafness from "./deafness";
+import SVG_dedent from "./dedent";
+import SVG_deleteLeft from "./delete-left";
 import SVG_democrat from "./democrat";
+import SVG_desktopAlt from "./desktop-alt";
 import SVG_desktop from "./desktop";
 import SVG_dharmachakra from "./dharmachakra";
 import SVG_diagnoses from "./diagnoses";
+import SVG_diagramNext from "./diagram-next";
+import SVG_diagramPredecessor from "./diagram-predecessor";
+import SVG_diagramProject from "./diagram-project";
+import SVG_diagramSuccessor from "./diagram-successor";
+import SVG_diamondTurnRight from "./diamond-turn-right";
+import SVG_diamond from "./diamond";
 import SVG_diceD20 from "./dice-d20";
 import SVG_diceD6 from "./dice-d6";
 import SVG_diceFive from "./dice-five";
@@ -266,25 +537,35 @@ import SVG_diceSix from "./dice-six";
 import SVG_diceThree from "./dice-three";
 import SVG_diceTwo from "./dice-two";
 import SVG_dice from "./dice";
+import SVG_digging from "./digging";
 import SVG_digitalTachograph from "./digital-tachograph";
 import SVG_directions from "./directions";
 import SVG_disease from "./disease";
+import SVG_display from "./display";
 import SVG_divide from "./divide";
 import SVG_dizzy from "./dizzy";
 import SVG_dna from "./dna";
 import SVG_dog from "./dog";
 import SVG_dollarSign from "./dollar-sign";
+import SVG_dollar from "./dollar";
+import SVG_dollyBox from "./dolly-box";
 import SVG_dollyFlatbed from "./dolly-flatbed";
 import SVG_dolly from "./dolly";
 import SVG_donate from "./donate";
+import SVG_dongSign from "./dong-sign";
 import SVG_doorClosed from "./door-closed";
 import SVG_doorOpen from "./door-open";
 import SVG_dotCircle from "./dot-circle";
 import SVG_dove from "./dove";
+import SVG_downLeftAndUpRightToCenter from "./down-left-and-up-right-to-center";
+import SVG_downLong from "./down-long";
 import SVG_download from "./download";
 import SVG_draftingCompass from "./drafting-compass";
 import SVG_dragon from "./dragon";
 import SVG_drawPolygon from "./draw-polygon";
+import SVG_driversLicense from "./drivers-license";
+import SVG_dropletSlash from "./droplet-slash";
+import SVG_droplet from "./droplet";
 import SVG_drumSteelpan from "./drum-steelpan";
 import SVG_drum from "./drum";
 import SVG_drumstickBite from "./drumstick-bite";
@@ -292,95 +573,209 @@ import SVG_dumbbell from "./dumbbell";
 import SVG_dumpsterFire from "./dumpster-fire";
 import SVG_dumpster from "./dumpster";
 import SVG_dungeon from "./dungeon";
+import SVG_e from "./e";
+import SVG_earDeaf from "./ear-deaf";
+import SVG_earListen from "./ear-listen";
+import SVG_earthAfrica from "./earth-africa";
+import SVG_earthAmerica from "./earth-america";
+import SVG_earthAmericas from "./earth-americas";
+import SVG_earthAsia from "./earth-asia";
+import SVG_earthEurope from "./earth-europe";
+import SVG_earthOceania from "./earth-oceania";
+import SVG_earth from "./earth";
 import SVG_edit from "./edit";
 import SVG_egg from "./egg";
 import SVG_eject from "./eject";
+import SVG_elevator from "./elevator";
 import SVG_ellipsisH from "./ellipsis-h";
 import SVG_ellipsisV from "./ellipsis-v";
+import SVG_ellipsisVertical from "./ellipsis-vertical";
+import SVG_ellipsis from "./ellipsis";
+import SVG_envelopeCircleCheck from "./envelope-circle-check";
 import SVG_envelopeOpenText from "./envelope-open-text";
 import SVG_envelopeOpen from "./envelope-open";
 import SVG_envelopeSquare from "./envelope-square";
 import SVG_envelope from "./envelope";
+import SVG_envelopesBulk from "./envelopes-bulk";
 import SVG_equals from "./equals";
 import SVG_eraser from "./eraser";
 import SVG_ethernet from "./ethernet";
+import SVG_eur from "./eur";
 import SVG_euroSign from "./euro-sign";
+import SVG_euro from "./euro";
 import SVG_exchangeAlt from "./exchange-alt";
+import SVG_exchange from "./exchange";
 import SVG_exclamationCircle from "./exclamation-circle";
 import SVG_exclamationTriangle from "./exclamation-triangle";
 import SVG_exclamation from "./exclamation";
 import SVG_expandAlt from "./expand-alt";
 import SVG_expandArrowsAlt from "./expand-arrows-alt";
 import SVG_expand from "./expand";
+import SVG_explosion from "./explosion";
 import SVG_externalLinkAlt from "./external-link-alt";
 import SVG_externalLinkSquareAlt from "./external-link-square-alt";
+import SVG_externalLinkSquare from "./external-link-square";
+import SVG_externalLink from "./external-link";
+import SVG_eyeDropperEmpty from "./eye-dropper-empty";
 import SVG_eyeDropper from "./eye-dropper";
+import SVG_eyeLowVision from "./eye-low-vision";
 import SVG_eyeSlash from "./eye-slash";
 import SVG_eye from "./eye";
+import SVG_eyedropper from "./eyedropper";
+import SVG_f from "./f";
+import SVG_faceAngry from "./face-angry";
+import SVG_faceDizzy from "./face-dizzy";
+import SVG_faceFlushed from "./face-flushed";
+import SVG_faceFrownOpen from "./face-frown-open";
+import SVG_faceFrown from "./face-frown";
+import SVG_faceGrimace from "./face-grimace";
+import SVG_faceGrinBeamSweat from "./face-grin-beam-sweat";
+import SVG_faceGrinBeam from "./face-grin-beam";
+import SVG_faceGrinHearts from "./face-grin-hearts";
+import SVG_faceGrinSquintTears from "./face-grin-squint-tears";
+import SVG_faceGrinSquint from "./face-grin-squint";
+import SVG_faceGrinStars from "./face-grin-stars";
+import SVG_faceGrinTears from "./face-grin-tears";
+import SVG_faceGrinTongueSquint from "./face-grin-tongue-squint";
+import SVG_faceGrinTongueWink from "./face-grin-tongue-wink";
+import SVG_faceGrinTongue from "./face-grin-tongue";
+import SVG_faceGrinWide from "./face-grin-wide";
+import SVG_faceGrinWink from "./face-grin-wink";
+import SVG_faceGrin from "./face-grin";
+import SVG_faceKissBeam from "./face-kiss-beam";
+import SVG_faceKissWinkHeart from "./face-kiss-wink-heart";
+import SVG_faceKiss from "./face-kiss";
+import SVG_faceLaughBeam from "./face-laugh-beam";
+import SVG_faceLaughSquint from "./face-laugh-squint";
+import SVG_faceLaughWink from "./face-laugh-wink";
+import SVG_faceLaugh from "./face-laugh";
+import SVG_faceMehBlank from "./face-meh-blank";
+import SVG_faceMeh from "./face-meh";
+import SVG_faceRollingEyes from "./face-rolling-eyes";
+import SVG_faceSadCry from "./face-sad-cry";
+import SVG_faceSadTear from "./face-sad-tear";
+import SVG_faceSmileBeam from "./face-smile-beam";
+import SVG_faceSmileWink from "./face-smile-wink";
+import SVG_faceSmile from "./face-smile";
+import SVG_faceSurprise from "./face-surprise";
+import SVG_faceTired from "./face-tired";
 import SVG_fan from "./fan";
 import SVG_fastBackward from "./fast-backward";
 import SVG_fastForward from "./fast-forward";
+import SVG_faucetDrip from "./faucet-drip";
 import SVG_faucet from "./faucet";
 import SVG_fax from "./fax";
 import SVG_featherAlt from "./feather-alt";
+import SVG_featherPointed from "./feather-pointed";
 import SVG_feather from "./feather";
+import SVG_feed from "./feed";
 import SVG_female from "./female";
+import SVG_ferry from "./ferry";
 import SVG_fighterJet from "./fighter-jet";
 import SVG_fileAlt from "./file-alt";
 import SVG_fileArchive from "./file-archive";
+import SVG_fileArrowDown from "./file-arrow-down";
+import SVG_fileArrowUp from "./file-arrow-up";
 import SVG_fileAudio from "./file-audio";
+import SVG_fileCircleCheck from "./file-circle-check";
+import SVG_fileCircleExclamation from "./file-circle-exclamation";
+import SVG_fileCircleMinus from "./file-circle-minus";
+import SVG_fileCirclePlus from "./file-circle-plus";
+import SVG_fileCircleQuestion from "./file-circle-question";
+import SVG_fileCircleXmark from "./file-circle-xmark";
+import SVG_fileClipboard from "./file-clipboard";
 import SVG_fileCode from "./file-code";
 import SVG_fileContract from "./file-contract";
 import SVG_fileCsv from "./file-csv";
 import SVG_fileDownload from "./file-download";
+import SVG_fileEdit from "./file-edit";
 import SVG_fileExcel from "./file-excel";
 import SVG_fileExport from "./file-export";
+import SVG_fileFragment from "./file-fragment";
+import SVG_fileHalfDashed from "./file-half-dashed";
 import SVG_fileImage from "./file-image";
 import SVG_fileImport from "./file-import";
 import SVG_fileInvoiceDollar from "./file-invoice-dollar";
 import SVG_fileInvoice from "./file-invoice";
+import SVG_fileLines from "./file-lines";
 import SVG_fileMedicalAlt from "./file-medical-alt";
 import SVG_fileMedical from "./file-medical";
 import SVG_filePdf from "./file-pdf";
+import SVG_filePen from "./file-pen";
 import SVG_filePowerpoint from "./file-powerpoint";
 import SVG_filePrescription from "./file-prescription";
+import SVG_fileShield from "./file-shield";
 import SVG_fileSignature from "./file-signature";
+import SVG_fileText from "./file-text";
 import SVG_fileUpload from "./file-upload";
 import SVG_fileVideo from "./file-video";
+import SVG_fileWaveform from "./file-waveform";
 import SVG_fileWord from "./file-word";
+import SVG_fileZipper from "./file-zipper";
 import SVG_file from "./file";
 import SVG_fillDrip from "./fill-drip";
 import SVG_fill from "./fill";
+import SVG_filmAlt from "./film-alt";
+import SVG_filmSimple from "./film-simple";
 import SVG_film from "./film";
+import SVG_filterCircleDollar from "./filter-circle-dollar";
+import SVG_filterCircleXmark from "./filter-circle-xmark";
 import SVG_filter from "./filter";
 import SVG_fingerprint from "./fingerprint";
 import SVG_fireAlt from "./fire-alt";
+import SVG_fireBurner from "./fire-burner";
 import SVG_fireExtinguisher from "./fire-extinguisher";
+import SVG_fireFlameCurved from "./fire-flame-curved";
+import SVG_fireFlameSimple from "./fire-flame-simple";
 import SVG_fire from "./fire";
 import SVG_firstAid from "./first-aid";
+import SVG_fishFins from "./fish-fins";
 import SVG_fish from "./fish";
 import SVG_fistRaised from "./fist-raised";
 import SVG_flagCheckered from "./flag-checkered";
 import SVG_flagUsa from "./flag-usa";
 import SVG_flag from "./flag";
+import SVG_flaskVial from "./flask-vial";
 import SVG_flask from "./flask";
+import SVG_floppyDisk from "./floppy-disk";
+import SVG_florinSign from "./florin-sign";
 import SVG_flushed from "./flushed";
+import SVG_folderBlank from "./folder-blank";
+import SVG_folderClosed from "./folder-closed";
 import SVG_folderMinus from "./folder-minus";
 import SVG_folderOpen from "./folder-open";
 import SVG_folderPlus from "./folder-plus";
+import SVG_folderTree from "./folder-tree";
 import SVG_folder from "./folder";
+import SVG_fontAwesomeFlag from "./font-awesome-flag";
 import SVG_fontAwesomeLogoFull from "./font-awesome-logo-full";
+import SVG_fontAwesome from "./font-awesome";
 import SVG_font from "./font";
 import SVG_footballBall from "./football-ball";
+import SVG_football from "./football";
+import SVG_forwardFast from "./forward-fast";
+import SVG_forwardStep from "./forward-step";
 import SVG_forward from "./forward";
+import SVG_francSign from "./franc-sign";
 import SVG_frog from "./frog";
 import SVG_frownOpen from "./frown-open";
 import SVG_frown from "./frown";
 import SVG_funnelDollar from "./funnel-dollar";
+import SVG_futbolBall from "./futbol-ball";
 import SVG_futbol from "./futbol";
+import SVG_g from "./g";
 import SVG_gamepad from "./gamepad";
 import SVG_gasPump from "./gas-pump";
+import SVG_gaugeHigh from "./gauge-high";
+import SVG_gaugeMed from "./gauge-med";
+import SVG_gaugeSimpleHigh from "./gauge-simple-high";
+import SVG_gaugeSimpleMed from "./gauge-simple-med";
+import SVG_gaugeSimple from "./gauge-simple";
+import SVG_gauge from "./gauge";
 import SVG_gavel from "./gavel";
+import SVG_gbp from "./gbp";
+import SVG_gear from "./gear";
+import SVG_gears from "./gears";
 import SVG_gem from "./gem";
 import SVG_genderless from "./genderless";
 import SVG_ghost from "./ghost";
@@ -389,18 +784,24 @@ import SVG_gifts from "./gifts";
 import SVG_glassCheers from "./glass-cheers";
 import SVG_glassMartiniAlt from "./glass-martini-alt";
 import SVG_glassMartini from "./glass-martini";
+import SVG_glassWaterDroplet from "./glass-water-droplet";
+import SVG_glassWater from "./glass-water";
 import SVG_glassWhiskey from "./glass-whiskey";
 import SVG_glasses from "./glasses";
 import SVG_globeAfrica from "./globe-africa";
 import SVG_globeAmericas from "./globe-americas";
 import SVG_globeAsia from "./globe-asia";
 import SVG_globeEurope from "./globe-europe";
+import SVG_globeOceania from "./globe-oceania";
 import SVG_globe from "./globe";
+import SVG_golfBallTee from "./golf-ball-tee";
 import SVG_golfBall from "./golf-ball";
 import SVG_gopuram from "./gopuram";
 import SVG_graduationCap from "./graduation-cap";
 import SVG_greaterThanEqual from "./greater-than-equal";
 import SVG_greaterThan from "./greater-than";
+import SVG_gridHorizontal from "./grid-horizontal";
+import SVG_gridVertical from "./grid-vertical";
 import SVG_grimace from "./grimace";
 import SVG_grinAlt from "./grin-alt";
 import SVG_grinBeamSweat from "./grin-beam-sweat";
@@ -419,11 +820,22 @@ import SVG_gripHorizontal from "./grip-horizontal";
 import SVG_gripLinesVertical from "./grip-lines-vertical";
 import SVG_gripLines from "./grip-lines";
 import SVG_gripVertical from "./grip-vertical";
+import SVG_grip from "./grip";
+import SVG_groupArrowsRotate from "./group-arrows-rotate";
+import SVG_guaraniSign from "./guarani-sign";
 import SVG_guitar from "./guitar";
+import SVG_gun from "./gun";
 import SVG_hSquare from "./h-square";
+import SVG_h from "./h";
 import SVG_hamburger from "./hamburger";
 import SVG_hammer from "./hammer";
 import SVG_hamsa from "./hamsa";
+import SVG_handBackFist from "./hand-back-fist";
+import SVG_handDots from "./hand-dots";
+import SVG_handFist from "./hand-fist";
+import SVG_handHoldingDollar from "./hand-holding-dollar";
+import SVG_handHoldingDroplet from "./hand-holding-droplet";
+import SVG_handHoldingHand from "./hand-holding-hand";
 import SVG_handHoldingHeart from "./hand-holding-heart";
 import SVG_handHoldingMedical from "./hand-holding-medical";
 import SVG_handHoldingUsd from "./hand-holding-usd";
@@ -442,122 +854,263 @@ import SVG_handRock from "./hand-rock";
 import SVG_handScissors from "./hand-scissors";
 import SVG_handSparkles from "./hand-sparkles";
 import SVG_handSpock from "./hand-spock";
+import SVG_hand from "./hand";
+import SVG_handcuffs from "./handcuffs";
+import SVG_handsAmericanSignLanguageInterpreting from "./hands-american-sign-language-interpreting";
+import SVG_handsAslInterpreting from "./hands-asl-interpreting";
+import SVG_handsBound from "./hands-bound";
+import SVG_handsBubbles from "./hands-bubbles";
+import SVG_handsClapping from "./hands-clapping";
 import SVG_handsHelping from "./hands-helping";
+import SVG_handsHoldingChild from "./hands-holding-child";
+import SVG_handsHoldingCircle from "./hands-holding-circle";
+import SVG_handsHolding from "./hands-holding";
+import SVG_handsPraying from "./hands-praying";
 import SVG_handsWash from "./hands-wash";
 import SVG_hands from "./hands";
 import SVG_handshakeAltSlash from "./handshake-alt-slash";
+import SVG_handshakeAlt from "./handshake-alt";
+import SVG_handshakeAngle from "./handshake-angle";
+import SVG_handshakeSimpleSlash from "./handshake-simple-slash";
+import SVG_handshakeSimple from "./handshake-simple";
 import SVG_handshakeSlash from "./handshake-slash";
 import SVG_handshake from "./handshake";
 import SVG_hanukiah from "./hanukiah";
+import SVG_hardDrive from "./hard-drive";
 import SVG_hardHat from "./hard-hat";
+import SVG_hardOfHearing from "./hard-of-hearing";
 import SVG_hashtag from "./hashtag";
 import SVG_hatCowboySide from "./hat-cowboy-side";
 import SVG_hatCowboy from "./hat-cowboy";
+import SVG_hatHard from "./hat-hard";
 import SVG_hatWizard from "./hat-wizard";
+import SVG_haykal from "./haykal";
 import SVG_hdd from "./hdd";
 import SVG_headSideCoughSlash from "./head-side-cough-slash";
 import SVG_headSideCough from "./head-side-cough";
 import SVG_headSideMask from "./head-side-mask";
 import SVG_headSideVirus from "./head-side-virus";
+import SVG_header from "./header";
 import SVG_heading from "./heading";
 import SVG_headphonesAlt from "./headphones-alt";
+import SVG_headphonesSimple from "./headphones-simple";
 import SVG_headphones from "./headphones";
 import SVG_headset from "./headset";
 import SVG_heartBroken from "./heart-broken";
+import SVG_heartCircleBolt from "./heart-circle-bolt";
+import SVG_heartCircleCheck from "./heart-circle-check";
+import SVG_heartCircleExclamation from "./heart-circle-exclamation";
+import SVG_heartCircleMinus from "./heart-circle-minus";
+import SVG_heartCirclePlus from "./heart-circle-plus";
+import SVG_heartCircleXmark from "./heart-circle-xmark";
+import SVG_heartCrack from "./heart-crack";
+import SVG_heartMusicCameraBolt from "./heart-music-camera-bolt";
+import SVG_heartPulse from "./heart-pulse";
 import SVG_heart from "./heart";
 import SVG_heartbeat from "./heartbeat";
+import SVG_helicopterSymbol from "./helicopter-symbol";
 import SVG_helicopter from "./helicopter";
+import SVG_helmetSafety from "./helmet-safety";
+import SVG_helmetUn from "./helmet-un";
+import SVG_heptagon from "./heptagon";
+import SVG_hexagonNodesBolt from "./hexagon-nodes-bolt";
+import SVG_hexagonNodes from "./hexagon-nodes";
+import SVG_hexagon from "./hexagon";
 import SVG_highlighter from "./highlighter";
 import SVG_hiking from "./hiking";
+import SVG_hillAvalanche from "./hill-avalanche";
+import SVG_hillRockslide from "./hill-rockslide";
 import SVG_hippo from "./hippo";
 import SVG_history from "./history";
 import SVG_hockeyPuck from "./hockey-puck";
 import SVG_hollyBerry from "./holly-berry";
+import SVG_homeAlt from "./home-alt";
+import SVG_homeLgAlt from "./home-lg-alt";
+import SVG_homeLg from "./home-lg";
+import SVG_homeUser from "./home-user";
 import SVG_home from "./home";
 import SVG_horseHead from "./horse-head";
 import SVG_horse from "./horse";
 import SVG_hospitalAlt from "./hospital-alt";
 import SVG_hospitalSymbol from "./hospital-symbol";
 import SVG_hospitalUser from "./hospital-user";
+import SVG_hospitalWide from "./hospital-wide";
 import SVG_hospital from "./hospital";
+import SVG_hotTubPerson from "./hot-tub-person";
 import SVG_hotTub from "./hot-tub";
 import SVG_hotdog from "./hotdog";
 import SVG_hotel from "./hotel";
+import SVG_hourglass1 from "./hourglass-1";
+import SVG_hourglass2 from "./hourglass-2";
+import SVG_hourglass3 from "./hourglass-3";
+import SVG_hourglassEmpty from "./hourglass-empty";
 import SVG_hourglassEnd from "./hourglass-end";
 import SVG_hourglassHalf from "./hourglass-half";
 import SVG_hourglassStart from "./hourglass-start";
 import SVG_hourglass from "./hourglass";
+import SVG_houseChimneyCrack from "./house-chimney-crack";
+import SVG_houseChimneyMedical from "./house-chimney-medical";
+import SVG_houseChimneyUser from "./house-chimney-user";
+import SVG_houseChimneyWindow from "./house-chimney-window";
+import SVG_houseChimney from "./house-chimney";
+import SVG_houseCircleCheck from "./house-circle-check";
+import SVG_houseCircleExclamation from "./house-circle-exclamation";
+import SVG_houseCircleXmark from "./house-circle-xmark";
+import SVG_houseCrack from "./house-crack";
 import SVG_houseDamage from "./house-damage";
+import SVG_houseFire from "./house-fire";
+import SVG_houseFlag from "./house-flag";
+import SVG_houseFloodWaterCircleArrowRight from "./house-flood-water-circle-arrow-right";
+import SVG_houseFloodWater from "./house-flood-water";
+import SVG_houseLaptop from "./house-laptop";
+import SVG_houseLock from "./house-lock";
+import SVG_houseMedicalCircleCheck from "./house-medical-circle-check";
+import SVG_houseMedicalCircleExclamation from "./house-medical-circle-exclamation";
+import SVG_houseMedicalCircleXmark from "./house-medical-circle-xmark";
+import SVG_houseMedicalFlag from "./house-medical-flag";
+import SVG_houseMedical from "./house-medical";
+import SVG_houseSignal from "./house-signal";
+import SVG_houseTsunami from "./house-tsunami";
 import SVG_houseUser from "./house-user";
+import SVG_house from "./house";
+import SVG_hryvniaSign from "./hryvnia-sign";
 import SVG_hryvnia from "./hryvnia";
+import SVG_hurricane from "./hurricane";
 import SVG_iCursor from "./i-cursor";
+import SVG_i from "./i";
 import SVG_iceCream from "./ice-cream";
 import SVG_icicles from "./icicles";
 import SVG_icons from "./icons";
 import SVG_idBadge from "./id-badge";
 import SVG_idCardAlt from "./id-card-alt";
+import SVG_idCardClip from "./id-card-clip";
 import SVG_idCard from "./id-card";
 import SVG_igloo from "./igloo";
+import SVG_ils from "./ils";
+import SVG_imagePortrait from "./image-portrait";
 import SVG_image from "./image";
 import SVG_images from "./images";
 import SVG_inbox from "./inbox";
 import SVG_indent from "./indent";
+import SVG_indianRupeeSign from "./indian-rupee-sign";
+import SVG_indianRupee from "./indian-rupee";
 import SVG_industry from "./industry";
 import SVG_infinity from "./infinity";
 import SVG_infoCircle from "./info-circle";
 import SVG_info from "./info";
+import SVG_inr from "./inr";
+import SVG_institution from "./institution";
 import SVG_italic from "./italic";
+import SVG_j from "./j";
+import SVG_jarWheat from "./jar-wheat";
+import SVG_jar from "./jar";
 import SVG_jedi from "./jedi";
+import SVG_jetFighterUp from "./jet-fighter-up";
+import SVG_jetFighter from "./jet-fighter";
 import SVG_joint from "./joint";
 import SVG_journalWhills from "./journal-whills";
+import SVG_jpy from "./jpy";
+import SVG_jugDetergent from "./jug-detergent";
+import SVG_k from "./k";
 import SVG_kaaba from "./kaaba";
 import SVG_key from "./key";
 import SVG_keyboard from "./keyboard";
 import SVG_khanda from "./khanda";
+import SVG_kipSign from "./kip-sign";
 import SVG_kissBeam from "./kiss-beam";
 import SVG_kissWinkHeart from "./kiss-wink-heart";
 import SVG_kiss from "./kiss";
+import SVG_kitMedical from "./kit-medical";
+import SVG_kitchenSet from "./kitchen-set";
 import SVG_kiwiBird from "./kiwi-bird";
+import SVG_krw from "./krw";
+import SVG_l from "./l";
+import SVG_ladderWater from "./ladder-water";
+import SVG_landMineOn from "./land-mine-on";
+import SVG_landmarkAlt from "./landmark-alt";
+import SVG_landmarkDome from "./landmark-dome";
+import SVG_landmarkFlag from "./landmark-flag";
 import SVG_landmark from "./landmark";
 import SVG_language from "./language";
 import SVG_laptopCode from "./laptop-code";
+import SVG_laptopFile from "./laptop-file";
 import SVG_laptopHouse from "./laptop-house";
 import SVG_laptopMedical from "./laptop-medical";
 import SVG_laptop from "./laptop";
+import SVG_lariSign from "./lari-sign";
 import SVG_laughBeam from "./laugh-beam";
 import SVG_laughSquint from "./laugh-squint";
 import SVG_laughWink from "./laugh-wink";
 import SVG_laugh from "./laugh";
 import SVG_layerGroup from "./layer-group";
 import SVG_leaf from "./leaf";
+import SVG_leftLong from "./left-long";
+import SVG_leftRight from "./left-right";
+import SVG_legal from "./legal";
 import SVG_lemon from "./lemon";
 import SVG_lessThanEqual from "./less-than-equal";
 import SVG_lessThan from "./less-than";
 import SVG_levelDownAlt from "./level-down-alt";
+import SVG_levelDown from "./level-down";
 import SVG_levelUpAlt from "./level-up-alt";
+import SVG_levelUp from "./level-up";
 import SVG_lifeRing from "./life-ring";
 import SVG_lightbulb from "./lightbulb";
+import SVG_lineChart from "./line-chart";
+import SVG_linesLeaning from "./lines-leaning";
+import SVG_linkSlash from "./link-slash";
 import SVG_link from "./link";
 import SVG_liraSign from "./lira-sign";
+import SVG_list12 from "./list-1-2";
 import SVG_listAlt from "./list-alt";
+import SVG_listCheck from "./list-check";
+import SVG_listDots from "./list-dots";
+import SVG_listNumeric from "./list-numeric";
 import SVG_listOl from "./list-ol";
+import SVG_listSquares from "./list-squares";
 import SVG_listUl from "./list-ul";
 import SVG_list from "./list";
+import SVG_litecoinSign from "./litecoin-sign";
 import SVG_locationArrow from "./location-arrow";
+import SVG_locationCrosshairs from "./location-crosshairs";
+import SVG_locationDot from "./location-dot";
+import SVG_locationPinLock from "./location-pin-lock";
+import SVG_locationPin from "./location-pin";
+import SVG_location from "./location";
 import SVG_lockOpen from "./lock-open";
 import SVG_lock from "./lock";
+import SVG_locust from "./locust";
 import SVG_longArrowAltDown from "./long-arrow-alt-down";
 import SVG_longArrowAltLeft from "./long-arrow-alt-left";
 import SVG_longArrowAltRight from "./long-arrow-alt-right";
 import SVG_longArrowAltUp from "./long-arrow-alt-up";
+import SVG_longArrowDown from "./long-arrow-down";
+import SVG_longArrowLeft from "./long-arrow-left";
+import SVG_longArrowRight from "./long-arrow-right";
+import SVG_longArrowUp from "./long-arrow-up";
 import SVG_lowVision from "./low-vision";
 import SVG_luggageCart from "./luggage-cart";
 import SVG_lungsVirus from "./lungs-virus";
 import SVG_lungs from "./lungs";
+import SVG_m from "./m";
+import SVG_magicWandSparkles from "./magic-wand-sparkles";
 import SVG_magic from "./magic";
 import SVG_magnet from "./magnet";
+import SVG_magnifyingGlassArrowRight from "./magnifying-glass-arrow-right";
+import SVG_magnifyingGlassChart from "./magnifying-glass-chart";
+import SVG_magnifyingGlassDollar from "./magnifying-glass-dollar";
+import SVG_magnifyingGlassLocation from "./magnifying-glass-location";
+import SVG_magnifyingGlassMinus from "./magnifying-glass-minus";
+import SVG_magnifyingGlassPlus from "./magnifying-glass-plus";
+import SVG_magnifyingGlass from "./magnifying-glass";
 import SVG_mailBulk from "./mail-bulk";
+import SVG_mailForward from "./mail-forward";
+import SVG_mailReplyAll from "./mail-reply-all";
+import SVG_mailReply from "./mail-reply";
 import SVG_male from "./male";
+import SVG_manatSign from "./manat-sign";
+import SVG_mapLocationDot from "./map-location-dot";
+import SVG_mapLocation from "./map-location";
 import SVG_mapMarkedAlt from "./map-marked-alt";
 import SVG_mapMarked from "./map-marked";
 import SVG_mapMarkerAlt from "./map-marker-alt";
@@ -566,12 +1119,24 @@ import SVG_mapPin from "./map-pin";
 import SVG_mapSigns from "./map-signs";
 import SVG_map from "./map";
 import SVG_marker from "./marker";
+import SVG_marsAndVenusBurst from "./mars-and-venus-burst";
+import SVG_marsAndVenus from "./mars-and-venus";
 import SVG_marsDouble from "./mars-double";
 import SVG_marsStrokeH from "./mars-stroke-h";
+import SVG_marsStrokeRight from "./mars-stroke-right";
+import SVG_marsStrokeUp from "./mars-stroke-up";
 import SVG_marsStrokeV from "./mars-stroke-v";
 import SVG_marsStroke from "./mars-stroke";
 import SVG_mars from "./mars";
+import SVG_martiniGlassCitrus from "./martini-glass-citrus";
+import SVG_martiniGlassEmpty from "./martini-glass-empty";
+import SVG_martiniGlass from "./martini-glass";
+import SVG_maskFace from "./mask-face";
+import SVG_maskVentilator from "./mask-ventilator";
 import SVG_mask from "./mask";
+import SVG_masksTheater from "./masks-theater";
+import SVG_mattressPillow from "./mattress-pillow";
+import SVG_maximize from "./maximize";
 import SVG_medal from "./medal";
 import SVG_medkit from "./medkit";
 import SVG_mehBlank from "./meh-blank";
@@ -580,51 +1145,92 @@ import SVG_meh from "./meh";
 import SVG_memory from "./memory";
 import SVG_menorah from "./menorah";
 import SVG_mercury from "./mercury";
+import SVG_message from "./message";
 import SVG_meteor from "./meteor";
 import SVG_microchip from "./microchip";
 import SVG_microphoneAltSlash from "./microphone-alt-slash";
 import SVG_microphoneAlt from "./microphone-alt";
+import SVG_microphoneLinesSlash from "./microphone-lines-slash";
+import SVG_microphoneLines from "./microphone-lines";
 import SVG_microphoneSlash from "./microphone-slash";
 import SVG_microphone from "./microphone";
 import SVG_microscope from "./microscope";
+import SVG_millSign from "./mill-sign";
+import SVG_minimize from "./minimize";
 import SVG_minusCircle from "./minus-circle";
 import SVG_minusSquare from "./minus-square";
 import SVG_minus from "./minus";
 import SVG_mitten from "./mitten";
 import SVG_mobileAlt from "./mobile-alt";
+import SVG_mobileAndroidAlt from "./mobile-android-alt";
+import SVG_mobileAndroid from "./mobile-android";
+import SVG_mobileButton from "./mobile-button";
+import SVG_mobilePhone from "./mobile-phone";
+import SVG_mobileRetro from "./mobile-retro";
+import SVG_mobileScreenButton from "./mobile-screen-button";
+import SVG_mobileScreen from "./mobile-screen";
+import SVG_mobileVibrate from "./mobile-vibrate";
 import SVG_mobile from "./mobile";
+import SVG_moneyBill1Wave from "./money-bill-1-wave";
+import SVG_moneyBill1 from "./money-bill-1";
 import SVG_moneyBillAlt from "./money-bill-alt";
+import SVG_moneyBillTransfer from "./money-bill-transfer";
+import SVG_moneyBillTrendUp from "./money-bill-trend-up";
 import SVG_moneyBillWaveAlt from "./money-bill-wave-alt";
 import SVG_moneyBillWave from "./money-bill-wave";
+import SVG_moneyBillWheat from "./money-bill-wheat";
 import SVG_moneyBill from "./money-bill";
+import SVG_moneyBills from "./money-bills";
 import SVG_moneyCheckAlt from "./money-check-alt";
+import SVG_moneyCheckDollar from "./money-check-dollar";
 import SVG_moneyCheck from "./money-check";
 import SVG_monument from "./monument";
 import SVG_moon from "./moon";
+import SVG_mortarBoard from "./mortar-board";
 import SVG_mortarPestle from "./mortar-pestle";
 import SVG_mosque from "./mosque";
+import SVG_mosquitoNet from "./mosquito-net";
+import SVG_mosquito from "./mosquito";
 import SVG_motorcycle from "./motorcycle";
+import SVG_mound from "./mound";
+import SVG_mountainCity from "./mountain-city";
+import SVG_mountainSun from "./mountain-sun";
 import SVG_mountain from "./mountain";
 import SVG_mousePointer from "./mouse-pointer";
 import SVG_mouse from "./mouse";
 import SVG_mugHot from "./mug-hot";
+import SVG_mugSaucer from "./mug-saucer";
+import SVG_multiply from "./multiply";
+import SVG_museum from "./museum";
 import SVG_music from "./music";
+import SVG_n from "./n";
+import SVG_nairaSign from "./naira-sign";
+import SVG_navicon from "./navicon";
 import SVG_networkWired from "./network-wired";
 import SVG_neuter from "./neuter";
 import SVG_newspaper from "./newspaper";
+import SVG_nonBinary from "./non-binary";
 import SVG_notEqual from "./not-equal";
+import SVG_notdef from "./notdef";
+import SVG_noteSticky from "./note-sticky";
 import SVG_notesMedical from "./notes-medical";
+import SVG_o from "./o";
 import SVG_objectGroup from "./object-group";
 import SVG_objectUngroup from "./object-ungroup";
+import SVG_octagon from "./octagon";
 import SVG_oilCan from "./oil-can";
+import SVG_oilWell from "./oil-well";
 import SVG_om from "./om";
 import SVG_otter from "./otter";
 import SVG_outdent from "./outdent";
+import SVG_p from "./p";
 import SVG_pager from "./pager";
 import SVG_paintBrush from "./paint-brush";
 import SVG_paintRoller from "./paint-roller";
+import SVG_paintbrush from "./paintbrush";
 import SVG_palette from "./palette";
 import SVG_pallet from "./pallet";
+import SVG_panorama from "./panorama";
 import SVG_paperPlane from "./paper-plane";
 import SVG_paperclip from "./paperclip";
 import SVG_parachuteBox from "./parachute-box";
@@ -638,42 +1244,121 @@ import SVG_pause from "./pause";
 import SVG_paw from "./paw";
 import SVG_peace from "./peace";
 import SVG_penAlt from "./pen-alt";
+import SVG_penClip from "./pen-clip";
 import SVG_penFancy from "./pen-fancy";
 import SVG_penNib from "./pen-nib";
+import SVG_penRuler from "./pen-ruler";
 import SVG_penSquare from "./pen-square";
+import SVG_penToSquare from "./pen-to-square";
 import SVG_pen from "./pen";
 import SVG_pencilAlt from "./pencil-alt";
 import SVG_pencilRuler from "./pencil-ruler";
+import SVG_pencilSquare from "./pencil-square";
+import SVG_pencil from "./pencil";
+import SVG_pentagon from "./pentagon";
+import SVG_peopleArrowsLeftRight from "./people-arrows-left-right";
 import SVG_peopleArrows from "./people-arrows";
+import SVG_peopleCarryBox from "./people-carry-box";
 import SVG_peopleCarry from "./people-carry";
+import SVG_peopleGroup from "./people-group";
+import SVG_peopleLine from "./people-line";
+import SVG_peoplePulling from "./people-pulling";
+import SVG_peopleRobbery from "./people-robbery";
+import SVG_peopleRoof from "./people-roof";
 import SVG_pepperHot from "./pepper-hot";
 import SVG_percent from "./percent";
 import SVG_percentage from "./percentage";
+import SVG_personArrowDownToLine from "./person-arrow-down-to-line";
+import SVG_personArrowUpFromLine from "./person-arrow-up-from-line";
+import SVG_personBiking from "./person-biking";
 import SVG_personBooth from "./person-booth";
+import SVG_personBreastfeeding from "./person-breastfeeding";
+import SVG_personBurst from "./person-burst";
+import SVG_personCane from "./person-cane";
+import SVG_personChalkboard from "./person-chalkboard";
+import SVG_personCircleCheck from "./person-circle-check";
+import SVG_personCircleExclamation from "./person-circle-exclamation";
+import SVG_personCircleMinus from "./person-circle-minus";
+import SVG_personCirclePlus from "./person-circle-plus";
+import SVG_personCircleQuestion from "./person-circle-question";
+import SVG_personCircleXmark from "./person-circle-xmark";
+import SVG_personDigging from "./person-digging";
+import SVG_personDotsFromLine from "./person-dots-from-line";
+import SVG_personDressBurst from "./person-dress-burst";
+import SVG_personDress from "./person-dress";
+import SVG_personDrowning from "./person-drowning";
+import SVG_personFallingBurst from "./person-falling-burst";
+import SVG_personFalling from "./person-falling";
+import SVG_personHalfDress from "./person-half-dress";
+import SVG_personHarassing from "./person-harassing";
+import SVG_personHiking from "./person-hiking";
+import SVG_personMilitaryPointing from "./person-military-pointing";
+import SVG_personMilitaryRifle from "./person-military-rifle";
+import SVG_personMilitaryToPerson from "./person-military-to-person";
+import SVG_personPraying from "./person-praying";
+import SVG_personPregnant from "./person-pregnant";
+import SVG_personRays from "./person-rays";
+import SVG_personRifle from "./person-rifle";
+import SVG_personRunning from "./person-running";
+import SVG_personShelter from "./person-shelter";
+import SVG_personSkating from "./person-skating";
+import SVG_personSkiingNordic from "./person-skiing-nordic";
+import SVG_personSkiing from "./person-skiing";
+import SVG_personSnowboarding from "./person-snowboarding";
+import SVG_personSwimming from "./person-swimming";
+import SVG_personThroughWindow from "./person-through-window";
+import SVG_personWalkingArrowLoopLeft from "./person-walking-arrow-loop-left";
+import SVG_personWalkingArrowRight from "./person-walking-arrow-right";
+import SVG_personWalkingDashedLineArrowRight from "./person-walking-dashed-line-arrow-right";
+import SVG_personWalkingLuggage from "./person-walking-luggage";
+import SVG_personWalkingWithCane from "./person-walking-with-cane";
+import SVG_personWalking from "./person-walking";
+import SVG_person from "./person";
+import SVG_pesetaSign from "./peseta-sign";
+import SVG_pesoSign from "./peso-sign";
 import SVG_phoneAlt from "./phone-alt";
+import SVG_phoneFlip from "./phone-flip";
 import SVG_phoneSlash from "./phone-slash";
 import SVG_phoneSquareAlt from "./phone-square-alt";
 import SVG_phoneSquare from "./phone-square";
 import SVG_phoneVolume from "./phone-volume";
 import SVG_phone from "./phone";
+import SVG_photoFilm from "./photo-film";
 import SVG_photoVideo from "./photo-video";
+import SVG_pieChart from "./pie-chart";
 import SVG_piggyBank from "./piggy-bank";
 import SVG_pills from "./pills";
+import SVG_pingPongPaddleBall from "./ping-pong-paddle-ball";
 import SVG_pizzaSlice from "./pizza-slice";
 import SVG_placeOfWorship from "./place-of-worship";
 import SVG_planeArrival from "./plane-arrival";
+import SVG_planeCircleCheck from "./plane-circle-check";
+import SVG_planeCircleExclamation from "./plane-circle-exclamation";
+import SVG_planeCircleXmark from "./plane-circle-xmark";
 import SVG_planeDeparture from "./plane-departure";
+import SVG_planeLock from "./plane-lock";
 import SVG_planeSlash from "./plane-slash";
+import SVG_planeUp from "./plane-up";
 import SVG_plane from "./plane";
+import SVG_plantWilt from "./plant-wilt";
+import SVG_plateWheat from "./plate-wheat";
 import SVG_playCircle from "./play-circle";
 import SVG_play from "./play";
+import SVG_plugCircleBolt from "./plug-circle-bolt";
+import SVG_plugCircleCheck from "./plug-circle-check";
+import SVG_plugCircleExclamation from "./plug-circle-exclamation";
+import SVG_plugCircleMinus from "./plug-circle-minus";
+import SVG_plugCirclePlus from "./plug-circle-plus";
+import SVG_plugCircleXmark from "./plug-circle-xmark";
 import SVG_plug from "./plug";
 import SVG_plusCircle from "./plus-circle";
+import SVG_plusMinus from "./plus-minus";
 import SVG_plusSquare from "./plus-square";
 import SVG_plus from "./plus";
 import SVG_podcast from "./podcast";
 import SVG_pollH from "./poll-h";
 import SVG_poll from "./poll";
+import SVG_pooBolt from "./poo-bolt";
 import SVG_pooStorm from "./poo-storm";
 import SVG_poo from "./poo";
 import SVG_poop from "./poop";
@@ -683,6 +1368,7 @@ import SVG_powerOff from "./power-off";
 import SVG_pray from "./pray";
 import SVG_prayingHands from "./praying-hands";
 import SVG_prescriptionBottleAlt from "./prescription-bottle-alt";
+import SVG_prescriptionBottleMedical from "./prescription-bottle-medical";
 import SVG_prescriptionBottle from "./prescription-bottle";
 import SVG_prescription from "./prescription";
 import SVG_print from "./print";
@@ -691,51 +1377,107 @@ import SVG_projectDiagram from "./project-diagram";
 import SVG_pumpMedical from "./pump-medical";
 import SVG_pumpSoap from "./pump-soap";
 import SVG_puzzlePiece from "./puzzle-piece";
+import SVG_q from "./q";
 import SVG_qrcode from "./qrcode";
 import SVG_questionCircle from "./question-circle";
 import SVG_question from "./question";
+import SVG_quidditchBroomBall from "./quidditch-broom-ball";
 import SVG_quidditch from "./quidditch";
+import SVG_quoteLeftAlt from "./quote-left-alt";
 import SVG_quoteLeft from "./quote-left";
+import SVG_quoteRightAlt from "./quote-right-alt";
 import SVG_quoteRight from "./quote-right";
 import SVG_quran from "./quran";
+import SVG_r from "./r";
 import SVG_radiationAlt from "./radiation-alt";
 import SVG_radiation from "./radiation";
+import SVG_radio from "./radio";
 import SVG_rainbow from "./rainbow";
 import SVG_random from "./random";
+import SVG_rankingStar from "./ranking-star";
 import SVG_receipt from "./receipt";
 import SVG_recordVinyl from "./record-vinyl";
+import SVG_rectangleAd from "./rectangle-ad";
+import SVG_rectangleList from "./rectangle-list";
+import SVG_rectangleTimes from "./rectangle-times";
+import SVG_rectangleXmark from "./rectangle-xmark";
 import SVG_recycle from "./recycle";
 import SVG_redoAlt from "./redo-alt";
 import SVG_redo from "./redo";
+import SVG_refresh from "./refresh";
 import SVG_registered from "./registered";
 import SVG_removeFormat from "./remove-format";
+import SVG_remove from "./remove";
+import SVG_reorder from "./reorder";
+import SVG_repeat from "./repeat";
 import SVG_replyAll from "./reply-all";
 import SVG_reply from "./reply";
 import SVG_republican from "./republican";
 import SVG_restroom from "./restroom";
 import SVG_retweet from "./retweet";
 import SVG_ribbon from "./ribbon";
+import SVG_rightFromBracket from "./right-from-bracket";
+import SVG_rightLeft from "./right-left";
+import SVG_rightLong from "./right-long";
+import SVG_rightToBracket from "./right-to-bracket";
 import SVG_ring from "./ring";
+import SVG_rmb from "./rmb";
+import SVG_roadBarrier from "./road-barrier";
+import SVG_roadBridge from "./road-bridge";
+import SVG_roadCircleCheck from "./road-circle-check";
+import SVG_roadCircleExclamation from "./road-circle-exclamation";
+import SVG_roadCircleXmark from "./road-circle-xmark";
+import SVG_roadLock from "./road-lock";
+import SVG_roadSpikes from "./road-spikes";
 import SVG_road from "./road";
 import SVG_robot from "./robot";
 import SVG_rocket from "./rocket";
+import SVG_rodAsclepius from "./rod-asclepius";
+import SVG_rodSnake from "./rod-snake";
+import SVG_rotateBack from "./rotate-back";
+import SVG_rotateBackward from "./rotate-backward";
+import SVG_rotateForward from "./rotate-forward";
+import SVG_rotateLeft from "./rotate-left";
+import SVG_rotateRight from "./rotate-right";
+import SVG_rotate from "./rotate";
+import SVG_rouble from "./rouble";
 import SVG_route from "./route";
 import SVG_rssSquare from "./rss-square";
 import SVG_rss from "./rss";
+import SVG_rub from "./rub";
 import SVG_rubleSign from "./ruble-sign";
+import SVG_ruble from "./ruble";
+import SVG_rug from "./rug";
 import SVG_rulerCombined from "./ruler-combined";
 import SVG_rulerHorizontal from "./ruler-horizontal";
 import SVG_rulerVertical from "./ruler-vertical";
 import SVG_ruler from "./ruler";
 import SVG_running from "./running";
 import SVG_rupeeSign from "./rupee-sign";
+import SVG_rupee from "./rupee";
+import SVG_rupiahSign from "./rupiah-sign";
+import SVG_s from "./s";
+import SVG_sackDollar from "./sack-dollar";
+import SVG_sackXmark from "./sack-xmark";
 import SVG_sadCry from "./sad-cry";
 import SVG_sadTear from "./sad-tear";
+import SVG_sailboat from "./sailboat";
 import SVG_satelliteDish from "./satellite-dish";
 import SVG_satellite from "./satellite";
 import SVG_save from "./save";
+import SVG_scaleBalanced from "./scale-balanced";
+import SVG_scaleUnbalancedFlip from "./scale-unbalanced-flip";
+import SVG_scaleUnbalanced from "./scale-unbalanced";
+import SVG_schoolCircleCheck from "./school-circle-check";
+import SVG_schoolCircleExclamation from "./school-circle-exclamation";
+import SVG_schoolCircleXmark from "./school-circle-xmark";
+import SVG_schoolFlag from "./school-flag";
+import SVG_schoolLock from "./school-lock";
 import SVG_school from "./school";
+import SVG_scissors from "./scissors";
+import SVG_screwdriverWrench from "./screwdriver-wrench";
 import SVG_screwdriver from "./screwdriver";
+import SVG_scrollTorah from "./scroll-torah";
 import SVG_scroll from "./scroll";
 import SVG_sdCard from "./sd-card";
 import SVG_searchDollar from "./search-dollar";
@@ -743,31 +1485,61 @@ import SVG_searchLocation from "./search-location";
 import SVG_searchMinus from "./search-minus";
 import SVG_searchPlus from "./search-plus";
 import SVG_search from "./search";
+import SVG_section from "./section";
 import SVG_seedling from "./seedling";
+import SVG_septagon from "./septagon";
 import SVG_server from "./server";
 import SVG_shapes from "./shapes";
 import SVG_shareAltSquare from "./share-alt-square";
 import SVG_shareAlt from "./share-alt";
+import SVG_shareFromSquare from "./share-from-square";
+import SVG_shareNodes from "./share-nodes";
 import SVG_shareSquare from "./share-square";
 import SVG_share from "./share";
+import SVG_sheetPlastic from "./sheet-plastic";
 import SVG_shekelSign from "./shekel-sign";
+import SVG_shekel from "./shekel";
+import SVG_sheqelSign from "./sheqel-sign";
+import SVG_sheqel from "./sheqel";
 import SVG_shieldAlt from "./shield-alt";
+import SVG_shieldBlank from "./shield-blank";
+import SVG_shieldCat from "./shield-cat";
+import SVG_shieldDog from "./shield-dog";
+import SVG_shieldHalved from "./shield-halved";
+import SVG_shieldHeart from "./shield-heart";
 import SVG_shieldVirus from "./shield-virus";
+import SVG_shield from "./shield";
 import SVG_ship from "./ship";
 import SVG_shippingFast from "./shipping-fast";
+import SVG_shirt from "./shirt";
 import SVG_shoePrints from "./shoe-prints";
+import SVG_shopLock from "./shop-lock";
+import SVG_shopSlash from "./shop-slash";
+import SVG_shop from "./shop";
 import SVG_shoppingBag from "./shopping-bag";
 import SVG_shoppingBasket from "./shopping-basket";
 import SVG_shoppingCart from "./shopping-cart";
 import SVG_shower from "./shower";
+import SVG_shrimp from "./shrimp";
+import SVG_shuffle from "./shuffle";
+import SVG_shuttleSpace from "./shuttle-space";
 import SVG_shuttleVan from "./shuttle-van";
+import SVG_signHanging from "./sign-hanging";
 import SVG_signInAlt from "./sign-in-alt";
+import SVG_signIn from "./sign-in";
 import SVG_signLanguage from "./sign-language";
 import SVG_signOutAlt from "./sign-out-alt";
+import SVG_signOut from "./sign-out";
 import SVG_sign from "./sign";
+import SVG_signal5 from "./signal-5";
+import SVG_signalPerfect from "./signal-perfect";
 import SVG_signal from "./signal";
 import SVG_signature from "./signature";
+import SVG_signing from "./signing";
+import SVG_signsPost from "./signs-post";
 import SVG_simCard from "./sim-card";
+import SVG_singleQuoteLeft from "./single-quote-left";
+import SVG_singleQuoteRight from "./single-quote-right";
 import SVG_sink from "./sink";
 import SVG_sitemap from "./sitemap";
 import SVG_skating from "./skating";
@@ -778,6 +1550,7 @@ import SVG_skull from "./skull";
 import SVG_slash from "./slash";
 import SVG_sleigh from "./sleigh";
 import SVG_slidersH from "./sliders-h";
+import SVG_sliders from "./sliders";
 import SVG_smileBeam from "./smile-beam";
 import SVG_smileWink from "./smile-wink";
 import SVG_smile from "./smile";
@@ -790,17 +1563,26 @@ import SVG_snowflake from "./snowflake";
 import SVG_snowman from "./snowman";
 import SVG_snowplow from "./snowplow";
 import SVG_soap from "./soap";
+import SVG_soccerBall from "./soccer-ball";
 import SVG_socks from "./socks";
 import SVG_solarPanel from "./solar-panel";
+import SVG_sortAlphaAsc from "./sort-alpha-asc";
+import SVG_sortAlphaDesc from "./sort-alpha-desc";
 import SVG_sortAlphaDownAlt from "./sort-alpha-down-alt";
 import SVG_sortAlphaDown from "./sort-alpha-down";
 import SVG_sortAlphaUpAlt from "./sort-alpha-up-alt";
 import SVG_sortAlphaUp from "./sort-alpha-up";
+import SVG_sortAmountAsc from "./sort-amount-asc";
+import SVG_sortAmountDesc from "./sort-amount-desc";
 import SVG_sortAmountDownAlt from "./sort-amount-down-alt";
 import SVG_sortAmountDown from "./sort-amount-down";
 import SVG_sortAmountUpAlt from "./sort-amount-up-alt";
 import SVG_sortAmountUp from "./sort-amount-up";
+import SVG_sortAsc from "./sort-asc";
+import SVG_sortDesc from "./sort-desc";
 import SVG_sortDown from "./sort-down";
+import SVG_sortNumericAsc from "./sort-numeric-asc";
+import SVG_sortNumericDesc from "./sort-numeric-desc";
 import SVG_sortNumericDownAlt from "./sort-numeric-down-alt";
 import SVG_sortNumericDown from "./sort-numeric-down";
 import SVG_sortNumericUpAlt from "./sort-numeric-up-alt";
@@ -809,23 +1591,59 @@ import SVG_sortUp from "./sort-up";
 import SVG_sort from "./sort";
 import SVG_spa from "./spa";
 import SVG_spaceShuttle from "./space-shuttle";
+import SVG_spaghettiMonsterFlying from "./spaghetti-monster-flying";
 import SVG_spellCheck from "./spell-check";
 import SVG_spider from "./spider";
 import SVG_spinner from "./spinner";
+import SVG_spiral from "./spiral";
 import SVG_splotch from "./splotch";
+import SVG_spoon from "./spoon";
+import SVG_sprayCanSparkles from "./spray-can-sparkles";
 import SVG_sprayCan from "./spray-can";
+import SVG_sprout from "./sprout";
+import SVG_squareArrowUpRight from "./square-arrow-up-right";
+import SVG_squareBinary from "./square-binary";
+import SVG_squareCaretDown from "./square-caret-down";
+import SVG_squareCaretLeft from "./square-caret-left";
+import SVG_squareCaretRight from "./square-caret-right";
+import SVG_squareCaretUp from "./square-caret-up";
+import SVG_squareCheck from "./square-check";
+import SVG_squareEnvelope from "./square-envelope";
 import SVG_squareFull from "./square-full";
+import SVG_squareH from "./square-h";
+import SVG_squareMinus from "./square-minus";
+import SVG_squareNfi from "./square-nfi";
+import SVG_squareParking from "./square-parking";
+import SVG_squarePen from "./square-pen";
+import SVG_squarePersonConfined from "./square-person-confined";
+import SVG_squarePhoneFlip from "./square-phone-flip";
+import SVG_squarePhone from "./square-phone";
+import SVG_squarePlus from "./square-plus";
+import SVG_squarePollHorizontal from "./square-poll-horizontal";
+import SVG_squarePollVertical from "./square-poll-vertical";
 import SVG_squareRootAlt from "./square-root-alt";
+import SVG_squareRootVariable from "./square-root-variable";
+import SVG_squareRss from "./square-rss";
+import SVG_squareShareNodes from "./square-share-nodes";
+import SVG_squareUpRight from "./square-up-right";
+import SVG_squareVirus from "./square-virus";
+import SVG_squareXmark from "./square-xmark";
 import SVG_square from "./square";
+import SVG_staffAesculapius from "./staff-aesculapius";
+import SVG_staffSnake from "./staff-snake";
+import SVG_stairs from "./stairs";
 import SVG_stamp from "./stamp";
+import SVG_stapler from "./stapler";
 import SVG_starAndCrescent from "./star-and-crescent";
 import SVG_starHalfAlt from "./star-half-alt";
+import SVG_starHalfStroke from "./star-half-stroke";
 import SVG_starHalf from "./star-half";
 import SVG_starOfDavid from "./star-of-david";
 import SVG_starOfLife from "./star-of-life";
 import SVG_star from "./star";
 import SVG_stepBackward from "./step-backward";
 import SVG_stepForward from "./step-forward";
+import SVG_sterlingSign from "./sterling-sign";
 import SVG_stethoscope from "./stethoscope";
 import SVG_stickyNote from "./sticky-note";
 import SVG_stopCircle from "./stop-circle";
@@ -841,9 +1659,12 @@ import SVG_streetView from "./street-view";
 import SVG_strikethrough from "./strikethrough";
 import SVG_stroopwafel from "./stroopwafel";
 import SVG_subscript from "./subscript";
+import SVG_subtract from "./subtract";
 import SVG_subway from "./subway";
+import SVG_suitcaseMedical from "./suitcase-medical";
 import SVG_suitcaseRolling from "./suitcase-rolling";
 import SVG_suitcase from "./suitcase";
+import SVG_sunPlantWilt from "./sun-plant-wilt";
 import SVG_sun from "./sun";
 import SVG_superscript from "./superscript";
 import SVG_surprise from "./surprise";
@@ -854,76 +1675,171 @@ import SVG_synagogue from "./synagogue";
 import SVG_syncAlt from "./sync-alt";
 import SVG_sync from "./sync";
 import SVG_syringe from "./syringe";
+import SVG_tShirt from "./t-shirt";
+import SVG_t from "./t";
+import SVG_tableCellsColumnLock from "./table-cells-column-lock";
+import SVG_tableCellsLarge from "./table-cells-large";
+import SVG_tableCellsRowLock from "./table-cells-row-lock";
+import SVG_tableCellsRowUnlock from "./table-cells-row-unlock";
+import SVG_tableCells from "./table-cells";
+import SVG_tableColumns from "./table-columns";
+import SVG_tableList from "./table-list";
+import SVG_tableTennisPaddleBall from "./table-tennis-paddle-ball";
 import SVG_tableTennis from "./table-tennis";
 import SVG_table from "./table";
 import SVG_tabletAlt from "./tablet-alt";
+import SVG_tabletAndroid from "./tablet-android";
+import SVG_tabletButton from "./tablet-button";
+import SVG_tabletScreenButton from "./tablet-screen-button";
 import SVG_tablet from "./tablet";
 import SVG_tablets from "./tablets";
+import SVG_tachographDigital from "./tachograph-digital";
+import SVG_tachometerAltAverage from "./tachometer-alt-average";
+import SVG_tachometerAltFast from "./tachometer-alt-fast";
 import SVG_tachometerAlt from "./tachometer-alt";
+import SVG_tachometerAverage from "./tachometer-average";
+import SVG_tachometerFast from "./tachometer-fast";
+import SVG_tachometer from "./tachometer";
 import SVG_tag from "./tag";
 import SVG_tags from "./tags";
+import SVG_tanakh from "./tanakh";
 import SVG_tape from "./tape";
+import SVG_tarpDroplet from "./tarp-droplet";
+import SVG_tarp from "./tarp";
+import SVG_tasksAlt from "./tasks-alt";
 import SVG_tasks from "./tasks";
 import SVG_taxi from "./taxi";
 import SVG_teethOpen from "./teeth-open";
 import SVG_teeth from "./teeth";
+import SVG_teletype from "./teletype";
+import SVG_television from "./television";
+import SVG_temperature0 from "./temperature-0";
+import SVG_temperature1 from "./temperature-1";
+import SVG_temperature2 from "./temperature-2";
+import SVG_temperature3 from "./temperature-3";
+import SVG_temperature4 from "./temperature-4";
+import SVG_temperatureArrowDown from "./temperature-arrow-down";
+import SVG_temperatureArrowUp from "./temperature-arrow-up";
+import SVG_temperatureDown from "./temperature-down";
+import SVG_temperatureEmpty from "./temperature-empty";
+import SVG_temperatureFull from "./temperature-full";
+import SVG_temperatureHalf from "./temperature-half";
 import SVG_temperatureHigh from "./temperature-high";
 import SVG_temperatureLow from "./temperature-low";
+import SVG_temperatureQuarter from "./temperature-quarter";
+import SVG_temperatureThreeQuarters from "./temperature-three-quarters";
+import SVG_temperatureUp from "./temperature-up";
+import SVG_tengeSign from "./tenge-sign";
 import SVG_tenge from "./tenge";
+import SVG_tentArrowDownToLine from "./tent-arrow-down-to-line";
+import SVG_tentArrowLeftRight from "./tent-arrow-left-right";
+import SVG_tentArrowTurnLeft from "./tent-arrow-turn-left";
+import SVG_tentArrowsDown from "./tent-arrows-down";
+import SVG_tent from "./tent";
+import SVG_tents from "./tents";
 import SVG_terminal from "./terminal";
 import SVG_textHeight from "./text-height";
+import SVG_textSlash from "./text-slash";
 import SVG_textWidth from "./text-width";
 import SVG_thLarge from "./th-large";
 import SVG_thList from "./th-list";
 import SVG_th from "./th";
 import SVG_theaterMasks from "./theater-masks";
+import SVG_thermometer0 from "./thermometer-0";
+import SVG_thermometer1 from "./thermometer-1";
+import SVG_thermometer2 from "./thermometer-2";
+import SVG_thermometer3 from "./thermometer-3";
+import SVG_thermometer4 from "./thermometer-4";
 import SVG_thermometerEmpty from "./thermometer-empty";
 import SVG_thermometerFull from "./thermometer-full";
 import SVG_thermometerHalf from "./thermometer-half";
 import SVG_thermometerQuarter from "./thermometer-quarter";
 import SVG_thermometerThreeQuarters from "./thermometer-three-quarters";
 import SVG_thermometer from "./thermometer";
+import SVG_thumbTackSlash from "./thumb-tack-slash";
+import SVG_thumbTack from "./thumb-tack";
 import SVG_thumbsDown from "./thumbs-down";
 import SVG_thumbsUp from "./thumbs-up";
+import SVG_thumbtackSlash from "./thumbtack-slash";
 import SVG_thumbtack from "./thumbtack";
+import SVG_thunderstorm from "./thunderstorm";
 import SVG_ticketAlt from "./ticket-alt";
+import SVG_ticketSimple from "./ticket-simple";
+import SVG_ticket from "./ticket";
+import SVG_timeline from "./timeline";
 import SVG_timesCircle from "./times-circle";
+import SVG_timesRectangle from "./times-rectangle";
+import SVG_timesSquare from "./times-square";
 import SVG_times from "./times";
 import SVG_tintSlash from "./tint-slash";
 import SVG_tint from "./tint";
 import SVG_tired from "./tired";
 import SVG_toggleOff from "./toggle-off";
 import SVG_toggleOn from "./toggle-on";
+import SVG_toiletPaperAlt from "./toilet-paper-alt";
+import SVG_toiletPaperBlank from "./toilet-paper-blank";
 import SVG_toiletPaperSlash from "./toilet-paper-slash";
 import SVG_toiletPaper from "./toilet-paper";
+import SVG_toiletPortable from "./toilet-portable";
 import SVG_toilet from "./toilet";
+import SVG_toiletsPortable from "./toilets-portable";
 import SVG_toolbox from "./toolbox";
 import SVG_tools from "./tools";
 import SVG_tooth from "./tooth";
 import SVG_torah from "./torah";
 import SVG_toriiGate from "./torii-gate";
+import SVG_tornado from "./tornado";
+import SVG_towerBroadcast from "./tower-broadcast";
+import SVG_towerCell from "./tower-cell";
+import SVG_towerObservation from "./tower-observation";
 import SVG_tractor from "./tractor";
 import SVG_trademark from "./trademark";
 import SVG_trafficLight from "./traffic-light";
 import SVG_trailer from "./trailer";
+import SVG_trainSubway from "./train-subway";
+import SVG_trainTram from "./train-tram";
 import SVG_train from "./train";
 import SVG_tram from "./tram";
 import SVG_transgenderAlt from "./transgender-alt";
 import SVG_transgender from "./transgender";
 import SVG_trashAlt from "./trash-alt";
+import SVG_trashArrowUp from "./trash-arrow-up";
+import SVG_trashCanArrowUp from "./trash-can-arrow-up";
+import SVG_trashCan from "./trash-can";
 import SVG_trashRestoreAlt from "./trash-restore-alt";
 import SVG_trashRestore from "./trash-restore";
 import SVG_trash from "./trash";
+import SVG_treeCity from "./tree-city";
 import SVG_tree from "./tree";
+import SVG_triangleCircleSquare from "./triangle-circle-square";
+import SVG_triangleExclamation from "./triangle-exclamation";
 import SVG_trophy from "./trophy";
+import SVG_trowelBricks from "./trowel-bricks";
+import SVG_trowel from "./trowel";
+import SVG_truckArrowRight from "./truck-arrow-right";
+import SVG_truckDroplet from "./truck-droplet";
+import SVG_truckFast from "./truck-fast";
+import SVG_truckFieldUn from "./truck-field-un";
+import SVG_truckField from "./truck-field";
+import SVG_truckFront from "./truck-front";
 import SVG_truckLoading from "./truck-loading";
+import SVG_truckMedical from "./truck-medical";
 import SVG_truckMonster from "./truck-monster";
 import SVG_truckMoving from "./truck-moving";
 import SVG_truckPickup from "./truck-pickup";
+import SVG_truckPlane from "./truck-plane";
+import SVG_truckRampBox from "./truck-ramp-box";
 import SVG_truck from "./truck";
+import SVG_try from "./try";
 import SVG_tshirt from "./tshirt";
 import SVG_tty from "./tty";
+import SVG_turkishLiraSign from "./turkish-lira-sign";
+import SVG_turkishLira from "./turkish-lira";
+import SVG_turnDown from "./turn-down";
+import SVG_turnUp from "./turn-up";
+import SVG_tvAlt from "./tv-alt";
 import SVG_tv from "./tv";
+import SVG_u from "./u";
 import SVG_umbrellaBeach from "./umbrella-beach";
 import SVG_umbrella from "./umbrella";
 import SVG_underline from "./underline";
@@ -933,8 +1849,16 @@ import SVG_universalAccess from "./universal-access";
 import SVG_university from "./university";
 import SVG_unlink from "./unlink";
 import SVG_unlockAlt from "./unlock-alt";
+import SVG_unlockKeyhole from "./unlock-keyhole";
 import SVG_unlock from "./unlock";
+import SVG_unsorted from "./unsorted";
+import SVG_upDownLeftRight from "./up-down-left-right";
+import SVG_upDown from "./up-down";
+import SVG_upLong from "./up-long";
+import SVG_upRightAndDownLeftFromCenter from "./up-right-and-down-left-from-center";
+import SVG_upRightFromSquare from "./up-right-from-square";
 import SVG_upload from "./upload";
+import SVG_usd from "./usd";
 import SVG_userAltSlash from "./user-alt-slash";
 import SVG_userAlt from "./user-alt";
 import SVG_userAstronaut from "./user-astronaut";
@@ -942,15 +1866,21 @@ import SVG_userCheck from "./user-check";
 import SVG_userCircle from "./user-circle";
 import SVG_userClock from "./user-clock";
 import SVG_userCog from "./user-cog";
+import SVG_userDoctor from "./user-doctor";
 import SVG_userEdit from "./user-edit";
 import SVG_userFriends from "./user-friends";
+import SVG_userGear from "./user-gear";
 import SVG_userGraduate from "./user-graduate";
+import SVG_userGroup from "./user-group";
 import SVG_userInjured from "./user-injured";
+import SVG_userLargeSlash from "./user-large-slash";
+import SVG_userLarge from "./user-large";
 import SVG_userLock from "./user-lock";
 import SVG_userMd from "./user-md";
 import SVG_userMinus from "./user-minus";
 import SVG_userNinja from "./user-ninja";
 import SVG_userNurse from "./user-nurse";
+import SVG_userPen from "./user-pen";
 import SVG_userPlus from "./user-plus";
 import SVG_userSecret from "./user-secret";
 import SVG_userShield from "./user-shield";
@@ -958,42 +1888,82 @@ import SVG_userSlash from "./user-slash";
 import SVG_userTag from "./user-tag";
 import SVG_userTie from "./user-tie";
 import SVG_userTimes from "./user-times";
+import SVG_userXmark from "./user-xmark";
 import SVG_user from "./user";
+import SVG_usersBetweenLines from "./users-between-lines";
 import SVG_usersCog from "./users-cog";
+import SVG_usersGear from "./users-gear";
+import SVG_usersLine from "./users-line";
+import SVG_usersRays from "./users-rays";
+import SVG_usersRectangle from "./users-rectangle";
 import SVG_usersSlash from "./users-slash";
+import SVG_usersViewfinder from "./users-viewfinder";
 import SVG_users from "./users";
 import SVG_utensilSpoon from "./utensil-spoon";
 import SVG_utensils from "./utensils";
-import SVG_vectorSquare from "./vector-square";
+import SVG_v from "./v";
+import SVG_vanShuttle from "./van-shuttle";
+import SVG_vault from "./vault";
+import SVG_vcard from "./vcard";
+import SVG_vectorPolygon from "./vector-polygon";
 import SVG_venusDouble from "./venus-double";
 import SVG_venusMars from "./venus-mars";
 import SVG_venus from "./venus";
 import SVG_vestPatches from "./vest-patches";
 import SVG_vest from "./vest";
+import SVG_vialCircleCheck from "./vial-circle-check";
+import SVG_vialVirus from "./vial-virus";
 import SVG_vial from "./vial";
 import SVG_vials from "./vials";
+import SVG_videoCamera from "./video-camera";
 import SVG_videoSlash from "./video-slash";
 import SVG_video from "./video";
 import SVG_vihara from "./vihara";
+import SVG_virusCovidSlash from "./virus-covid-slash";
+import SVG_virusCovid from "./virus-covid";
 import SVG_virusSlash from "./virus-slash";
 import SVG_virus from "./virus";
 import SVG_viruses from "./viruses";
 import SVG_voicemail from "./voicemail";
+import SVG_volcano from "./volcano";
 import SVG_volleyballBall from "./volleyball-ball";
+import SVG_volleyball from "./volleyball";
+import SVG_volumeControlPhone from "./volume-control-phone";
 import SVG_volumeDown from "./volume-down";
+import SVG_volumeHigh from "./volume-high";
+import SVG_volumeLow from "./volume-low";
 import SVG_volumeMute from "./volume-mute";
 import SVG_volumeOff from "./volume-off";
+import SVG_volumeTimes from "./volume-times";
 import SVG_volumeUp from "./volume-up";
+import SVG_volumeXmark from "./volume-xmark";
 import SVG_voteYea from "./vote-yea";
 import SVG_vrCardboard from "./vr-cardboard";
+import SVG_w from "./w";
+import SVG_walkieTalkie from "./walkie-talkie";
 import SVG_walking from "./walking";
 import SVG_wallet from "./wallet";
+import SVG_wandMagicSparkles from "./wand-magic-sparkles";
+import SVG_wandMagic from "./wand-magic";
+import SVG_wandSparkles from "./wand-sparkles";
 import SVG_warehouse from "./warehouse";
+import SVG_warning from "./warning";
+import SVG_waterLadder from "./water-ladder";
 import SVG_water from "./water";
 import SVG_waveSquare from "./wave-square";
+import SVG_webAwesome from "./web-awesome";
 import SVG_weightHanging from "./weight-hanging";
+import SVG_weightScale from "./weight-scale";
 import SVG_weight from "./weight";
+import SVG_wheatAlt from "./wheat-alt";
+import SVG_wheatAwnCircleExclamation from "./wheat-awn-circle-exclamation";
+import SVG_wheatAwn from "./wheat-awn";
+import SVG_wheelchairAlt from "./wheelchair-alt";
+import SVG_wheelchairMove from "./wheelchair-move";
 import SVG_wheelchair from "./wheelchair";
+import SVG_whiskeyGlass from "./whiskey-glass";
+import SVG_wifi3 from "./wifi-3";
+import SVG_wifiStrong from "./wifi-strong";
 import SVG_wifi from "./wifi";
 import SVG_wind from "./wind";
 import SVG_windowClose from "./window-close";
@@ -1002,20 +1972,45 @@ import SVG_windowMinimize from "./window-minimize";
 import SVG_windowRestore from "./window-restore";
 import SVG_wineBottle from "./wine-bottle";
 import SVG_wineGlassAlt from "./wine-glass-alt";
+import SVG_wineGlassEmpty from "./wine-glass-empty";
 import SVG_wineGlass from "./wine-glass";
 import SVG_wonSign from "./won-sign";
+import SVG_won from "./won";
+import SVG_worm from "./worm";
 import SVG_wrench from "./wrench";
 import SVG_xRay from "./x-ray";
+import SVG_x from "./x";
+import SVG_xmarkCircle from "./xmark-circle";
+import SVG_xmarkSquare from "./xmark-square";
+import SVG_xmark from "./xmark";
+import SVG_xmarksLines from "./xmarks-lines";
+import SVG_y from "./y";
 import SVG_yenSign from "./yen-sign";
-import SVG_yinYang from "./yin-yang"
+import SVG_yen from "./yen";
+import SVG_yinYang from "./yin-yang";
+import SVG_z from "./z";
+import SVG_zap from "./zap"
 
 // map
 const contentMap = {
+"0": SVG_0,
+"1": SVG_1,
+"2": SVG_2,
+"3": SVG_3,
+"4": SVG_4,
+"5": SVG_5,
+"6": SVG_6,
+"7": SVG_7,
+"8": SVG_8,
+"9": SVG_9,
+"a": SVG_a,
 "ad": SVG_ad,
+"add": SVG_add,
 "address-book": SVG_addressBook,
 "address-card": SVG_addressCard,
 "adjust": SVG_adjust,
 "air-freshener": SVG_airFreshener,
+"alarm-clock": SVG_alarmClock,
 "align-center": SVG_alignCenter,
 "align-justify": SVG_alignJustify,
 "align-left": SVG_alignLeft,
@@ -1023,6 +2018,10 @@ const contentMap = {
 "allergies": SVG_allergies,
 "ambulance": SVG_ambulance,
 "american-sign-language-interpreting": SVG_americanSignLanguageInterpreting,
+"anchor-circle-check": SVG_anchorCircleCheck,
+"anchor-circle-exclamation": SVG_anchorCircleExclamation,
+"anchor-circle-xmark": SVG_anchorCircleXmark,
+"anchor-lock": SVG_anchorLock,
 "anchor": SVG_anchor,
 "angle-double-down": SVG_angleDoubleDown,
 "angle-double-left": SVG_angleDoubleLeft,
@@ -1032,11 +2031,17 @@ const contentMap = {
 "angle-left": SVG_angleLeft,
 "angle-right": SVG_angleRight,
 "angle-up": SVG_angleUp,
+"angles-down": SVG_anglesDown,
+"angles-left": SVG_anglesLeft,
+"angles-right": SVG_anglesRight,
+"angles-up": SVG_anglesUp,
 "angry": SVG_angry,
 "ankh": SVG_ankh,
 "apple-alt": SVG_appleAlt,
+"apple-whole": SVG_appleWhole,
 "archive": SVG_archive,
 "archway": SVG_archway,
+"area-chart": SVG_areaChart,
 "arrow-alt-circle-down": SVG_arrowAltCircleDown,
 "arrow-alt-circle-left": SVG_arrowAltCircleLeft,
 "arrow-alt-circle-right": SVG_arrowAltCircleRight,
@@ -1045,45 +2050,134 @@ const contentMap = {
 "arrow-circle-left": SVG_arrowCircleLeft,
 "arrow-circle-right": SVG_arrowCircleRight,
 "arrow-circle-up": SVG_arrowCircleUp,
+"arrow-down-1-9": SVG_arrowDown19,
+"arrow-down-9-1": SVG_arrowDown91,
+"arrow-down-a-z": SVG_arrowDownAZ,
+"arrow-down-long": SVG_arrowDownLong,
+"arrow-down-short-wide": SVG_arrowDownShortWide,
+"arrow-down-up-across-line": SVG_arrowDownUpAcrossLine,
+"arrow-down-up-lock": SVG_arrowDownUpLock,
+"arrow-down-wide-short": SVG_arrowDownWideShort,
+"arrow-down-z-a": SVG_arrowDownZA,
 "arrow-down": SVG_arrowDown,
+"arrow-left-long": SVG_arrowLeftLong,
+"arrow-left-rotate": SVG_arrowLeftRotate,
 "arrow-left": SVG_arrowLeft,
+"arrow-pointer": SVG_arrowPointer,
+"arrow-right-arrow-left": SVG_arrowRightArrowLeft,
+"arrow-right-from-bracket": SVG_arrowRightFromBracket,
+"arrow-right-from-file": SVG_arrowRightFromFile,
+"arrow-right-long": SVG_arrowRightLong,
+"arrow-right-rotate": SVG_arrowRightRotate,
+"arrow-right-to-bracket": SVG_arrowRightToBracket,
+"arrow-right-to-city": SVG_arrowRightToCity,
+"arrow-right-to-file": SVG_arrowRightToFile,
 "arrow-right": SVG_arrowRight,
+"arrow-rotate-back": SVG_arrowRotateBack,
+"arrow-rotate-backward": SVG_arrowRotateBackward,
+"arrow-rotate-forward": SVG_arrowRotateForward,
+"arrow-rotate-left": SVG_arrowRotateLeft,
+"arrow-rotate-right": SVG_arrowRotateRight,
+"arrow-trend-down": SVG_arrowTrendDown,
+"arrow-trend-up": SVG_arrowTrendUp,
+"arrow-turn-down": SVG_arrowTurnDown,
+"arrow-turn-up": SVG_arrowTurnUp,
+"arrow-up-1-9": SVG_arrowUp19,
+"arrow-up-9-1": SVG_arrowUp91,
+"arrow-up-a-z": SVG_arrowUpAZ,
+"arrow-up-from-bracket": SVG_arrowUpFromBracket,
+"arrow-up-from-ground-water": SVG_arrowUpFromGroundWater,
+"arrow-up-from-water-pump": SVG_arrowUpFromWaterPump,
+"arrow-up-long": SVG_arrowUpLong,
+"arrow-up-right-dots": SVG_arrowUpRightDots,
+"arrow-up-right-from-square": SVG_arrowUpRightFromSquare,
+"arrow-up-short-wide": SVG_arrowUpShortWide,
+"arrow-up-wide-short": SVG_arrowUpWideShort,
+"arrow-up-z-a": SVG_arrowUpZA,
 "arrow-up": SVG_arrowUp,
 "arrows-alt-h": SVG_arrowsAltH,
 "arrows-alt-v": SVG_arrowsAltV,
 "arrows-alt": SVG_arrowsAlt,
+"arrows-down-to-line": SVG_arrowsDownToLine,
+"arrows-down-to-people": SVG_arrowsDownToPeople,
+"arrows-h": SVG_arrowsH,
+"arrows-left-right-to-line": SVG_arrowsLeftRightToLine,
+"arrows-left-right": SVG_arrowsLeftRight,
+"arrows-rotate": SVG_arrowsRotate,
+"arrows-spin": SVG_arrowsSpin,
+"arrows-split-up-and-left": SVG_arrowsSplitUpAndLeft,
+"arrows-to-circle": SVG_arrowsToCircle,
+"arrows-to-dot": SVG_arrowsToDot,
+"arrows-to-eye": SVG_arrowsToEye,
+"arrows-turn-right": SVG_arrowsTurnRight,
+"arrows-turn-to-dots": SVG_arrowsTurnToDots,
+"arrows-up-down-left-right": SVG_arrowsUpDownLeftRight,
+"arrows-up-down": SVG_arrowsUpDown,
+"arrows-up-to-line": SVG_arrowsUpToLine,
+"arrows-v": SVG_arrowsV,
+"arrows": SVG_arrows,
+"asl-interpreting": SVG_aslInterpreting,
 "assistive-listening-systems": SVG_assistiveListeningSystems,
 "asterisk": SVG_asterisk,
 "at": SVG_at,
 "atlas": SVG_atlas,
 "atom": SVG_atom,
 "audio-description": SVG_audioDescription,
+"austral-sign": SVG_australSign,
+"automobile": SVG_automobile,
 "award": SVG_award,
+"b": SVG_b,
 "baby-carriage": SVG_babyCarriage,
 "baby": SVG_baby,
 "backspace": SVG_backspace,
+"backward-fast": SVG_backwardFast,
+"backward-step": SVG_backwardStep,
 "backward": SVG_backward,
 "bacon": SVG_bacon,
 "bacteria": SVG_bacteria,
 "bacterium": SVG_bacterium,
+"bag-shopping": SVG_bagShopping,
 "bahai": SVG_bahai,
+"baht-sign": SVG_bahtSign,
 "balance-scale-left": SVG_balanceScaleLeft,
 "balance-scale-right": SVG_balanceScaleRight,
 "balance-scale": SVG_balanceScale,
+"ban-smoking": SVG_banSmoking,
 "ban": SVG_ban,
 "band-aid": SVG_bandAid,
+"bandage": SVG_bandage,
+"bangladeshi-taka-sign": SVG_bangladeshiTakaSign,
+"bank": SVG_bank,
+"bar-chart": SVG_barChart,
 "barcode": SVG_barcode,
+"bars-progress": SVG_barsProgress,
+"bars-staggered": SVG_barsStaggered,
 "bars": SVG_bars,
 "baseball-ball": SVG_baseballBall,
+"baseball-bat-ball": SVG_baseballBatBall,
+"baseball": SVG_baseball,
+"basket-shopping": SVG_basketShopping,
 "basketball-ball": SVG_basketballBall,
+"basketball": SVG_basketball,
 "bath": SVG_bath,
+"bathtub": SVG_bathtub,
+"battery-0": SVG_battery0,
+"battery-2": SVG_battery2,
+"battery-3": SVG_battery3,
+"battery-4": SVG_battery4,
+"battery-5": SVG_battery5,
+"battery-car": SVG_batteryCar,
 "battery-empty": SVG_batteryEmpty,
 "battery-full": SVG_batteryFull,
 "battery-half": SVG_batteryHalf,
 "battery-quarter": SVG_batteryQuarter,
 "battery-three-quarters": SVG_batteryThreeQuarters,
+"battery": SVG_battery,
+"bed-pulse": SVG_bedPulse,
 "bed": SVG_bed,
+"beer-mug-empty": SVG_beerMugEmpty,
 "beer": SVG_beer,
+"bell-concierge": SVG_bellConcierge,
 "bell-slash": SVG_bellSlash,
 "bell": SVG_bell,
 "bezier-curve": SVG_bezierCurve,
@@ -1093,64 +2187,127 @@ const contentMap = {
 "binoculars": SVG_binoculars,
 "biohazard": SVG_biohazard,
 "birthday-cake": SVG_birthdayCake,
+"bitcoin-sign": SVG_bitcoinSign,
+"blackboard": SVG_blackboard,
 "blender-phone": SVG_blenderPhone,
 "blender": SVG_blender,
 "blind": SVG_blind,
 "blog": SVG_blog,
 "bold": SVG_bold,
+"bolt-lightning": SVG_boltLightning,
 "bolt": SVG_bolt,
 "bomb": SVG_bomb,
 "bone": SVG_bone,
 "bong": SVG_bong,
+"book-atlas": SVG_bookAtlas,
+"book-bible": SVG_bookBible,
+"book-bookmark": SVG_bookBookmark,
 "book-dead": SVG_bookDead,
+"book-journal-whills": SVG_bookJournalWhills,
 "book-medical": SVG_bookMedical,
+"book-open-reader": SVG_bookOpenReader,
 "book-open": SVG_bookOpen,
+"book-quran": SVG_bookQuran,
 "book-reader": SVG_bookReader,
+"book-skull": SVG_bookSkull,
+"book-tanakh": SVG_bookTanakh,
 "book": SVG_book,
 "bookmark": SVG_bookmark,
 "border-all": SVG_borderAll,
 "border-none": SVG_borderNone,
 "border-style": SVG_borderStyle,
+"border-top-left": SVG_borderTopLeft,
+"bore-hole": SVG_boreHole,
+"bottle-droplet": SVG_bottleDroplet,
+"bottle-water": SVG_bottleWater,
+"bowl-food": SVG_bowlFood,
+"bowl-rice": SVG_bowlRice,
 "bowling-ball": SVG_bowlingBall,
+"box-archive": SVG_boxArchive,
 "box-open": SVG_boxOpen,
 "box-tissue": SVG_boxTissue,
 "box": SVG_box,
+"boxes-alt": SVG_boxesAlt,
+"boxes-packing": SVG_boxesPacking,
+"boxes-stacked": SVG_boxesStacked,
 "boxes": SVG_boxes,
 "braille": SVG_braille,
 "brain": SVG_brain,
+"brazilian-real-sign": SVG_brazilianRealSign,
 "bread-slice": SVG_breadSlice,
+"bridge-circle-check": SVG_bridgeCircleCheck,
+"bridge-circle-exclamation": SVG_bridgeCircleExclamation,
+"bridge-circle-xmark": SVG_bridgeCircleXmark,
+"bridge-lock": SVG_bridgeLock,
+"bridge-water": SVG_bridgeWater,
+"bridge": SVG_bridge,
+"briefcase-clock": SVG_briefcaseClock,
 "briefcase-medical": SVG_briefcaseMedical,
 "briefcase": SVG_briefcase,
 "broadcast-tower": SVG_broadcastTower,
+"broom-ball": SVG_broomBall,
 "broom": SVG_broom,
 "brush": SVG_brush,
+"bucket": SVG_bucket,
+"bug-slash": SVG_bugSlash,
 "bug": SVG_bug,
+"bugs": SVG_bugs,
+"building-circle-arrow-right": SVG_buildingCircleArrowRight,
+"building-circle-check": SVG_buildingCircleCheck,
+"building-circle-exclamation": SVG_buildingCircleExclamation,
+"building-circle-xmark": SVG_buildingCircleXmark,
+"building-columns": SVG_buildingColumns,
+"building-flag": SVG_buildingFlag,
+"building-lock": SVG_buildingLock,
+"building-ngo": SVG_buildingNgo,
+"building-shield": SVG_buildingShield,
+"building-un": SVG_buildingUn,
+"building-user": SVG_buildingUser,
+"building-wheat": SVG_buildingWheat,
 "building": SVG_building,
 "bullhorn": SVG_bullhorn,
 "bullseye": SVG_bullseye,
+"burger": SVG_burger,
 "burn": SVG_burn,
+"burst": SVG_burst,
 "bus-alt": SVG_busAlt,
+"bus-side": SVG_busSide,
+"bus-simple": SVG_busSimple,
 "bus": SVG_bus,
 "business-time": SVG_businessTime,
+"c": SVG_c,
+"cab": SVG_cab,
+"cable-car": SVG_cableCar,
+"cake-candles": SVG_cakeCandles,
+"cake": SVG_cake,
 "calculator": SVG_calculator,
 "calendar-alt": SVG_calendarAlt,
 "calendar-check": SVG_calendarCheck,
 "calendar-day": SVG_calendarDay,
+"calendar-days": SVG_calendarDays,
 "calendar-minus": SVG_calendarMinus,
 "calendar-plus": SVG_calendarPlus,
 "calendar-times": SVG_calendarTimes,
 "calendar-week": SVG_calendarWeek,
+"calendar-xmark": SVG_calendarXmark,
 "calendar": SVG_calendar,
+"camera-alt": SVG_cameraAlt,
 "camera-retro": SVG_cameraRetro,
+"camera-rotate": SVG_cameraRotate,
 "camera": SVG_camera,
 "campground": SVG_campground,
+"cancel": SVG_cancel,
 "candy-cane": SVG_candyCane,
 "cannabis": SVG_cannabis,
 "capsules": SVG_capsules,
 "car-alt": SVG_carAlt,
 "car-battery": SVG_carBattery,
+"car-burst": SVG_carBurst,
 "car-crash": SVG_carCrash,
+"car-on": SVG_carOn,
+"car-rear": SVG_carRear,
 "car-side": SVG_carSide,
+"car-tunnel": SVG_carTunnel,
 "car": SVG_car,
 "caravan": SVG_caravan,
 "caret-down": SVG_caretDown,
@@ -1161,23 +2318,39 @@ const contentMap = {
 "caret-square-right": SVG_caretSquareRight,
 "caret-square-up": SVG_caretSquareUp,
 "caret-up": SVG_caretUp,
+"carriage-baby": SVG_carriageBaby,
 "carrot": SVG_carrot,
 "cart-arrow-down": SVG_cartArrowDown,
+"cart-flatbed-suitcase": SVG_cartFlatbedSuitcase,
+"cart-flatbed": SVG_cartFlatbed,
 "cart-plus": SVG_cartPlus,
+"cart-shopping": SVG_cartShopping,
 "cash-register": SVG_cashRegister,
 "cat": SVG_cat,
+"cedi-sign": SVG_cediSign,
+"cent-sign": SVG_centSign,
 "certificate": SVG_certificate,
+"chain-broken": SVG_chainBroken,
+"chain-slash": SVG_chainSlash,
+"chain": SVG_chain,
 "chair": SVG_chair,
 "chalkboard-teacher": SVG_chalkboardTeacher,
+"chalkboard-user": SVG_chalkboardUser,
 "chalkboard": SVG_chalkboard,
+"champagne-glasses": SVG_champagneGlasses,
 "charging-station": SVG_chargingStation,
 "chart-area": SVG_chartArea,
 "chart-bar": SVG_chartBar,
+"chart-column": SVG_chartColumn,
+"chart-diagram": SVG_chartDiagram,
+"chart-gantt": SVG_chartGantt,
 "chart-line": SVG_chartLine,
 "chart-pie": SVG_chartPie,
+"chart-simple": SVG_chartSimple,
 "check-circle": SVG_checkCircle,
 "check-double": SVG_checkDouble,
 "check-square": SVG_checkSquare,
+"check-to-slot": SVG_checkToSlot,
 "check": SVG_check,
 "cheese": SVG_cheese,
 "chess-bishop": SVG_chessBishop,
@@ -1196,72 +2369,152 @@ const contentMap = {
 "chevron-left": SVG_chevronLeft,
 "chevron-right": SVG_chevronRight,
 "chevron-up": SVG_chevronUp,
+"child-combatant": SVG_childCombatant,
+"child-dress": SVG_childDress,
+"child-reaching": SVG_childReaching,
+"child-rifle": SVG_childRifle,
 "child": SVG_child,
+"children": SVG_children,
 "church": SVG_church,
+"circle-arrow-down": SVG_circleArrowDown,
+"circle-arrow-left": SVG_circleArrowLeft,
+"circle-arrow-right": SVG_circleArrowRight,
+"circle-arrow-up": SVG_circleArrowUp,
+"circle-check": SVG_circleCheck,
+"circle-chevron-down": SVG_circleChevronDown,
+"circle-chevron-left": SVG_circleChevronLeft,
+"circle-chevron-right": SVG_circleChevronRight,
+"circle-chevron-up": SVG_circleChevronUp,
+"circle-dollar-to-slot": SVG_circleDollarToSlot,
+"circle-dot": SVG_circleDot,
+"circle-down": SVG_circleDown,
+"circle-exclamation": SVG_circleExclamation,
+"circle-h": SVG_circleH,
+"circle-half-stroke": SVG_circleHalfStroke,
+"circle-info": SVG_circleInfo,
+"circle-left": SVG_circleLeft,
+"circle-minus": SVG_circleMinus,
+"circle-nodes": SVG_circleNodes,
 "circle-notch": SVG_circleNotch,
+"circle-pause": SVG_circlePause,
+"circle-play": SVG_circlePlay,
+"circle-plus": SVG_circlePlus,
+"circle-question": SVG_circleQuestion,
+"circle-radiation": SVG_circleRadiation,
+"circle-right": SVG_circleRight,
+"circle-stop": SVG_circleStop,
+"circle-up": SVG_circleUp,
+"circle-user": SVG_circleUser,
+"circle-xmark": SVG_circleXmark,
 "circle": SVG_circle,
 "city": SVG_city,
+"clapperboard": SVG_clapperboard,
 "clinic-medical": SVG_clinicMedical,
 "clipboard-check": SVG_clipboardCheck,
 "clipboard-list": SVG_clipboardList,
+"clipboard-question": SVG_clipboardQuestion,
+"clipboard-user": SVG_clipboardUser,
 "clipboard": SVG_clipboard,
+"clock-four": SVG_clockFour,
+"clock-rotate-left": SVG_clockRotateLeft,
 "clock": SVG_clock,
 "clone": SVG_clone,
+"close": SVG_close,
 "closed-captioning": SVG_closedCaptioning,
+"cloud-arrow-down": SVG_cloudArrowDown,
+"cloud-arrow-up": SVG_cloudArrowUp,
+"cloud-bolt": SVG_cloudBolt,
 "cloud-download-alt": SVG_cloudDownloadAlt,
+"cloud-download": SVG_cloudDownload,
 "cloud-meatball": SVG_cloudMeatball,
 "cloud-moon-rain": SVG_cloudMoonRain,
 "cloud-moon": SVG_cloudMoon,
 "cloud-rain": SVG_cloudRain,
 "cloud-showers-heavy": SVG_cloudShowersHeavy,
+"cloud-showers-water": SVG_cloudShowersWater,
 "cloud-sun-rain": SVG_cloudSunRain,
 "cloud-sun": SVG_cloudSun,
 "cloud-upload-alt": SVG_cloudUploadAlt,
+"cloud-upload": SVG_cloudUpload,
 "cloud": SVG_cloud,
+"clover": SVG_clover,
+"cny": SVG_cny,
 "cocktail": SVG_cocktail,
 "code-branch": SVG_codeBranch,
+"code-commit": SVG_codeCommit,
+"code-compare": SVG_codeCompare,
+"code-fork": SVG_codeFork,
+"code-merge": SVG_codeMerge,
+"code-pull-request": SVG_codePullRequest,
 "code": SVG_code,
 "coffee": SVG_coffee,
 "cog": SVG_cog,
 "cogs": SVG_cogs,
 "coins": SVG_coins,
+"colon-sign": SVG_colonSign,
 "columns": SVG_columns,
 "comment-alt": SVG_commentAlt,
 "comment-dollar": SVG_commentDollar,
 "comment-dots": SVG_commentDots,
 "comment-medical": SVG_commentMedical,
+"comment-nodes": SVG_commentNodes,
 "comment-slash": SVG_commentSlash,
+"comment-sms": SVG_commentSms,
 "comment": SVG_comment,
+"commenting": SVG_commenting,
 "comments-dollar": SVG_commentsDollar,
 "comments": SVG_comments,
 "compact-disc": SVG_compactDisc,
+"compass-drafting": SVG_compassDrafting,
 "compass": SVG_compass,
 "compress-alt": SVG_compressAlt,
 "compress-arrows-alt": SVG_compressArrowsAlt,
 "compress": SVG_compress,
+"computer-mouse": SVG_computerMouse,
+"computer": SVG_computer,
 "concierge-bell": SVG_conciergeBell,
+"contact-book": SVG_contactBook,
+"contact-card": SVG_contactCard,
 "cookie-bite": SVG_cookieBite,
 "cookie": SVG_cookie,
 "copy": SVG_copy,
 "copyright": SVG_copyright,
 "couch": SVG_couch,
+"cow": SVG_cow,
+"credit-card-alt": SVG_creditCardAlt,
 "credit-card": SVG_creditCard,
 "crop-alt": SVG_cropAlt,
+"crop-simple": SVG_cropSimple,
 "crop": SVG_crop,
 "cross": SVG_cross,
 "crosshairs": SVG_crosshairs,
 "crow": SVG_crow,
 "crown": SVG_crown,
 "crutch": SVG_crutch,
+"cruzeiro-sign": SVG_cruzeiroSign,
 "cube": SVG_cube,
+"cubes-stacked": SVG_cubesStacked,
 "cubes": SVG_cubes,
 "cut": SVG_cut,
+"cutlery": SVG_cutlery,
+"d": SVG_d,
+"dashboard": SVG_dashboard,
 "database": SVG_database,
 "deaf": SVG_deaf,
+"deafness": SVG_deafness,
+"dedent": SVG_dedent,
+"delete-left": SVG_deleteLeft,
 "democrat": SVG_democrat,
+"desktop-alt": SVG_desktopAlt,
 "desktop": SVG_desktop,
 "dharmachakra": SVG_dharmachakra,
 "diagnoses": SVG_diagnoses,
+"diagram-next": SVG_diagramNext,
+"diagram-predecessor": SVG_diagramPredecessor,
+"diagram-project": SVG_diagramProject,
+"diagram-successor": SVG_diagramSuccessor,
+"diamond-turn-right": SVG_diamondTurnRight,
+"diamond": SVG_diamond,
 "dice-d20": SVG_diceD20,
 "dice-d6": SVG_diceD6,
 "dice-five": SVG_diceFive,
@@ -1271,25 +2524,35 @@ const contentMap = {
 "dice-three": SVG_diceThree,
 "dice-two": SVG_diceTwo,
 "dice": SVG_dice,
+"digging": SVG_digging,
 "digital-tachograph": SVG_digitalTachograph,
 "directions": SVG_directions,
 "disease": SVG_disease,
+"display": SVG_display,
 "divide": SVG_divide,
 "dizzy": SVG_dizzy,
 "dna": SVG_dna,
 "dog": SVG_dog,
 "dollar-sign": SVG_dollarSign,
+"dollar": SVG_dollar,
+"dolly-box": SVG_dollyBox,
 "dolly-flatbed": SVG_dollyFlatbed,
 "dolly": SVG_dolly,
 "donate": SVG_donate,
+"dong-sign": SVG_dongSign,
 "door-closed": SVG_doorClosed,
 "door-open": SVG_doorOpen,
 "dot-circle": SVG_dotCircle,
 "dove": SVG_dove,
+"down-left-and-up-right-to-center": SVG_downLeftAndUpRightToCenter,
+"down-long": SVG_downLong,
 "download": SVG_download,
 "drafting-compass": SVG_draftingCompass,
 "dragon": SVG_dragon,
 "draw-polygon": SVG_drawPolygon,
+"drivers-license": SVG_driversLicense,
+"droplet-slash": SVG_dropletSlash,
+"droplet": SVG_droplet,
 "drum-steelpan": SVG_drumSteelpan,
 "drum": SVG_drum,
 "drumstick-bite": SVG_drumstickBite,
@@ -1297,95 +2560,209 @@ const contentMap = {
 "dumpster-fire": SVG_dumpsterFire,
 "dumpster": SVG_dumpster,
 "dungeon": SVG_dungeon,
+"e": SVG_e,
+"ear-deaf": SVG_earDeaf,
+"ear-listen": SVG_earListen,
+"earth-africa": SVG_earthAfrica,
+"earth-america": SVG_earthAmerica,
+"earth-americas": SVG_earthAmericas,
+"earth-asia": SVG_earthAsia,
+"earth-europe": SVG_earthEurope,
+"earth-oceania": SVG_earthOceania,
+"earth": SVG_earth,
 "edit": SVG_edit,
 "egg": SVG_egg,
 "eject": SVG_eject,
+"elevator": SVG_elevator,
 "ellipsis-h": SVG_ellipsisH,
 "ellipsis-v": SVG_ellipsisV,
+"ellipsis-vertical": SVG_ellipsisVertical,
+"ellipsis": SVG_ellipsis,
+"envelope-circle-check": SVG_envelopeCircleCheck,
 "envelope-open-text": SVG_envelopeOpenText,
 "envelope-open": SVG_envelopeOpen,
 "envelope-square": SVG_envelopeSquare,
 "envelope": SVG_envelope,
+"envelopes-bulk": SVG_envelopesBulk,
 "equals": SVG_equals,
 "eraser": SVG_eraser,
 "ethernet": SVG_ethernet,
+"eur": SVG_eur,
 "euro-sign": SVG_euroSign,
+"euro": SVG_euro,
 "exchange-alt": SVG_exchangeAlt,
+"exchange": SVG_exchange,
 "exclamation-circle": SVG_exclamationCircle,
 "exclamation-triangle": SVG_exclamationTriangle,
 "exclamation": SVG_exclamation,
 "expand-alt": SVG_expandAlt,
 "expand-arrows-alt": SVG_expandArrowsAlt,
 "expand": SVG_expand,
+"explosion": SVG_explosion,
 "external-link-alt": SVG_externalLinkAlt,
 "external-link-square-alt": SVG_externalLinkSquareAlt,
+"external-link-square": SVG_externalLinkSquare,
+"external-link": SVG_externalLink,
+"eye-dropper-empty": SVG_eyeDropperEmpty,
 "eye-dropper": SVG_eyeDropper,
+"eye-low-vision": SVG_eyeLowVision,
 "eye-slash": SVG_eyeSlash,
 "eye": SVG_eye,
+"eyedropper": SVG_eyedropper,
+"f": SVG_f,
+"face-angry": SVG_faceAngry,
+"face-dizzy": SVG_faceDizzy,
+"face-flushed": SVG_faceFlushed,
+"face-frown-open": SVG_faceFrownOpen,
+"face-frown": SVG_faceFrown,
+"face-grimace": SVG_faceGrimace,
+"face-grin-beam-sweat": SVG_faceGrinBeamSweat,
+"face-grin-beam": SVG_faceGrinBeam,
+"face-grin-hearts": SVG_faceGrinHearts,
+"face-grin-squint-tears": SVG_faceGrinSquintTears,
+"face-grin-squint": SVG_faceGrinSquint,
+"face-grin-stars": SVG_faceGrinStars,
+"face-grin-tears": SVG_faceGrinTears,
+"face-grin-tongue-squint": SVG_faceGrinTongueSquint,
+"face-grin-tongue-wink": SVG_faceGrinTongueWink,
+"face-grin-tongue": SVG_faceGrinTongue,
+"face-grin-wide": SVG_faceGrinWide,
+"face-grin-wink": SVG_faceGrinWink,
+"face-grin": SVG_faceGrin,
+"face-kiss-beam": SVG_faceKissBeam,
+"face-kiss-wink-heart": SVG_faceKissWinkHeart,
+"face-kiss": SVG_faceKiss,
+"face-laugh-beam": SVG_faceLaughBeam,
+"face-laugh-squint": SVG_faceLaughSquint,
+"face-laugh-wink": SVG_faceLaughWink,
+"face-laugh": SVG_faceLaugh,
+"face-meh-blank": SVG_faceMehBlank,
+"face-meh": SVG_faceMeh,
+"face-rolling-eyes": SVG_faceRollingEyes,
+"face-sad-cry": SVG_faceSadCry,
+"face-sad-tear": SVG_faceSadTear,
+"face-smile-beam": SVG_faceSmileBeam,
+"face-smile-wink": SVG_faceSmileWink,
+"face-smile": SVG_faceSmile,
+"face-surprise": SVG_faceSurprise,
+"face-tired": SVG_faceTired,
 "fan": SVG_fan,
 "fast-backward": SVG_fastBackward,
 "fast-forward": SVG_fastForward,
+"faucet-drip": SVG_faucetDrip,
 "faucet": SVG_faucet,
 "fax": SVG_fax,
 "feather-alt": SVG_featherAlt,
+"feather-pointed": SVG_featherPointed,
 "feather": SVG_feather,
+"feed": SVG_feed,
 "female": SVG_female,
+"ferry": SVG_ferry,
 "fighter-jet": SVG_fighterJet,
 "file-alt": SVG_fileAlt,
 "file-archive": SVG_fileArchive,
+"file-arrow-down": SVG_fileArrowDown,
+"file-arrow-up": SVG_fileArrowUp,
 "file-audio": SVG_fileAudio,
+"file-circle-check": SVG_fileCircleCheck,
+"file-circle-exclamation": SVG_fileCircleExclamation,
+"file-circle-minus": SVG_fileCircleMinus,
+"file-circle-plus": SVG_fileCirclePlus,
+"file-circle-question": SVG_fileCircleQuestion,
+"file-circle-xmark": SVG_fileCircleXmark,
+"file-clipboard": SVG_fileClipboard,
 "file-code": SVG_fileCode,
 "file-contract": SVG_fileContract,
 "file-csv": SVG_fileCsv,
 "file-download": SVG_fileDownload,
+"file-edit": SVG_fileEdit,
 "file-excel": SVG_fileExcel,
 "file-export": SVG_fileExport,
+"file-fragment": SVG_fileFragment,
+"file-half-dashed": SVG_fileHalfDashed,
 "file-image": SVG_fileImage,
 "file-import": SVG_fileImport,
 "file-invoice-dollar": SVG_fileInvoiceDollar,
 "file-invoice": SVG_fileInvoice,
+"file-lines": SVG_fileLines,
 "file-medical-alt": SVG_fileMedicalAlt,
 "file-medical": SVG_fileMedical,
 "file-pdf": SVG_filePdf,
+"file-pen": SVG_filePen,
 "file-powerpoint": SVG_filePowerpoint,
 "file-prescription": SVG_filePrescription,
+"file-shield": SVG_fileShield,
 "file-signature": SVG_fileSignature,
+"file-text": SVG_fileText,
 "file-upload": SVG_fileUpload,
 "file-video": SVG_fileVideo,
+"file-waveform": SVG_fileWaveform,
 "file-word": SVG_fileWord,
+"file-zipper": SVG_fileZipper,
 "file": SVG_file,
 "fill-drip": SVG_fillDrip,
 "fill": SVG_fill,
+"film-alt": SVG_filmAlt,
+"film-simple": SVG_filmSimple,
 "film": SVG_film,
+"filter-circle-dollar": SVG_filterCircleDollar,
+"filter-circle-xmark": SVG_filterCircleXmark,
 "filter": SVG_filter,
 "fingerprint": SVG_fingerprint,
 "fire-alt": SVG_fireAlt,
+"fire-burner": SVG_fireBurner,
 "fire-extinguisher": SVG_fireExtinguisher,
+"fire-flame-curved": SVG_fireFlameCurved,
+"fire-flame-simple": SVG_fireFlameSimple,
 "fire": SVG_fire,
 "first-aid": SVG_firstAid,
+"fish-fins": SVG_fishFins,
 "fish": SVG_fish,
 "fist-raised": SVG_fistRaised,
 "flag-checkered": SVG_flagCheckered,
 "flag-usa": SVG_flagUsa,
 "flag": SVG_flag,
+"flask-vial": SVG_flaskVial,
 "flask": SVG_flask,
+"floppy-disk": SVG_floppyDisk,
+"florin-sign": SVG_florinSign,
 "flushed": SVG_flushed,
+"folder-blank": SVG_folderBlank,
+"folder-closed": SVG_folderClosed,
 "folder-minus": SVG_folderMinus,
 "folder-open": SVG_folderOpen,
 "folder-plus": SVG_folderPlus,
+"folder-tree": SVG_folderTree,
 "folder": SVG_folder,
+"font-awesome-flag": SVG_fontAwesomeFlag,
 "font-awesome-logo-full": SVG_fontAwesomeLogoFull,
+"font-awesome": SVG_fontAwesome,
 "font": SVG_font,
 "football-ball": SVG_footballBall,
+"football": SVG_football,
+"forward-fast": SVG_forwardFast,
+"forward-step": SVG_forwardStep,
 "forward": SVG_forward,
+"franc-sign": SVG_francSign,
 "frog": SVG_frog,
 "frown-open": SVG_frownOpen,
 "frown": SVG_frown,
 "funnel-dollar": SVG_funnelDollar,
+"futbol-ball": SVG_futbolBall,
 "futbol": SVG_futbol,
+"g": SVG_g,
 "gamepad": SVG_gamepad,
 "gas-pump": SVG_gasPump,
+"gauge-high": SVG_gaugeHigh,
+"gauge-med": SVG_gaugeMed,
+"gauge-simple-high": SVG_gaugeSimpleHigh,
+"gauge-simple-med": SVG_gaugeSimpleMed,
+"gauge-simple": SVG_gaugeSimple,
+"gauge": SVG_gauge,
 "gavel": SVG_gavel,
+"gbp": SVG_gbp,
+"gear": SVG_gear,
+"gears": SVG_gears,
 "gem": SVG_gem,
 "genderless": SVG_genderless,
 "ghost": SVG_ghost,
@@ -1394,18 +2771,24 @@ const contentMap = {
 "glass-cheers": SVG_glassCheers,
 "glass-martini-alt": SVG_glassMartiniAlt,
 "glass-martini": SVG_glassMartini,
+"glass-water-droplet": SVG_glassWaterDroplet,
+"glass-water": SVG_glassWater,
 "glass-whiskey": SVG_glassWhiskey,
 "glasses": SVG_glasses,
 "globe-africa": SVG_globeAfrica,
 "globe-americas": SVG_globeAmericas,
 "globe-asia": SVG_globeAsia,
 "globe-europe": SVG_globeEurope,
+"globe-oceania": SVG_globeOceania,
 "globe": SVG_globe,
+"golf-ball-tee": SVG_golfBallTee,
 "golf-ball": SVG_golfBall,
 "gopuram": SVG_gopuram,
 "graduation-cap": SVG_graduationCap,
 "greater-than-equal": SVG_greaterThanEqual,
 "greater-than": SVG_greaterThan,
+"grid-horizontal": SVG_gridHorizontal,
+"grid-vertical": SVG_gridVertical,
 "grimace": SVG_grimace,
 "grin-alt": SVG_grinAlt,
 "grin-beam-sweat": SVG_grinBeamSweat,
@@ -1424,11 +2807,22 @@ const contentMap = {
 "grip-lines-vertical": SVG_gripLinesVertical,
 "grip-lines": SVG_gripLines,
 "grip-vertical": SVG_gripVertical,
+"grip": SVG_grip,
+"group-arrows-rotate": SVG_groupArrowsRotate,
+"guarani-sign": SVG_guaraniSign,
 "guitar": SVG_guitar,
+"gun": SVG_gun,
 "h-square": SVG_hSquare,
+"h": SVG_h,
 "hamburger": SVG_hamburger,
 "hammer": SVG_hammer,
 "hamsa": SVG_hamsa,
+"hand-back-fist": SVG_handBackFist,
+"hand-dots": SVG_handDots,
+"hand-fist": SVG_handFist,
+"hand-holding-dollar": SVG_handHoldingDollar,
+"hand-holding-droplet": SVG_handHoldingDroplet,
+"hand-holding-hand": SVG_handHoldingHand,
 "hand-holding-heart": SVG_handHoldingHeart,
 "hand-holding-medical": SVG_handHoldingMedical,
 "hand-holding-usd": SVG_handHoldingUsd,
@@ -1447,122 +2841,263 @@ const contentMap = {
 "hand-scissors": SVG_handScissors,
 "hand-sparkles": SVG_handSparkles,
 "hand-spock": SVG_handSpock,
+"hand": SVG_hand,
+"handcuffs": SVG_handcuffs,
+"hands-american-sign-language-interpreting": SVG_handsAmericanSignLanguageInterpreting,
+"hands-asl-interpreting": SVG_handsAslInterpreting,
+"hands-bound": SVG_handsBound,
+"hands-bubbles": SVG_handsBubbles,
+"hands-clapping": SVG_handsClapping,
 "hands-helping": SVG_handsHelping,
+"hands-holding-child": SVG_handsHoldingChild,
+"hands-holding-circle": SVG_handsHoldingCircle,
+"hands-holding": SVG_handsHolding,
+"hands-praying": SVG_handsPraying,
 "hands-wash": SVG_handsWash,
 "hands": SVG_hands,
 "handshake-alt-slash": SVG_handshakeAltSlash,
+"handshake-alt": SVG_handshakeAlt,
+"handshake-angle": SVG_handshakeAngle,
+"handshake-simple-slash": SVG_handshakeSimpleSlash,
+"handshake-simple": SVG_handshakeSimple,
 "handshake-slash": SVG_handshakeSlash,
 "handshake": SVG_handshake,
 "hanukiah": SVG_hanukiah,
+"hard-drive": SVG_hardDrive,
 "hard-hat": SVG_hardHat,
+"hard-of-hearing": SVG_hardOfHearing,
 "hashtag": SVG_hashtag,
 "hat-cowboy-side": SVG_hatCowboySide,
 "hat-cowboy": SVG_hatCowboy,
+"hat-hard": SVG_hatHard,
 "hat-wizard": SVG_hatWizard,
+"haykal": SVG_haykal,
 "hdd": SVG_hdd,
 "head-side-cough-slash": SVG_headSideCoughSlash,
 "head-side-cough": SVG_headSideCough,
 "head-side-mask": SVG_headSideMask,
 "head-side-virus": SVG_headSideVirus,
+"header": SVG_header,
 "heading": SVG_heading,
 "headphones-alt": SVG_headphonesAlt,
+"headphones-simple": SVG_headphonesSimple,
 "headphones": SVG_headphones,
 "headset": SVG_headset,
 "heart-broken": SVG_heartBroken,
+"heart-circle-bolt": SVG_heartCircleBolt,
+"heart-circle-check": SVG_heartCircleCheck,
+"heart-circle-exclamation": SVG_heartCircleExclamation,
+"heart-circle-minus": SVG_heartCircleMinus,
+"heart-circle-plus": SVG_heartCirclePlus,
+"heart-circle-xmark": SVG_heartCircleXmark,
+"heart-crack": SVG_heartCrack,
+"heart-music-camera-bolt": SVG_heartMusicCameraBolt,
+"heart-pulse": SVG_heartPulse,
 "heart": SVG_heart,
 "heartbeat": SVG_heartbeat,
+"helicopter-symbol": SVG_helicopterSymbol,
 "helicopter": SVG_helicopter,
+"helmet-safety": SVG_helmetSafety,
+"helmet-un": SVG_helmetUn,
+"heptagon": SVG_heptagon,
+"hexagon-nodes-bolt": SVG_hexagonNodesBolt,
+"hexagon-nodes": SVG_hexagonNodes,
+"hexagon": SVG_hexagon,
 "highlighter": SVG_highlighter,
 "hiking": SVG_hiking,
+"hill-avalanche": SVG_hillAvalanche,
+"hill-rockslide": SVG_hillRockslide,
 "hippo": SVG_hippo,
 "history": SVG_history,
 "hockey-puck": SVG_hockeyPuck,
 "holly-berry": SVG_hollyBerry,
+"home-alt": SVG_homeAlt,
+"home-lg-alt": SVG_homeLgAlt,
+"home-lg": SVG_homeLg,
+"home-user": SVG_homeUser,
 "home": SVG_home,
 "horse-head": SVG_horseHead,
 "horse": SVG_horse,
 "hospital-alt": SVG_hospitalAlt,
 "hospital-symbol": SVG_hospitalSymbol,
 "hospital-user": SVG_hospitalUser,
+"hospital-wide": SVG_hospitalWide,
 "hospital": SVG_hospital,
+"hot-tub-person": SVG_hotTubPerson,
 "hot-tub": SVG_hotTub,
 "hotdog": SVG_hotdog,
 "hotel": SVG_hotel,
+"hourglass-1": SVG_hourglass1,
+"hourglass-2": SVG_hourglass2,
+"hourglass-3": SVG_hourglass3,
+"hourglass-empty": SVG_hourglassEmpty,
 "hourglass-end": SVG_hourglassEnd,
 "hourglass-half": SVG_hourglassHalf,
 "hourglass-start": SVG_hourglassStart,
 "hourglass": SVG_hourglass,
+"house-chimney-crack": SVG_houseChimneyCrack,
+"house-chimney-medical": SVG_houseChimneyMedical,
+"house-chimney-user": SVG_houseChimneyUser,
+"house-chimney-window": SVG_houseChimneyWindow,
+"house-chimney": SVG_houseChimney,
+"house-circle-check": SVG_houseCircleCheck,
+"house-circle-exclamation": SVG_houseCircleExclamation,
+"house-circle-xmark": SVG_houseCircleXmark,
+"house-crack": SVG_houseCrack,
 "house-damage": SVG_houseDamage,
+"house-fire": SVG_houseFire,
+"house-flag": SVG_houseFlag,
+"house-flood-water-circle-arrow-right": SVG_houseFloodWaterCircleArrowRight,
+"house-flood-water": SVG_houseFloodWater,
+"house-laptop": SVG_houseLaptop,
+"house-lock": SVG_houseLock,
+"house-medical-circle-check": SVG_houseMedicalCircleCheck,
+"house-medical-circle-exclamation": SVG_houseMedicalCircleExclamation,
+"house-medical-circle-xmark": SVG_houseMedicalCircleXmark,
+"house-medical-flag": SVG_houseMedicalFlag,
+"house-medical": SVG_houseMedical,
+"house-signal": SVG_houseSignal,
+"house-tsunami": SVG_houseTsunami,
 "house-user": SVG_houseUser,
+"house": SVG_house,
+"hryvnia-sign": SVG_hryvniaSign,
 "hryvnia": SVG_hryvnia,
+"hurricane": SVG_hurricane,
 "i-cursor": SVG_iCursor,
+"i": SVG_i,
 "ice-cream": SVG_iceCream,
 "icicles": SVG_icicles,
 "icons": SVG_icons,
 "id-badge": SVG_idBadge,
 "id-card-alt": SVG_idCardAlt,
+"id-card-clip": SVG_idCardClip,
 "id-card": SVG_idCard,
 "igloo": SVG_igloo,
+"ils": SVG_ils,
+"image-portrait": SVG_imagePortrait,
 "image": SVG_image,
 "images": SVG_images,
 "inbox": SVG_inbox,
 "indent": SVG_indent,
+"indian-rupee-sign": SVG_indianRupeeSign,
+"indian-rupee": SVG_indianRupee,
 "industry": SVG_industry,
 "infinity": SVG_infinity,
 "info-circle": SVG_infoCircle,
 "info": SVG_info,
+"inr": SVG_inr,
+"institution": SVG_institution,
 "italic": SVG_italic,
+"j": SVG_j,
+"jar-wheat": SVG_jarWheat,
+"jar": SVG_jar,
 "jedi": SVG_jedi,
+"jet-fighter-up": SVG_jetFighterUp,
+"jet-fighter": SVG_jetFighter,
 "joint": SVG_joint,
 "journal-whills": SVG_journalWhills,
+"jpy": SVG_jpy,
+"jug-detergent": SVG_jugDetergent,
+"k": SVG_k,
 "kaaba": SVG_kaaba,
 "key": SVG_key,
 "keyboard": SVG_keyboard,
 "khanda": SVG_khanda,
+"kip-sign": SVG_kipSign,
 "kiss-beam": SVG_kissBeam,
 "kiss-wink-heart": SVG_kissWinkHeart,
 "kiss": SVG_kiss,
+"kit-medical": SVG_kitMedical,
+"kitchen-set": SVG_kitchenSet,
 "kiwi-bird": SVG_kiwiBird,
+"krw": SVG_krw,
+"l": SVG_l,
+"ladder-water": SVG_ladderWater,
+"land-mine-on": SVG_landMineOn,
+"landmark-alt": SVG_landmarkAlt,
+"landmark-dome": SVG_landmarkDome,
+"landmark-flag": SVG_landmarkFlag,
 "landmark": SVG_landmark,
 "language": SVG_language,
 "laptop-code": SVG_laptopCode,
+"laptop-file": SVG_laptopFile,
 "laptop-house": SVG_laptopHouse,
 "laptop-medical": SVG_laptopMedical,
 "laptop": SVG_laptop,
+"lari-sign": SVG_lariSign,
 "laugh-beam": SVG_laughBeam,
 "laugh-squint": SVG_laughSquint,
 "laugh-wink": SVG_laughWink,
 "laugh": SVG_laugh,
 "layer-group": SVG_layerGroup,
 "leaf": SVG_leaf,
+"left-long": SVG_leftLong,
+"left-right": SVG_leftRight,
+"legal": SVG_legal,
 "lemon": SVG_lemon,
 "less-than-equal": SVG_lessThanEqual,
 "less-than": SVG_lessThan,
 "level-down-alt": SVG_levelDownAlt,
+"level-down": SVG_levelDown,
 "level-up-alt": SVG_levelUpAlt,
+"level-up": SVG_levelUp,
 "life-ring": SVG_lifeRing,
 "lightbulb": SVG_lightbulb,
+"line-chart": SVG_lineChart,
+"lines-leaning": SVG_linesLeaning,
+"link-slash": SVG_linkSlash,
 "link": SVG_link,
 "lira-sign": SVG_liraSign,
+"list-1-2": SVG_list12,
 "list-alt": SVG_listAlt,
+"list-check": SVG_listCheck,
+"list-dots": SVG_listDots,
+"list-numeric": SVG_listNumeric,
 "list-ol": SVG_listOl,
+"list-squares": SVG_listSquares,
 "list-ul": SVG_listUl,
 "list": SVG_list,
+"litecoin-sign": SVG_litecoinSign,
 "location-arrow": SVG_locationArrow,
+"location-crosshairs": SVG_locationCrosshairs,
+"location-dot": SVG_locationDot,
+"location-pin-lock": SVG_locationPinLock,
+"location-pin": SVG_locationPin,
+"location": SVG_location,
 "lock-open": SVG_lockOpen,
 "lock": SVG_lock,
+"locust": SVG_locust,
 "long-arrow-alt-down": SVG_longArrowAltDown,
 "long-arrow-alt-left": SVG_longArrowAltLeft,
 "long-arrow-alt-right": SVG_longArrowAltRight,
 "long-arrow-alt-up": SVG_longArrowAltUp,
+"long-arrow-down": SVG_longArrowDown,
+"long-arrow-left": SVG_longArrowLeft,
+"long-arrow-right": SVG_longArrowRight,
+"long-arrow-up": SVG_longArrowUp,
 "low-vision": SVG_lowVision,
 "luggage-cart": SVG_luggageCart,
 "lungs-virus": SVG_lungsVirus,
 "lungs": SVG_lungs,
+"m": SVG_m,
+"magic-wand-sparkles": SVG_magicWandSparkles,
 "magic": SVG_magic,
 "magnet": SVG_magnet,
+"magnifying-glass-arrow-right": SVG_magnifyingGlassArrowRight,
+"magnifying-glass-chart": SVG_magnifyingGlassChart,
+"magnifying-glass-dollar": SVG_magnifyingGlassDollar,
+"magnifying-glass-location": SVG_magnifyingGlassLocation,
+"magnifying-glass-minus": SVG_magnifyingGlassMinus,
+"magnifying-glass-plus": SVG_magnifyingGlassPlus,
+"magnifying-glass": SVG_magnifyingGlass,
 "mail-bulk": SVG_mailBulk,
+"mail-forward": SVG_mailForward,
+"mail-reply-all": SVG_mailReplyAll,
+"mail-reply": SVG_mailReply,
 "male": SVG_male,
+"manat-sign": SVG_manatSign,
+"map-location-dot": SVG_mapLocationDot,
+"map-location": SVG_mapLocation,
 "map-marked-alt": SVG_mapMarkedAlt,
 "map-marked": SVG_mapMarked,
 "map-marker-alt": SVG_mapMarkerAlt,
@@ -1571,12 +3106,24 @@ const contentMap = {
 "map-signs": SVG_mapSigns,
 "map": SVG_map,
 "marker": SVG_marker,
+"mars-and-venus-burst": SVG_marsAndVenusBurst,
+"mars-and-venus": SVG_marsAndVenus,
 "mars-double": SVG_marsDouble,
 "mars-stroke-h": SVG_marsStrokeH,
+"mars-stroke-right": SVG_marsStrokeRight,
+"mars-stroke-up": SVG_marsStrokeUp,
 "mars-stroke-v": SVG_marsStrokeV,
 "mars-stroke": SVG_marsStroke,
 "mars": SVG_mars,
+"martini-glass-citrus": SVG_martiniGlassCitrus,
+"martini-glass-empty": SVG_martiniGlassEmpty,
+"martini-glass": SVG_martiniGlass,
+"mask-face": SVG_maskFace,
+"mask-ventilator": SVG_maskVentilator,
 "mask": SVG_mask,
+"masks-theater": SVG_masksTheater,
+"mattress-pillow": SVG_mattressPillow,
+"maximize": SVG_maximize,
 "medal": SVG_medal,
 "medkit": SVG_medkit,
 "meh-blank": SVG_mehBlank,
@@ -1585,51 +3132,92 @@ const contentMap = {
 "memory": SVG_memory,
 "menorah": SVG_menorah,
 "mercury": SVG_mercury,
+"message": SVG_message,
 "meteor": SVG_meteor,
 "microchip": SVG_microchip,
 "microphone-alt-slash": SVG_microphoneAltSlash,
 "microphone-alt": SVG_microphoneAlt,
+"microphone-lines-slash": SVG_microphoneLinesSlash,
+"microphone-lines": SVG_microphoneLines,
 "microphone-slash": SVG_microphoneSlash,
 "microphone": SVG_microphone,
 "microscope": SVG_microscope,
+"mill-sign": SVG_millSign,
+"minimize": SVG_minimize,
 "minus-circle": SVG_minusCircle,
 "minus-square": SVG_minusSquare,
 "minus": SVG_minus,
 "mitten": SVG_mitten,
 "mobile-alt": SVG_mobileAlt,
+"mobile-android-alt": SVG_mobileAndroidAlt,
+"mobile-android": SVG_mobileAndroid,
+"mobile-button": SVG_mobileButton,
+"mobile-phone": SVG_mobilePhone,
+"mobile-retro": SVG_mobileRetro,
+"mobile-screen-button": SVG_mobileScreenButton,
+"mobile-screen": SVG_mobileScreen,
+"mobile-vibrate": SVG_mobileVibrate,
 "mobile": SVG_mobile,
+"money-bill-1-wave": SVG_moneyBill1Wave,
+"money-bill-1": SVG_moneyBill1,
 "money-bill-alt": SVG_moneyBillAlt,
+"money-bill-transfer": SVG_moneyBillTransfer,
+"money-bill-trend-up": SVG_moneyBillTrendUp,
 "money-bill-wave-alt": SVG_moneyBillWaveAlt,
 "money-bill-wave": SVG_moneyBillWave,
+"money-bill-wheat": SVG_moneyBillWheat,
 "money-bill": SVG_moneyBill,
+"money-bills": SVG_moneyBills,
 "money-check-alt": SVG_moneyCheckAlt,
+"money-check-dollar": SVG_moneyCheckDollar,
 "money-check": SVG_moneyCheck,
 "monument": SVG_monument,
 "moon": SVG_moon,
+"mortar-board": SVG_mortarBoard,
 "mortar-pestle": SVG_mortarPestle,
 "mosque": SVG_mosque,
+"mosquito-net": SVG_mosquitoNet,
+"mosquito": SVG_mosquito,
 "motorcycle": SVG_motorcycle,
+"mound": SVG_mound,
+"mountain-city": SVG_mountainCity,
+"mountain-sun": SVG_mountainSun,
 "mountain": SVG_mountain,
 "mouse-pointer": SVG_mousePointer,
 "mouse": SVG_mouse,
 "mug-hot": SVG_mugHot,
+"mug-saucer": SVG_mugSaucer,
+"multiply": SVG_multiply,
+"museum": SVG_museum,
 "music": SVG_music,
+"n": SVG_n,
+"naira-sign": SVG_nairaSign,
+"navicon": SVG_navicon,
 "network-wired": SVG_networkWired,
 "neuter": SVG_neuter,
 "newspaper": SVG_newspaper,
+"non-binary": SVG_nonBinary,
 "not-equal": SVG_notEqual,
+"notdef": SVG_notdef,
+"note-sticky": SVG_noteSticky,
 "notes-medical": SVG_notesMedical,
+"o": SVG_o,
 "object-group": SVG_objectGroup,
 "object-ungroup": SVG_objectUngroup,
+"octagon": SVG_octagon,
 "oil-can": SVG_oilCan,
+"oil-well": SVG_oilWell,
 "om": SVG_om,
 "otter": SVG_otter,
 "outdent": SVG_outdent,
+"p": SVG_p,
 "pager": SVG_pager,
 "paint-brush": SVG_paintBrush,
 "paint-roller": SVG_paintRoller,
+"paintbrush": SVG_paintbrush,
 "palette": SVG_palette,
 "pallet": SVG_pallet,
+"panorama": SVG_panorama,
 "paper-plane": SVG_paperPlane,
 "paperclip": SVG_paperclip,
 "parachute-box": SVG_parachuteBox,
@@ -1643,42 +3231,121 @@ const contentMap = {
 "paw": SVG_paw,
 "peace": SVG_peace,
 "pen-alt": SVG_penAlt,
+"pen-clip": SVG_penClip,
 "pen-fancy": SVG_penFancy,
 "pen-nib": SVG_penNib,
+"pen-ruler": SVG_penRuler,
 "pen-square": SVG_penSquare,
+"pen-to-square": SVG_penToSquare,
 "pen": SVG_pen,
 "pencil-alt": SVG_pencilAlt,
 "pencil-ruler": SVG_pencilRuler,
+"pencil-square": SVG_pencilSquare,
+"pencil": SVG_pencil,
+"pentagon": SVG_pentagon,
+"people-arrows-left-right": SVG_peopleArrowsLeftRight,
 "people-arrows": SVG_peopleArrows,
+"people-carry-box": SVG_peopleCarryBox,
 "people-carry": SVG_peopleCarry,
+"people-group": SVG_peopleGroup,
+"people-line": SVG_peopleLine,
+"people-pulling": SVG_peoplePulling,
+"people-robbery": SVG_peopleRobbery,
+"people-roof": SVG_peopleRoof,
 "pepper-hot": SVG_pepperHot,
 "percent": SVG_percent,
 "percentage": SVG_percentage,
+"person-arrow-down-to-line": SVG_personArrowDownToLine,
+"person-arrow-up-from-line": SVG_personArrowUpFromLine,
+"person-biking": SVG_personBiking,
 "person-booth": SVG_personBooth,
+"person-breastfeeding": SVG_personBreastfeeding,
+"person-burst": SVG_personBurst,
+"person-cane": SVG_personCane,
+"person-chalkboard": SVG_personChalkboard,
+"person-circle-check": SVG_personCircleCheck,
+"person-circle-exclamation": SVG_personCircleExclamation,
+"person-circle-minus": SVG_personCircleMinus,
+"person-circle-plus": SVG_personCirclePlus,
+"person-circle-question": SVG_personCircleQuestion,
+"person-circle-xmark": SVG_personCircleXmark,
+"person-digging": SVG_personDigging,
+"person-dots-from-line": SVG_personDotsFromLine,
+"person-dress-burst": SVG_personDressBurst,
+"person-dress": SVG_personDress,
+"person-drowning": SVG_personDrowning,
+"person-falling-burst": SVG_personFallingBurst,
+"person-falling": SVG_personFalling,
+"person-half-dress": SVG_personHalfDress,
+"person-harassing": SVG_personHarassing,
+"person-hiking": SVG_personHiking,
+"person-military-pointing": SVG_personMilitaryPointing,
+"person-military-rifle": SVG_personMilitaryRifle,
+"person-military-to-person": SVG_personMilitaryToPerson,
+"person-praying": SVG_personPraying,
+"person-pregnant": SVG_personPregnant,
+"person-rays": SVG_personRays,
+"person-rifle": SVG_personRifle,
+"person-running": SVG_personRunning,
+"person-shelter": SVG_personShelter,
+"person-skating": SVG_personSkating,
+"person-skiing-nordic": SVG_personSkiingNordic,
+"person-skiing": SVG_personSkiing,
+"person-snowboarding": SVG_personSnowboarding,
+"person-swimming": SVG_personSwimming,
+"person-through-window": SVG_personThroughWindow,
+"person-walking-arrow-loop-left": SVG_personWalkingArrowLoopLeft,
+"person-walking-arrow-right": SVG_personWalkingArrowRight,
+"person-walking-dashed-line-arrow-right": SVG_personWalkingDashedLineArrowRight,
+"person-walking-luggage": SVG_personWalkingLuggage,
+"person-walking-with-cane": SVG_personWalkingWithCane,
+"person-walking": SVG_personWalking,
+"person": SVG_person,
+"peseta-sign": SVG_pesetaSign,
+"peso-sign": SVG_pesoSign,
 "phone-alt": SVG_phoneAlt,
+"phone-flip": SVG_phoneFlip,
 "phone-slash": SVG_phoneSlash,
 "phone-square-alt": SVG_phoneSquareAlt,
 "phone-square": SVG_phoneSquare,
 "phone-volume": SVG_phoneVolume,
 "phone": SVG_phone,
+"photo-film": SVG_photoFilm,
 "photo-video": SVG_photoVideo,
+"pie-chart": SVG_pieChart,
 "piggy-bank": SVG_piggyBank,
 "pills": SVG_pills,
+"ping-pong-paddle-ball": SVG_pingPongPaddleBall,
 "pizza-slice": SVG_pizzaSlice,
 "place-of-worship": SVG_placeOfWorship,
 "plane-arrival": SVG_planeArrival,
+"plane-circle-check": SVG_planeCircleCheck,
+"plane-circle-exclamation": SVG_planeCircleExclamation,
+"plane-circle-xmark": SVG_planeCircleXmark,
 "plane-departure": SVG_planeDeparture,
+"plane-lock": SVG_planeLock,
 "plane-slash": SVG_planeSlash,
+"plane-up": SVG_planeUp,
 "plane": SVG_plane,
+"plant-wilt": SVG_plantWilt,
+"plate-wheat": SVG_plateWheat,
 "play-circle": SVG_playCircle,
 "play": SVG_play,
+"plug-circle-bolt": SVG_plugCircleBolt,
+"plug-circle-check": SVG_plugCircleCheck,
+"plug-circle-exclamation": SVG_plugCircleExclamation,
+"plug-circle-minus": SVG_plugCircleMinus,
+"plug-circle-plus": SVG_plugCirclePlus,
+"plug-circle-xmark": SVG_plugCircleXmark,
 "plug": SVG_plug,
 "plus-circle": SVG_plusCircle,
+"plus-minus": SVG_plusMinus,
 "plus-square": SVG_plusSquare,
 "plus": SVG_plus,
 "podcast": SVG_podcast,
 "poll-h": SVG_pollH,
 "poll": SVG_poll,
+"poo-bolt": SVG_pooBolt,
 "poo-storm": SVG_pooStorm,
 "poo": SVG_poo,
 "poop": SVG_poop,
@@ -1688,6 +3355,7 @@ const contentMap = {
 "pray": SVG_pray,
 "praying-hands": SVG_prayingHands,
 "prescription-bottle-alt": SVG_prescriptionBottleAlt,
+"prescription-bottle-medical": SVG_prescriptionBottleMedical,
 "prescription-bottle": SVG_prescriptionBottle,
 "prescription": SVG_prescription,
 "print": SVG_print,
@@ -1696,51 +3364,107 @@ const contentMap = {
 "pump-medical": SVG_pumpMedical,
 "pump-soap": SVG_pumpSoap,
 "puzzle-piece": SVG_puzzlePiece,
+"q": SVG_q,
 "qrcode": SVG_qrcode,
 "question-circle": SVG_questionCircle,
 "question": SVG_question,
+"quidditch-broom-ball": SVG_quidditchBroomBall,
 "quidditch": SVG_quidditch,
+"quote-left-alt": SVG_quoteLeftAlt,
 "quote-left": SVG_quoteLeft,
+"quote-right-alt": SVG_quoteRightAlt,
 "quote-right": SVG_quoteRight,
 "quran": SVG_quran,
+"r": SVG_r,
 "radiation-alt": SVG_radiationAlt,
 "radiation": SVG_radiation,
+"radio": SVG_radio,
 "rainbow": SVG_rainbow,
 "random": SVG_random,
+"ranking-star": SVG_rankingStar,
 "receipt": SVG_receipt,
 "record-vinyl": SVG_recordVinyl,
+"rectangle-ad": SVG_rectangleAd,
+"rectangle-list": SVG_rectangleList,
+"rectangle-times": SVG_rectangleTimes,
+"rectangle-xmark": SVG_rectangleXmark,
 "recycle": SVG_recycle,
 "redo-alt": SVG_redoAlt,
 "redo": SVG_redo,
+"refresh": SVG_refresh,
 "registered": SVG_registered,
 "remove-format": SVG_removeFormat,
+"remove": SVG_remove,
+"reorder": SVG_reorder,
+"repeat": SVG_repeat,
 "reply-all": SVG_replyAll,
 "reply": SVG_reply,
 "republican": SVG_republican,
 "restroom": SVG_restroom,
 "retweet": SVG_retweet,
 "ribbon": SVG_ribbon,
+"right-from-bracket": SVG_rightFromBracket,
+"right-left": SVG_rightLeft,
+"right-long": SVG_rightLong,
+"right-to-bracket": SVG_rightToBracket,
 "ring": SVG_ring,
+"rmb": SVG_rmb,
+"road-barrier": SVG_roadBarrier,
+"road-bridge": SVG_roadBridge,
+"road-circle-check": SVG_roadCircleCheck,
+"road-circle-exclamation": SVG_roadCircleExclamation,
+"road-circle-xmark": SVG_roadCircleXmark,
+"road-lock": SVG_roadLock,
+"road-spikes": SVG_roadSpikes,
 "road": SVG_road,
 "robot": SVG_robot,
 "rocket": SVG_rocket,
+"rod-asclepius": SVG_rodAsclepius,
+"rod-snake": SVG_rodSnake,
+"rotate-back": SVG_rotateBack,
+"rotate-backward": SVG_rotateBackward,
+"rotate-forward": SVG_rotateForward,
+"rotate-left": SVG_rotateLeft,
+"rotate-right": SVG_rotateRight,
+"rotate": SVG_rotate,
+"rouble": SVG_rouble,
 "route": SVG_route,
 "rss-square": SVG_rssSquare,
 "rss": SVG_rss,
+"rub": SVG_rub,
 "ruble-sign": SVG_rubleSign,
+"ruble": SVG_ruble,
+"rug": SVG_rug,
 "ruler-combined": SVG_rulerCombined,
 "ruler-horizontal": SVG_rulerHorizontal,
 "ruler-vertical": SVG_rulerVertical,
 "ruler": SVG_ruler,
 "running": SVG_running,
 "rupee-sign": SVG_rupeeSign,
+"rupee": SVG_rupee,
+"rupiah-sign": SVG_rupiahSign,
+"s": SVG_s,
+"sack-dollar": SVG_sackDollar,
+"sack-xmark": SVG_sackXmark,
 "sad-cry": SVG_sadCry,
 "sad-tear": SVG_sadTear,
+"sailboat": SVG_sailboat,
 "satellite-dish": SVG_satelliteDish,
 "satellite": SVG_satellite,
 "save": SVG_save,
+"scale-balanced": SVG_scaleBalanced,
+"scale-unbalanced-flip": SVG_scaleUnbalancedFlip,
+"scale-unbalanced": SVG_scaleUnbalanced,
+"school-circle-check": SVG_schoolCircleCheck,
+"school-circle-exclamation": SVG_schoolCircleExclamation,
+"school-circle-xmark": SVG_schoolCircleXmark,
+"school-flag": SVG_schoolFlag,
+"school-lock": SVG_schoolLock,
 "school": SVG_school,
+"scissors": SVG_scissors,
+"screwdriver-wrench": SVG_screwdriverWrench,
 "screwdriver": SVG_screwdriver,
+"scroll-torah": SVG_scrollTorah,
 "scroll": SVG_scroll,
 "sd-card": SVG_sdCard,
 "search-dollar": SVG_searchDollar,
@@ -1748,31 +3472,61 @@ const contentMap = {
 "search-minus": SVG_searchMinus,
 "search-plus": SVG_searchPlus,
 "search": SVG_search,
+"section": SVG_section,
 "seedling": SVG_seedling,
+"septagon": SVG_septagon,
 "server": SVG_server,
 "shapes": SVG_shapes,
 "share-alt-square": SVG_shareAltSquare,
 "share-alt": SVG_shareAlt,
+"share-from-square": SVG_shareFromSquare,
+"share-nodes": SVG_shareNodes,
 "share-square": SVG_shareSquare,
 "share": SVG_share,
+"sheet-plastic": SVG_sheetPlastic,
 "shekel-sign": SVG_shekelSign,
+"shekel": SVG_shekel,
+"sheqel-sign": SVG_sheqelSign,
+"sheqel": SVG_sheqel,
 "shield-alt": SVG_shieldAlt,
+"shield-blank": SVG_shieldBlank,
+"shield-cat": SVG_shieldCat,
+"shield-dog": SVG_shieldDog,
+"shield-halved": SVG_shieldHalved,
+"shield-heart": SVG_shieldHeart,
 "shield-virus": SVG_shieldVirus,
+"shield": SVG_shield,
 "ship": SVG_ship,
 "shipping-fast": SVG_shippingFast,
+"shirt": SVG_shirt,
 "shoe-prints": SVG_shoePrints,
+"shop-lock": SVG_shopLock,
+"shop-slash": SVG_shopSlash,
+"shop": SVG_shop,
 "shopping-bag": SVG_shoppingBag,
 "shopping-basket": SVG_shoppingBasket,
 "shopping-cart": SVG_shoppingCart,
 "shower": SVG_shower,
+"shrimp": SVG_shrimp,
+"shuffle": SVG_shuffle,
+"shuttle-space": SVG_shuttleSpace,
 "shuttle-van": SVG_shuttleVan,
+"sign-hanging": SVG_signHanging,
 "sign-in-alt": SVG_signInAlt,
+"sign-in": SVG_signIn,
 "sign-language": SVG_signLanguage,
 "sign-out-alt": SVG_signOutAlt,
+"sign-out": SVG_signOut,
 "sign": SVG_sign,
+"signal-5": SVG_signal5,
+"signal-perfect": SVG_signalPerfect,
 "signal": SVG_signal,
 "signature": SVG_signature,
+"signing": SVG_signing,
+"signs-post": SVG_signsPost,
 "sim-card": SVG_simCard,
+"single-quote-left": SVG_singleQuoteLeft,
+"single-quote-right": SVG_singleQuoteRight,
 "sink": SVG_sink,
 "sitemap": SVG_sitemap,
 "skating": SVG_skating,
@@ -1783,6 +3537,7 @@ const contentMap = {
 "slash": SVG_slash,
 "sleigh": SVG_sleigh,
 "sliders-h": SVG_slidersH,
+"sliders": SVG_sliders,
 "smile-beam": SVG_smileBeam,
 "smile-wink": SVG_smileWink,
 "smile": SVG_smile,
@@ -1795,17 +3550,26 @@ const contentMap = {
 "snowman": SVG_snowman,
 "snowplow": SVG_snowplow,
 "soap": SVG_soap,
+"soccer-ball": SVG_soccerBall,
 "socks": SVG_socks,
 "solar-panel": SVG_solarPanel,
+"sort-alpha-asc": SVG_sortAlphaAsc,
+"sort-alpha-desc": SVG_sortAlphaDesc,
 "sort-alpha-down-alt": SVG_sortAlphaDownAlt,
 "sort-alpha-down": SVG_sortAlphaDown,
 "sort-alpha-up-alt": SVG_sortAlphaUpAlt,
 "sort-alpha-up": SVG_sortAlphaUp,
+"sort-amount-asc": SVG_sortAmountAsc,
+"sort-amount-desc": SVG_sortAmountDesc,
 "sort-amount-down-alt": SVG_sortAmountDownAlt,
 "sort-amount-down": SVG_sortAmountDown,
 "sort-amount-up-alt": SVG_sortAmountUpAlt,
 "sort-amount-up": SVG_sortAmountUp,
+"sort-asc": SVG_sortAsc,
+"sort-desc": SVG_sortDesc,
 "sort-down": SVG_sortDown,
+"sort-numeric-asc": SVG_sortNumericAsc,
+"sort-numeric-desc": SVG_sortNumericDesc,
 "sort-numeric-down-alt": SVG_sortNumericDownAlt,
 "sort-numeric-down": SVG_sortNumericDown,
 "sort-numeric-up-alt": SVG_sortNumericUpAlt,
@@ -1814,23 +3578,59 @@ const contentMap = {
 "sort": SVG_sort,
 "spa": SVG_spa,
 "space-shuttle": SVG_spaceShuttle,
+"spaghetti-monster-flying": SVG_spaghettiMonsterFlying,
 "spell-check": SVG_spellCheck,
 "spider": SVG_spider,
 "spinner": SVG_spinner,
+"spiral": SVG_spiral,
 "splotch": SVG_splotch,
+"spoon": SVG_spoon,
+"spray-can-sparkles": SVG_sprayCanSparkles,
 "spray-can": SVG_sprayCan,
+"sprout": SVG_sprout,
+"square-arrow-up-right": SVG_squareArrowUpRight,
+"square-binary": SVG_squareBinary,
+"square-caret-down": SVG_squareCaretDown,
+"square-caret-left": SVG_squareCaretLeft,
+"square-caret-right": SVG_squareCaretRight,
+"square-caret-up": SVG_squareCaretUp,
+"square-check": SVG_squareCheck,
+"square-envelope": SVG_squareEnvelope,
 "square-full": SVG_squareFull,
+"square-h": SVG_squareH,
+"square-minus": SVG_squareMinus,
+"square-nfi": SVG_squareNfi,
+"square-parking": SVG_squareParking,
+"square-pen": SVG_squarePen,
+"square-person-confined": SVG_squarePersonConfined,
+"square-phone-flip": SVG_squarePhoneFlip,
+"square-phone": SVG_squarePhone,
+"square-plus": SVG_squarePlus,
+"square-poll-horizontal": SVG_squarePollHorizontal,
+"square-poll-vertical": SVG_squarePollVertical,
 "square-root-alt": SVG_squareRootAlt,
+"square-root-variable": SVG_squareRootVariable,
+"square-rss": SVG_squareRss,
+"square-share-nodes": SVG_squareShareNodes,
+"square-up-right": SVG_squareUpRight,
+"square-virus": SVG_squareVirus,
+"square-xmark": SVG_squareXmark,
 "square": SVG_square,
+"staff-aesculapius": SVG_staffAesculapius,
+"staff-snake": SVG_staffSnake,
+"stairs": SVG_stairs,
 "stamp": SVG_stamp,
+"stapler": SVG_stapler,
 "star-and-crescent": SVG_starAndCrescent,
 "star-half-alt": SVG_starHalfAlt,
+"star-half-stroke": SVG_starHalfStroke,
 "star-half": SVG_starHalf,
 "star-of-david": SVG_starOfDavid,
 "star-of-life": SVG_starOfLife,
 "star": SVG_star,
 "step-backward": SVG_stepBackward,
 "step-forward": SVG_stepForward,
+"sterling-sign": SVG_sterlingSign,
 "stethoscope": SVG_stethoscope,
 "sticky-note": SVG_stickyNote,
 "stop-circle": SVG_stopCircle,
@@ -1846,9 +3646,12 @@ const contentMap = {
 "strikethrough": SVG_strikethrough,
 "stroopwafel": SVG_stroopwafel,
 "subscript": SVG_subscript,
+"subtract": SVG_subtract,
 "subway": SVG_subway,
+"suitcase-medical": SVG_suitcaseMedical,
 "suitcase-rolling": SVG_suitcaseRolling,
 "suitcase": SVG_suitcase,
+"sun-plant-wilt": SVG_sunPlantWilt,
 "sun": SVG_sun,
 "superscript": SVG_superscript,
 "surprise": SVG_surprise,
@@ -1859,76 +3662,171 @@ const contentMap = {
 "sync-alt": SVG_syncAlt,
 "sync": SVG_sync,
 "syringe": SVG_syringe,
+"t-shirt": SVG_tShirt,
+"t": SVG_t,
+"table-cells-column-lock": SVG_tableCellsColumnLock,
+"table-cells-large": SVG_tableCellsLarge,
+"table-cells-row-lock": SVG_tableCellsRowLock,
+"table-cells-row-unlock": SVG_tableCellsRowUnlock,
+"table-cells": SVG_tableCells,
+"table-columns": SVG_tableColumns,
+"table-list": SVG_tableList,
+"table-tennis-paddle-ball": SVG_tableTennisPaddleBall,
 "table-tennis": SVG_tableTennis,
 "table": SVG_table,
 "tablet-alt": SVG_tabletAlt,
+"tablet-android": SVG_tabletAndroid,
+"tablet-button": SVG_tabletButton,
+"tablet-screen-button": SVG_tabletScreenButton,
 "tablet": SVG_tablet,
 "tablets": SVG_tablets,
+"tachograph-digital": SVG_tachographDigital,
+"tachometer-alt-average": SVG_tachometerAltAverage,
+"tachometer-alt-fast": SVG_tachometerAltFast,
 "tachometer-alt": SVG_tachometerAlt,
+"tachometer-average": SVG_tachometerAverage,
+"tachometer-fast": SVG_tachometerFast,
+"tachometer": SVG_tachometer,
 "tag": SVG_tag,
 "tags": SVG_tags,
+"tanakh": SVG_tanakh,
 "tape": SVG_tape,
+"tarp-droplet": SVG_tarpDroplet,
+"tarp": SVG_tarp,
+"tasks-alt": SVG_tasksAlt,
 "tasks": SVG_tasks,
 "taxi": SVG_taxi,
 "teeth-open": SVG_teethOpen,
 "teeth": SVG_teeth,
+"teletype": SVG_teletype,
+"television": SVG_television,
+"temperature-0": SVG_temperature0,
+"temperature-1": SVG_temperature1,
+"temperature-2": SVG_temperature2,
+"temperature-3": SVG_temperature3,
+"temperature-4": SVG_temperature4,
+"temperature-arrow-down": SVG_temperatureArrowDown,
+"temperature-arrow-up": SVG_temperatureArrowUp,
+"temperature-down": SVG_temperatureDown,
+"temperature-empty": SVG_temperatureEmpty,
+"temperature-full": SVG_temperatureFull,
+"temperature-half": SVG_temperatureHalf,
 "temperature-high": SVG_temperatureHigh,
 "temperature-low": SVG_temperatureLow,
+"temperature-quarter": SVG_temperatureQuarter,
+"temperature-three-quarters": SVG_temperatureThreeQuarters,
+"temperature-up": SVG_temperatureUp,
+"tenge-sign": SVG_tengeSign,
 "tenge": SVG_tenge,
+"tent-arrow-down-to-line": SVG_tentArrowDownToLine,
+"tent-arrow-left-right": SVG_tentArrowLeftRight,
+"tent-arrow-turn-left": SVG_tentArrowTurnLeft,
+"tent-arrows-down": SVG_tentArrowsDown,
+"tent": SVG_tent,
+"tents": SVG_tents,
 "terminal": SVG_terminal,
 "text-height": SVG_textHeight,
+"text-slash": SVG_textSlash,
 "text-width": SVG_textWidth,
 "th-large": SVG_thLarge,
 "th-list": SVG_thList,
 "th": SVG_th,
 "theater-masks": SVG_theaterMasks,
+"thermometer-0": SVG_thermometer0,
+"thermometer-1": SVG_thermometer1,
+"thermometer-2": SVG_thermometer2,
+"thermometer-3": SVG_thermometer3,
+"thermometer-4": SVG_thermometer4,
 "thermometer-empty": SVG_thermometerEmpty,
 "thermometer-full": SVG_thermometerFull,
 "thermometer-half": SVG_thermometerHalf,
 "thermometer-quarter": SVG_thermometerQuarter,
 "thermometer-three-quarters": SVG_thermometerThreeQuarters,
 "thermometer": SVG_thermometer,
+"thumb-tack-slash": SVG_thumbTackSlash,
+"thumb-tack": SVG_thumbTack,
 "thumbs-down": SVG_thumbsDown,
 "thumbs-up": SVG_thumbsUp,
+"thumbtack-slash": SVG_thumbtackSlash,
 "thumbtack": SVG_thumbtack,
+"thunderstorm": SVG_thunderstorm,
 "ticket-alt": SVG_ticketAlt,
+"ticket-simple": SVG_ticketSimple,
+"ticket": SVG_ticket,
+"timeline": SVG_timeline,
 "times-circle": SVG_timesCircle,
+"times-rectangle": SVG_timesRectangle,
+"times-square": SVG_timesSquare,
 "times": SVG_times,
 "tint-slash": SVG_tintSlash,
 "tint": SVG_tint,
 "tired": SVG_tired,
 "toggle-off": SVG_toggleOff,
 "toggle-on": SVG_toggleOn,
+"toilet-paper-alt": SVG_toiletPaperAlt,
+"toilet-paper-blank": SVG_toiletPaperBlank,
 "toilet-paper-slash": SVG_toiletPaperSlash,
 "toilet-paper": SVG_toiletPaper,
+"toilet-portable": SVG_toiletPortable,
 "toilet": SVG_toilet,
+"toilets-portable": SVG_toiletsPortable,
 "toolbox": SVG_toolbox,
 "tools": SVG_tools,
 "tooth": SVG_tooth,
 "torah": SVG_torah,
 "torii-gate": SVG_toriiGate,
+"tornado": SVG_tornado,
+"tower-broadcast": SVG_towerBroadcast,
+"tower-cell": SVG_towerCell,
+"tower-observation": SVG_towerObservation,
 "tractor": SVG_tractor,
 "trademark": SVG_trademark,
 "traffic-light": SVG_trafficLight,
 "trailer": SVG_trailer,
+"train-subway": SVG_trainSubway,
+"train-tram": SVG_trainTram,
 "train": SVG_train,
 "tram": SVG_tram,
 "transgender-alt": SVG_transgenderAlt,
 "transgender": SVG_transgender,
 "trash-alt": SVG_trashAlt,
+"trash-arrow-up": SVG_trashArrowUp,
+"trash-can-arrow-up": SVG_trashCanArrowUp,
+"trash-can": SVG_trashCan,
 "trash-restore-alt": SVG_trashRestoreAlt,
 "trash-restore": SVG_trashRestore,
 "trash": SVG_trash,
+"tree-city": SVG_treeCity,
 "tree": SVG_tree,
+"triangle-circle-square": SVG_triangleCircleSquare,
+"triangle-exclamation": SVG_triangleExclamation,
 "trophy": SVG_trophy,
+"trowel-bricks": SVG_trowelBricks,
+"trowel": SVG_trowel,
+"truck-arrow-right": SVG_truckArrowRight,
+"truck-droplet": SVG_truckDroplet,
+"truck-fast": SVG_truckFast,
+"truck-field-un": SVG_truckFieldUn,
+"truck-field": SVG_truckField,
+"truck-front": SVG_truckFront,
 "truck-loading": SVG_truckLoading,
+"truck-medical": SVG_truckMedical,
 "truck-monster": SVG_truckMonster,
 "truck-moving": SVG_truckMoving,
 "truck-pickup": SVG_truckPickup,
+"truck-plane": SVG_truckPlane,
+"truck-ramp-box": SVG_truckRampBox,
 "truck": SVG_truck,
+"try": SVG_try,
 "tshirt": SVG_tshirt,
 "tty": SVG_tty,
+"turkish-lira-sign": SVG_turkishLiraSign,
+"turkish-lira": SVG_turkishLira,
+"turn-down": SVG_turnDown,
+"turn-up": SVG_turnUp,
+"tv-alt": SVG_tvAlt,
 "tv": SVG_tv,
+"u": SVG_u,
 "umbrella-beach": SVG_umbrellaBeach,
 "umbrella": SVG_umbrella,
 "underline": SVG_underline,
@@ -1938,8 +3836,16 @@ const contentMap = {
 "university": SVG_university,
 "unlink": SVG_unlink,
 "unlock-alt": SVG_unlockAlt,
+"unlock-keyhole": SVG_unlockKeyhole,
 "unlock": SVG_unlock,
+"unsorted": SVG_unsorted,
+"up-down-left-right": SVG_upDownLeftRight,
+"up-down": SVG_upDown,
+"up-long": SVG_upLong,
+"up-right-and-down-left-from-center": SVG_upRightAndDownLeftFromCenter,
+"up-right-from-square": SVG_upRightFromSquare,
 "upload": SVG_upload,
+"usd": SVG_usd,
 "user-alt-slash": SVG_userAltSlash,
 "user-alt": SVG_userAlt,
 "user-astronaut": SVG_userAstronaut,
@@ -1947,15 +3853,21 @@ const contentMap = {
 "user-circle": SVG_userCircle,
 "user-clock": SVG_userClock,
 "user-cog": SVG_userCog,
+"user-doctor": SVG_userDoctor,
 "user-edit": SVG_userEdit,
 "user-friends": SVG_userFriends,
+"user-gear": SVG_userGear,
 "user-graduate": SVG_userGraduate,
+"user-group": SVG_userGroup,
 "user-injured": SVG_userInjured,
+"user-large-slash": SVG_userLargeSlash,
+"user-large": SVG_userLarge,
 "user-lock": SVG_userLock,
 "user-md": SVG_userMd,
 "user-minus": SVG_userMinus,
 "user-ninja": SVG_userNinja,
 "user-nurse": SVG_userNurse,
+"user-pen": SVG_userPen,
 "user-plus": SVG_userPlus,
 "user-secret": SVG_userSecret,
 "user-shield": SVG_userShield,
@@ -1963,42 +3875,82 @@ const contentMap = {
 "user-tag": SVG_userTag,
 "user-tie": SVG_userTie,
 "user-times": SVG_userTimes,
+"user-xmark": SVG_userXmark,
 "user": SVG_user,
+"users-between-lines": SVG_usersBetweenLines,
 "users-cog": SVG_usersCog,
+"users-gear": SVG_usersGear,
+"users-line": SVG_usersLine,
+"users-rays": SVG_usersRays,
+"users-rectangle": SVG_usersRectangle,
 "users-slash": SVG_usersSlash,
+"users-viewfinder": SVG_usersViewfinder,
 "users": SVG_users,
 "utensil-spoon": SVG_utensilSpoon,
 "utensils": SVG_utensils,
-"vector-square": SVG_vectorSquare,
+"v": SVG_v,
+"van-shuttle": SVG_vanShuttle,
+"vault": SVG_vault,
+"vcard": SVG_vcard,
+"vector-polygon": SVG_vectorPolygon,
 "venus-double": SVG_venusDouble,
 "venus-mars": SVG_venusMars,
 "venus": SVG_venus,
 "vest-patches": SVG_vestPatches,
 "vest": SVG_vest,
+"vial-circle-check": SVG_vialCircleCheck,
+"vial-virus": SVG_vialVirus,
 "vial": SVG_vial,
 "vials": SVG_vials,
+"video-camera": SVG_videoCamera,
 "video-slash": SVG_videoSlash,
 "video": SVG_video,
 "vihara": SVG_vihara,
+"virus-covid-slash": SVG_virusCovidSlash,
+"virus-covid": SVG_virusCovid,
 "virus-slash": SVG_virusSlash,
 "virus": SVG_virus,
 "viruses": SVG_viruses,
 "voicemail": SVG_voicemail,
+"volcano": SVG_volcano,
 "volleyball-ball": SVG_volleyballBall,
+"volleyball": SVG_volleyball,
+"volume-control-phone": SVG_volumeControlPhone,
 "volume-down": SVG_volumeDown,
+"volume-high": SVG_volumeHigh,
+"volume-low": SVG_volumeLow,
 "volume-mute": SVG_volumeMute,
 "volume-off": SVG_volumeOff,
+"volume-times": SVG_volumeTimes,
 "volume-up": SVG_volumeUp,
+"volume-xmark": SVG_volumeXmark,
 "vote-yea": SVG_voteYea,
 "vr-cardboard": SVG_vrCardboard,
+"w": SVG_w,
+"walkie-talkie": SVG_walkieTalkie,
 "walking": SVG_walking,
 "wallet": SVG_wallet,
+"wand-magic-sparkles": SVG_wandMagicSparkles,
+"wand-magic": SVG_wandMagic,
+"wand-sparkles": SVG_wandSparkles,
 "warehouse": SVG_warehouse,
+"warning": SVG_warning,
+"water-ladder": SVG_waterLadder,
 "water": SVG_water,
 "wave-square": SVG_waveSquare,
+"web-awesome": SVG_webAwesome,
 "weight-hanging": SVG_weightHanging,
+"weight-scale": SVG_weightScale,
 "weight": SVG_weight,
+"wheat-alt": SVG_wheatAlt,
+"wheat-awn-circle-exclamation": SVG_wheatAwnCircleExclamation,
+"wheat-awn": SVG_wheatAwn,
+"wheelchair-alt": SVG_wheelchairAlt,
+"wheelchair-move": SVG_wheelchairMove,
 "wheelchair": SVG_wheelchair,
+"whiskey-glass": SVG_whiskeyGlass,
+"wifi-3": SVG_wifi3,
+"wifi-strong": SVG_wifiStrong,
 "wifi": SVG_wifi,
 "wind": SVG_wind,
 "window-close": SVG_windowClose,
@@ -2007,12 +3959,24 @@ const contentMap = {
 "window-restore": SVG_windowRestore,
 "wine-bottle": SVG_wineBottle,
 "wine-glass-alt": SVG_wineGlassAlt,
+"wine-glass-empty": SVG_wineGlassEmpty,
 "wine-glass": SVG_wineGlass,
 "won-sign": SVG_wonSign,
+"won": SVG_won,
+"worm": SVG_worm,
 "wrench": SVG_wrench,
 "x-ray": SVG_xRay,
+"x": SVG_x,
+"xmark-circle": SVG_xmarkCircle,
+"xmark-square": SVG_xmarkSquare,
+"xmark": SVG_xmark,
+"xmarks-lines": SVG_xmarksLines,
+"y": SVG_y,
 "yen-sign": SVG_yenSign,
-"yin-yang": SVG_yinYang
+"yen": SVG_yen,
+"yin-yang": SVG_yinYang,
+"z": SVG_z,
+"zap": SVG_zap
 };
 
 // types

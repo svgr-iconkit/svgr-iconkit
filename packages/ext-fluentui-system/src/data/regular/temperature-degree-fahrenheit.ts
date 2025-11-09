@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"temperature-degree-fahrenheit","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm1.5-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.75 0a.75.75 0 0 0-.75.75v12.5a.75.75 0 0 0 1.5 0V12.5h5.75a.75.75 0 0 0 0-1.5H13V6.5h6.25a.75.75 0 0 0 0-1.5h-7Z"}}]};
+export default content;

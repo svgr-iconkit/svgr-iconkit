@@ -82,6 +82,7 @@ import SVG_barChartLine from "./bar-chart-line";
 import SVG_basket from "./basket";
 import SVG_basket2 from "./basket2";
 import SVG_basket3 from "./basket3";
+import SVG_beaker from "./beaker";
 import SVG_bell from "./bell";
 import SVG_bellSlash from "./bell-slash";
 import SVG_binoculars from "./binoculars";
@@ -381,6 +382,8 @@ import SVG_fileZip from "./file-zip";
 import SVG_filterCircle from "./filter-circle";
 import SVG_filterSquare from "./filter-square";
 import SVG_flag from "./flag";
+import SVG_flask from "./flask";
+import SVG_flaskFlorence from "./flask-florence";
 import SVG_floppy from "./floppy";
 import SVG_floppy2 from "./floppy2";
 import SVG_folder from "./folder";
@@ -393,6 +396,10 @@ import SVG_gear from "./gear";
 import SVG_geoAlt from "./geo-alt";
 import SVG_geo from "./geo";
 import SVG_gift from "./gift";
+import SVG_globeAmericas from "./globe-americas";
+import SVG_globeAsiaAustralia from "./globe-asia-australia";
+import SVG_globeCentralSouthAsia from "./globe-central-south-asia";
+import SVG_globeEuropeAfrica from "./globe-europe-africa";
 import SVG_grid1x2 from "./grid-1x2";
 import SVG_grid3x2Gap from "./grid-3x2-gap";
 import SVG_grid3x3Gap from "./grid-3x3-gap";
@@ -441,6 +448,7 @@ import SVG_keyboard from "./keyboard";
 import SVG_lamp from "./lamp";
 import SVG_laptop from "./laptop";
 import SVG_layers from "./layers";
+import SVG_leaf from "./leaf";
 import SVG_lightbulb from "./lightbulb";
 import SVG_lightbulbOff from "./lightbulb-off";
 import SVG_lightningCharge from "./lightning-charge";
@@ -451,6 +459,7 @@ import SVG_lungs from "./lungs";
 import SVG_magnet from "./magnet";
 import SVG_map from "./map";
 import SVG_markdown from "./markdown";
+import SVG_measuringCup from "./measuring-cup";
 import SVG_megaphone from "./megaphone";
 import SVG_menuApp from "./menu-app";
 import SVG_menuButton from "./menu-button";
@@ -648,6 +657,7 @@ import SVG_truckFront from "./truck-front";
 import SVG_tv from "./tv";
 import SVG_umbrella from "./umbrella";
 import SVG_unlock from "./unlock";
+import SVG_unlock2 from "./unlock2";
 import SVG_usbC from "./usb-c";
 import SVG_usbDrive from "./usb-drive";
 import SVG_usb from "./usb";
@@ -745,6 +755,7 @@ const contentMap = {
 "basket": SVG_basket,
 "basket2": SVG_basket2,
 "basket3": SVG_basket3,
+"beaker": SVG_beaker,
 "bell": SVG_bell,
 "bell-slash": SVG_bellSlash,
 "binoculars": SVG_binoculars,
@@ -1044,6 +1055,8 @@ const contentMap = {
 "filter-circle": SVG_filterCircle,
 "filter-square": SVG_filterSquare,
 "flag": SVG_flag,
+"flask": SVG_flask,
+"flask-florence": SVG_flaskFlorence,
 "floppy": SVG_floppy,
 "floppy2": SVG_floppy2,
 "folder": SVG_folder,
@@ -1056,6 +1069,10 @@ const contentMap = {
 "geo-alt": SVG_geoAlt,
 "geo": SVG_geo,
 "gift": SVG_gift,
+"globe-americas": SVG_globeAmericas,
+"globe-asia-australia": SVG_globeAsiaAustralia,
+"globe-central-south-asia": SVG_globeCentralSouthAsia,
+"globe-europe-africa": SVG_globeEuropeAfrica,
 "grid-1x2": SVG_grid1x2,
 "grid-3x2-gap": SVG_grid3x2Gap,
 "grid-3x3-gap": SVG_grid3x3Gap,
@@ -1104,6 +1121,7 @@ const contentMap = {
 "lamp": SVG_lamp,
 "laptop": SVG_laptop,
 "layers": SVG_layers,
+"leaf": SVG_leaf,
 "lightbulb": SVG_lightbulb,
 "lightbulb-off": SVG_lightbulbOff,
 "lightning-charge": SVG_lightningCharge,
@@ -1114,6 +1132,7 @@ const contentMap = {
 "magnet": SVG_magnet,
 "map": SVG_map,
 "markdown": SVG_markdown,
+"measuring-cup": SVG_measuringCup,
 "megaphone": SVG_megaphone,
 "menu-app": SVG_menuApp,
 "menu-button": SVG_menuButton,
@@ -1311,6 +1330,7 @@ const contentMap = {
 "tv": SVG_tv,
 "umbrella": SVG_umbrella,
 "unlock": SVG_unlock,
+"unlock2": SVG_unlock2,
 "usb-c": SVG_usbC,
 "usb-drive": SVG_usbDrive,
 "usb": SVG_usb,

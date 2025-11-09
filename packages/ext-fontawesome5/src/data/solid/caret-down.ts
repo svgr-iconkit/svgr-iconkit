@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"caret-down","attrs":{"viewBox":"0 0 320 512"},"data":[{"tagName":"path","attrs":{"d":"M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"}}]};
+export const content: IconSVG = {"name":"caret-down","attrs":{"viewBox":"0 0 320 512"},"data":[{"tagName":"path","attrs":{"fill":"currentColor","d":"M140.3 376.8c12.6 10.2 31.1 9.5 42.8-2.2l128-128c9.2-9.2 11.9-22.9 6.9-34.9S301.4 192 288.5 192l-256 0c-12.9 0-24.6 7.8-29.6 19.8S.7 237.5 9.9 246.6l128 128 2.4 2.2z"}}]};
 export default content;

@@ -10,12 +10,16 @@ import SVG_accessTime from "./access-time";
 import SVG_accessibility from "./accessibility";
 import SVG_accessibilityCheckmark from "./accessibility-checkmark";
 import SVG_accessibilityError from "./accessibility-error";
+import SVG_accessibilityMore from "./accessibility-more";
 import SVG_accessibilityQuestionMark from "./accessibility-question-mark";
 import SVG_add from "./add";
 import SVG_addCircle from "./add-circle";
 import SVG_addSquare from "./add-square";
 import SVG_addSquareMultiple from "./add-square-multiple";
+import SVG_addStarburst from "./add-starburst";
 import SVG_addSubtractCircle from "./add-subtract-circle";
+import SVG_agents from "./agents";
+import SVG_agentsAdd from "./agents-add";
 import SVG_airplane from "./airplane";
 import SVG_airplaneLanding from "./airplane-landing";
 import SVG_airplaneTakeOff from "./airplane-take-off";
@@ -38,6 +42,7 @@ import SVG_alignStraighten from "./align-straighten";
 import SVG_alignTop from "./align-top";
 import SVG_animalCat from "./animal-cat";
 import SVG_animalDog from "./animal-dog";
+import SVG_animalPawPrint from "./animal-paw-print";
 import SVG_animalRabbit from "./animal-rabbit";
 import SVG_animalTurtle from "./animal-turtle";
 import SVG_appFolder from "./app-folder";
@@ -48,10 +53,12 @@ import SVG_appTitle from "./app-title";
 import SVG_approvalsApp from "./approvals-app";
 import SVG_apps from "./apps";
 import SVG_appsAddIn from "./apps-add-in";
+import SVG_appsAddInOff from "./apps-add-in-off";
 import SVG_appsList from "./apps-list";
 import SVG_appsListDetail from "./apps-list-detail";
 import SVG_archive from "./archive";
 import SVG_archiveArrowBack from "./archive-arrow-back";
+import SVG_archiveClock from "./archive-clock";
 import SVG_archiveMultiple from "./archive-multiple";
 import SVG_archiveSettings from "./archive-settings";
 import SVG_arrowAutofitContent from "./arrow-autofit-content";
@@ -75,20 +82,26 @@ import SVG_arrowCircleRight from "./arrow-circle-right";
 import SVG_arrowCircleUp from "./arrow-circle-up";
 import SVG_arrowCircleUpLeft from "./arrow-circle-up-left";
 import SVG_arrowCircleUpRight from "./arrow-circle-up-right";
+import SVG_arrowCircleUpSparkle from "./arrow-circle-up-sparkle";
 import SVG_arrowClockwise from "./arrow-clockwise";
 import SVG_arrowClockwiseDashes from "./arrow-clockwise-dashes";
+import SVG_arrowClockwiseDashesSettings from "./arrow-clockwise-dashes-settings";
 import SVG_arrowCollapseAll from "./arrow-collapse-all";
 import SVG_arrowCounterclockwise from "./arrow-counterclockwise";
 import SVG_arrowCounterclockwiseDashes from "./arrow-counterclockwise-dashes";
+import SVG_arrowCounterclockwiseInfo from "./arrow-counterclockwise-info";
 import SVG_arrowCurveDownLeft from "./arrow-curve-down-left";
 import SVG_arrowDown from "./arrow-down";
 import SVG_arrowDownExclamation from "./arrow-down-exclamation";
 import SVG_arrowDownLeft from "./arrow-down-left";
+import SVG_arrowDownRight from "./arrow-down-right";
 import SVG_arrowDownload from "./arrow-download";
 import SVG_arrowDownloadOff from "./arrow-download-off";
 import SVG_arrowEnterLeft from "./arrow-enter-left";
 import SVG_arrowEnterUp from "./arrow-enter-up";
+import SVG_arrowExit from "./arrow-exit";
 import SVG_arrowExpand from "./arrow-expand";
+import SVG_arrowExpandAll from "./arrow-expand-all";
 import SVG_arrowExport from "./arrow-export";
 import SVG_arrowExportLtr from "./arrow-export-ltr";
 import SVG_arrowExportRtl from "./arrow-export-rtl";
@@ -108,8 +121,10 @@ import SVG_arrowHookUpRight from "./arrow-hook-up-right";
 import SVG_arrowImport from "./arrow-import";
 import SVG_arrowLeft from "./arrow-left";
 import SVG_arrowMaximize from "./arrow-maximize";
+import SVG_arrowMaximizeTopLeftBottomRight from "./arrow-maximize-top-left-bottom-right";
 import SVG_arrowMaximizeVertical from "./arrow-maximize-vertical";
 import SVG_arrowMinimize from "./arrow-minimize";
+import SVG_arrowMinimizeTopLeftBottomRight from "./arrow-minimize-top-left-bottom-right";
 import SVG_arrowMinimizeVertical from "./arrow-minimize-vertical";
 import SVG_arrowMove from "./arrow-move";
 import SVG_arrowNext from "./arrow-next";
@@ -165,6 +180,7 @@ import SVG_arrowUp from "./arrow-up";
 import SVG_arrowUpExclamation from "./arrow-up-exclamation";
 import SVG_arrowUpLeft from "./arrow-up-left";
 import SVG_arrowUpRight from "./arrow-up-right";
+import SVG_arrowUpRightDashes from "./arrow-up-right-dashes";
 import SVG_arrowUpSquareSettings from "./arrow-up-square-settings";
 import SVG_arrowUpload from "./arrow-upload";
 import SVG_arrowsBidirectional from "./arrows-bidirectional";
@@ -181,6 +197,8 @@ import SVG_backspace from "./backspace";
 import SVG_badge from "./badge";
 import SVG_balloon from "./balloon";
 import SVG_barcodeScanner from "./barcode-scanner";
+import SVG_barcodeScannerAdd from "./barcode-scanner-add";
+import SVG_barcodeScannerDismiss from "./barcode-scanner-dismiss";
 import SVG_battery0 from "./battery-0";
 import SVG_battery10 from "./battery-10";
 import SVG_battery1 from "./battery-1";
@@ -230,6 +248,7 @@ import SVG_bookLetter from "./book-letter";
 import SVG_bookNumber from "./book-number";
 import SVG_bookOpen from "./book-open";
 import SVG_bookOpenGlobe from "./book-open-globe";
+import SVG_bookOpenLightbulb from "./book-open-lightbulb";
 import SVG_bookOpenMicrophone from "./book-open-microphone";
 import SVG_bookPulse from "./book-pulse";
 import SVG_bookQuestionMark from "./book-question-mark";
@@ -279,6 +298,7 @@ import SVG_boxSearch from "./box-search";
 import SVG_boxToolbox from "./box-toolbox";
 import SVG_braces from "./braces";
 import SVG_bracesVariable from "./braces-variable";
+import SVG_brain from "./brain";
 import SVG_brainCircuit from "./brain-circuit";
 import SVG_branch from "./branch";
 import SVG_branchCompare from "./branch-compare";
@@ -328,11 +348,14 @@ import SVG_calendarAdd from "./calendar-add";
 import SVG_calendarAgenda from "./calendar-agenda";
 import SVG_calendarArrowCounterclockwise from "./calendar-arrow-counterclockwise";
 import SVG_calendarArrowDown from "./calendar-arrow-down";
+import SVG_calendarArrowRepeatAll from "./calendar-arrow-repeat-all";
 import SVG_calendarArrowRight from "./calendar-arrow-right";
 import SVG_calendarAssistant from "./calendar-assistant";
 import SVG_calendarCancel from "./calendar-cancel";
 import SVG_calendarChat from "./calendar-chat";
 import SVG_calendarCheckmark from "./calendar-checkmark";
+import SVG_calendarCheckmarkCenter from "./calendar-checkmark-center";
+import SVG_calendarCheckmarkSparkle from "./calendar-checkmark-sparkle";
 import SVG_calendarClock from "./calendar-clock";
 import SVG_calendarDataBar from "./calendar-data-bar";
 import SVG_calendarDate from "./calendar-date";
@@ -340,6 +363,7 @@ import SVG_calendarDay from "./calendar-day";
 import SVG_calendarEdit from "./calendar-edit";
 import SVG_calendarEmpty from "./calendar-empty";
 import SVG_calendarError from "./calendar-error";
+import SVG_calendarEye from "./calendar-eye";
 import SVG_calendarLink from "./calendar-link";
 import SVG_calendarLock from "./calendar-lock";
 import SVG_calendarLtr from "./calendar-ltr";
@@ -376,15 +400,19 @@ import SVG_callOutbound from "./call-outbound";
 import SVG_callPark from "./call-park";
 import SVG_callPause from "./call-pause";
 import SVG_callProhibited from "./call-prohibited";
+import SVG_callRectangleLandscape from "./call-rectangle-landscape";
+import SVG_callSquare from "./call-square";
 import SVG_callTransfer from "./call-transfer";
 import SVG_calligraphyPen from "./calligraphy-pen";
 import SVG_camera from "./camera";
 import SVG_cameraAdd from "./camera-add";
+import SVG_cameraArrowUp from "./camera-arrow-up";
 import SVG_cameraDome from "./camera-dome";
 import SVG_cameraOff from "./camera-off";
 import SVG_cameraSparkles from "./camera-sparkles";
 import SVG_cameraSwitch from "./camera-switch";
 import SVG_cardUi from "./card-ui";
+import SVG_cardUiPortraitFlip from "./card-ui-portrait-flip";
 import SVG_caretDown from "./caret-down";
 import SVG_caretDownRight from "./caret-down-right";
 import SVG_caretLeft from "./caret-left";
@@ -418,14 +446,18 @@ import SVG_chartMultiple from "./chart-multiple";
 import SVG_chartPerson from "./chart-person";
 import SVG_chat from "./chat";
 import SVG_chatAdd from "./chat-add";
+import SVG_chatArrowBackDown from "./chat-arrow-back-down";
 import SVG_chatBubblesQuestion from "./chat-bubbles-question";
 import SVG_chatCursor from "./chat-cursor";
 import SVG_chatDismiss from "./chat-dismiss";
 import SVG_chatEmpty from "./chat-empty";
 import SVG_chatHelp from "./chat-help";
+import SVG_chatHistory from "./chat-history";
 import SVG_chatLock from "./chat-lock";
 import SVG_chatMultiple from "./chat-multiple";
+import SVG_chatMultipleCheckmark from "./chat-multiple-checkmark";
 import SVG_chatMultipleHeart from "./chat-multiple-heart";
+import SVG_chatMultipleMinus from "./chat-multiple-minus";
 import SVG_chatOff from "./chat-off";
 import SVG_chatSettings from "./chat-settings";
 import SVG_chatSparkle from "./chat-sparkle";
@@ -442,12 +474,14 @@ import SVG_checkboxUnchecked from "./checkbox-unchecked";
 import SVG_checkboxWarning from "./checkbox-warning";
 import SVG_checkmark from "./checkmark";
 import SVG_checkmarkCircle from "./checkmark-circle";
+import SVG_checkmarkCircleHint from "./checkmark-circle-hint";
 import SVG_checkmarkCircleSquare from "./checkmark-circle-square";
 import SVG_checkmarkCircleWarning from "./checkmark-circle-warning";
 import SVG_checkmarkLock from "./checkmark-lock";
 import SVG_checkmarkSquare from "./checkmark-square";
 import SVG_checkmarkStarburst from "./checkmark-starburst";
 import SVG_checkmarkUnderlineCircle from "./checkmark-underline-circle";
+import SVG_chess from "./chess";
 import SVG_chevronCircleDown from "./chevron-circle-down";
 import SVG_chevronCircleLeft from "./chevron-circle-left";
 import SVG_chevronCircleRight from "./chevron-circle-right";
@@ -461,10 +495,18 @@ import SVG_chevronUpDown from "./chevron-up-down";
 import SVG_circle from "./circle";
 import SVG_circleEdit from "./circle-edit";
 import SVG_circleHalfFill from "./circle-half-fill";
+import SVG_circleHighlight from "./circle-highlight";
+import SVG_circleHint from "./circle-hint";
+import SVG_circleHintCursor from "./circle-hint-cursor";
+import SVG_circleHintDismiss from "./circle-hint-dismiss";
 import SVG_circleHintHalfVertical from "./circle-hint-half-vertical";
 import SVG_circleImage from "./circle-image";
 import SVG_circleLine from "./circle-line";
+import SVG_circleMultipleConcentric from "./circle-multiple-concentric";
+import SVG_circleMultipleHintCheckmark from "./circle-multiple-hint-checkmark";
+import SVG_circleShadow from "./circle-shadow";
 import SVG_circleSmall from "./circle-small";
+import SVG_circleSparkle from "./circle-sparkle";
 import SVG_city from "./city";
 import SVG_class from "./class";
 import SVG_classification from "./classification";
@@ -505,9 +547,12 @@ import SVG_clockBill from "./clock-bill";
 import SVG_clockDismiss from "./clock-dismiss";
 import SVG_clockLock from "./clock-lock";
 import SVG_clockPause from "./clock-pause";
+import SVG_clockSparkle from "./clock-sparkle";
 import SVG_clockToolbox from "./clock-toolbox";
+import SVG_clockWarning from "./clock-warning";
 import SVG_closedCaption from "./closed-caption";
 import SVG_closedCaptionOff from "./closed-caption-off";
+import SVG_clothesHanger from "./clothes-hanger";
 import SVG_cloud from "./cloud";
 import SVG_cloudAdd from "./cloud-add";
 import SVG_cloudArchive from "./cloud-archive";
@@ -518,6 +563,7 @@ import SVG_cloudBeaker from "./cloud-beaker";
 import SVG_cloudBidirectional from "./cloud-bidirectional";
 import SVG_cloudCheckmark from "./cloud-checkmark";
 import SVG_cloudCube from "./cloud-cube";
+import SVG_cloudDesktop from "./cloud-desktop";
 import SVG_cloudDismiss from "./cloud-dismiss";
 import SVG_cloudEdit from "./cloud-edit";
 import SVG_cloudError from "./cloud-error";
@@ -530,13 +576,18 @@ import SVG_cloudWords from "./cloud-words";
 import SVG_clover from "./clover";
 import SVG_code from "./code";
 import SVG_codeBlock from "./code-block";
+import SVG_codeBlockEdit from "./code-block-edit";
 import SVG_codeCircle from "./code-circle";
+import SVG_coinMultiple from "./coin-multiple";
+import SVG_coinStack from "./coin-stack";
 import SVG_collections from "./collections";
 import SVG_collectionsAdd from "./collections-add";
+import SVG_collectionsEmpty from "./collections-empty";
 import SVG_color from "./color";
 import SVG_colorBackground from "./color-background";
 import SVG_colorFill from "./color-fill";
 import SVG_colorLine from "./color-line";
+import SVG_column from "./column";
 import SVG_columnEdit from "./column-edit";
 import SVG_columnTriple from "./column-triple";
 import SVG_columnTripleEdit from "./column-triple-edit";
@@ -545,6 +596,7 @@ import SVG_comment from "./comment";
 import SVG_commentAdd from "./comment-add";
 import SVG_commentArrowLeft from "./comment-arrow-left";
 import SVG_commentArrowRight from "./comment-arrow-right";
+import SVG_commentBadge from "./comment-badge";
 import SVG_commentCheckmark from "./comment-checkmark";
 import SVG_commentDismiss from "./comment-dismiss";
 import SVG_commentEdit from "./comment-edit";
@@ -557,16 +609,21 @@ import SVG_commentMultipleCheckmark from "./comment-multiple-checkmark";
 import SVG_commentMultipleLink from "./comment-multiple-link";
 import SVG_commentNote from "./comment-note";
 import SVG_commentOff from "./comment-off";
+import SVG_commentQuote from "./comment-quote";
+import SVG_commentText from "./comment-text";
 import SVG_communication from "./communication";
 import SVG_communicationPerson from "./communication-person";
 import SVG_communicationShield from "./communication-shield";
 import SVG_compassNorthwest from "./compass-northwest";
+import SVG_compassTrueNorth from "./compass-true-north";
 import SVG_component2DoubleTapSwipeDown from "./component-2-double-tap-swipe-down";
 import SVG_component2DoubleTapSwipeUp from "./component-2-double-tap-swipe-up";
 import SVG_compose from "./compose";
 import SVG_conferenceRoom from "./conference-room";
+import SVG_connected from "./connected";
 import SVG_connector from "./connector";
 import SVG_contactCard from "./contact-card";
+import SVG_contactCardGeneric from "./contact-card-generic";
 import SVG_contactCardGroup from "./contact-card-group";
 import SVG_contactCardRibbon from "./contact-card-ribbon";
 import SVG_contentSettings from "./content-settings";
@@ -583,16 +640,19 @@ import SVG_copyAdd from "./copy-add";
 import SVG_copyArrowRight from "./copy-arrow-right";
 import SVG_copySelect from "./copy-select";
 import SVG_couch from "./couch";
+import SVG_counter from "./counter";
 import SVG_creditCardClock from "./credit-card-clock";
 import SVG_creditCardPerson from "./credit-card-person";
 import SVG_creditCardToolbox from "./credit-card-toolbox";
 import SVG_crop from "./crop";
+import SVG_cropArrowRotate from "./crop-arrow-rotate";
 import SVG_cropInterim from "./crop-interim";
 import SVG_cropInterimOff from "./crop-interim-off";
 import SVG_cropSparkle from "./crop-sparkle";
 import SVG_crown from "./crown";
 import SVG_crownSubtract from "./crown-subtract";
 import SVG_cube from "./cube";
+import SVG_cubeCheckmark from "./cube-checkmark";
 import SVG_cubeMultiple from "./cube-multiple";
 import SVG_cubeQuick from "./cube-quick";
 import SVG_cubeSync from "./cube-sync";
@@ -609,7 +669,9 @@ import SVG_dataArea from "./data-area";
 import SVG_dataBarHorizontal from "./data-bar-horizontal";
 import SVG_dataBarVertical from "./data-bar-vertical";
 import SVG_dataBarVerticalAdd from "./data-bar-vertical-add";
+import SVG_dataBarVerticalArrowDown from "./data-bar-vertical-arrow-down";
 import SVG_dataBarVerticalAscending from "./data-bar-vertical-ascending";
+import SVG_dataBarVerticalEdit from "./data-bar-vertical-edit";
 import SVG_dataBarVerticalStar from "./data-bar-vertical-star";
 import SVG_dataFunnel from "./data-funnel";
 import SVG_dataHistogram from "./data-histogram";
@@ -620,16 +682,20 @@ import SVG_dataSunburst from "./data-sunburst";
 import SVG_dataTreemap from "./data-treemap";
 import SVG_dataTrending from "./data-trending";
 import SVG_dataUsage from "./data-usage";
+import SVG_dataUsageCheckmark from "./data-usage-checkmark";
 import SVG_dataUsageEdit from "./data-usage-edit";
 import SVG_dataUsageSettings from "./data-usage-settings";
+import SVG_dataUsageSparkle from "./data-usage-sparkle";
 import SVG_dataUsageToolbox from "./data-usage-toolbox";
 import SVG_dataWaterfall from "./data-waterfall";
 import SVG_dataWhisker from "./data-whisker";
 import SVG_database from "./database";
 import SVG_databaseArrowRight from "./database-arrow-right";
+import SVG_databaseCheckmark from "./database-checkmark";
 import SVG_databaseLink from "./database-link";
 import SVG_databasePerson from "./database-person";
 import SVG_databaseSearch from "./database-search";
+import SVG_databaseSwitch from "./database-switch";
 import SVG_decimalArrowLeft from "./decimal-arrow-left";
 import SVG_decimalArrowRight from "./decimal-arrow-right";
 import SVG_delete from "./delete";
@@ -638,8 +704,11 @@ import SVG_deleteOff from "./delete-off";
 import SVG_dentist from "./dentist";
 import SVG_designIdeas from "./design-ideas";
 import SVG_desk from "./desk";
+import SVG_deskMultiple from "./desk-multiple";
+import SVG_deskSparkle from "./desk-sparkle";
 import SVG_desktop from "./desktop";
 import SVG_desktopArrowDown from "./desktop-arrow-down";
+import SVG_desktopArrowDownOff from "./desktop-arrow-down-off";
 import SVG_desktopArrowRight from "./desktop-arrow-right";
 import SVG_desktopCheckmark from "./desktop-checkmark";
 import SVG_desktopCursor from "./desktop-cursor";
@@ -647,6 +716,7 @@ import SVG_desktopEdit from "./desktop-edit";
 import SVG_desktopFlow from "./desktop-flow";
 import SVG_desktopKeyboard from "./desktop-keyboard";
 import SVG_desktopMac from "./desktop-mac";
+import SVG_desktopOff from "./desktop-off";
 import SVG_desktopPulse from "./desktop-pulse";
 import SVG_desktopSignal from "./desktop-signal";
 import SVG_desktopSpeaker from "./desktop-speaker";
@@ -658,12 +728,14 @@ import SVG_developerBoard from "./developer-board";
 import SVG_developerBoardSearch from "./developer-board-search";
 import SVG_deviceEq from "./device-eq";
 import SVG_deviceMeetingRoom from "./device-meeting-room";
+import SVG_deviceMeetingRoomBar from "./device-meeting-room-bar";
 import SVG_deviceMeetingRoomRemote from "./device-meeting-room-remote";
 import SVG_diagram from "./diagram";
 import SVG_dialpad from "./dialpad";
 import SVG_dialpadOff from "./dialpad-off";
 import SVG_dialpadQuestionMark from "./dialpad-question-mark";
 import SVG_diamond from "./diamond";
+import SVG_diamondDismiss from "./diamond-dismiss";
 import SVG_directions from "./directions";
 import SVG_dishwasher from "./dishwasher";
 import SVG_dismiss from "./dismiss";
@@ -709,6 +781,7 @@ import SVG_documentFlowchart from "./document-flowchart";
 import SVG_documentFolder from "./document-folder";
 import SVG_documentFooter from "./document-footer";
 import SVG_documentFooterDismiss from "./document-footer-dismiss";
+import SVG_documentGlobe from "./document-globe";
 import SVG_documentHeader from "./document-header";
 import SVG_documentHeaderArrowDown from "./document-header-arrow-down";
 import SVG_documentHeaderDismiss from "./document-header-dismiss";
@@ -733,6 +806,7 @@ import SVG_documentOnePageAdd from "./document-one-page-add";
 import SVG_documentOnePageColumns from "./document-one-page-columns";
 import SVG_documentOnePageLink from "./document-one-page-link";
 import SVG_documentOnePageMultiple from "./document-one-page-multiple";
+import SVG_documentOnePageMultipleSparkle from "./document-one-page-multiple-sparkle";
 import SVG_documentOnePageSparkle from "./document-one-page-sparkle";
 import SVG_documentPageBottomCenter from "./document-page-bottom-center";
 import SVG_documentPageBottomLeft from "./document-page-bottom-left";
@@ -755,8 +829,10 @@ import SVG_documentRibbon from "./document-ribbon";
 import SVG_documentSave from "./document-save";
 import SVG_documentSearch from "./document-search";
 import SVG_documentSignature from "./document-signature";
+import SVG_documentSparkle from "./document-sparkle";
 import SVG_documentSplitHint from "./document-split-hint";
 import SVG_documentSplitHintOff from "./document-split-hint-off";
+import SVG_documentSquare from "./document-square";
 import SVG_documentSync from "./document-sync";
 import SVG_documentTable from "./document-table";
 import SVG_documentTableArrowRight from "./document-table-arrow-right";
@@ -772,6 +848,7 @@ import SVG_documentTextLink from "./document-text-link";
 import SVG_documentTextToolbox from "./document-text-toolbox";
 import SVG_documentToolbox from "./document-toolbox";
 import SVG_documentWidth from "./document-width";
+import SVG_door from "./door";
 import SVG_doorArrowLeft from "./door-arrow-left";
 import SVG_doorTag from "./door-tag";
 import SVG_doubleSwipeDown from "./double-swipe-down";
@@ -823,6 +900,8 @@ import SVG_earth from "./earth";
 import SVG_earthLeaf from "./earth-leaf";
 import SVG_edit from "./edit";
 import SVG_editArrowBack from "./edit-arrow-back";
+import SVG_editLineHorizontal3 from "./edit-line-horizontal-3";
+import SVG_editLock from "./edit-lock";
 import SVG_editOff from "./edit-off";
 import SVG_editPerson from "./edit-person";
 import SVG_editProhibited from "./edit-prohibited";
@@ -856,6 +935,7 @@ import SVG_expandUpLeft from "./expand-up-left";
 import SVG_expandUpRight from "./expand-up-right";
 import SVG_extendedDock from "./extended-dock";
 import SVG_eye from "./eye";
+import SVG_eyeCircle from "./eye-circle";
 import SVG_eyeLines from "./eye-lines";
 import SVG_eyeOff from "./eye-off";
 import SVG_eyeTracking from "./eye-tracking";
@@ -896,6 +976,8 @@ import SVG_flashlightOff from "./flashlight-off";
 import SVG_flipHorizontal from "./flip-horizontal";
 import SVG_flipVertical from "./flip-vertical";
 import SVG_flow from "./flow";
+import SVG_flowDot from "./flow-dot";
+import SVG_flowSparkle from "./flow-sparkle";
 import SVG_flowchart from "./flowchart";
 import SVG_flowchartCircle from "./flowchart-circle";
 import SVG_fluent from "./fluent";
@@ -905,10 +987,12 @@ import SVG_folderAdd from "./folder-add";
 import SVG_folderArrowLeft from "./folder-arrow-left";
 import SVG_folderArrowRight from "./folder-arrow-right";
 import SVG_folderArrowUp from "./folder-arrow-up";
+import SVG_folderDocument from "./folder-document";
 import SVG_folderLightning from "./folder-lightning";
 import SVG_folderLink from "./folder-link";
 import SVG_folderMail from "./folder-mail";
 import SVG_folderOpen from "./folder-open";
+import SVG_folderOpenDown from "./folder-open-down";
 import SVG_folderOpenVertical from "./folder-open-vertical";
 import SVG_folderPeople from "./folder-people";
 import SVG_folderPerson from "./folder-person";
@@ -933,6 +1017,7 @@ import SVG_foodPizza from "./food-pizza";
 import SVG_foodToast from "./food-toast";
 import SVG_form from "./form";
 import SVG_formMultiple from "./form-multiple";
+import SVG_formMultipleCollection from "./form-multiple-collection";
 import SVG_formNew from "./form-new";
 import SVG_fps120 from "./fps-120";
 import SVG_fps240 from "./fps-240";
@@ -970,6 +1055,7 @@ import SVG_globeClock from "./globe-clock";
 import SVG_globeDesktop from "./globe-desktop";
 import SVG_globeError from "./globe-error";
 import SVG_globeLocation from "./globe-location";
+import SVG_globeOff from "./globe-off";
 import SVG_globePerson from "./globe-person";
 import SVG_globeProhibited from "./globe-prohibited";
 import SVG_globeSearch from "./globe-search";
@@ -992,17 +1078,21 @@ import SVG_guitar from "./guitar";
 import SVG_handDraw from "./hand-draw";
 import SVG_handLeft from "./hand-left";
 import SVG_handLeftChat from "./hand-left-chat";
+import SVG_handMultiple from "./hand-multiple";
 import SVG_handPoint from "./hand-point";
 import SVG_handRight from "./hand-right";
 import SVG_handRightOff from "./hand-right-off";
 import SVG_handWave from "./hand-wave";
 import SVG_handshake from "./handshake";
+import SVG_hapticStrong from "./haptic-strong";
+import SVG_hapticWeak from "./haptic-weak";
 import SVG_hardDrive from "./hard-drive";
 import SVG_hardDriveCall from "./hard-drive-call";
 import SVG_hatGraduation from "./hat-graduation";
 import SVG_hatGraduationAdd from "./hat-graduation-add";
 import SVG_hatGraduationSparkle from "./hat-graduation-sparkle";
 import SVG_hd from "./hd";
+import SVG_hdOff from "./hd-off";
 import SVG_hdr from "./hdr";
 import SVG_hdrOff from "./hdr-off";
 import SVG_headphones from "./headphones";
@@ -1017,6 +1107,7 @@ import SVG_heartCircleHint from "./heart-circle-hint";
 import SVG_heartOff from "./heart-off";
 import SVG_heartPulse from "./heart-pulse";
 import SVG_hexagon from "./hexagon";
+import SVG_hexagonSparkle from "./hexagon-sparkle";
 import SVG_hexagonThree from "./hexagon-three";
 import SVG_highlight from "./highlight";
 import SVG_highlightAccent from "./highlight-accent";
@@ -1027,6 +1118,7 @@ import SVG_home from "./home";
 import SVG_homeAdd from "./home-add";
 import SVG_homeCheckmark from "./home-checkmark";
 import SVG_homeDatabase from "./home-database";
+import SVG_homeEmpty from "./home-empty";
 import SVG_homeGarage from "./home-garage";
 import SVG_homeHeart from "./home-heart";
 import SVG_homeMore from "./home-more";
@@ -1061,6 +1153,7 @@ import SVG_immersiveReader from "./immersive-reader";
 import SVG_important from "./important";
 import SVG_incognito from "./incognito";
 import SVG_info from "./info";
+import SVG_infoSparkle from "./info-sparkle";
 import SVG_inkStroke from "./ink-stroke";
 import SVG_inkStrokeArrowDown from "./ink-stroke-arrow-down";
 import SVG_inkStrokeArrowUpDown from "./ink-stroke-arrow-up-down";
@@ -1072,6 +1165,7 @@ import SVG_iosArrowLtr from "./ios-arrow-ltr";
 import SVG_iosArrowRtl from "./ios-arrow-rtl";
 import SVG_iot from "./iot";
 import SVG_iotAlert from "./iot-alert";
+import SVG_itemCompare from "./item-compare";
 import SVG_javascript from "./javascript";
 import SVG_key from "./key";
 import SVG_keyCommand from "./key-command";
@@ -1097,8 +1191,11 @@ import SVG_lasso from "./lasso";
 import SVG_launcherSettings from "./launcher-settings";
 import SVG_layer from "./layer";
 import SVG_layerDiagonal from "./layer-diagonal";
+import SVG_layerDiagonalAdd from "./layer-diagonal-add";
 import SVG_layerDiagonalPerson from "./layer-diagonal-person";
 import SVG_layerDiagonalSparkle from "./layer-diagonal-sparkle";
+import SVG_layoutAddAbove from "./layout-add-above";
+import SVG_layoutAddBelow from "./layout-add-below";
 import SVG_layoutCellFour from "./layout-cell-four";
 import SVG_layoutCellFourFocusBottomLeft from "./layout-cell-four-focus-bottom-left";
 import SVG_layoutCellFourFocusBottomRight from "./layout-cell-four-focus-bottom-right";
@@ -1117,6 +1214,7 @@ import SVG_layoutColumnThreeFocusCenter from "./layout-column-three-focus-center
 import SVG_layoutColumnThreeFocusLeft from "./layout-column-three-focus-left";
 import SVG_layoutColumnThreeFocusRight from "./layout-column-three-focus-right";
 import SVG_layoutColumnTwo from "./layout-column-two";
+import SVG_layoutColumnTwoEdit from "./layout-column-two-edit";
 import SVG_layoutColumnTwoFocusLeft from "./layout-column-two-focus-left";
 import SVG_layoutColumnTwoFocusRight from "./layout-column-two-focus-right";
 import SVG_layoutColumnTwoSplitLeft from "./layout-column-two-split-left";
@@ -1127,6 +1225,7 @@ import SVG_layoutColumnTwoSplitRight from "./layout-column-two-split-right";
 import SVG_layoutColumnTwoSplitRightFocusBottomRight from "./layout-column-two-split-right-focus-bottom-right";
 import SVG_layoutColumnTwoSplitRightFocusLeft from "./layout-column-two-split-right-focus-left";
 import SVG_layoutColumnTwoSplitRightFocusTopRight from "./layout-column-two-split-right-focus-top-right";
+import SVG_layoutDynamic from "./layout-dynamic";
 import SVG_layoutRowFour from "./layout-row-four";
 import SVG_layoutRowFourFocusBottom from "./layout-row-four-focus-bottom";
 import SVG_layoutRowFourFocusCenterBottom from "./layout-row-four-focus-center-bottom";
@@ -1139,6 +1238,7 @@ import SVG_layoutRowThreeFocusTop from "./layout-row-three-focus-top";
 import SVG_layoutRowTwo from "./layout-row-two";
 import SVG_layoutRowTwoFocusBottom from "./layout-row-two-focus-bottom";
 import SVG_layoutRowTwoFocusTop from "./layout-row-two-focus-top";
+import SVG_layoutRowTwoSettings from "./layout-row-two-settings";
 import SVG_layoutRowTwoSplitBottom from "./layout-row-two-split-bottom";
 import SVG_layoutRowTwoSplitBottomFocusBottomLeft from "./layout-row-two-split-bottom-focus-bottom-left";
 import SVG_layoutRowTwoSplitBottomFocusBottomRight from "./layout-row-two-split-bottom-focus-bottom-right";
@@ -1153,6 +1253,7 @@ import SVG_leafTwo from "./leaf-two";
 import SVG_learningApp from "./learning-app";
 import SVG_library from "./library";
 import SVG_lightbulb from "./lightbulb";
+import SVG_lightbulbCheckmark from "./lightbulb-checkmark";
 import SVG_lightbulbCircle from "./lightbulb-circle";
 import SVG_lightbulbFilament from "./lightbulb-filament";
 import SVG_lightbulbPerson from "./lightbulb-person";
@@ -1163,7 +1264,9 @@ import SVG_lineFlowDiagonalUpRight from "./line-flow-diagonal-up-right";
 import SVG_lineHorizontal1 from "./line-horizontal-1";
 import SVG_lineHorizontal1Dashes from "./line-horizontal-1-dashes";
 import SVG_lineHorizontal2DashesSolid from "./line-horizontal-2-dashes-solid";
+import SVG_lineHorizontal3 from "./line-horizontal-3";
 import SVG_lineStyle from "./line-style";
+import SVG_lineStyleSketch from "./line-style-sketch";
 import SVG_lineThickness from "./line-thickness";
 import SVG_link from "./link";
 import SVG_linkAdd from "./link-add";
@@ -1174,19 +1277,23 @@ import SVG_linkPerson from "./link-person";
 import SVG_linkSettings from "./link-settings";
 import SVG_linkSquare from "./link-square";
 import SVG_list from "./list";
+import SVG_listBar from "./list-bar";
 import SVG_live from "./live";
 import SVG_liveOff from "./live-off";
 import SVG_localLanguage from "./local-language";
 import SVG_location from "./location";
 import SVG_locationAdd from "./location-add";
 import SVG_locationArrow from "./location-arrow";
+import SVG_locationCheckmark from "./location-checkmark";
 import SVG_locationDismiss from "./location-dismiss";
 import SVG_locationLive from "./location-live";
 import SVG_locationOff from "./location-off";
 import SVG_locationRipple from "./location-ripple";
+import SVG_locationSettings from "./location-settings";
 import SVG_locationTargetSquare from "./location-target-square";
 import SVG_lockClosed from "./lock-closed";
 import SVG_lockClosedKey from "./lock-closed-key";
+import SVG_lockClosedRibbon from "./lock-closed-ribbon";
 import SVG_lockMultiple from "./lock-multiple";
 import SVG_lockOpen from "./lock-open";
 import SVG_lockShield from "./lock-shield";
@@ -1203,9 +1310,11 @@ import SVG_mailAttach from "./mail-attach";
 import SVG_mailCheckmark from "./mail-checkmark";
 import SVG_mailClock from "./mail-clock";
 import SVG_mailCopy from "./mail-copy";
+import SVG_mailDataBar from "./mail-data-bar";
 import SVG_mailDismiss from "./mail-dismiss";
 import SVG_mailEdit from "./mail-edit";
 import SVG_mailError from "./mail-error";
+import SVG_mailFishHook from "./mail-fish-hook";
 import SVG_mailInbox from "./mail-inbox";
 import SVG_mailInboxAdd from "./mail-inbox-add";
 import SVG_mailInboxAll from "./mail-inbox-all";
@@ -1220,6 +1329,7 @@ import SVG_mailOff from "./mail-off";
 import SVG_mailOpenPerson from "./mail-open-person";
 import SVG_mailProhibited from "./mail-prohibited";
 import SVG_mailRead from "./mail-read";
+import SVG_mailReadBriefcase from "./mail-read-briefcase";
 import SVG_mailReadMultiple from "./mail-read-multiple";
 import SVG_mailRewind from "./mail-rewind";
 import SVG_mailTemplate from "./mail-template";
@@ -1241,6 +1351,7 @@ import SVG_megaphoneOff from "./megaphone-off";
 import SVG_mention from "./mention";
 import SVG_merge from "./merge";
 import SVG_mic from "./mic";
+import SVG_micLink from "./mic-link";
 import SVG_micOff from "./mic-off";
 import SVG_micProhibited from "./mic-prohibited";
 import SVG_micPulse from "./mic-pulse";
@@ -1248,6 +1359,7 @@ import SVG_micPulseOff from "./mic-pulse-off";
 import SVG_micRecord from "./mic-record";
 import SVG_micSettings from "./mic-settings";
 import SVG_micSparkle from "./mic-sparkle";
+import SVG_micSync from "./mic-sync";
 import SVG_microscope from "./microscope";
 import SVG_midi from "./midi";
 import SVG_mobileOptimized from "./mobile-optimized";
@@ -1280,6 +1392,8 @@ import SVG_musicNoteOff1 from "./music-note-off-1";
 import SVG_musicNoteOff2 from "./music-note-off-2";
 import SVG_myLocation from "./my-location";
 import SVG_navigation from "./navigation";
+import SVG_navigationBriefcase from "./navigation-briefcase";
+import SVG_navigationPerson from "./navigation-person";
 import SVG_navigationUnread from "./navigation-unread";
 import SVG_networkCheck from "./network-check";
 import SVG_new from "./new";
@@ -1300,6 +1414,8 @@ import SVG_notebookSubsection from "./notebook-subsection";
 import SVG_notebookSync from "./notebook-sync";
 import SVG_notepad from "./notepad";
 import SVG_notepadPerson from "./notepad-person";
+import SVG_notepadPersonOff from "./notepad-person-off";
+import SVG_notepadSparkle from "./notepad-sparkle";
 import SVG_numberCircle0 from "./number-circle-0";
 import SVG_numberCircle1 from "./number-circle-1";
 import SVG_numberCircle2 from "./number-circle-2";
@@ -1331,7 +1447,10 @@ import SVG_pageFit from "./page-fit";
 import SVG_paintBrush from "./paint-brush";
 import SVG_paintBrushArrowDown from "./paint-brush-arrow-down";
 import SVG_paintBrushArrowUp from "./paint-brush-arrow-up";
+import SVG_paintBrushSparkle from "./paint-brush-sparkle";
+import SVG_paintBrushSubtract from "./paint-brush-subtract";
 import SVG_paintBucket from "./paint-bucket";
+import SVG_paintBucketBrush from "./paint-bucket-brush";
 import SVG_pair from "./pair";
 import SVG_panelLeft from "./panel-left";
 import SVG_panelLeftAdd from "./panel-left-add";
@@ -1351,6 +1470,7 @@ import SVG_panelRightCursor from "./panel-right-cursor";
 import SVG_panelRightGallery from "./panel-right-gallery";
 import SVG_panelTopGallery from "./panel-top-gallery";
 import SVG_password from "./password";
+import SVG_passwordClock from "./password-clock";
 import SVG_patch from "./patch";
 import SVG_patient from "./patient";
 import SVG_pause from "./pause";
@@ -1362,16 +1482,20 @@ import SVG_penDismiss from "./pen-dismiss";
 import SVG_penOff from "./pen-off";
 import SVG_penProhibited from "./pen-prohibited";
 import SVG_penSparkle from "./pen-sparkle";
+import SVG_penSync from "./pen-sync";
 import SVG_people from "./people";
 import SVG_peopleAdd from "./people-add";
 import SVG_peopleAudience from "./people-audience";
 import SVG_peopleCall from "./people-call";
 import SVG_peopleChat from "./people-chat";
 import SVG_peopleCheckmark from "./people-checkmark";
+import SVG_peopleCommunication from "./people-communication";
 import SVG_peopleCommunity from "./people-community";
 import SVG_peopleCommunityAdd from "./people-community-add";
 import SVG_peopleEdit from "./people-edit";
 import SVG_peopleError from "./people-error";
+import SVG_peopleInterwoven from "./people-interwoven";
+import SVG_peopleLink from "./people-link";
 import SVG_peopleList from "./people-list";
 import SVG_peopleLock from "./people-lock";
 import SVG_peopleMoney from "./people-money";
@@ -1382,6 +1506,7 @@ import SVG_peopleSettings from "./people-settings";
 import SVG_peopleStar from "./people-star";
 import SVG_peopleSubtract from "./people-subtract";
 import SVG_peopleSwap from "./people-swap";
+import SVG_peopleSync from "./people-sync";
 import SVG_peopleTeam from "./people-team";
 import SVG_peopleTeamAdd from "./people-team-add";
 import SVG_peopleTeamDelete from "./people-team-delete";
@@ -1396,15 +1521,22 @@ import SVG_personArrowLeft from "./person-arrow-left";
 import SVG_personArrowRight from "./person-arrow-right";
 import SVG_personAvailable from "./person-available";
 import SVG_personBoard from "./person-board";
+import SVG_personBoardAdd from "./person-board-add";
+import SVG_personBriefcase from "./person-briefcase";
 import SVG_personCall from "./person-call";
 import SVG_personChat from "./person-chat";
 import SVG_personCircle from "./person-circle";
 import SVG_personClock from "./person-clock";
 import SVG_personDelete from "./person-delete";
 import SVG_personEdit from "./person-edit";
+import SVG_personError from "./person-error";
 import SVG_personFeedback from "./person-feedback";
+import SVG_personGuest from "./person-guest";
+import SVG_personHeadHint from "./person-head-hint";
 import SVG_personHeart from "./person-heart";
+import SVG_personHome from "./person-home";
 import SVG_personInfo from "./person-info";
+import SVG_personKey from "./person-key";
 import SVG_personLightbulb from "./person-lightbulb";
 import SVG_personLink from "./person-link";
 import SVG_personLock from "./person-lock";
@@ -1418,7 +1550,10 @@ import SVG_personProhibited from "./person-prohibited";
 import SVG_personQuestionMark from "./person-question-mark";
 import SVG_personRibbon from "./person-ribbon";
 import SVG_personSearch from "./person-search";
+import SVG_personShield from "./person-shield";
+import SVG_personSoundSpatial from "./person-sound-spatial";
 import SVG_personSquare from "./person-square";
+import SVG_personSquareAdd from "./person-square-add";
 import SVG_personSquareCheckmark from "./person-square-checkmark";
 import SVG_personStar from "./person-star";
 import SVG_personStarburst from "./person-starburst";
@@ -1427,6 +1562,7 @@ import SVG_personSupport from "./person-support";
 import SVG_personSwap from "./person-swap";
 import SVG_personSync from "./person-sync";
 import SVG_personTag from "./person-tag";
+import SVG_personTentative from "./person-tentative";
 import SVG_personVoice from "./person-voice";
 import SVG_personWalking from "./person-walking";
 import SVG_personWarning from "./person-warning";
@@ -1471,12 +1607,15 @@ import SVG_pin from "./pin";
 import SVG_pinOff from "./pin-off";
 import SVG_pipeline from "./pipeline";
 import SVG_pivot from "./pivot";
+import SVG_planet from "./planet";
 import SVG_plantCattail from "./plant-cattail";
 import SVG_plantGrass from "./plant-grass";
 import SVG_plantRagweed from "./plant-ragweed";
 import SVG_play from "./play";
 import SVG_playCircle from "./play-circle";
 import SVG_playCircleHint from "./play-circle-hint";
+import SVG_playCircleHintHalf from "./play-circle-hint-half";
+import SVG_playCircleSparkle from "./play-circle-sparkle";
 import SVG_plugConnected from "./plug-connected";
 import SVG_plugConnectedSettings from "./plug-connected-settings";
 import SVG_plugDisconnected from "./plug-disconnected";
@@ -1514,10 +1653,12 @@ import SVG_prohibitedMultiple from "./prohibited-multiple";
 import SVG_projectionScreen from "./projection-screen";
 import SVG_projectionScreenDismiss from "./projection-screen-dismiss";
 import SVG_projectionScreenText from "./projection-screen-text";
+import SVG_prompt from "./prompt";
 import SVG_protocolHandler from "./protocol-handler";
 import SVG_pulse from "./pulse";
 import SVG_pulseSquare from "./pulse-square";
 import SVG_puzzleCube from "./puzzle-cube";
+import SVG_puzzleCubePiece from "./puzzle-cube-piece";
 import SVG_puzzlePiece from "./puzzle-piece";
 import SVG_qrCode from "./qr-code";
 import SVG_question from "./question";
@@ -1529,6 +1670,7 @@ import SVG_ratioOneToOne from "./ratio-one-to-one";
 import SVG_reOrder from "./re-order";
 import SVG_reOrderDotsHorizontal from "./re-order-dots-horizontal";
 import SVG_reOrderDotsVertical from "./re-order-dots-vertical";
+import SVG_reOrderVertical from "./re-order-vertical";
 import SVG_readAloud from "./read-aloud";
 import SVG_readingList from "./reading-list";
 import SVG_readingListAdd from "./reading-list-add";
@@ -1548,8 +1690,10 @@ import SVG_rectangleLandscapeHintCopy from "./rectangle-landscape-hint-copy";
 import SVG_rectangleLandscapeSparkle from "./rectangle-landscape-sparkle";
 import SVG_rectangleLandscapeSync from "./rectangle-landscape-sync";
 import SVG_rectangleLandscapeSyncOff from "./rectangle-landscape-sync-off";
+import SVG_rectanglePortrait from "./rectangle-portrait";
 import SVG_remixAdd from "./remix-add";
 import SVG_rename from "./rename";
+import SVG_replay from "./replay";
 import SVG_resize from "./resize";
 import SVG_resizeImage from "./resize-image";
 import SVG_resizeLarge from "./resize-large";
@@ -1569,6 +1713,7 @@ import SVG_rocket from "./rocket";
 import SVG_rotateLeft from "./rotate-left";
 import SVG_rotateRight from "./rotate-right";
 import SVG_router from "./router";
+import SVG_rowChild from "./row-child";
 import SVG_rowTriple from "./row-triple";
 import SVG_rss from "./rss";
 import SVG_ruler from "./ruler";
@@ -1603,6 +1748,7 @@ import SVG_screenshotRecord from "./screenshot-record";
 import SVG_script from "./script";
 import SVG_search from "./search";
 import SVG_searchInfo from "./search-info";
+import SVG_searchSparkle from "./search-sparkle";
 import SVG_searchSquare from "./search-square";
 import SVG_searchVisual from "./search-visual";
 import SVG_seat from "./seat";
@@ -1617,6 +1763,7 @@ import SVG_send from "./send";
 import SVG_sendBeaker from "./send-beaker";
 import SVG_sendClock from "./send-clock";
 import SVG_sendCopy from "./send-copy";
+import SVG_sendPerson from "./send-person";
 import SVG_serialPort from "./serial-port";
 import SVG_server from "./server";
 import SVG_serverLink from "./server-link";
@@ -1634,6 +1781,7 @@ import SVG_share from "./share";
 import SVG_shareAndroid from "./share-android";
 import SVG_shareCloseTray from "./share-close-tray";
 import SVG_shareIos from "./share-ios";
+import SVG_shareMultiple from "./share-multiple";
 import SVG_shareScreenPerson from "./share-screen-person";
 import SVG_shareScreenPersonOverlay from "./share-screen-person-overlay";
 import SVG_shareScreenPersonOverlayInside from "./share-screen-person-overlay-inside";
@@ -1642,6 +1790,7 @@ import SVG_shareScreenStart from "./share-screen-start";
 import SVG_shareScreenStop from "./share-screen-stop";
 import SVG_shield from "./shield";
 import SVG_shieldAdd from "./shield-add";
+import SVG_shieldArrowRight from "./shield-arrow-right";
 import SVG_shieldBadge from "./shield-badge";
 import SVG_shieldCheckmark from "./shield-checkmark";
 import SVG_shieldDismiss from "./shield-dismiss";
@@ -1651,6 +1800,7 @@ import SVG_shieldKeyhole from "./shield-keyhole";
 import SVG_shieldLock from "./shield-lock";
 import SVG_shieldProhibited from "./shield-prohibited";
 import SVG_shieldQuestion from "./shield-question";
+import SVG_shieldSettings from "./shield-settings";
 import SVG_shieldTask from "./shield-task";
 import SVG_shifts from "./shifts";
 import SVG_shifts30Minutes from "./shifts-30-minutes";
@@ -1666,6 +1816,7 @@ import SVG_shiftsTeam from "./shifts-team";
 import SVG_shoppingBag from "./shopping-bag";
 import SVG_shoppingBagAdd from "./shopping-bag-add";
 import SVG_shoppingBagArrowLeft from "./shopping-bag-arrow-left";
+import SVG_shoppingBagCheckmark from "./shopping-bag-checkmark";
 import SVG_shoppingBagDismiss from "./shopping-bag-dismiss";
 import SVG_shoppingBagPause from "./shopping-bag-pause";
 import SVG_shoppingBagPercent from "./shopping-bag-percent";
@@ -1677,7 +1828,9 @@ import SVG_signOut from "./sign-out";
 import SVG_signature from "./signature";
 import SVG_sim from "./sim";
 import SVG_skipBack10 from "./skip-back-10";
+import SVG_skipBack15 from "./skip-back-15";
 import SVG_skipForward10 from "./skip-forward-10";
+import SVG_skipForward15 from "./skip-forward-15";
 import SVG_skipForward30 from "./skip-forward-30";
 import SVG_skipForwardTab from "./skip-forward-tab";
 import SVG_slashForward from "./slash-forward";
@@ -1694,25 +1847,35 @@ import SVG_slideMicrophone from "./slide-microphone";
 import SVG_slideMultiple from "./slide-multiple";
 import SVG_slideMultipleArrowRight from "./slide-multiple-arrow-right";
 import SVG_slideMultipleSearch from "./slide-multiple-search";
+import SVG_slidePlay from "./slide-play";
 import SVG_slideRecord from "./slide-record";
 import SVG_slideSearch from "./slide-search";
 import SVG_slideSettings from "./slide-settings";
 import SVG_slideSize from "./slide-size";
 import SVG_slideText from "./slide-text";
+import SVG_slideTextCall from "./slide-text-call";
+import SVG_slideTextCursor from "./slide-text-cursor";
 import SVG_slideTextEdit from "./slide-text-edit";
 import SVG_slideTextMultiple from "./slide-text-multiple";
 import SVG_slideTextPerson from "./slide-text-person";
 import SVG_slideTextSparkle from "./slide-text-sparkle";
+import SVG_slideTextTitle from "./slide-text-title";
+import SVG_slideTextTitleAdd from "./slide-text-title-add";
+import SVG_slideTextTitleCheckmark from "./slide-text-title-checkmark";
+import SVG_slideTextTitleEdit from "./slide-text-title-edit";
 import SVG_slideTransition from "./slide-transition";
 import SVG_smartwatch from "./smartwatch";
 import SVG_smartwatchDot from "./smartwatch-dot";
 import SVG_snooze from "./snooze";
 import SVG_soundSource from "./sound-source";
 import SVG_soundWaveCircle from "./sound-wave-circle";
+import SVG_soundWaveCircleSparkle from "./sound-wave-circle-sparkle";
 import SVG_space3d from "./space-3d";
 import SVG_spacebar from "./spacebar";
 import SVG_sparkle from "./sparkle";
+import SVG_sparkleAction from "./sparkle-action";
 import SVG_sparkleCircle from "./sparkle-circle";
+import SVG_sparkleInfo from "./sparkle-info";
 import SVG_spatulaSpoon from "./spatula-spoon";
 import SVG_speaker0 from "./speaker-0";
 import SVG_speaker1 from "./speaker-1";
@@ -1730,18 +1893,24 @@ import SVG_sport from "./sport";
 import SVG_sportAmericanFootball from "./sport-american-football";
 import SVG_sportBaseball from "./sport-baseball";
 import SVG_sportBasketball from "./sport-basketball";
+import SVG_sportCricketBall from "./sport-cricket-ball";
+import SVG_sportCricketBat from "./sport-cricket-bat";
 import SVG_sportHockey from "./sport-hockey";
 import SVG_sportSoccer from "./sport-soccer";
 import SVG_square from "./square";
 import SVG_squareArrowForward from "./square-arrow-forward";
+import SVG_squareDovetailJoint from "./square-dovetail-joint";
 import SVG_squareHint from "./square-hint";
 import SVG_squareHintApps from "./square-hint-apps";
 import SVG_squareHintHexagon from "./square-hint-hexagon";
 import SVG_squareHintSparkles from "./square-hint-sparkles";
 import SVG_squareMultiple from "./square-multiple";
+import SVG_squareShadow from "./square-shadow";
+import SVG_squareTextArrowRepeatAll from "./square-text-arrow-repeat-all";
 import SVG_stack from "./stack";
 import SVG_stackAdd from "./stack-add";
 import SVG_stackArrowForward from "./stack-arrow-forward";
+import SVG_stackOff from "./stack-off";
 import SVG_stackStar from "./stack-star";
 import SVG_stackVertical from "./stack-vertical";
 import SVG_star from "./star";
@@ -1798,25 +1967,43 @@ import SVG_tabDesktopLink from "./tab-desktop-link";
 import SVG_tabDesktopMultiple from "./tab-desktop-multiple";
 import SVG_tabDesktopMultipleBottom from "./tab-desktop-multiple-bottom";
 import SVG_tabDesktopMultipleSparkle from "./tab-desktop-multiple-sparkle";
+import SVG_tabDesktopSearch from "./tab-desktop-search";
+import SVG_tabGroup from "./tab-group";
 import SVG_tabInPrivate from "./tab-in-private";
 import SVG_tabInprivateAccount from "./tab-inprivate-account";
 import SVG_tabProhibited from "./tab-prohibited";
 import SVG_tabShieldDismiss from "./tab-shield-dismiss";
 import SVG_table from "./table";
 import SVG_tableAdd from "./table-add";
+import SVG_tableAltText from "./table-alt-text";
+import SVG_tableArrowRepeatAll from "./table-arrow-repeat-all";
 import SVG_tableArrowUp from "./table-arrow-up";
 import SVG_tableBottomRow from "./table-bottom-row";
+import SVG_tableCellAdd from "./table-cell-add";
+import SVG_tableCellCenter from "./table-cell-center";
+import SVG_tableCellCenterArrowRepeatAll from "./table-cell-center-arrow-repeat-all";
+import SVG_tableCellCenterEdit from "./table-cell-center-edit";
+import SVG_tableCellCenterLink from "./table-cell-center-link";
+import SVG_tableCellCenterSearch from "./table-cell-center-search";
 import SVG_tableCellEdit from "./table-cell-edit";
 import SVG_tableCellsMerge from "./table-cells-merge";
 import SVG_tableCellsSplit from "./table-cells-split";
 import SVG_tableColumnTopBottom from "./table-column-top-bottom";
+import SVG_tableColumnTopBottomArrowRepeatAll from "./table-column-top-bottom-arrow-repeat-all";
+import SVG_tableColumnTopBottomEdit from "./table-column-top-bottom-edit";
+import SVG_tableColumnTopBottomLink from "./table-column-top-bottom-link";
+import SVG_tableColumnTopBottomSearch from "./table-column-top-bottom-search";
+import SVG_tableCursor from "./table-cursor";
 import SVG_tableDeleteColumn from "./table-delete-column";
 import SVG_tableDeleteRow from "./table-delete-row";
 import SVG_tableDismiss from "./table-dismiss";
 import SVG_tableEdit from "./table-edit";
 import SVG_tableFreezeColumn from "./table-freeze-column";
 import SVG_tableFreezeColumnAndRow from "./table-freeze-column-and-row";
+import SVG_tableFreezeColumnAndRowDismiss from "./table-freeze-column-and-row-dismiss";
+import SVG_tableFreezeColumnDismiss from "./table-freeze-column-dismiss";
 import SVG_tableFreezeRow from "./table-freeze-row";
+import SVG_tableFreezeRowDismiss from "./table-freeze-row-dismiss";
 import SVG_tableInsertColumn from "./table-insert-column";
 import SVG_tableInsertRow from "./table-insert-row";
 import SVG_tableLightning from "./table-lightning";
@@ -1826,18 +2013,21 @@ import SVG_tableMoveAbove from "./table-move-above";
 import SVG_tableMoveBelow from "./table-move-below";
 import SVG_tableMoveLeft from "./table-move-left";
 import SVG_tableMoveRight from "./table-move-right";
+import SVG_tableMultiple from "./table-multiple";
 import SVG_tableOffset from "./table-offset";
 import SVG_tableOffsetAdd from "./table-offset-add";
 import SVG_tableOffsetLessThanOrEqualTo from "./table-offset-less-than-or-equal-to";
 import SVG_tableOffsetSettings from "./table-offset-settings";
 import SVG_tableResizeColumn from "./table-resize-column";
 import SVG_tableResizeRow from "./table-resize-row";
+import SVG_tableSearch from "./table-search";
 import SVG_tableSettings from "./table-settings";
 import SVG_tableSimple from "./table-simple";
 import SVG_tableSimpleCheckmark from "./table-simple-checkmark";
 import SVG_tableSimpleExclude from "./table-simple-exclude";
 import SVG_tableSimpleInclude from "./table-simple-include";
 import SVG_tableSimpleMultiple from "./table-simple-multiple";
+import SVG_tableSparkle from "./table-sparkle";
 import SVG_tableStackAbove from "./table-stack-above";
 import SVG_tableStackBelow from "./table-stack-below";
 import SVG_tableStackLeft from "./table-stack-left";
@@ -1848,12 +2038,15 @@ import SVG_tabletLaptop from "./tablet-laptop";
 import SVG_tabletSpeaker from "./tablet-speaker";
 import SVG_tabs from "./tabs";
 import SVG_tag from "./tag";
+import SVG_tagAdd from "./tag-add";
 import SVG_tagDismiss from "./tag-dismiss";
+import SVG_tagEdit from "./tag-edit";
 import SVG_tagError from "./tag-error";
 import SVG_tagLock from "./tag-lock";
 import SVG_tagLockAccent from "./tag-lock-accent";
 import SVG_tagMultiple from "./tag-multiple";
 import SVG_tagOff from "./tag-off";
+import SVG_tagPercent from "./tag-percent";
 import SVG_tagQuestionMark from "./tag-question-mark";
 import SVG_tagReset from "./tag-reset";
 import SVG_tagSearch from "./tag-search";
@@ -1864,16 +2057,23 @@ import SVG_targetAdd from "./target-add";
 import SVG_targetArrow from "./target-arrow";
 import SVG_targetDismiss from "./target-dismiss";
 import SVG_targetEdit from "./target-edit";
+import SVG_targetSparkle from "./target-sparkle";
 import SVG_taskListAdd from "./task-list-add";
 import SVG_taskListLtr from "./task-list-ltr";
 import SVG_taskListRtl from "./task-list-rtl";
 import SVG_taskListSquareAdd from "./task-list-square-add";
+import SVG_taskListSquareDatabase from "./task-list-square-database";
 import SVG_taskListSquareLtr from "./task-list-square-ltr";
+import SVG_taskListSquarePerson from "./task-list-square-person";
 import SVG_taskListSquareRtl from "./task-list-square-rtl";
+import SVG_taskListSquareSparkle from "./task-list-square-sparkle";
 import SVG_tasksApp from "./tasks-app";
+import SVG_teaching from "./teaching";
 import SVG_teardropBottomRight from "./teardrop-bottom-right";
 import SVG_teddy from "./teddy";
 import SVG_temperature from "./temperature";
+import SVG_temperatureDegreeCelsius from "./temperature-degree-celsius";
+import SVG_temperatureDegreeFahrenheit from "./temperature-degree-fahrenheit";
 import SVG_tent from "./tent";
 import SVG_tetrisApp from "./tetris-app";
 import SVG_textAddSpaceAfter from "./text-add-space-after";
@@ -1976,6 +2176,10 @@ import SVG_textHeader2LinesCaret from "./text-header-2-lines-caret";
 import SVG_textHeader3 from "./text-header-3";
 import SVG_textHeader3Lines from "./text-header-3-lines";
 import SVG_textHeader3LinesCaret from "./text-header-3-lines-caret";
+import SVG_textHeader4 from "./text-header-4";
+import SVG_textHeader4LinesCaret from "./text-header-4-lines-caret";
+import SVG_textHeader5 from "./text-header-5";
+import SVG_textHeader6 from "./text-header-6";
 import SVG_textIndentDecrease from "./text-indent-decrease";
 import SVG_textIndentDecreaseLtr from "./text-indent-decrease-ltr";
 import SVG_textIndentDecreaseLtr90 from "./text-indent-decrease-ltr-90";
@@ -1996,6 +2200,10 @@ import SVG_textIndentIncreaseRtl90 from "./text-indent-increase-rtl-90";
 import SVG_textIndentIncreaseRtlRotate270 from "./text-indent-increase-rtl-rotate-270";
 import SVG_textItalic from "./text-italic";
 import SVG_textLineSpacing from "./text-line-spacing";
+import SVG_textListAbcLowercaseLtr from "./text-list-abc-lowercase-ltr";
+import SVG_textListAbcUppercaseLtr from "./text-list-abc-uppercase-ltr";
+import SVG_textListRomanNumeralLowercase from "./text-list-roman-numeral-lowercase";
+import SVG_textListRomanNumeralUppercase from "./text-list-roman-numeral-uppercase";
 import SVG_textMore from "./text-more";
 import SVG_textNumberFormat from "./text-number-format";
 import SVG_textNumberListLtr from "./text-number-list-ltr";
@@ -2008,6 +2216,9 @@ import SVG_textNumberListRtl90 from "./text-number-list-rtl-90";
 import SVG_textNumberListRtlRotate270 from "./text-number-list-rtl-rotate-270";
 import SVG_textParagraph from "./text-paragraph";
 import SVG_textParagraphDirection from "./text-paragraph-direction";
+import SVG_textParagraphDirectionLeft from "./text-paragraph-direction-left";
+import SVG_textParagraphDirectionRight from "./text-paragraph-direction-right";
+import SVG_textPercent from "./text-percent";
 import SVG_textPositionBehind from "./text-position-behind";
 import SVG_textPositionFront from "./text-position-front";
 import SVG_textPositionLine from "./text-position-line";
@@ -2019,6 +2230,7 @@ import SVG_textPositionTight from "./text-position-tight";
 import SVG_textPositionTopBottom from "./text-position-top-bottom";
 import SVG_textProofingTools from "./text-proofing-tools";
 import SVG_textQuote from "./text-quote";
+import SVG_textQuoteOpening from "./text-quote-opening";
 import SVG_textSortAscending from "./text-sort-ascending";
 import SVG_textSortDescending from "./text-sort-descending";
 import SVG_textStrikethrough from "./text-strikethrough";
@@ -2047,6 +2259,7 @@ import SVG_textboxAlignTopCenter from "./textbox-align-top-center";
 import SVG_textboxAlignTopLeft from "./textbox-align-top-left";
 import SVG_textboxAlignTopRight from "./textbox-align-top-right";
 import SVG_textboxAlignTopRotate90 from "./textbox-align-top-rotate-90";
+import SVG_textboxCheckmark from "./textbox-checkmark";
 import SVG_textboxMore from "./textbox-more";
 import SVG_textboxRotate90 from "./textbox-rotate-90";
 import SVG_textboxSettings from "./textbox-settings";
@@ -2069,11 +2282,13 @@ import SVG_toggleMultiple from "./toggle-multiple";
 import SVG_toggleRight from "./toggle-right";
 import SVG_toolbox from "./toolbox";
 import SVG_tooltipQuote from "./tooltip-quote";
+import SVG_tooltipQuoteOff from "./tooltip-quote-off";
 import SVG_topSpeed from "./top-speed";
 import SVG_translate from "./translate";
 import SVG_translateAuto from "./translate-auto";
 import SVG_translateOff from "./translate-off";
 import SVG_transmission from "./transmission";
+import SVG_transparencySquare from "./transparency-square";
 import SVG_trayItemAdd from "./tray-item-add";
 import SVG_trayItemRemove from "./tray-item-remove";
 import SVG_treeDeciduous from "./tree-deciduous";
@@ -2100,12 +2315,14 @@ import SVG_vehicleCarProfile from "./vehicle-car-profile";
 import SVG_vehicleCarProfileLtr from "./vehicle-car-profile-ltr";
 import SVG_vehicleCarProfileLtrClock from "./vehicle-car-profile-ltr-clock";
 import SVG_vehicleCarProfileRtl from "./vehicle-car-profile-rtl";
+import SVG_vehicleMotorcycle from "./vehicle-motorcycle";
 import SVG_vehicleShip from "./vehicle-ship";
 import SVG_vehicleSubway from "./vehicle-subway";
 import SVG_vehicleSubwayClock from "./vehicle-subway-clock";
 import SVG_vehicleTractor from "./vehicle-tractor";
 import SVG_vehicleTruck from "./vehicle-truck";
 import SVG_vehicleTruckBag from "./vehicle-truck-bag";
+import SVG_vehicleTruckCheckmark from "./vehicle-truck-checkmark";
 import SVG_vehicleTruckCube from "./vehicle-truck-cube";
 import SVG_vehicleTruckProfile from "./vehicle-truck-profile";
 import SVG_video from "./video";
@@ -2113,6 +2330,7 @@ import SVG_video360 from "./video-360";
 import SVG_videoAdd from "./video-add";
 import SVG_videoBackgroundEffect from "./video-background-effect";
 import SVG_videoBackgroundEffectHorizontal from "./video-background-effect-horizontal";
+import SVG_videoBluetooth from "./video-bluetooth";
 import SVG_videoChat from "./video-chat";
 import SVG_videoClip from "./video-clip";
 import SVG_videoClipMultiple from "./video-clip-multiple";
@@ -2120,6 +2338,7 @@ import SVG_videoClipOff from "./video-clip-off";
 import SVG_videoClipOptimize from "./video-clip-optimize";
 import SVG_videoClipWand from "./video-clip-wand";
 import SVG_videoLink from "./video-link";
+import SVG_videoMultiple from "./video-multiple";
 import SVG_videoOff from "./video-off";
 import SVG_videoPerson from "./video-person";
 import SVG_videoPersonCall from "./video-person-call";
@@ -2133,7 +2352,9 @@ import SVG_videoPersonStarOff from "./video-person-star-off";
 import SVG_videoPlayPause from "./video-play-pause";
 import SVG_videoProhibited from "./video-prohibited";
 import SVG_videoSecurity from "./video-security";
+import SVG_videoSettings from "./video-settings";
 import SVG_videoSwitch from "./video-switch";
+import SVG_videoUsb from "./video-usb";
 import SVG_viewDesktop from "./view-desktop";
 import SVG_viewDesktopMobile from "./view-desktop-mobile";
 import SVG_voicemail from "./voicemail";
@@ -2145,6 +2366,7 @@ import SVG_walletCreditCard from "./wallet-credit-card";
 import SVG_wallpaper from "./wallpaper";
 import SVG_wand from "./wand";
 import SVG_warning from "./warning";
+import SVG_warningLockOpen from "./warning-lock-open";
 import SVG_washer from "./washer";
 import SVG_water from "./water";
 import SVG_weatherBlowingSnow from "./weather-blowing-snow";
@@ -2173,6 +2395,7 @@ import SVG_weatherSunnyHigh from "./weather-sunny-high";
 import SVG_weatherSunnyLow from "./weather-sunny-low";
 import SVG_weatherThunderstorm from "./weather-thunderstorm";
 import SVG_webAsset from "./web-asset";
+import SVG_wheelchairAccess from "./wheelchair-access";
 import SVG_whiteboard from "./whiteboard";
 import SVG_whiteboardOff from "./whiteboard-off";
 import SVG_wifi1 from "./wifi-1";
@@ -2186,11 +2409,13 @@ import SVG_window from "./window";
 import SVG_windowAd from "./window-ad";
 import SVG_windowApps from "./window-apps";
 import SVG_windowArrowUp from "./window-arrow-up";
+import SVG_windowBrush from "./window-brush";
 import SVG_windowDatabase from "./window-database";
 import SVG_windowDevTools from "./window-dev-tools";
 import SVG_windowFingerprint from "./window-fingerprint";
 import SVG_windowNew from "./window-new";
 import SVG_windowShield from "./window-shield";
+import SVG_windowText from "./window-text";
 import SVG_windowWrench from "./window-wrench";
 import SVG_wrench from "./wrench";
 import SVG_wrenchScrewdriver from "./wrench-screwdriver";
@@ -2209,12 +2434,16 @@ const contentMap = {
 "accessibility": SVG_accessibility,
 "accessibility-checkmark": SVG_accessibilityCheckmark,
 "accessibility-error": SVG_accessibilityError,
+"accessibility-more": SVG_accessibilityMore,
 "accessibility-question-mark": SVG_accessibilityQuestionMark,
 "add": SVG_add,
 "add-circle": SVG_addCircle,
 "add-square": SVG_addSquare,
 "add-square-multiple": SVG_addSquareMultiple,
+"add-starburst": SVG_addStarburst,
 "add-subtract-circle": SVG_addSubtractCircle,
+"agents": SVG_agents,
+"agents-add": SVG_agentsAdd,
 "airplane": SVG_airplane,
 "airplane-landing": SVG_airplaneLanding,
 "airplane-take-off": SVG_airplaneTakeOff,
@@ -2237,6 +2466,7 @@ const contentMap = {
 "align-top": SVG_alignTop,
 "animal-cat": SVG_animalCat,
 "animal-dog": SVG_animalDog,
+"animal-paw-print": SVG_animalPawPrint,
 "animal-rabbit": SVG_animalRabbit,
 "animal-turtle": SVG_animalTurtle,
 "app-folder": SVG_appFolder,
@@ -2247,10 +2477,12 @@ const contentMap = {
 "approvals-app": SVG_approvalsApp,
 "apps": SVG_apps,
 "apps-add-in": SVG_appsAddIn,
+"apps-add-in-off": SVG_appsAddInOff,
 "apps-list": SVG_appsList,
 "apps-list-detail": SVG_appsListDetail,
 "archive": SVG_archive,
 "archive-arrow-back": SVG_archiveArrowBack,
+"archive-clock": SVG_archiveClock,
 "archive-multiple": SVG_archiveMultiple,
 "archive-settings": SVG_archiveSettings,
 "arrow-autofit-content": SVG_arrowAutofitContent,
@@ -2274,20 +2506,26 @@ const contentMap = {
 "arrow-circle-up": SVG_arrowCircleUp,
 "arrow-circle-up-left": SVG_arrowCircleUpLeft,
 "arrow-circle-up-right": SVG_arrowCircleUpRight,
+"arrow-circle-up-sparkle": SVG_arrowCircleUpSparkle,
 "arrow-clockwise": SVG_arrowClockwise,
 "arrow-clockwise-dashes": SVG_arrowClockwiseDashes,
+"arrow-clockwise-dashes-settings": SVG_arrowClockwiseDashesSettings,
 "arrow-collapse-all": SVG_arrowCollapseAll,
 "arrow-counterclockwise": SVG_arrowCounterclockwise,
 "arrow-counterclockwise-dashes": SVG_arrowCounterclockwiseDashes,
+"arrow-counterclockwise-info": SVG_arrowCounterclockwiseInfo,
 "arrow-curve-down-left": SVG_arrowCurveDownLeft,
 "arrow-down": SVG_arrowDown,
 "arrow-down-exclamation": SVG_arrowDownExclamation,
 "arrow-down-left": SVG_arrowDownLeft,
+"arrow-down-right": SVG_arrowDownRight,
 "arrow-download": SVG_arrowDownload,
 "arrow-download-off": SVG_arrowDownloadOff,
 "arrow-enter-left": SVG_arrowEnterLeft,
 "arrow-enter-up": SVG_arrowEnterUp,
+"arrow-exit": SVG_arrowExit,
 "arrow-expand": SVG_arrowExpand,
+"arrow-expand-all": SVG_arrowExpandAll,
 "arrow-export": SVG_arrowExport,
 "arrow-export-ltr": SVG_arrowExportLtr,
 "arrow-export-rtl": SVG_arrowExportRtl,
@@ -2307,8 +2545,10 @@ const contentMap = {
 "arrow-import": SVG_arrowImport,
 "arrow-left": SVG_arrowLeft,
 "arrow-maximize": SVG_arrowMaximize,
+"arrow-maximize-top-left-bottom-right": SVG_arrowMaximizeTopLeftBottomRight,
 "arrow-maximize-vertical": SVG_arrowMaximizeVertical,
 "arrow-minimize": SVG_arrowMinimize,
+"arrow-minimize-top-left-bottom-right": SVG_arrowMinimizeTopLeftBottomRight,
 "arrow-minimize-vertical": SVG_arrowMinimizeVertical,
 "arrow-move": SVG_arrowMove,
 "arrow-next": SVG_arrowNext,
@@ -2364,6 +2604,7 @@ const contentMap = {
 "arrow-up-exclamation": SVG_arrowUpExclamation,
 "arrow-up-left": SVG_arrowUpLeft,
 "arrow-up-right": SVG_arrowUpRight,
+"arrow-up-right-dashes": SVG_arrowUpRightDashes,
 "arrow-up-square-settings": SVG_arrowUpSquareSettings,
 "arrow-upload": SVG_arrowUpload,
 "arrows-bidirectional": SVG_arrowsBidirectional,
@@ -2380,6 +2621,8 @@ const contentMap = {
 "badge": SVG_badge,
 "balloon": SVG_balloon,
 "barcode-scanner": SVG_barcodeScanner,
+"barcode-scanner-add": SVG_barcodeScannerAdd,
+"barcode-scanner-dismiss": SVG_barcodeScannerDismiss,
 "battery-0": SVG_battery0,
 "battery-10": SVG_battery10,
 "battery-1": SVG_battery1,
@@ -2429,6 +2672,7 @@ const contentMap = {
 "book-number": SVG_bookNumber,
 "book-open": SVG_bookOpen,
 "book-open-globe": SVG_bookOpenGlobe,
+"book-open-lightbulb": SVG_bookOpenLightbulb,
 "book-open-microphone": SVG_bookOpenMicrophone,
 "book-pulse": SVG_bookPulse,
 "book-question-mark": SVG_bookQuestionMark,
@@ -2478,6 +2722,7 @@ const contentMap = {
 "box-toolbox": SVG_boxToolbox,
 "braces": SVG_braces,
 "braces-variable": SVG_bracesVariable,
+"brain": SVG_brain,
 "brain-circuit": SVG_brainCircuit,
 "branch": SVG_branch,
 "branch-compare": SVG_branchCompare,
@@ -2527,11 +2772,14 @@ const contentMap = {
 "calendar-agenda": SVG_calendarAgenda,
 "calendar-arrow-counterclockwise": SVG_calendarArrowCounterclockwise,
 "calendar-arrow-down": SVG_calendarArrowDown,
+"calendar-arrow-repeat-all": SVG_calendarArrowRepeatAll,
 "calendar-arrow-right": SVG_calendarArrowRight,
 "calendar-assistant": SVG_calendarAssistant,
 "calendar-cancel": SVG_calendarCancel,
 "calendar-chat": SVG_calendarChat,
 "calendar-checkmark": SVG_calendarCheckmark,
+"calendar-checkmark-center": SVG_calendarCheckmarkCenter,
+"calendar-checkmark-sparkle": SVG_calendarCheckmarkSparkle,
 "calendar-clock": SVG_calendarClock,
 "calendar-data-bar": SVG_calendarDataBar,
 "calendar-date": SVG_calendarDate,
@@ -2539,6 +2787,7 @@ const contentMap = {
 "calendar-edit": SVG_calendarEdit,
 "calendar-empty": SVG_calendarEmpty,
 "calendar-error": SVG_calendarError,
+"calendar-eye": SVG_calendarEye,
 "calendar-link": SVG_calendarLink,
 "calendar-lock": SVG_calendarLock,
 "calendar-ltr": SVG_calendarLtr,
@@ -2575,15 +2824,19 @@ const contentMap = {
 "call-park": SVG_callPark,
 "call-pause": SVG_callPause,
 "call-prohibited": SVG_callProhibited,
+"call-rectangle-landscape": SVG_callRectangleLandscape,
+"call-square": SVG_callSquare,
 "call-transfer": SVG_callTransfer,
 "calligraphy-pen": SVG_calligraphyPen,
 "camera": SVG_camera,
 "camera-add": SVG_cameraAdd,
+"camera-arrow-up": SVG_cameraArrowUp,
 "camera-dome": SVG_cameraDome,
 "camera-off": SVG_cameraOff,
 "camera-sparkles": SVG_cameraSparkles,
 "camera-switch": SVG_cameraSwitch,
 "card-ui": SVG_cardUi,
+"card-ui-portrait-flip": SVG_cardUiPortraitFlip,
 "caret-down": SVG_caretDown,
 "caret-down-right": SVG_caretDownRight,
 "caret-left": SVG_caretLeft,
@@ -2617,14 +2870,18 @@ const contentMap = {
 "chart-person": SVG_chartPerson,
 "chat": SVG_chat,
 "chat-add": SVG_chatAdd,
+"chat-arrow-back-down": SVG_chatArrowBackDown,
 "chat-bubbles-question": SVG_chatBubblesQuestion,
 "chat-cursor": SVG_chatCursor,
 "chat-dismiss": SVG_chatDismiss,
 "chat-empty": SVG_chatEmpty,
 "chat-help": SVG_chatHelp,
+"chat-history": SVG_chatHistory,
 "chat-lock": SVG_chatLock,
 "chat-multiple": SVG_chatMultiple,
+"chat-multiple-checkmark": SVG_chatMultipleCheckmark,
 "chat-multiple-heart": SVG_chatMultipleHeart,
+"chat-multiple-minus": SVG_chatMultipleMinus,
 "chat-off": SVG_chatOff,
 "chat-settings": SVG_chatSettings,
 "chat-sparkle": SVG_chatSparkle,
@@ -2641,12 +2898,14 @@ const contentMap = {
 "checkbox-warning": SVG_checkboxWarning,
 "checkmark": SVG_checkmark,
 "checkmark-circle": SVG_checkmarkCircle,
+"checkmark-circle-hint": SVG_checkmarkCircleHint,
 "checkmark-circle-square": SVG_checkmarkCircleSquare,
 "checkmark-circle-warning": SVG_checkmarkCircleWarning,
 "checkmark-lock": SVG_checkmarkLock,
 "checkmark-square": SVG_checkmarkSquare,
 "checkmark-starburst": SVG_checkmarkStarburst,
 "checkmark-underline-circle": SVG_checkmarkUnderlineCircle,
+"chess": SVG_chess,
 "chevron-circle-down": SVG_chevronCircleDown,
 "chevron-circle-left": SVG_chevronCircleLeft,
 "chevron-circle-right": SVG_chevronCircleRight,
@@ -2660,10 +2919,18 @@ const contentMap = {
 "circle": SVG_circle,
 "circle-edit": SVG_circleEdit,
 "circle-half-fill": SVG_circleHalfFill,
+"circle-highlight": SVG_circleHighlight,
+"circle-hint": SVG_circleHint,
+"circle-hint-cursor": SVG_circleHintCursor,
+"circle-hint-dismiss": SVG_circleHintDismiss,
 "circle-hint-half-vertical": SVG_circleHintHalfVertical,
 "circle-image": SVG_circleImage,
 "circle-line": SVG_circleLine,
+"circle-multiple-concentric": SVG_circleMultipleConcentric,
+"circle-multiple-hint-checkmark": SVG_circleMultipleHintCheckmark,
+"circle-shadow": SVG_circleShadow,
 "circle-small": SVG_circleSmall,
+"circle-sparkle": SVG_circleSparkle,
 "city": SVG_city,
 "class": SVG_class,
 "classification": SVG_classification,
@@ -2704,9 +2971,12 @@ const contentMap = {
 "clock-dismiss": SVG_clockDismiss,
 "clock-lock": SVG_clockLock,
 "clock-pause": SVG_clockPause,
+"clock-sparkle": SVG_clockSparkle,
 "clock-toolbox": SVG_clockToolbox,
+"clock-warning": SVG_clockWarning,
 "closed-caption": SVG_closedCaption,
 "closed-caption-off": SVG_closedCaptionOff,
+"clothes-hanger": SVG_clothesHanger,
 "cloud": SVG_cloud,
 "cloud-add": SVG_cloudAdd,
 "cloud-archive": SVG_cloudArchive,
@@ -2717,6 +2987,7 @@ const contentMap = {
 "cloud-bidirectional": SVG_cloudBidirectional,
 "cloud-checkmark": SVG_cloudCheckmark,
 "cloud-cube": SVG_cloudCube,
+"cloud-desktop": SVG_cloudDesktop,
 "cloud-dismiss": SVG_cloudDismiss,
 "cloud-edit": SVG_cloudEdit,
 "cloud-error": SVG_cloudError,
@@ -2729,13 +3000,18 @@ const contentMap = {
 "clover": SVG_clover,
 "code": SVG_code,
 "code-block": SVG_codeBlock,
+"code-block-edit": SVG_codeBlockEdit,
 "code-circle": SVG_codeCircle,
+"coin-multiple": SVG_coinMultiple,
+"coin-stack": SVG_coinStack,
 "collections": SVG_collections,
 "collections-add": SVG_collectionsAdd,
+"collections-empty": SVG_collectionsEmpty,
 "color": SVG_color,
 "color-background": SVG_colorBackground,
 "color-fill": SVG_colorFill,
 "color-line": SVG_colorLine,
+"column": SVG_column,
 "column-edit": SVG_columnEdit,
 "column-triple": SVG_columnTriple,
 "column-triple-edit": SVG_columnTripleEdit,
@@ -2744,6 +3020,7 @@ const contentMap = {
 "comment-add": SVG_commentAdd,
 "comment-arrow-left": SVG_commentArrowLeft,
 "comment-arrow-right": SVG_commentArrowRight,
+"comment-badge": SVG_commentBadge,
 "comment-checkmark": SVG_commentCheckmark,
 "comment-dismiss": SVG_commentDismiss,
 "comment-edit": SVG_commentEdit,
@@ -2756,16 +3033,21 @@ const contentMap = {
 "comment-multiple-link": SVG_commentMultipleLink,
 "comment-note": SVG_commentNote,
 "comment-off": SVG_commentOff,
+"comment-quote": SVG_commentQuote,
+"comment-text": SVG_commentText,
 "communication": SVG_communication,
 "communication-person": SVG_communicationPerson,
 "communication-shield": SVG_communicationShield,
 "compass-northwest": SVG_compassNorthwest,
+"compass-true-north": SVG_compassTrueNorth,
 "component-2-double-tap-swipe-down": SVG_component2DoubleTapSwipeDown,
 "component-2-double-tap-swipe-up": SVG_component2DoubleTapSwipeUp,
 "compose": SVG_compose,
 "conference-room": SVG_conferenceRoom,
+"connected": SVG_connected,
 "connector": SVG_connector,
 "contact-card": SVG_contactCard,
+"contact-card-generic": SVG_contactCardGeneric,
 "contact-card-group": SVG_contactCardGroup,
 "contact-card-ribbon": SVG_contactCardRibbon,
 "content-settings": SVG_contentSettings,
@@ -2782,16 +3064,19 @@ const contentMap = {
 "copy-arrow-right": SVG_copyArrowRight,
 "copy-select": SVG_copySelect,
 "couch": SVG_couch,
+"counter": SVG_counter,
 "credit-card-clock": SVG_creditCardClock,
 "credit-card-person": SVG_creditCardPerson,
 "credit-card-toolbox": SVG_creditCardToolbox,
 "crop": SVG_crop,
+"crop-arrow-rotate": SVG_cropArrowRotate,
 "crop-interim": SVG_cropInterim,
 "crop-interim-off": SVG_cropInterimOff,
 "crop-sparkle": SVG_cropSparkle,
 "crown": SVG_crown,
 "crown-subtract": SVG_crownSubtract,
 "cube": SVG_cube,
+"cube-checkmark": SVG_cubeCheckmark,
 "cube-multiple": SVG_cubeMultiple,
 "cube-quick": SVG_cubeQuick,
 "cube-sync": SVG_cubeSync,
@@ -2808,7 +3093,9 @@ const contentMap = {
 "data-bar-horizontal": SVG_dataBarHorizontal,
 "data-bar-vertical": SVG_dataBarVertical,
 "data-bar-vertical-add": SVG_dataBarVerticalAdd,
+"data-bar-vertical-arrow-down": SVG_dataBarVerticalArrowDown,
 "data-bar-vertical-ascending": SVG_dataBarVerticalAscending,
+"data-bar-vertical-edit": SVG_dataBarVerticalEdit,
 "data-bar-vertical-star": SVG_dataBarVerticalStar,
 "data-funnel": SVG_dataFunnel,
 "data-histogram": SVG_dataHistogram,
@@ -2819,16 +3106,20 @@ const contentMap = {
 "data-treemap": SVG_dataTreemap,
 "data-trending": SVG_dataTrending,
 "data-usage": SVG_dataUsage,
+"data-usage-checkmark": SVG_dataUsageCheckmark,
 "data-usage-edit": SVG_dataUsageEdit,
 "data-usage-settings": SVG_dataUsageSettings,
+"data-usage-sparkle": SVG_dataUsageSparkle,
 "data-usage-toolbox": SVG_dataUsageToolbox,
 "data-waterfall": SVG_dataWaterfall,
 "data-whisker": SVG_dataWhisker,
 "database": SVG_database,
 "database-arrow-right": SVG_databaseArrowRight,
+"database-checkmark": SVG_databaseCheckmark,
 "database-link": SVG_databaseLink,
 "database-person": SVG_databasePerson,
 "database-search": SVG_databaseSearch,
+"database-switch": SVG_databaseSwitch,
 "decimal-arrow-left": SVG_decimalArrowLeft,
 "decimal-arrow-right": SVG_decimalArrowRight,
 "delete": SVG_delete,
@@ -2837,8 +3128,11 @@ const contentMap = {
 "dentist": SVG_dentist,
 "design-ideas": SVG_designIdeas,
 "desk": SVG_desk,
+"desk-multiple": SVG_deskMultiple,
+"desk-sparkle": SVG_deskSparkle,
 "desktop": SVG_desktop,
 "desktop-arrow-down": SVG_desktopArrowDown,
+"desktop-arrow-down-off": SVG_desktopArrowDownOff,
 "desktop-arrow-right": SVG_desktopArrowRight,
 "desktop-checkmark": SVG_desktopCheckmark,
 "desktop-cursor": SVG_desktopCursor,
@@ -2846,6 +3140,7 @@ const contentMap = {
 "desktop-flow": SVG_desktopFlow,
 "desktop-keyboard": SVG_desktopKeyboard,
 "desktop-mac": SVG_desktopMac,
+"desktop-off": SVG_desktopOff,
 "desktop-pulse": SVG_desktopPulse,
 "desktop-signal": SVG_desktopSignal,
 "desktop-speaker": SVG_desktopSpeaker,
@@ -2857,12 +3152,14 @@ const contentMap = {
 "developer-board-search": SVG_developerBoardSearch,
 "device-eq": SVG_deviceEq,
 "device-meeting-room": SVG_deviceMeetingRoom,
+"device-meeting-room-bar": SVG_deviceMeetingRoomBar,
 "device-meeting-room-remote": SVG_deviceMeetingRoomRemote,
 "diagram": SVG_diagram,
 "dialpad": SVG_dialpad,
 "dialpad-off": SVG_dialpadOff,
 "dialpad-question-mark": SVG_dialpadQuestionMark,
 "diamond": SVG_diamond,
+"diamond-dismiss": SVG_diamondDismiss,
 "directions": SVG_directions,
 "dishwasher": SVG_dishwasher,
 "dismiss": SVG_dismiss,
@@ -2908,6 +3205,7 @@ const contentMap = {
 "document-folder": SVG_documentFolder,
 "document-footer": SVG_documentFooter,
 "document-footer-dismiss": SVG_documentFooterDismiss,
+"document-globe": SVG_documentGlobe,
 "document-header": SVG_documentHeader,
 "document-header-arrow-down": SVG_documentHeaderArrowDown,
 "document-header-dismiss": SVG_documentHeaderDismiss,
@@ -2932,6 +3230,7 @@ const contentMap = {
 "document-one-page-columns": SVG_documentOnePageColumns,
 "document-one-page-link": SVG_documentOnePageLink,
 "document-one-page-multiple": SVG_documentOnePageMultiple,
+"document-one-page-multiple-sparkle": SVG_documentOnePageMultipleSparkle,
 "document-one-page-sparkle": SVG_documentOnePageSparkle,
 "document-page-bottom-center": SVG_documentPageBottomCenter,
 "document-page-bottom-left": SVG_documentPageBottomLeft,
@@ -2954,8 +3253,10 @@ const contentMap = {
 "document-save": SVG_documentSave,
 "document-search": SVG_documentSearch,
 "document-signature": SVG_documentSignature,
+"document-sparkle": SVG_documentSparkle,
 "document-split-hint": SVG_documentSplitHint,
 "document-split-hint-off": SVG_documentSplitHintOff,
+"document-square": SVG_documentSquare,
 "document-sync": SVG_documentSync,
 "document-table": SVG_documentTable,
 "document-table-arrow-right": SVG_documentTableArrowRight,
@@ -2971,6 +3272,7 @@ const contentMap = {
 "document-text-toolbox": SVG_documentTextToolbox,
 "document-toolbox": SVG_documentToolbox,
 "document-width": SVG_documentWidth,
+"door": SVG_door,
 "door-arrow-left": SVG_doorArrowLeft,
 "door-tag": SVG_doorTag,
 "double-swipe-down": SVG_doubleSwipeDown,
@@ -3022,6 +3324,8 @@ const contentMap = {
 "earth-leaf": SVG_earthLeaf,
 "edit": SVG_edit,
 "edit-arrow-back": SVG_editArrowBack,
+"edit-line-horizontal-3": SVG_editLineHorizontal3,
+"edit-lock": SVG_editLock,
 "edit-off": SVG_editOff,
 "edit-person": SVG_editPerson,
 "edit-prohibited": SVG_editProhibited,
@@ -3055,6 +3359,7 @@ const contentMap = {
 "expand-up-right": SVG_expandUpRight,
 "extended-dock": SVG_extendedDock,
 "eye": SVG_eye,
+"eye-circle": SVG_eyeCircle,
 "eye-lines": SVG_eyeLines,
 "eye-off": SVG_eyeOff,
 "eye-tracking": SVG_eyeTracking,
@@ -3095,6 +3400,8 @@ const contentMap = {
 "flip-horizontal": SVG_flipHorizontal,
 "flip-vertical": SVG_flipVertical,
 "flow": SVG_flow,
+"flow-dot": SVG_flowDot,
+"flow-sparkle": SVG_flowSparkle,
 "flowchart": SVG_flowchart,
 "flowchart-circle": SVG_flowchartCircle,
 "fluent": SVG_fluent,
@@ -3104,10 +3411,12 @@ const contentMap = {
 "folder-arrow-left": SVG_folderArrowLeft,
 "folder-arrow-right": SVG_folderArrowRight,
 "folder-arrow-up": SVG_folderArrowUp,
+"folder-document": SVG_folderDocument,
 "folder-lightning": SVG_folderLightning,
 "folder-link": SVG_folderLink,
 "folder-mail": SVG_folderMail,
 "folder-open": SVG_folderOpen,
+"folder-open-down": SVG_folderOpenDown,
 "folder-open-vertical": SVG_folderOpenVertical,
 "folder-people": SVG_folderPeople,
 "folder-person": SVG_folderPerson,
@@ -3132,6 +3441,7 @@ const contentMap = {
 "food-toast": SVG_foodToast,
 "form": SVG_form,
 "form-multiple": SVG_formMultiple,
+"form-multiple-collection": SVG_formMultipleCollection,
 "form-new": SVG_formNew,
 "fps-120": SVG_fps120,
 "fps-240": SVG_fps240,
@@ -3169,6 +3479,7 @@ const contentMap = {
 "globe-desktop": SVG_globeDesktop,
 "globe-error": SVG_globeError,
 "globe-location": SVG_globeLocation,
+"globe-off": SVG_globeOff,
 "globe-person": SVG_globePerson,
 "globe-prohibited": SVG_globeProhibited,
 "globe-search": SVG_globeSearch,
@@ -3191,17 +3502,21 @@ const contentMap = {
 "hand-draw": SVG_handDraw,
 "hand-left": SVG_handLeft,
 "hand-left-chat": SVG_handLeftChat,
+"hand-multiple": SVG_handMultiple,
 "hand-point": SVG_handPoint,
 "hand-right": SVG_handRight,
 "hand-right-off": SVG_handRightOff,
 "hand-wave": SVG_handWave,
 "handshake": SVG_handshake,
+"haptic-strong": SVG_hapticStrong,
+"haptic-weak": SVG_hapticWeak,
 "hard-drive": SVG_hardDrive,
 "hard-drive-call": SVG_hardDriveCall,
 "hat-graduation": SVG_hatGraduation,
 "hat-graduation-add": SVG_hatGraduationAdd,
 "hat-graduation-sparkle": SVG_hatGraduationSparkle,
 "hd": SVG_hd,
+"hd-off": SVG_hdOff,
 "hdr": SVG_hdr,
 "hdr-off": SVG_hdrOff,
 "headphones": SVG_headphones,
@@ -3216,6 +3531,7 @@ const contentMap = {
 "heart-off": SVG_heartOff,
 "heart-pulse": SVG_heartPulse,
 "hexagon": SVG_hexagon,
+"hexagon-sparkle": SVG_hexagonSparkle,
 "hexagon-three": SVG_hexagonThree,
 "highlight": SVG_highlight,
 "highlight-accent": SVG_highlightAccent,
@@ -3226,6 +3542,7 @@ const contentMap = {
 "home-add": SVG_homeAdd,
 "home-checkmark": SVG_homeCheckmark,
 "home-database": SVG_homeDatabase,
+"home-empty": SVG_homeEmpty,
 "home-garage": SVG_homeGarage,
 "home-heart": SVG_homeHeart,
 "home-more": SVG_homeMore,
@@ -3260,6 +3577,7 @@ const contentMap = {
 "important": SVG_important,
 "incognito": SVG_incognito,
 "info": SVG_info,
+"info-sparkle": SVG_infoSparkle,
 "ink-stroke": SVG_inkStroke,
 "ink-stroke-arrow-down": SVG_inkStrokeArrowDown,
 "ink-stroke-arrow-up-down": SVG_inkStrokeArrowUpDown,
@@ -3271,6 +3589,7 @@ const contentMap = {
 "ios-arrow-rtl": SVG_iosArrowRtl,
 "iot": SVG_iot,
 "iot-alert": SVG_iotAlert,
+"item-compare": SVG_itemCompare,
 "javascript": SVG_javascript,
 "key": SVG_key,
 "key-command": SVG_keyCommand,
@@ -3296,8 +3615,11 @@ const contentMap = {
 "launcher-settings": SVG_launcherSettings,
 "layer": SVG_layer,
 "layer-diagonal": SVG_layerDiagonal,
+"layer-diagonal-add": SVG_layerDiagonalAdd,
 "layer-diagonal-person": SVG_layerDiagonalPerson,
 "layer-diagonal-sparkle": SVG_layerDiagonalSparkle,
+"layout-add-above": SVG_layoutAddAbove,
+"layout-add-below": SVG_layoutAddBelow,
 "layout-cell-four": SVG_layoutCellFour,
 "layout-cell-four-focus-bottom-left": SVG_layoutCellFourFocusBottomLeft,
 "layout-cell-four-focus-bottom-right": SVG_layoutCellFourFocusBottomRight,
@@ -3316,6 +3638,7 @@ const contentMap = {
 "layout-column-three-focus-left": SVG_layoutColumnThreeFocusLeft,
 "layout-column-three-focus-right": SVG_layoutColumnThreeFocusRight,
 "layout-column-two": SVG_layoutColumnTwo,
+"layout-column-two-edit": SVG_layoutColumnTwoEdit,
 "layout-column-two-focus-left": SVG_layoutColumnTwoFocusLeft,
 "layout-column-two-focus-right": SVG_layoutColumnTwoFocusRight,
 "layout-column-two-split-left": SVG_layoutColumnTwoSplitLeft,
@@ -3326,6 +3649,7 @@ const contentMap = {
 "layout-column-two-split-right-focus-bottom-right": SVG_layoutColumnTwoSplitRightFocusBottomRight,
 "layout-column-two-split-right-focus-left": SVG_layoutColumnTwoSplitRightFocusLeft,
 "layout-column-two-split-right-focus-top-right": SVG_layoutColumnTwoSplitRightFocusTopRight,
+"layout-dynamic": SVG_layoutDynamic,
 "layout-row-four": SVG_layoutRowFour,
 "layout-row-four-focus-bottom": SVG_layoutRowFourFocusBottom,
 "layout-row-four-focus-center-bottom": SVG_layoutRowFourFocusCenterBottom,
@@ -3338,6 +3662,7 @@ const contentMap = {
 "layout-row-two": SVG_layoutRowTwo,
 "layout-row-two-focus-bottom": SVG_layoutRowTwoFocusBottom,
 "layout-row-two-focus-top": SVG_layoutRowTwoFocusTop,
+"layout-row-two-settings": SVG_layoutRowTwoSettings,
 "layout-row-two-split-bottom": SVG_layoutRowTwoSplitBottom,
 "layout-row-two-split-bottom-focus-bottom-left": SVG_layoutRowTwoSplitBottomFocusBottomLeft,
 "layout-row-two-split-bottom-focus-bottom-right": SVG_layoutRowTwoSplitBottomFocusBottomRight,
@@ -3352,6 +3677,7 @@ const contentMap = {
 "learning-app": SVG_learningApp,
 "library": SVG_library,
 "lightbulb": SVG_lightbulb,
+"lightbulb-checkmark": SVG_lightbulbCheckmark,
 "lightbulb-circle": SVG_lightbulbCircle,
 "lightbulb-filament": SVG_lightbulbFilament,
 "lightbulb-person": SVG_lightbulbPerson,
@@ -3362,7 +3688,9 @@ const contentMap = {
 "line-horizontal-1": SVG_lineHorizontal1,
 "line-horizontal-1-dashes": SVG_lineHorizontal1Dashes,
 "line-horizontal-2-dashes-solid": SVG_lineHorizontal2DashesSolid,
+"line-horizontal-3": SVG_lineHorizontal3,
 "line-style": SVG_lineStyle,
+"line-style-sketch": SVG_lineStyleSketch,
 "line-thickness": SVG_lineThickness,
 "link": SVG_link,
 "link-add": SVG_linkAdd,
@@ -3373,19 +3701,23 @@ const contentMap = {
 "link-settings": SVG_linkSettings,
 "link-square": SVG_linkSquare,
 "list": SVG_list,
+"list-bar": SVG_listBar,
 "live": SVG_live,
 "live-off": SVG_liveOff,
 "local-language": SVG_localLanguage,
 "location": SVG_location,
 "location-add": SVG_locationAdd,
 "location-arrow": SVG_locationArrow,
+"location-checkmark": SVG_locationCheckmark,
 "location-dismiss": SVG_locationDismiss,
 "location-live": SVG_locationLive,
 "location-off": SVG_locationOff,
 "location-ripple": SVG_locationRipple,
+"location-settings": SVG_locationSettings,
 "location-target-square": SVG_locationTargetSquare,
 "lock-closed": SVG_lockClosed,
 "lock-closed-key": SVG_lockClosedKey,
+"lock-closed-ribbon": SVG_lockClosedRibbon,
 "lock-multiple": SVG_lockMultiple,
 "lock-open": SVG_lockOpen,
 "lock-shield": SVG_lockShield,
@@ -3402,9 +3734,11 @@ const contentMap = {
 "mail-checkmark": SVG_mailCheckmark,
 "mail-clock": SVG_mailClock,
 "mail-copy": SVG_mailCopy,
+"mail-data-bar": SVG_mailDataBar,
 "mail-dismiss": SVG_mailDismiss,
 "mail-edit": SVG_mailEdit,
 "mail-error": SVG_mailError,
+"mail-fish-hook": SVG_mailFishHook,
 "mail-inbox": SVG_mailInbox,
 "mail-inbox-add": SVG_mailInboxAdd,
 "mail-inbox-all": SVG_mailInboxAll,
@@ -3419,6 +3753,7 @@ const contentMap = {
 "mail-open-person": SVG_mailOpenPerson,
 "mail-prohibited": SVG_mailProhibited,
 "mail-read": SVG_mailRead,
+"mail-read-briefcase": SVG_mailReadBriefcase,
 "mail-read-multiple": SVG_mailReadMultiple,
 "mail-rewind": SVG_mailRewind,
 "mail-template": SVG_mailTemplate,
@@ -3440,6 +3775,7 @@ const contentMap = {
 "mention": SVG_mention,
 "merge": SVG_merge,
 "mic": SVG_mic,
+"mic-link": SVG_micLink,
 "mic-off": SVG_micOff,
 "mic-prohibited": SVG_micProhibited,
 "mic-pulse": SVG_micPulse,
@@ -3447,6 +3783,7 @@ const contentMap = {
 "mic-record": SVG_micRecord,
 "mic-settings": SVG_micSettings,
 "mic-sparkle": SVG_micSparkle,
+"mic-sync": SVG_micSync,
 "microscope": SVG_microscope,
 "midi": SVG_midi,
 "mobile-optimized": SVG_mobileOptimized,
@@ -3479,6 +3816,8 @@ const contentMap = {
 "music-note-off-2": SVG_musicNoteOff2,
 "my-location": SVG_myLocation,
 "navigation": SVG_navigation,
+"navigation-briefcase": SVG_navigationBriefcase,
+"navigation-person": SVG_navigationPerson,
 "navigation-unread": SVG_navigationUnread,
 "network-check": SVG_networkCheck,
 "new": SVG_new,
@@ -3499,6 +3838,8 @@ const contentMap = {
 "notebook-sync": SVG_notebookSync,
 "notepad": SVG_notepad,
 "notepad-person": SVG_notepadPerson,
+"notepad-person-off": SVG_notepadPersonOff,
+"notepad-sparkle": SVG_notepadSparkle,
 "number-circle-0": SVG_numberCircle0,
 "number-circle-1": SVG_numberCircle1,
 "number-circle-2": SVG_numberCircle2,
@@ -3530,7 +3871,10 @@ const contentMap = {
 "paint-brush": SVG_paintBrush,
 "paint-brush-arrow-down": SVG_paintBrushArrowDown,
 "paint-brush-arrow-up": SVG_paintBrushArrowUp,
+"paint-brush-sparkle": SVG_paintBrushSparkle,
+"paint-brush-subtract": SVG_paintBrushSubtract,
 "paint-bucket": SVG_paintBucket,
+"paint-bucket-brush": SVG_paintBucketBrush,
 "pair": SVG_pair,
 "panel-left": SVG_panelLeft,
 "panel-left-add": SVG_panelLeftAdd,
@@ -3550,6 +3894,7 @@ const contentMap = {
 "panel-right-gallery": SVG_panelRightGallery,
 "panel-top-gallery": SVG_panelTopGallery,
 "password": SVG_password,
+"password-clock": SVG_passwordClock,
 "patch": SVG_patch,
 "patient": SVG_patient,
 "pause": SVG_pause,
@@ -3561,16 +3906,20 @@ const contentMap = {
 "pen-off": SVG_penOff,
 "pen-prohibited": SVG_penProhibited,
 "pen-sparkle": SVG_penSparkle,
+"pen-sync": SVG_penSync,
 "people": SVG_people,
 "people-add": SVG_peopleAdd,
 "people-audience": SVG_peopleAudience,
 "people-call": SVG_peopleCall,
 "people-chat": SVG_peopleChat,
 "people-checkmark": SVG_peopleCheckmark,
+"people-communication": SVG_peopleCommunication,
 "people-community": SVG_peopleCommunity,
 "people-community-add": SVG_peopleCommunityAdd,
 "people-edit": SVG_peopleEdit,
 "people-error": SVG_peopleError,
+"people-interwoven": SVG_peopleInterwoven,
+"people-link": SVG_peopleLink,
 "people-list": SVG_peopleList,
 "people-lock": SVG_peopleLock,
 "people-money": SVG_peopleMoney,
@@ -3581,6 +3930,7 @@ const contentMap = {
 "people-star": SVG_peopleStar,
 "people-subtract": SVG_peopleSubtract,
 "people-swap": SVG_peopleSwap,
+"people-sync": SVG_peopleSync,
 "people-team": SVG_peopleTeam,
 "people-team-add": SVG_peopleTeamAdd,
 "people-team-delete": SVG_peopleTeamDelete,
@@ -3595,15 +3945,22 @@ const contentMap = {
 "person-arrow-right": SVG_personArrowRight,
 "person-available": SVG_personAvailable,
 "person-board": SVG_personBoard,
+"person-board-add": SVG_personBoardAdd,
+"person-briefcase": SVG_personBriefcase,
 "person-call": SVG_personCall,
 "person-chat": SVG_personChat,
 "person-circle": SVG_personCircle,
 "person-clock": SVG_personClock,
 "person-delete": SVG_personDelete,
 "person-edit": SVG_personEdit,
+"person-error": SVG_personError,
 "person-feedback": SVG_personFeedback,
+"person-guest": SVG_personGuest,
+"person-head-hint": SVG_personHeadHint,
 "person-heart": SVG_personHeart,
+"person-home": SVG_personHome,
 "person-info": SVG_personInfo,
+"person-key": SVG_personKey,
 "person-lightbulb": SVG_personLightbulb,
 "person-link": SVG_personLink,
 "person-lock": SVG_personLock,
@@ -3617,7 +3974,10 @@ const contentMap = {
 "person-question-mark": SVG_personQuestionMark,
 "person-ribbon": SVG_personRibbon,
 "person-search": SVG_personSearch,
+"person-shield": SVG_personShield,
+"person-sound-spatial": SVG_personSoundSpatial,
 "person-square": SVG_personSquare,
+"person-square-add": SVG_personSquareAdd,
 "person-square-checkmark": SVG_personSquareCheckmark,
 "person-star": SVG_personStar,
 "person-starburst": SVG_personStarburst,
@@ -3626,6 +3986,7 @@ const contentMap = {
 "person-swap": SVG_personSwap,
 "person-sync": SVG_personSync,
 "person-tag": SVG_personTag,
+"person-tentative": SVG_personTentative,
 "person-voice": SVG_personVoice,
 "person-walking": SVG_personWalking,
 "person-warning": SVG_personWarning,
@@ -3670,12 +4031,15 @@ const contentMap = {
 "pin-off": SVG_pinOff,
 "pipeline": SVG_pipeline,
 "pivot": SVG_pivot,
+"planet": SVG_planet,
 "plant-cattail": SVG_plantCattail,
 "plant-grass": SVG_plantGrass,
 "plant-ragweed": SVG_plantRagweed,
 "play": SVG_play,
 "play-circle": SVG_playCircle,
 "play-circle-hint": SVG_playCircleHint,
+"play-circle-hint-half": SVG_playCircleHintHalf,
+"play-circle-sparkle": SVG_playCircleSparkle,
 "plug-connected": SVG_plugConnected,
 "plug-connected-settings": SVG_plugConnectedSettings,
 "plug-disconnected": SVG_plugDisconnected,
@@ -3713,10 +4077,12 @@ const contentMap = {
 "projection-screen": SVG_projectionScreen,
 "projection-screen-dismiss": SVG_projectionScreenDismiss,
 "projection-screen-text": SVG_projectionScreenText,
+"prompt": SVG_prompt,
 "protocol-handler": SVG_protocolHandler,
 "pulse": SVG_pulse,
 "pulse-square": SVG_pulseSquare,
 "puzzle-cube": SVG_puzzleCube,
+"puzzle-cube-piece": SVG_puzzleCubePiece,
 "puzzle-piece": SVG_puzzlePiece,
 "qr-code": SVG_qrCode,
 "question": SVG_question,
@@ -3728,6 +4094,7 @@ const contentMap = {
 "re-order": SVG_reOrder,
 "re-order-dots-horizontal": SVG_reOrderDotsHorizontal,
 "re-order-dots-vertical": SVG_reOrderDotsVertical,
+"re-order-vertical": SVG_reOrderVertical,
 "read-aloud": SVG_readAloud,
 "reading-list": SVG_readingList,
 "reading-list-add": SVG_readingListAdd,
@@ -3747,8 +4114,10 @@ const contentMap = {
 "rectangle-landscape-sparkle": SVG_rectangleLandscapeSparkle,
 "rectangle-landscape-sync": SVG_rectangleLandscapeSync,
 "rectangle-landscape-sync-off": SVG_rectangleLandscapeSyncOff,
+"rectangle-portrait": SVG_rectanglePortrait,
 "remix-add": SVG_remixAdd,
 "rename": SVG_rename,
+"replay": SVG_replay,
 "resize": SVG_resize,
 "resize-image": SVG_resizeImage,
 "resize-large": SVG_resizeLarge,
@@ -3768,6 +4137,7 @@ const contentMap = {
 "rotate-left": SVG_rotateLeft,
 "rotate-right": SVG_rotateRight,
 "router": SVG_router,
+"row-child": SVG_rowChild,
 "row-triple": SVG_rowTriple,
 "rss": SVG_rss,
 "ruler": SVG_ruler,
@@ -3802,6 +4172,7 @@ const contentMap = {
 "script": SVG_script,
 "search": SVG_search,
 "search-info": SVG_searchInfo,
+"search-sparkle": SVG_searchSparkle,
 "search-square": SVG_searchSquare,
 "search-visual": SVG_searchVisual,
 "seat": SVG_seat,
@@ -3816,6 +4187,7 @@ const contentMap = {
 "send-beaker": SVG_sendBeaker,
 "send-clock": SVG_sendClock,
 "send-copy": SVG_sendCopy,
+"send-person": SVG_sendPerson,
 "serial-port": SVG_serialPort,
 "server": SVG_server,
 "server-link": SVG_serverLink,
@@ -3833,6 +4205,7 @@ const contentMap = {
 "share-android": SVG_shareAndroid,
 "share-close-tray": SVG_shareCloseTray,
 "share-ios": SVG_shareIos,
+"share-multiple": SVG_shareMultiple,
 "share-screen-person": SVG_shareScreenPerson,
 "share-screen-person-overlay": SVG_shareScreenPersonOverlay,
 "share-screen-person-overlay-inside": SVG_shareScreenPersonOverlayInside,
@@ -3841,6 +4214,7 @@ const contentMap = {
 "share-screen-stop": SVG_shareScreenStop,
 "shield": SVG_shield,
 "shield-add": SVG_shieldAdd,
+"shield-arrow-right": SVG_shieldArrowRight,
 "shield-badge": SVG_shieldBadge,
 "shield-checkmark": SVG_shieldCheckmark,
 "shield-dismiss": SVG_shieldDismiss,
@@ -3850,6 +4224,7 @@ const contentMap = {
 "shield-lock": SVG_shieldLock,
 "shield-prohibited": SVG_shieldProhibited,
 "shield-question": SVG_shieldQuestion,
+"shield-settings": SVG_shieldSettings,
 "shield-task": SVG_shieldTask,
 "shifts": SVG_shifts,
 "shifts-30-minutes": SVG_shifts30Minutes,
@@ -3865,6 +4240,7 @@ const contentMap = {
 "shopping-bag": SVG_shoppingBag,
 "shopping-bag-add": SVG_shoppingBagAdd,
 "shopping-bag-arrow-left": SVG_shoppingBagArrowLeft,
+"shopping-bag-checkmark": SVG_shoppingBagCheckmark,
 "shopping-bag-dismiss": SVG_shoppingBagDismiss,
 "shopping-bag-pause": SVG_shoppingBagPause,
 "shopping-bag-percent": SVG_shoppingBagPercent,
@@ -3876,7 +4252,9 @@ const contentMap = {
 "signature": SVG_signature,
 "sim": SVG_sim,
 "skip-back-10": SVG_skipBack10,
+"skip-back-15": SVG_skipBack15,
 "skip-forward-10": SVG_skipForward10,
+"skip-forward-15": SVG_skipForward15,
 "skip-forward-30": SVG_skipForward30,
 "skip-forward-tab": SVG_skipForwardTab,
 "slash-forward": SVG_slashForward,
@@ -3893,25 +4271,35 @@ const contentMap = {
 "slide-multiple": SVG_slideMultiple,
 "slide-multiple-arrow-right": SVG_slideMultipleArrowRight,
 "slide-multiple-search": SVG_slideMultipleSearch,
+"slide-play": SVG_slidePlay,
 "slide-record": SVG_slideRecord,
 "slide-search": SVG_slideSearch,
 "slide-settings": SVG_slideSettings,
 "slide-size": SVG_slideSize,
 "slide-text": SVG_slideText,
+"slide-text-call": SVG_slideTextCall,
+"slide-text-cursor": SVG_slideTextCursor,
 "slide-text-edit": SVG_slideTextEdit,
 "slide-text-multiple": SVG_slideTextMultiple,
 "slide-text-person": SVG_slideTextPerson,
 "slide-text-sparkle": SVG_slideTextSparkle,
+"slide-text-title": SVG_slideTextTitle,
+"slide-text-title-add": SVG_slideTextTitleAdd,
+"slide-text-title-checkmark": SVG_slideTextTitleCheckmark,
+"slide-text-title-edit": SVG_slideTextTitleEdit,
 "slide-transition": SVG_slideTransition,
 "smartwatch": SVG_smartwatch,
 "smartwatch-dot": SVG_smartwatchDot,
 "snooze": SVG_snooze,
 "sound-source": SVG_soundSource,
 "sound-wave-circle": SVG_soundWaveCircle,
+"sound-wave-circle-sparkle": SVG_soundWaveCircleSparkle,
 "space-3d": SVG_space3d,
 "spacebar": SVG_spacebar,
 "sparkle": SVG_sparkle,
+"sparkle-action": SVG_sparkleAction,
 "sparkle-circle": SVG_sparkleCircle,
+"sparkle-info": SVG_sparkleInfo,
 "spatula-spoon": SVG_spatulaSpoon,
 "speaker-0": SVG_speaker0,
 "speaker-1": SVG_speaker1,
@@ -3929,18 +4317,24 @@ const contentMap = {
 "sport-american-football": SVG_sportAmericanFootball,
 "sport-baseball": SVG_sportBaseball,
 "sport-basketball": SVG_sportBasketball,
+"sport-cricket-ball": SVG_sportCricketBall,
+"sport-cricket-bat": SVG_sportCricketBat,
 "sport-hockey": SVG_sportHockey,
 "sport-soccer": SVG_sportSoccer,
 "square": SVG_square,
 "square-arrow-forward": SVG_squareArrowForward,
+"square-dovetail-joint": SVG_squareDovetailJoint,
 "square-hint": SVG_squareHint,
 "square-hint-apps": SVG_squareHintApps,
 "square-hint-hexagon": SVG_squareHintHexagon,
 "square-hint-sparkles": SVG_squareHintSparkles,
 "square-multiple": SVG_squareMultiple,
+"square-shadow": SVG_squareShadow,
+"square-text-arrow-repeat-all": SVG_squareTextArrowRepeatAll,
 "stack": SVG_stack,
 "stack-add": SVG_stackAdd,
 "stack-arrow-forward": SVG_stackArrowForward,
+"stack-off": SVG_stackOff,
 "stack-star": SVG_stackStar,
 "stack-vertical": SVG_stackVertical,
 "star": SVG_star,
@@ -3997,25 +4391,43 @@ const contentMap = {
 "tab-desktop-multiple": SVG_tabDesktopMultiple,
 "tab-desktop-multiple-bottom": SVG_tabDesktopMultipleBottom,
 "tab-desktop-multiple-sparkle": SVG_tabDesktopMultipleSparkle,
+"tab-desktop-search": SVG_tabDesktopSearch,
+"tab-group": SVG_tabGroup,
 "tab-in-private": SVG_tabInPrivate,
 "tab-inprivate-account": SVG_tabInprivateAccount,
 "tab-prohibited": SVG_tabProhibited,
 "tab-shield-dismiss": SVG_tabShieldDismiss,
 "table": SVG_table,
 "table-add": SVG_tableAdd,
+"table-alt-text": SVG_tableAltText,
+"table-arrow-repeat-all": SVG_tableArrowRepeatAll,
 "table-arrow-up": SVG_tableArrowUp,
 "table-bottom-row": SVG_tableBottomRow,
+"table-cell-add": SVG_tableCellAdd,
+"table-cell-center": SVG_tableCellCenter,
+"table-cell-center-arrow-repeat-all": SVG_tableCellCenterArrowRepeatAll,
+"table-cell-center-edit": SVG_tableCellCenterEdit,
+"table-cell-center-link": SVG_tableCellCenterLink,
+"table-cell-center-search": SVG_tableCellCenterSearch,
 "table-cell-edit": SVG_tableCellEdit,
 "table-cells-merge": SVG_tableCellsMerge,
 "table-cells-split": SVG_tableCellsSplit,
 "table-column-top-bottom": SVG_tableColumnTopBottom,
+"table-column-top-bottom-arrow-repeat-all": SVG_tableColumnTopBottomArrowRepeatAll,
+"table-column-top-bottom-edit": SVG_tableColumnTopBottomEdit,
+"table-column-top-bottom-link": SVG_tableColumnTopBottomLink,
+"table-column-top-bottom-search": SVG_tableColumnTopBottomSearch,
+"table-cursor": SVG_tableCursor,
 "table-delete-column": SVG_tableDeleteColumn,
 "table-delete-row": SVG_tableDeleteRow,
 "table-dismiss": SVG_tableDismiss,
 "table-edit": SVG_tableEdit,
 "table-freeze-column": SVG_tableFreezeColumn,
 "table-freeze-column-and-row": SVG_tableFreezeColumnAndRow,
+"table-freeze-column-and-row-dismiss": SVG_tableFreezeColumnAndRowDismiss,
+"table-freeze-column-dismiss": SVG_tableFreezeColumnDismiss,
 "table-freeze-row": SVG_tableFreezeRow,
+"table-freeze-row-dismiss": SVG_tableFreezeRowDismiss,
 "table-insert-column": SVG_tableInsertColumn,
 "table-insert-row": SVG_tableInsertRow,
 "table-lightning": SVG_tableLightning,
@@ -4025,18 +4437,21 @@ const contentMap = {
 "table-move-below": SVG_tableMoveBelow,
 "table-move-left": SVG_tableMoveLeft,
 "table-move-right": SVG_tableMoveRight,
+"table-multiple": SVG_tableMultiple,
 "table-offset": SVG_tableOffset,
 "table-offset-add": SVG_tableOffsetAdd,
 "table-offset-less-than-or-equal-to": SVG_tableOffsetLessThanOrEqualTo,
 "table-offset-settings": SVG_tableOffsetSettings,
 "table-resize-column": SVG_tableResizeColumn,
 "table-resize-row": SVG_tableResizeRow,
+"table-search": SVG_tableSearch,
 "table-settings": SVG_tableSettings,
 "table-simple": SVG_tableSimple,
 "table-simple-checkmark": SVG_tableSimpleCheckmark,
 "table-simple-exclude": SVG_tableSimpleExclude,
 "table-simple-include": SVG_tableSimpleInclude,
 "table-simple-multiple": SVG_tableSimpleMultiple,
+"table-sparkle": SVG_tableSparkle,
 "table-stack-above": SVG_tableStackAbove,
 "table-stack-below": SVG_tableStackBelow,
 "table-stack-left": SVG_tableStackLeft,
@@ -4047,12 +4462,15 @@ const contentMap = {
 "tablet-speaker": SVG_tabletSpeaker,
 "tabs": SVG_tabs,
 "tag": SVG_tag,
+"tag-add": SVG_tagAdd,
 "tag-dismiss": SVG_tagDismiss,
+"tag-edit": SVG_tagEdit,
 "tag-error": SVG_tagError,
 "tag-lock": SVG_tagLock,
 "tag-lock-accent": SVG_tagLockAccent,
 "tag-multiple": SVG_tagMultiple,
 "tag-off": SVG_tagOff,
+"tag-percent": SVG_tagPercent,
 "tag-question-mark": SVG_tagQuestionMark,
 "tag-reset": SVG_tagReset,
 "tag-search": SVG_tagSearch,
@@ -4063,16 +4481,23 @@ const contentMap = {
 "target-arrow": SVG_targetArrow,
 "target-dismiss": SVG_targetDismiss,
 "target-edit": SVG_targetEdit,
+"target-sparkle": SVG_targetSparkle,
 "task-list-add": SVG_taskListAdd,
 "task-list-ltr": SVG_taskListLtr,
 "task-list-rtl": SVG_taskListRtl,
 "task-list-square-add": SVG_taskListSquareAdd,
+"task-list-square-database": SVG_taskListSquareDatabase,
 "task-list-square-ltr": SVG_taskListSquareLtr,
+"task-list-square-person": SVG_taskListSquarePerson,
 "task-list-square-rtl": SVG_taskListSquareRtl,
+"task-list-square-sparkle": SVG_taskListSquareSparkle,
 "tasks-app": SVG_tasksApp,
+"teaching": SVG_teaching,
 "teardrop-bottom-right": SVG_teardropBottomRight,
 "teddy": SVG_teddy,
 "temperature": SVG_temperature,
+"temperature-degree-celsius": SVG_temperatureDegreeCelsius,
+"temperature-degree-fahrenheit": SVG_temperatureDegreeFahrenheit,
 "tent": SVG_tent,
 "tetris-app": SVG_tetrisApp,
 "text-add-space-after": SVG_textAddSpaceAfter,
@@ -4175,6 +4600,10 @@ const contentMap = {
 "text-header-3": SVG_textHeader3,
 "text-header-3-lines": SVG_textHeader3Lines,
 "text-header-3-lines-caret": SVG_textHeader3LinesCaret,
+"text-header-4": SVG_textHeader4,
+"text-header-4-lines-caret": SVG_textHeader4LinesCaret,
+"text-header-5": SVG_textHeader5,
+"text-header-6": SVG_textHeader6,
 "text-indent-decrease": SVG_textIndentDecrease,
 "text-indent-decrease-ltr": SVG_textIndentDecreaseLtr,
 "text-indent-decrease-ltr-90": SVG_textIndentDecreaseLtr90,
@@ -4195,6 +4624,10 @@ const contentMap = {
 "text-indent-increase-rtl-rotate-270": SVG_textIndentIncreaseRtlRotate270,
 "text-italic": SVG_textItalic,
 "text-line-spacing": SVG_textLineSpacing,
+"text-list-abc-lowercase-ltr": SVG_textListAbcLowercaseLtr,
+"text-list-abc-uppercase-ltr": SVG_textListAbcUppercaseLtr,
+"text-list-roman-numeral-lowercase": SVG_textListRomanNumeralLowercase,
+"text-list-roman-numeral-uppercase": SVG_textListRomanNumeralUppercase,
 "text-more": SVG_textMore,
 "text-number-format": SVG_textNumberFormat,
 "text-number-list-ltr": SVG_textNumberListLtr,
@@ -4207,6 +4640,9 @@ const contentMap = {
 "text-number-list-rtl-rotate-270": SVG_textNumberListRtlRotate270,
 "text-paragraph": SVG_textParagraph,
 "text-paragraph-direction": SVG_textParagraphDirection,
+"text-paragraph-direction-left": SVG_textParagraphDirectionLeft,
+"text-paragraph-direction-right": SVG_textParagraphDirectionRight,
+"text-percent": SVG_textPercent,
 "text-position-behind": SVG_textPositionBehind,
 "text-position-front": SVG_textPositionFront,
 "text-position-line": SVG_textPositionLine,
@@ -4218,6 +4654,7 @@ const contentMap = {
 "text-position-top-bottom": SVG_textPositionTopBottom,
 "text-proofing-tools": SVG_textProofingTools,
 "text-quote": SVG_textQuote,
+"text-quote-opening": SVG_textQuoteOpening,
 "text-sort-ascending": SVG_textSortAscending,
 "text-sort-descending": SVG_textSortDescending,
 "text-strikethrough": SVG_textStrikethrough,
@@ -4246,6 +4683,7 @@ const contentMap = {
 "textbox-align-top-left": SVG_textboxAlignTopLeft,
 "textbox-align-top-right": SVG_textboxAlignTopRight,
 "textbox-align-top-rotate-90": SVG_textboxAlignTopRotate90,
+"textbox-checkmark": SVG_textboxCheckmark,
 "textbox-more": SVG_textboxMore,
 "textbox-rotate-90": SVG_textboxRotate90,
 "textbox-settings": SVG_textboxSettings,
@@ -4268,11 +4706,13 @@ const contentMap = {
 "toggle-right": SVG_toggleRight,
 "toolbox": SVG_toolbox,
 "tooltip-quote": SVG_tooltipQuote,
+"tooltip-quote-off": SVG_tooltipQuoteOff,
 "top-speed": SVG_topSpeed,
 "translate": SVG_translate,
 "translate-auto": SVG_translateAuto,
 "translate-off": SVG_translateOff,
 "transmission": SVG_transmission,
+"transparency-square": SVG_transparencySquare,
 "tray-item-add": SVG_trayItemAdd,
 "tray-item-remove": SVG_trayItemRemove,
 "tree-deciduous": SVG_treeDeciduous,
@@ -4299,12 +4739,14 @@ const contentMap = {
 "vehicle-car-profile-ltr": SVG_vehicleCarProfileLtr,
 "vehicle-car-profile-ltr-clock": SVG_vehicleCarProfileLtrClock,
 "vehicle-car-profile-rtl": SVG_vehicleCarProfileRtl,
+"vehicle-motorcycle": SVG_vehicleMotorcycle,
 "vehicle-ship": SVG_vehicleShip,
 "vehicle-subway": SVG_vehicleSubway,
 "vehicle-subway-clock": SVG_vehicleSubwayClock,
 "vehicle-tractor": SVG_vehicleTractor,
 "vehicle-truck": SVG_vehicleTruck,
 "vehicle-truck-bag": SVG_vehicleTruckBag,
+"vehicle-truck-checkmark": SVG_vehicleTruckCheckmark,
 "vehicle-truck-cube": SVG_vehicleTruckCube,
 "vehicle-truck-profile": SVG_vehicleTruckProfile,
 "video": SVG_video,
@@ -4312,6 +4754,7 @@ const contentMap = {
 "video-add": SVG_videoAdd,
 "video-background-effect": SVG_videoBackgroundEffect,
 "video-background-effect-horizontal": SVG_videoBackgroundEffectHorizontal,
+"video-bluetooth": SVG_videoBluetooth,
 "video-chat": SVG_videoChat,
 "video-clip": SVG_videoClip,
 "video-clip-multiple": SVG_videoClipMultiple,
@@ -4319,6 +4762,7 @@ const contentMap = {
 "video-clip-optimize": SVG_videoClipOptimize,
 "video-clip-wand": SVG_videoClipWand,
 "video-link": SVG_videoLink,
+"video-multiple": SVG_videoMultiple,
 "video-off": SVG_videoOff,
 "video-person": SVG_videoPerson,
 "video-person-call": SVG_videoPersonCall,
@@ -4332,7 +4776,9 @@ const contentMap = {
 "video-play-pause": SVG_videoPlayPause,
 "video-prohibited": SVG_videoProhibited,
 "video-security": SVG_videoSecurity,
+"video-settings": SVG_videoSettings,
 "video-switch": SVG_videoSwitch,
+"video-usb": SVG_videoUsb,
 "view-desktop": SVG_viewDesktop,
 "view-desktop-mobile": SVG_viewDesktopMobile,
 "voicemail": SVG_voicemail,
@@ -4344,6 +4790,7 @@ const contentMap = {
 "wallpaper": SVG_wallpaper,
 "wand": SVG_wand,
 "warning": SVG_warning,
+"warning-lock-open": SVG_warningLockOpen,
 "washer": SVG_washer,
 "water": SVG_water,
 "weather-blowing-snow": SVG_weatherBlowingSnow,
@@ -4372,6 +4819,7 @@ const contentMap = {
 "weather-sunny-low": SVG_weatherSunnyLow,
 "weather-thunderstorm": SVG_weatherThunderstorm,
 "web-asset": SVG_webAsset,
+"wheelchair-access": SVG_wheelchairAccess,
 "whiteboard": SVG_whiteboard,
 "whiteboard-off": SVG_whiteboardOff,
 "wifi-1": SVG_wifi1,
@@ -4385,11 +4833,13 @@ const contentMap = {
 "window-ad": SVG_windowAd,
 "window-apps": SVG_windowApps,
 "window-arrow-up": SVG_windowArrowUp,
+"window-brush": SVG_windowBrush,
 "window-database": SVG_windowDatabase,
 "window-dev-tools": SVG_windowDevTools,
 "window-fingerprint": SVG_windowFingerprint,
 "window-new": SVG_windowNew,
 "window-shield": SVG_windowShield,
+"window-text": SVG_windowText,
 "window-wrench": SVG_windowWrench,
 "wrench": SVG_wrench,
 "wrench-screwdriver": SVG_wrenchScrewdriver,

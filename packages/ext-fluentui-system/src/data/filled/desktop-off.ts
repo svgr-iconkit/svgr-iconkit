@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"desktop-off","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M3.28 2.22a.75.75 0 1 0-1.06 1.06l.4.4C2.25 4.1 2 4.65 2 5.26v10.66A2.25 2.25 0 0 0 4.26 18H8.5v2.49H6.65a.75.75 0 0 0 .1 1.5h10.6a.75.75 0 0 0-.1-1.5H15.5V18h1.44l3.78 3.78a.75.75 0 0 0 1.06-1.06L3.28 2.22ZM22 15.75c0 .83-.45 1.56-1.12 1.95L6.18 3h13.57c1.19 0 2.16.92 2.24 2.1v10.65ZM14 18v2.5h-4V18h4Z"}}]};
+export default content;

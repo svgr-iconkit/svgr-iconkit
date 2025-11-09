@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"person-key","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M15 15.5c0-.53.1-1.03.26-1.5h-9C5 14 4 15 4 16.25v.92c0 .57.18 1.13.51 1.6 1.4 1.94 3.57 3 6.49 3.2V20.9a2 2 0 0 1 .59-1.41l3.44-3.45a4.54 4.54 0 0 1-.03-.55ZM12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm7.5 17a3.5 3.5 0 1 0-3.39-2.61L12.3 20.2a1 1 0 0 0-.29.7v1.59c0 .28.22.5.5.5h2a.5.5 0 0 0 .5-.5V22h1a.5.5 0 0 0 .5-.5v-1h1a.5.5 0 0 0 .5-.5v-1h1.5Zm.5-5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"}}]};
+export default content;

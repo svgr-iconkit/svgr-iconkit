@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"folder-open-down","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M5.25 21A3.25 3.25 0 0 1 2 17.75v-8.9l2.04 3.53a4.25 4.25 0 0 0 3.69 2.13H20v.74c0 1.8-1.46 3.25-3.25 3.25h-5.19l-1.84 1.85c-.42.42-1 .65-1.6.65H5.26Zm2.48-8h13.01a2.25 2.25 0 0 0 1.95-3.37l-3.03-5.26A2.75 2.75 0 0 0 17.28 3H4.26A2.25 2.25 0 0 0 2.3 6.37l3.03 5.26c.5.85 1.4 1.38 2.39 1.38Z"}}]};
+export default content;

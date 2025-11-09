@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"text-percent","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M17.98 3.13c.35.23.44.7.2 1.04L7.07 20.67a.75.75 0 1 1-1.25-.84l11.13-16.5a.75.75 0 0 1 1.04-.2ZM6.5 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM2.5 7a4 4 0 1 1 8 0 4 4 0 0 1-8 0ZM15 17a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0Zm2.5-4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"}}]};
+export default content;

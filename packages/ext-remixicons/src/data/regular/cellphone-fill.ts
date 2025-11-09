@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"cellphone-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M350 870H900C927.6149999999998 870 950 847.614 950 820V-80C950 -107.615 927.6149999999998 -130 900 -130H300C272.386 -130 250 -107.615 250 -80V970H350V870zM350 770V520H850V770H350z"}}]};
+export const content: IconSVG = {"name":"cellphone-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M375 870H925C952.6149999999998 870 975 847.614 975 820V-80C975 -107.615 952.6149999999998 -130 925 -130H325C297.386 -130 275 -107.615 275 -80V970H375V870zM375 770V520H875V770H375z"}}]};
 export default content;

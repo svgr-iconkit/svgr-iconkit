@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"divide","attrs":{"viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-slot":"icon"},"data":[{"tagName":"path","attrs":{"fill-rule":"evenodd","d":"M10.874 5.248a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Zm-7.125 6.75a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5h-15a.75.75 0 0 1-.75-.75Zm7.125 6.753a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Z","clip-rule":"evenodd"}}]};
+export default content;

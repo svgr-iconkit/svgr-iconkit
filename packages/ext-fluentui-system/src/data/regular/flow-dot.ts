@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"flow-dot","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M5.5 2.25A2.5 2.5 0 0 1 7.88 4h9.09a4.25 4.25 0 0 1-.22 8.5h-9.5a2.75 2.75 0 1 0 0 5.5h8.87a2.5 2.5 0 1 1 0 1.5H7.25a4.25 4.25 0 0 1 0-8.5h9.5a2.75 2.75 0 0 0 .28-5.49l-.28-.01H7.88A2.5 2.5 0 1 1 5.5 2.25Z"}}]};
+export default content;

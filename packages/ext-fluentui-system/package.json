@@ -97,13 +97,14 @@
     "@svgr-iconkit/core": "^0.5.0-alpha.0"
   },
   "devDependencies": {
-    "@fluentui/svg-icons": "^1.1.233",
+    "@fluentui/svg-icons": "^1.1.313",
     "@svgr-iconkit/build-config": "^0.5.0-alpha.0",
     "@svgr-iconkit/cli": "^0.5.0-alpha.0",
     "@types/node": "^15.6.1",
     "npm-run-all": "^4.1.5",
     "react": "^19.1.1",
     "rimraf": "^3.0.2",
+    "rollup": "^4.53.1",
     "typescript": "^5.4.4"
   },
   "publishConfig": {

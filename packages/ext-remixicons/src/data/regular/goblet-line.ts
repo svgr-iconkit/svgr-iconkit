@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"goblet-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M550 70V325.5550000000001L150 770V870H1050V770L650 325.5550000000001V70H900V-30H300V70H550zM374.5365 670H825.465L915.465 770H284.536L374.5365 670zM464.536 570L600 419.4849999999999L735.465 570H464.536z"}}]};
+export const content: IconSVG = {"name":"goblet-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M575 70V325.5550000000001L175 770V870H1075V770L675 325.5550000000001V70H925V-30H325V70H575zM399.5365 670H850.465L940.465 770H309.536L399.5365 670zM489.536 570L625 419.4849999999999L760.465 570H489.536z"}}]};
 export default content;

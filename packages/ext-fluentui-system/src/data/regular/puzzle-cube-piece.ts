@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"puzzle-cube-piece","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M14.5 9.5H19v8.25c0 1.8-1.46 3.25-3.25 3.25h-9.5A3.25 3.25 0 0 1 3 17.75v-9.5C3 6.45 4.46 5 6.25 5h8.25v4.5Zm-10 8.25c0 .97.78 1.75 1.75 1.75H7.5v-3h-3v1.25ZM9 19.5h4v-3H9v3Zm5.5 0h1.25c.97 0 1.75-.78 1.75-1.75V16.5h-3v3ZM4.5 15h3v-4h-3v4ZM9 15h4v-4H9v4Zm5.5 0h3v-4h-3v4ZM6.25 6.5c-.97 0-1.75.78-1.75 1.75V9.5h3v-3H6.25ZM9 9.5h4v-3H9v3Zm9.62-7.88a1.25 1.25 0 0 1 1.76 0l2 2c.5.48.5 1.27 0 1.76l-2 2c-.48.49-1.28.49-1.76 0l-2-2a1.25 1.25 0 0 1 0-1.76l2-2Zm-.77 2.88 1.65 1.64 1.65-1.64-1.65-1.65-1.65 1.65Z"}}]};
+export default content;

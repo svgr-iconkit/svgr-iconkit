@@ -322,6 +322,7 @@ import SVG_logoStackoverflow from "./logo-stackoverflow";
 import SVG_logoSteam from "./logo-steam";
 import SVG_logoStencil from "./logo-stencil";
 import SVG_logoTableau from "./logo-tableau";
+import SVG_logoThreads from "./logo-threads";
 import SVG_logoTiktok from "./logo-tiktok";
 import SVG_logoTrapeze from "./logo-trapeze";
 import SVG_logoTumblr from "./logo-tumblr";
@@ -339,6 +340,7 @@ import SVG_logoWechat from "./logo-wechat";
 import SVG_logoWhatsapp from "./logo-whatsapp";
 import SVG_logoWindows from "./logo-windows";
 import SVG_logoWordpress from "./logo-wordpress";
+import SVG_logoX from "./logo-x";
 import SVG_logoXbox from "./logo-xbox";
 import SVG_logoXing from "./logo-xing";
 import SVG_logoYahoo from "./logo-yahoo";
@@ -838,6 +840,7 @@ const contentMap = {
 "logo-steam": SVG_logoSteam,
 "logo-stencil": SVG_logoStencil,
 "logo-tableau": SVG_logoTableau,
+"logo-threads": SVG_logoThreads,
 "logo-tiktok": SVG_logoTiktok,
 "logo-trapeze": SVG_logoTrapeze,
 "logo-tumblr": SVG_logoTumblr,
@@ -855,6 +858,7 @@ const contentMap = {
 "logo-whatsapp": SVG_logoWhatsapp,
 "logo-windows": SVG_logoWindows,
 "logo-wordpress": SVG_logoWordpress,
+"logo-x": SVG_logoX,
 "logo-xbox": SVG_logoXbox,
 "logo-xing": SVG_logoXing,
 "logo-yahoo": SVG_logoYahoo,
