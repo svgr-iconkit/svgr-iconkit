@@ -1,6 +1,6 @@
 {
   "name": "@svgr-iconkit/core",
-  "version": "0.5.0-alpha.0",
+  "version": "0.5.0-beta.0",
   "description": "SVGR iconset core",
   "keywords": [
     "SVG",
@@ -74,7 +74,7 @@
     }
   },
   "dependencies": {
-    "@svgr-iconkit/common-utils": "^0.5.0-alpha.0"
+    "@svgr-iconkit/common-utils": "^0.5.0-beta.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
@@ -86,8 +86,8 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-terser": "^0.2.0",
-    "@svgr-iconkit/build-config": "^0.5.0-alpha.0",
-    "@svgr-iconkit/cli": "^0.5.0-alpha.0",
+    "@svgr-iconkit/build-config": "^0.5.0-beta.0",
+    "@svgr-iconkit/cli": "^0.5.0-beta.0",
     "@types/node": "^16.11.6",
     "@types/react": "^19.1.16",
     "@types/react-native": "^0.61.0",
