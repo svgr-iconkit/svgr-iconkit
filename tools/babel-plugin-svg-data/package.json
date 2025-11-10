@@ -1,7 +1,7 @@
 {
   "name": "@svgr-iconkit/babel-plugin-svg-data",
   "version": "0.5.0-alpha.0",
-  "author": "LemanK <leman@svgr-iconkit.org>",
+  "author": "LemanK <leman@lmswork.com>",
   "homepage": "https://github.com/svgr-iconkit/svgr-iconkit",
   "license": "MIT",
   "main": "src/index.js",
