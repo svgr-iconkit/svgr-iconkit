@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"cash-move","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M7 15h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v3"}},{"tagName":"path","attrs":{"d":"M12 19h-4a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v2.5"}},{"tagName":"path","attrs":{"d":"M15.92 13.437a2 2 0 1 0 -2.472 2.486"}},{"tagName":"path","attrs":{"d":"M16 19h6"}},{"tagName":"path","attrs":{"d":"M19 16l3 3l-3 3"}}]};
+export default content;

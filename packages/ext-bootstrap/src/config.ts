@@ -1,8 +1,10 @@
 import { IconsMapType } from "@svgr-iconkit/core";
-import { IconNames, map as regularIconsMap } from "./data/regular";
-export { IconNames } from "./data/regular";
+import { type IconNames as RegularIconNames, map as regularIconsMap } from "./data/regular";
+import { type IconNames as FillIconNames, map as fillIconsMap } from "./data/fill";
 
-export type IconVariant = "regular";
+export type IconNames = RegularIconNames & FillIconNames;
+
+export type IconVariant = "regular" | "fill";
 
 export const variantNames: IconVariant[] = ["regular"];
 
@@ -13,10 +15,16 @@ export const familyName: string = "BootstrapIcons";
 // icons map
 export const map: Record<IconVariant, IconsMapType<IconNames>> = {
   regular: regularIconsMap,
+  fill: fillIconsMap,
 };
-
 const regularIconsNames = Object.keys(regularIconsMap);
+const filledIconsNames = Object.keys(fillIconsMap);
 
-export const iconNames = Object.freeze(regularIconsNames);
+let _iconNames = regularIconsNames;
+_iconNames = _iconNames.concat(
+  filledIconsNames.filter((name) => !_iconNames.includes(name))
+);
+
+export const iconNames = Object.freeze(_iconNames) as readonly IconNames[];
 
 export const colorize = true;

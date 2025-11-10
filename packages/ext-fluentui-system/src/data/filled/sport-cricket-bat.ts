@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"sport-cricket-bat","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M17.03 10.09c-.02.1-.03.2-.03.31v1.32c0 .6-.23 1.17-.66 1.6l-8.02 8.02c-.88.88-2.3.88-3.18 0l-2.48-2.48a2.25 2.25 0 0 1 0-3.18l8.03-8.02c.42-.42.99-.66 1.59-.66h1.31c.1 0 .22-.01.32-.03l3.12 3.12Zm2.11-7.7c.69-.56 1.7-.52 2.34.12l.12.13c.53.65.53 1.57 0 2.21l-.12.14-3.71 3.71-2.48-2.47 3.72-3.72.13-.12Z"}}]};
+export default content;

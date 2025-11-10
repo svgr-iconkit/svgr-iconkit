@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"diamond-dismiss","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M2.95 14.3a3.25 3.25 0 0 1 0-4.6L9.7 2.95a3.25 3.25 0 0 1 4.6 0l6.75 6.75a3.25 3.25 0 0 1 0 4.6l-6.75 6.75a3.25 3.25 0 0 1-4.6 0L2.95 14.3Zm6.83-5.58a.75.75 0 0 0-1.06 1.06L10.94 12l-2.22 2.22a.75.75 0 1 0 1.06 1.06L12 13.06l2.22 2.22a.75.75 0 1 0 1.06-1.06L13.06 12l2.22-2.22a.75.75 0 0 0-1.06-1.06L12 10.94 9.78 8.72Z"}}]};
+export default content;

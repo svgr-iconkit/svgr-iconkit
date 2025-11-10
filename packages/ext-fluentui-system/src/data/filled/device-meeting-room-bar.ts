@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"device-meeting-room-bar","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M15.25 18.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5h6.5ZM15.5 4a6.5 6.5 0 0 1 0 13h-7a6.5 6.5 0 1 1 0-13h7ZM12 7.5a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM12 9a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm-6 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"}}]};
+export default content;

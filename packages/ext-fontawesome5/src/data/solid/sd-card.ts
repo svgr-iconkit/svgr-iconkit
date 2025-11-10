@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"sd-card","attrs":{"viewBox":"0 0 384 512"},"data":[{"tagName":"path","attrs":{"d":"M320 0H128L0 128v320c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zM160 160h-48V64h48v96zm80 0h-48V64h48v96zm80 0h-48V64h48v96z"}}]};
+export const content: IconSVG = {"name":"sd-card","attrs":{"viewBox":"0 0 384 512"},"data":[{"tagName":"path","attrs":{"fill":"currentColor","d":"M384 64c0-35.3-28.7-64-64-64L125.3 0C108.3 0 92 6.7 80 18.7L18.7 80C6.7 92 0 108.3 0 125.3L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-384zM160 88l0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24s24 10.7 24 24zm88 0l0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24s24 10.7 24 24zm88 0l0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24s24 10.7 24 24z"}}]};
 export default content;

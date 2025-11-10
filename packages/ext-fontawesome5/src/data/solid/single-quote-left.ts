@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"single-quote-left","attrs":{"viewBox":"0 0 192 512"},"data":[{"tagName":"path","attrs":{"fill":"currentColor","d":"M128 96c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64L0 216C0 149.7 53.7 96 120 96l8 0z"}}]};
+export default content;

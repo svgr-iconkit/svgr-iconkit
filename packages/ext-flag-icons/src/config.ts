@@ -1,7 +1,7 @@
 import { IconsMapType } from "@svgr-iconkit/core";
 import { map as wideIconsMap } from "./data/regular";
 import { IconNames, map as squareIconsMap } from "./data/square";
-export { IconNames } from "./data/square";
+export type { IconNames } from "./data/square";
 
 export type IconVariant = "regular" | "square"
 
@@ -17,7 +17,7 @@ export const map: Record<IconVariant, IconsMapType<IconNames>> = {
   "square": squareIconsMap,
 };
 
-export const iconNames = Object.freeze(Object.keys(squareIconsMap));
+export const iconNames = Object.freeze(Object.keys(squareIconsMap)) as readonly IconNames[];
 
 export const colorize = false;
 

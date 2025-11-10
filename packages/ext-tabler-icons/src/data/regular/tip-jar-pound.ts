@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"tip-jar-pound","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M17 4v1.882c0 .685 .387 1.312 1 1.618s1 .933 1 1.618v8.882a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.882c0 -.685 .387 -1.312 1 -1.618s1 -.933 1 -1.618v-1.882"}},{"tagName":"path","attrs":{"d":"M6 4h12z"}},{"tagName":"path","attrs":{"d":"M14 10h-1a2 2 0 0 0 -2 2v2c0 1.105 -.395 2 -1.5 2h4.5"}},{"tagName":"path","attrs":{"d":"M10 13h3"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"umbrella-closed","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M9 16l3 -13l3 13z"}},{"tagName":"path","attrs":{"d":"M12 16v3c0 2.667 4 2.667 4 0"}}]};
+export default content;

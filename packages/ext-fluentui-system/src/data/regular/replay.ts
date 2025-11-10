@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"replay","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12 3.5a8.48 8.48 0 0 0-6.48 3h1.73a.75.75 0 0 1 0 1.5h-3.5A.75.75 0 0 1 3 7.25v-3.5a.75.75 0 0 1 1.5 0v1.64a10 10 0 1 1-2.4 5.2.7.7 0 0 1 .7-.59c.48 0 .83.45.77.92A8.5 8.5 0 1 0 12 3.5Zm-.77 4.69A1.5 1.5 0 0 0 9 9.5v5a1.5 1.5 0 0 0 2.23 1.31l4.5-2.5a1.5 1.5 0 0 0 0-2.62l-4.5-2.5ZM10.5 9.5 15 12l-4.5 2.5v-5Z"}}]};
+export default content;

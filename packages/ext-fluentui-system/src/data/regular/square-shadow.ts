@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"square-shadow","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M13.88 2C15.6 2 17 3.4 17 5.13V7h1.88C20.6 7 22 8.4 22 10.13v8.74C22 20.6 20.6 22 18.87 22h-8.75A3.12 3.12 0 0 1 7 18.87V17H5.12A3.12 3.12 0 0 1 2 13.87V5.13C2 3.4 3.4 2 5.13 2h8.75ZM5.24 3.5c-.97 0-1.75.78-1.75 1.75v8.5c0 .97.78 1.75 1.75 1.75h8.5c.97 0 1.75-.78 1.75-1.75v-8.5c0-.97-.78-1.75-1.75-1.75h-8.5Z"}}]};
+export default content;

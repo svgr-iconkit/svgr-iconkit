@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"hotel-bed-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1100 470V20H1000V170H200V20H100V820H200V320H600V670H900C1010.455 670 1100 580.457 1100 470zM400 370C317.1575 370 250 437.155 250 520C250 602.8425 317.1575 670 400 670C482.8425 670 550 602.8425 550 520C550 437.155 482.8425 370 400 370z"}}]};
+export const content: IconSVG = {"name":"hotel-bed-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1125 470V20H1025V170H225V20H125V820H225V320H625V670H925C1035.455 670 1125 580.457 1125 470zM425 370C342.1575 370 275 437.155 275 520C275 602.8425 342.1575 670 425 670C507.8425 670 575 602.8425 575 520C575 437.155 507.8425 370 425 370z"}}]};
 export default content;

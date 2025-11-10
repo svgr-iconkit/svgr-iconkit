@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"chat-arrow-back-down","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M22 12a10 10 0 1 0-18.86 4.65l-1.11 4.29a.85.85 0 0 0 1.04 1.04l4.29-1.12a9.96 9.96 0 0 0 5.42 1.11 6.5 6.5 0 0 1 9.19-9.19L22 12Zm1 5.5a5.5 5.5 0 1 0-11 0 5.5 5.5 0 0 0 11 0Zm-6.65 2.15a.5.5 0 0 1-.7.7l-1.5-1.5a.5.5 0 0 1 0-.7l1.5-1.5a.5.5 0 0 1 .7.7l-.64.65h2.04c1.24 0 2.25-1 2.25-2.25v-.25a.5.5 0 0 1 1 0v.25c0 1.8-1.46 3.25-3.25 3.25h-2.04l.64.65Z"}}]};
+export default content;

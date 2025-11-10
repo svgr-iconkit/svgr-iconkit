@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"braintrust","attrs":{"role":"img","viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M0 12.002C0 5.372 5.374-.002 12.001-.002 18.626-.002 24 5.372 24 12.002c0 6.625-5.374 12-11.999 12h-9.98a2.01 2.01 0 0 1-2.013-2.013V12.01zm0 0"}}]};
+export default content;

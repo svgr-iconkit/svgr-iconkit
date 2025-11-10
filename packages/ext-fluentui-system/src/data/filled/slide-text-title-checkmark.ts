@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"slide-text-title-checkmark","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M4.75 4A2.75 2.75 0 0 0 2 6.75v10.5A2.75 2.75 0 0 0 4.75 20h6.75A6.5 6.5 0 0 1 22 12.81V6.75A2.75 2.75 0 0 0 19.25 4H4.75ZM7.5 8h9a1.5 1.5 0 0 1 0 3h-9a1.5 1.5 0 0 1 0-3ZM23 17.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-6.15 2.35 4-4a.5.5 0 0 0-.7-.7l-3.65 3.64-1.65-1.64a.5.5 0 0 0-.7.7l2 2c.2.2.5.2.7 0Z"}}]};
+export default content;

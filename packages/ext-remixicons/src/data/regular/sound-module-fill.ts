@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"sound-module-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1050 120V-30H950V120H850V270H1150V120H1050zM250 120V-30H150V120H50V270H350V120H250zM550 720V870H650V720H750V570H450V720H550zM550 470H650V-30H550V470zM150 370V870H250V370H150zM950 370V870H1050V370H950z"}}]};
+export const content: IconSVG = {"name":"sound-module-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1075 120V-30H975V120H875V270H1175V120H1075zM275 120V-30H175V120H75V270H375V120H275zM575 720V870H675V720H775V570H475V720H575zM575 470H675V-30H575V470zM175 370V870H275V370H175zM975 370V870H1075V370H975z"}}]};
 export default content;

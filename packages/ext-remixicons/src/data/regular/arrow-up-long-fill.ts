@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-up-long-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M575.0062499999999 -80.0049999999999L675.00125 -80.01L675.00125 599.2995L945.71125 599.2995L625.00125 920.01L304.28875 599.2995L575.00125 599.2995L575.0062499999999 -80.0049999999999z"}}]};
+export default content;

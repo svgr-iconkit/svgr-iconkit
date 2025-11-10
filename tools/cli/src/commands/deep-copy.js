@@ -1,21 +1,9 @@
-import svgr from "@svgr/core";
+import cliProgress from "cli-progress";
 import FS from "fs";
 import Path from "path";
-import ChildProcess from "child_process";
-import cliProgress from "cli-progress";
-import { camelCase } from '@svgr-iconkit/common-utils'
 import {
-  readFile,
-  writeFile,
-  getCamelIconName,
-  resolvePackagePath,
+  resolvePackagePath
 } from "../utils";
-import {
-  createIconsMapTs,
-  createDefaultExportJs,
-  createIndexContent,
-  createExportAllJs,
-} from "../templates";
 
 const commandName = "deep-copy";
 

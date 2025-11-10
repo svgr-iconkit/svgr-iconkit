@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"pentagon-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M600.0020000000001 931.047625L1137.347 540.6423750000001L932.0969999999998 -91.047625H267.9010000000001L62.653 540.6423750000001L600.0020000000001 931.047625z"}}]};
+export const content: IconSVG = {"name":"pentagon-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M625.0020000000001 931.047625L1162.347 540.6423750000001L957.0969999999998 -91.047625H292.9010000000001L87.653 540.6423750000001L625.0020000000001 931.047625z"}}]};
 export default content;

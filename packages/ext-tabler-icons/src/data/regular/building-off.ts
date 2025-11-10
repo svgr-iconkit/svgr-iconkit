@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"building-off","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M3 21h18"}},{"tagName":"path","attrs":{"d":"M9 12h1"}},{"tagName":"path","attrs":{"d":"M9 16h1"}},{"tagName":"path","attrs":{"d":"M14 8h1"}},{"tagName":"path","attrs":{"d":"M14 16h1"}},{"tagName":"path","attrs":{"d":"M5 21v-16"}},{"tagName":"path","attrs":{"d":"M7 3h10c1 0 2 1 2 2v10"}},{"tagName":"path","attrs":{"d":"M19 19v2"}},{"tagName":"path","attrs":{"d":"M3 3l18 18"}}]};
+export default content;

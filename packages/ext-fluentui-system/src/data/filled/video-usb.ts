@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"video-usb","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M3 7.25C3 5.45 4.46 4 6.25 4h6.5C14.55 4 16 5.46 16 7.25v7.5c0 1.8-1.46 3.25-3.25 3.25H8.37l.3-.45a2 2 0 0 0 .33-1.1V13a2 2 0 0 0-1-1.73V10a2 2 0 0 0-2-2H3v-.75Zm17.26 9.44L17 14.44V7.56l3.26-2.25c1.16-.8 2.74.03 2.74 1.44v8.5a1.75 1.75 0 0 1-2.74 1.44ZM2.5 19l-1.34-2.04A1 1 0 0 1 1 16.4V13a1 1 0 0 1 1-1v-2a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v2a1 1 0 0 1 1 1v3.44a1 1 0 0 1-.17.55L6.5 19v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2Zm3-8.5h-2V12h2v-1.5Z"}}]};
+export default content;

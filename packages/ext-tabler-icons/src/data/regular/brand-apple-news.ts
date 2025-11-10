@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"brand-apple-news","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M4 14l6 6h-6z"}},{"tagName":"path","attrs":{"d":"M20 10l-6 -6h6z"}},{"tagName":"path","attrs":{"d":"M4 4v4l12 12h4v-4l-12 -12z"}}]};
+export default content;

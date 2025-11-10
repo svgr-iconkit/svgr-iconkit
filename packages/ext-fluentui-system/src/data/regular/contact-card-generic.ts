@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"contact-card-generic","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M19.75 4C20.99 4 22 5 22 6.25v11.5c0 1.24-1 2.25-2.25 2.25H4.25C3.01 20 2 19 2 17.75V6.25C2 5.01 3 4 4.25 4h15.5ZM4.25 5.5a.75.75 0 0 0-.75.75v11.5c0 .41.34.75.75.75h15.5c.41 0 .75-.34.75-.75V6.25a.75.75 0 0 0-.75-.75H4.25ZM8 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm9.75 4a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5h4.5ZM8 10.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm9.75-1a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5h4.5Z"}}]};
+export default content;

@@ -32,6 +32,6 @@ _iconNames = _iconNames.concat(
   outlinedIconsNames.filter((name) => !_iconNames.includes(name))
 );
 
-export const iconNames = Object.freeze(_iconNames);
+export const iconNames = Object.freeze(_iconNames) as readonly IconNames[];
 
 export const colorize = true;

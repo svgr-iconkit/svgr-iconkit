@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"video-multiple","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7.75 5A3.25 3.25 0 0 0 4.5 8.25v5.5c0 1.8 1.46 3.25 3.25 3.25h5c1.8 0 3.25-1.46 3.25-3.25v-5.5C16 6.45 14.54 5 12.75 5h-5ZM3.51 8l-.01.25v5.5C3.5 16.1 5.4 18 7.75 18h5.24c-.57.9-1.59 1.5-2.74 1.5h-2.5A5.75 5.75 0 0 1 2 13.75v-3c0-1.15.6-2.17 1.5-2.74ZM22 7.76c0-1.41-1.6-2.24-2.76-1.43L17 7.89v6.22l2.25 1.57A1.75 1.75 0 0 0 22 14.25v-6.5Z"}}]};
+export default content;

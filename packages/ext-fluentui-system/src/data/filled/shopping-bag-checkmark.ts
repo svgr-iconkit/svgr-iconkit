@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"shopping-bag-checkmark","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7 5v2H5.5C4.67 7 4 7.67 4 8.5V18a4 4 0 0 0 4 4h4.81a6.48 6.48 0 0 1 .19-9.19V5a3 3 0 0 0-.16-.96A1.5 1.5 0 0 1 15.5 5v2h-1v4.73a6.47 6.47 0 0 1 5.5-.23v-3c0-.83-.67-1.5-1.5-1.5H17V5a3 3 0 0 0-5-2.24A3 3 0 0 0 7 5Zm1.5 0a1.5 1.5 0 1 1 3 0v2h-3V5ZM23 17.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-2.15-2.35a.5.5 0 0 0-.7 0l-3.65 3.64-1.65-1.64a.5.5 0 0 0-.7.7l2 2c.2.2.5.2.7 0l4-4a.5.5 0 0 0 0-.7Z"}}]};
+export default content;

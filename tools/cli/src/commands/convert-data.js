@@ -1,17 +1,14 @@
-import svgr from "@svgr/core";
+import { convertSvgData } from "@svgr-iconkit/build-utils";
+import { paramCase } from '@svgr-iconkit/common-utils';
+import cliProgress from "cli-progress";
 import FS from "fs";
 import Path from "path";
-import ChildProcess from "child_process";
-import cliProgress from "cli-progress";
-import { convertSvgData } from "@svgr-iconkit/build-utils";
-import { camelCase, paramCase } from '@svgr-iconkit/common-utils'
-import {
-  fileOptions,
-  readFile,
-  writeFile,
-  resolvePackagePath,
-} from "../utils";
 import { createIconsImportMapTs, createIconsMapTs } from "../templates";
+import {
+  readFile,
+  resolvePackagePath,
+  writeFile
+} from "../utils";
 
 const commandName = "convert-data";
 

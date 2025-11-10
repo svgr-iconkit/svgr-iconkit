@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"hourglass-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M200 920H1000V697.003L676.83 420L1000 142.995V-80H200V142.995L523.17 420L200 697.003V920zM600 485.855L900 742.9965V820H300V742.9965L600 485.855zM600 354.145L300 97.005V20H900V97.005L600 354.145z"}}]};
+export const content: IconSVG = {"name":"hourglass-2-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M225 920H1025V697.003L701.83 420L1025 142.995V-80H225V142.995L548.17 420L225 697.003V920zM625 485.855L925 742.9965V820H325V742.9965L625 485.855zM625 354.145L325 97.005V20H925V97.005L625 354.145z"}}]};
 export default content;

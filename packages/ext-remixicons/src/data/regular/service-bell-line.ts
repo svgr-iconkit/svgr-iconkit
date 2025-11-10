@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"service-bell-line","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M775 845H475V745H575V692.531C322.334 667.4449999999999 125 454.265 125 195V145H1125V195C1125 454.265 927.665 667.4449999999999 675 692.531V745H775V845zM625 595C828.98 595 997.3 442.3150000000001 1021.905 245H228.0945C252.6995 442.3150000000001 421.019 595 625 595zM1175 -5V95H75V-5H1175z"}}]};
+export default content;

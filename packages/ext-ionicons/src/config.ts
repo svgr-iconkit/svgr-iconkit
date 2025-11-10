@@ -2,7 +2,7 @@ import { IconsMapType } from "@svgr-iconkit/core";
 import { map as sharpIconsMap } from "./data/sharp";
 import { IconNames, map as regularIconsMap } from "./data/regular";
 import { map as outlineIconsMap } from "./data/outline";
-export { IconNames } from "./data/regular";
+export type { IconNames } from "./data/regular";
 
 export const familyName: string = "Ionicons";
 
@@ -27,6 +27,6 @@ _iconNames.concat(
 );
 _iconNames.concat(sharpIconsNames.filter((name) => !_iconNames.includes(name)));
 
-export const iconNames = Object.freeze(_iconNames);
+export const iconNames = Object.freeze(_iconNames) as readonly IconNames[];
 
 export const colorize = true;

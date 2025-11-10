@@ -1,18 +1,15 @@
-import svgr from '@svgr/core'
 import { convertSvgFont } from '@svgr-iconkit/build-utils'
+import { camelCase, paramCase } from '@svgr-iconkit/common-utils'
+import svgr from '@svgr/core'
+import cliProgress from 'cli-progress'
 import FS from 'fs'
 import Path from 'path'
-import ChildProcess from 'child_process'
-import cliProgress from 'cli-progress'
-import { camelCase, paramCase } from '@svgr-iconkit/common-utils'
+import { createIconsMapTs } from '../templates'
 import {
   readFile,
-  writeFile,
-  getCamelIconName,
-  createRootIconset,
   resolvePackagePath,
+  writeFile
 } from '../utils'
-import { createIconsMapTs, createDefaultExportJs, createIndexContent, createExportAllJs } from '../templates'
 
 const commandName = 'convert-svgfont'
 

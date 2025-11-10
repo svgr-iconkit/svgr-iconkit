@@ -61,13 +61,47 @@ jobs:
           node-version: 20
           cache: 'yarn'
       
+      - name: Enable corepack
+        run: corepack enable
+      
       - name: Configure yarn
         run: |
-          yarn config set disable-self-update-check true
-          yarn config set ignore-engines true
+          yarn config set enableGlobalCache false
+          yarn config set nodeLinker node-modules
+      
+      - name: Get node_modules cache key
+        id: node-modules-cache-key
+        run: |
+          # Generate cache key based on yarn.lock
+          if [ -f "yarn.lock" ]; then
+            YARN_LOCK_HASH=$(md5sum yarn.lock | cut -d' ' -f1)
+            CACHE_KEY="yarn4-node-modules-${{ runner.os }}-$YARN_LOCK_HASH"
+          else
+            # Fallback to package.json hash if yarn.lock doesn't exist
+            PKG_HASH=$(find . -name "package.json" -type f -exec md5sum {} \; | sort | md5sum | cut -d' ' -f1)
+            CACHE_KEY="yarn4-node-modules-${{ runner.os }}-$PKG_HASH"
+          fi
+          echo "key=$CACHE_KEY" >> $GITHUB_OUTPUT
+          echo "Node modules cache key: $CACHE_KEY"
+      
+      - name: Restore node_modules cache
+        uses: actions/cache@v4
+        id: node-modules-cache
+        with:
+          path: |
+            node_modules
+            **/node_modules
+            .yarn/cache
+            .yarn/unplugged
+            .yarn/build-state.yml
+            .yarn/install-state.gz
+          key: ${{ steps.node-modules-cache-key.outputs.key }}
+          restore-keys: |
+            yarn4-node-modules-${{ runner.os }}-
       
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        if: steps.node-modules-cache.outputs.cache-hit != 'true'
+        run: yarn install --immutable
       
       - name: Get cache key for tools and core
         id: cache-key
@@ -142,6 +176,19 @@ jobs:
             packages/core/dist
             packages/core/native
           key: ${{ steps.cache-key.outputs.key }}
+      
+      - name: Save node_modules cache
+        if: steps.node-modules-cache.outputs.cache-hit != 'true'
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+            **/node_modules
+            .yarn/cache
+            .yarn/unplugged
+            .yarn/build-state.yml
+            .yarn/install-state.gz
+          key: ${{ steps.node-modules-cache-key.outputs.key }}
 
   build-changed-packages:
     needs: [detect-changed-packages, build-tools-and-core]
@@ -159,13 +206,54 @@ jobs:
           node-version: 20
           cache: 'yarn'
       
+      - name: Enable corepack
+        run: corepack enable
+      
       - name: Configure yarn
         run: |
-          yarn config set disable-self-update-check true
-          yarn config set ignore-engines true
+          yarn config set enableGlobalCache false
+          yarn config set nodeLinker node-modules
       
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Get node_modules cache key
+        id: node-modules-cache-key
+        run: |
+          # Generate cache key based on yarn.lock
+          if [ -f "yarn.lock" ]; then
+            YARN_LOCK_HASH=$(md5sum yarn.lock | cut -d' ' -f1)
+            CACHE_KEY="yarn4-node-modules-${{ runner.os }}-$YARN_LOCK_HASH"
+          else
+            # Fallback to package.json hash if yarn.lock doesn't exist
+            PKG_HASH=$(find . -name "package.json" -type f -exec md5sum {} \; | sort | md5sum | cut -d' ' -f1)
+            CACHE_KEY="yarn4-node-modules-${{ runner.os }}-$PKG_HASH"
+          fi
+          echo "key=$CACHE_KEY" >> $GITHUB_OUTPUT
+      
+      - name: Restore node_modules cache
+        uses: actions/cache@v4
+        id: node-modules-cache
+        with:
+          path: |
+            node_modules
+            **/node_modules
+            .yarn/cache
+            .yarn/unplugged
+            .yarn/build-state.yml
+            .yarn/install-state.gz
+          key: ${{ steps.node-modules-cache-key.outputs.key }}
+          restore-keys: |
+            yarn4-node-modules-${{ runner.os }}-
+      
+      - name: Verify node_modules cache
+        run: |
+          if [ "${{ steps.node-modules-cache.outputs.cache-hit }}" != "true" ]; then
+            echo "ERROR: node_modules cache miss. Dependencies should have been installed in build-tools-and-core job."
+            exit 1
+          fi
+          if [ ! -d "node_modules" ]; then
+            echo "ERROR: node_modules directory not found after cache restore."
+            exit 1
+          fi
+          echo "node_modules cache restored successfully"
       
       - name: Get cache key for tools and core
         id: cache-key

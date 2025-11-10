@@ -1,21 +1,18 @@
+import { camelCase } from '@svgr-iconkit/common-utils';
 import svgr from "@svgr/core";
-import FS from "fs";
-import Path from "path";
 import ChildProcess from "child_process";
 import cliProgress from "cli-progress";
-import { camelCase, paramCase } from '@svgr-iconkit/common-utils'
+import FS from "fs";
+import Path from "path";
 import {
-  readFile,
-  writeFile,
-  getCamelIconName,
-  createRootIconset,
-} from "../utils";
-import {
-  createIconsMapTs,
-  createDefaultExportJs,
-  createIndexContent,
   createExportAllJs,
+  createIconsMapTs
 } from "../templates";
+import {
+  createRootIconset,
+  readFile,
+  writeFile
+} from "../utils";
 
 const commandName = "transform";
 

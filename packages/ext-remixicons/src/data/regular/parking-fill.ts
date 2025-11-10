@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"parking-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M275 870H625C790.6850000000001 870 925 735.6855 925 570C925 404.315 790.6850000000001 270 625 270H475V-30H275V870zM475 670V470H625C680.23 470 725 514.77 725 570C725 625.2284999999999 680.23 670 625 670H475z"}}]};
+export const content: IconSVG = {"name":"parking-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M300 870H650C815.6850000000001 870 950 735.6855 950 570C950 404.315 815.6850000000001 270 650 270H500V-30H300V870zM500 670V470H650C705.23 470 750 514.77 750 570C750 625.2284999999999 705.23 670 650 670H500z"}}]};
 export default content;

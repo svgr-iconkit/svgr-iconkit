@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"poker-hearts-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M125 607.13C125 759.0085 248.1215000000001 882.13 400 882.13C493.008 882.13 575.23 835.9575 625 765.284C674.77 835.9575 756.99 882.13 850 882.13C1001.8800000000002 882.13 1125 759.0085 1125 607.13C1125 232.13 624.995 -42.13 624.995 -42.13C624.995 -42.13 125 232.13 125 607.13z"}}]};
+export default content;

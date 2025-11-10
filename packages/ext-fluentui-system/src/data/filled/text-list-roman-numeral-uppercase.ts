@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"text-list-roman-numeral-uppercase","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6 2.75a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0v-4.5ZM10 5a1 1 0 0 0 0 2h9a1 1 0 1 0 0-2h-9Zm0 6.5a1 1 0 1 0 0 2h9a1 1 0 1 0 0-2h-9Zm0 6.5a1 1 0 1 0 0 2h9a1 1 0 1 0 0-2h-9ZM5.25 9c.41 0 .75.34.75.75v4.5a.75.75 0 0 1-1.5 0v-4.5c0-.41.34-.75.75-.75ZM6 16.75a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0v-4.5Z"}}]};
+export default content;

@@ -18,3 +18,7 @@ package-lock.json
 yarn.lock
 
 !/yarn.lock
+
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/cache

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"yin-yang","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"path","attrs":{"d":"M256 64c53 0 96 43 96 96s-43 96-96 96s-96 43-96 96s43 96 96 96C150 448 64 362 64 256S150 64 256 64zm0 448A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm32-352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"}}]};
+export const content: IconSVG = {"name":"yin-yang","attrs":{"viewBox":"0 0 512 512"},"data":[{"tagName":"path","attrs":{"fill":"currentColor","d":"M224 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 352a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm0-448c53 0 96 43 96 96s-43 96-96 96-96 43-96 96 43 96 96 96C150 448 64 362 64 256S150 64 256 64zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"}}]};
 export default content;

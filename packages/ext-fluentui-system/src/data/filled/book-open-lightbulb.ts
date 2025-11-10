@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"book-open-lightbulb","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"m20.9 21-.16.8a1.5 1.5 0 0 1-1.47 1.2h-.54a1.5 1.5 0 0 1-1.47-1.2l-.16-.8h3.8ZM10 4c.77 0 1.47.29 2 .76A2.99 2.99 0 0 1 14 4h6a2 2 0 0 1 2 2v6a4.98 4.98 0 0 0-2-.9V6h-6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h.42c.32.74.82 1.39 1.44 1.89l.02.11H14c-.77 0-1.47-.29-2-.76-.53.47-1.23.76-2 .76H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h6Zm9 8a4 4 0 0 1 2.24 7.32l-.14.68h-4.2l-.14-.68A4 4 0 0 1 19 12ZM4 18h6a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H4v12Z"}}]};
+export default content;

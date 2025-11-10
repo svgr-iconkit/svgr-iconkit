@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"slide-play","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M2 6.75A2.75 2.75 0 0 1 4.75 4h14.5A2.75 2.75 0 0 1 22 6.75v6.06A6.5 6.5 0 0 0 11.5 20H4.75A2.75 2.75 0 0 1 2 17.25V6.75ZM23 17.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-7 2c0 .4.44.64.78.42l3-2a.5.5 0 0 0 0-.84l-3-2a.5.5 0 0 0-.78.42v4Z"}}]};
+export default content;

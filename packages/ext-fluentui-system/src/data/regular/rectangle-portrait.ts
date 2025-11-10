@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"rectangle-portrait","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M7.25 22A3.25 3.25 0 0 1 4 18.75V5.25C4 3.45 5.46 2 7.25 2h9.5C18.55 2 20 3.46 20 5.25v13.5c0 1.8-1.46 3.25-3.25 3.25h-9.5ZM5.5 18.75c0 .97.78 1.75 1.75 1.75h9.5c.97 0 1.75-.78 1.75-1.75V5.25c0-.97-.78-1.75-1.75-1.75h-9.5c-.97 0-1.75.78-1.75 1.75v13.5Z"}}]};
+export default content;

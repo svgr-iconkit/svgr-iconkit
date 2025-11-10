@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"edit-lock","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M15.9 3.05a3.58 3.58 0 1 1 5.05 5.06l-.89.9L15 3.93l.9-.9ZM13.93 5l-10 10c-.4.4-.7.92-.82 1.48l-1.1 4.6a.75.75 0 0 0 .9.9l4.6-1.1A3.1 3.1 0 0 0 9 20.07l3-3V15.5a2.5 2.5 0 0 1 2-2.45V13a3.5 3.5 0 0 1 4.62-3.32L13.94 5ZM15 14v-1a2.5 2.5 0 0 1 5 0v1h.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-6a1.5 1.5 0 0 1-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5h.5Zm1.5-1v1h2v-1a1 1 0 1 0-2 0Zm2 5a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"}}]};
+export default content;

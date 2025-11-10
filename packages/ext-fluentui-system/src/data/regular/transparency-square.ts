@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"transparency-square","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.25 3A3.25 3.25 0 0 0 3 6.25v11.5C3 19.55 4.46 21 6.25 21h11.5c1.8 0 3.25-1.46 3.25-3.25V6.25C21 4.45 19.54 3 17.75 3H6.25ZM4.5 6.25c0-.97.78-1.75 1.75-1.75H8V8H4.5V6.25Zm0 5.75H8V8h4V4.5h4V8h3.5v4H16v4h3.5v1.75c0 .97-.78 1.75-1.75 1.75H16V16h-4v3.5H8V16H4.5v-4Zm7.5 0V8h4v4h-4Zm0 0H8v4h4v-4Z"}}]};
+export default content;

@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"houzz","attrs":{"viewBox":"0 0 448 512"},"data":[{"tagName":"path","attrs":{"d":"M275.9 330.7H171.3V480H17V32h109.5v104.5l305.1 85.6V480H275.9z"}}]};
+export const content: IconSVG = {"name":"houzz","attrs":{"viewBox":"0 0 448 512"},"data":[{"tagName":"path","attrs":{"fill":"currentColor","d":"M276 330.7l-104.6 0 0 149.3-154.3 0 0-448 109.5 0 0 104.5 305.1 85.6 0 257.9-155.7 0 0-149.3z"}}]};
 export default content;

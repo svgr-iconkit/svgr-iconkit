@@ -111,3 +111,36 @@ export function showDebugWarning(...rest: any[]) {
   // }
   console.warn.apply(console, rest)
 }
+
+
+export function getNamespaceName<IconNames extends string, IconVariant extends string>(props: IconCoreProps<IconNames, IconVariant>) {
+  const { namespaceName, familyName, variant, defaultVariant, name, content } = props
+    if (namespaceName) {
+      return namespaceName
+    }
+
+    if (familyName) {
+      if (variant) {
+        if (name) {
+          return `sik-${familyName}-${variant}-${name}`
+        }
+        return `sik-${familyName}-${variant}`
+      }
+      if (defaultVariant) {
+        if (name) {
+          return `sik-${familyName}-${defaultVariant}-${name}`
+        }
+        return `sik-${familyName}-${defaultVariant}`
+      }
+      if (name) {
+        return `sik-${familyName}-${name}`
+      }
+      return `sik-${familyName}`
+    }
+
+    if ( content  && content.name) {
+      return `sik-${content.name}`
+    }
+
+    return `sik-${createRandomId()}`
+}

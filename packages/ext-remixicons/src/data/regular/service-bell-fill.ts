@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"service-bell-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M775 845V745H675V692.531C927.665 667.4449999999999 1125 454.265 1125 195H125C125 454.265 322.334 667.4449999999999 575 692.531V745H475V845H775zM1175 -5V95H75V-5H1175z"}}]};
+export default content;

@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"presence-tentative","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M11.68 0A12 12 0 0 0 0 11.68L11.68 0ZM2.39 19.2c-.75-1-1.34-2.12-1.75-3.32L15.88.64c1.2.41 2.31 1 3.3 1.75L2.4 19.2ZM23.36 8.11 8.12 23.36c-1.2-.4-2.32-1-3.31-1.75l16.8-16.8c.74 1 1.34 2.11 1.75 3.31Zm.63 4.2L12.32 24A12 12 0 0 0 24 12.33Z"}}]};
+export default content;

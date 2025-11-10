@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"gemini-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1224.99 418.825C903.135 399.415 645.58 141.85 626.17 -180H623.82C604.41 141.85 346.855 399.415 25.01 418.825V421.1750000000001C346.855 440.5850000000001 604.41 698.1405 623.82 1020H626.17C645.58 698.1405 903.135 440.5850000000001 1224.99 421.1750000000001V418.825z"}}]};
+export default content;

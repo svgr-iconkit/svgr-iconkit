@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"notification-snooze-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M1125 195H1025V545C1025 765.914 845.915 945 625 945C404.086 945 225 765.914 225 545V195H125V95H1125V195zM775 -105V-5H475V-105H775zM475 595V695H775V574.2895L595.7099999999999 395H775V295H475V415.7099999999999L654.2900000000001 595H475z"}}]};
+export default content;

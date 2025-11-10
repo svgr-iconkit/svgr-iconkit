@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"arrow-exit","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M6.5 3A3.5 3.5 0 0 0 3 6.5v11A3.5 3.5 0 0 0 6.5 21H15a1 1 0 1 0 0-2H6.5A1.5 1.5 0 0 1 5 17.5v-11C5 5.67 5.67 5 6.5 5H15a1 1 0 1 0 0-2H6.5Zm11.2 4.3a1 1 0 1 0-1.4 1.4l2.29 2.3H9a1 1 0 1 0 0 2h9.59l-2.3 2.3a1 1 0 0 0 1.42 1.4l4-4a1 1 0 0 0 0-1.4l-4-4Z"}}]};
+export default content;

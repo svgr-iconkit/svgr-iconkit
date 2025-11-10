@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"math-x-floor-divide-y","attrs":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},"data":[{"tagName":"path","attrs":{"stroke":"none","d":"M0 0h24v24H0z","fill":"none"}},{"tagName":"path","attrs":{"d":"M1.5 19l18 -18"}},{"tagName":"path","attrs":{"d":"M4.5 22l18 -18"}},{"tagName":"path","attrs":{"d":"M18 15l3 4"}},{"tagName":"path","attrs":{"d":"M23 15l-4.5 8"}},{"tagName":"path","attrs":{"d":"M1 1l6 6"}},{"tagName":"path","attrs":{"d":"M1 7l6 -6"}}]};
+export default content;

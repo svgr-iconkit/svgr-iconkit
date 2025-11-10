@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"clock-warning","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M5.16 12.83a1.5 1.5 0 0 1 2.69 0l4 8c.5 1-.23 2.17-1.35 2.17h-8a1.5 1.5 0 0 1-1.34-2.17l4-8ZM12 2a10 10 0 0 1 .96 19.95c.1-.48.04-1-.19-1.49a8.5 8.5 0 1 0-9.12-6.85l-.98 1.98A10 10 0 0 1 12 2ZM6.5 20a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1Zm0-5a.5.5 0 0 0-.5.5v3a.5.5 0 1 0 1 0v-3a.5.5 0 0 0-.5-.5Zm4.75-9c.38 0 .7.28.74.65l.01.1V12h3.25a.75.75 0 0 1 .1 1.5h-4.1a.75.75 0 0 1-.74-.65l-.01-.1v-6c0-.41.34-.75.75-.75Z"}}]};
+export default content;

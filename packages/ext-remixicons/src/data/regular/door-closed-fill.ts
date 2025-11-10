@@ -1,3 +1,3 @@
 import { IconSVG } from "@svgr-iconkit/core";
-export const content: IconSVG = {"name":"door-closed-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M150.00125 -30V70H250.00125V820C250.00125 847.614 272.38675 870 300.0012500000001 870H899.9987500000001C927.61375 870 949.99875 847.614 949.99875 820V70H1049.99875V-30H150.00125zM749.99875 470H649.99875V370H749.99875V470z"}}]};
+export const content: IconSVG = {"name":"door-closed-fill","attrs":{"viewBox":"0 0 1200 1200"},"data":[{"tagName":"path","attrs":{"transform":"translate(0, 1380.00) scale(1, -1)","d":"M175.00125 -30V70H275.00125V820C275.00125 847.614 297.38675 870 325.0012500000001 870H924.99875C952.61375 870 974.99875 847.614 974.99875 820V70H1074.99875V-30H175.00125zM774.99875 470H674.99875V370H774.99875V470z"}}]};
 export default content;

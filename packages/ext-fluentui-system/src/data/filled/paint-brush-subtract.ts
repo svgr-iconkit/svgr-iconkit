@@ -1,0 +1,3 @@
+import { IconSVG } from "@svgr-iconkit/core";
+export const content: IconSVG = {"name":"paint-brush-subtract","attrs":{"viewBox":"0 0 24 24"},"data":[{"tagName":"path","attrs":{"d":"M12.5 5.25V2H5.75a.75.75 0 0 0-.75.75V11h14V2.75a.75.75 0 0 0-.75-.75H16.5v4.25a.75.75 0 0 1-1.5 0V2h-1v3.25a.75.75 0 0 1-1.5 0ZM11 17.5c0-2.01.91-3.8 2.35-5H5v1.75c0 1.24 1 2.25 2.25 2.25H9.5v3a2.5 2.5 0 0 0 3.21 2.4A6.48 6.48 0 0 1 11 17.5Zm6.5-5.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm3 6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0 0 1h6Z"}}]};
+export default content;
