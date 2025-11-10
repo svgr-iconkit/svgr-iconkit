@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0-beta.1](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.4.1...v0.5.0-beta.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* update package.json exports setting ([791eb56](https://github.com/svgr-iconkit/svgr-iconkit/commit/791eb567c5dd16445cc9a298a551df817edb2ea3))
+
+
+
+
+
 # 0.5.0-beta.0 (2025-11-09)
 
 **Note:** Version bump only for package @svgr-iconkit/build-utils

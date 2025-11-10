@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0-beta.1](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.4.1...v0.5.0-beta.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* after update from version change. ([f15c277](https://github.com/svgr-iconkit/svgr-iconkit/commit/f15c277e4cf4a5485a10b274bdf6e65f06844bad))
+* correct author email :) ([9897e1d](https://github.com/svgr-iconkit/svgr-iconkit/commit/9897e1d7d4fec83f8e1a2a969e551ac078313ada))
+* export setting ([458c3b1](https://github.com/svgr-iconkit/svgr-iconkit/commit/458c3b18802e6193ea8e01cc695be1f0c9ff346c))
+* export setting ([be0d919](https://github.com/svgr-iconkit/svgr-iconkit/commit/be0d919fbcc560942b79cd99e7aae59e8297f013))
+* package.json issue ([4470e65](https://github.com/svgr-iconkit/svgr-iconkit/commit/4470e652134ec2781475abe4174e5501649d5d28))
+* package.json issue ([8b414d7](https://github.com/svgr-iconkit/svgr-iconkit/commit/8b414d713834820b1a19f4aa14a7086cd5358a1f))
+* pipeline actions upgrade ([fd9ddd3](https://github.com/svgr-iconkit/svgr-iconkit/commit/fd9ddd3af43ca715e838bae5b58baae05aad9199))
+* update package.json exports setting ([791eb56](https://github.com/svgr-iconkit/svgr-iconkit/commit/791eb567c5dd16445cc9a298a551df817edb2ea3))
+
+
+### Features
+
+* enable example projects ([b5073b0](https://github.com/svgr-iconkit/svgr-iconkit/commit/b5073b0bd32cd2fee2cda43029c3fb41858d6751))
+* enablign upgraded version of react ([a3283db](https://github.com/svgr-iconkit/svgr-iconkit/commit/a3283dbdfe824b7e76b1efb9edb43099499a9293))
+* new icon ([3a4bc5a](https://github.com/svgr-iconkit/svgr-iconkit/commit/3a4bc5af1209f4ba895d4837a4131ca108539e9d))
+* new structure of data format ([0027587](https://github.com/svgr-iconkit/svgr-iconkit/commit/00275870af787225d45ff761389b871ce6dd65f7))
+* update build test ([c70f148](https://github.com/svgr-iconkit/svgr-iconkit/commit/c70f1488f600080df0e403cba6745bea5218185f))
+* update build test ([96f0dc6](https://github.com/svgr-iconkit/svgr-iconkit/commit/96f0dc6c4b02171fe4af729a8b70c6fc1f3fcebb))
+
+
+
+
+
 # 0.5.0-beta.0 (2025-11-09)
 
 **Note:** Version bump only for package svgr-iconkit

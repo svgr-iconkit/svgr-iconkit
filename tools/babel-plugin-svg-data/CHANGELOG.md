@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0-beta.1](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.4.1...v0.5.0-beta.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* correct author email :) ([9897e1d](https://github.com/svgr-iconkit/svgr-iconkit/commit/9897e1d7d4fec83f8e1a2a969e551ac078313ada))
+* package.json issue ([8b414d7](https://github.com/svgr-iconkit/svgr-iconkit/commit/8b414d713834820b1a19f4aa14a7086cd5358a1f))
+
+
+### Features
+
+* new icon ([3a4bc5a](https://github.com/svgr-iconkit/svgr-iconkit/commit/3a4bc5af1209f4ba895d4837a4131ca108539e9d))
+* new structure of data format ([0027587](https://github.com/svgr-iconkit/svgr-iconkit/commit/00275870af787225d45ff761389b871ce6dd65f7))
+
+
+
+
+
 # 0.5.0-beta.0 (2025-11-09)
 
 **Note:** Version bump only for package @svgr-iconkit/babel-plugin-svg-data

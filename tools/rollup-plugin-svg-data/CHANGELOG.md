@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0-beta.1](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.4.1...v0.5.0-beta.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* package.json issue ([8b414d7](https://github.com/svgr-iconkit/svgr-iconkit/commit/8b414d713834820b1a19f4aa14a7086cd5358a1f))
+
+
+
+
+
 # 0.5.0-beta.0 (2025-11-09)
 
 **Note:** Version bump only for package @svgr-iconkit/rollup-plugin-svg-data

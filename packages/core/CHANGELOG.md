@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0-beta.1](https://github.com/svgr-iconkit/svgr-iconkit/compare/v0.4.1...v0.5.0-beta.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* update package.json exports setting ([791eb56](https://github.com/svgr-iconkit/svgr-iconkit/commit/791eb567c5dd16445cc9a298a551df817edb2ea3))
+
+
+### Features
+
+* enablign upgraded version of react ([a3283db](https://github.com/svgr-iconkit/svgr-iconkit/commit/a3283dbdfe824b7e76b1efb9edb43099499a9293))
+* new structure of data format ([0027587](https://github.com/svgr-iconkit/svgr-iconkit/commit/00275870af787225d45ff761389b871ce6dd65f7))
+
+
+
+
+
 # 0.5.0-beta.0 (2025-11-09)
 
 **Note:** Version bump only for package @svgr-iconkit/core
