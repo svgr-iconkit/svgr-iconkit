@@ -132,7 +132,8 @@ jobs:
       - name: Bump version to all
         if: github.event.inputs.cbPackage == 'all' && github.event.inputs.cbVersionChange != 'no'
         run: |
-          yarn version:beta --yes --no-push
+          yarn version --yes --no-push
+          yarn install
           git status
           git add ./
       - name: Bump version to target package
@@ -145,6 +146,7 @@ jobs:
           echo "Package version changed." >> $GITHUB_STEP_SUMMARY
           echo "Old version: $OLD_VERSION" >> $GITHUB_STEP_SUMMARY
           echo "New version: $NEW_VERSION" >> $GITHUB_STEP_SUMMARY
+          yarn install
           git status
           git add ./
       - name: Build all

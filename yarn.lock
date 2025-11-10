@@ -3915,9 +3915,9 @@ __metadata:
   resolution: "@svgr-iconkit/ant-design@workspace:packages/ext-ant-design"
   dependencies:
     "@ant-design/icons-svg": "npm:^4.4.2"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -3941,7 +3941,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.14.3"
     "@babel/preset-env": "npm:^7.14.4"
-    "@svgr-iconkit/build-utils": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-utils": "npm:^0.5.0-beta.1"
     rollup: "npm:^4.53.1"
     rollup-pluginutils: "npm:^2.8.2"
   languageName: unknown
@@ -3951,9 +3951,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/bootstrap@workspace:packages/ext-bootstrap"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     bootstrap-icons: "npm:^1.13.1"
     npm-run-all: "npm:^4.1.5"
@@ -3972,7 +3972,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@svgr-iconkit/build-config@npm:^0.5.0-beta.0, @svgr-iconkit/build-config@workspace:tools/build-config":
+"@svgr-iconkit/build-config@npm:^0.5.0-beta.1, @svgr-iconkit/build-config@workspace:tools/build-config":
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/build-config@workspace:tools/build-config"
   dependencies:
@@ -4001,7 +4001,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@svgr-iconkit/build-utils@npm:^0.5.0-beta.0, @svgr-iconkit/build-utils@workspace:tools/build-utils":
+"@svgr-iconkit/build-utils@npm:^0.5.0-beta.1, @svgr-iconkit/build-utils@workspace:tools/build-utils":
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/build-utils@workspace:tools/build-utils"
   dependencies:
@@ -4015,14 +4015,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@svgr-iconkit/cli@npm:^0.5.0-beta.0, @svgr-iconkit/cli@workspace:tools/cli":
+"@svgr-iconkit/cli@npm:^0.5.0-beta.1, @svgr-iconkit/cli@workspace:tools/cli":
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/cli@workspace:tools/cli"
   dependencies:
     "@babel/cli": "npm:^7.14.3"
     "@babel/core": "npm:^7.14.3"
     "@babel/preset-env": "npm:^7.14.4"
-    "@svgr-iconkit/build-utils": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-utils": "npm:^0.5.0-beta.1"
     "@svgr/cli": "npm:^8.1.0"
     "@svgr/core": "npm:^8.1.0"
     "@svgr/plugin-svgo": "npm:^8.1.0"
@@ -4036,7 +4036,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@svgr-iconkit/common-utils@npm:^0.5.0-beta.0, @svgr-iconkit/common-utils@workspace:tools/common-utils":
+"@svgr-iconkit/common-utils@npm:^0.5.0-beta.1, @svgr-iconkit/common-utils@workspace:tools/common-utils":
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/common-utils@workspace:tools/common-utils"
   dependencies:
@@ -4044,7 +4044,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@svgr-iconkit/core@npm:^0.5.0-beta.0, @svgr-iconkit/core@workspace:packages/core":
+"@svgr-iconkit/core@npm:^0.5.0-beta.1, @svgr-iconkit/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/core@workspace:packages/core"
   dependencies:
@@ -4057,9 +4057,9 @@ __metadata:
     "@rollup/plugin-json": "npm:^4.1.0"
     "@rollup/plugin-node-resolve": "npm:^13.0.0"
     "@rollup/plugin-terser": "npm:^0.2.0"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/common-utils": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/common-utils": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^16.11.6"
     "@types/react": "npm:^19.1.16"
     "@types/react-native": "npm:^0.61.0"
@@ -4092,9 +4092,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/css-gg@workspace:packages/ext-css-gg"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     css.gg: "npm:^2.1.4"
     npm-run-all: "npm:^4.1.5"
@@ -4118,9 +4118,9 @@ __metadata:
   resolution: "@svgr-iconkit/entypo@workspace:packages/ext-entypo"
   dependencies:
     "@entypo-icons/core": "npm:^1.0.1"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4142,9 +4142,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/evil-icons@workspace:packages/ext-evil-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     evil-icons: "npm:^1.10.1"
     npm-run-all: "npm:^4.1.5"
@@ -4165,9 +4165,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/feather@workspace:packages/ext-feather"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     feather-icons: "npm:^4.29.2"
     npm-run-all: "npm:^4.1.5"
@@ -4190,9 +4190,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/flag-icons@workspace:packages/ext-flag-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     flag-icons: "npm:^7.5.0"
     npm-run-all: "npm:^4.1.5"
@@ -4215,9 +4215,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/flat-color-icons@workspace:packages/ext-flat-color-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     flat-color-icons: "npm:^1.1.0"
     npm-run-all: "npm:^4.1.5"
@@ -4241,9 +4241,9 @@ __metadata:
   resolution: "@svgr-iconkit/fluentui-system@workspace:packages/ext-fluentui-system"
   dependencies:
     "@fluentui/svg-icons": "npm:^1.1.313"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4266,9 +4266,9 @@ __metadata:
   resolution: "@svgr-iconkit/fontawesome-brands@workspace:packages/ext-fontawesome-brands"
   dependencies:
     "@fortawesome/fontawesome-free": "npm:^7.1.0"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4289,9 +4289,9 @@ __metadata:
   resolution: "@svgr-iconkit/fontawesome5-brands@workspace:packages/ext-fontawesome5-brands"
   dependencies:
     "@fortawesome/fontawesome-free": "npm:^5.15.4"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4312,9 +4312,9 @@ __metadata:
   resolution: "@svgr-iconkit/fontawesome5@workspace:packages/ext-fontawesome5"
   dependencies:
     "@fortawesome/fontawesome-free": "npm:^5.15.4"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4335,9 +4335,9 @@ __metadata:
   resolution: "@svgr-iconkit/fontawesome@workspace:packages/ext-fontawesome"
   dependencies:
     "@fortawesome/fontawesome-free": "npm:^7.1.0"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4357,9 +4357,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/fontisto@workspace:packages/ext-fontisto"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     fontisto: "git+https://github.com/kenangundogan/fontisto"
     npm-run-all: "npm:^4.1.5"
@@ -4380,9 +4380,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/foundation@workspace:packages/ext-foundation"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4421,9 +4421,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/grommet-icons@workspace:packages/ext-grommet-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     grommet-icons: "npm:^4.14.0"
     npm-run-all: "npm:^4.1.5"
@@ -4445,9 +4445,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/heroicons@workspace:packages/ext-heroicons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     heroicons: "npm:^2.2.0"
     npm-run-all: "npm:^4.1.5"
@@ -4468,9 +4468,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/ionicons@workspace:packages/ext-ionicons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     ionicons: "npm:^8.0.13"
     npm-run-all: "npm:^4.1.5"
@@ -4492,9 +4492,9 @@ __metadata:
   resolution: "@svgr-iconkit/material-community@workspace:packages/ext-material-community"
   dependencies:
     "@mdi/svg": "npm:^7.4.47"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4514,9 +4514,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/material-design@workspace:packages/ext-material-design"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4537,9 +4537,9 @@ __metadata:
   resolution: "@svgr-iconkit/octicons@workspace:packages/ext-octicons"
   dependencies:
     "@primer/octicons": "npm:^19.20.0"
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4559,9 +4559,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/primeicons@workspace:packages/ext-primeicons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     primeicons: "npm:^7.0.0"
@@ -4582,9 +4582,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/remixicon@workspace:packages/ext-remixicons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4607,7 +4607,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.14.3"
     "@babel/preset-env": "npm:^7.14.4"
-    "@svgr-iconkit/build-utils": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-utils": "npm:^0.5.0-beta.1"
     rollup-pluginutils: "npm:^2.8.2"
   languageName: unknown
   linkType: soft
@@ -4616,9 +4616,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/simple-icons@workspace:packages/ext-simple-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4639,9 +4639,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/simple-line-icons@workspace:packages/ext-simple-line-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4662,9 +4662,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/tabler-icons@workspace:packages/ext-tabler-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@tabler/icons": "npm:^3.35.0"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
@@ -4687,9 +4687,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/themify-icons@workspace:packages/ext-themify-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4711,9 +4711,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/typicons@workspace:packages/ext-typicons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4735,9 +4735,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/weather-icons@workspace:packages/ext-weather-icons"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
@@ -4759,9 +4759,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@svgr-iconkit/xnix@workspace:packages/ext-xnix"
   dependencies:
-    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/cli": "npm:^0.5.0-beta.0"
-    "@svgr-iconkit/core": "npm:^0.5.0-beta.0"
+    "@svgr-iconkit/build-config": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/cli": "npm:^0.5.0-beta.1"
+    "@svgr-iconkit/core": "npm:^0.5.0-beta.1"
     "@types/node": "npm:^15.6.1"
     npm-run-all: "npm:^4.1.5"
     react: "npm:^19.1.1"
