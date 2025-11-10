@@ -152,7 +152,7 @@ jobs:
       - name: Build all
         if: github.event.inputs.cbPackage == 'all'
         run: |
-          yarn run build
+          yarn run lerna:build
       - name: Build to target package
         if: github.event.inputs.cbPackage != 'all'
         working-directory: ${{ github.event.inputs.cbPackage }}
