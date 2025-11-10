@@ -22,8 +22,8 @@
   ],
   "scripts": {
     "lerna": "lerna",
-    "version:alpha": "npx lerna version --conventional-commits --preid 'alpha' -m 'release: bump alpha version %v'",
-    "version:beta": "npx lerna version --conventional-commits --preid 'beta' -m 'release: bump beta version %v'",
+    "version:alpha": "npx lerna version --conventional-commits --no-private --preid 'alpha' -m 'release: bump alpha version %v'",
+    "version:beta": "npx lerna version --conventional-commits --no-private --preid 'beta' -m 'release: bump beta version %v'",
     "version:graduate": "npx lerna version --conventional-commits --conventional-graduate -m 'release: bump version %v'",
     "bootstrap": "lerna bootstrap --hoist",
     "lerna:iconsmap": "lerna run iconsmap --scope @svgr-iconkit/* --sort",
